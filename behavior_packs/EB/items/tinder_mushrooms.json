@@ -1,0 +1,27 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:tinder_mushrooms_item",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "tinder_mushrooms"
+			},
+			"minecraft:display_name": {
+				"value": "item.korbon:tinder_mushrooms.name"
+			},
+			"minecraft:block_placer": {
+				"block": "korbon:tinder_mushrooms"
+			}
+		},
+		"events": {}
+	}
+}

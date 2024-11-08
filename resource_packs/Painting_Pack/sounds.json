@@ -1,0 +1,46 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "fables_painting:marco1x1": {
+                "volume": 1,
+                "pitch": 1,
+                "events": {
+                    "hurt": "plop_ui",
+                    "spawn": "plop_ui"
+                }
+            },
+            "fables_painting:marco1x2": {
+                "volume": 1,
+                "pitch": 1,
+                "events": {
+                    "hurt": "plop_ui",
+                    "spawn": "plop_ui"
+                }
+            },
+            "fables_painting:marco2x1": {
+                "volume": 1,
+                "pitch": 1,
+                "events": {
+                    "hurt": "plop_ui",
+                    "spawn": "plop_ui"
+                }
+            },
+            "fables_painting:marco3x2": {
+                "volume": 1,
+                "pitch": 1,
+                "events": {
+                    "hurt": "plop_ui",
+                    "spawn": "plop_ui"
+                }
+            },
+            "fables_painting:title": {
+                "volume": 1,
+                "pitch": 1,
+                "events": {
+                    "hurt": "plop_ui",
+                    "spawn": "plop_ui"
+                }
+            }
+        }
+    }
+}

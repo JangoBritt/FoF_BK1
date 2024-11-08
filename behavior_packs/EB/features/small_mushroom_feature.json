@@ -1,0 +1,19 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "korbon:small_mushroom_feature"
+		},
+		"features": [
+			[
+				"minecraft:brown_mushroom_feature",
+				100
+			],
+			[
+				"minecraft:red_mushroom_feature",
+				100
+			]
+		]
+	}
+}

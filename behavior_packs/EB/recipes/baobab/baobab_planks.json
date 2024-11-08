@@ -1,0 +1,23 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "korbon:baobab_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "korbon:baobab_log"
+			}
+		],
+		"result": [
+			{
+				"item": "korbon:baobab_planks",
+				"count": 4
+			}
+		]
+	}
+}

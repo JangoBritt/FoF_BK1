@@ -1,0 +1,34 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "korbon:bola"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" X ",
+			"X X",
+			"# #"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:string"
+			},
+			"#": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:iron_ingot"
+			}
+		],
+		"result": {
+			"item": "korbon:bola",
+			"count": 1
+		}
+	}
+}

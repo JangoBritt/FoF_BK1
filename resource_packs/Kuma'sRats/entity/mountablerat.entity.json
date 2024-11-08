@@ -1,0 +1,51 @@
+//bridge-file-version: #59
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "kuma:mount_rat",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/mount rat/mount_rat",
+				"saddled": "textures/entity/mount rat/mount_rat_saddled",
+				"chested": "textures/entity/mount rat/mount_rat_chested"
+			},
+			"geometry": {
+				"default": "geometry.mountable_newrat"
+			},
+			"animations": {
+				"move": "controller.animation.Ratita.move",
+				"moving": "animation.MountableRat.walk",
+				"static": "controller.animation.Ratita.static",
+				"staticking": "animation.MountableRat.static",
+				"sit": "controller.animation.rata.move",
+				"sitting": "animation.MountableRat.sitting",
+				"look_at_target": "animation.common.look_at_target",
+				"sniffing": "controller.animation.newrat.sniff",
+				"sniff": "animation.RataComun.sniff",
+				"attack": "controller.animation.Ratita.attack",
+				"attacking": "animation.MountableRat.attack"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.attack = Math.sin(variable.attack_time * 30);"
+				],
+				"animate": [
+					"static",
+					"move",
+					"sit",
+					"look_at_target",
+					"attack"
+				]
+			},
+			"render_controllers": [
+				"controller.render.mount_rat"
+			],
+			"spawn_egg": {
+				"base_color": "#242424"
+			}
+		}
+	}
+}

@@ -1,0 +1,108 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.crocodile.attack": {
+			"loop": true,
+			"bones": {
+				"jaws": {
+					"rotation": ["-15+math.cos(query.anim_time * 110) * 1", 0, 0],
+					"position": [0, 0, 0.6]
+				},
+				"bottomjaw": {
+					"rotation": ["10+math.cos(query.anim_time * 110) * -1", 0, 0],
+					"position": [0, 0, 1.5]
+				}
+			}
+		},
+		"animation.crocodile.bite": {
+			"loop": true,
+			"animation_length": 0.48,
+			"override_previous_animation": true,
+			"bones": {
+				"jaws": {
+					"rotation": {
+						"0.0": {
+							"post": [-15, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.44": {
+							"post": [-15, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"bottomjaw": {
+					"rotation": {
+						"0.0": {
+							"post": [10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.44": {
+							"post": [10, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.crocodile.move": {
+			"loop": true,
+			"bones": {
+				"tail1": {
+					"rotation": [0, "0+math.cos(query.anim_time * 600) * 5", 0]
+				},
+				"tail2": {
+					"rotation": [0, "0+math.cos(query.anim_time * 600) * 10", 0],
+					"position": ["0+math.cos(query.anim_time * 600) * 1.2", 0, 0]
+				},
+				"tail3": {
+					"rotation": [0, "0+math.cos(query.anim_time * 600) * 15", 0],
+					"position": ["0+math.cos(query.anim_time * 600) * 3.5", 0, 0]
+				},
+				"tail4": {
+					"rotation": [0, "0+math.cos(query.anim_time * 600) * 20", 0],
+					"position": ["0+math.cos(query.anim_time * 600) * 7.0", 0, -1]
+				},
+				"leg1": {
+					"rotation": ["0+math.cos(query.anim_time * 600) * 40", 0, 0]
+				},
+				"leg2": {
+					"rotation": ["00+math.cos(query.anim_time * 600) * 40", 0, 0]
+				},
+				"leg3": {
+					"rotation": ["00+math.cos(query.anim_time * 600) * -40", 0, 0]
+				},
+				"leg4": {
+					"rotation": ["00+math.cos(query.anim_time * 600) * -40", 0, 0]
+				}
+			}
+		},
+		"animation.crocodile.swim": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"leg1": {
+					"rotation": ["30+math.cos(query.anim_time * 200) * 1", 0, 0]
+				},
+				"leg2": {
+					"rotation": ["-30+math.cos(query.anim_time * 200) * -1", 0, 0]
+				},
+				"leg3": {
+					"rotation": ["-30+math.cos(query.anim_time * 200) * -1", 0, 0]
+				},
+				"leg4": {
+					"rotation": ["30+math.cos(query.anim_time * 200) * 1", 0, 0]
+				}
+			}
+		}
+	}
+}

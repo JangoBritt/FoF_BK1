@@ -1,0 +1,69 @@
+//bridge-file-version: #2
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 2,
+				"max": 7
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:poisonous_potato",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 7,
+								"max": 14
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potato",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 13
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:carrot",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 6,
+								"max": 14
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:wheat",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 13
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

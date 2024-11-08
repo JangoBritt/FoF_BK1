@@ -1,0 +1,28 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:baobab_door_item",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.door"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "korbon:baobab_door"
+			},
+			"minecraft:block_placer": {
+				"block": "korbon:baobab_door"
+			},
+			"minecraft:fuel": {
+				"duration": 10
+			},
+			"minecraft:display_name": {
+				"value": "item.korbon:baobab_door.name"
+			}
+		},
+		"events": {}
+	}
+}

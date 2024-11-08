@@ -1,0 +1,13 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:mountain_dripstone_feature"
+		},
+		"features": [
+			"minecraft:dripstone_cluster_feature",
+			"minecraft:small_dripstone_feature"
+		]
+	}
+}

@@ -1,0 +1,30 @@
+//bridge-file-version: #34
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.raccoon": {
+			"arrays": {
+				"textures": {
+					"Array.base": [
+						"Texture.raccoon",
+						"Texture.raccoon_tamed",
+						"Texture.raccoon_tophat"
+					],
+					"Array.decor": [
+						"Texture.raccoon"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.base[query.variant]",
+				"Array.base[query.mark_variant]"
+			]
+		}
+	}
+}

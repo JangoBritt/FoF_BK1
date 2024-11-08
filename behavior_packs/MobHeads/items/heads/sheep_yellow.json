@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:sheep_yellow_item"
+		},
+		"components": {
+            "minecraft:icon": "fmh_sheep_yellow_item", 
+			"minecraft:entity_placer": {
+				"entity": "fmh:sheep_yellow"
+			}
+		}
+	}
+}

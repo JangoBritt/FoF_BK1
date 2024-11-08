@@ -1,0 +1,45 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fables_avatars:astronaut_suit"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XCX",
+			"NEN",
+			"ILI"
+		],
+		"key": {
+			"N": {
+				"item": "minecraft:netherite_scrap"
+			},
+			"C": {
+				"item": "minecraft:iron_chestplate"
+			},
+			"X": {
+				"item": "farmersdelight:canvas"
+			},
+			"E": {
+				"item": "fables_avatars:lifesupport_item"
+			},
+			"I": {
+				"item": "minecraft:iron_Ingot"
+			},
+			"L": {
+				"item": "minecraft:leather_leggings"
+			}
+		},
+		"unlock": [
+			{
+			  "item": "fables_misc:space_book"
+			}
+		  ],
+		"result": {
+			"item": "fables_avatars:astronaut_suit",
+			"count": 1
+		}
+	}
+}

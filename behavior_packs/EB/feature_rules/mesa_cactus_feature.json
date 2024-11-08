@@ -1,0 +1,65 @@
+//bridge-file-version: #41
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:mesa_cactus_feature",
+			"places_feature": "korbon:select_cactus_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "lakes"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "ocean"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "river"
+						},
+						{
+							"any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "mesa"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "(query.noise((variable.originx) / 200.0, (variable.originz) / 200.0) < -0.9) ? 0 : 1",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					-8,
+					8
+				]
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					-8,
+					8
+				]
+			},
+			"scatter_chance": {
+				"denominator": 10,
+				"numerator": 5
+			}
+		}
+	}
+}

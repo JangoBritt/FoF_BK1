@@ -1,0 +1,166 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:jacaranda_log",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.log"
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:block_face"
+					]
+				}
+			},
+			"states": {
+				"korbon:tool": [
+					"default",
+					"wood",
+					"stone",
+					"iron",
+					"gold",
+					"diamond",
+					"netherite"
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							90,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							90,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							-90
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							-90
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'default'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 2.5
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'wood'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.85
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'stone'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.6
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'iron'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.4
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'gold'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.2
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'diamond'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.32
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'netherite'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.28
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 2
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
+			},
+			"minecraft:custom_components": [
+				"korbon:jacaranda_log_on_interact"
+			],
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "jacaranda_log",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "jacaranda_log_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "jacaranda_log_top",
+					"render_method": "opaque"
+				}
+			},
+			"tag:k_custom_mining_speed": {},
+			"tag:k_correct_tool:axe": {}
+		},
+		"events": {}
+	}
+}

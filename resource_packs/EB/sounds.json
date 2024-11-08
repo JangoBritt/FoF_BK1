@@ -1,0 +1,587 @@
+//bridge-file-version: #135
+{
+	"entity_sounds": {
+		"entities": {
+			"korbon:mossy_skeleton": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:mossy_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:crocodile": {
+				"events": {
+					"death": {
+						"sound": "mob.crocodile.death"
+					},
+					"ambient": {
+						"sound": "mob.crocodile.say"
+					},
+					"hurt": {
+						"sound": "mob.crocodile.hurt"
+					}
+				},
+				"volume": 0.9,
+				"pitch": [
+					0.8,
+					1.2
+				]
+			},
+			"korbon:grizzly_bear": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1
+				],
+				"events": {
+					"ambient": "mob.grizzly_bear.idle",
+					"ambient.baby": "mob.grizzly_bear_baby.idle",
+					"hurt": {
+						"sound": "mob.grizzly_bear.hurt",
+						"volume": 0.7
+					},
+					"death": "mob.grizzly_bear.death",
+					"step": {
+						"sound": "mob.grizzly_bear.step",
+						"volume": 0.2,
+						"pitch": 1
+					},
+					"warn": {
+						"sound": "mob.grizzly_bear.warning",
+						"volume": 1.2,
+						"pitch": 1
+					},
+					"attack": {
+						"sound": "mob.grizzly_bear.hurt",
+						"volume": 0.7
+					}
+				}
+			},
+			"korbon:black_bear": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1
+				],
+				"events": {
+					"ambient": "mob.black_bear.idle",
+					"ambient.baby": "mob.black_bear_baby.idle",
+					"hurt": {
+						"sound": "mon.black_bear.hurt",
+						"volume": 0.7
+					},
+					"death": "mob.black_bear.death",
+					"step": {
+						"sound": "mob.black_bear.step",
+						"volume": 0.2,
+						"pitch": [
+							0.8,
+							1
+						]
+					},
+					"warn": {
+						"sound": "mob.black_bear.warning",
+						"volume": 1,
+						"pitch": 1
+					},
+					"attack": {
+						"sound": "mob.grizzly_bear.hurt",
+						"volume": 0.7
+					}
+				}
+			},
+			"korbon:vibranium_skeleton": {
+				"events": {
+					"ambient": "mob.vibranium_skeleton.say",
+					"death": "mob.vibranium_skeleton.death",
+					"hurt": {
+						"sound": "mob.vibranium_skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"volume": 1,
+						"sound": "mob.vibranium_skeleton.step"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:pillager_trapper": {
+				"events": {
+					"ambient": "mob.pillager.idle",
+					"ambient.in.raid": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.pillager.idle",
+						"volume": 3
+					},
+					"celebrate": "mob.pillager.celebrate",
+					"death": "mob.pillager.death",
+					"hurt": "mob.pillager.hurt"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:moobloom": {
+				"events": {
+					"ambient": "mob.cow.say",
+					"death": "mob.cow.hurt",
+					"hurt": "mob.cow.hurt",
+					"step": {
+						"pitch": [
+							0.9,
+							1.1
+						],
+						"sound": "mob.cow.step",
+						"volume": 0.65
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:goblin": {
+				"events": {
+					"death": {
+						"sound": "mob.goblin.death"
+					},
+					"ambient": {
+						"sound": "mob.goblin.say"
+					},
+					"hurt": {
+						"sound": "mob.goblin.hurt"
+					},
+					"mad": {
+						"sound": "mob.goblin.angry"
+					}
+				},
+				"pitch": [
+					0.6,
+					0.8
+				],
+				"volume": 1
+			},
+			"korbon:firefly": {
+				"events": {
+					"death": {
+						"sound": "mob.firefly.death"
+					},
+					"hurt": {
+						"sound": "mob.firefly.death"
+					},
+					"ambient": {
+						"sound": "mob.firefly.say"
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"korbon:raccoon": {
+				"events": {
+					"death": {
+						"sound": "mob.raccoon.death"
+					},
+					"hurt": {
+						"sound": "mob.raccoon.hurt"
+					},
+					"ambient": {
+						"sound": "mob.raccoon.say"
+					},
+					"mad": {
+						"sound": "mob.raccoon.mad"
+					},
+					"sleep": {
+						"sound": "mob.fox.sleep"
+					},
+					"eat": {
+						"sound": "mob.fox.eat"
+					}
+				},
+				"volume": 0.1,
+				"pitch": [
+					0.8,
+					1
+				]
+			},
+			"korbon:deer": {
+				"events": {
+					"death": {
+						"sound": "mob.deer.death"
+					},
+					"hurt": {
+						"sound": "mob.deer.hurt"
+					},
+					"ambient": "mob.deer.say",
+					"step": "mob.horse.soft",
+					"ambient.baby": "mob.deer_baby.say"
+				},
+				"volume": 0.6,
+				"pitch": [
+					0.8,
+					1
+				]
+			},
+			"korbon:yeti": {
+				"events": {
+					"death": {
+						"sound": "mob.yeti.death"
+					},
+					"hurt": {
+						"sound": "mob.yeti.hurt"
+					},
+					"ambient": {
+						"sound": "mob.yeti.say"
+					},
+					"step": {
+						"sound": "mob.cow.step",
+						"pitch": [
+							0.3,
+							0.6
+						]
+					},
+					"attack": {
+						"sound": "mob.yeti.attack"
+					}
+				},
+				"volume": 0.7,
+				"pitch": 0.9
+			},
+			"korbon:ghost": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.ghost.say",
+					"hurt": {
+						"sound": "mob.ghost.hurt",
+						"volume": 0.7
+					},
+					"death": "mob.ghost.death",
+					"step": {
+						"sound": "mob.empty.step",
+						"volume": 1,
+						"pitch": 1
+					}
+				}
+			},
+			"korbon:pumpkin_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:pumpkin_skeleton": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:tumbleweed": {
+				"events": {
+					"death": "step.grass",
+					"hurt": "step.grass"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:scorpion": {
+				"events": {
+					"ambient": "mob.scorpion.say",
+					"death": "mob.scorpion.death",
+					"hurt": "mob.scorpion.hurt",
+					"attack": "mob.scorpion.say",
+					"step": {
+						"pitch": [
+							0.5,
+							0.65
+						],
+						"sound": "mob.spider.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:dweller": {
+				"events": {
+					"step": {
+						"sound": "mob.zombie.step",
+						"pitch": 1.3
+					},
+					"mad": "mob.dweller.angry",
+					"death": {
+						"sound": "mob.dweller.death",
+						"volume": 0.6
+					},
+					"retreat": {
+						"sound": "mob.dweller.scared",
+						"pitch": [
+							0.8,
+							1
+						]
+					},
+					"hurt": {
+						"sound": "mob.dweller.scared",
+						"pitch": [
+							0.7,
+							0.8
+						],
+						"volume": 0.75
+					}
+				},
+				"pitch": [
+					0.8,
+					1
+				],
+				"volume": 1
+			},
+			"korbon:chimp": {
+				"events": {
+					"ambient": {
+						"sound": "mob.chimp.say"
+					},
+					"hurt": {
+						"sound": "mob.chimp.hurt",
+						"volume": 1
+					},
+					"death": {
+						"sound": "mob.chimp.death"
+					},
+					"mad": {
+						"sound": "mob.chimp.angry",
+						"volume": 0.53
+					}
+				},
+				"pitch": [
+					0.73,
+					1.2
+				],
+				"volume": 0.4
+			},
+			"korbon:lurker": {
+				"events": {
+					"step": {
+						"sound": "mob.zombie.step",
+						"pitch": 1.3
+					},
+					"mad": "mob.dweller.angry",
+					"death": {
+						"sound": "mob.dweller.death",
+						"volume": 0.6
+					},
+					"retreat": {
+						"sound": "mob.dweller.scared",
+						"pitch": [
+							0.8,
+							1
+						]
+					},
+					"hurt": {
+						"sound": "mob.dweller.scared",
+						"pitch": [
+							0.7,
+							0.8
+						],
+						"volume": 0.75
+					}
+				},
+				"pitch": [
+					0.65,
+					0.9
+				],
+				"volume": 1
+			},
+			"korbon:warthog": {
+				"events": {
+					"ambient": "mob.hoglin.ambient",
+					"angry": "mob.hoglin.angry",
+					"attack": "mob.hoglin.attack",
+					"death": "mob.hoglin.death",
+					"hurt": "mob.hoglin.hurt",
+					"retreat": "mob.hoglin.retreat",
+					"step": {
+						"pitch": 1.7,
+						"sound": "mob.hoglin.step",
+						"volume": 0.75
+					}
+				},
+				"pitch": [
+					1.6,
+					1.9
+				],
+				"volume": 1
+			},
+			"korbon:outlaw": {
+				"events": {
+					"ambient": "mob.pillager.idle",
+					"ambient.in.raid": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.pillager.idle",
+						"volume": 3
+					},
+					"celebrate": "mob.pillager.celebrate",
+					"death": "mob.pillager.death",
+					"hurt": "mob.pillager.hurt"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:horse_outlaw": {
+				"events": {
+					"add.chest": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.horse.armor",
+						"volume": 1
+					},
+					"ambient": "mob.horse.idle",
+					"armor": {
+						"pitch": 1,
+						"sound": "mob.horse.armor",
+						"volume": 0.6
+					},
+					"breathe": {
+						"pitch": 1,
+						"sound": "mob.horse.breathe",
+						"volume": 0.7
+					},
+					"death": "mob.horse.death",
+					"eat": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.horse.eat",
+						"volume": [
+							0.5,
+							1.5
+						]
+					},
+					"hurt": "mob.horse.hit",
+					"jump": {
+						"pitch": 1,
+						"sound": "mob.horse.jump",
+						"volume": 0.4
+					},
+					"land": {
+						"pitch": 1,
+						"sound": "mob.horse.land",
+						"volume": 0.4
+					},
+					"mad": "mob.horse.angry",
+					"saddle": {
+						"pitch": 1,
+						"sound": "mob.horse.leather",
+						"volume": 0.6
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 0.8
+			},
+			"korbon:thrown_bolas": {
+				"events": {
+					"ambient": "bola_thrown"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 2
+			}
+		}
+	},
+	"individual_event_sounds": {
+		"events": {
+			"record.mystical": {
+				"sound": "record.mystical",
+				"volume": 1,
+				"pitch": 1
+			}
+		}
+	}
+}

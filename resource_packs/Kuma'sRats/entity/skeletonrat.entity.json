@@ -1,0 +1,51 @@
+//bridge-file-version: #77
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "kuma:skeleton_rat",
+			"textures": {
+				"default": "textures/entity/rata comun/newrathairy_skeleton"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"geometry": {
+				"default": "geometry.newratskeleton"
+			},
+			"animations": {
+				"move": "controller.animation.Ratita.move",
+				"moving": "animation.newrat_skeleton.walk",
+				"static": "controller.animation.Ratita.static",
+				"staticking": "animation.RataComun.breath",
+				"sit": "controller.animation.rata.move",
+				"sitting": "animation.RataComun.sit",
+				"look_at_target": "animation.common.look_at_target",
+				"sniffing": "controller.animation.newrat.sniff",
+				"sniff": "animation.RataComun.sniff",
+				"attack": "controller.animation.Ratita.attack",
+				"attacking": "animation.newrat_skeleton.attack"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.attack = Math.sin(variable.attack_time * 30);"
+				],
+				"animate": [
+					"static",
+					"move",
+					"sit",
+					"look_at_target",
+					"sniffing",
+					"attack"
+				]
+			},
+			"render_controllers": [
+				"controller.render.blank"
+			],
+			"spawn_egg": {
+				"base_color": "#858585",
+				"overlay_color": "#8B8B8B"
+			}
+		}
+	}
+}

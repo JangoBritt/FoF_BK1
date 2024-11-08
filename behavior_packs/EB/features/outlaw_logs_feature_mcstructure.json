@@ -1,0 +1,71 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "korbon:outlaw_logs_feature_mcstructure"
+		},
+		"structure_name": "mystructure:outlaw_logs",
+		"adjustment_radius": 0,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+				"block_whitelist": [
+					{
+						"name": "minecraft:air"
+					},
+					{
+						"name": "minecraft:tallgrass"
+					},
+					{
+						"name": "minecraft:double_plant"
+					},
+					{
+						"name": "minecraft:leaves"
+					},
+					{
+						"name": "minecraft:leaves2"
+					},
+					{
+						"name": "minecraft:red_flower"
+					},
+					{
+						"name": "minecraft:red_flower"
+					},
+					{
+						"name": "minecraft:cactus"
+					},
+					{
+						"name": "minecraft:deadbush"
+					},
+					{
+						"name": "korbon:aloe_vera"
+					},
+					{
+						"name": "korbon:brittlebush"
+					},
+					{
+						"name": "korbon:deadfern_top"
+					},
+					{
+						"name": "korbon:deadfern_bottom"
+					},
+					{
+						"name": "korbon:small_cactus"
+					},
+					{
+						"name": "minecraft:dirt",
+						"states": {
+							"dirt_type": "coarse"
+						}
+					},
+					{
+						"name": "minecraft:grass"
+					}
+				]
+			}
+		}
+	}
+}

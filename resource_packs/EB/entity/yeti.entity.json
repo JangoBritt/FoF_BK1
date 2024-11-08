@@ -1,0 +1,71 @@
+//bridge-file-version: #29
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "korbon:yeti",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/yeti"
+			},
+			"geometry": {
+				"default": "geometry.yeti"
+			},
+			"spawn_egg": {
+				"base_color": "#D9DAD7",
+				"overlay_color": "#252525"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+				]
+			},
+			"animations": {
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+				"move": "animation.yeti.walk",
+				"holding": "animation.humanoid.holding",
+				"bob": "animation.yeti.idle",
+				"damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs",
+				"use_item_progress": "animation.humanoid.use_item_progress",
+				"swimming": "animation.zombie.swimming",
+				"attack": "animation.yeti.attack",
+				"throw": "animation.yeti.throw",
+				"look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+				"look_at_target_swimming": "animation.humanoid.look_at_target.swimming"
+			},
+			"animation_controllers": [
+				{
+					"look_at_target": "controller.animation.humanoid.look_at_target"
+				},
+				{
+					"holding": "controller.animation.humanoid.holding"
+				},
+				{
+					"damage_nearby_mobs": "controller.animation.humanoid.damage_nearby_mobs"
+				},
+				{
+					"use_item_progress": "controller.animation.humanoid.use_item_progress"
+				},
+				{
+					"move": "controller.animation.yeti.move"
+				},
+				{
+					"attack": "controller.animation.yeti.attack"
+				},
+				{
+					"throw": "controller.animation.yeti.throw"
+				},
+				{
+					"bob": "controller.animation.humanoid.bob"
+				}
+			],
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"enable_attachables": true
+		}
+	}
+}

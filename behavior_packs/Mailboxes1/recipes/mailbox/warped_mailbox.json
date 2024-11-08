@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mb:warped_mailbox"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			" # ",
+			"#C#",
+			" S "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:warped_planks"
+			},
+			"C": {
+				"item": "minecraft:chest"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "fables_misc:nether_book"}
+		],
+		"result": {
+			"item": "mb:warped_mailbox",
+			"count": 1
+		}
+	}
+}
+
+

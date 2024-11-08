@@ -1,0 +1,14 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:pendula_birch_tree_with_beehive_feature"
+		},
+		"early_out": "first_failure",
+		"features": [
+			"korbon:pendula_birch_tree_feature",
+			"minecraft:beehive_search_feature"
+		]
+	}
+}

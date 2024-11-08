@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fables_avatars:repair_astronaut_suit"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XEX",
+			" E ",
+			" E "
+		],
+		"key": {
+			"X": {
+				"item": "farmersdelight:canvas"
+			},
+			"E": {
+				"item": "fables_avatars:dead_astronaut_suit"
+			}
+		},
+		"unlock": [
+			{
+			  "item": "fables_avatars:dead_astronaut_suit"
+			}
+		  ],
+		"result": {
+			"item": "fables_avatars:astronaut_suit",
+			"count": 1
+		}
+	}
+}

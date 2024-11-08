@@ -1,0 +1,126 @@
+//bridge-file-version: #25
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.2
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:egg",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:wheat",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:beef",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:mutton",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:porkchop",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:carrot",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potato",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:beetroot",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:apple",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_apple",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:melon",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:sweet_berries",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:glow_berries",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:pumpkin_pie",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "minecraft:bread",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "minecraft:rabbit"
+				},
+				{
+					"type": "item",
+					"name": "minecraft:salmon",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:cod",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:cake",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:honey_bottle",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "minecraft:suspicious_stew",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "minecraft:cookie",
+					"weight": 3
+				}
+			]
+		}
+	]
+}

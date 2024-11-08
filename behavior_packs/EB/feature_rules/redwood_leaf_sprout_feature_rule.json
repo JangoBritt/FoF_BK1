@@ -1,0 +1,59 @@
+//bridge-file-version: #47
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:redwood_leaf_sprout_feature_rule",
+			"places_feature": "korbon:redwood_leaf_sprout_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "taiga"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "mega"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "hills"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "mutated"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 25,
+			"x": {
+				"distribution": "gaussian",
+				"extent": [
+					0,
+					1
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					60,
+					255
+				]
+			},
+			"z": {
+				"distribution": "gaussian",
+				"extent": [
+					0,
+					1
+				]
+			}
+		}
+	}
+}

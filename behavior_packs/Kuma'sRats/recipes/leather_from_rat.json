@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:leather_from_rat"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "fof:rat_pelt"
+      }
+    },
+	"unlock": [
+      {
+        "item": "fof:rat_pelt"
+      }
+    ],
+    "result": {
+      "item": "minecraft:leather"
+    }
+  }
+}

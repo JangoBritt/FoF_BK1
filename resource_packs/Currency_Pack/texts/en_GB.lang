@@ -1,0 +1,7 @@
+item.fables_currency:coin.name=Coin
+item.fables_currency:coin_bundle.name=Bundle of Coins
+tile.fables_currency:coin_crate.name=Coin Crate
+item.fables_currency:coin_pile.name=Pile of Coins
+tile.fables_currency:coin_stack.name=Stack of Coins
+
+

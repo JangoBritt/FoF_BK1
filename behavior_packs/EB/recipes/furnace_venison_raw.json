@@ -1,0 +1,17 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "korbon:venison_raw"
+		},
+		"tags": [
+			"furnace",
+			"smoker",
+			"campfire",
+			"soul_campfire"
+		],
+		"input": "korbon:venison_raw",
+		"output": "korbon:venison_cooked"
+	}
+}

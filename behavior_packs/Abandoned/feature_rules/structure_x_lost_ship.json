@@ -1,0 +1,116 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nicothekid:structure_x_lost_ship",
+      "places_feature": "nicothekid:structure_weight_x_lost_ship"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "extreme_hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "frozen"
+            },
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "corrupted_forest"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "mossy_forest"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "overgrown_jungle"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "forest"
+                },
+                {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "flower_forest"
+								},
+								{
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "jungle"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "swamp"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "mangrove_swamp"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "savanna"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "mesa"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "river"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "beach"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "mooshroom_island"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.05,
+      "x": {
+        "distribution": "uniform",
+        "extent": [ -16, 16 ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          "query.heightmap(variable.worldx, variable.worldz) + -4",
+          "query.heightmap(variable.worldx, variable.worldz) + -8"
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [ -16, 16 ]
+      }
+    }
+  }
+}

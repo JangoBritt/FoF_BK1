@@ -1,0 +1,97 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:ultisol",
+			"menu_category": {
+				"group": "itemGroup.name.nature",
+				"category": "nature"
+			},
+			"states": {
+				"korbon:tool": [
+					"default",
+					"wood",
+					"stone",
+					"iron",
+					"gold",
+					"diamond",
+					"netherite"
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('korbon:tool') == 'default'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.4
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'wood'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.34
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'stone'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.23
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'iron'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.13
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'gold'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.02
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'diamond'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.03
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'netherite'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.025
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:map_color": "#73430F",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "ultisol",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.3
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"tag:k_custom_mining_speed": {},
+			"tag:k_correct_tool:shovel": {}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version":"1.21.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fables_medal:server_tour_medal_08",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:max_stack_size": 64,
+			"minecraft:stack_by_data": {},
+            "minecraft:icon": "server_tour_medal_08", 
+			"minecraft:display_name": {
+				"value": "item.fables_medal:server_tour_medal_08.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.medal"
+			}
+		}
+	}
+}

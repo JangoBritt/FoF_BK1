@@ -1,0 +1,25 @@
+//bridge-file-version: #38
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "korbon:mesa_sand_feature"
+		},
+		"places_block": {
+			"name": "minecraft:sand",
+			"states": {
+				"sand_type": "red"
+			}
+		},
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			"minecraft:orange_glazed_terracotta",
+			"minecraft:yellow_glazed_terracotta",
+			"minecraft:silver_glazed_terracotta",
+			"minecraft:brown_glazed_terracotta",
+			"minecraft:red_glazed_terracotta",
+			"minecraft:hardened_clay"
+		]
+	}
+}

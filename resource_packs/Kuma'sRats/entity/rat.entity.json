@@ -1,0 +1,53 @@
+//bridge-file-version: #68
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "kuma:gray_comun_rat",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"brown": "textures/entity/rata comun/newrat",
+				"blue": "textures/entity/rata comun/newrathairy_blue",
+				"yellow": "textures/entity/rata comun/newrathairy_yellow",
+				"gray": "textures/entity/rata comun/newrathairy_gray",
+				"white": "textures/entity/rata comun/newrathairy_white",
+				"pink": "textures/entity/rata comun/newrathairy_pink"
+			},
+			"geometry": {
+				"default": "geometry.newrat"
+			},
+			"animations": {
+				"move": "controller.animation.Ratita.move",
+				"moving": "animation.rata.walk",
+				"static": "controller.animation.Ratita.static",
+				"staticking": "animation.RataComun.breath",
+				"sit": "controller.animation.rata.move",
+				"sitting": "animation.RataComun.sit",
+				"look_at_target": "animation.common.look_at_target",
+				"sniffing": "controller.animation.newrat.sniff",
+				"sniff": "animation.RataComun.sniff"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.attack = Math.sin(variable.attack_time * 30);"
+				],
+				"animate": [
+					"static",
+					"move",
+					"sit",
+					"look_at_target",
+					"sniffing"
+				]
+			},
+			"render_controllers": [
+				"controller.render.rat"
+			],
+			"spawn_egg": {
+				"base_color": "#A5A5A5",
+				"overlay_color": "#646464"
+			}
+		}
+	}
+}

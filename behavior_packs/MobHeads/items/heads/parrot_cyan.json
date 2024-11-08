@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:parrot_cyan_item"
+		},
+		"components": {
+            "minecraft:icon": "fmh_parrot_cyan_item", 
+			"minecraft:entity_placer": {
+				"entity": "fmh:parrot_cyan"
+			}
+		}
+	}
+}

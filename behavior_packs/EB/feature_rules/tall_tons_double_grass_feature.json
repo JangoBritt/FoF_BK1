@@ -1,0 +1,54 @@
+//bridge-file-version: #33
+{
+	"format_version": "1.20.30",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:tall_tons_double_grass_feature",
+			"places_feature": "minecraft:grass_double_plant_patch_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "lots_of_double_grass"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "plains"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 50,
+			"scatter_chance": "variable.is_legacy ? 0.0 : 200.0",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					"query.heightmap(variable.worldx, variable.worldz) * 2"
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+//bridge-file-version: #23
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "korbon:scorpion",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entity/scorpion"
+			},
+			"geometry": {
+				"default": "geometry.scorpion"
+			},
+			"scripts": {},
+			"animations": {
+				"walk": "animation.scorpion.walk",
+				"idle": "animation.scorpion.idle",
+				"attack": "animation.scorpion.sting"
+			},
+			"animation_controllers": [
+				{
+					"walk": "controller.animation.scorpion.move"
+				},
+				{
+					"attack": "controller.animation.scorpion.sting"
+				},
+				{
+					"idle": "controller.animation.scorpion.idle"
+				}
+			],
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#5F2506",
+				"overlay_color": "#441C06"
+			}
+		}
+	}
+}

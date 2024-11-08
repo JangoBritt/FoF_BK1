@@ -1,0 +1,20 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "korbon:shroom_cave_scatter_ground_feature"
+		},
+		"x": 0,
+		"z": 0,
+		"y": {
+			"distribution": "fixed_grid",
+			"extent": [
+				0,
+				"t.height - 1"
+			]
+		},
+		"places_feature": "korbon:shroom_cave_ground_feature",
+		"iterations": "t.height = 63; return t.height * (query.noise(v.worldx / 1024, v.worldz / 1024) + 0.25 * query.noise(v.worldx / 256, v.worldz / 256) + 0.03125 * query.noise(v.worldx / 64, v.worldz / 64) > 0.4);"
+	}
+}

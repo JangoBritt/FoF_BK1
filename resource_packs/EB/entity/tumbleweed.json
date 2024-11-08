@@ -1,0 +1,56 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "korbon:tumbleweed",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/tumbleweed"
+			},
+			"geometry": {
+				"default": "geometry.tumbleweed"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 12
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+				]
+			},
+			"animations": {
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+				"look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+				"look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+				"move": "animation.tumbleweed.move",
+				"idle": "animation.tumbleweed.idle",
+				"land": "animation.tumbleweed.land"
+			},
+			"animation_controllers": [
+				{
+					"look_at_target": "controller.animation.humanoid.look_at_target"
+				},
+				{
+					"move": "controller.animation.tumbleweed.move"
+				},
+				{
+					"idle": "controller.animation.tumbleweed.move"
+				},
+				{
+					"land": "controller.animation.tumbleweed.misc"
+				}
+			],
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"enable_attachables": true,
+			"sound_effects": {
+				"land": "tumbleweed.land"
+			}
+		}
+	}
+}

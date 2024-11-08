@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:guardian_item"
+		},
+		"components": {
+            "minecraft:icon": "fmh_guardian_item", 
+			"minecraft:entity_placer": {
+				"entity": "fmh:guardian"
+			}
+		}
+	}
+}

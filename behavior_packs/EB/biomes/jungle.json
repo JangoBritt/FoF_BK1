@@ -1,0 +1,84 @@
+//bridge-file-version: #89
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "jungle"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0.9,
+				"snow_accumulation": [
+					0,
+					0.125
+				],
+				"temperature": 0.95
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "default"
+			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 7,
+				"sea_floor_material": "minecraft:gravel",
+				"foundation_material": "minecraft:stone",
+				"mid_material": "minecraft:dirt",
+				"top_material": "minecraft:grass",
+				"sea_material": "minecraft:water"
+			},
+			"minecraft:overworld_generation_rules": {
+				"hills_transformation": "jungle_hills",
+				"mutate_transformation": "jungle_mutated",
+				"generate_for_climates": [
+					[
+						"medium",
+						1
+					]
+				]
+			},
+			"minecraft:surface_material_adjustments": {
+				"adjustments": [
+					{
+						"materials": {
+							"top_material": "minecraft:podzol"
+						},
+						"noise_frequency_scale": 0.15,
+						"noise_range": [
+							0.188,
+							0.385
+						]
+					},
+					{
+						"materials": {
+							"top_material": "korbon:ultisol"
+						},
+						"noise_frequency_scale": 0.25,
+						"noise_range": [
+							0.386,
+							0.485
+						]
+					},
+					{
+						"materials": {
+							"top_material": "minecraft:mud"
+						},
+						"noise_frequency_scale": 0.05,
+						"noise_range": [
+							0.486,
+							0.535
+						]
+					}
+				]
+			},
+			"animal": {},
+			"monster": {},
+			"overworld": {},
+			"rare": {},
+			"ferns": {},
+			"jungle": {},
+			"lots_of_bamboo": {},
+			"spawn_boulders": {},
+			"lots_of_tinder_mushrooms": {},
+			"lots_of_double_grass": {}
+		}
+	}
+}

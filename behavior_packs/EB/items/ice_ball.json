@@ -1,0 +1,33 @@
+//bridge-file-version: #39
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:ice_ball",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.equipment"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "korbon:ice_ball"
+			},
+			"minecraft:display_name": {
+				"value": "item.korbon:ice_ball.name"
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "korbon:ice_ball"
+			},
+			"minecraft:throwable": {
+				"do_swing_animation": true
+			},
+			"minecraft:cooldown": {
+				"category": "ender_pearl",
+				"duration": 1.3
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,12 @@
+//bridge-file-version: #1
+{
+    "materials":{
+        "version":"1.0.0",
+        "firefly:entity_emissive_alpha":{
+            "+defines":[
+                "USE_UV_ANIM",
+                "BLEND"
+            ]
+        }
+    }
+}

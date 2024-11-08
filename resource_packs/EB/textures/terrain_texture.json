@@ -1,0 +1,502 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"small_cactus": {
+			"textures": [
+				"textures/blocks/small_cactus"
+			]
+		},
+		"coconut_block": {
+			"textures": [
+				"textures/blocks/coconut"
+			]
+		},
+		"black_sand": {
+			"textures": [
+				"textures/blocks/black_sand"
+			]
+		},
+		"lavender_flower": {
+			"textures": [
+				"textures/blocks/lavender_flower"
+			]
+		},
+		"jacaranda_leaves": {
+			"textures": [
+				"textures/blocks/jacaranda_leaves"
+			]
+		},
+		"jacaranda_log": {
+			"textures": [
+				"textures/blocks/jacaranda_log"
+			]
+		},
+		"jacaranda_log_top": {
+			"textures": [
+				"textures/blocks/jacaranda_log_top"
+			]
+		},
+		"jacaranda_door": {
+			"textures": [
+				"textures/blocks/jacaranda_door"
+			]
+		},
+		"jacaranda_planks": {
+			"textures": [
+				"textures/blocks/planks_jacaranda"
+			]
+		},
+		"dune_grass": {
+			"textures": [
+				"textures/blocks/dune_grass"
+			]
+		},
+		"autumn_oak_leaves": {
+			"textures": [
+				"textures/blocks/autumn_oak"
+			]
+		},
+		"autumn_birch_leaves": {
+			"textures": [
+				"textures/blocks/autumn_birch"
+			]
+		},
+		"cherry_blossom_sapling_block": {
+			"textures": [
+				"textures/blocks/cherry_blossom_sapling"
+			]
+		},
+		"jacaranda_sapling_block": {
+			"textures": [
+				"textures/blocks/jacaranda_sapling"
+			]
+		},
+		"autumn_oak_leaf_pile": {
+			"textures": [
+				"textures/blocks/autumn_oak_leaf_pile"
+			]
+		},
+		"autumn_birch_leaf_pile": {
+			"textures": [
+				"textures/blocks/autumn_birch_leaf_pile"
+			]
+		},
+		"vibranium_ore": {
+			"textures": [
+				"textures/blocks/vibranium_ore"
+			]
+		},
+		"maple_log_top": {
+			"textures": [
+				"textures/blocks/maple_log_top"
+			]
+		},
+		"maple_leaves": {
+			"textures": [
+				"textures/blocks/maple_leaves"
+			]
+		},
+		"maple_sapling_block": {
+			"textures": [
+				"textures/blocks/maple_sapling"
+			]
+		},
+		"syrup_block": {
+			"textures": [
+				"textures/blocks/syrup_block"
+			]
+		},
+		"dune_sand": {
+			"textures": [
+				"textures/blocks/dune_sand"
+			]
+		},
+		"icicles_down": {
+			"textures": [
+				"textures/blocks/icicles"
+			]
+		},
+		"vibranium_ore_deepslate": {
+			"textures": [
+				"textures/blocks/vibranium_ore_deepslate"
+			]
+		},
+		"buttercup": {
+			"textures": [
+				"textures/blocks/buttercup"
+			]
+		},
+		"moss_carpet_vertical": {
+			"textures": [
+				"textures/blocks/moss_carpet_vertical"
+			]
+		},
+		"brittlebright": {
+			"textures": [
+				"textures/blocks/brittlebright"
+			]
+		},
+		"standing_torch_bottom": {
+			"textures": [
+				"textures/blocks/standing_torch_bottom"
+			]
+		},
+		"standing_torch_top": {
+			"textures": [
+				"textures/blocks/standing_torch_top"
+			]
+		},
+		"glass_jar": {
+			"textures": [
+				"textures/blocks/jar"
+			]
+		},
+		"firefly_jar": {
+			"textures": [
+				"textures/blocks/firefly_jar"
+			]
+		},
+		"redwood_log": {
+			"textures": [
+				"textures/blocks/redwood_log"
+			]
+		},
+		"redwood_log_top": {
+			"textures": [
+				"textures/blocks/redwood_log_top"
+			]
+		},
+		"redwood_leaves": {
+			"textures": [
+				"textures/blocks/redwood_leaves"
+			]
+		},
+		"air": {
+			"textures": [
+				"textures/blocks/air"
+			]
+		},
+		"redwood_door": {
+			"textures": [
+				"textures/blocks/redwood_door"
+			]
+		},
+		"redwood_planks": {
+			"textures": [
+				"textures/blocks/redwood_planks"
+			]
+		},
+		"redwood_trapdoor": {
+			"textures": [
+				"textures/blocks/redwood_trapdoor"
+			]
+		},
+		"redwood_stripped_log": {
+			"textures": [
+				"textures/blocks/stripped_redwood_log"
+			]
+		},
+		"redwood_stripped_log_top": {
+			"textures": [
+				"textures/blocks/stripped_redwood_log_top"
+			]
+		},
+		"redwood_sapling": {
+			"textures": [
+				"textures/blocks/redwood_sapling"
+			]
+		},
+		"deer_trophy": {
+			"textures": [
+				"textures/blocks/deer_head"
+			]
+		},
+		"jacaranda_trapdoor": {
+			"textures": [
+				"textures/blocks/jacaranda_trapdoor"
+			]
+		},
+		"jacaranda_stripped_log": {
+			"textures": [
+				"textures/blocks/stripped_jacaranda_log"
+			]
+		},
+		"jacaranda_stripped_log_top": {
+			"textures": [
+				"textures/blocks/stripped_jacaranda_log_top"
+			]
+		},
+		"snowdrop_flower": {
+			"textures": [
+				"textures/blocks/snowdrop_flower"
+			]
+		},
+		"cattail_bottom": {
+			"textures": [
+				"textures/blocks/cat_tail_bottom"
+			]
+		},
+		"cattail_top": {
+			"textures": [
+				"textures/blocks/cat_tail_top"
+			]
+		},
+		"tinder_mushroom": {
+			"textures": [
+				"textures/blocks/tinder_mushroom"
+			]
+		},
+		"violet_flower": {
+			"textures": [
+				"textures/blocks/violet_flower"
+			]
+		},
+		"cherry_blossom_leaves_2": {
+			"textures": [
+				"textures/blocks/cherry_blossom_leaves_2"
+			]
+		},
+		"cherry_door_bottom": {
+			"textures": [
+				"textures/blocks/cherry_door_bottom"
+			]
+		},
+		"cherry_door_top": {
+			"textures": [
+				"textures/blocks/cherry_door_top"
+			]
+		},
+		"jacaranda_door_bottom": {
+			"textures": [
+				"textures/blocks/jacaranda_door_bottom"
+			]
+		},
+		"jacaranda_door_top": {
+			"textures": [
+				"textures/blocks/jacaranda_door_top"
+			]
+		},
+		"redwood_door_bottom": {
+			"textures": [
+				"textures/blocks/redwood_door_bottom"
+			]
+		},
+		"redwood_door_top": {
+			"textures": [
+				"textures/blocks/redwood_door_top"
+			]
+		},
+		"bluebell": {
+			"textures": [
+				"textures/blocks/bluebell"
+			]
+		},
+		"aloe_vera": {
+			"textures": [
+				"textures/blocks/aloe_vera"
+			]
+		},
+		"brittlebush": {
+			"textures": [
+				"textures/blocks/brittlebush"
+			]
+		},
+		"sulfur_ore": {
+			"textures": [
+				"textures/blocks/sulfur_ore"
+			]
+		},
+		"sulfur_ore_deepslate": {
+			"textures": [
+				"textures/blocks/sulfur_ore_deepslate"
+			]
+		},
+		"jungfern_top": {
+			"textures": [
+				"textures/blocks/jungfern_top"
+			]
+		},
+		"jungfern_bottom": {
+			"textures": [
+				"textures/blocks/jungfern_bottom"
+			]
+		},
+		"didymoch": {
+			"textures": [
+				"textures/blocks/didymoch"
+			]
+		},
+		"ultisol": {
+			"textures": [
+				"textures/blocks/ultisol"
+			]
+		},
+		"glowshroom": {
+			"textures": [
+				"textures/blocks/glowshroom"
+			]
+		},
+		"glowshroom_block": {
+			"textures": [
+				"textures/blocks/glowshroom_block"
+			]
+		},
+		"sulfur_block": {
+			"textures": [
+				"textures/blocks/sulfur_block"
+			]
+		},
+		"aspen_leaves": {
+			"textures": [
+				"textures/blocks/aspen_leaves"
+			]
+		},
+		"aspen_sapling": {
+			"textures": [
+				"textures/blocks/aspen_sapling"
+			]
+		},
+		"aspen_leaves_opaque": {
+			"textures": [
+				"textures/blocks/aspen_leaves_solid"
+			]
+		},
+		"aspen_leaf_pile": {
+			"textures": [
+				"textures/blocks/aspen_leaf_pile"
+			]
+		},
+		"wild_wheat": {
+			"textures": [
+				"textures/blocks/wild_wheat"
+			]
+		},
+		"strata": {
+			"textures": [
+				"textures/blocks/strata"
+			]
+		},
+		"deadfern_bottom": {
+			"textures": [
+				"textures/blocks/deadfern_bottom"
+			]
+		},
+		"deadfern_top": {
+			"textures": [
+				"textures/blocks/deadfern_top"
+			]
+		},
+		"daisy_petals_stem": {
+			"textures": "textures/blocks/daisy_petals_stem"
+		},
+		"daisy_petals": {
+			"textures": [
+				"textures/blocks/daisy_petals",
+				"textures/blocks/daisy_petals"
+			]
+		},
+		"baobab_log": {
+			"textures": [
+				"textures/blocks/baobab_log"
+			]
+		},
+		"baobab_log_top": {
+			"textures": [
+				"textures/blocks/baobab_log_top"
+			]
+		},
+		"baobab_planks": {
+			"textures": [
+				"textures/blocks/planks_baobab"
+			]
+		},
+		"baobab_leaves": {
+			"textures": [
+				"textures/blocks/baobab_leaves"
+			]
+		},
+		"baobab_stripped_log": {
+			"textures": [
+				"textures/blocks/stripped_baobab_log"
+			]
+		},
+		"baobab_stripped_log_top": {
+			"textures": [
+				"textures/blocks/stripped_baobab_log_top"
+			]
+		},
+		"baobab_wood": {
+			"textures": [
+				"textures/blocks/baobab_log"
+			]
+		},
+		"baobab_sapling_block": {
+			"textures": [
+				"textures/blocks/baobab_sapling"
+			]
+		},
+		"baobab_leaves_opaque": {
+			"textures": [
+				"textures/blocks/baobab_leaves_opaque"
+			]
+		},
+		"baobab_door_top": {
+			"textures": [
+				"textures/blocks/baobab_door_top"
+			]
+		},
+		"baobab_door_bottom": {
+			"textures": [
+				"textures/blocks/baobab_door_bottom"
+			]
+		},
+		"baobab_trapdoor": {
+			"textures": [
+				"textures/blocks/baobab_trapdoor"
+			]
+		},
+		"autumn_oak_leaves_opaque": {
+			"textures": [
+				"textures/blocks/autumn_oak_opaque"
+			]
+		},
+		"autumn_sapling_block": {
+			"textures": [
+				"textures/blocks/autumn_sapling"
+			]
+		},
+		"autumn_oak_leaves2": {
+			"textures": [
+				"textures/blocks/autumn_oak2"
+			]
+		},
+		"autumn_oak_leaves2_opaque": {
+			"textures": [
+				"textures/blocks/autumn_oak2_opaque"
+			]
+		},
+		"cherry_blossom_leaves": {
+			"textures": [
+				"textures/blocks/cherry_blossom_leaves"
+			]
+		},
+		"redwood_leaf_sprout": {
+			"textures": [
+				"textures/blocks/redwood_leaf_sprout"
+			]
+		},
+		"maple_log_syrup": {
+			"textures": [
+				"textures/blocks/maple_log_syrup"
+			]
+		},
+		"maple_log_syrup_empty": {
+			"textures": [
+				"textures/blocks/maple_log_syrup_empty"
+			]
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:horse_base_chestnut_item"
+		},
+		"components": {
+            "minecraft:icon": "fmh_horse_base_chestnut_item", 
+			"minecraft:entity_placer": {
+				"entity": "fmh:horse_base_chestnut"
+			}
+		}
+	}
+}

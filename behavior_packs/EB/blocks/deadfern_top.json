@@ -1,0 +1,55 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:deadfern_top"
+		},
+		"components": {
+			"minecraft:destructible_by_mining": 0.1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "deadfern_top",
+					"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "geometry.plant",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"korbon:deadfern_bottom"
+						]
+					}
+				]
+			},
+			"minecraft:collision_box": false,
+			"minecraft:map_color": "#673A08",
+			"minecraft:flammable": {
+				"burn_odds": 15,
+				"flame_odds": 15
+			},
+			"minecraft:destructible_by_explosion": 0.1,
+			"minecraft:light_dampening": 0,
+			"minecraft:loot": "empty",
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			}
+		},
+		"events": {}
+	}
+}

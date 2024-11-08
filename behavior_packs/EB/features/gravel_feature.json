@@ -1,0 +1,19 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "korbon:gravel_feature"
+		},
+		"places_block": {
+			"name": "minecraft:gravel"
+		},
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			"minecraft:dirt",
+			"minecraft:grass",
+			"minecraft:podzol"
+		]
+	}
+}

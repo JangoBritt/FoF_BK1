@@ -1,0 +1,13 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:bamboo_feature"
+		},
+		"early_out": "first_failure",
+		"features": [
+			"minecraft:bamboo_feature"
+		]
+	}
+}

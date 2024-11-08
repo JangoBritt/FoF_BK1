@@ -1,0 +1,54 @@
+//bridge-file-version: #27
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "minecraft:overworld_volcano_underground_sulfur_ore_feature",
+			"places_feature": "minecraft:sulfur_ore_feature"
+		},
+		"conditions": {
+			"placement_pass": "underground_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "spawn_sulfur"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "overworld"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 60,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					-64,
+					320
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

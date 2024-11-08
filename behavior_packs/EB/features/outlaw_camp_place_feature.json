@@ -1,0 +1,14 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:outlaw_camp_place_feature"
+		},
+		"early_out": "first_failure",
+		"features": [
+			"korbon:scatter_outlaw_camp_feature",
+			"korbon:outlaw_tent_feature_mcstructure"
+		]
+	}
+}

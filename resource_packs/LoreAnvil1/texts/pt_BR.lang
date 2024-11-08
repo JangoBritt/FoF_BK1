@@ -1,0 +1,28 @@
+tile.la:lore_anvil.name=Bigorna de Lore
+
+pack.name=§lBigorna de Lore RP
+pack.description=Pacote de Recursos necessário para o complemento Bigorna de Lore. Mais complementos em trmc-studios.com
+
+pack.hold_item_to_apply_lore=Você precisa segurar um item para aplicar o lore.
+pack.lore_anvil_title=Bigorna de Lore
+pack.choose_option_for_lore=Escolha uma opção para o lore:
+pack.add_new_lore=Adicionar Novo Lore
+pack.clear_lore=Limpar Lore
+pack.operation_canceled=Operação cancelada.
+pack.enter_lore=Insira o lore para este item:
+pack.type_lore_here= Escreva o lore aqui...
+pack.select_lore_color=Selecione uma cor para o lore:
+
+pack.none=Nenhuma
+pack.red=Vermelho
+pack.green=Verde
+pack.blue=Azul
+pack.aqua=Aqua
+pack.light_purple=Roxo Claro
+pack.yellow=Amarelo
+pack.white=Branco
+pack.black=Preto
+
+pack.lore_applied=Lore aplicado: 
+pack.no_lore_entered=Nenhum lore inserido, o item não foi alterado.
+pack.lore_cleared=O lore foi removido do item.

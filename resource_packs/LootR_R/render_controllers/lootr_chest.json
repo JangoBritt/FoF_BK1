@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.lootr_chest": {
+			"geometry": "array.geometries[query.mark_variant]",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.skins[query.mark_variant]"
+			],
+			"ignore_lighting": false,
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.chest",
+						"Texture.barrel",
+						"Texture.shulker"
+					]
+				},
+				"geometries": {
+					"Array.geometries": [
+						"Geometry.chest",
+						"Geometry.barrel",
+						"Geometry.shulker"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+//bridge-file-version: #30
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:cherry_grove_bamboo_feature",
+			"places_feature": "korbon:bamboo_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "cherry_grove"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "math.clamp(math.trunc(math.ceil((query.noise(math.trunc(variable.originx / 1), math.trunc(variable.originz / 1)) + 0.3) * 10 * 0.3)), 3, 7)",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

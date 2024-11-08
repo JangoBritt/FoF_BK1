@@ -1,0 +1,236 @@
+//bridge-file-version: #31
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "korbon:scorpion",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"spawn_small": {
+				"minecraft:scale": {
+					"value": 0.4
+				},
+				"minecraft:attack": {
+					"damage": 2,
+					"effect_duration": 5,
+					"effect_name": "fatal_poison"
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 3,
+					"speed_multiplier": 1.5
+				},
+				"minecraft:health": {
+					"value": 12
+				}
+			},
+			"spawn_medium": {
+				"minecraft:scale": {
+					"value": 0.7
+				},
+				"minecraft:attack": {
+					"damage": 3.5,
+					"effect_duration": 5,
+					"effect_name": "fatal_poison"
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 3,
+					"speed_multiplier": 1.4
+				},
+				"minecraft:health": {
+					"value": 15
+				}
+			},
+			"spawn_large": {
+				"minecraft:scale": {
+					"value": 1
+				},
+				"minecraft:attack": {
+					"damage": 4.5,
+					"effect_duration": 5,
+					"effect_name": "fatal_poison"
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 3,
+					"speed_multiplier": 1.3
+				},
+				"minecraft:health": {
+					"value": 20
+				}
+			}
+		},
+		"components": {
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 15,
+				"breathes_water": true
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1
+			},
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"monster",
+					"mob",
+					"arthropod"
+				]
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/scorpion.json"
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_break_doors": true,
+				"avoid_portals": false
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.stomp_turtle_egg": {
+				"priority": 4,
+				"speed_multiplier": 1,
+				"search_range": 10,
+				"search_height": 2,
+				"goal_radius": 1.14,
+				"interval": 20
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 7,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 8,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 9
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": true,
+				"reselect_targets": true,
+				"within_radius": 25,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "snowgolem"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "irongolem"
+								}
+							]
+						},
+						"max_dist": 35
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "baby_turtle"
+								},
+								{
+									"test": "in_water",
+									"subject": "other",
+									"operator": "!=",
+									"value": true
+								}
+							]
+						},
+						"max_dist": 35
+					}
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:behavior.mount_pathing": {
+				"priority": 2,
+				"speed_multiplier": 1.25,
+				"target_dist": 0,
+				"track_target": true
+			},
+			"minecraft:movement": {
+				"value": 0.23
+			},
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 3,
+						"add": {
+							"component_groups": [
+								"spawn_small"
+							]
+						}
+					},
+					{
+						"weight": 2,
+						"add": {
+							"component_groups": [
+								"spawn_medium"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"spawn_large"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

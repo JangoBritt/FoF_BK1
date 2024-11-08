@@ -1,0 +1,73 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "korbon:horse_outlaw",
+			"materials": {
+				"default": "horse_leather_armor"
+			},
+			"textures": {
+				"base_brown": "textures/entity/horse/base_brown",
+				"base_white": "textures/entity/horse/base_white",
+				"base_creamy": "textures/entity/horse/base_creamy",
+				"base_chestnut": "textures/entity/horse/base_chestnut",
+				"base_black": "textures/entity/horse/base_black",
+				"base_gray": "textures/entity/horse/base_gray",
+				"base_darkbrown": "textures/entity/horse/base_darkbrown",
+				"markings_none": "textures/entity/horse/markings_none",
+				"markings_white": "textures/entity/horse/markings_white",
+				"markings_whitefield": "textures/entity/horse/markings_whitefield",
+				"markings_whitedots": "textures/entity/horse/markings_whitedots",
+				"markings_blackdots": "textures/entity/horse/markings_blackdots",
+				"armor_none": "textures/entity/horse/armor_none",
+				"armor_leather": "textures/entity/horse/armor_leather",
+				"armor_iron": "textures/entity/horse/armor_iron",
+				"armor_gold": "textures/entity/horse/armor_gold",
+				"armor_diamond": "textures/entity/horse/armor_diamond"
+			},
+			"geometry": {
+				"default": "geometry.horse"
+			},
+			"animations": {
+				"baby_transform": "animation.horse.baby_transform",
+				"walk": "animation.horse.walk",
+				"eat": "animation.horse.eat",
+				"rear": "animation.horse.rear",
+				"tail": "animation.horse.tail",
+				"look_at_player": "animation.horse.look_at_player"
+			},
+			"scripts": {
+				"initialize": ["variable.eat_anim = 0;", "variable.stand_anim = 0;", "variable.leg_stand_factor = 0;", "variable.leg_x_rot_anim = 0;"],
+				"pre_animation": [
+					"variable.armor_texture_slot = query.armor_texture_slot(1);",
+					"variable.eat_anim = math.clamp(variable.eat_anim + (query.is_grazing ? ((1.0 - variable.eat_anim) * 0.4 + 0.05) : -variable.eat_anim * 0.4 - 0.05) * query.delta_time * 20.0, 0.0, 1.0);",
+					"variable.head_x_rot = query.target_x_rotation + (query.modified_move_speed > 0.2 ? (math.cos(query.modified_distance_moved * 11.46) * 11.46 * query.modified_move_speed + query.modified_move_speed * 11.46) : 0.0);",
+					"variable.inverse_max_stand_eat = (1.0 - math.max(variable.stand_anim, variable.eat_anim));",
+					"variable.leg_stand_factor = math.cos((query.modified_distance_moved * 38.38) + 180.0);",
+					"variable.leg_x_rot_anim = variable.leg_stand_factor * 45.8 * query.modified_move_speed;"
+				],
+				"animate": [
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"walk",
+					"look_at_player",
+					{
+						"rear": "variable.stand_anim > 0.0"
+					},
+					{
+						"eat": "!query.is_standing"
+					},
+					{
+						"tail": "Math.mod(q.life_time, 10) < 0.5"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.horse.v3"],
+			"spawn_egg": {
+				"base_color": "#ff7f40",
+				"overlay_color": "#902e46"
+			}
+		}
+	}
+}

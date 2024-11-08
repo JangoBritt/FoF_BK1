@@ -1,0 +1,33 @@
+//bridge-file-version: #27
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:bola",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 16,
+			"minecraft:throwable": {
+				"do_swing_animation": true,
+				"launch_power_scale": 1,
+				"max_launch_power": 1,
+				"scale_power_by_draw_duration": false
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "korbon:thrown_bolas"
+			},
+			"minecraft:cooldown": {
+				"category": "bola",
+				"duration": 3
+			},
+			"minecraft:icon": {
+				"texture": "korbon:bolas"
+			},
+			"minecraft:should_despawn": true
+		},
+		"events": {}
+	}
+}

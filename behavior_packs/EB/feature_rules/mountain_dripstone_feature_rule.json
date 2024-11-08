@@ -1,0 +1,52 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.16.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:mountain_dripstone_feature_rule",
+			"places_feature": "korbon:mountain_dripstone_feature"
+		},
+		"conditions": {
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "spawn_dripstones"
+						}
+					]
+				}
+			],
+			"placement_pass": "after_underground_pass"
+		},
+		"distribution": {
+			"iterations": 30,
+			"scatter_chance": {
+				"numerator": 1,
+				"denominator": 3
+			},
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					80
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

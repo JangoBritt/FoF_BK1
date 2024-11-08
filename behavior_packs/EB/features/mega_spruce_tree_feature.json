@@ -1,0 +1,139 @@
+//bridge-file-version: #45
+{
+	"format_version": "1.13.0",
+	"minecraft:tree_feature": {
+		"description": {
+			"identifier": "minecraft:mega_spruce_tree_feature"
+		},
+		"mega_trunk": {
+			"trunk_height": {
+				"base": 25
+			},
+			"trunk_width": 2,
+			"trunk_block": {
+				"name": "minecraft:log",
+				"states": {
+					"old_log_type": "spruce"
+				}
+			}
+		},
+		"mega_pine_canopy": {
+			"canopy_height": 18,
+			"core_width": 2,
+			"base_radius": 1,
+			"radius_step_modifier": 4,
+			"leaf_block": {
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "spruce"
+				}
+			}
+		},
+		"may_grow_on": [
+			"minecraft:dirt",
+			"minecraft:grass",
+			"minecraft:podzol",
+			{
+				"name": "minecraft:dirt",
+				"states": {
+					"dirt_type": "coarse"
+				}
+			},
+			{
+				"name": "minecraft:farmland",
+				"states": {
+					"moisturized_amount": 0
+				}
+			},
+			{
+				"name": "minecraft:farmland",
+				"states": {
+					"moisturized_amount": 1
+				}
+			},
+			{
+				"name": "minecraft:farmland",
+				"states": {
+					"moisturized_amount": 2
+				}
+			},
+			{
+				"name": "minecraft:farmland",
+				"states": {
+					"moisturized_amount": 3
+				}
+			},
+			{
+				"name": "minecraft:farmland",
+				"states": {
+					"moisturized_amount": 4
+				}
+			},
+			{
+				"name": "minecraft:farmland",
+				"states": {
+					"moisturized_amount": 5
+				}
+			},
+			{
+				"name": "minecraft:farmland",
+				"states": {
+					"moisturized_amount": 6
+				}
+			},
+			{
+				"name": "minecraft:farmland",
+				"states": {
+					"moisturized_amount": 7
+				}
+			}
+		],
+		"base_block": "minecraft:podzol",
+		"may_replace": [
+			"minecraft:air",
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "oak"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "spruce"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "birch"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "jungle"
+				}
+			},
+			{
+				"name": "minecraft:leaves2",
+				"states": {
+					"new_leaf_type": "acacia"
+				}
+			},
+			{
+				"name": "minecraft:leaves2",
+				"states": {
+					"new_leaf_type": "dark_oak"
+				}
+			}
+		],
+		"base_cluster": {
+			"may_replace": [
+				"minecraft:dirt"
+			],
+			"num_clusters": 1,
+			"cluster_radius": 3
+		}
+	}
+}

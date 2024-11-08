@@ -1,0 +1,35 @@
+Abandoned & Ruin Structures
+
+[Version: 1.10.11]
+GENERAL:
+- Updated for compatibility with Minecraft version 1.21.0.
+
+
+[Version: 1.10.10]
+GENERAL:
+- Updated for compatibility with Minecraft version 1.20.81.
+- Added a subpack for scripting events.
+- Fixed the bug where some structures won't generate on overworld surfaces.
+- Fixed the Mob spawner appeared black & purple texture.
+
+STRUCTURES:
+- Abandoned Castle can now also generate in the Windswept Hills & Meadow biomes.
+- Abandoned Plains Chapel can now also generate in the Snowy Plains & Savanna biomes. And it will no longer generate in Dark Forest biome.
+- Abandoned Plains House can now also generate in the Meadow biome. And it will no longer generate in the Taiga, Snowy Taiga & Corrupted Forest biomes.
+- Abandoned Taiga House can now also generate in the Windswept Forest & Hills biomes. And it will no longer generate in the Ice Spikes biome.
+- Abandoned Lumberjack House can now also generate in the Windswept Forest & Savanna biomes. And it will no longer generate in the Ice Spikes biome.
+- Abandoned Tower can now also generate in the Jungle, Swamp, Mangrove Swamp, Savanna, & Overgrown Jungle biome. And it will no longer generate in the Ice Spikes & Corrupted Forest biomes.
+- Abandoned Tower Dungeon can now also generate in the Savanna biome. And it will no longer generate in the Ice Spikes & Corrupted Forest biomes.
+- Wither Shrine generate rate has decreased.
+- Zombie Crypt can now also generate in the Flower Forest, & Mangrove Swamp surfaces. And it will no longer generate in the Snowy Taiga & Corrupted Forest surfaces.
+- Skeleon Crypt can now also generate in the Grove surfaces. And it will no longer generate in the Forest, Mushroom Fields, Overgrown Jungle surfaces.
+- Large Fossil can now also generate in the Mangrove Swamp & Windswept Hills surfaces.
+- Giant Fallen Acacia Log can now also generate in the Wooded Badlands biome.
+- Hobbit House can now also generate in the Mossy Forest biome.
+- Grand Ice Tower can now also generate in the Snowy Slopes, Jagged Peaks, & Frozen Ocean surfaces. And it will no longer generate in the Snowy Taiga surfaces.
+- Lost Ship can now also generate in the Mangrove Swamp & River biomes.
+- Witch Tower Hut can now also generate in the Mangrove Swamp & Mossy Forest biomes.
+
+          "On scripting events only!"
+GENERAL:
+- All the custom blocks function events are now run by scripting.

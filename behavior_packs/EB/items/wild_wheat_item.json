@@ -1,0 +1,26 @@
+//bridge-file-version: #38
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:wild_wheat_item",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.crop"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "korbon:wild_wheat"
+			},
+			"minecraft:display_name": {
+				"value": "item.korbon:wild_wheat_item.name"
+			},
+			"minecraft:block_placer": {
+				"block": "korbon:wild_wheat"
+			}
+		},
+		"events": {}
+	}
+}

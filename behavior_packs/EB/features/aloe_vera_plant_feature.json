@@ -1,0 +1,13 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:aloe_vera_plant_feature"
+		},
+		"early_out": "first_success",
+		"features": [
+			"korbon:scatter_aloe_feature"
+		]
+	}
+}

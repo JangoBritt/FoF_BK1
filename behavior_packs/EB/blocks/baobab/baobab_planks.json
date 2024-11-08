@@ -1,0 +1,95 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:baobab_planks",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.planks"
+			},
+			"states": {
+				"korbon:tool": [
+					"default",
+					"wood",
+					"stone",
+					"iron",
+					"gold",
+					"diamond",
+					"netherite"
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('korbon:tool') == 'default'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 2.5
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'wood'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.85
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'stone'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.6
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'iron'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.4
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'gold'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.2
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'diamond'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.32
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'netherite'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.28
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:light_dampening": 4,
+			"minecraft:map_color": "#8B785D",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
+			},
+			"tag:k_custom_mining_speed": {},
+			"tag:k_correct_tool:axe": {}
+		},
+		"events": {}
+	}
+}

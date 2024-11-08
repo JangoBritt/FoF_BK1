@@ -1,0 +1,114 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:vibranium_ore",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ore",
+				"states": {
+					"korbon:tool": [
+						"default",
+						"wood",
+						"stone",
+						"iron",
+						"gold",
+						"diamond",
+						"netherite"
+					]
+				}
+			},
+			"states": {
+				"korbon:tool": [
+					"default",
+					"wood",
+					"stone",
+					"iron",
+					"gold",
+					"diamond",
+					"netherite"
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('korbon:tool') == 'default'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 4
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'wood'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.68
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'stone'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.6
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'iron'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.38
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'gold'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.18
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'diamond'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.28
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'netherite'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.25
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:map_color": "#39393A",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "vibranium_ore_deepslate",
+					"render_method": "opaque",
+					"face_dimming": true,
+					"ambient_occlusion": true
+				}
+			},
+			"minecraft:light_emission": 0.4,
+			"minecraft:loot": "loot_tables/blocks/vibranium.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:custom_components": [
+				"korbon:spawnxp"
+			],
+			"tag:k_custom_mining_speed": {},
+			"tag:k_correct_tool:pickaxe": {}
+		},
+		"events": {}
+	}
+}

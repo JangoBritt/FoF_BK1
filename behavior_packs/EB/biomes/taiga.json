@@ -1,0 +1,88 @@
+//bridge-file-version: #94
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "taiga"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0.8,
+				"snow_accumulation": [
+					0,
+					0.125
+				],
+				"temperature": 0.45
+			},
+			"minecraft:multinoise_generation_rules": {
+				"target_temperature": 0,
+				"target_humidity": 0.5,
+				"target_altitude": 0,
+				"target_weirdness": 0,
+				"weight": 0.375
+			},
+			"minecraft:overworld_height": {
+				"noise_params": [
+					0.1,
+					0.3
+				]
+			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 7,
+				"sea_floor_material": "minecraft:gravel",
+				"foundation_material": "minecraft:stone",
+				"mid_material": "minecraft:dirt",
+				"top_material": "minecraft:grass",
+				"sea_material": "minecraft:water"
+			},
+			"minecraft:overworld_generation_rules": {
+				"generate_for_climates": [
+					[
+						"cold",
+						1
+					]
+				],
+				"shore_transformation": [
+					"stone_beach"
+				]
+			},
+			"minecraft:surface_material_adjustments": {
+				"adjustments": [
+					{
+						"materials": {
+							"top_material": {
+								"name": "minecraft:dirt",
+								"states": {
+									"dirt_type": "coarse"
+								}
+							}
+						},
+						"noise_frequency_scale": 0.0625,
+						"noise_range": [
+							0.4,
+							1
+						]
+					}
+				]
+			},
+			"animal": {},
+			"monster": {},
+			"overworld": {},
+			"spawn_ferns": {},
+			"lots_of_grass": {},
+			"spawn_small_mushrooms": {},
+			"coniferous": {},
+			"spawn_black_bears": {},
+			"spawn_grizzly_bears": {},
+			"spawn_hunter_cabin": {},
+			"spawn_raccoons": {},
+			"spawn_deer": {},
+			"spawn_sweet_berries": {},
+			"spawn_dead_bushes": {},
+			"spawn_boulders": {},
+			"taiga": {},
+			"spawn_violets": {},
+			"double_grass": {}
+		}
+	}
+}

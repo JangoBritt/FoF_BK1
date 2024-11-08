@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "korbon:baobab_planks_from_stripped_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "korbon:stripped_baobab_wood"
+			}
+		],
+		"result": [
+			{
+				"item": "korbon:baobab_planks",
+				"count": 4
+			}
+		]
+	}
+}

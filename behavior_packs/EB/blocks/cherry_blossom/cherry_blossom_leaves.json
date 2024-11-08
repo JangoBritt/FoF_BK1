@@ -1,0 +1,35 @@
+//bridge-file-version: #52
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:cherry_blossom_leaves",
+			"menu_category": {
+				"group": "itemGroup.name.leaves",
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#FEA8FF",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cherry_blossom_leaves",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:loot": "loot_tables/blocks/cherry_blossom_leaves_drops.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.3
+			},
+			"minecraft:light_dampening": 10,
+			"minecraft:flammable": {
+				"destroy_chance_modifier": 20,
+				"catch_chance_modifier": 5
+			}
+		},
+		"events": {}
+	}
+}

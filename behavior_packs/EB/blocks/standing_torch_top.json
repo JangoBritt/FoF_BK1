@@ -1,0 +1,71 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:standing_torch_top"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "standing_torch_top",
+					"render_method": "opaque",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:geometry": "geometry.standing_torch_top",
+			"minecraft:light_emission": 15,
+			"minecraft:light_dampening": 1,
+			"minecraft:selection_box": {
+				"origin": [
+					-1,
+					0,
+					-1
+				],
+				"size": [
+					2,
+					11,
+					2
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-1,
+					0,
+					-1
+				],
+				"size": [
+					2,
+					11,
+					2
+				]
+			},
+			"minecraft:destructible_by_explosion": 0.1,
+			"minecraft:custom_components": [
+				"korbon:standing_torch"
+			],
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"korbon:standing_torch_bottom"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/empty.json",
+			"minecraft:tick": {
+				"looping": true,
+				"interval_range": [
+					100,
+					150
+				]
+			}
+		},
+		"events": {}
+	}
+}

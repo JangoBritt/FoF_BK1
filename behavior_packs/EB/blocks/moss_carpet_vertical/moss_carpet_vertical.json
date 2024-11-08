@@ -1,0 +1,112 @@
+//bridge-file-version: #120
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:moss_carpet_vertical",
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:block_face"
+					]
+				}
+			},
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'east'"
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "moss_carpet_vertical",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:geometry": "geometry.moss_carpet_vertical",
+			"minecraft:loot": "loot_tables/blocks/moss_carpet_vertical.json",
+			"minecraft:selection_box": {
+				"origin": [
+					7,
+					0,
+					-8
+				],
+				"size": [
+					1,
+					16,
+					16
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					7,
+					0,
+					-8
+				],
+				"size": [
+					1,
+					16,
+					16
+				]
+			},
+			"minecraft:map_color": "#2A5322",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"side"
+						]
+					}
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.1
+			},
+			"minecraft:light_dampening": 0
+		},
+		"events": {}
+	}
+}

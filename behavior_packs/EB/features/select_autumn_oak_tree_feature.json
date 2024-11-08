@@ -1,0 +1,19 @@
+//bridge-file-version: #24
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "korbon:select_autumn_oak_tree_feature"
+		},
+		"features": [
+			[
+				"minecraft:autumn_oak_tree_feature",
+				1
+			],
+			[
+				"minecraft:autumn_oak_tree2_feature",
+				1
+			]
+		]
+	}
+}

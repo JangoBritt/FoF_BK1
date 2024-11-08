@@ -1,0 +1,78 @@
+//bridge-file-version: #62
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "ice_plains_spikes"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 1,
+				"snow_accumulation": [
+					0.8,
+					1.6
+				],
+				"temperature": 0
+			},
+			"minecraft:overworld_height": {
+				"noise_params": [
+					0.425,
+					0.45
+				]
+			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 7,
+				"sea_floor_material": "minecraft:gravel",
+				"foundation_material": "minecraft:stone",
+				"mid_material": "minecraft:dirt",
+				"top_material": "minecraft:grass",
+				"sea_material": "minecraft:water"
+			},
+			"minecraft:surface_material_adjustments": {
+				"adjustments": [
+					{
+						"materials": {
+							"top_material": {
+								"name": "minecraft:snow"
+							}
+						},
+						"noise_frequency_scale": 0.2,
+						"noise_range": [
+							0.4,
+							1
+						]
+					},
+					{
+						"materials": {
+							"top_material": {
+								"name": "minecraft:powder_snow"
+							}
+						},
+						"noise_frequency_scale": 0.1,
+						"noise_range": [
+							0.01,
+							0.06
+						]
+					},
+					{
+						"materials": {
+							"mid_material": "minecraft:powder_snow"
+						},
+						"noise_frequency_scale": 0.1,
+						"noise_range": [
+							0.01,
+							0.06
+						]
+					}
+				]
+			},
+			"frozen": {},
+			"monster": {},
+			"overworld": {},
+			"mutated": {},
+			"ice_plains": {},
+			"frozen_forest": {},
+			"animal": {}
+		}
+	}
+}

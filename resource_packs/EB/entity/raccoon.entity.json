@@ -1,0 +1,64 @@
+//bridge-file-version: #26
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "korbon:raccoon",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"raccoon": "textures/entity/raccoon/raccoon",
+				"raccoon_tamed": "textures/entity/raccoon/raccoon_tamed",
+				"raccoon_angry": "textures/entity/raccoon/raccoon_angry",
+				"raccoon_tophat": "textures/entity/raccoon/raccoon_tamed_tophat"
+			},
+			"geometry": {
+				"default": "geometry.raccoon"
+			},
+			"animations": {
+				"walk": "animation.quadruped.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.raccoon.baby_transform",
+				"crouch": "animation.fox.crouch",
+				"sleep": "animation.raccoon.sleep",
+				"sit": "animation.raccoon.sit",
+				"wiggle": "animation.fox.wiggle",
+				"stuck": "animation.fox.stuck",
+				"pounce": "animation.fox.pounce",
+				"move": "controller.animation.fox.move",
+				"beg": "animation.raccoon.beg",
+				"eat": "animation.raccoon.eat",
+				"baby_beg": "animation.raccoon.baby_beg",
+				"baby_eat": "animation.raccoon.baby_eat"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move",
+					{
+						"eat": "query.is_eating&&!q.is_moving&&!q.is_baby&&q.is_sitting"
+					},
+					{
+						"beg": "!q.is_moving&&q.is_interested&&q.is_sitting&&!q.is_sleeping&&!q.is_item_equipped&&!q.is_baby"
+					},
+					{
+						"baby_beg": "!q.is_moving&&q.is_interested&&q.is_sitting&&!q.is_sleeping&&!q.is_item_equipped&&q.is_baby"
+					},
+					{
+						"baby_eat": "query.is_eating&&!q.is_moving&&q.is_baby&&q.is_sitting"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.raccoon"
+			],
+			"spawn_egg": {
+				"base_color": "#272727",
+				"overlay_color": "#757575"
+			}
+		}
+	}
+}

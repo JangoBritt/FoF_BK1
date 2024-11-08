@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:villager_v2_swamp_butcher_item"
+		},
+		"components": {
+            "minecraft:icon": "fmh_villager_v2_swamp_butcher_item", 
+			"minecraft:entity_placer": {
+				"entity": "fmh:villager_v2_swamp_butcher"
+			}
+		}
+	}
+}

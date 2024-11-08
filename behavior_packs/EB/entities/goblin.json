@@ -1,0 +1,277 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "korbon:goblin",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"hostile": {
+				"minecraft:angry": {
+					"broadcast_anger": true,
+					"broadcast_anger_on_attack": true,
+					"broadcast_anger_on_being_attacked": true,
+					"broadcast_range": 16,
+					"broadcast_targets": [
+						"goblin"
+					]
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 2,
+					"must_see": true,
+					"reselect_targets": true,
+					"entity_types": [
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "spider"
+							},
+							"max_dist": 16
+						},
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "zombie"
+							},
+							"max_dist": 16
+						},
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "skeleton"
+							},
+							"max_dist": 16
+						},
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							},
+							"max_dist": 16
+						}
+					]
+				}
+			},
+			"can_trade": {
+				"minecraft:economy_trade_table": {
+					"display_name": "entity.korbon:goblin.name",
+					"table": "trading/goblin.json",
+					"new_screen": true
+				}
+			}
+		},
+		"components": {
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+			},
+			"minecraft:nameable": {},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_water": true
+			},
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			},
+			"minecraft:equip_item": {},
+			"minecraft:collision_box": {
+				"width": 0.68,
+				"height": 1.65
+			},
+			"minecraft:attack": {
+				"damage": 3,
+				"effect_duration": 10
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/pillager_trapper.json"
+			},
+			"minecraft:equipment": {
+				"table": "loot_tables/entities/pillager_trapper_gear.json"
+			},
+			"minecraft:movement": {
+				"value": 0.2
+			},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"avoid_sun": true,
+				"avoid_water": true,
+				"can_open_doors": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:behavior.melee_attack": {
+				"priority": 4,
+				"track_target": true,
+				"speed_multiplier": 1.25
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 6,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 7,
+				"look_distance": 8
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 8
+			},
+			"minecraft:type_family": {
+				"family": [
+					"goblin",
+					"monster",
+					"mob"
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:behavior.ranged_attack": {
+				"priority": 0,
+				"attack_interval_min": 1,
+				"attack_interval_max": 2,
+				"attack_radius": 15
+			},
+			"minecraft:shooter": {
+				"def": "minecraft:arrow"
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							},
+							"event": "get_angry"
+						}
+					}
+				]
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": true,
+				"reselect_targets": true,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "zombie"
+						},
+						"max_dist": 16
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "skeleton"
+						},
+						"max_dist": 16
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "spider"
+						},
+						"max_dist": 16
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "pillager"
+						},
+						"max_dist": 16
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "illager"
+						},
+						"max_dist": 16
+					}
+				]
+			},
+			"minecraft:behavior.float": {
+				"priority": 3
+			},
+			"minecraft:behavior.avoid_block": {
+				"priority": 3,
+				"target_blocks": [
+					"minecraft:water",
+					"minecraft:flowing_water"
+				]
+			},
+			"minecraft:annotation.open_door": {},
+			"minecraft:behavior.open_door": {
+				"priority": 8,
+				"close_door_after": true
+			},
+			"minecraft:behavior.trade_with_player": {
+				"priority": 1
+			},
+			"minecraft:behavior.look_at_trading_player": {
+				"priority": 4
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 4,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "ghost"
+						},
+						"max_dist": 6,
+						"walk_speed_multiplier": 1.2,
+						"sprint_speed_multiplier": 1.2
+					}
+				]
+			},
+			"minecraft:despawn": {
+				"despawn_from_chance": false,
+				"despawn_from_simulation_edge": true,
+				"remove_child_entities": false
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+			}
+		},
+		"events": {
+			"get_angry": {
+				"add": {
+					"component_groups": [
+						"hostile"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"can_trade"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"can_trade"
+					]
+				}
+			}
+		}
+	}
+}

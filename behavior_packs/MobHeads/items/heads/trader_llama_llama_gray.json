@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:trader_llama_llama_gray_item"
+		},
+		"components": {
+            "minecraft:icon": "fmh_trader_llama_llama_gray_item", 
+			"minecraft:entity_placer": {
+				"entity": "fmh:trader_llama_llama_gray"
+			}
+		}
+	}
+}

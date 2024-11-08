@@ -1,0 +1,28 @@
+tile.la:lore_anvil.name=Yunque de Lore
+
+pack.name=§lYunque de Lore RP
+pack.description=Paquete de Recursos necesario para el complemento de Yunque de Lore. Más complementos en trmc-studios.com
+
+pack.hold_item_to_apply_lore=Debes sostener un objeto para aplicar lore.
+pack.lore_anvil_title=Yunque de Lore
+pack.choose_option_for_lore=Elige una opción para el lore:
+pack.add_new_lore=Agregar Nuevo Lore
+pack.clear_lore=Limpiar Lore
+pack.operation_canceled=Operación cancelada.
+pack.enter_lore= Introduce el lore para este objeto:
+pack.type_lore_here=Escribe el lore aquí...
+pack.select_lore_color=Selecciona un color para el lore:
+
+pack.none=Ninguno
+pack.red=Rojo
+pack.green=Verde
+pack.blue=Azul
+pack.aqua=Aqua
+pack.light_purple=Púrpura Claro
+pack.yellow=Amarillo
+pack.white=Blanco
+pack.black=Negro
+
+pack.lore_applied=Lore aplicado: 
+pack.no_lore_entered=No se ingresó lore, el objeto no cambió.
+pack.lore_cleared=El lore se ha eliminado del objeto.

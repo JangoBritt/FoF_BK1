@@ -1,0 +1,18 @@
+//bridge-file-version: #80
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.spectre": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"idle": "query.is_alive"
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+//bridge-file-version: #43
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:jungle_mega_tree_feature_rule",
+			"places_feature": "minecraft:mega_jungle_tree_feature"
+		},
+		"conditions": {
+			"placement_pass": "before_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "jungle"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "edge"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "bamboo"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "math.random_integer(5, 20)",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+//bridge-file-version: #74
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "korbon:firefly_single",
+			"materials": {
+				"default": "firefly"
+			},
+			"textures": {
+				"default": "textures/entity/firefly"
+			},
+			"geometry": {
+				"default": "geometry.firefly"
+			},
+			"render_controllers": [
+				"controller.render.firefly"
+			],
+			"animations": {
+				"flying": "animation.actor.billboard_fix"
+			},
+			"scripts": {
+				"animate": [
+					"flying"
+				]
+			},
+			"spawn_egg": {
+				"overlay_color": "#E4FF19",
+				"base_color": "#0A0A0A"
+			}
+		}
+	}
+}

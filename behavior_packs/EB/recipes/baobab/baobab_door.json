@@ -1,0 +1,28 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "korbon:baobab_door"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~",
+			"~~",
+			"~~"
+		],
+		"key": {
+			"~": {
+				"item": "korbon:baobab_planks"
+			}
+		},
+		"result": [
+			{
+				"item": "korbon:baobab_door_item",
+				"count": 3
+			}
+		]
+	}
+}

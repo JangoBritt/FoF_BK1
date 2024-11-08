@@ -1,0 +1,14 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:goblin_hut_place_feature"
+		},
+		"early_out": "first_failure",
+		"features": [
+			"korbon:scatter_goblin_hut_feature",
+			"minecraft:goblin_hut_feature_mcstructure"
+		]
+	}
+}

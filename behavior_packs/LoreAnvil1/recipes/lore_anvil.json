@@ -1,0 +1,32 @@
+//bridge-file-version: #62
+{
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "la:lore_anvil"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ACA",
+			"#B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:diamond"
+			},
+			"B": {
+				"item": "minecraft:anvil"
+			},
+			"C": {
+				"item": "minecraft:feather"
+
+			}
+		},
+		"result": {
+			"item": "la:lore_anvil",
+			"count": 1
+		}
+	},
+	"format_version": "1.17.0"
+}

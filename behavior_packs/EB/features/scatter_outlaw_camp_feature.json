@@ -1,0 +1,37 @@
+//bridge-file-version: #200
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "korbon:scatter_outlaw_camp_feature"
+		},
+		"coordinate_eval_order": "xzy",
+		"iterations": 1,
+		"places_feature": "korbon:select_outlaw_structure_feature",
+		"x": {
+			"distribution": "jittered_grid",
+			"step_size": 14,
+			"grid_offset": 8,
+			"extent": [
+				0,
+				16
+			]
+		},
+		"z": {
+			"distribution": "jittered_grid",
+			"step_size": 14,
+			"grid_offset": 8,
+			"extent": [
+				0,
+				16
+			]
+		},
+		"y": {
+			"distribution": "gaussian",
+			"extent": [
+				-4,
+				4
+			]
+		}
+	}
+}

@@ -1,0 +1,29 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "kuma:rattumba",
+			"population_control": "monster"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "forest"
+				},
+				"minecraft:difficulty_filter": {
+					"min": "normal"
+				},
+				"minecraft:density_limit": {
+					"surface": 1
+				},
+				"minecraft:weight": {
+					"default": 5
+				}
+			}
+		]
+	}
+}

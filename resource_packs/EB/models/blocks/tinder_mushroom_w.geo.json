@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.tinder_mushroom_w",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"rotation": [-5, 0, 0],
+					"cubes": [
+						{"origin": [-12, 13.8, 4], "size": [8, 2, 8], "pivot": [0, -0.2, 0], "rotation": [90, -85, -90], "uv": [0, 12]},
+						{"origin": [-10, 2, 5], "size": [6, 2, 6], "pivot": [0, 0, 0], "rotation": [90, -85, -90], "uv": [0, 22]},
+						{"origin": [5, 8, 5], "size": [6, 2, 6], "pivot": [0, 0, 0], "rotation": [90, -85, -90], "uv": [0, 22]}
+					]
+				}
+			]
+		}
+	]
+}

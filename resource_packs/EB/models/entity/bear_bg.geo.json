@@ -1,0 +1,87 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bear_bg",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [-2, 15, 12]
+				},
+				{
+					"name": "torso",
+					"parent": "body",
+					"pivot": [-2, 12, 9],
+					"cubes": [
+						{"origin": [-10, 10, -6], "size": [20, 17, 18], "uv": [0, 0]},
+						{"origin": [-9, 10, -18], "size": [18, 18, 12], "uv": [0, 35]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 19, -18],
+					"cubes": [
+						{"origin": [-6, 14, -26], "size": [12, 12, 8], "uv": [52, 57]}
+					]
+				},
+				{
+					"name": "ears",
+					"parent": "head",
+					"pivot": [0, 26, -22],
+					"cubes": [
+						{"origin": [4, 25, -23], "size": [3, 3, 1], "uv": [1, 101]},
+						{"origin": [-7, 25, -23], "size": [3, 3, 1], "uv": [1, 101]}
+					]
+				},
+				{
+					"name": "mouth",
+					"parent": "head",
+					"pivot": [0, 16, -26],
+					"cubes": [
+						{"origin": [-3, 14, -31], "size": [6, 6, 5], "uv": [76, 21]}
+					]
+				},
+				{
+					"name": "leg0",
+					"parent": "body",
+					"pivot": [-7.5, 13, 7.5],
+					"cubes": [
+						{"origin": [-10.5, 0, 3.5], "size": [6, 13, 8], "uv": [60, 35]}
+					]
+				},
+				{
+					"name": "leg1",
+					"parent": "body",
+					"pivot": [7.5, 13, 7.5],
+					"cubes": [
+						{"origin": [4.5, 0, 3.5], "size": [6, 13, 8], "uv": [0, 65]}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "body",
+					"pivot": [-7, 14, -13],
+					"cubes": [
+						{"origin": [-9.5, 0, -16], "size": [6, 14, 7], "uv": [28, 70]}
+					]
+				},
+				{
+					"name": "leg3",
+					"parent": "body",
+					"pivot": [7, 14, -13],
+					"cubes": [
+						{"origin": [3.5, 0, -16], "size": [6, 14, 7], "uv": [76, 0]}
+					]
+				}
+			]
+		}
+	]
+}

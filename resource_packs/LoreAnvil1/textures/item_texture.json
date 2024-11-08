@@ -1,0 +1,10 @@
+{
+	"texture_data": {
+		"screwdriver": {
+			"textures": "textures/items/screwdriver.png"
+		},
+		"catalog": {
+			"textures": "textures/items/catalog"
+		}
+	}
+}

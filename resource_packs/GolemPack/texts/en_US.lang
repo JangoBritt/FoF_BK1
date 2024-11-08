@@ -1,0 +1,15 @@
+entity.fables_golem:rascal.name=Rascal
+item.spawn_egg.entity.fables_golem:rascal.name=Spawn Rascal
+
+entity.fables_golem:tuff_golem.name=Tuff Golem
+item.spawn_egg.entity.fables_golem:tuff_golem.name=Spawn Tuff Golem
+
+entity.fables_golem:copper_golem.name=Copper Golem
+item.spawn_egg.entity.fables_golem:copper_golem.name=Spawn Copper Golem
+action.interact.scrape=Scrape Copper Golem
+
+entity.fables_golem:redstone_mon.name=Redstone Monstrosity
+item.spawn_egg.entity.fables_golem:redstone_mon.name=Spawn Redstone Monstrosity
+
+entity.fables_golem:key_golem.name=Key Golem
+item.spawn_egg.entity.fables_golem:key_golem.name=Spawn Key Golem

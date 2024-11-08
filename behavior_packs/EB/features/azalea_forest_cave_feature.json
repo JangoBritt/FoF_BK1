@@ -1,0 +1,11 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.16.100",
+	"minecraft:cave_carver_feature": {
+		"description": {
+			"identifier": "korbon:azalea_forest_cave_feature"
+		},
+		"fill_with": "minecraft:air",
+		"width_modifier": 2.5
+	}
+}

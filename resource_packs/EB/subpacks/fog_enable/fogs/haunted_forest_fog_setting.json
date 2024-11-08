@@ -1,0 +1,29 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.100",
+	"minecraft:fog_settings": {
+		"description": {
+			"identifier": "korbon:haunted_forest_fog"
+		},
+		"distance": {
+			"air": {
+				"fog_start": 0,
+				"fog_end": 48,
+				"fog_color": "#989898",
+				"render_distance_type": "fixed"
+			},
+			"water": {
+				"fog_start": 1,
+				"fog_end": 15,
+				"fog_color": "#989898",
+				"render_distance_type": "fixed"
+			},
+			"weather": {
+				"fog_start": 0,
+				"fog_end": 25,
+				"fog_color": "#989898",
+				"render_distance_type": "fixed"
+			}
+		}
+	}
+}

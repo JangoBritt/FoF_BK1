@@ -1,0 +1,27 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "korbon:daisy_petals_feature"
+		},
+		"features": [
+			[
+				"korbon:daisy_petals1_feature",
+				1
+			],
+			[
+				"korbon:daisy_petals2_feature",
+				1
+			],
+			[
+				"korbon:daisy_petals3_feature",
+				1
+			],
+			[
+				"korbon:daisy_petals4_feature",
+				1
+			]
+		]
+	}
+}

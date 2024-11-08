@@ -1,0 +1,19 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "korbon:select_dead_tree_feature"
+		},
+		"features": [
+			[
+				"minecraft:dead_tree_1_mcstructure",
+				1
+			],
+			[
+				"minecraft:dead_tree_2_mcstructure",
+				1
+			]
+		]
+	}
+}

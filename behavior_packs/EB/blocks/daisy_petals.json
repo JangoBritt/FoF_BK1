@@ -1,0 +1,130 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:daisy_petals",
+			"menu_category": {
+				"category": "none"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			},
+			"states": {
+				"pinkpetals:growth": [
+					0,
+					1,
+					2,
+					3
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							270,
+							0
+						]
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.daisy_petals",
+				"bone_visibility": {
+					"front_left": "q.block_state('pinkpetals:growth') > 0",
+					"back_right": "q.block_state('pinkpetals:growth') > 1",
+					"back_left": "q.block_state('pinkpetals:growth') == 3"
+				}
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 30,
+				"destroy_chance_modifier": 100
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"grass",
+							"dirt",
+							"podzol",
+							"mycelium",
+							"dirt_with_roots",
+							"moss_block",
+							"mud",
+							"farmland",
+							"muddy_mangrove_roots"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					3,
+					16
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/daisy_petals.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "daisy_petals",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				},
+				"stem": {
+					"texture": "daisy_petals_stem",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:custom_components": [
+				"pinkpetals:patch_block"
+			]
+		},
+		"events": {}
+	}
+}

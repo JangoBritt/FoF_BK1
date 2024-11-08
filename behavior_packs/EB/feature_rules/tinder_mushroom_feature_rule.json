@@ -1,0 +1,53 @@
+//bridge-file-version: #43
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:tinder_mushroom_feature_rule",
+			"places_feature": "korbon:tinder_mushroom_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "birch"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "lots_of_tinder_mushrooms"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 13,
+			"x": {
+				"distribution": "gaussian",
+				"extent": [
+					0,
+					1
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					60,
+					255
+				]
+			},
+			"z": {
+				"distribution": "gaussian",
+				"extent": [
+					0,
+					1
+				]
+			}
+		}
+	}
+}

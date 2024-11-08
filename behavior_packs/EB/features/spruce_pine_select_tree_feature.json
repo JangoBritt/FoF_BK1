@@ -1,0 +1,23 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "korbon:spruce_pine_select_tree_feature"
+		},
+		"features": [
+			[
+				"korbon:spruce_pine_tree_feature",
+				10
+			],
+			[
+				"korbon:spruce_pine_tree_with_vines_feature",
+				1
+			],
+			[
+				"korbon:mega_spruce_pine_tree_feature",
+				1
+			]
+		]
+	}
+}

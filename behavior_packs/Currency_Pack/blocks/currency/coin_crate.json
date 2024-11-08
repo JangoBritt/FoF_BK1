@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fables_currency:coin_crate",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/currency/coin_crate.json",
+            "minecraft:geometry": "geometry.block",
+			"minecraft:friction": 0.7,
+			"minecraft:map_color": "#815100",
+
+			"minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 1
+            },
+            "tag:wood":{}
+		}
+	}
+}

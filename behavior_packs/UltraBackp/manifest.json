@@ -1,0 +1,58 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§fUltra §nBackpack",
+		"description": "§fUltra §nBackpack",
+		"uuid": "65c49b7a-e1c1-4c89-a8d3-01c99bd27c6b",
+		"version": [
+			2,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			20,
+			0
+		]
+	},
+	"capabilities": [
+		"script_eval"
+	],
+	"modules": [
+		{
+			"description": "§fUltra §nBackpack",
+			"version": [
+				2,
+				0,
+				0
+			],
+			"uuid": "c4c3bb3f-818f-4798-b094-fc312f721c3b",
+			"type": "data"
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "d9c4f066-7790-4813-b77e-f60588bca4c2",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.10.0"
+		},
+		{
+			"uuid": "9b234d43-48f4-4f87-81c0-64e9cca428ca",
+			"version": [
+				2,
+				0,
+				0
+			]
+		}
+	]
+}

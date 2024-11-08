@@ -1,0 +1,53 @@
+//bridge-file-version: #35
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "korbon:crocodile",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/crocodile"
+			},
+			"geometry": {
+				"default": "geometry.crocodile"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"enable_attachables": true,
+			"spawn_egg": {
+				"base_color": "#13250F",
+				"overlay_color": "#0E1B10"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+				],
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"crocodile_attack": "query.has_target"
+					},
+					{
+						"crocodile_swim": "query.is_in_water&&query.modified_move_speed"
+					},
+					{
+						"crocodile_bite": "variable.attack_time > 0.1"
+					}
+				]
+			},
+			"animations": {
+				"move": "animation.crocodile.move",
+				"crocodile_attack": "animation.crocodile.attack",
+				"crocodile_swim": "animation.crocodile.swim",
+				"look_at_target": "animation.common.look_at_target",
+				"crocodile_bite": "animation.crocodile.bite"
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "korbon:barrel_from_baobab"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "#~#", 
+            "# #",
+            "#~#"
+        ],
+        "key": {
+            "~": {
+                "item": "korbon:baobab_slab"
+            },
+            "#": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:barrel",
+				"count": 1
+			}
+		]
+    }
+}

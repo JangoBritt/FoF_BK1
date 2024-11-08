@@ -1,0 +1,14 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:maple_spruce_tree_feature"
+		},
+		"early_out": "first_success",
+		"features": [
+			"minecraft:optional_fallen_spruce_tree_feature",
+			"korbon:maple_forest_spruce_tree_feature"
+		]
+	}
+}

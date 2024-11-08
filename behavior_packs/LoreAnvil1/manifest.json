@@ -1,0 +1,68 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Lore Anvil 1.1 BP",
+		"description": "Created by Ezekielico\nMore Add-Ons at www.trmc-studios.com",
+		"uuid": "f0d1778d-2bae-41b2-94c7-9544b40106b0",
+		"version": [
+			1,
+			4,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			0
+		]
+	},
+	"metadata": {
+		"authors": [
+			"Ezekielico"
+		],
+		"generated_with": {
+			"bridge": [
+				"1.8.4"
+			]
+		}
+	},
+	"modules": [
+		{
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "c94421f0-f164-40a1-9c5b-ef77e39e7a9f",
+			"type": "script"
+		},
+		{
+			"description": "Lore Anvil Behavior Pack",
+			"version": [
+				1,
+				5,
+				0
+			],
+			"uuid": "0465a2c1-c7b3-46be-865a-821948acc5c6",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "efbba891-5e91-45e3-843e-cd6ac6c2fb4f",
+			"version": [
+				1,
+				5,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.13.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0"
+		}
+	]
+}

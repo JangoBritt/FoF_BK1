@@ -1,0 +1,44 @@
+//bridge-file-version: #44
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "korbon:grizzly_bear",
+			"materials": {
+				"default": "polar_bear"
+			},
+			"textures": {
+				"default": "textures/entity/bears/grizzly_bear"
+			},
+			"geometry": {
+				"default": "geometry.bear_bg"
+			},
+			"scripts": {
+				"scale": 1.2
+			},
+			"animations": {
+				"walk": "animation.quadruped.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.bear.baby_transform",
+				"attack": "animation.bear.attack",
+				"move": "animation.bear.move",
+				"idle": "animation.bear.idle"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.bear.move"
+				},
+				{
+					"baby": "controller.animation.bear.baby"
+				}
+			],
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#73492F",
+				"overlay_color": "#3D251D"
+			}
+		}
+	}
+}

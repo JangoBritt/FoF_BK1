@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Lore Anvil 1.1 RP",
+		"description": "Created by Ezekielico\nMore Add-Ons at www.trmc-studios.com",
+		"uuid": "efbba891-5e91-45e3-843e-cd6ac6c2fb4f",
+		"version": [1, 5, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Ezekielico"],
+		"generated_with": {
+			"blockbench_block_wizard": ["1.2.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Lore Anvil Resource Pack",
+			"type": "resources",
+			"uuid": "c3d5ce21-5a23-4dbc-bf2c-a17c02cd2be3",
+			"version": [1, 5, 0]
+		}
+	]
+}

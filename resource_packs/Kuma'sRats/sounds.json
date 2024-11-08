@@ -1,0 +1,47 @@
+//bridge-file-version: #27
+{
+	"individual_event_sounds": {
+		"events": {}
+	},
+	"block_sounds": {},
+	"entity_sounds": {
+		"entities": {
+			"kuma:gray_comun_rat": {
+				"volume": 0.5,
+				"pitch": 1,
+				"events": {
+					"ambient": "mob.rata.natural",
+					"hurt": "mob.rata.hurt",
+					"step": "mob.rat.step"
+				}
+			},
+			"kuma:kangaroo_rat": {
+				"volume": 0.5,
+				"pitch": 1.5,
+				"events": {
+					"ambient": "mob.rata.natural",
+					"hurt": "mob.rata.hurt",
+					"step": "mob.rat.step"
+				}
+			},
+			"kuma:mount_rat": {
+				"volume": 0.5,
+				"pitch": 1,
+				"events": {
+					"ambient": "mob.rata.natural",
+					"hurt": "mob.rata.hurt",
+					"attack": "mob.mountablerat.attack"
+				}
+			},
+			"kuma:skeleton_rat": {
+				"volume": 0.5,
+				"pitch": 1,
+				"events": {
+					"step": "mob.skeletonrat.step",
+					"ambient": "mob.skeletonrat.ambient",
+					"hurt": "mob.skeletonrat.hurt"
+				}
+			}
+		}
+	}
+}

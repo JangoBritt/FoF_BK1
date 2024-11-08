@@ -1,0 +1,28 @@
+//bridge-file-version: #36
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:deadfern_item",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.flower"
+			}
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "korbon:deadfern"
+			},
+			"minecraft:display_name": {
+				"value": "item.korbon:deadfern_item.name"
+			},
+			"minecraft:block_placer": {
+				"block": "korbon:deadfern_bottom"
+			}
+		},
+		"events": {}
+	}
+}

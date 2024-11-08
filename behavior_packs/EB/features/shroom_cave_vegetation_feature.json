@@ -1,0 +1,14 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:shroom_cave_vegetation_feature"
+		},
+		"early_out": "none",
+		"features": [
+			"korbon:small_mushroom_feature",
+			"minecraft:scatter_tall_grass_feature"
+		]
+	}
+}

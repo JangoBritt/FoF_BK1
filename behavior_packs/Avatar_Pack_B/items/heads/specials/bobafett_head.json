@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fables_avatars:bobafett_head_item"
+		},
+		"components": {
+            "minecraft:icon": "bobafett_head_item", 
+			"minecraft:entity_placer": {
+				"entity": "fables_avatars:bobafett_head"
+			}
+		}
+	}
+}

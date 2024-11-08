@@ -1,0 +1,105 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "lootr:byplayer",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"kills": {
+				"minecraft:transformation": {
+					"delay": {
+						"value": 0
+					},
+					"drop_inventory": false,
+					"into": "lootr:nothing"
+				}
+			},
+			"lootr:add_collision": {
+				"minecraft:collision_box": {
+					"width": 1,
+					"height": 1
+				}
+			},
+			"respawn": {
+				"minecraft:transformation": {
+					"into": "lootr:byplayer",
+					"delay": 0.1,
+					"drop_inventory": false
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"inanimate"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					},
+					{
+						"cause": "suffocation",
+						"deals_damage": false
+					},
+					{
+						"cause": "entity_attack",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:on_death": {
+				"event": "respawn"
+			},
+			"minecraft:breathable": {
+				"breathes_solids": true,
+				"breathes_water": true,
+				"breathes_air": true,
+				"breathes_lava": true,
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"events": {
+			"kill": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"kills"
+							]
+						}
+					}
+				]
+			},
+			"respawn": {
+				"add": {
+					"component_groups": [
+						"respawn"
+					]
+				}
+			}
+		}
+	}
+}

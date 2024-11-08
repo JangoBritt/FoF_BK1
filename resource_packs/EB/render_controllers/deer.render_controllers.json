@@ -1,0 +1,30 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.deer": {
+			"arrays": {
+				"textures": {
+					"Array.base": [
+						"Texture.deer",
+						"Texture.deer_doe",
+						"Texture.deer_fawn"
+					],
+					"Array.decor": [
+						"Texture.deer"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.base[query.variant]",
+				"Array.base[query.mark_variant]"
+			]
+		}
+	}
+}

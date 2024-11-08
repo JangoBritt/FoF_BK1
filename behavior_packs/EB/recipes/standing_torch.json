@@ -1,0 +1,30 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "korbon:standing_torch"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:torch"
+			},
+			"B": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "korbon:standing_torch_item",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

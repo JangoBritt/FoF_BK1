@@ -1,0 +1,13 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:frozen_forest_tree_with_snowdrop_feature"
+		},
+		"features": [
+			"korbon:frozen_forest_oak_tree_feature",
+			"korbon:snowdrop_around_tree_feature"
+		]
+	}
+}

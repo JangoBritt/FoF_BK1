@@ -1,0 +1,21 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "korbon:aloe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "korbon:aloe_vera_item"
+			}
+		],
+		"result": {
+			"item": "korbon:aloe",
+			"count": 3
+		}
+	}
+}

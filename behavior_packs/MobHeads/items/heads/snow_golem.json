@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:snow_golem_item"
+		},
+		"components": {
+            "minecraft:icon": "fmh_snow_golem_item", 
+			"minecraft:entity_placer": {
+				"entity": "fmh:snow_golem"
+			}
+		}
+	}
+}

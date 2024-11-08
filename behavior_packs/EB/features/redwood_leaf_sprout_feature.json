@@ -1,0 +1,15 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:redwood_leaf_sprout_feature"
+		},
+		"features": [
+			"korbon:redwood_leaf_sprout_scatter_s_feature",
+			"korbon:redwood_leaf_sprout_scatter_n_feature",
+			"korbon:redwood_leaf_sprout_scatter_w_feature",
+			"korbon:redwood_leaf_sprout_scatter_e_feature"
+		]
+	}
+}

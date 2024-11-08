@@ -1,0 +1,287 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:jacaranda_door",
+			"menu_category": {
+				"category": "none"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			},
+			"states": {
+				"korbon:open_bit": [
+					false,
+					true
+				],
+				"korbon:upper_block_bit": [
+					false,
+					true
+				],
+				"korbon:door_hinge_bit": [
+					false,
+					true
+				],
+				"korbon:tool": [
+					"default",
+					"wood",
+					"stone",
+					"iron",
+					"gold",
+					"diamond",
+					"netherite"
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							270,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:open_bit') && !q.block_state('korbon:door_hinge_bit')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							5,
+							0,
+							-8
+						],
+						"size": [
+							3,
+							16,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							5,
+							0,
+							-8
+						],
+						"size": [
+							3,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:open_bit') && q.block_state('korbon:door_hinge_bit')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							3,
+							16,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							3,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('korbon:upper_block_bit')",
+				"components": {
+					"minecraft:custom_components": [
+						"korbon:jacaranda_on_place",
+						"korbon:jacaranda_on_interact",
+						"korbon:jacaranda_on_tick"
+					],
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "jacaranda_door_bottom",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:upper_block_bit')",
+				"components": {
+					"minecraft:custom_components": [
+						"korbon:jacaranda_on_interact",
+						"korbon:jacaranda_on_tick"
+					],
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "jacaranda_door_top",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'default'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 2.5
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'wood'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.85
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'stone'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.6
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'iron'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.4
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'gold'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.2
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'diamond'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.32
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('korbon:tool') == 'netherite'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.28
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:custom_components": [
+				"korbon:jacaranda_on_interact"
+			],
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					5
+				],
+				"size": [
+					16,
+					16,
+					3
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					5
+				],
+				"size": [
+					16,
+					16,
+					3
+				]
+			},
+			"minecraft:tick": {
+				"interval_range": [
+					3,
+					3
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 3
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.door",
+				"bone_visibility": {
+					"door_open": "q.block_state('korbon:open_bit') && !q.block_state('korbon:door_hinge_bit')",
+					"door_closed": "!q.block_state('korbon:open_bit') && !q.block_state('korbon:door_hinge_bit')",
+					"door_open_flipped": "q.block_state('korbon:open_bit') && q.block_state('korbon:door_hinge_bit')",
+					"door_closed_flipped": "!q.block_state('korbon:open_bit') && q.block_state('korbon:door_hinge_bit')"
+				}
+			},
+			"minecraft:loot": "loot_tables/blocks/jacaranda_door.json",
+			"tag:k_custom_mining_speed": {},
+			"tag:k_correct_tool:axe": {}
+		},
+		"events": {}
+	}
+}

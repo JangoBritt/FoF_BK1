@@ -1,0 +1,58 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "korbon:lurker",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/lurker"
+			},
+			"geometry": {
+				"default": "geometry.lurker"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+				]
+			},
+			"animations": {
+				"look_at_target_default": "animation.humanoid.look_at_target.default.v1.0",
+				"look_at_target_swimming": "animation.humanoid.look_at_target.swimming.v1.0",
+				"walk": "animation.lurker.walk",
+				"idle": "animation.lurker.idle",
+				"chase": "animation.lurker.chase",
+				"no_target": "animation.lurker.idle_no_target"
+			},
+			"animation_controllers": [
+				{
+					"look_at_target": "controller.animation.humanoid.look_at_target"
+				},
+				{
+					"walk": "controller.animation.lurker.move"
+				},
+				{
+					"idle": "controller.animation.lurker.idle"
+				},
+				{
+					"chase": "controller.animation.lurker.chase"
+				}
+			],
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"enable_attachables": true,
+			"spawn_egg": {
+				"base_color": "#05B9AD",
+				"overlay_color": "#016904"
+			},
+			"sound_effects": {
+				"cry": "mob.lurker.cry",
+				"cry2": "mob.lurker.cry2",
+				"cry3": "mob.lurker.cry3"
+			}
+		}
+	}
+}

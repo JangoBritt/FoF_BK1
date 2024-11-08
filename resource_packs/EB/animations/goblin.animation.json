@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.goblin.idle": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [0, 0, "math.cos(query.life_time * 200.6) * 2.0"]
+				},
+				"ear1": {
+					"rotation": [0, "math.cos(query.life_time * 200.6) * 10.0", 0]
+				},
+				"ear2": {
+					"rotation": [0, "math.cos(query.life_time * 200.6) * -10.0", 0]
+				},
+				"pack": {
+					"rotation": ["math.cos(query.life_time * 200.6) * 1.0", 0, 0],
+					"position": [0, "math.cos(query.life_time * 200.6) * 0.15", 0]
+				}
+			}
+		}
+	}
+}

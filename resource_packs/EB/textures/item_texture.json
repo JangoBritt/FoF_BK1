@@ -1,0 +1,360 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"korbon:mud_bucket": {
+			"textures": [
+				"textures/items/bucket_mud"
+			]
+		},
+		"korbon:small_cactus": {
+			"textures": [
+				"textures/items/small_cactus"
+			]
+		},
+		"korbon:coconut": {
+			"textures": [
+				"textures/items/coconut"
+			]
+		},
+		"korbon:coconut_open": {
+			"textures": [
+				"textures/items/coconut_open"
+			]
+		},
+		"korbon:lavender": {
+			"textures": [
+				"textures/items/lavender_flower"
+			]
+		},
+		"korbon:dune_grass": {
+			"textures": [
+				"textures/items/dune_grass"
+			]
+		},
+		"korbon:cherry": {
+			"textures": [
+				"textures/items/cherry"
+			]
+		},
+		"korbon:crocodile_meat_raw": {
+			"textures": [
+				"textures/items/crocodile_meat_raw"
+			]
+		},
+		"korbon:crocodile_meat_cooked": {
+			"textures": [
+				"textures/items/crocodile_meat_cooked"
+			]
+		},
+		"korbon:frog_leg_raw": {
+			"textures": [
+				"textures/items/frog_leg_raw"
+			]
+		},
+		"korbon:frog_leg_cooked": {
+			"textures": [
+				"textures/items/frog_leg_cooked"
+			]
+		},
+		"grizzly_bear": {
+			"textures": [
+				"textures/items/grizzly_bear"
+			]
+		},
+		"grizzly_bear_pelt": {
+			"textures": [
+				"textures/items/grizzly_bear_pelt"
+			]
+		},
+		"black_bear_pelt": {
+			"textures": [
+				"textures/items/black_bear_pelt"
+			]
+		},
+		"grizzly_bear_pelt_chestplate": {
+			"textures": [
+				"textures/items/grizzly_bear_pelt_chestplate"
+			]
+		},
+		"grizzly_bear_pelt_leggings": {
+			"textures": [
+				"textures/items/grizzly_bear_pelt_leggings"
+			]
+		},
+		"grizzly_bear_pelt_boots": {
+			"textures": [
+				"textures/items/grizzly_bear_pelt_boots"
+			]
+		},
+		"grizzly_bear_pelt_helmet": {
+			"textures": [
+				"textures/items/grizzly_bear_pelt_helmet"
+			]
+		},
+		"korbon:jacaranda_sapling_item": {
+			"textures": [
+				"textures/items/jacaranda_sapling"
+			]
+		},
+		"vibranium_chestplate": {
+			"textures": [
+				"textures/items/vibranium_chestplate"
+			]
+		},
+		"vibranium_leggings": {
+			"textures": [
+				"textures/items/vibranium_leggings"
+			]
+		},
+		"vibranium_boots": {
+			"textures": [
+				"textures/items/vibranium_boots"
+			]
+		},
+		"vibranium_helmet": {
+			"textures": [
+				"textures/items/vibranium_helmet"
+			]
+		},
+		"korbon:vibranium": {
+			"textures": [
+				"textures/items/vibranium"
+			]
+		},
+		"korbon:vibranium_sword": {
+			"textures": [
+				"textures/items/vibranium_sword"
+			]
+		},
+		"korbon:vibranium_pickaxe": {
+			"textures": [
+				"textures/items/vibranium_pickaxe"
+			]
+		},
+		"korbon:large_vibrant_dripstone_down": {
+			"textures": [
+				"textures/items/vibrant_dripstone_big_down"
+			]
+		},
+		"korbon:vibranium_ingot": {
+			"textures": [
+				"textures/items/vibranium_ingot"
+			]
+		},
+		"korbon:vibranium_axe": {
+			"textures": [
+				"textures/items/vibranium_axe"
+			]
+		},
+		"korbon:vibranium_shovel": {
+			"textures": [
+				"textures/items/vibranium_shovel"
+			]
+		},
+		"syrup_bottle": {
+			"textures": [
+				"textures/items/syrup_bottle"
+			]
+		},
+		"maple_sapling_item": {
+			"textures": [
+				"textures/items/maple_sapling"
+			]
+		},
+		"korbon:hanging_icicles_item": {
+			"textures": [
+				"textures/items/icicles"
+			]
+		},
+		"korbon:buttercup": {
+			"textures": [
+				"textures/items/buttercup"
+			]
+		},
+		"korbon:brittlebright": {
+			"textures": [
+				"textures/blocks/brittlebright"
+			]
+		},
+		"korbon:standing_torch": {
+			"textures": [
+				"textures/items/standing_torch"
+			]
+		},
+		"korbon:glass_jar_firefly_item": {
+			"textures": [
+				"textures/items/firefly_jar"
+			]
+		},
+		"korbon:glass_jar_item": {
+			"textures": [
+				"textures/items/glass_jar"
+			]
+		},
+		"korbon:vibranium_hoe": {
+			"textures": [
+				"textures/items/vibranium_hoe"
+			]
+		},
+		"korbon:redwood_sapling_item": {
+			"textures": [
+				"textures/items/redwood_sapling"
+			]
+		},
+		"korbon:venison_raw": {
+			"textures": [
+				"textures/items/venison_raw"
+			]
+		},
+		"korbon:venison_cooked": {
+			"textures": [
+				"textures/items/venison_cooked"
+			]
+		},
+		"deer_antler": {
+			"textures": [
+				"textures/items/deer_antler"
+			]
+		},
+		"korbon:ice_ball": {
+			"textures": [
+				"textures/items/ice_ball"
+			]
+		},
+		"korbon:snowdrop": {
+			"textures": [
+				"textures/items/snowdrop_flower"
+			]
+		},
+		"korbon:ectoplasm": {
+			"textures": [
+				"textures/items/ectoplasm"
+			]
+		},
+		"korbon:cattail": {
+			"textures": [
+				"textures/items/cattail"
+			]
+		},
+		"korbon:violet": {
+			"textures": [
+				"textures/items/violet_flower"
+			]
+		},
+		"korbon:jacaranda_door": {
+			"textures": [
+				"textures/items/jacaranda_door"
+			]
+		},
+		"korbon:redwood_door": {
+			"textures": [
+				"textures/items/redwood_door"
+			]
+		},
+		"korbon:bluebell": {
+			"textures": [
+				"textures/items/bluebell"
+			]
+		},
+		"korbon:aloe_vera": {
+			"textures": [
+				"textures/items/aloe_vera"
+			]
+		},
+		"korbon:aloe": {
+			"textures": [
+				"textures/items/aloe"
+			]
+		},
+		"korbon:brittlebush": {
+			"textures": [
+				"textures/items/brittlebush"
+			]
+		},
+		"korbon:stinger_knife": {
+			"textures": [
+				"textures/items/stinger_knife"
+			]
+		},
+		"korbon:stinger": {
+			"textures": [
+				"textures/items/stinger"
+			]
+		},
+		"korbon:sulfur": {
+			"textures": [
+				"textures/items/sulfur"
+			]
+		},
+		"korbon:dweller_flesh": {
+			"textures": [
+				"textures/items/dweller_flesh"
+			]
+		},
+		"korbon:jungfern": {
+			"textures": [
+				"textures/items/jungfern"
+			]
+		},
+		"korbon:didymoch": {
+			"textures": [
+				"textures/items/didymoch"
+			]
+		},
+		"korbon:glowshroom": {
+			"textures": [
+				"textures/items/glowshroom"
+			]
+		},
+		"korbon:aspen_sapling_item": {
+			"textures": [
+				"textures/items/aspen_sapling"
+			]
+		},
+		"tinder_mushrooms": {
+			"textures": [
+				"textures/items/tinder_mushrooms"
+			]
+		},
+		"korbon:wild_wheat": {
+			"textures": [
+				"textures/items/wild_wheat"
+			]
+		},
+		"korbon:deadfern": {
+			"textures": [
+				"textures/items/deadfern"
+			]
+		},
+		"korbon:daisy_petals_item": {
+			"textures": [
+				"textures/items/daisy_petals",
+				"textures/items/daisy_petals"
+			]
+		},
+		"korbon:baobab_sapling_item": {
+			"textures": [
+				"textures/items/baobab_sapling"
+			]
+		},
+		"korbon:baobab_door": {
+			"textures": [
+				"textures/items/baobab_door"
+			]
+		},
+		"korbon:autumn_sapling_item": {
+			"textures": [
+				"textures/items/autumn_sapling"
+			]
+		},
+		"korbon:bolas": {
+			"textures": "textures/items/bolas"
+		},
+		"korbon:redwood_leaf_sprout": {
+			"textures": [
+				"textures/blocks/redwood_leaf_sprout"
+			]
+		}
+	}
+}

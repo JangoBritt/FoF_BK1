@@ -1,0 +1,30 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.13.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "kuma:kangaroo_rat",
+			"population_control": "animal"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "desert"
+				},
+				"minecraft:herd": {
+					"min_size": 2,
+					"max_size": 3
+				},
+				"minecraft:spawns_on_block_filter": [
+					"minecraft:sand"
+				],
+				"minecraft:density_limit": {
+					"surface": 1
+				}
+			}
+		]
+	}
+}

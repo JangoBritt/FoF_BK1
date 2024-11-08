@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:daisy_petals_item",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.flower"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "korbon:daisy_petals_item"
+			},
+			"minecraft:block_placer": {
+				"block": "korbon:daisy_petals",
+				"use_block_description": true
+			},
+			"minecraft:display_name": {
+				"value": "item.korbon:daisy_petals_item.name"
+			}
+		},
+		"events": {}
+	}
+}

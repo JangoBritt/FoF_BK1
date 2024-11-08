@@ -1,0 +1,42 @@
+//bridge-file-version: #32
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:lots_of_bamboo_feature",
+			"places_feature": "korbon:bamboo_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "jungle"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "math.clamp(math.trunc(math.ceil((query.noise(math.trunc(variable.originx / 1), math.trunc(variable.originz /1)) + 0.3) * 10)), 1, 3)",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

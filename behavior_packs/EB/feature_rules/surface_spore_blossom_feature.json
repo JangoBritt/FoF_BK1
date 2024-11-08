@@ -1,0 +1,48 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:surface_spore_blossom_feature",
+			"places_feature": "minecraft:spore_blossom_snap_to_ceiling_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "roofed"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 3,
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					58,
+					75
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

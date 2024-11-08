@@ -1,0 +1,393 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"korbon:small_cactus": {
+		"textures": "small_cactus",
+		"sound": "vines"
+	},
+	"korbon:coconut_block": {
+		"textures": "coconut_block",
+		"sound": "stone"
+	},
+	"korbon:black_sand": {
+		"textures": "black_sand",
+		"sound": "sand"
+	},
+	"korbon:cherry_blossom_leaves": {
+		"textures": "cherry_blossom_leaves",
+		"sound": "grass"
+	},
+	"korbon:lavender_flower": {
+		"textures": "lavender_flower",
+		"sound": "grass"
+	},
+	"korbon:jacaranda_leaves": {
+		"textures": "jacaranda_leaves",
+		"sound": "grass"
+	},
+	"korbon:jacaranda_log": {
+		"sound": "wood"
+	},
+	"korbon:jacaranda_planks": {
+		"textures": "jacaranda_planks",
+		"sound": "wood"
+	},
+	"korbon:dune_grass": {
+		"textures": "dune_grass",
+		"sound": "grass"
+	},
+	"korbon:autumn_oak_leaves": {
+		"textures": "autumn_oak_leaves",
+		"sound": "grass"
+	},
+	"korbon:jacaranda_sapling_block": {
+		"textures": "jacaranda_sapling_block",
+		"sound": "grass"
+	},
+	"korbon:autumn_oak_leaf_pile": {
+		"sound": "grass",
+		"textures": "autumn_oak_leaf_pile"
+	},
+	"korbon:autumn_birch_leaf_pile": {
+		"textures": "autumn_birch_leaf_pile",
+		"sound": "grass"
+	},
+	"korbon:vibranium_ore": {
+		"sound": "stone",
+		"textures": "vibranium_ore"
+	},
+	"korbon:maple_leaves": {
+		"textures": "maple_leaves",
+		"sound": "grass"
+	},
+	"korbon:maple_sapling_block": {
+		"textures": "maple_sapling_block",
+		"sound": "grass"
+	},
+	"korbon:syrup_block": {
+		"textures": "syrup_block",
+		"sound": "honey_block"
+	},
+	"korbon:dune_sand": {
+		"textures": "dune_sand",
+		"sound": "sand"
+	},
+	"korbon:icicles_down": {
+		"textures": "icicles_down",
+		"sound": "glass"
+	},
+	"korbon:vibranium_ore_deepslate": {
+		"textures": "vibranium_ore_deepslate",
+		"sound": "deepslate"
+	},
+	"korbon:buttercup": {
+		"textures": "buttercup",
+		"sound": "grass"
+	},
+	"korbon:moss_carpet_vertical": {
+		"textures": "moss_carpet_vertical",
+		"sound": "moss_block"
+	},
+	"korbon:moss_carpet_vertical_n": {
+		"textures": "moss_carpet_vertical",
+		"sound": "moss_block"
+	},
+	"korbon:moss_carpet_vertical_s": {
+		"textures": "moss_carpet_vertical",
+		"sound": "moss_block"
+	},
+	"korbon:moss_carpet_vertical_e": {
+		"textures": "moss_carpet_vertical",
+		"sound": "moss_block"
+	},
+	"korbon:moss_carpet_vertical_w": {
+		"textures": "moss_carpet_vertical",
+		"sound": "moss_block"
+	},
+	"korbon:brittlebright": {
+		"textures": "brittlebright",
+		"sound": "roots"
+	},
+	"korbon:standing_torch_bottom": {
+		"textures": "standing_torch_bottom",
+		"sound": "wood"
+	},
+	"korbon:standing_torch_top": {
+		"textures": "standing_torch_top",
+		"sound": "wood"
+	},
+	"korbon:glass_jar_firefly": {
+		"textures": "firefly_jar",
+		"sound": "glass"
+	},
+	"korbon:glass_jar": {
+		"textures": "glass_jar",
+		"sound": "glass"
+	},
+	"korbon:redwood_log": {
+		"sound": "wood"
+	},
+	"korbon:redwood_leaves": {
+		"textures": "redwood_leaves",
+		"sound": "grass"
+	},
+	"korbon:redwood_fence": {
+		"textures": "redwood_planks",
+		"sound": "wood"
+	},
+	"korbon:redwood_planks": {
+		"textures": "redwood_planks",
+		"sound": "wood"
+	},
+	"korbon:redwood_stairs": {
+		"sound": "wood"
+	},
+	"korbon:redwood_fence_gate": {
+		"sound": "wood"
+	},
+	"korbon:redwood_slab": {
+		"sound": "wood"
+	},
+	"korbon:stripped_redwood_log": {
+		"sound": "wood"
+	},
+	"korbon:redwood_wood": {
+		"sound": "wood"
+	},
+	"korbon:redwood_trapdoor": {
+		"sound": "wood"
+	},
+	"korbon:stripped_redwood_wood": {
+		"sound": "wood"
+	},
+	"korbon:redwood_sapling_block": {
+		"sound": "grass",
+		"textures": "redwood_sapling"
+	},
+	"korbon:deer_trophy": {
+		"textures": "deer_trophy",
+		"sound": "wood"
+	},
+	"korbon:jacaranda_fence": {
+		"textures": "jacaranda_planks",
+		"sound": "wood"
+	},
+	"korbon:jacaranda_stairs": {
+		"textures": "jacaranda_planks",
+		"sound": "wood"
+	},
+	"korbon:jacaranda_fence_gate": {
+		"sound": "wood"
+	},
+	"korbon:jacaranda_slab": {
+		"sound": "wood"
+	},
+	"korbon:stripped_jacaranda_log": {
+		"sound": "wood"
+	},
+	"korbon:jacaranda_wood": {
+		"sound": "wood"
+	},
+	"korbon:jacaranda_trapdoor": {
+		"sound": "wood"
+	},
+	"korbon:stripped_jacaranda_wood": {
+		"sound": "wood"
+	},
+	"korbon:snowdrop_flower": {
+		"textures": "snowdrop_flower",
+		"sound": "grass"
+	},
+	"korbon:cattail_bottom": {
+		"textures": "cattail_bottom",
+		"sound": "grass"
+	},
+	"korbon:cattail_top": {
+		"textures": "cattail_top",
+		"sound": "grass"
+	},
+	"korbon:tinder_mushrooms": {
+		"textures": "tinder_mushroom",
+		"sound": "stem"
+	},
+	"korbon:tinder_mushroom_e": {
+		"textures": "tinder_mushroom",
+		"sound": "stem"
+	},
+	"korbon:tinder_mushroom_n": {
+		"textures": "tinder_mushroom",
+		"sound": "stem"
+	},
+	"korbon:tinder_mushroom_s": {
+		"textures": "tinder_mushroom",
+		"sound": "stem"
+	},
+	"korbon:tinder_mushroom_w": {
+		"textures": "tinder_mushroom",
+		"sound": "stem"
+	},
+	"korbon:violet_flower": {
+		"textures": "violet_flower",
+		"sound": "grass"
+	},
+	"korbon:bluebell": {
+		"textures": "bluebell",
+		"sound": "grass"
+	},
+	"korbon:aloe_vera": {
+		"textures": "aloe_vera",
+		"sound": "vines"
+	},
+	"korbon:brittlebush": {
+		"textures": "brittlebush",
+		"sound": "grass"
+	},
+	"korbon:sulfur_ore": {
+		"textures": "sulfur_ore"
+	},
+	"korbon:sulfur_ore_deepslate": {
+		"textures": "sulfur_ore_deepslate",
+		"sound": "deepslate"
+	},
+	"korbon:jungfern_top": {
+		"textures": "jungfern_top",
+		"sound": "grass"
+	},
+	"korbon:jungfern_bottom": {
+		"textures": "jungfern_bottom",
+		"sound": "grass"
+	},
+	"korbon:didymoch": {
+		"textures": "didymoch",
+		"sound": "grass"
+	},
+	"korbon:ultisol": {
+		"textures": "ultisol",
+		"sound": "gravel"
+	},
+	"korbon:glowshroom": {
+		"textures": "glowshroom",
+		"sound": "nether_wart"
+	},
+	"korbon:glowshroom_block": {
+		"sound": "wood",
+		"textures": {
+			"up": "glowshroom_block",
+			"side": "glowshroom_block",
+			"down": "mushroom_brown_bottom"
+		}
+	},
+	"korbon:aspen_leaves": {
+		"sound": "grass",
+		"textures": {
+			"up": "aspen_leaves",
+			"down": "aspen_leaves",
+			"side": "aspen_leaves"
+		}
+	},
+	"korbon:aspen_sapling_block": {
+		"sound": "grass",
+		"textures": "aspen_sapling"
+	},
+	"korbon:aspen_leaf_pile": {
+		"textures": "aspen_leaf_pile",
+		"sound": "grass"
+	},
+	"korbon:wild_wheat": {
+		"textures": "wild_wheat",
+		"sound": "grass"
+	},
+	"korbon:strata": {
+		"textures": "strata",
+		"sound": "packed_mud"
+	},
+	"korbon:deadfern_bottom": {
+		"textures": "deadfern_bottom",
+		"sound": "grass"
+	},
+	"korbon:deadfern_top": {
+		"textures": "deadfern_top",
+		"sound": "grass"
+	},
+	"korbon:daisy_petals": {
+		"sound": "pink_petals"
+	},
+	"korbon:baobab_log": {
+		"sound": "wood"
+	},
+	"korbon:baobab_planks": {
+		"textures": "baobab_planks",
+		"sound": "wood"
+	},
+	"korbon:stripped_baobab_log": {
+		"sound": "wood"
+	},
+	"korbon:stripped_baobab_wood": {
+		"sound": "wood"
+	},
+	"korbon:baobab_wood": {
+		"sound": "wood"
+	},
+	"korbon:baobab_sapling_block": {
+		"textures": "baobab_sapling",
+		"sound": "grass"
+	},
+	"korbon:baobab_leaves": {
+		"textures": "baobab_leaves",
+		"sound": "grass"
+	},
+	"korbon:baobab_trapdoor": {
+		"textures": "baobab_trapdoor",
+		"sound": "wood"
+	},
+	"korbon:autumn_sapling_block": {
+		"textures": "autumn_sapling_block",
+		"sound": "grass"
+	},
+	"korbon:autumn_oak_leaves2": {
+		"textures": "autumn_oak_leaves2",
+		"sound": "grass"
+	},
+	"korbon:baobab_fence_inventory": {
+		"sound": "wood"
+	},
+	"korbon:baobab_fence": {
+		"sound": "wood"
+	},
+	"korbon:baobab_fence_gate": {
+		"sound": "wood"
+	},
+	"korbon:jacaranda_fence_inventory": {
+		"sound": "wood"
+	},
+	"korbon:redwood_fence_inventory": {
+		"sound": "wood"
+	},
+	"korbon:redwood_leaf_sprout": {
+		"textures": "redwood_leaf_sprout",
+		"sound": "grass"
+	},
+	"korbon:redwood_leaf_sprout_n": {
+		"textures": "redwood_leaf_sprout",
+		"sound": "grass"
+	},
+	"korbon:redwood_leaf_sprout_s": {
+		"textures": "redwood_leaf_sprout",
+		"sound": "grass"
+	},
+	"korbon:redwood_leaf_sprout_e": {
+		"textures": "redwood_leaf_sprout",
+		"sound": "grass"
+	},
+	"korbon:redwood_leaf_sprout_w": {
+		"textures": "redwood_leaf_sprout",
+		"sound": "grass"
+	},
+	"korbon:maple_log_syrup": {
+		"textures": "maple_log_syrup",
+		"sound": "wood"
+	}
+}

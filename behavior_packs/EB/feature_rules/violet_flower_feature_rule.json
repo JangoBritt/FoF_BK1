@@ -1,0 +1,53 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:violet_flower_feature_rule",
+			"places_feature": "korbon:violet_flower_scatter_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "taiga"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "mega"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "(query.noise((variable.originx + 8) / 200.0, (variable.originz + 8) / 200.0) < -0.8) ? 15 : 4",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					"query.heightmap(variable.worldx, variable.worldz) + 32"
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"scatter_chance": {
+				"numerator": 3,
+				"denominator": 6
+			}
+		}
+	}
+}

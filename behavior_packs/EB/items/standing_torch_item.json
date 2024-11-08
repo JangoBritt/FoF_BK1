@@ -1,0 +1,26 @@
+//bridge-file-version: #39
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:standing_torch_item",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "korbon:standing_torch"
+			},
+			"minecraft:display_name": {
+				"value": "item.korbon:standing_torch_item.name"
+			},
+			"minecraft:block_placer": {
+				"block": "korbon:standing_torch_bottom"
+			}
+		},
+		"events": {}
+	}
+}

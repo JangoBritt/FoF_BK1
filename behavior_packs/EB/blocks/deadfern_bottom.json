@@ -1,0 +1,56 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:deadfern_bottom"
+		},
+		"components": {
+			"minecraft:destructible_by_mining": 0.1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "deadfern_bottom",
+					"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "geometry.plant",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"minecraft:dirt",
+							"minecraft:grass",
+							"minecraft:sand",
+							"minecraft:podzol"
+						]
+					}
+				]
+			},
+			"minecraft:collision_box": false,
+			"minecraft:map_color": "#673A08",
+			"minecraft:flammable": {
+				"burn_odds": 15,
+				"flame_odds": 15
+			},
+			"minecraft:destructible_by_explosion": 0.1,
+			"minecraft:light_dampening": 0,
+			"minecraft:loot": "loot_tables/blocks/deadfern.json",
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			}
+		}
+	}
+}

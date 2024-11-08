@@ -1,0 +1,48 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§7[v1.7.56] §bExpansive Biomes §r- §aRP§r",
+		"description": "Adds more biomes to the game for you to explore! §f| §eby iKorbon§r",
+		"uuid": "7d8dd50d-f5cb-4e8c-8faa-7d4da782f117",
+		"version": [
+			1,
+			0,
+			38
+		],
+		"min_engine_version": [
+			1,
+			21,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "e91be1ef-19f1-45b8-a11b-0bfed8040ec4",
+			"version": [
+				1,
+				0,
+				38
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_block_wizard": [
+				"1.1.2"
+			]
+		}
+	},
+	"subpacks": [
+		{
+			"folder_name": "fog_disable",
+			"name": "§eDisable Biome Fog§r",
+			"memory_tier": 0
+		},
+		{
+			"folder_name": "fog_enable",
+			"name": "§eEnable Biome Fog §r(recommended)",
+			"memory_tier": 1
+		}
+	]
+}

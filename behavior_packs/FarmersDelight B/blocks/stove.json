@@ -1,0 +1,128 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "farmersdelight:stove",
+            "menu_category": {
+                "category": "items"
+            },
+            "states": {
+                "farmersdelight:is_working": [
+                    false,
+                    true
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ]
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:is_working') == false",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "stove_side"
+                        },
+                        "up": {
+                            "texture": "stove_top"
+                        },
+                        "down": {
+                            "texture": "stove_bottom"
+                        },
+                        "north": {
+                            "texture": "stove_front"
+                        }
+                    },
+                    "minecraft:light_emission": 0
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:is_working') == true",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "stove_side"
+                        },
+                        "up": {
+                            "texture": "stove_top_on"
+                        },
+                        "down": {
+                            "texture": "stove_bottom"
+                        },
+                        "north": {
+                            "texture": "stove_front_on"
+                        }
+                    },
+                    "minecraft:light_emission": 12,
+                    "tag:farmersdelight:heat_source": {}
+                }
+            }
+        ],
+        "components": {
+            "minecraft:custom_components": [
+                "farmersdelight:stove"
+            ],
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:geometry": "geometry.stove_block",
+            "tag:farmersdelight:stove": {}
+        }
+    }
+}

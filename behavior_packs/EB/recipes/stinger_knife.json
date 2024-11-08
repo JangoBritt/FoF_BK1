@@ -1,0 +1,27 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "korbon:stinger_knife"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" XX",
+			"#X"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "korbon:stinger"
+			}
+		},
+		"result": {
+			"item": "korbon:stinger_knife"
+		}
+	}
+}

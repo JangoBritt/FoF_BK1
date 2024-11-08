@@ -1,0 +1,25 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "korbon:glowshroom_feature"
+		},
+		"places_block": {
+			"name": "korbon:glowshroom"
+		},
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			"minecraft:air",
+			"minecraft:tallgrass",
+			"minecraft:brown_mushroom",
+			"minecraft:red_mushroom"
+		],
+		"may_attach_to": {
+			"bottom": [
+				"minecraft:mycelium"
+			]
+		}
+	}
+}

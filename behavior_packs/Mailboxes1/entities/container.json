@@ -1,0 +1,112 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mb:mailbox_container",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"mb:no_particle": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "mr:no_sound_mr"
+				}
+			},
+			"mb:despawn": {"minecraft:instant_despawn": {}},
+			"mb:unlock": {
+				"minecraft:tameable": {
+					"probability": 0.001,
+					"tame_items": "bedrock",
+					"tame_event": {
+						"event": "minecraft:on_tame",
+						"target": "self"
+					}
+				},
+				"minecraft:inventory": {
+					"can_be_siphoned_from": true,
+					"container_type": "inventory",
+					"inventory_size": 18,
+					"restrict_to_owner": false
+				}
+			},
+			"mb:lock_owner": {
+				"minecraft:inventory": {
+					"can_be_siphoned_from": true,
+					"container_type": "inventory",
+					"inventory_size": 18,
+					"restrict_to_owner": true
+				},
+				"minecraft:is_tamed":{}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					  "chest",
+					  "inanimate"
+				]
+		  	},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 0.4
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:persistent": {},
+			"minecraft:tick_world": {},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:nameable": {},
+			"minecraft:on_death": {
+				"event": "mb:no_particle",
+				"target": "self"
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "mb:destroy",
+							"target": "self"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {"component_groups": ["mb:unlock"]}
+			},
+			"mb:destroy": {
+				"queue_command": {"command": ["kill @s"]}
+			},
+			"mb:no_particle": {
+				"add": {"component_groups": ["mb:no_particle"]}
+			},
+			"minecraft:on_tame": {
+				"add": {"component_groups": ["mb:lock_owner"]},
+				"remove": {"component_groups": ["mb:unlock"]}
+			}
+		}
+	}
+}

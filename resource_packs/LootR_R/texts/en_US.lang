@@ -1,0 +1,92 @@
+pack.name=Lootr Bedrock (Unofficial Port) RP V1.8.0
+pack.description=Unique loot for each player, so you won't have to travel thousands of blocks in search of undiscovered loot...
+
+lootr.loot_created=Loot created, click again to change the inventory
+lootr.loot_changed=Loot changed to: %s
+lootr.deny=§cNuh uh, you can't place blocks near this container with loot, security measures.
+lootr.deny.piston=§cNuh uh, you can't place this piston near this container, security measures.
+lootr.deny.container=§cNuh uh, you can't place this block near this piston, security measures.
+lootr.deny_explosion=§cNuh uh, you cannot explode the blocks with loot
+lootr.deny_tnt=§cNuh uh, you cannot place tnt near blocks with loot
+lootr.double_chest=§3It seems that the block is a double chest, due to certain limitations this block will not have unique loot.
+lootr.sneaking=§bBreaking the chest will delete your unique loot and all items in the chest! In order to break, you must sneak while doing so. As loot is §lper-player per-chest§r§b, only break if really needed.
+lootr.10loot=%s has completed the advancement §a[Disme A Dozen]: Open 10 instanced, per-player Loot containers and collect your rewards!
+lootr.25loot=%s has completed the advancement §a[Close Quarters]: Open 25 instanced, per-player Loot containers and collect your rewards!
+lootr.50loot=%s has completed the advancement §a[Penteconter]: Open 50 instanced, per-player Loot containers and collect your rewards!
+lootr.100loot=%s has completed the challenge §5[Centennial]: Open 100 instanced, per-player Loot containers and collect your rewards!
+
+lootr.1chest=%s has completed the advancement §a['X' Marks the Spot]: Open your first instanced, per-player Loot chest and collect your rewards!
+lootr.1barrel=%s has completed the advancement §a[Barrel Booty]: Open your first instanced, per-player Loot barrel and collect your rewards!
+lootr.1shulker=%s has completed the advancement §a[Bounty Box]: Open your first instanced, per-played Loot shulker and collect your rewards!
+
+lootr.not_a_block=§cThis block is not a chest | barrel | shulker
+lootr.error_structure=§cAn error occurred while saving the block: %s
+lootr.wrong_namespace=§cThe name of the block must start with "lootr:"
+lootr.structure_list=§eList of the saved blocks: %s
+lootr.structure_list_equals0=§eNo saved blocks has been found
+lootr.error_placing_structure=§cAn error occurred while placing the block: %s
+lootr.error_deleting_structure=§cAn error occurred while deleting the block(s): %s
+lootr.missing_name=§cYou have not set the name, expected: /scriptevent %s customName
+lootr.missing_name_2=§cYou have not set the name, expected: /scriptevent %s customName | all
+lootr.structure_saved=§aThe block has been saved as %s
+lootr.structure_placed=§aThe block %s has been placed
+lootr.structure_deleted=§cThe block %s has been deleted
+lootr.structure_not_found=§cBlock %s was not found
+lootr.deleted_count=§c%s blocks have been deleted
+
+
+##It doesn't really make sense to translate this, since these are items that you should never see... 
+##but since Bridge autocompletes it by itself, why not?
+item.lootr:end_city_treasure=end_city_treasure
+entity.lootr:byplayer.name=Byplayer
+entity.lootr:chest.name=Chest
+entity.lootr:firstopen.name=Firstopen
+entity.lootr:inventory.name=Inventory
+entity.lootr:nothing.name=Nothing
+item.lootr:abandoned_mineshaft=Abandoned Mineshaft
+item.lootr:buriedtreasure=Buriedtreasure
+item.lootr:corridor=Corridor
+item.lootr:desert_pyramid=Desert Pyramid
+item.lootr:entrance=Entrance
+item.lootr:igloo_chest=Igloo Chest
+item.lootr:intersection=Intersection
+item.lootr:intersection_barrel=Intersection Barrel
+item.lootr:jungle_temple=Jungle Temple
+item.lootr:monster_room=Monster Room
+item.lootr:nether_bridge=Nether Bridge
+item.lootr:pillager_outpost=Pillager Outpost
+item.lootr:shipwreck=Shipwreck
+item.lootr:shipwrecksupply=Shipwrecksupply
+item.lootr:shipwrecktreasure=Shipwrecktreasure
+item.lootr:simple_dungeon=Simple Dungeon
+item.lootr:spawn_bonus_chest=Spawn Bonus Chest
+item.lootr:stronghold_corridor=Stronghold Corridor
+item.lootr:stronghold_crossing=Stronghold Crossing
+item.lootr:stronghold_library=Stronghold Library
+item.lootr:supply=Supply
+item.lootr:underwater_ruin_big=Underwater Ruin Big
+item.lootr:underwater_ruin_small=Underwater Ruin Small
+item.lootr:village_armorer=Village Armorer
+item.lootr:village_blacksmith=Village Blacksmith
+item.lootr:village_butcher=Village Butcher
+item.lootr:village_cartographer=Village Cartographer
+item.lootr:village_desert_house=Village Desert House
+item.lootr:village_fletcher=Village Fletcher
+item.lootr:village_mason=Village Mason
+item.lootr:village_plains_house=Village Plains House
+item.lootr:village_savanna_house=Village Savanna House
+item.lootr:village_shepherd=Village Shepherd
+item.lootr:village_snowy_house=Village Snowy House
+item.lootr:village_taiga_house=Village Taiga House
+item.lootr:village_tannery=Village Tannery
+item.lootr:village_temple=Village Temple
+item.lootr:village_toolsmith=Village Toolsmith
+item.lootr:village_two_room_house=Village Two Room House
+item.lootr:village_weaponsmith=Village Weaponsmith
+item.lootr:woodland_mansion=Woodland Mansion
+
+item.spawn_egg.entity.lootr:byplayer.name=Spawn Byplayer
+item.spawn_egg.entity.lootr:chest.name=Spawn Chest
+item.spawn_egg.entity.lootr:firstopen.name=Spawn Firstopen
+item.spawn_egg.entity.lootr:inventory.name=Spawn Inventory
+item.spawn_egg.entity.lootr:nothing.name=Spawn Nothing

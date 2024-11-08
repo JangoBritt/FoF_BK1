@@ -1,0 +1,121 @@
+//bridge-file-version: #44
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:vibranium_shovel",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.shovel"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 6,
+			"minecraft:durability": {
+				"max_durability": 3250,
+				"damage_chance": {
+					"min": 5,
+					"max": 15
+				}
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow')"
+						},
+						"speed": 9
+					},
+					{
+						"block": "minecraft:coarse_dirt",
+						"speed": 9
+					},
+					{
+						"block": "minecraft:clay",
+						"speed": 9
+					},
+					{
+						"block": "minecraft:concretePowder",
+						"speed": 9
+					},
+					{
+						"block": "minecraft:mycelium",
+						"speed": 9
+					},
+					{
+						"block": "minecraft:soul_sand",
+						"speed": 9
+					},
+					{
+						"block": "minecraft:soul_soil",
+						"speed": 9
+					},
+					{
+						"block": "korbon:black_sand",
+						"speed": 9
+					},
+					{
+						"block": "korbon:hard_dirt",
+						"speed": 9
+					},
+					{
+						"block": "korbon:mud_block",
+						"speed": 9
+					},
+					{
+						"block": "korbon:scorched_grass_block",
+						"speed": 9
+					},
+					{
+						"block": "korbon:smoldering_grass_block",
+						"speed": 9
+					},
+					{
+						"block": "korbon:dune_sand",
+						"speed": 9
+					},
+					{
+						"block": "korbon:ultisol",
+						"speed": 9
+					}
+				]
+			},
+			"minecraft:display_name": {
+				"value": "item.korbon:vibranium_shovel.name"
+			},
+			"minecraft:enchantable": {
+				"value": 13,
+				"slot": "shovel"
+			},
+			"minecraft:icon": {
+				"texture": "korbon:vibranium_shovel"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"korbon:vibranium_shovel"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"korbon:vibranium_ingot"
+						],
+						"repair_amount": 500
+					}
+				]
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_shovel"
+				]
+			}
+		},
+		"events": {}
+	}
+}

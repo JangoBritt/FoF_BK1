@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:wolf_woods_item"
+		},
+		"components": {
+            "minecraft:icon": "fmh_wolf_woods_item", 
+			"minecraft:entity_placer": {
+				"entity": "fmh:wolf_woods"
+			}
+		}
+	}
+}

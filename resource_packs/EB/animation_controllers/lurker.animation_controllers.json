@@ -1,0 +1,58 @@
+//bridge-file-version: #28
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.lurker.move": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"walk": "query.modified_move_speed"
+						}
+					],
+					"transitions": [
+						{
+							"no_target": "q.ground_speed < 0.3&&!q.has_target"
+						}
+					],
+					"blend_transition": 0.2,
+					"blend_via_shortest_path": true
+				},
+				"no_target": {
+					"animations": [
+						"no_target"
+					],
+					"transitions": [
+						{
+							"default": "q.ground_speed > 0.3"
+						}
+					],
+					"blend_transition": 0.2,
+					"blend_via_shortest_path": true
+				}
+			}
+		},
+		"controller.animation.lurker.idle": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"idle": "query.is_alive"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.lurker.chase": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"chase": "query.has_target&&!query.is_avoiding_block"
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sophisticated_backpack:backpack_item"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BBB",
+      "BAB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:chest"
+      },
+      "B": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "sophisticated_backpack:backpack_item",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,52 @@
+//bridge-file-version: #78
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "korbon:spectre",
+			"population_control": "monster"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:spawns_underground": {},
+				"minecraft:spawns_on_block_prevented_filter": [
+					"minecraft:nether_wart_block",
+					"minecraft:shroomlight"
+				],
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 15,
+					"adjust_for_weather": true
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 1
+				},
+				"minecraft:density_limit": {
+					"surface": 1,
+					"underground": 1
+				},
+				"minecraft:distance_filter": {
+					"min": 30,
+					"max": 48
+				},
+				"minecraft:biome_filter": {
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "overworld"
+						}
+					]
+				},
+				"minecraft:delay_filter": {
+					"min": 420,
+					"max": 420,
+					"identifier": "korbon:spectre",
+					"spawn_chance": 3
+				}
+			}
+		]
+	}
+}

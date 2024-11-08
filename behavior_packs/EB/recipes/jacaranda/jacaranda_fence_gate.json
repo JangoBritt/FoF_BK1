@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "korbon:jacaranda_fence_gate"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "#~#", 
+            "#~#"
+        ],
+        "key": {
+            "~": {
+                "item": "korbon:jacaranda_planks"
+            },
+            "#": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": [
+			{
+				"item": "korbon:jacaranda_fence_gate",
+				"count": 1
+			}
+		]
+    }
+}

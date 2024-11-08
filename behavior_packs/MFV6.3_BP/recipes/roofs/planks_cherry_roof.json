@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cherry_planks_mslab"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:cherry_planks",
+				"data": 0
+		}
+    },
+		"unlock": [
+			{"item": "minecraft:cherry_log"}
+		],
+    "result": {
+			"item": "medieval:cherry_planks_mslab",
+			"count": 12
+		}
+	}
+}

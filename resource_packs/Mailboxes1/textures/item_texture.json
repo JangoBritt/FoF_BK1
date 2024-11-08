@@ -1,0 +1,8 @@
+{
+	"resource_pack-name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"mb.box_item": {"textures": "textures/items/mailbox/box_item.png"},
+		"mb.guidebook_mailboxes": {"textures": "textures/items/mailbox/guidebook.png"}
+	}
+}

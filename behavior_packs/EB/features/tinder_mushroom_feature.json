@@ -1,0 +1,15 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:tinder_mushroom_feature"
+		},
+		"features": [
+			"korbon:tinder_mushroom_n_scatter_feature",
+			"korbon:tinder_mushroom_s_scatter_feature",
+			"korbon:tinder_mushroom_e_scatter_feature",
+			"korbon:tinder_mushroom_w_scatter_feature"
+		]
+	}
+}

@@ -1,0 +1,99 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "sophisticated_backpack:backpack",
+            "is_summonable": true,
+            "is_spawnable": false,
+            "properties": {
+                "sophisticated_backpack:in_block": {
+                    "type": "bool",
+                    "default": false
+                }
+            }
+        },
+        "component_groups": {},
+        "components": {
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:knockback_resistance": {
+                "value": 100,
+                "max": 100
+            },
+            "minecraft:fire_immune": {},
+            "minecraft:health": {
+                "value": 1,
+                "max": 1
+            },
+            "minecraft:nameable": {
+                "allow_name_tag_renaming": false,
+                "always_show": false
+            },
+            "minecraft:inventory": {
+                "container_type": "inventory",
+                "inventory_size": 60,
+                "can_be_siphoned_from": true
+            },
+            "minecraft:collision_box": {
+                "height": 0,
+                "width": 0
+            },
+            "minecraft:custom_hit_test": {
+                "hitboxes": [
+                    {
+                        "width": 1,
+                        "height": 1,
+                        "pivot": [
+                            0,
+                            0.5,
+                            0
+                        ]
+                    }
+                ]
+            },
+            "minecraft:physics": {
+                "has_collision": false,
+                "has_gravity": false
+            },
+            "minecraft:inside_block_notifier": {
+                "block_list": [
+                    {
+                        "block": {
+                            "name": "minecraft:air"
+                        },
+                        "entered_block_event": {
+                            "filters": [
+                                {
+                                    "test": "bool_property",
+                                    "operator": "==",
+                                    "domain": "sophisticated_backpack:in_block",
+                                    "value": true
+                                }
+                            ],
+                            "event": "sophisticated_backpack:backpack_destroy",
+                            "target": "self"
+                        }
+                    }
+                ]
+            },
+            "minecraft:timer": {
+                "time": 1,
+                "looping": true,
+                "time_down_event": {
+                    "event": "sophisticated_backpack:backpack_update",
+                    "target": "self"
+                }
+            }
+        },
+        "events": {
+            "sophisticated_backpack:backpack_destroy": {},
+            "sophisticated_backpack:backpack_update": {}
+        }
+    }
+}

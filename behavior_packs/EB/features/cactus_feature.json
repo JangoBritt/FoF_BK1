@@ -1,0 +1,35 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.13.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "korbon:cactus_feature"
+		},
+		"body_blocks": [
+			[
+				"minecraft:cactus",
+				1
+			]
+		],
+		"head_blocks": [
+			[
+				"minecraft:cactus",
+				1
+			]
+		],
+		"age": {
+			"range_min": 1,
+			"range_max": 15
+		},
+		"growth_direction": "up",
+		"height_distribution": [
+			[
+				{
+					"range_min": 3,
+					"range_max": 4
+				},
+				1
+			]
+		]
+	}
+}

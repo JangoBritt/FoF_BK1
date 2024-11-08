@@ -1,0 +1,116 @@
+//bridge-file-version: #60
+{
+	"format_version": "1.13.0",
+	"minecraft:tree_feature": {
+		"description": {
+			"identifier": "korbon:spruce_pine_tree_feature"
+		},
+		"trunk": {
+			"trunk_height": {
+				"range_min": 14,
+				"range_max": 20
+			},
+			"trunk_block": {
+				"name": "minecraft:log",
+				"states": {
+					"old_log_type": "spruce"
+				}
+			}
+		},
+		"base_block": "minecraft:podzol",
+		"base_cluster": {
+			"may_replace": [
+				"minecraft:grass",
+				{
+					"name": "minecraft:dirt",
+					"states": {
+						"dirt_type": "normal"
+					}
+				},
+				{
+					"name": "minecraft:dirt",
+					"states": {
+						"dirt_type": "coarse"
+					}
+				}
+			],
+			"num_clusters": 5,
+			"cluster_radius": 2
+		},
+		"may_grow_on": [
+			"minecraft:grass",
+			"minecraft:dirt",
+			"minecraft:podzol",
+			"minecraft:dirt_with_roots",
+			"minecraft:moss_block",
+			{
+				"name": "minecraft:dirt",
+				"states": {
+					"dirt_type": "coarse"
+				}
+			}
+		],
+		"may_replace": [
+			"minecraft:air",
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "oak"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "spruce"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "birch"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "jungle"
+				}
+			},
+			{
+				"name": "minecraft:leaves2",
+				"states": {
+					"new_leaf_type": "acacia"
+				}
+			},
+			{
+				"name": "minecraft:leaves2",
+				"states": {
+					"new_leaf_type": "dark_oak"
+				}
+			}
+		],
+		"may_grow_through": [
+			"minecraft:dirt",
+			"minecraft:grass",
+			{
+				"name": "minecraft:dirt",
+				"states": {
+					"dirt_type": "coarse"
+				}
+			}
+		],
+		"pine_canopy": {
+			"canopy_height": {
+				"range_min": 4,
+				"range_max": 6
+			},
+			"base_radius": 1,
+			"leaf_block": {
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "spruce"
+				}
+			}
+		}
+	}
+}

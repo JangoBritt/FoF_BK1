@@ -1,0 +1,19 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "korbon:select_strata_patch_feature"
+		},
+		"features": [
+			[
+				"korbon:strata_patch_with_mud_feature",
+				1
+			],
+			[
+				"korbon:strata_patch_with_dirt_feature",
+				1
+			]
+		]
+	}
+}

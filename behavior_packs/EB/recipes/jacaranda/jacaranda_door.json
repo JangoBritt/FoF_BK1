@@ -1,0 +1,28 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "korbon:jacaranda_door"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~",
+			"~~",
+			"~~"
+		],
+		"key": {
+			"~": {
+				"item": "korbon:jacaranda_planks"
+			}
+		},
+		"result": [
+			{
+				"item": "korbon:jacaranda_door_item",
+				"count": 3
+			}
+		]
+	}
+}

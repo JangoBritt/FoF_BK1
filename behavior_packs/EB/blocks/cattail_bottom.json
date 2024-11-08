@@ -1,0 +1,53 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:cattail_bottom"
+		},
+		"components": {
+			"minecraft:destructible_by_mining": 0.1,
+			"minecraft:geometry": "geometry.plant",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cattail_bottom",
+					"render_method": "alpha_test",
+					"face_dimming": false
+				}
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:collision_box": false,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:grass",
+							"minecraft:dirt",
+							"minecraft:sand",
+							"korbon:dune_sand"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:flammable": {
+				"burn_odds": 15,
+				"flame_odds": 15
+			},
+			"minecraft:loot": "loot_tables/blocks/cattail.json",
+			"minecraft:selection_box": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					16,
+					14
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "korbon:thrown_bolas",
+			"materials": {
+				"default": "snowball"
+			},
+			"textures": {
+				"default": "textures/entity/bolas"
+			},
+			"geometry": {
+				"default": "geometry.thrown_bolas"
+			},
+			"animations": {
+				"thrown": "animation.thrown_bolas.thrown",
+				"sound": "animation.thrown_bolas.sound"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"thrown": "!query.is_in_water"
+					},
+					{
+						"sound": "!query.is_in_water"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.item_sprite"
+			],
+			"sound_effects": {
+				"thrown": "bola_thrown"
+			},
+			"particle_effects": {
+				"particle": "minecraft:falling_dust_gravel_particle"
+			}
+		}
+	}
+}

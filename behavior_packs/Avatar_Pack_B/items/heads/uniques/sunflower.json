@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fables_avatars:sunflower_item"
+		},
+		"components": {
+            "minecraft:icon": "sunflower_item", 
+			"minecraft:entity_placer": {
+				"entity": "fables_avatars:sunflower"
+			}
+		}
+	}
+}

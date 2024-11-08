@@ -1,0 +1,54 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:brittlebush_feature",
+			"places_feature": "korbon:brittlebush_flower_feature"
+		},
+		"conditions": {
+			"placement_pass": "final_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "desert"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "mesa"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 6,
+			"scatter_chance": "variable.is_legacy ? 0.0 : 200.0",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					"query.heightmap(variable.worldx, variable.worldz) * 2"
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

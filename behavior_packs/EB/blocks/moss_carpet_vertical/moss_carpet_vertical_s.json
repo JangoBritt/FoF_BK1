@@ -1,0 +1,76 @@
+//bridge-file-version: #114
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:moss_carpet_vertical_s",
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "moss_carpet_vertical",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:geometry": "geometry.moss_carpet_vertical_s",
+			"minecraft:loot": "loot_tables/blocks/moss_carpet_vertical.json",
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					1
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					1
+				]
+			},
+			"minecraft:map_color": "#2A5322",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"south"
+						],
+						"block_filter": [
+							"minecraft:log",
+							"minecraft:log2",
+							"korbon:jacaranda_log",
+							"minecraft:cherry_log",
+							"minecraft:mangrove_log",
+							"minecraft:cobblestone",
+							"minecraft:mossy_cobblestone",
+							"minecraft:stone",
+							"minecraft:stonebrick",
+							"korbon:redwood_log"
+						]
+					}
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.1
+			},
+			"minecraft:light_dampening": 0
+		},
+		"events": {}
+	}
+}

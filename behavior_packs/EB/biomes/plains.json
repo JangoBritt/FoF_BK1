@@ -1,0 +1,104 @@
+//bridge-file-version: #57
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "plains"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0.25,
+				"snow_accumulation": [
+					0,
+					0.20000000000000004
+				],
+				"temperature": 0.85
+			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 7,
+				"sea_floor_material": "minecraft:gravel",
+				"foundation_material": "minecraft:stone",
+				"mid_material": "minecraft:dirt",
+				"top_material": "minecraft:grass",
+				"sea_material": "minecraft:water"
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "lowlands"
+			},
+			"minecraft:overworld_generation_rules": {
+				"hills_transformation": [
+					[
+						"forest_hills",
+						1
+					],
+					[
+						"forest",
+						2
+					]
+				],
+				"mutate_transformation": "sunflower_plains",
+				"generate_for_climates": [
+					[
+						"medium",
+						3
+					],
+					[
+						"warm",
+						1
+					],
+					[
+						"cold",
+						1
+					]
+				]
+			},
+			"minecraft:multinoise_generation_rules": {
+				"target_temperature": 0,
+				"target_humidity": 0,
+				"target_altitude": 0,
+				"target_weirdness": 0,
+				"weight": 0.4
+			},
+			"minecraft:forced_features": {
+				"surface_pass": [
+					{
+						"identifier": "korbon:sweet_berry_bush_feature",
+						"places_feature": "minecraft:sweet_berry_bush_feature",
+						"iterations": 50,
+						"x": {
+							"distribution": "uniform",
+							"extent": [
+								0,
+								16
+							]
+						},
+						"y": {
+							"distribution": "uniform",
+							"extent": [
+								0,
+								"query.heightmap(variable.worldx, variable.worldz) * 2"
+							]
+						},
+						"z": {
+							"distribution": "uniform",
+							"extent": [
+								0,
+								16
+							]
+						}
+					}
+				]
+			},
+			"animal": {},
+			"monster": {},
+			"overworld": {},
+			"prairie": {},
+			"spawn_flowers": {},
+			"spawn_horses": {},
+			"lots_of_grass": {},
+			"spawn_sweet_berries": {},
+			"lots_of_double_grass": {},
+			"plains": {}
+		}
+	}
+}

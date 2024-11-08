@@ -1,0 +1,107 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.thrown_bolas.thrown": {
+			"loop": true,
+			"animation_length": 1.48,
+			"bones": {
+				"root": {
+					"rotation": [0, "math.cos(query.life_time * 802.0) * 300.0", 0]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "particle",
+					"locator": "particle"
+				},
+				"0.08": {
+					"effect": "particle",
+					"locator": "particle2"
+				},
+				"0.16": {
+					"effect": "particle",
+					"locator": "particle"
+				},
+				"0.24": {
+					"effect": "particle",
+					"locator": "particle2"
+				},
+				"0.32": {
+					"effect": "particle",
+					"locator": "particle"
+				},
+				"0.4": {
+					"effect": "particle",
+					"locator": "particle2"
+				},
+				"0.48": {
+					"effect": "particle",
+					"locator": "particle"
+				},
+				"0.56": {
+					"effect": "particle",
+					"locator": "particle2"
+				},
+				"0.64": {
+					"effect": "particle",
+					"locator": "particle"
+				},
+				"0.72": {
+					"effect": "particle",
+					"locator": "particle2"
+				},
+				"0.8": {
+					"effect": "particle",
+					"locator": "particle"
+				},
+				"0.88": {
+					"effect": "particle",
+					"locator": "particle2"
+				},
+				"0.96": {
+					"effect": "particle",
+					"locator": "particle"
+				},
+				"1.04": {
+					"effect": "particle",
+					"locator": "particle2"
+				},
+				"1.12": {
+					"effect": "particle",
+					"locator": "particle"
+				},
+				"1.2": {
+					"effect": "particle",
+					"locator": "particle2"
+				},
+				"1.28": {
+					"effect": "particle",
+					"locator": "particle"
+				},
+				"1.36": {
+					"effect": "particle",
+					"locator": "particle2"
+				},
+				"1.44": {
+					"effect": "particle",
+					"locator": "particle"
+				}
+			}
+		},
+		"animation.thrown_bolas.sound": {
+			"loop": true,
+			"animation_length": 0.6,
+			"sound_effects": {
+				"0.0": {
+					"effect": "thrown"
+				},
+				"0.2": {
+					"effect": "thrown"
+				},
+				"0.4": {
+					"effect": "thrown"
+				}
+			}
+		}
+	}
+}

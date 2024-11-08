@@ -1,0 +1,159 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:redwood_leaf_sprout",
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:block_face"
+					]
+				}
+			},
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'north'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							2
+						],
+						"size": [
+							16,
+							16,
+							6
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.leaf_sprout",
+						"bone_visibility": {
+							"north": "true",
+							"south": "false",
+							"east": "false",
+							"west": "false"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'south'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							6
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.leaf_sprout",
+						"bone_visibility": {
+							"north": "false",
+							"south": "true",
+							"east": "false",
+							"west": "false"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'east'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							2,
+							0,
+							-8
+						],
+						"size": [
+							6,
+							16,
+							16
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.leaf_sprout",
+						"bone_visibility": {
+							"north": "false",
+							"south": "false",
+							"east": "true",
+							"west": "false"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'west'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							6,
+							16,
+							16
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.leaf_sprout",
+						"bone_visibility": {
+							"north": "false",
+							"south": "false",
+							"east": "false",
+							"west": "true"
+						}
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "redwood_leaf_sprout",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": true
+				}
+			},
+			"minecraft:collision_box": false,
+			"minecraft:map_color": "#B5947D",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"side"
+						],
+						"block_filter": [
+							"minecraft:log",
+							"minecraft:log2",
+							"korbon:redwood_log",
+							"korbon:redwood_wood"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/redwood_leaf_sprout.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.1
+			}
+		},
+		"events": {}
+	}
+}

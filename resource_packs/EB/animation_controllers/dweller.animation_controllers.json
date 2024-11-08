@@ -1,0 +1,78 @@
+//bridge-file-version: #262
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.dweller.move": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"move": "query.modified_move_speed"
+						}
+					],
+					"transitions": [
+						{
+							"flee": "query.is_avoiding_block"
+						}
+					],
+					"blend_transition": 0.1
+				},
+				"flee": {
+					"animations": [
+						{
+							"flee": "query.is_avoiding_block"
+						}
+					],
+					"transitions": [
+						{
+							"default": "!query.is_avoiding_block"
+						}
+					],
+					"blend_transition": 0.2
+				}
+			}
+		},
+		"controller.animation.dweller.idle": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"idle": "query.is_alive"
+						},
+						{
+							"head_bob": "query.is_alive"
+						}
+					],
+					"transitions": [
+						{
+							"seek": "query.is_sniffing&&!query.is_avoiding_block&&!query.is_moving"
+						}
+					],
+					"blend_transition": 0.1
+				},
+				"seek": {
+					"animations": [
+						"seek"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.5
+				}
+			}
+		},
+		"controller.animation.dweller.chase": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"chase": "query.has_target&&!query.is_avoiding_block"
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:spruce_planks_support"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"###",
+			"  A"
+		],
+		"key": {
+			"#": {
+				"item": "medieval:spruce_planks_mslab"
+			},
+			"A": {
+				"item": "minecraft:stick"
+		}
+    },
+		"unlock": [
+			{"item": "minecraft:spruce_log"}
+		],
+    "result": {
+			"item": "medieval:spruce_planks_support",
+			"count": 3
+		}
+	}
+}

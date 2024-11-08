@@ -1,0 +1,73 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:vibranium_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 3250,
+				"damage_chance": {
+					"min": 5,
+					"max": 15
+				}
+			},
+			"minecraft:mining_speed": 1.5,
+			"minecraft:damage": 9,
+			"minecraft:enchantable": {
+				"value": 16,
+				"slot": "sword"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": false,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 15
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 10
+					}
+				]
+			},
+			"minecraft:icon": {
+				"texture": "korbon:vibranium_sword"
+			},
+			"minecraft:display_name": {
+				"value": "item.korbon:vibranium_sword.name"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"korbon:vibranium_sword"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"korbon:vibranium_ingot"
+						],
+						"repair_amount": 500
+					}
+				]
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_sword",
+					"minecraft:diamond_tier"
+				]
+			}
+		},
+		"events": {}
+	}
+}

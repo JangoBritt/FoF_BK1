@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:donkey_item"
+		},
+		"components": {
+            "minecraft:icon": "fmh_donkey_item", 
+			"minecraft:entity_placer": {
+				"entity": "fmh:donkey"
+			}
+		}
+	}
+}

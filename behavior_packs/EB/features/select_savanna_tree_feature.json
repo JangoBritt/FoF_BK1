@@ -1,0 +1,19 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "korbon:select_savanna_tree_feature"
+		},
+		"features": [
+			[
+				"korbon:select_baobab_tree_feature",
+				1
+			],
+			[
+				"minecraft:savanna_tree_feature",
+				3
+			]
+		]
+	}
+}

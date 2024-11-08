@@ -1,0 +1,326 @@
+{
+    "resource_pack_name": "bridgeRP",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "biomecompass_00": {
+            "textures": [
+                "textures/items/biomecompass_00"
+            ]
+        },
+        "biomecompass_01": {
+            "textures": [
+                "textures/items/biomecompass_01"
+            ]
+        },
+        "biomecompass_02": {
+            "textures": [
+                "textures/items/biomecompass_02"
+            ]
+        },
+        "biomecompass_03": {
+            "textures": [
+                "textures/items/biomecompass_03"
+            ]
+        },
+        "biomecompass_04": {
+            "textures": [
+                "textures/items/biomecompass_04"
+            ]
+        },
+        "biomecompass_05": {
+            "textures": [
+                "textures/items/biomecompass_05"
+            ]
+        },
+        "biomecompass_06": {
+            "textures": [
+                "textures/items/biomecompass_06"
+            ]
+        },
+        "biomecompass_07": {
+            "textures": [
+                "textures/items/biomecompass_07"
+            ]
+        },
+        "biomecompass_08": {
+            "textures": [
+                "textures/items/biomecompass_08"
+            ]
+        },
+        "biomecompass_09": {
+            "textures": [
+                "textures/items/biomecompass_09"
+            ]
+        },
+        "biomecompass_10": {
+            "textures": [
+                "textures/items/biomecompass_10"
+            ]
+        },
+        "biomecompass_11": {
+            "textures": [
+                "textures/items/biomecompass_11"
+            ]
+        },
+        "biomecompass_12": {
+            "textures": [
+                "textures/items/biomecompass_12"
+            ]
+        },
+        "biomecompass_13": {
+            "textures": [
+                "textures/items/biomecompass_13"
+            ]
+        },
+        "biomecompass_14": {
+            "textures": [
+                "textures/items/biomecompass_14"
+            ]
+        },
+        "biomecompass_15": {
+            "textures": [
+                "textures/items/biomecompass_15"
+            ]
+        },
+        "biomecompass_16": {
+            "textures": [
+                "textures/items/biomecompass_16"
+            ]
+        },
+        "biomecompass_17": {
+            "textures": [
+                "textures/items/biomecompass_17"
+            ]
+        },
+        "biomecompass_18": {
+            "textures": [
+                "textures/items/biomecompass_18"
+            ]
+        },
+        "biomecompass_19": {
+            "textures": [
+                "textures/items/biomecompass_19"
+            ]
+        },
+        "biomecompass_20": {
+            "textures": [
+                "textures/items/biomecompass_20"
+            ]
+        },
+        "biomecompass_21": {
+            "textures": [
+                "textures/items/biomecompass_21"
+            ]
+        },
+        "biomecompass_22": {
+            "textures": [
+                "textures/items/biomecompass_22"
+            ]
+        },
+        "biomecompass_23": {
+            "textures": [
+                "textures/items/biomecompass_23"
+            ]
+        },
+        "biomecompass_24": {
+            "textures": [
+                "textures/items/biomecompass_24"
+            ]
+        },
+        "biomecompass_25": {
+            "textures": [
+                "textures/items/biomecompass_25"
+            ]
+        },
+        "biomecompass_26": {
+            "textures": [
+                "textures/items/biomecompass_26"
+            ]
+        },
+        "biomecompass_27": {
+            "textures": [
+                "textures/items/biomecompass_27"
+            ]
+        },
+        "biomecompass_28": {
+            "textures": [
+                "textures/items/biomecompass_28"
+            ]
+        },
+        "biomecompass_29": {
+            "textures": [
+                "textures/items/biomecompass_29"
+            ]
+        },
+        "biomecompass_30": {
+            "textures": [
+                "textures/items/biomecompass_30"
+            ]
+        },
+        "biomecompass_31": {
+            "textures": [
+                "textures/items/biomecompass_31"
+            ]
+        },
+        "naturescompass_00": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_00"
+            ]
+        },
+        "naturescompass_01": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_01"
+            ]
+        },
+        "naturescompass_02": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_02"
+            ]
+        },
+        "naturescompass_03": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_03"
+            ]
+        },
+        "naturescompass_04": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_04"
+            ]
+        },
+        "naturescompass_05": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_05"
+            ]
+        },
+        "naturescompass_06": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_06"
+            ]
+        },
+        "naturescompass_07": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_07"
+            ]
+        },
+        "naturescompass_08": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_08"
+            ]
+        },
+        "naturescompass_09": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_09"
+            ]
+        },
+        "naturescompass_10": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_10"
+            ]
+        },
+        "naturescompass_11": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_11"
+            ]
+        },
+        "naturescompass_12": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_12"
+            ]
+        },
+        "naturescompass_13": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_13"
+            ]
+        },
+        "naturescompass_14": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_14"
+            ]
+        },
+        "naturescompass_15": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_15"
+            ]
+        },
+        "naturescompass_16": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_16"
+            ]
+        },
+        "naturescompass_17": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_17"
+            ]
+        },
+        "naturescompass_18": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_18"
+            ]
+        },
+        "naturescompass_19": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_19"
+            ]
+        },
+        "naturescompass_20": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_20"
+            ]
+        },
+        "naturescompass_21": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_21"
+            ]
+        },
+        "naturescompass_22": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_22"
+            ]
+        },
+        "naturescompass_23": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_23"
+            ]
+        },
+        "naturescompass_24": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_24"
+            ]
+        },
+        "naturescompass_25": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_25"
+            ]
+        },
+        "naturescompass_26": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_26"
+            ]
+        },
+        "naturescompass_27": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_27"
+            ]
+        },
+        "naturescompass_28": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_28"
+            ]
+        },
+        "naturescompass_29": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_29"
+            ]
+        },
+        "naturescompass_30": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_30"
+            ]
+        },
+        "naturescompass_31": {
+            "textures": [
+                "textures/items/naturescompass/naturescompass_31"
+            ]
+        }
+    }
+}

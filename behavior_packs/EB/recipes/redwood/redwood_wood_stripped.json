@@ -1,0 +1,24 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "korbon:redwood_wood_stripped"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~", 
+            "~~"
+        ],
+        "key": {
+            "~": {
+                "item": "korbon:stripped_redwood_log"
+            }
+        },
+        "result": [
+			{
+				"item": "korbon:stripped_redwood_wood",
+				"count": 3
+			}
+		]
+    }
+}

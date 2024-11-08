@@ -1,0 +1,15 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:moss_carpet_vertical_feature"
+		},
+		"features": [
+			"korbon:moss_carpet_vertical_n_scatter_feature",
+			"korbon:moss_carpet_vertical_s_scatter_feature",
+			"korbon:moss_carpet_vertical_e_scatter_feature",
+			"korbon:moss_carpet_vertical_w_scatter_feature"
+		]
+	}
+}

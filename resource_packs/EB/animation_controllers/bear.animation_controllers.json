@@ -1,0 +1,52 @@
+//bridge-file-version: #108
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bear.move": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"walk": "query.modified_move_speed"
+						},
+						"look_at_target",
+						"move",
+						{
+							"idle": "query.is_alive"
+						}
+					],
+					"transitions": [
+						{
+							"attack": "variable.attack_time > 0.1"
+						}
+					],
+					"blend_transition": 0.1
+				},
+				"attack": {
+					"animations": [
+						"attack"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		},
+		"controller.animation.bear.baby": {
+			"initial_state": "baby",
+			"states": {
+				"baby": {
+					"animations": [
+						{
+							"baby_transform": "query.is_baby"
+						}
+					]
+				}
+			}
+		}
+	}
+}

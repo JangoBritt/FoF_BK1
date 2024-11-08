@@ -1,0 +1,55 @@
+//bridge-file-version: #30
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:jungfern_feature",
+			"places_feature": "korbon:scatter_jungfern_feature"
+		},
+		"conditions": {
+			"placement_pass": "final_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "jungle"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "edge"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "bamboo"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "math.random_integer(8, 16)",
+			"scatter_chance": "variable.is_legacy ? 0.0 : 200.0",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					"query.heightmap(variable.worldx, variable.worldz) * 2"
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

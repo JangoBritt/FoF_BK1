@@ -1,0 +1,353 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.raccoon.beg": {
+			"loop": true,
+			"override_previous_animation": true,
+			"blend_weight": "1",
+			"bones": {
+				"body": {
+					"rotation": [-77.5, 0, 0],
+					"position": [0, 1.2, 2]
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"post": ["math.cos(query.anim_time * 600.00) *  -3.0", 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": {
+						"0.0": {
+							"post": [0, 7, 5],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"leg0": {
+					"rotation": [-90, 40, 0],
+					"position": [0.4, -5, -3]
+				},
+				"leg1": {
+					"rotation": [-90, -40, 0],
+					"position": [0, -5, -4]
+				},
+				"tail": {
+					"rotation": [10, 0, 0],
+					"position": [0, -5, -2]
+				},
+				"leg2": {
+					"rotation": {
+						"0.0": {
+							"post": ["-107.5+math.cos(query.anim_time * 600) * -10", -7.5, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, 2, 0]
+				},
+				"leg3": {
+					"rotation": {
+						"0.0": {
+							"post": ["-107.5+math.cos(query.anim_time * 600) * -10", 7.5, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, 2, 0]
+				}
+			}
+		},
+		"animation.raccoon.baby_beg": {
+			"loop": true,
+			"override_previous_animation": true,
+			"blend_weight": "1",
+			"bones": {
+				"body": {
+					"rotation": [-77.5, 0, 0],
+					"position": [0, 1.2, 2]
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"post": ["math.cos(query.anim_time * 600.00) *  -3.0", 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": {
+						"0.0": {
+							"post": [0, 7, 5],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"scale": 1.3
+				},
+				"leg0": {
+					"rotation": [-90, 40, 0],
+					"position": [0.4, -5, -3]
+				},
+				"leg1": {
+					"rotation": [-90, -40, 0],
+					"position": [0, -5, -4]
+				},
+				"tail": {
+					"rotation": [10, 0, 0],
+					"position": [0, -5, -2]
+				},
+				"leg2": {
+					"rotation": {
+						"0.0": {
+							"post": ["-107.5+math.cos(query.anim_time * 600) * -10", -7.5, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, 2, 0]
+				},
+				"leg3": {
+					"rotation": {
+						"0.0": {
+							"post": ["-107.5+math.cos(query.anim_time * 600) * -10", 7.5, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, 2, 0]
+				}
+			}
+		},
+		"animation.raccoon.eat": {
+			"loop": true,
+			"animation_length": 0.2,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": [-77.5, 0, 0],
+					"position": [0, 1.2, 2]
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"post": [5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.12": {
+							"post": [7.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [5, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, 7, 5]
+				},
+				"leg0": {
+					"rotation": [-90, 40, 0],
+					"position": [0.4, -5, -3]
+				},
+				"leg1": {
+					"rotation": [-90, -40, 0],
+					"position": [0, -5, -4]
+				},
+				"tail": {
+					"rotation": [10, 0, 0],
+					"position": [0, -5, -2]
+				},
+				"leg2": {
+					"rotation": {
+						"0.0": {
+							"post": [-105, -10, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.12": {
+							"post": [-110, -10, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [-105, -10, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, 2, 0]
+				},
+				"leg3": {
+					"rotation": {
+						"0.0": {
+							"post": [-105, 10, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.12": {
+							"post": [-110, 10, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [-105, 10, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, 2, 0]
+				},
+				"rightItem": {
+					"rotation": [75, 0, 0],
+					"position": [-2, 2, -7]
+				}
+			}
+		},
+		"animation.raccoon.baby_eat": {
+			"loop": true,
+			"animation_length": 0.2,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": [-77.5, 0, 0],
+					"position": [0, 1.2, 2]
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"post": [5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.12": {
+							"post": [7.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [5, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, 7, 5],
+					"scale": 1.3
+				},
+				"leg0": {
+					"rotation": [-90, 40, 0],
+					"position": [0.4, -5, -3]
+				},
+				"leg1": {
+					"rotation": [-90, -40, 0],
+					"position": [0, -5, -4]
+				},
+				"tail": {
+					"rotation": [10, 0, 0],
+					"position": [0, -5, -2]
+				},
+				"leg2": {
+					"rotation": {
+						"0.0": {
+							"post": [-105, -10, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.12": {
+							"post": [-110, -10, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [-105, -10, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, 2, 0]
+				},
+				"leg3": {
+					"rotation": {
+						"0.0": {
+							"post": [-105, 10, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.12": {
+							"post": [-110, 10, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [-105, 10, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, 2, 0]
+				},
+				"rightItem": {
+					"rotation": [75, 0, 0],
+					"position": [-2, 2, -7]
+				}
+			}
+		},
+		"animation.raccoon.sleep": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, -90],
+					"position": [0, -4, 0]
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"post": ["math.cos(query.anim_time * 100.00) *  -2.0", 0, -85],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": {
+						"0.0": {
+							"post": [0, -3.4, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"head_sleeping": {
+					"scale": 1.01
+				},
+				"leg0": {
+					"rotation": [0, 0, -80],
+					"position": [5, -5, 0]
+				},
+				"leg1": {
+					"rotation": [0, 0, -60],
+					"position": [1, -1, 0]
+				},
+				"leg2": {
+					"rotation": [0, 0, -80],
+					"position": [5, -5, 0]
+				},
+				"leg3": {
+					"rotation": [0, 0, -60],
+					"position": [1, -1, 0]
+				},
+				"tail": {
+					"rotation": [0, -5, -82.5],
+					"position": [0, -4, 0]
+				}
+			}
+		},
+		"animation.raccoon.sit": {
+			"loop": true,
+			"animation_length": 1.056,
+			"bones": {
+				"body": {
+					"rotation": [-65, 0, 0],
+					"position": [0, 1.2, 1]
+				},
+				"head": {
+					"position": [0, 6, 3]
+				},
+				"leg0": {
+					"rotation": [-90, 40, 0],
+					"position": [0.4, -5, -1]
+				},
+				"leg1": {
+					"rotation": [-90, -40, 0],
+					"position": [0, -5, -2]
+				},
+				"tail": {
+					"rotation": [5, 0, 0],
+					"position": [0, -4, -2]
+				}
+			}
+		},
+		"animation.raccoon.baby_transform": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"head": {
+					"scale": 1.3
+				}
+			}
+		}
+	}
+}

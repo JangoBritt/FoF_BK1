@@ -1,0 +1,220 @@
+//bridge-file-version: #227
+{
+	"format_version": "1.19.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "kuma:skeleton_rat",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+			"poison": {
+				"minecraft:attack": {
+					"effect_name": "poison",
+					"damage": 1,
+					"effect_duration": 4
+				}
+			},
+			"slowness": {
+				"minecraft:attack": {
+					"effect_name": "slowness",
+					"damage": 2,
+					"effect_duration": 4
+				}
+			},
+			"wither": {
+				"minecraft:attack": {
+					"effect_name": "wither",
+					"damage": 3,
+					"effect_duration": 5
+				}
+			},
+			"nausea": {
+				"minecraft:attack": {
+					"effect_name": "nausea",
+					"effect_duration": 5,
+					"damage": 2
+				}
+			}
+		},
+		"components": {
+			"minecraft:movement": {
+				"value": 0.4
+			},
+			"minecraft:navigation.walk": {
+				"can_sink": true
+			},
+			"minecraft:movement.basic": {
+				"max_turn": 360
+			},
+			"minecraft:behavior.random_stroll": {},
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 0.2
+			},
+			"minecraft:tameable": {
+				"probability": 0.3,
+				"tame_event": {
+					"event": "on_tame"
+				},
+				"tame_items": [
+					"minecraft:wheat_seeds"
+				]
+			},
+			"minecraft:leashable": {},
+			"minecraft:nameable": {},
+			"minecraft:behavior.look_at_player": {
+				"priority": 7,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:jump.static": {
+				"jump_power": 0.6
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/skeleton rat.json"
+			},
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+			},
+			"minecraft:behavior.tempt": {
+				"priority": 5,
+				"speed_multiplier": 0.5,
+				"within_radius": 16,
+				"can_get_scared": true,
+				"items": [
+					"minecraft:wheat_seeds"
+				]
+			},
+			"minecraft:behavior.sniff": {
+				"duration": 2,
+				"cooldown_range": [
+					10,
+					20
+				]
+			},
+			"minecraft:is_shaking": {},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": true,
+				"reselect_targets": true,
+				"within_radius": 25,
+				"must_see_forget_duration": 17,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "snowgolem"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "irongolem"
+								}
+							]
+						},
+						"max_dist": 35
+					},
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "villager"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "wandering_trader"
+								}
+							]
+						},
+						"max_dist": 35,
+						"must_see": false
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "baby_turtle"
+								},
+								{
+									"test": "in_water",
+									"subject": "other",
+									"operator": "!=",
+									"value": true
+								}
+							]
+						},
+						"max_dist": 35
+					}
+				]
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 4,
+				"track_target": true,
+				"speed_multiplier": 1.25
+			},
+			"minecraft:burns_in_daylight": {},
+			"minecraft:scale": {
+				"value": 0.7
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"randomize": [
+							{
+								"add": {
+									"component_groups": [
+										"poison"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"slowness"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"wither"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"nausea"
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

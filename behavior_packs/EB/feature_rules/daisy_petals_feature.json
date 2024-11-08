@@ -1,0 +1,47 @@
+//bridge-file-version: #34
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:daisy_petals_feature",
+			"places_feature": "korbon:scatter_daisy_petals_feature"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "birch"
+						}
+					]
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "mutated"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "(query.noise((variable.originx) / 200.0, (variable.originz) / 200.0) < -0.8) ? 0 : 1",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fables_avatars:tuskenraider_avatar_item"
+		},
+		"components": {
+            "minecraft:icon": "tuskenraider_avatar_item", 
+			"minecraft:entity_placer": {
+				"entity": "fables_avatars:tuskenraider_avatar"
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+//bridge-file-version: #33
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:frog_leg_raw",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.rawFood"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:use_duration": 1.5,
+			"minecraft:icon": {
+				"texture": "korbon:frog_leg_raw"
+			},
+			"minecraft:display_name": {
+				"value": "item.korbon:frog_leg_raw.name"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:food": {
+				"nutrition": 2,
+				"can_always_eat": false,
+				"saturation_modifier": 0.1
+			},
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.5,
+				"use_duration": 1.3
+			}
+		},
+		"events": {}
+	}
+}

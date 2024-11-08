@@ -1,0 +1,45 @@
+//bridge-file-version: #60
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "kuma:warped_rat",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/rata comun/warped rat"
+			},
+			"geometry": {
+				"default": "geometry.warpedrat"
+			},
+			"animations": {
+				"move": "controller.animation.Ratita.move",
+				"moving": "animation.rata.walk",
+				"static": "controller.animation.Ratita.static",
+				"staticking": "animation.rata.static",
+				"sit": "controller.animation.rata.move",
+				"sitting": "animation.rata.sitting",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.attack = Math.sin(variable.attack_time * 30);"
+				],
+				"animate": [
+					"static",
+					"move",
+					"sit",
+					"look_at_target"
+				]
+			},
+			"render_controllers": [
+				"controller.render.blank"
+			],
+			"spawn_egg": {
+				"base_color": "#22866A",
+				"overlay_color": "#DB6B23"
+			}
+		}
+	}
+}

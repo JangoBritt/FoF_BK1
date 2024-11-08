@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fables_avatars:greenballornament_item"
+		},
+		"components": {
+            "minecraft:icon": "greenballornament_item", 
+			"minecraft:entity_placer": {
+				"entity": "fables_avatars:greenballornament"
+			}
+		}
+	}
+}

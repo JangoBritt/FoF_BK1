@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.70",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sophisticated_backpack:backpack_item",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "backpack"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "Ultra Backpack"
+      },
+      "minecraft:block_placer": {
+        "block": "sophisticated_backpack:backpack"
+      },
+      "minecraft:wearable": {
+        "slot": "slot.weapon.offhand"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "sophisticated_backpack:is_backpack"
+        ]
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

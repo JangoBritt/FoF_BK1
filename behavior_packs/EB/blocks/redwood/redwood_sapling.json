@@ -1,0 +1,66 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:redwood_sapling_block"
+		},
+		"components": {
+			"minecraft:tick": {
+				"looping": true,
+				"interval_range": [
+					1100,
+					1600
+				]
+			},
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					12,
+					12
+				]
+			},
+			"minecraft:geometry": "geometry.sapling_model",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "redwood_sapling",
+					"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": true
+				}
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:dirt",
+							"minecraft:grass",
+							"minecraft:farmland"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:map_color": "#0E1D0E",
+			"minecraft:loot": "loot_tables/blocks/redwood_sapling.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:custom_components": [
+				"korbon:redwood_sapling"
+			]
+		},
+		"events": {}
+	}
+}

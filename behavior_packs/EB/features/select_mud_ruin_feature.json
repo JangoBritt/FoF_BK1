@@ -1,0 +1,27 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "korbon:select_mud_ruin_feature"
+		},
+		"features": [
+			[
+				"korbon:mud_ruin1_feature_mcstructure",
+				1
+			],
+			[
+				"korbon:mud_ruin2_feature_mcstructure",
+				1
+			],
+			[
+				"korbon:mud_ruin3_feature_mcstructure",
+				1
+			],
+			[
+				"korbon:mud_ruin4_feature_mcstructure",
+				1
+			]
+		]
+	}
+}

@@ -1,0 +1,30 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:black_sand",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.nature"
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "black_sand",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:map_color": "#1D1E1F",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.4
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.3
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block"
+		},
+		"events": {}
+	}
+}

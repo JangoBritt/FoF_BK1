@@ -1,0 +1,28 @@
+tile.la:lore_anvil.name=Lore Anvil
+
+pack.name=§lLore Anvil RP
+pack.description=Necessary Resource Pack for the Lore Anvil Addon. More addons at trmc-studios.com
+
+pack.hold_item_to_apply_lore=You need to hold an item to apply lore.
+pack.lore_anvil_title=Lore Anvil
+pack.choose_option_for_lore=Please choose an option for the lore:
+pack.add_new_lore=Add New Lore
+pack.clear_lore=Clear Lore
+pack.operation_canceled=Operation canceled.
+pack.enter_lore= Enter the lore for this item:
+pack.type_lore_here=Type lore here...
+pack.select_lore_color=Select a color for the lore:
+
+pack.none=None
+pack.red=Red
+pack.green=Green
+pack.blue=Blue
+pack.aqua=Aqua
+pack.light_purple=Light Purple
+pack.yellow=Yellow
+pack.white=White
+pack.black=Black
+
+pack.lore_applied=Lore applied: 
+pack.no_lore_entered=No lore entered, item unchanged.
+pack.lore_cleared=Lore has been cleared from the item.

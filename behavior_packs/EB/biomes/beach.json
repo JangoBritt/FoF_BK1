@@ -1,0 +1,49 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "beach"
+		},
+		"components": {
+			"minecraft:climate": {
+				"snow_accumulation": [
+					0,
+					0.125
+				],
+				"downfall": 0.4,
+				"temperature": 0.8
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "beach"
+			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 10,
+				"sea_floor_material": "minecraft:sand",
+				"foundation_material": "minecraft:stone",
+				"mid_material": "minecraft:sand",
+				"top_material": "minecraft:sand",
+				"sea_material": "minecraft:water"
+			},
+			"minecraft:surface_material_adjustments": {
+				"adjustments": [
+					{
+						"materials": {
+							"top_material": "minecraft:grass"
+						},
+						"noise_frequency_scale": 0.0625,
+						"noise_range": [
+							-0.1,
+							0.1
+						]
+					}
+				]
+			},
+			"monster": {},
+			"overworld": {},
+			"warm": {},
+			"tropical": {},
+			"beach": {}
+		}
+	}
+}

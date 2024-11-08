@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Kuma's Rats Resource Pack",
+		"description": "Fables-of-Folly: §fKuma Maker Addon's§f",
+		"uuid": "957de88d-d527-48cc-bda5-d84ed2cc094e",
+		"version": [
+			1,
+			2,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "69182f47-a25e-4dbd-a64c-35b5e901bdbe",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "71cca5d2-a4a9-44f1-a23f-3b629102a1b9"
+		}
+	]
+}

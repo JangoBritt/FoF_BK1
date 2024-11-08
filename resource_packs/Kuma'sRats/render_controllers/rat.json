@@ -1,0 +1,29 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.rat": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.skins[query.variant]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.brown",
+						"Texture.blue",
+						"Texture.yellow",
+						"Texture.gray",
+						"Texture.white",
+						"Texture.pink"
+					]
+				}
+			}
+		}
+	}
+}

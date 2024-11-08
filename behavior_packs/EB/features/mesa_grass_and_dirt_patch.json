@@ -1,0 +1,13 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:mesa_grass_and_dirt_patch"
+		},
+		"early_out": "none",
+		"features": [
+			"korbon:mesa_grass_patch_with_dirt_feature"
+		]
+	}
+}

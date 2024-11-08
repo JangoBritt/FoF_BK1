@@ -1,0 +1,33 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "korbon:scatter_brittlebush_feature"
+		},
+		"iterations": 90,
+		"x": {
+			"distribution": "gaussian",
+			"extent": [
+				-2,
+				2
+			]
+		},
+		"y": {
+			"distribution": "gaussian",
+			"extent": [
+				-4,
+				4
+			]
+		},
+		"z": {
+			"distribution": "gaussian",
+			"extent": [
+				-2,
+				2
+			]
+		},
+		"coordinate_eval_order": "zyx",
+		"places_feature": "korbon:brittlebush_feature"
+	}
+}

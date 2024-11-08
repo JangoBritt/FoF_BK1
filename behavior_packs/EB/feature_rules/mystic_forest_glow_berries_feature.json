@@ -1,0 +1,44 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.20.30",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:mystic_forest_glow_berries_feature",
+			"places_feature": "minecraft:cave_vine_snap_to_ceiling_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "roofed"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 2,
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					64,
+					70
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

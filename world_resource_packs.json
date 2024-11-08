@@ -1,0 +1,124 @@
+
+[
+	
+	{
+		"pack_id" : "7d8dd50d-f5cb-4e8c-8faa-7d4da782f117", //Expansive Biomes
+		"subpack" : "fog_enable",
+		"version" : [ 1, 0, 38 ]
+	},
+	
+	{
+		"pack_id" : "efbba891-5e91-45e3-843e-cd6ac6c2fb4f", //Lore Anvil
+		"version" : [ 1, 5, 0 ]
+	},
+	
+	{
+		"pack_id" : "78abc781-83b1-4a76-b731-d586871fc59f", //LootR
+		"version" : [ 1, 8, 0 ]
+	},
+	
+	{
+		"pack_id" : "6181e449-d2b7-4482-8740-544e645bdd5f", //Gravestones
+		"version" : [ 2, 1, 4 ]
+	},
+	
+	{
+		"pack_id" : "71cca5d2-a4a9-44f1-a23f-3b629102a1b9", //Kuma's Rats
+		"version" : [ 1, 0, 0 ]
+	},
+	
+	{
+		"pack_id" : "9b234d43-48f4-4f87-81c0-64e9cca428ca", //Ultra Backpacks
+		"version" : [ 2, 0, 0 ]
+	},
+	
+	{
+		"pack_id" : "98836a6c-fe16-60f4-87a4-5afb6439bd9f", //Farmers' Delight
+		"version" : [ 2, 1, 4 ]
+	},
+	
+	{
+		"pack_id" : "51284a03-e6fe-49e7-a042-aa0002a8e98f", //MrCrayFish Furniture
+		"version" : [ 1, 2, 1 ]
+	},
+	
+	{
+		"pack_id" : "9a4bc60d-9e2e-4638-b93b-9b354bb6c64b", //Mailboxes
+		"version" : [ 1, 2, 1 ]
+	},
+	
+	{
+		"pack_id" : "5c2e165b-9240-478e-a4b1-d98804e33476", //FXNT Armor Stands
+		"version" : [ 2, 1, 1 ]
+	},
+	
+	{
+		"pack_id" : "5f579963-21e7-4945-ac23-b11e2a0f018c", //FXNT Mini Blocks
+		"version" : [ 7, 4, 3 ]
+	},
+	
+	{
+		"pack_id" : "ac9817a6-8634-4493-b7e1-70b560d28cbe", //Medieval Furniture
+		"version" : [ 6, 4, 0 ]
+	},
+	
+	{
+		"pack_id" : "43120e01-773d-4667-a1cd-fb5d6fb84543", //Fables Glass Pack
+		"version" : [ 6, 0, 0 ]
+	},
+	
+	{
+		"pack_id" : "8850b6e4-469e-4084-9d25-d5367dcb7c64", //Fables Frames Pack
+		"version" : [ 6, 0, 0 ]
+	},
+	
+	{
+		"pack_id" : "20002000-ab12-2222-2222-b000b000b000", //Abandoned & Ruined Structures
+		"version" : [ 1, 10, 12 ]
+	},
+	
+	{
+		"pack_id" : "910ddcde-dac0-4e42-846d-bbd345f6869e", //Fables Currency Pack
+		"version" : [ 6, 1, 0 ]
+	},
+	
+	{
+		"pack_id" : "20002000-1223-2222-2222-b000b000b000", //Lamps & Lanterns
+		"version" : [ 1, 8, 4 ]
+	},
+	
+	{
+		"pack_id" : "3a0fc7bb-4703-47fb-935f-bd6a1d9cac09", //Fables Golems Pack
+		"version" : [ 6, 1, 0 ]
+	},
+	
+	{
+		"pack_id" : "3a71bf5a-e4fc-4cc1-aece-dcd17980a3d9", //Fables Medals Pack
+		"version" : [ 6, 1, 0 ]
+	},
+	
+	{
+		"pack_id" : "8cc04773-f094-4871-9998-d7a1bc27fbdf", //FXNT Mob heads
+		"version" : [ 3, 5, 0 ]
+	},
+	
+	{
+		"pack_id" : "f71c753f-e73d-4959-ab45-af8ab1dafa80", //Fables Paintings Pack
+		"version" : [ 6, 1, 1 ]
+	},
+	
+	{
+		"pack_id" : "b1c6e1b7-221b-4b6d-8691-85e35cf0e113", //Wandering Trader
+		"version" : [ 6, 1, 0 ]
+	},
+	
+	{
+		"pack_id" : "04051855-530c-4cea-999b-9ead1c0850d9", //Fables Avatars
+		"version" : [ 6, 2, 2 ]
+	},
+	{
+		"pack_id" : "0641b13f-6000-4eac-8c1e-6390e5fccb29", //Biome Compass
+		"version" : [ 3, 0, 0 ]
+	}
+
+]

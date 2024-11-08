@@ -1,0 +1,42 @@
+//bridge-file-version: #45
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:mesa_grass_and_dirt_patch_feature",
+			"places_feature": "korbon:mesa_grass_and_dirt_patch"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "mesa"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "(query.noise((variable.originx) / 200.0, (variable.originz) / 200.0) < -0.8 && query.heightmap(variable.worldx, variable.worldz) >= 77) ? 0 : 15",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					-8,
+					8
+				]
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					-8,
+					8
+				]
+			}
+		}
+	}
+}

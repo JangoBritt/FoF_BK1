@@ -1,0 +1,758 @@
+v1.1
+
+-added new biomes, Lush Mountain, Scorched Forest, Autumn Forest, Autumn Forest Hills, Tropical Island, Wakandan Plains, Wakandan Forest, Birch Wetlands, Maple Woods, Maple Woods Hills
+-added new mobs, Crocodile, Frog, Grizzly Bear, Black Bear, Vibranium Skeleton, Trapper Pillager
+-added new blocks, Vibranium Ore, Vibrant Stone, Vibrant Dripstone (large and small variants), Smoldering Log, Scorched Leaves, Scorched Grass Block, Smoldering Grass Block, Autumn Oak Leaves, Autumn Birch Leaves, Autumn Oak Leaf Pile, Autumn Birch Leaf Pile, Maple Leaves, Maple Oak Syrup Log
+-added new items, Grizzly Bear Pelt, Black Bear Pelt, Vibranium Crystal, Vibranium Ingot
+-added new weapons/tools, Vibranium Sword, Vibranium Pickaxe, Vibranium Axe, Vibranium Shovel
+-added new armor, Grizzly Bear Armor, Vibranium Armor
+-added new food, Crocodile Meat, Frog Legs
+-added new structure, Hunter Cabin
+-added new saplings, Cherry Blossom Sapling, Jacaranda Sapling, Maple Sapling
+-improved how water is scattered on the surface of the Bog biome and Marsh biomes
+-imrpoved how lava is scattered on the surface of the Volcanic biome
+-lowered Frozen Mountain spawn rate a bit
+-added seagrass to Bog and Marsh biomes
+-added fog to Frozen Desert
+-improved Marsh surface
+-Volcanic biome will only spawn as a mutation of Dune biomes
+-lowered the amount of grass in Marsh biome
+-lowered the amount of vines in Bog biome
+-added bamboo to Cherry Blossom Grove
+-added pandas to Cherry Blossom Grove
+-added lilypads to Cherry Blossom Grove
+-Mushroom Forest will now only be found in Mooshroom Island biomes
+-Cherry Blossom Leaves and Jacaranda Leaves are now flammable
+-Cherry Blossom Leaves and Jacaranda Leaves will now drop sticks and saplings
+-updated textures of Cherry Blossom Leaves
+-updated textures of Jacaranda Leaves
+-Pumpkin Plains will now only be found as a mutation of the Autumn Forest
+-added new splash texts
+-added map colors for some blocks
+-updated Mossy Skeleton spawn egg texture
+-updated Mossy Zombie spawn egg texture
+
+v1.1.2
+-updated ore generation for 1.17
+-changed the name of addon to Expansive Biomes
+-updated logo
+-added new block, Deepslate Vibranium Ore
+-goats will now spawn in Lush Mountains, Frozen Mountains, and Alps biomes
+-powder snow will now spawn in Frozen Mountains, and Frozen Desert biomes
+-Vibranium Ore and Vibrancy Stone will now spawn in Wakandan biomes again
+-caves and minerals can now be found in all biomes
+-increased spawn rate of Vibranium Ore
+-removed ash and spores from the Volcanic, Gaint Mushroom Forest, and Bog biomes temporarily
+-lowered the spawn rate of the Hunter Cabin structure
+-lowered the spawn rate of Black Bear
+-lowered the spawn rate of Grizzly Bear
+-fixed a typo for Mossy Skeleton spawn egg
+-fixed the name for Autumn Oak Leaf Pile
+-podzol will now be found in Redwood forests
+-added Hungarian language (credit to Nargoth from Discord)
+-added French language (credit to Skycubb73 from Discord)
+
+v1.2
+-added new biomes, Prairie, Tropical Rainforest, Dandelion Forest, Dandelion Plains, Shrubland Plains, Deciduous Forest, Frozen Deciduous Forest, Break Wasteland, Shipwreck Ocean, Coniferous Forest, Frozen Coniferous Forest, Gravel Beach, Mystic Forest, Tall Roofed Forest, Jacaranda Forest
+-added new blocks, Dune Sand, Hanging Icicles, Buttercup Flower, Brittlebright, Standing Torch, Glass Jar, Firefly Jar, Vertical Moss Carpet
+-added new recipe, Dune Sand, Standing Torch
+-added new mobs, Moobloom, Goblin, Firefly
+-added new items, Glass Jar, FireFly Jar, Vibranium Hoe
+-added new structure, Goblin Hut
+-Frozen Mountain biome will now only spawn in frozen regions
+-Alps biome will now only spawn in frozen regoins
+-Alps biome will now have trees
+-improved Marsh surface water
+-improved Birch Wetland surface water
+-improved bushes in several biomes
+-improved Pendula Forest biome
+-fixed names for some blocks
+-fixed names for some items
+-Lake biomes will now have islands
+-lowered the spawn rate of Canyon biomes
+-icicles will now spawn on the surface and underground in frozen biomes
+-updated Redwood biome
+-updated Trapper Pillager trades
+-Syrup Bottle will now be found in the correct category
+-improved translations for items
+-added Polish language support (credit to ytpo from Discord)
+
+v1.3
+-added new mobs, Raccoon, Deer
+-added new blocks, Deer Trophy Plaque, Redwood Blocks, New Cherry Blocks, New Jacaranda Blocks
+-added more recipes for custom wood
+-added new food, Raw Venison, Cooked Venison
+-coconuts are now throwable
+-improved Redwood biome
+-improved loot drops for custom leaves
+-improved functionality when bone mealing saplings
+-improved Cherry Blossom Trees
+-improved Lavender Grove Trees
+-increased spawn rates of Goblin Hut structure
+-Mossy Skeletons will now shoot poison arrows
+-Mossy Skeletons now have a rare chance to drop poison arrows when killed by a player
+-Mossy Zombies will now give a poison effect for 15 seconds per hit
+-moved Grizzly Bear Pelt and Black Bear pelt to the Items category in the creative menu
+-Trapper Pillager will now hunt crocodiles, foxes, raccoons, and deer
+-updated trade table for Trapper Pillager
+-changed Redwood Trees to a more vanilla style
+-updated textures for Cherry Blossom blocks
+-updated texture for Jacaranda blocks
+-Hanging Vibrant Dripstone will no longer show in the Crops category in the creative menu
+-Goblins now have an angry sound
+-Vibranium Skeletons will now play the correct ambient sound
+-lowered the spawn rates of Vibranium Skeletons
+-fixed a bug that caused skeletons to play the wrong ambient sound
+-standing torches can now only be placed on top of blocks
+
+v1.4
+-added new biome, Frost Forest
+-added new mobs, Yeti, Ghost
+-added new Halloween mobs, Pumpkin Head Zombie, Pumpkin Head Skeleton
+-added new blocks, Snowdrop Flower, Cattail
+-added new items, Ball of Packed Ice, Ectoplasm
+-removed biomes, Highlands, Grasslands, Pine Forest, Frozen Pine Forest
+-custom blocks can now be found in the creative menu and recipe book
+-Mud block now has lower collision
+-Vibranium Ore will now drop XP when mined with the appropriate pickaxe
+-fixed Stripped Jacaranda Wood name
+-disabled generation of heated stone due to a Minecraft bug
+-fixed Moobloom spawn egg name
+-some blocks will no longer change grass into dirt beneath them
+-changed trees in Skinny Pine Forest to be more vanilla like
+-frozen biomes will now only have frozen rivers
+-Lake biome is now deeper
+-improved Skinny Pine Forest biome
+-improved Frozen Skinny Pine Forest biome
+-improved Canyon biome
+-improved Prairie biome
+-improved Shrubland biome
+-improved Marsh biome
+-improved Azalea Forest biome
+-adjusted Deciduous Forest biome height
+-adjusted Redwood Forest biome height
+-adjusted Coniferous Forest biome height
+-Lavender Grove biome will now have oak trees
+-Lavender Grove biome now has brighter folliage
+-Tall Roofed Forest will now only spawn as a possible mutation of the vanilla Roofed Forest
+-Tropical Beaches will now spawn as shores and mutations of Desert biomes
+-Tropical Rainforests will now spawn as mutations of Jungle biomes
+-disabled generation of Hunter Cabin due to a Minecraft bug
+-disabled generation of Goblin Hut due to a Minecraft bug
+-Goblins will now spawn naturally in Mystic Forest biomes
+-Goblins no longer have an angry sound
+-Trapper Pillagers are now part of the illager family
+-Trapper Pillagers will now attack anything that attacks them
+-Zombie Horses will now spawn naturally at night where normal horses spawn during October
+-Skeleton Horses will now spawn naturally at night where normal horses spawn during October
+-updated geometry and texture of Crocodiles
+-improved underwater movement of Crocodiles
+-Crocodiles will now attack Raccoons
+-added new title logo for Halloween
+-added an optional setting to disable mobs included in addon
+
+v1.4.1
+-increased the downfall of Cherry Blossom biome
+-Frogs will now spawn in swamp biomes
+-Crocodiles will now spawn in swamp biomes
+-Fireflies will now spawn in swamp biomes
+-Yetis will now spawn in cold biomes
+-lowered spawn rate of Deer
+-lowered spawn rate of Raccoons
+-players can no longer eat beds (what?)
+-fixed Goblin texture
+
+v1.5
+-improved Pendula Forest biome
+-improved Jacaranda Forest biome
+-improved Maple Forest biome
+-improved Pine Forest trees
+-added new blocks, Tinder Mushrooms, Voilets
+-vibranium will now spawn under savanna biomes with the same rarity as diamonds
+-updated vibranium texture
+-update deepslate vibranium texture
+-added spruce trees to Coniferous Forest biomes
+-Shrubland biomes will now spawn in warm regions
+-removed Wakanda biome
+-removed Lake biome
+-removed Frozen Lake biome
+-removed Mushroom Forest biome
+-removed Tropical Rainforest biome
+-removed Dunes biome
+-removed spawn rules for Halloween mobs
+-Fireflies will now spawn in the Bog biome
+-fixed a bug that caused crocodiles to not spawn
+-lowered spawn rate of Yeti
+-removed Halloween themed title logo
+-removed some unneeded files
+-updated pack icon
+-updated title logo
+
+v1.6.0
+
+Structures:
+-updated Hunter Cabin structure
+
+Generation:
+-registered custom biomes by replacing most vanilla biomes
+-added Volcanic Mountains biome in place of Volcanic Plains biome
+-Mystic Forest tree trunks are now made up of dark oak logs
+-Mystic Forest trees are now slightly smaller
+-increased generation of cave vines in Mystic Forest biome
+-replaced custom mud block with vanilla Mud Block in Bog biomes
+-Hunter Cabin structure can now spawn in the world once again
+-Goblin Hut structure can now spawn in the world again
+
+Blocks:
+-removed custom Mud Block
+-Vibranium Ore will no longer emit light
+
+Entities/Mobs:
+-removed Frog
+-Crocodiles will now spawn in Mangrove Swamps
+-Fireflies will now spawn in Mangrove Swamps
+-Vibranium Skeletons now have a rare chance of spawning underground in Savanna biomes
+-lowered spawn rate of Ghost
+-Goblins will now attack Pillagers
+-Goblins will now avoid Ghosts
+-Goblins now have an idle animation
+-updated Goblin texture
+-vanilla Frogs will now drop Frog Legs when killed
+
+Items:
+-updated textures of Raw and Cooked Frog Legs to better match the vanilla frog texture
+
+Bugs:
+-fixed a bug causing coconuts to freeze nearby chunks
+
+Misc:
+-increased Volcanic fog distance
+-updated pack icon 
+
+v1.6.2 & v1.6.1
+
+Blocks:
+-added a new Cherry Blossom Leaf block variant
+-updated texture of Redwood blocks
+-updated texture of Cherry Blossom Logs
+-updated texture of Jacaranda Log Top
+-Tinder Mushrooms can now grow on Redwood Logs
+-Brittlebright blocks will now emit particles
+-added falling leaf particles to Autumn Forest trees
+
+Generation:
+-improved Bog Swamp biome
+-Tinder Mushrooms can now be found more often in Redwood Forests
+-Tinder Mushrooms can now be found in Coniferous, Deciduous, and Mystic forest biomes
+-increased the amount of bushes in Redwood Forests
+-Cherry Blossom Forest trees are now slightly more dense
+-increased the spawn rate of double flowers in certain biomes
+-lowered the spawn rate of beehives in Pendula Forests
+-lowered the amount of spore blossoms in Mystic Forests
+-added tall dark oak trees to Mystic Forest
+-added Vertical Moss Carpet to Mystic, Deciduous, Penudla, Coniferous, and Redwood forest biomes
+-Vibranium Ore can now only be found between y-levels 16 through -144
+-adjusted the spawn rate of Vibranium Ore
+
+Entities/Mobs
+-lowered spawn rate of Yeti in frozen biomes
+-Grizzly and Black bears now have a stomp attack animation
+-Grizzly Bears will now attack villagers and Deer
+
+Recipes:
+-Tinder Mushrooms can now be crafted into Brown Mushrooms
+
+Bugs:
+-fixed a bug that prevented Redwood Logs from being stripped
+
+Bugs:
+-fixed a bug that caused majority of blocks to not work on Realms/servers
+
+Blocks:
+-removed the flammable component temporarily due to the bug mentioned above
+
+Generation:
+-slightly increased the spawn rate of Vibranium Ore
+
+v1.6.3
+
+Blocks:
+-updated custom doors for latest block limitations
+-updated texture of Redwood Leaves
+
+Bugs:
+-fixed a bug causing custom wood to appear as update blocks
+-fixed a bug causing Vibranium Skeletons to spawn above ground
+
+Entities/Mobs
+-lowered the spawn rate of Vibranium Skeletons
+
+Generation:
+-slightly increased the spawn rate of Goblin Huts
+
+V1.6.4
+
+Blocks:
+-added Bluebell Flower
+-added Brittlebush
+-added Aloe Vera
+
+Entities/Mobs
+-added Tumbleweed
+-added Scorpion
+-Vibranium Skeletons now only spawn in light levels of (0-7)
+-lowered spawn rate of Vibranium Skeletons
+-lowered the herd amount of Vibranium Skeletons from (2) to (1)
+
+Items/Weapons/Food:
+-added Aloe
+-added Scorpion Stinger
+-added Stinger Knife
+
+Generation:
+-updated Desert Biome
+-increased Cactus generation
+
+Misc:
+-updated pack logo
+
+v1.6.5
+
+Biomes:
+-removed custom Cherry Blossom biome for 1.20
+-reduced the amount of trees in Jacaranda biomes for a less dense canopy
+-slightly reduced the amount of bamboo in Jacaranda biomes
+-added more foliage and flowers to Cherry Grove 
+-added flowering cherry trees to Cherry Grove
+-added fog to Cherry Grove
+
+Entities/Mobs:
+-updated Firefly
+-updated texture of Moobloom
+-updated geometry of Moobloom
+-increased spawnrate of Moobloom
+-lowered spawn rate of Grizzly Bear
+-lowered spawn rate of Black Bear
+-lowered spawn rate of Deer
+-bees now pollenate custom flowers
+
+Blocks:
+-renamed Dune Sand to Windswept Sand
+-renamed custom Cherry Blossom Leaves to Flowering Cherry Leaves
+-removed all custom Cherry blocks from creative menu
+-updated custom Cherry Blossom Leaves texture
+-updated some blocks for 1.20
+-updated glass jar texture
+
+Generation:
+-increased spawn rate of Vibranium Ore
+
+Items:
+-removed all custom Cherry Blossom items from creative menu
+
+Particles:
+-added falling Jacaranda leaf particles
+
+Recipes:
+-removed custom Cherry block and item recipes
+-glass jars can now be crafted using vanilla cherry planks
+
+Misc:
+-updated pack icon
+-updated title logo
+
+v1.6.6
+
+Blocks:
+-added Sulfur Ore
+-added Deepslate Sulfur Ore
+-removed custom Cherry Blossom blocks
+
+Generation:
+-Sulfur Ore can now be found below Volcanic Peaks
+
+Entities/Mobs:
+-added Dweller
+-raccoons will no longer pickup food items from MSS to prevent content log errors when not using the addon
+-raccoons will no longer get woken up by other raccoons
+
+Items:
+-added Sulfur
+-added Dweller Flesh
+
+Recipes:
+-gunpowder can be crafted using sulfur and charcoal
+-leather can be obtained by smelting dweller flesh
+
+Bugs:
+-fixed a bug causing frogs to drop frog legs instead of the correct drops when eating mobs
+-fixed a bug causing frogs to not drop anything when killed
+-fixed various content log errors
+
+v1.6.7
+
+Biomes:
+-updated jungle biome
+-lowered the amount of ferns in deciduous forests
+-lowered the amount of surface pool in jacaranda forests
+-increased the amount of lavender flowers in jacaranda forests
+-added double tall grass to some biomes
+
+Structures:
+-added small goblin hut
+-added goblin crop
+-added goblin firepit
+-goblin huts now have spruce doors
+-goblin huts can spawn with additional huts, crops, or firepits (WIP)
+
+Generation:
+-most custom trees that use vanilla blocks can now be grown with vanilla saplings
+-sulfur ore spawns everywhere underground between levels -64 through -32 but most commonly under volcanic peak biomes
+-placement for bluebells is more random
+-increased the amount of cacti in deserts
+-slightly updated deciduous oak trees
+-added cobblestone boulders to redwood forest
+
+Entities/Mobs:
+-added Chimpanzee
+-updated geometry for deer
+-updated texture for deer
+-updated idle animation for deer
+-wolves will now hunt deer
+-updated geometry for goblin
+-lowered ghost health to 20 (was 30)
+-added whiskers to raccoons
+-crocodiles will now attack scorpions
+-mossy zombies now spawn in jungles
+-mossy skeletons now spawn in jungles
+-lowered yeti health to 60 (was 100)
+-lowered yeti spawn rate
+-lowered goblin spawn rate
+
+Blocks:
+-added Jungfern
+-added Didymoch
+-added Ultisol
+-updated geometry of deer trophy
+-updated texture of deer trophy
+-vertical moss carpets can be placed on mangrove logs
+-updated texture of jungle planks
+-updated texture of jungle leaves
+
+Bugs:
+-some mobs will no longer become invisible when using other addons
+-fixed a bug causing horses and donkeys to not spawn in plains, lavender groves and shrublands
+
+v1.6.8
+
+Biomes:
+-added Shroom Caverns
+
+Generation:
+-added small oak trees to deciduous forest
+
+Blocks:
+-added Glowshroom
+-added Glowshroom Block
+-ultisol drops itself when mined
+-removed falling leaf particles from jacaranda leaves to improve performance
+-reverted jungle leaves back to the vanilla texture
+
+Entities/Mobs:
+-updated geometry of grizzly bear
+-updated geometry of black bear
+-updated texture of grizzly bear
+-updated texture of black bear 
+-bears now play a sound when attacking
+
+Items:
+-added Glowshroom as a consumable (gives night vision for 30 seconds when eaten, but can only be eaten when hungry)
+
+Misc:
+-added an optional setting in the resource pack to enable or disable biome fog
+
+
+IMPORTANT NOTICE: Due to a bug when using subpacks in resource packs, you will have to manually enable the behavior pack and resource pack when previously you would only have to enable to behavior pack to also enable the resource pack automatically
+
+v1.6.8.1
+
+Misc:
+-added compatibility for Minecraft version 1.20.30
+
+Generation:
+-added more tree diversity in Deciduous and Pendula forests
+-lowered the amount of bluebell flowers
+
+Bugs:
+-fixed a bug that caused windswept sand to appear darker due to lighting
+-fixed a bug that caused deer to cause log errors
+
+KNOWN ISSUE: Custom doors do not work properly, so the crafting recipes are temporarily disabled
+
+v1.6.9
+
+Blocks:
+-added redwood fence
+-added jacaranda fence
+-slightly adjusted brightness of maple leaves texture
+
+Items:
+-redwood sapling can now be used as fuel
+-jacaranda saplings can now be used as fuel
+-maple saplings can now be used as fuel
+-sulfur moved to the items category
+
+Generation:
+-fixed several foilage features that were affected by 1.20.30
+
+Entities/Mobs:
+-chance for Pumpkin Zombies to spawn (time limited)
+-chance for Pumpkin Skeletons to spawn (time limited)
+
+v1.7.0
+
+Biomes:
+-added Aspen Forest
+-removed dirt from deserts
+
+Blocks:
+-added Aspen Leaves
+-added Aspen Leaf Pile
+-readded custom doors
+-updated redwood plank texture
+-updated redwood door texture
+-updated redwood trapdoor texture
+-updated jacaranda trapdoor texture
+-custom doors now use the new door sounds
+-custom trapsoors now use the new trapdoor sounds
+-updated geometry of tinder mushrooms
+-updated texture of tinder mushrooms
+
+Entities/Mobs:
+-updated texture for raccoon
+-updated geometry for goblin
+-lowered spawn rate of fireflies
+-deer will only follow players when holding carrots
+-baby deer can be fed carrots to grow up
+-chimps can be bred with apples
+-disabled pumpkin zombies and skeletons from spawning
+
+Armor:
+-armor trims can be applied to vibranium armor
+-vibranium armor can be repaired using the same armor piece or with vibranium ingots
+-grizzly armor can be repaired using the same armor piece or with iron ingots
+
+Weapons/Tools:
+-vibranium tools and weapons can be repaired using the same item or with vibranium ingots
+
+Items:
+-added Aspen sapling
+
+Bugs:
+-fixed jacaranda saplings growing into a tree when the block below it was broken
+-fixed custom saplings not being able to grow naturally
+
+v1.7.1
+
+Blocks:
+-added Daisy Pedals
+
+Entities/Mobs:
+-bees now are tempted by custom flowers
+-bees can be bred and grown with custom flowers
+
+Generation:
+-added daisy pedals to Pendula and Flower Forests
+
+v1.7.2
+
+Biomes:
+-updated Savanna biome
+
+Blocks:
+-added Strata
+-added Wild Wheat
+-added Dead Fern
+-added Baobab blocks
+
+Generation:
+-removed oak trees from Savanna biome
+-added Baobab Trees
+
+Entities/Mobs:
+-added Warthog
+-raccoons can only hold 1 item at a time
+-chimps can only hold 1 item at a time
+
+Bugs:
+-aspen leaves now drop the correct loot when mined by players
+-aspen leaves can now be found in the creative category 
+-aspen sapling can now be found under the nature category in the sapling group
+-fixed some blocks having a border shadow
+
+Misc:
+-added compatibility for Minecraft version 1.20.60
+
+NOTICE: The listed biomes will not work currently.
+-Volcanic Peaks
+-Canyon
+-Autumn Forest
+
+v1.7.3
+
+Biomes:
+-readded Autumn Forest
+-readded Volcanic Peaks
+
+Blocks:
+-added Autumn Sapling
+
+Bugs:
+-baobab, jacaranda, and aspen saplings will no longer leave an empty air block when a tree is grown
+-aspen saplings will now drop themselves when mined
+-baobab, jacaranda, and redwood fences can now be crafted
+-baobab leaves now have the correct sound
+
+v1.7.31
+
+Entities/Mobs
+-lowered spawn rate of yeti
+
+Bugs:
+-fixed yeti log errors related to animations
+
+v1.7.4
+
+Biomes
+-added brittlebush to mesa
+-added aloe vera to mesa
+-added grass patches to mesa
+-added dead ferns to mesa and deserts
+-added tumbleweed to mesa
+
+Entities/Mobs
+-added Outlaw
+-scorpions will now spawn in mesa biomes
+-horses will now spawn in mesa biomes
+-goblins can now open and pass through doors
+
+Items:
+-added Bola
+
+Blocks:
+-slightly changed vibranium ore texture
+-vibranium ore will now emit light
+-adjusted jacaranda leaves drops
+-updated custom doors
+-updated geometry of syrup block
+-updated some blocks to format version 1.20.80
+
+Structures:
+-added Outlaw Saloon
+-added Outlaw Camp
+
+Generation:
+-increased vibranium ore spawn rate
+-increased chance of vibranium ore being exposed to air
+-changed the shape of large jacaranda trees
+
+Bugs/Fixes:
+-vertical moss can now be found in the creative menu
+-wild wheat will now always drop wheat and seeds
+
+v1.7.41
+
+Bugs/Fixes:
+-fixed a bug preventing blocks from being placed under other blocks
+
+v1.7.5
+
+Biomes:
+-redwood forest bushes will now be made of spruce leaves
+-increased the amount of trees in jacaranda forests
+
+Blocks:
+-added redwood leaf sprouts
+-removed vibrant stone
+-remove vibrant dripstone
+-deer trophy is now correctly oriented in the hotbar
+-updated deer trophy geometry
+-increased collision and selection box of deer trophy
+-vibranium ore can be mined with diamond pickaxes
+-sulfur ore can only be mined using iron pickaxes or better
+-adjusted tinder mushrooms geometry to prevent z-fighting when placed on a block with an exposed top
+-added particles to aspen, jacaranda, redwood, and autumn leaves
+-redwood leaves are slightly brighter
+-updated all blocks to the latest format version and components
+-custom wood and stone types can be mined faster with vanilla tools
+
+Items:
+-unbreaking now works correctly when applied to stinger knife
+-vibranium armor now applies absorption every 15 seconds when the full set is worn (only applies to players)
+-updated all items to the latest format versions and components 
+
+Entities/Mobs:
+-updated deer antler geometry
+-updated deer spawn egg color
+
+Generation:
+-lowered tinder mushroom spawn rate
+-lowered goblin hut spawn rate
+
+Bugs/Fixes:
+-custom leaves now drop the correct loot
+-firefly jar emits the correct light level
+
+Misc:
+-changed pack icon
+-added some custom in-game achievements
+-addon no longer requires the "Holiday Creator Features" toggle
+
+v1.7.51
+
+Items:
+-increased durability of vibranium tools
+
+Entities/Mobs:
+-lowered spawn rate of mossy skeleton
+-mossy skeletons no longer spawn underground
+
+Bugs/Fixes:
+-fixed a bug causing scriptevent messages to be sent in chat
+
+v1.7.52
+
+Misc:
+-updated for 1.21.20
+
+v1.7.53
+
+Blocks:
+-deadferns can now be placed on dirt and podzol
+-disabled the recipe to craft custom stairs
+-removed hanging icicles block from the creative menu (use the item instead to place the block)
+
+Items:
+-increased durability of vibranium armor
+
+Entities/Mobs:
+-slightly edited goblin texture
+
+v1.7.54
+
+Misc:
+-updated for 1.21.30
+
+v1.7.55
+
+Recipes:
+-vibranium ingots are now crafted using netherite scraps instead of netherite ingots
+-campfires can now be crafted using baobab, redwood, and jacaranda
+
+Bugs/Fixes:
+-sulfur and vibranium ore will no longer give xp when mined with silk touch
+
+v1.7.56
+
+Misc:
+-updated for 1.21.40

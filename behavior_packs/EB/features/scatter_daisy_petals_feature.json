@@ -1,0 +1,33 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "korbon:scatter_daisy_petals_feature"
+		},
+		"iterations": 96,
+		"x": {
+			"distribution": "triangle",
+			"extent": [
+				-5,
+				5
+			]
+		},
+		"y": {
+			"distribution": "triangle",
+			"extent": [
+				-2,
+				2
+			]
+		},
+		"z": {
+			"distribution": "triangle",
+			"extent": [
+				-5,
+				5
+			]
+		},
+		"coordinate_eval_order": "zxy",
+		"places_feature": "korbon:daisy_petals_feature"
+	}
+}

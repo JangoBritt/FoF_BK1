@@ -1,0 +1,53 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:moss_carpet_vertical_feature_rule",
+			"places_feature": "korbon:moss_carpet_vertical_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "azalea_forest"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "lush_caves"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 120,
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					-58,
+					60
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

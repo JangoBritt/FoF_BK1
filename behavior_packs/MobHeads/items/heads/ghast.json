@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:ghast_item"
+		},
+		"components": {
+            "minecraft:icon": "fmh_ghast_item", 
+			"minecraft:entity_placer": {
+				"entity": "fmh:ghast"
+			}
+		}
+	}
+}

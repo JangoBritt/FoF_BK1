@@ -1,0 +1,13 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:shroom_cave_place_feature"
+		},
+		"early_out": "first_failure",
+		"features": [
+			"korbon:shroom_cave_scatter_ground_feature"
+		]
+	}
+}

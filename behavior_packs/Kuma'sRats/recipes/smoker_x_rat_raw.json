@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "nicothekid:smoker_x_rat_raw"
+    },
+    "tags": [ "smoker" ],
+    "input": {
+      "item": "nicothekid:rat_raw"
+    },
+    "output": {
+      "item": "nicothekid:rat_cooked",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "nicothekid:rat_raw"
+      }
+    ]
+  }
+}

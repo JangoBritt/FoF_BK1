@@ -1,0 +1,115 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.deer.baby_transform": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": [0, 0, -1],
+					"scale": [1.4, 1.4, 1.2]
+				}
+			}
+		},
+		"animation.deer.idle": {
+			"loop": true,
+			"animation_length": 7.72,
+			"bones": {
+				"tail": {
+					"rotation": {
+						"4.48": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.56": {
+							"post": [85, 0, 2.5],
+							"lerp_mode": "catmullrom"
+						},
+						"4.64": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.08": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.16": {
+							"post": [85, 0, 2.5],
+							"lerp_mode": "catmullrom"
+						},
+						"7.24": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"ear1": {
+					"rotation": {
+						"1.48": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.56": {
+							"post": [0, 47.5, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.64": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.08": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.16": {
+							"post": [0, 47.5, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.24": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"ear2": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.08": {
+							"post": [0, -47.5, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.16": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.12": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2": {
+							"post": [0, -47.5, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.28": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		},
+		"animation.deer.grazing": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["110+math.cos(query.anim_time * 600) * -2", 0, 0],
+					"position": [0, -1.9, 0.7]
+				}
+			}
+		}
+	}
+}

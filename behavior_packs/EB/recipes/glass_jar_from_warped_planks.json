@@ -1,0 +1,29 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "korbon:glass_jar_from_warped_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:warped_planks"
+			},
+			"B": {
+				"item": "minecraft:glass"
+			}
+		},
+		"result": {
+			"item": "korbon:glass_jar_item",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

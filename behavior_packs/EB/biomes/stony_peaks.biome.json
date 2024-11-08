@@ -1,0 +1,65 @@
+//bridge-file-version: #32
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "stony_peaks"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0.3,
+				"temperature": 1,
+				"ash": 0.1
+			},
+			"minecraft:mountain_parameters": {
+				"peaks_factor": 1,
+				"steep_material_adjustment": {
+					"material": "minecraft:blackstone",
+					"north_slopes": true,
+					"east_slopes": true
+				},
+				"top_slide": {
+					"enabled": false
+				}
+			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 7,
+				"sea_floor_material": "minecraft:basalt",
+				"foundation_material": "minecraft:basalt",
+				"mid_material": "minecraft:blackstone",
+				"top_material": "minecraft:basalt",
+				"sea_material": "minecraft:water"
+			},
+			"minecraft:surface_material_adjustments": {
+				"adjustments": [
+					{
+						"materials": {
+							"mid_material": "minecraft:blackstone",
+							"top_material": "minecraft:blackstone"
+						},
+						"noise_frequency_scale": 0.015,
+						"noise_range": [
+							-0.0125,
+							0.0125
+						]
+					},
+					{
+						"materials": {
+							"mid_material": "minecraft:lava",
+							"top_material": "minecraft:lava"
+						},
+						"noise_frequency_scale": 0.05,
+						"noise_range": [
+							-0.0525,
+							0.0525
+						]
+					}
+				]
+			},
+			"mountains": {},
+			"monster": {},
+			"overworld": {},
+			"spawn_sulfur": {}
+		}
+	}
+}

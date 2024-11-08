@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mb:post_box"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"B#B",
+			"#C#",
+			"W#W"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_ingot"
+			},
+			"C": {
+				"item": "minecraft:chest"
+			},
+			"B": {
+				"item": "minecraft:blue_dye"
+			},
+			"W": {
+				"item": "minecraft:light_gray_dye"
+			}
+		},
+		"unlock": [
+			{"item": "fables_misc:acacia_book"},
+			{"item": "fables_misc:bamboo_book"},
+			{"item": "fables_misc:birch_book"},
+			{"item": "fables_misc:cherry_book"},
+			{"item": "fables_misc:nether_book"},
+			{"item": "fables_misc:darkoak_book"},
+			{"item": "fables_misc:jungle_book"},
+			{"item": "fables_misc:mangrove_book"},
+			{"item": "fables_misc:oak_book"},
+			{"item": "fables_misc:spruce_book"}
+		],
+		"result": {
+			"item": "mb:post_box",
+			"count": 1
+		}
+	}
+}
+

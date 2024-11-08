@@ -1,0 +1,24 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "korbon:crafting_table_from_baobab"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~",
+            "~~"
+        ],
+        "key": {
+            "~": {
+                "item": "korbon:baobab_planks"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:crafting_table",
+				"count": 1
+			}
+		]
+    }
+}

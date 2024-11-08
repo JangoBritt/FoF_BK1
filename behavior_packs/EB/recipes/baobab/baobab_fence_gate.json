@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "korbon:baobab_fence_gate"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "#~#", 
+            "#~#"
+        ],
+        "key": {
+            "~": {
+                "item": "korbon:baobab_planks"
+            },
+            "#": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": [
+			{
+				"item": "korbon:baobab_fence_gate",
+				"count": 1
+			}
+		]
+    }
+}

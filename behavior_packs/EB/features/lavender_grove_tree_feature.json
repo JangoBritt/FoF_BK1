@@ -1,0 +1,13 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "korbon:lavender_grove_tree_feature"
+		},
+		"features": [
+			"korbon:jacaranda_small_tree_feature",
+			"korbon:jacaranda_tree_feature"
+		]
+	}
+}

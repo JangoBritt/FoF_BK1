@@ -1,0 +1,28 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "minecraft:sulfur_ore_feature"
+		},
+		"count": 5,
+		"replace_rules": [
+			{
+				"places_block": "korbon:sulfur_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:stone"
+					}
+				]
+			},
+			{
+				"places_block": "korbon:sulfur_ore_deepslate",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate"
+					}
+				]
+			}
+		]
+	}
+}

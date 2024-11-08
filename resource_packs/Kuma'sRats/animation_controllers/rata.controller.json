@@ -1,0 +1,155 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.rata.move": {
+			"initial_state": "default",
+			"states": {
+
+				"default": {
+					"animations": [
+						"look_at_target",
+						{
+							"moving": "query.modified_move_speed"
+						}
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"sit": "query.is_sitting"
+						}
+					]
+				},
+
+				"sit": {
+					"animations": [
+						"sitting"
+					],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"default": "!query.is_sitting"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.Ratita.static": {
+			"initial_state": "static",
+			"states": {
+				"static": {
+					"animations": [
+						"staticking"
+					]
+				}
+			}
+		},
+		"controller.animation.Ratita.move": {
+			"states": {
+				"move": {
+					"animations": [
+						{
+							"moving": "query.modified_move_speed"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.Ratita.sit": {
+			"initial_state": "sit",
+			"states": {
+				"default": {
+					"animations": [
+						"look_at_target",
+						{
+							"moving": "query.modified_move_speed"
+						}
+					]
+				},
+
+				"sit": {
+					"animations": [
+						"sitting"
+					],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"default": "!query.is_sitting"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.Ratita.attack": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"attack": "variable.attack>0"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"attack": {
+					"animations": [
+						"attacking"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.2
+				}
+			}
+		},
+		"controller.animation.Ratita.swim": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"swim": "variable.swim_amount>0.0"
+						}
+					]
+				},
+				"swim": {
+					"animations": [
+						"swimming"
+					],
+					"transitions": [
+						{
+							"default": "variable.swim_amount<-0.0"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.newrat.sniff": {
+			"states": {
+				"default": {
+					"animations": [
+						"staticking"
+					],
+					"transitions": [
+						{
+							"active": "query.is_sniffing"
+						}
+					],
+					"blend_transition": 0
+				},
+				"active": {
+					"animations": [
+						"sniff"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_sniffing"
+						}
+					],
+					"blend_transition": 2.8
+				}
+			}
+		}
+	}
+}

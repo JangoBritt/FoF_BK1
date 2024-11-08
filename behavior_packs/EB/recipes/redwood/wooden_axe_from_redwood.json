@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "korbon:wooden_axe_from_redwood"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~",
+            "~#",
+            " #"
+        ],
+        "key": {
+            "~": {
+                "item": "korbon:redwood_planks"
+            },
+            "#": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:wooden_axe",
+				"count": 1
+			}
+		]
+    }
+}

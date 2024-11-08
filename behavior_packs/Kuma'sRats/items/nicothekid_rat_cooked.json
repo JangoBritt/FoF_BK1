@@ -1,0 +1,69 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nicothekid:rat_cooked",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.cookedFood"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+				"value": "item.nikothekid:rat_cooked.name"
+			},
+      "minecraft:icon": {
+				"textures": {
+          "default": "nicothekid_rat_cooked"  
+				}
+			},
+      "minecraft:hand_equipped": {
+        "value": false
+			},
+			"minecraft:allow_off_hand": {
+        "value": false
+			},
+			"minecraft:can_destroy_in_creative": {
+        "value": true
+			},
+			"minecraft:glint": {
+        "value": false
+			},
+			"minecraft:liquid_clipped": {
+        "value": false
+			},
+			"minecraft:should_despawn": {
+        "value": true
+			},
+			"minecraft:stacked_by_data": {
+        "value": true
+			},
+			"minecraft:max_stack_size": {
+        "value": 64
+			},
+      "minecraft:use_animation": {
+			  "value": "eat"
+			},
+			"minecraft:use_modifiers": {
+        "use_duration": 2.0,
+			  "movement_modifier": 0.3
+			},
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 4,
+        "saturation_modifier": 0.6
+      },
+      "minecraft:tags": {
+        "tags": [
+          "rat_cooked",
+          "cooked_meat",
+          "food",
+          "nicothekid_items",
+          "minecraft:is_cooked",
+          "minecraft:is_meat",
+          "minecraft:is_food"
+        ]
+      }
+    }
+  }
+}

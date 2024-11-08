@@ -1,0 +1,61 @@
+//bridge-file-version: #94
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "korbon:shroom_cave_trees_feature_rule",
+			"places_feature": "korbon:shroom_cave_tree_scatter_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_sky_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "deep_dark"
+						},
+						{
+							"any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "overworld"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "mushroom_island"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"y": -55,
+			"coordinate_eval_order": "xyz",
+			"scatter_chance": {
+				"numerator": 1,
+				"denominator": 3
+			},
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

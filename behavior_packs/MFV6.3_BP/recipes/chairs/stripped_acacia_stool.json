@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "medieval:stripped_acacia_stool"
+    },
+	"tags": [ "workbench" ],
+	"pattern": [
+		"ABA"
+	],
+	"key": {
+	  "B": {
+	    "item": "medieval:acacia_planks_bench"
+	  },
+		"A": {
+			"item": "medieval:stripped_acacia_post"
+		}
+    },
+		"unlock": [
+			{"item": "fables_misc:acacia_book"}
+		],
+    "result": {
+      "item": "medieval:stripped_acacia_stool",
+	  "count": 1
+    }
+  }
+}

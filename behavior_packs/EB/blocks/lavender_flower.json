@@ -1,0 +1,57 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:lavender_flower",
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.plant",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lavender_flower",
+					"render_method": "alpha_test",
+					"face_dimming": false
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					11,
+					8
+				]
+			},
+			"minecraft:collision_box": false,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:grass",
+							"minecraft:dirt"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/lavender_flower.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.1
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.1
+			},
+			"minecraft:light_dampening": 0
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,60 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:aloe_vera",
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": false,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:geometry": "geometry.bluebell",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "aloe_vera",
+					"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:map_color": "#0E5000",
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-5
+				],
+				"size": [
+					9,
+					11,
+					10
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:grass",
+							"minecraft:dirt",
+							"minecraft:sand"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/aloe_vera.json"
+		},
+		"events": {}
+	}
+}

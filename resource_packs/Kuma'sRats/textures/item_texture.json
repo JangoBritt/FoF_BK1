@@ -1,0 +1,16 @@
+//bridge-file-version: #5
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"rat_pelt": {
+			"textures": "textures/items/rat_pelt"
+		},
+		"nicothekid_rat_cooked": {
+			"textures": "textures/items/ntk_rat_cooked"
+		},
+		"nicothekid_rat_raw": {
+			"textures": "textures/items/ntk_rat_raw"
+		}
+	}
+}

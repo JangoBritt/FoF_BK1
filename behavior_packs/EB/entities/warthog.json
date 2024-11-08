@@ -1,0 +1,760 @@
+//bridge-file-version: #171
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "korbon:warthog",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"angry_hoglin": {
+				"minecraft:angry": {
+					"duration": 10,
+					"broadcast_anger": true,
+					"broadcast_range": 16,
+					"calm_event": {
+						"event": "become_calm_event",
+						"target": "self"
+					},
+					"angry_sound": "angry",
+					"sound_interval": {
+						"range_min": 2,
+						"range_max": 5
+					}
+				}
+			},
+			"attack_cooldown": {
+				"minecraft:attack_cooldown": {
+					"attack_cooldown_time": [
+						10,
+						15
+					],
+					"attack_cooldown_complete_event": {
+						"event": "attack_cooldown_complete_event",
+						"target": "self"
+					}
+				}
+			},
+			"minecraft:hoglin_baby": {
+				"minecraft:type_family": {
+					"family": [
+						"warthog",
+						"warthog_baby",
+						"mob"
+					]
+				},
+				"minecraft:is_baby": {},
+				"minecraft:movement": {
+					"value": 0.385
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 4,
+					"speed_multiplier": 1,
+					"track_target": true,
+					"reach_multiplier": 1,
+					"cooldown_time": 0.75
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:scale": {
+					"value": 0.35
+				},
+				"minecraft:collision_box": {
+					"width": 0.4,
+					"height": 0.4
+				},
+				"minecraft:ageable": {
+					"duration": 1200,
+					"feed_items": [
+						"wheat",
+						"minecraft:carrot",
+						"minecraft:potato",
+						"minecraft:brown_mushroom",
+						"korbon:glowshroom_item",
+						"minecraft:golden_carrot",
+						"beetroot"
+					],
+					"grow_up": {
+						"event": "minecraft:ageable_grow_up",
+						"target": "self"
+					}
+				},
+				"minecraft:behavior.follow_parent": {
+					"priority": 6,
+					"speed_multiplier": 1
+				},
+				"minecraft:rideable": {
+					"seat_count": 3,
+					"family_types": [
+						"piglin"
+					],
+					"seats": [
+						{
+							"position": [
+								0,
+								0.9,
+								-0.3
+							],
+							"lock_rider_rotation": 0
+						},
+						{
+							"position": [
+								0,
+								2.4,
+								-0.3
+							],
+							"lock_rider_rotation": 0
+						},
+						{
+							"position": [
+								0,
+								3.9,
+								-0.3
+							],
+							"lock_rider_rotation": 0
+						}
+					]
+				},
+				"minecraft:behavior.panic": {
+					"priority": 1,
+					"speed_multiplier": 1
+				}
+			},
+			"minecraft:hoglin_adult": {
+				"minecraft:collision_box": {
+					"width": 1.1,
+					"height": 1.35
+				},
+				"minecraft:movement": {
+					"value": 0.36
+				},
+				"minecraft:group_size": {
+					"radius": 32,
+					"filters": {
+						"all_of": [
+							{
+								"test": "has_component",
+								"operator": "!=",
+								"value": "minecraft:is_baby"
+							},
+							{
+								"test": "is_family",
+								"value": "hoglin"
+							}
+						]
+					}
+				},
+				"minecraft:behavior.hurt_by_target": {
+					"priority": 2
+				},
+				"minecraft:on_target_acquired": {
+					"event": "become_angry_event",
+					"target": "self"
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/hoglin.json"
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 4,
+					"speed_multiplier": 1,
+					"track_target": true,
+					"reach_multiplier": 2.5,
+					"cooldown_time": 2
+				},
+				"minecraft:attack": {
+					"damage": [
+						3,
+						9
+					]
+				},
+				"minecraft:behavior.breed": {
+					"priority": 3,
+					"speed_multiplier": 0.6
+				},
+				"minecraft:breedable": {
+					"require_tame": false,
+					"love_filters": {
+						"test": "has_component",
+						"subject": "self",
+						"operator": "!=",
+						"value": "minecraft:attack_cooldown"
+					},
+					"breeds_with": {
+						"mate_type": "korbon:warthog",
+						"baby_type": "korbon:warthog",
+						"breed_event": {
+							"event": "minecraft:entity_born",
+							"target": "baby"
+						}
+					},
+					"breed_items": [
+						"wheat",
+						"minecraft:carrot",
+						"minecraft:potato",
+						"minecraft:brown_mushroom",
+						"korbon:glowshroom_item",
+						"minecraft:golden_carrot",
+						"beetroot"
+					]
+				},
+				"minecraft:scale": {
+					"value": 0.7
+				}
+			},
+			"unhuntable_adult": {
+				"minecraft:type_family": {
+					"family": [
+						"warthog",
+						"warthog_adult",
+						"mob"
+					]
+				}
+			},
+			"huntable_adult": {
+				"minecraft:type_family": {
+					"family": [
+						"warthog",
+						"warthog_adult",
+						"warthog_huntable",
+						"mob"
+					]
+				}
+			},
+			"hoglinification_sensor": {
+				"minecraft:environment_sensor": {
+					"triggers": {
+						"filters": {
+							"test": "in_nether",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"event": "start_hoglinification_event"
+					}
+				}
+			},
+			"start_hoglinification": {
+				"minecraft:is_shaking": {},
+				"minecraft:environment_sensor": {
+					"triggers": {
+						"filters": {
+							"test": "in_nether",
+							"subject": "self",
+							"operator": "==",
+							"value": false
+						},
+						"event": "stop_hoglinification_event"
+					}
+				},
+				"minecraft:timer": {
+					"looping": false,
+					"time": 15,
+					"time_down_event": {
+						"event": "become_hoglin_event"
+					}
+				}
+			},
+			"become_hoglin": {
+				"minecraft:transformation": {
+					"into": "minecraft:hoglin",
+					"transformation_sound": "converted_to_zombified",
+					"keep_level": true
+				}
+			},
+			"pushable": {
+				"minecraft:pushable": {
+					"is_pushable": true,
+					"is_pushable_by_piston": true
+				}
+			},
+			"search_and_dig": {
+				"minecraft:behavior.random_search_and_dig": {
+					"priority": 1,
+					"find_valid_position_retries": 5,
+					"target_blocks": [
+						"minecraft:dirt",
+						"minecraft:grass",
+						"minecraft:podzol",
+						"minecraft:dirt_with_roots",
+						"minecraft:moss_block",
+						"minecraft:mud",
+						"minecraft:muddy_mangrove_roots"
+					],
+					"goal_radius": 2,
+					"search_range_xz": 20,
+					"search_range_y": 3,
+					"cooldown_range": 1,
+					"digging_duration_range": [
+						5.5,
+						6.5
+					],
+					"item_table": "loot_tables/gameplay/entities/warthog_forage.json",
+					"spawn_item_after_seconds": 6,
+					"spawn_item_pos_offset": 0.8,
+					"on_digging_start": {
+						"event": "on_digging_start",
+						"target": "self"
+					},
+					"on_fail_during_digging": {
+						"event": "on_fail_during_digging",
+						"target": "self"
+					},
+					"on_success": {
+						"event": "on_search_and_digging_success",
+						"target": "self"
+					},
+					"speed_multiplier": 0.65
+				}
+			},
+			"forage_timer": {
+				"minecraft:timer": {
+					"time": [
+						90,
+						300
+					],
+					"looping": false,
+					"time_down_event": {
+						"event": "forage_start",
+						"target": "self"
+					}
+				}
+			},
+			"warthog_rideable": {
+				"minecraft:is_saddled": {},
+				"minecraft:boostable": {
+					"speed_multiplier": 2,
+					"duration": 5,
+					"boost_items": [
+						{
+							"item": "carrotOnAStick",
+							"damage": 2,
+							"replace_item": "fishing_rod"
+						}
+					]
+				},
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"interact_text": "Crouch to dismount",
+					"family_types": [
+						"player"
+					],
+					"seats": {
+						"position": [
+							0,
+							1.35,
+							-0.8
+						]
+					}
+				},
+				"minecraft:item_controllable": {
+					"control_items": "carrotOnAStick"
+				},
+				"minecraft:behavior.controlled_by_player": {
+					"priority": 0
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/pig_saddled.json"
+				}
+			},
+			"warthog_unsaddled": {
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": {
+									"test": "has_equipment",
+									"subject": "other",
+									"domain": "hand",
+									"value": "saddle"
+								},
+								"event": "minecraft:on_saddled"
+							},
+							"use_item": true,
+							"play_sounds": "saddle",
+							"interact_text": "action.interact.saddle"
+						}
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:nameable": {},
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			},
+			"minecraft:experience_reward": {
+				"on_bred": "Math.Random(1,7)",
+				"on_death": "query.last_hit_by_player ? 5 : 0"
+			},
+			"minecraft:knockback_resistance": {
+				"value": 0.5
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 0,
+				"remove_target": true,
+				"entity_types": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_target",
+									"subject": "other",
+									"value": true
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "piglin"
+								}
+							]
+						},
+						"check_if_outnumbered": true,
+						"max_dist": 10,
+						"sprint_speed_multiplier": 1.2
+					}
+				],
+				"avoid_mob_sound": "retreat",
+				"sound_interval": {
+					"range_min": 2,
+					"range_max": 5
+				}
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_water": true,
+				"avoid_damage_blocks": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:leashable": {
+				"soft_distance": 4,
+				"hard_distance": 6,
+				"max_distance": 10
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 7,
+				"speed_multiplier": 0.4
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 9
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 8,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:physics": {},
+			"minecraft:behavior.tempt": {
+				"priority": 4,
+				"items": [
+					"minecraft:wheat",
+					"minecraft:carrot",
+					"minecraft:potato",
+					"minecraft:brown_mushroom",
+					"korbon:glowshroom_item",
+					"minecraft:golden_carrot",
+					"carrotOnAStick",
+					"beetroot"
+				],
+				"can_get_scared": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:behavior.raid_garden": {
+				"priority": 10,
+				"blocks": [
+					"minecraft:sweet_berry_bush",
+					"minecraft:cave_vines_head_with_berries",
+					"minecraft:cave_vines_body_with_berries",
+					"minecraft:carrots",
+					"minecraft:potatoes",
+					"minecraft:wheat",
+					"minecraft:beetroot"
+				],
+				"speed_multiplier": 1.2,
+				"search_range": 16,
+				"search_height": 4,
+				"goal_radius": 0.8,
+				"max_to_eat": 6,
+				"initial_eat_delay": 2,
+				"eat_delay": 2,
+				"full_delay": 60
+			},
+			"minecraft:behavior.equip_item": {
+				"priority": 2
+			},
+			"minecraft:shareables": {
+				"all_items": false,
+				"all_items_max_amount": 1,
+				"items": [
+					{
+						"item": "minecraft:potato",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "minecraft:carrot",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "korbon:glowshroom_item",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "minecraft:beetroot",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					}
+				]
+			},
+			"minecraft:equip_item": {},
+			"minecraft:behavior.pickup_items": {
+				"priority": 6,
+				"max_dist": 8,
+				"goal_radius": 2,
+				"speed_multiplier": 1,
+				"can_pickup_any_item": false
+			},
+			"minecraft:behavior.eat_carried_item": {
+				"priority": 10,
+				"delay_before_eating": 1
+			},
+			"minecraft:inventory": {
+				"inventory_size": 1
+			},
+			"minecraft:behavior.float": {
+				"priority": 2
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 95,
+						"trigger": "spawn_adult"
+					},
+					{
+						"weight": 5,
+						"trigger": "spawn_baby"
+					}
+				]
+			},
+			"minecraft:entity_born": {
+				"trigger": "spawn_baby"
+			},
+			"spawn_adult": {
+				"add": {
+					"component_groups": [
+						"minecraft:hoglin_adult",
+						"huntable_adult",
+						"hoglinification_sensor",
+						"pushable",
+						"forage_timer",
+						"warthog_unsaddled"
+					]
+				}
+			},
+			"spawn_baby": {
+				"add": {
+					"component_groups": [
+						"minecraft:hoglin_baby",
+						"hoglinification_sensor"
+					]
+				}
+			},
+			"spawn_adult_unhuntable": {
+				"add": {
+					"component_groups": [
+						"minecraft:hoglin_adult",
+						"unhuntable_adult",
+						"hoglinification_sensor"
+					]
+				}
+			},
+			"minecraft:ageable_grow_up": {
+				"remove": {
+					"component_groups": [
+						"minecraft:hoglin_baby"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:hoglin_adult",
+						"huntable_adult"
+					]
+				}
+			},
+			"become_angry_event": {
+				"add": {
+					"component_groups": [
+						"angry_hoglin"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"forage_timer",
+						"search_and_dig"
+					]
+				}
+			},
+			"become_calm_event": {
+				"remove": {
+					"component_groups": [
+						"angry_hoglin"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"forage_timer"
+					]
+				}
+			},
+			"escaped_event": {
+				"add": {
+					"component_groups": [
+						"attack_cooldown"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"angry_hoglin"
+					]
+				}
+			},
+			"attack_cooldown_complete_event": {
+				"remove": {
+					"component_groups": [
+						"attack_cooldown"
+					]
+				}
+			},
+			"start_hoglinification_event": {
+				"add": {
+					"component_groups": [
+						"start_hoglinification"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"hoglinification_sensor"
+					]
+				}
+			},
+			"stop_hoglinification_event": {
+				"add": {
+					"component_groups": [
+						"hoglinification_sensor"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"start_hoglinification"
+					]
+				}
+			},
+			"become_hoglin_event": {
+				"add": {
+					"component_groups": [
+						"become_hoglin"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:hoglin_adult",
+						"minecraft:hoglin_baby"
+					]
+				}
+			},
+			"on_search_and_digging_success": {
+				"remove": {
+					"component_groups": [
+						"search_and_dig"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"pushable",
+						"forage_timer"
+					]
+				}
+			},
+			"on_digging_start": {
+				"remove": {
+					"component_groups": [
+						"pushable",
+						"forage_timer"
+					]
+				}
+			},
+			"on_fail_during_digging": {
+				"remove": {
+					"component_groups": [
+						"search_and_dig"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"pushable",
+						"forage_timer"
+					]
+				}
+			},
+			"forage_start": {
+				"add": {
+					"component_groups": [
+						"search_and_dig"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"forage_timer"
+					]
+				}
+			},
+			"minecraft:on_saddled": {
+				"remove": {
+					"component_groups": [
+						"warthog_unsaddled"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"warthog_rideable"
+					]
+				}
+			}
+		}
+	}
+}

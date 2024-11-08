@@ -1,0 +1,110 @@
+//bridge-file-version: #32
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:tinder_mushrooms",
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:block_face"
+					]
+				}
+			},
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'east'"
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "tinder_mushroom",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": true
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					2,
+					0,
+					-8
+				],
+				"size": [
+					6,
+					16,
+					16
+				]
+			},
+			"minecraft:collision_box": false,
+			"minecraft:map_color": "#B5947D",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"side"
+						],
+						"block_filter": [
+							"minecraft:log",
+							"minecraft:log2",
+							"korbon:redwood_log"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/tinder_mushrooms.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.1
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:geometry": {
+				"identifier": "geometry.tinder_mushroom_base"
+			}
+		},
+		"events": {}
+	}
+}

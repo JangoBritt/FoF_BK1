@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:jacaranda_leaves",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.leaves"
+			},
+			"states": {
+				"pog:playerPlaced": [
+					false,
+					true
+				]
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.3
+			},
+			"minecraft:map_color": "#63692C",
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:light_dampening": 15,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "jacaranda_leaves",
+					"ambient_occlusion": true,
+					"face_dimming": true,
+					"render_method": "blend"
+				}
+			},
+			"minecraft:flammable": {
+				"destroy_chance_modifier": 20,
+				"catch_chance_modifier": 5
+			},
+			"minecraft:custom_components": [
+				"pog:jacarandaleavesDecay",
+				"korbon:fallingleaves"
+			],
+			"minecraft:loot": "loot_tables/blocks/jacaranda_leaves_drops.json"
+		},
+		"events": {}
+	}
+}

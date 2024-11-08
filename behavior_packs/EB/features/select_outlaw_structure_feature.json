@@ -1,0 +1,31 @@
+//bridge-file-version: #42
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "korbon:select_outlaw_structure_feature"
+		},
+		"features": [
+			[
+				"korbon:outlaw_tent_feature_mcstructure",
+				10
+			],
+			[
+				"korbon:mesa_grass_and_dirt_patch",
+				10
+			],
+			[
+				"korbon:outlaw_barrels_feature_mcstructure",
+				1
+			],
+			[
+				"korbon:outlaw_logs_feature_mcstructure",
+				1
+			],
+			[
+				"korbon:outlaw_fire_feature_mcstructure",
+				1
+			]
+		]
+	}
+}

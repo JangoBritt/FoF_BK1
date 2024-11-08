@@ -1,0 +1,94 @@
+//bridge-file-version: #97
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.chimp": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"idle": "query.is_alive"
+						}
+					],
+					"transitions": [
+						{
+							"swim": "query.is_in_water&&!query.is_on_ground"
+						}
+					]
+				},
+				"swim": {
+					"animations": [
+						"swimming"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_in_water&&query.is_on_ground"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.chimp.move": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"attacking": "query.has_target"
+						}
+					],
+					"transitions": [
+						{
+							"swim": "query.is_in_water&&!query.is_on_ground&&!query.is_riding"
+						}
+					]
+				},
+				"swim": {
+					"animations": [
+						"swimming"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_in_water&&query.is_on_ground"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.chimp.attack": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"attack": "variable.attack_time > 0.1"
+						}
+					],
+					"blend_transition": 0.05
+				},
+				"attack": {
+					"animations": [
+						"attack"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.05
+				}
+			}
+		},
+		"controller.animation.chimp.eat": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"eat": "query.is_eating"
+						}
+					]
+				}
+			}
+		}
+	}
+}

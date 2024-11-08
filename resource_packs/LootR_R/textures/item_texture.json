@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "Lootr Bedrock (Unofficial Port)",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"lootr_icon": {
+			"textures": "textures/items/lootr_icon"
+		}
+	}
+}

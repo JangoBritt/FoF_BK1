@@ -1,0 +1,21 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "korbon:shroom_cave_brown_tree_feature"
+		},
+		"structure_name": "mystructure:shroom_cave_brown_tree_3",
+		"adjustment_radius": 8,
+		"facing_direction": "north",
+		"constraints": {
+			"grounded": {},
+			"block_intersection": {
+				"block_whitelist": [
+					"minecraft:mycelium",
+					"minecraft:air"
+				]
+			}
+		}
+	}
+}

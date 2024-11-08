@@ -1,0 +1,36 @@
+//bridge-file-version: #62
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:aloe",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+        "components": {
+            "minecraft:max_stack_size": 64,
+            "minecraft:icon": "korbon:aloe",
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation_modifier": 0.3,
+                "can_always_eat": false
+            },
+            "minecraft:use_modifiers": {
+                "movement_modifier": 0.5,
+                "use_duration": 1.3
+            },
+			"minecraft:display_name": {
+				"value": "item.korbon:aloe.name"
+			},
+            "minecraft:use_animation": "eat",
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_cooked",
+                    "minecraft:is_meat",
+                    "minecraft:is_food"
+                ]
+            }
+        }
+    }
+}

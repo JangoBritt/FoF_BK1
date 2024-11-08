@@ -1,0 +1,19 @@
+
+pack.name=Kuma's RATS RP
+pack.description=Resource packs of Kuma's RATS (neccessary)
+
+item.spawn_egg.entity.kuma:netherrack_rat.name=Spawn §4Crimson Rat§4
+item.spawn_egg.entity.kuma:gray_comun_rat.name=Spawn §7Rat§7
+item.spawn_egg.entity.kuma:kangaroo_rat.name=Spawn §eKangaroo Rat§e
+item.spawn_egg.entity.kuma:warped_rat.name=Spawn §bWarped Rat§b
+item.spawn_egg.entity.kuma:skeleton_rat.name=Spawn §7Skeleton Rat§7
+item.spawn_egg.entity.kuma:venom_rat.name=Spawn §2Venom Rat§2
+item.spawn_egg.entity.kuma:mount_rat.name=Spawn §8Giant Rat§8
+
+entity.kuma:mount_rat.name= Giant Rat
+action.hint.exit.kuma:mount_rat= Ride Giant Rat
+
+
+item.fof:rat_pelt.name=Rat Pelt
+item.nikothekid:rat_raw.name=Raw Rat
+item.nikothekid:rat_cooked.name=Cooked Rat  

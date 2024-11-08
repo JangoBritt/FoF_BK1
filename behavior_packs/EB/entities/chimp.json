@@ -1,0 +1,685 @@
+//bridge-file-version: #101
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "korbon:chimp",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"ae:chimp_baby": {
+				"minecraft:is_baby": {},
+				"minecraft:scale": {
+					"value": 0.5
+				},
+				"minecraft:movement": {
+					"value": 0.29
+				},
+				"minecraft:type_family": {
+					"family": [
+						"chimp",
+						"mob",
+						"animal",
+						"chimp_baby"
+					]
+				},
+				"minecraft:behavior.raid_garden": {
+					"priority": 0,
+					"blocks": [
+						"minecraft:sweet_berry_bush",
+						"minecraft:cave_vines_head_with_berries",
+						"minecraft:cave_vines_body_with_berries",
+						"minecraft:carrots",
+						"minecraft:potatoes",
+						"minecraft:wheat",
+						"minecraft:beetroot"
+					],
+					"speed_multiplier": 1.2,
+					"search_range": 16,
+					"search_height": 0,
+					"goal_radius": 0.5,
+					"max_to_eat": 0,
+					"initial_eat_delay": 1,
+					"full_delay": 0,
+					"eat_delay": 0
+				},
+				"minecraft:behavior.eat_carried_item": {
+					"priority": 10,
+					"delay_before_eating": 10
+				},
+				"minecraft:behavior.follow_parent": {
+					"priority": 6,
+					"speed_multiplier": 1.1
+				},
+				"minecraft:behavior.panic": {
+					"priority": 1,
+					"speed_multiplier": 1.5
+				},
+				"minecraft:ageable": {
+					"duration": 1200,
+					"feed_items": [
+						"apple"
+					],
+					"grow_up": {
+						"event": "minecraft:ageable_grow_up",
+						"target": "self"
+					}
+				}
+			},
+			"ae:chimp_adult": {
+				"minecraft:movement": {
+					"value": 0.23
+				},
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"family_types": [
+						"chimp_baby"
+					],
+					"seats": {
+						"position": [
+							0,
+							0.83,
+							-0.25
+						],
+						"lock_rider_rotation": 0
+					}
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 2,
+					"within_radius": 16,
+					"reselect_targets": true,
+					"entity_types": [
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "silverfish"
+									}
+								]
+							},
+							"max_dist": 16
+						}
+					],
+					"must_see": true,
+					"must_see_forget_duration": 17,
+					"attack_interval": 1
+				},
+				"minecraft:on_target_acquired": {
+					"event": "minecraft:become_angry",
+					"target": "self"
+				},
+				"minecraft:type_family": {
+					"family": [
+						"chimp",
+						"mob",
+						"animal",
+						"chimp_adult"
+					]
+				},
+				"minecraft:experience_reward": {
+					"on_death": "query.last_hit_by_player?(query.is_baby?12:5)+(math.die_roll(query.equipment_count,1,3)):0"
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 3,
+					"speed_multiplier": 1.7,
+					"track_target": false,
+					"reach_multiplier": 2
+				},
+				"minecraft:behavior.eat_carried_item": {
+					"priority": 10,
+					"delay_before_eating": 5
+				},
+				"minecraft:behavior.breed": {
+					"priority": 3,
+					"speed_multiplier": 1
+				},
+				"minecraft:breedable": {
+					"require_tame": false,
+					"breed_items": "apple",
+					"breeds_with": {
+						"mate_type": "korbon:chimp",
+						"baby_type": "korbon:chimp",
+						"breed_event": {
+							"event": "minecraft:entity_born",
+							"target": "baby"
+						}
+					}
+				}
+			},
+			"ae:chimp_jockey": {
+				"minecraft:behavior.find_mount": {
+					"priority": 1,
+					"within_radius": 16
+				}
+			},
+			"ae:chimp_angry": {
+				"minecraft:angry": {
+					"duration": 30,
+					"broadcast_anger": true,
+					"broadcast_range": 20,
+					"calm_event": {
+						"event": "minecraft:on_calm",
+						"target": "self"
+					},
+					"broadcast_anger_on_being_attacked": true,
+					"broadcast_anger_on_attack": true,
+					"broadcast_filters": {
+						"all_of": [
+							{
+								"any_of": [
+									{
+										"test": "is_family",
+										"operator": "==",
+										"value": "chimp_adult"
+									}
+								]
+							}
+						]
+					},
+					"angry_sound": "mad",
+					"sound_interval": {
+						"range_min": 3,
+						"range_max": 5
+					}
+				},
+				"minecraft:experience_reward": {
+					"on_death": "query.last_hit_by_player?(query.is_baby?12:5)+(math.die_roll(query.equipment_count,1,3)):0"
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 3,
+					"speed_multiplier": 1.5,
+					"track_target": false,
+					"reach_multiplier": 2
+				},
+				"minecraft:on_target_escape": {
+					"event": "minecraft:on_calm"
+				},
+				"minecraft:type_family": {
+					"family": [
+						"chimp",
+						"mob",
+						"animal"
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:nameable": {},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.4
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_walk": true,
+				"can_break_doors": true
+			},
+			"minecraft:annotation.break_door": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": true,
+				"breathes_water": true
+			},
+			"minecraft:attack": {
+				"damage": 3
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/chimp.json"
+			},
+			"minecraft:behavior.stomp_turtle_egg": {
+				"priority": 4,
+				"speed_multiplier": 1,
+				"search_range": 10,
+				"search_height": 3,
+				"goal_radius": 1.14,
+				"search_count": 4,
+				"interval": 20
+			},
+			"minecraft:behavior.move_towards_restriction": {
+				"priority": 5,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 6,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 7,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 7
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:behavior.equip_item": {
+				"priority": 2
+			},
+			"minecraft:shareables": {
+				"items": [
+					{
+						"item": "minecraft:netherite_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "minecraft:diamond_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 1
+					},
+					{
+						"item": "minecraft:iron_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 2
+					},
+					{
+						"item": "minecraft:stone_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 3
+					},
+					{
+						"item": "minecraft:golden_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "minecraft:wooden_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 5
+					},
+					{
+						"item": "minecraft:netherite_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "minecraft:diamond_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 1
+					},
+					{
+						"item": "minecraft:iron_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 2
+					},
+					{
+						"item": "minecraft:chainmail_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 3
+					},
+					{
+						"item": "minecraft:golden_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "minecraft:leather_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 5
+					},
+					{
+						"item": "minecraft:turtle_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 6
+					},
+					{
+						"item": "minecraft:skull:0",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 7
+					},
+					{
+						"item": "minecraft:skull:1",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 7
+					},
+					{
+						"item": "minecraft:carved_pumpkin",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 7
+					},
+					{
+						"item": "minecraft:netherite_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "minecraft:diamond_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 1
+					},
+					{
+						"item": "minecraft:iron_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 2
+					},
+					{
+						"item": "minecraft:chainmail_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 3
+					},
+					{
+						"item": "minecraft:golden_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "minecraft:leather_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 5
+					},
+					{
+						"item": "minecraft:netherite_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "minecraft:diamond_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 1
+					},
+					{
+						"item": "minecraft:iron_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 2
+					},
+					{
+						"item": "minecraft:chainmail_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 3
+					},
+					{
+						"item": "minecraft:golden_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "minecraft:leather_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 5
+					},
+					{
+						"item": "minecraft:netherite_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "minecraft:diamond_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 1
+					},
+					{
+						"item": "minecraft:iron_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 2
+					},
+					{
+						"item": "minecraft:chainmail_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 3
+					},
+					{
+						"item": "minecraft:golden_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "minecraft:leather_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 5
+					},
+					{
+						"item": "korbon:grizzly_bear_pelt_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "korbon:grizzly_bear_pelt_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "korbon:grizzly_bear_pelt_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "korbon:vibranium_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "korbon:vibranium_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "korbon:vibranium_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "korbon:vibranium_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "korbon:stinger_knife",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					}
+				],
+				"all_items": false,
+				"all_items_max_amount": 1
+			},
+			"minecraft:equip_item": {},
+			"minecraft:behavior.mount_pathing": {
+				"priority": 2,
+				"speed_multiplier": 1.5,
+				"target_dist": 0,
+				"track_target": true
+			},
+			"minecraft:behavior.float": {
+				"priority": 8
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:water_movement": {
+				"drag_factor": 0.9
+			},
+			"minecraft:behavior.pickup_items": {
+				"priority": 6,
+				"max_dist": 8,
+				"goal_radius": 2,
+				"speed_multiplier": 1,
+				"can_pickup_any_item": true,
+				"excluded_items": [
+					"korbon:vibranium_helmet",
+					"korbon:grizzly_bear_pelt_helmet"
+				]
+			},
+			"minecraft:leashable": {
+				"soft_distance": 4,
+				"hard_distance": 6,
+				"max_distance": 10
+			},
+			"minecraft:behavior.tempt": {
+				"priority": 4,
+				"items": [
+					"minecraft:apple"
+				]
+			},
+			"minecraft:inventory": {
+				"inventory_size": 1
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 380,
+						"remove": {},
+						"add": {
+							"component_groups": [
+								"ae:chimp_adult"
+							]
+						}
+					},
+					{
+						"weight": 17,
+						"remove": {},
+						"add": {
+							"component_groups": [
+								"ae:chimp_baby"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"remove": {},
+						"add": {
+							"component_groups": [
+								"ae:chimp_baby",
+								"ae:chimp_jockey"
+							]
+						}
+					}
+				]
+			},
+			"ae:as_adult": {
+				"add": {
+					"component_groups": [
+						"ae:chimp_adult"
+					]
+				}
+			},
+			"ae:as_baby": {
+				"add": {
+					"component_groups": [
+						"ae:chimp_baby"
+					]
+				}
+			},
+			"minecraft:become_angry": {
+				"remove": {
+					"component_groups": [
+						"ae:chimp_adult"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ae:chimp_angry"
+					]
+				}
+			},
+			"minecraft:on_calm": {
+				"remove": {
+					"component_groups": [
+						"ae:chimp_angry"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ae:chimp_adult"
+					]
+				}
+			},
+			"minecraft:entity_born": {
+				"add": {
+					"component_groups": [
+						"ae:chimp_baby",
+						"ae:chimp_jockey"
+					]
+				}
+			},
+			"minecraft:ageable_grow_up": {
+				"remove": {
+					"component_groups": [
+						"ae:chimp_baby",
+						"ae:chimp_jockey"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ae:chimp_adult"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.yeti.walk": {
+			"loop": true,
+			"bones": {
+				"right_leg": {
+					"rotation": ["0+math.cos(query.anim_time * 300) * -60", 0, 0]
+				},
+				"left_leg": {
+					"rotation": ["0+math.cos(query.anim_time * 300) * 60", 0, 0]
+				},
+				"left_arm": {
+					"rotation": ["0+math.cos(query.anim_time * 300) * -45", 0, 0]
+				},
+				"right_arm": {
+					"rotation": ["0+math.cos(query.anim_time * 300) * 45", 0, 0]
+				},
+				"root": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time * 300) * -5"]
+				}
+			}
+		},
+		"animation.yeti.attack": {
+			"loop": true,
+			"bones": {
+				"left_arm": {
+					"rotation": {
+						"0.0": {
+							"post": ["-70+math.cos(query.anim_time * 400) * -80", 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, 0, 0]
+				},
+				"right_arm": {
+					"rotation": {
+						"0.0": {
+							"post": ["-70+math.cos(query.anim_time * 400) * -80", 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": [0, -2, 0]
+				}
+			}
+		},
+		"animation.yeti.throw": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"right_arm": {
+					"rotation": ["-187.5+math.cos(query.anim_time * 100) * 5", 0, 0],
+					"position": [0, -7, 2]
+				}
+			}
+		},
+		"animation.yeti.idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["0+math.cos(query.anim_time * 100) * 1", 0, 0]
+				},
+				"head": {
+					"rotation": ["0+math.cos(query.anim_time * 100) * 1", 0, 0],
+					"position": [0, 0, "0+math.cos(query.anim_time * 100) * -0.4"]
+				},
+				"left_arm": {
+					"rotation": ["0+math.cos(query.anim_time * 100) * 1", 0, 0],
+					"position": [0, 0, "0+math.cos(query.anim_time * 100) * -0.4"]
+				},
+				"right_arm": {
+					"rotation": ["0+math.cos(query.anim_time * 100) * 1", 0, 0],
+					"position": [0, 0, "0+math.cos(query.anim_time * 100) * -0.4"]
+				}
+			}
+		}
+	}
+}

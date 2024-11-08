@@ -1,0 +1,17 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "korbon:frog_leg"
+		},
+		"tags": [
+			"furnace",
+			"smoker",
+			"campfire",
+			"soul_campfire"
+		],
+		"input": "korbon:frog_leg_raw",
+		"output": "korbon:frog_leg_cooked"
+	}
+}

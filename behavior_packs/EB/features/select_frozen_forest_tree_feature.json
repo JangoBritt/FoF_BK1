@@ -1,0 +1,19 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "korbon:select_frozen_forest_tree_feature"
+		},
+		"features": [
+			[
+				"korbon:frozen_forest_oak_tree_feature",
+				15
+			],
+			[
+				"korbon:frozen_forest_tree_with_snowdrop_feature",
+				2
+			]
+		]
+	}
+}

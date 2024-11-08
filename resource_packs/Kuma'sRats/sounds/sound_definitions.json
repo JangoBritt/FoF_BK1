@@ -1,0 +1,58 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"mob.rata.natural": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/rat/static_rat"
+			]
+		},
+		"mob.rata.hurt": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/rat/hurt_rat"
+			]
+		},
+		"mob.mountablerat.attack": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/mountable_rat/mountable rat attack"
+				}
+			]
+		},
+		"mob.skeletonrat.ambient": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/skeleton_rat/say1"
+				}
+			]
+		},
+		"mob.skeletonrat.hurt": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/skeleton_rat/hurt3"
+				}
+			]
+		},
+		"mob.skeletonrat.step": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/skeleton_rat/step3"
+				}
+			]
+		},
+		"mob.rat.step": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/rat/rat step"
+				}
+			]
+		}
+	}
+}
