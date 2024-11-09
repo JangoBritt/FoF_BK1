@@ -1,22 +1,35 @@
+name: Deploy Files
+
 on:
   push:
     branches:
-      - "LIVE"
-name: 🚀 Deploy server files on push
+      - LIVE
+  # Enables manually triggering of Workflow with file synchronization option
+  workflow_dispatch:
+    inputs:
+      sync:
+        description: "File synchronization"
+        required: true
+        default: "delta"
+
 jobs:
-    deploy_job:
+  deploy-master:
+    name: "LIVE branch"
+    if: ${{ github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
-    name: deploy
+    timeout-minutes: 30
     steps:
-        - name: Checkout
+      - name: "Checkout"
         uses: actions/checkout@v4
-        - name: deploy file
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-            username: ${{ secrets.FTP_USERNAME }}
-            server: ${{ secrets.FTP_SERVER }}
-            port: ${{ secrets.FTP_PORT }}
-            local_path: ''
-            remote_path: '/worlds/FoF_Bk1'
-            sftp_only: true
-            password: ${{ secrets.FTP_PASSWORD }}
+          fetch-depth: 0
+      - name: "Deploy"
+        uses: milanmk/actions-file-deployer@master
+        with:
+          remote-protocol: "sftp"
+          remote-host: ${{ secrets.FTP_SERVER }}
+          remote-port: ${{ secrets.FTP_PORT }}
+          remote-user: ${{ secrets.FTP_USERNAME }}
+          remote-password: ${{ secrets.FTP_PASSWORD }}
+          ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          remote-path: "/worlds/FoF_Bk1"
