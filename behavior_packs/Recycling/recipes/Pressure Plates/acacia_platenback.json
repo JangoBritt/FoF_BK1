@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:acacia_platenback"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:acacia_pressure_plate"
+      }
+    ],
+    "result": {
+      "item": "minecraft:planks",
+      "data": 4,
+      "count": 2
+    }
+  }
+}

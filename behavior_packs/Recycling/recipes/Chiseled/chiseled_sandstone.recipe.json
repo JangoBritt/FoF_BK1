@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "snb:chiseled_sandstone_nback"
+    },
+
+    
+    "tags": [ "crafting_table", "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "minecraft:sandstone",
+          "data": 1
+      }
+    ],
+    "result": {
+      "item": "minecraft:stone_slab",
+      "data": 1,
+      "count": 2
+    }
+  }
+}

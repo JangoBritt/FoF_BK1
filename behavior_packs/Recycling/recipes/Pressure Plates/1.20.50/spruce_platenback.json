@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:spruce_platenback_new"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:spruce_pressure_plate"
+      }
+    ],
+    "result": {
+      "item": "minecraft:spruce_planks",
+      "count": 2
+    }
+  }
+}

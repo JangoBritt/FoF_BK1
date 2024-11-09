@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:spruce_doornback"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:spruce_door"
+      }
+    ],
+    "result": {
+      "item": "minecraft:planks",
+      "data": 1,
+      "count": 2
+    }
+  }
+}

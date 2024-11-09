@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:polished_blackstone_bricknback"
+    },
+    "tags": [ "crafting_table", "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "minecraft:polished_blackstone_bricks"
+      }
+    ],
+    "result": {
+      "item": "minecraft:polished_blackstone",
+      "count": 1
+    }
+  }
+}

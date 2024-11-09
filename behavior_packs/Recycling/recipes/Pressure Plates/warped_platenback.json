@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:warped_platenback"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:warped_pressure_plate"
+      }
+    ],
+    "result": {
+      "item": "minecraft:warped_planks",
+      "count": 2
+    }
+  }
+}

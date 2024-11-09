@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:nether_bricknback"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:nether_brick"
+      }
+    ],
+    "result": {
+      "item": "minecraft:netherbrick",
+      "count": 4
+    }
+  }
+}

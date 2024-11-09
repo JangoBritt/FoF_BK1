@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:pink_carpetnback_3"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:pink_carpet"
+      },
+      {
+        "item": "minecraft:pink_carpet"
+      },
+      {
+        "item": "minecraft:pink_carpet"
+      }
+    ],
+    "result": {
+      "item": "minecraft:pink_wool",
+      "count": 2
+    }
+  }
+}

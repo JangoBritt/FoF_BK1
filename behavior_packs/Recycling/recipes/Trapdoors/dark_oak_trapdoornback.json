@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:dark_oak_trapdoornback"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:dark_oak_trapdoor"
+      }
+    ],
+    "result": {
+      "item": "minecraft:planks",
+      "data": 5,
+      "count": 3
+    }
+  }
+}

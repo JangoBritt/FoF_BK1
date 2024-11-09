@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:polished_blackstone_platenback"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:polished_blackstone_pressure_plate"
+      }
+    ],
+    "result": {
+      "item": "minecraft:polished_blackstone",
+      "count": 2
+    }
+  }
+}

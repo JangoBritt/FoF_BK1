@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:mangrove_platenback"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:mangrove_pressure_plate"
+      }
+    ],
+    "result": {
+      "item": "minecraft:mangrove_planks",
+      "count": 2
+    }
+  }
+}

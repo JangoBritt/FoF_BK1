@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:oxidized_copper_cutnback"
+    },
+    "tags": [ "crafting_table", "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "minecraft:oxidized_cut_copper"
+      }
+    ],
+    "result": {
+      "item": "minecraft:oxidized_copper",
+      "count": 1
+    }
+  }
+}

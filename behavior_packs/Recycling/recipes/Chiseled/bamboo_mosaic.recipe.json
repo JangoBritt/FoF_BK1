@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "snb:bamboo_mosaic_nback"
+    },
+
+    
+    "tags": [ "crafting_table", "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "minecraft:bamboo_mosaic"
+      }
+    ],
+    "result": {
+      "item": "minecraft:bamboo_slab",
+      "count": 2
+    }
+  }
+}

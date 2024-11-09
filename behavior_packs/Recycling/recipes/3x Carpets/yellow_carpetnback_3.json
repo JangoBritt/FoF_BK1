@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:yellow_carpetnback_3"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:yellow_carpet"
+      },
+      {
+        "item": "minecraft:yellow_carpet"
+      },
+      {
+        "item": "minecraft:yellow_carpet"
+      }
+    ],
+    "result": {
+      "item": "minecraft:yellow_wool",
+      "count": 2
+    }
+  }
+}
