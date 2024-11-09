@@ -9,8 +9,8 @@ jobs:
     name: deploy
     steps:
         - name: Checkout
-        uses: actions/checkout@v2
-        - name: Deploy file
+        uses: actions/checkout@v4
+        - name: deploy file
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
             username: ${{ secrets.FTP_USERNAME }}
