@@ -1,0 +1,23 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§6[§b2.2.3 R§6] §dAlylica's §bAdvancements",
+        "description": "§uSounds and other visual fluff for Alylica's Advancements Addon\n§6Made By : §dAlylica",
+        "uuid": "883172a3-6049-4c62-8d26-fc17395b1095",
+        "version": [2, 2, 3],
+        "min_engine_version": [1, 21, 10]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "0f8809b6-9472-409e-8b5f-e325c46e2050",
+            "version": [2, 2, 3]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "b2d3458c-ed2c-40b3-bedd-83dbd03d1487",
+            "version": [2, 2, 3]
+        }
+    ]
+}

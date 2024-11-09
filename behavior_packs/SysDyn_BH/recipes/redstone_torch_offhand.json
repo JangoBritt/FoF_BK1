@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "new:redstone_torch_offhand"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:redstone_torch"
+      }
+    },
+    "result": {
+      "item": "new:redstone_torch_offhand"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+ // # Sounds obtained from Java Resource Files
+ // # Owned by Mojang / Microsoft 
+{
+  "ui.challenge_complete": {
+    "category": "ui",
+    "sounds": [
+     {
+        "name": "sounds/ui/toast/challenge_complete",
+        "load_on_low_memory": true
+      }
+    ]
+  }
+}

@@ -1,6 +1,14 @@
 
 [
-		
+	{
+		"pack_id" : "b2d3458c-ed2c-40b3-bedd-83dbd03d1487", //Alycia's Advancements
+		"version" : [ 2, 2, 3 ]
+	},
+	
+	{
+		"pack_id" : "4af7083a-0b1e-423b-8ba9-8bd56397eafa", //System Dynamic Lighting
+		"version" : [ 1, 0, 0 ]
+	},		
 	{
 		"pack_id" : "a4f6bb76-816e-4114-8cf2-bfb4a5b06308", //Expansive Biomes
 		"version" : [ 1, 0, 38 ]

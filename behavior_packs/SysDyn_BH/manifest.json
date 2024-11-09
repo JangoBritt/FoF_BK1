@@ -1,0 +1,31 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "System Dynamic Lights Addon V1.9.9 §9Behavior Pack",
+    "description": "§3§lMade by SystemTv Twitter@SystemTv_",
+    "uuid": "4af7083a-0b1e-423b-8ba9-8bd56397eafa",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 20, 30 ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "58ed8864-4cc1-4312-bc48-e5bd24df45ec",
+      "version": [ 1, 0, 0 ]
+    },
+    {
+      "type": "script",
+      "languaje": "javascript",
+      "uuid": "d8a774f2-ee0b-4019-9ba1-3d326a4e571e",
+      "version": [ 0, 1, 0 ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "capabilities": [ "script_eval" ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0"
+    }
+  ]
+}

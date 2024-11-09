@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "new:torch_offhand"
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:block_placer":{
+        "block": "minecraft:torch"
+      },
+      "minecraft:display_name": {},
+      "minecraft:icon": {
+        "texture": "torch"
+      },
+      "minecraft:allow_off_hand": true
+    }
+  }
+}

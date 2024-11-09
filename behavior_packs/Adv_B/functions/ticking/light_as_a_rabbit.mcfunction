@@ -1,0 +1,1 @@
+execute as @a[tag=!LightRabbit,hasitem={item=leather_boots,location=slot.armor.feet}] at @s if block ~~-1~ powder_snow run function adv/light_as_a_rabbit/grant

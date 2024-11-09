@@ -1,6 +1,15 @@
 
 [
-	
+		
+	{
+		"pack_id" : "9662b34a-9a6c-47dc-b1ce-7541c8bbda91", //System Dynamic Lighting
+		"version" : [ 1, 0, 0 ]
+	},
+		
+	{
+		"pack_id" : "883172a3-6049-4c62-8d26-fc17395b1095", //Alycia's Avancements
+		"version" : [ 2, 2, 3 ]
+	},
 	{
 		"pack_id" : "7d8dd50d-f5cb-4e8c-8faa-7d4da782f117", //Expansive Biomes
 		"subpack" : "fog_enable",
