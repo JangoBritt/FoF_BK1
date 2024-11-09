@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fof_recycle:bb.slabs.deepslate_tiles"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "slabs_to_blocks",
+		"priority": -1,
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:deepslate_tile_slab"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:deepslate_tile_slab"
+			}
+		],
+		"result": {
+			"item": "minecraft:deepslate_tiles",
+			"count": 1
+		}
+	}
+}

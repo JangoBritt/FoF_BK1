@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:basalt_polishnback"
+    },
+    "tags": [ "crafting_table", "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "minecraft:polished_basalt"
+      }
+    ],
+    "result": {
+      "item": "minecraft:basalt",
+      "count": 1
+    }
+  }
+}

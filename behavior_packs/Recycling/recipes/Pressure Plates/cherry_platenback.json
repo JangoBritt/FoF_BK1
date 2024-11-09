@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:cherry_platenback"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:cherry_pressure_plate"
+      }
+    ],
+    "result": {
+      "item": "minecraft:cherry_planks",
+      "count": 2
+    }
+  }
+}

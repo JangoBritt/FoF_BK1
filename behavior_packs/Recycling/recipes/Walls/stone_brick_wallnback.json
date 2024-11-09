@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:stone_brick_wallnback"
+    },
+    "tags": [ "crafting_table", "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "minecraft:cobblestone_wall",
+          "data": 7
+      }
+    ],
+    "result": {
+      "item": "minecraft:stonebrick",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

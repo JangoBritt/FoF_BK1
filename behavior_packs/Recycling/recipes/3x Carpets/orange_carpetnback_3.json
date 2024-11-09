@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:orange_carpetnback_3"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:orange_carpet"
+      },
+      {
+        "item": "minecraft:orange_carpet"
+      },
+      {
+        "item": "minecraft:orange_carpet"
+      }
+    ],
+    "result": {
+      "item": "minecraft:orange_wool",
+      "count": 2
+    }
+  }
+}

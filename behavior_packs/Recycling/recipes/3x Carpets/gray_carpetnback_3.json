@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:gray_carpetnback_3"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:gray_carpet"
+      },
+      {
+        "item": "minecraft:gray_carpet"
+      },
+      {
+        "item": "minecraft:gray_carpet"
+      }
+    ],
+    "result": {
+      "item": "minecraft:gray_wool",
+      "count": 2
+    }
+  }
+}

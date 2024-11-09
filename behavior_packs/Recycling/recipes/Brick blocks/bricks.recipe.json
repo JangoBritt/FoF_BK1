@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:bricks_nback"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:brick_block"
+      }
+    ],
+    "result": {
+      "item": "minecraft:brick",
+      "count": 4
+    }
+  }
+}

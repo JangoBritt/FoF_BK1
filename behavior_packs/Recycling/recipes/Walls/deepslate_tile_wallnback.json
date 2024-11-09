@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:deepslate_tile_wallnback"
+    },
+    "tags": [ "crafting_table", "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "minecraft:deepslate_tile_wall"
+      }
+    ],
+    "result": {
+      "item": "minecraft:deepslate_tiles",
+      "count": 1
+    }
+  }
+}

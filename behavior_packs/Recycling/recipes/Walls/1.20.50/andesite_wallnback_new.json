@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:andesite_wallnback_new"
+    },
+    "tags": [ "crafting_table", "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "minecraft:cobblestone_wall",
+          "data": 4
+      }
+    ],
+    "result": {
+      "item": "minecraft:andesite",
+      "count": 1
+    }
+  }
+}

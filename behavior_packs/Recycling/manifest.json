@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Fables Recycling Recipes",
+		"description": "Fables of Folly Recycle Blocks and items",
+		"uuid": "ed2cf1d1-c832-48c8-bf06-0cc38cf5e8a8",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "0c6013be-a9d6-4f99-a0f0-fafc70955b8f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
