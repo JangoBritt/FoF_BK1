@@ -1,0 +1,1 @@
+execute as @s[tag=!CompleteCatalogue,tag=TamedBlackCat,tag=TamedJellieCat,tag=TamedWhiteCat,tag=TamedRagdollCat,tag=TamedPersianCat,tag=TamedCalicoCat,tag=TamedBritishCat,tag=TamedSiameseCat,tag=TamedRedCat,tag=TamedTuxedoCat,tag=TamedTabbyCat] run function adv/a_complete_catalogue/grant

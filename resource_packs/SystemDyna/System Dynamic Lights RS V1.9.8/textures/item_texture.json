@@ -1,0 +1,15 @@
+{
+	"resource_pack-name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"torch": {
+			"textures": "textures/torch.png"
+		},
+		"soul_torch": {
+			"textures": "textures/soul_torch.png"
+		},
+		"redstone_torch": {
+			"textures": "textures/redstone_torch.png"
+		}
+	}
+}

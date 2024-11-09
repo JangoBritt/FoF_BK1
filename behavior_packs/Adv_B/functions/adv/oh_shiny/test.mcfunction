@@ -1,0 +1,1 @@
+execute as @s[tag=!OhShiny] if entity @e[type=piglin,r=8,hasItem={item=gold_ingot,location=slot.weapon.mainhand}] run function adv/oh_shiny/grant
