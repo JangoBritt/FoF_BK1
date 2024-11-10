@@ -1,20 +1,33 @@
+name: Deploy via SFTP
 on:
   push:
     branches:
-      LIVE
+      - LIVE
 jobs:
-    deploy_job:
-      runs-on: ubuntu-latest
-      name: deploy
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-        - name: Deploy file
-          uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-          with:
-            username: ${{ secrets.FTP_USERNAME }}
-            password: ${{ secrets.FTP_PASSWORD }}
-            server: ${{ secrets.FTP_SERVER }}
-            port: ${{ secrets.FTP_PORT }}
-            remote_path: '/worlds/FoF_Bk1'
-            sftp_only: true
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Deploy files via SFTP
+        uses: pressidium/lftp-mirror-action@v1
+        with:
+          # SFTP credentials
+          host: ${{ secrets.FTP_SERVER }}
+          port: ${{ secrets.FTP_PORT }}
+          user: ${{ secrets.FTP_USERNAME }}
+          pass: ${{ secrets.FTP_PASSWORD }}
+          # lftp settings
+          onlyNewer: true
+          settings: 'sftp:auto-confirm=yes'
+          # Mirror command options
+          localDir: '.'
+          remoteDir: '/worlds/FoF_Bk1'
+          reverse: true
+          ignoreFile: '.lftp_ignore'
+          options: '--verbose'
