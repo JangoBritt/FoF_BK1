@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      main
+      LIVE
 jobs:
     deploy_job:
       runs-on: ubuntu-latest
