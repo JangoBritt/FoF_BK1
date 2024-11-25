@@ -128,12 +128,12 @@
 	},
 		
 	{
-		"pack_id" : "540f1b1e-20ae-4a1c-8f47-2ae8c892ca6e", //Better Beds
+		"pack_id" : "540f1b1e-20ae-4a1c-8f47-2ae8c892ca6e", //Modern Doors
 		"version" : [ 1, 7, 0 ]
 	},
 	
 	{
-		"pack_id" : "949fe917-3b4b-4d47-8c64-3b8046fde4b5", //Modern Doors
+		"pack_id" : "949fe917-3b4b-4d47-8c64-3b8046fde4b5", //Better Beds
 		"version" : [ 1, 7, 0 ]
 	}
 ]

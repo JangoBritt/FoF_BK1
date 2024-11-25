@@ -1,5 +1,6 @@
 {
-	"minecraft:recipe_shapeless": {
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "md:screwdriver"
 		},
@@ -8,26 +9,20 @@
         ],
         "pattern": [
             "#",
-            "W",
-            "N"
+            "W"
         ],
         "key": {
             "#": {
                 "item": "minecraft:iron_ingot"
             },
             "W": {
-                "item": "minecraft:stick"
-            },
-            "N": {
-                "item": "minecraft:iron_nugget"
+                "item": "minecraft:clay_ball"
             }
         },
 		"result": [
 			{
-				"item": "md:screwdriver",
-				"count": 1
+				"item": "md:screwdriver"
 			}
 		]
-	},
-	"format_version": "1.17.0"
+	}
 }
