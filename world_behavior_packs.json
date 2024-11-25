@@ -1,9 +1,12 @@
 
 [
 	{
-		"pack_id" : "ed2cf1d1-c832-48c8-bf06-0cc38cf5e8a8", //Fables Recycling
+		"pack_id" : "ed2cf1d1-c832-48c8-bf06-0cc38cf5e8a8", //Fables Recycling Recipes
 		"version" : [ 1, 0, 0 ]
 	},
+
+	
+	
 	{
 		"pack_id" : "b2d3458c-ed2c-40b3-bedd-83dbd03d1487", //Alycia's Advancements
 		"version" : [ 2, 2, 3 ]

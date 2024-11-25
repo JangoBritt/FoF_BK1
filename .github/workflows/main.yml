@@ -1,35 +1,33 @@
-name: Deploy Files
-
+name: Deploy via SFTP
 on:
   push:
     branches:
       - LIVE
-  # Enables manually triggering of Workflow with file synchronization option
-  workflow_dispatch:
-    inputs:
-      sync:
-        description: "File synchronization"
-        required: true
-        default: "delta"
-
 jobs:
-  deploy-master:
-    name: "LIVE branch"
-    if: ${{ github.ref == 'refs/heads/master' }}
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    if: github.event_name == 'push'
     steps:
-      - name: "Checkout"
-        uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: "Deploy"
-        uses: milanmk/actions-file-deployer@master
+
+      - name: Deploy files via SFTP
+        uses: pressidium/lftp-mirror-action@v1
         with:
-          remote-protocol: "sftp"
-          remote-host: ${{ secrets.FTP_SERVER }}
-          remote-port: ${{ secrets.FTP_PORT }}
-          remote-user: ${{ secrets.FTP_USERNAME }}
-          remote-password: ${{ secrets.FTP_PASSWORD }}
-          ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-          remote-path: "/worlds/FoF_Bk1"
+          # SFTP credentials
+          host: ${{ secrets.FTP_SERVER }}
+          port: ${{ secrets.FTP_PORT }}
+          user: ${{ secrets.FTP_USERNAME }}
+          pass: ${{ secrets.FTP_PASSWORD }}
+          # lftp settings
+          onlyNewer: true
+          settings: 'sftp:auto-confirm=yes'
+          # Mirror command options
+          localDir: '.'
+          remoteDir: '/worlds/FoF_Bk1'
+          reverse: true
+          ignoreFile: '.lftp_ignore'
+          options: '--verbose'
