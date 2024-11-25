@@ -30,12 +30,6 @@
 				{ //ACS Player Heads, Uniques, Paintings, Lanterns
 					"num_to_select": 4,
 					"trades": [
-             //Paintings
-			 {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_yingyang","quantity": 1}]},
-			 {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_castle","quantity": 1}]},
-			 {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_facility","quantity": 1}]},
-			 {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_damo","quantity": 1}]},
-			 {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_pun","quantity": 1}]},
               //Seasonal
               //Lanterns
               {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:sea_lantern"}],"gives": [{"item": "nicothekid:amethyst_lamp","quantity": 1}]},

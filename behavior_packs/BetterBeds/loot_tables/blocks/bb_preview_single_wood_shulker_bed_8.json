@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bb:preview_single_warped_shulker_bed",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

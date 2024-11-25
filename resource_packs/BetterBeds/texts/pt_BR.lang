@@ -1,0 +1,337 @@
+pack.name=§lBetter Beds RP
+pack.description=Pacote de recursos necessário para o addon Melhores Camas. Mais addons em trmc-studios.com
+action.hint.exit.ff:sit=§lShift §ro §lESPAÇO §rpara levantar-se
+tile.bb:preview_prototype_bed.name=Protótipo de Melhor Cama
+
+pack.destroy_beds=Destruir uma cama não redefine o ponto de reaparecimento
+pack.monsters_beware=Cuidado! Há monstros por perto!
+pack.wake_up=Você acorda!
+pack.not_enough_space=Não há espaço suficiente
+
+pack.accelerate_time=Acelerar o tempo
+pack.sleep_sunrise=Dormir até o amanhecer
+pack.sleep_morning=Dormir até a manhã
+pack.sleep_noon=Dormir até o meio-dia
+pack.sleep_sunset=Dormir até o pôr do sol
+pack.sleep_night=Dormir até a noite
+pack.sleep_midnight=Dormir até a meia-noite
+pack.phantom_spawning=Geração de phantoms
+pack.respawn_options=Opções de reaparecimento
+pack.settings=Configurações
+
+pack.reset_random_tick_speed=Redefinir a velocidade de tick aleatória para o padrão
+
+pack.waiting_for_more_players=Aguardando mais jogadores...
+
+pack.player_wants_to_action=O jogador quer
+
+pack.accelerate_menu=Menu de aceleração do tempo
+pack.speed_multiplier=Multiplicador de velocidade
+
+pack.set_spawnpoint=Definir ponto de reaparecimento
+pack.ask_spawnpoint=Você quer definir seu ponto de reaparecimento nesta cama?
+pack.yes_do_it=Sim, faça isso!
+pack.no_leave_it=Não, deixe assim!
+
+pack.activate_phantom_spawning=Ativar a geração de phantoms?
+pack.phantom_spawning_disabled=A geração de phantoms será desativada novamente depois que você dormir na cama uma vez
+
+pack.ask_spawnpoint_setting=Não perguntar para definir o ponto de reaparecimento nesta cama
+pack.ask_spawnpoint_body=Perguntar para definir seu ponto de reaparecimento toda vez que usar esta cama? Se você já definiu seu ponto de reaparecimento em uma cama, não será perguntado novamente naquela cama.
+pack.yes_ask_every_time=Sim, pergunte todas as vezes!
+pack.no_stop_asking=Não, pare de perguntar!
+
+pack.phantom_spawning_settings=Configurações de geração de phantoms
+pack.phantom_spawning_toggle=Geração de phantoms no mundo
+pack.phantom_spawning_activated=A geração de phantoms foi ativada.
+pack.phantom_spawning_deactivated=A geração de phantoms foi desativada.
+pack.phantom_spawning_error=Falha ao exibir o formulário de configurações de geração de phantoms:
+
+pack.spawn_phantoms=Gerar phantoms
+
+pack.password_required=Senha necessária
+pack.enter_password=Digite a senha
+pack.incorrect_password=Senha incorreta.
+
+pack.phantoms_to_spawn=Número de phantoms a gerar
+
+pack.bed_settings_title=Configurações da cama
+pack.choose_option=Escolha uma opção:
+pack.sleep_options=Opções de sono
+pack.wait_time_options=Opções de aceleração do tempo
+pack.phantom_spawning_options=Opções de geração de phantoms
+pack.reenable_phantom_spawning=Reativar a geração natural de phantoms
+pack.disable_phantom_spawning=Desativar a geração natural de phantoms
+pack.disableAndReenable_phantom_spawning_after_use=Desativar a geração de phantoms ao usar camas, mas reativar após o uso (tem prioridade sobre a opção abaixo)
+
+
+
+pack.sleep_settings_title=Configurações de sono
+pack.enable_sleep=Ativar funcionalidade de sono
+pack.only_sleep_at_night=Apenas permitir dormir à noite e quando estiver chovendo
+pack.lock_with_password=Bloquear com senha
+pack.password_prompt=Senha (efetiva apenas se o bloqueio estiver ativado)
+pack.require_percentage=Exigir porcentagem de jogadores para ativar
+pack.activation_percentage=Porcentagem de ativação de jogadores (efetivo apenas se a opção acima estiver ativada)
+pack.clear_weather=Limpar o clima após dormir
+pack.show_sunrise_option=Exibir opção de amanhecer
+pack.show_morning_option=Exibir opção de manhã
+pack.show_noon_option=Exibir opção de meio-dia
+pack.show_sunset_option=Exibir opção de pôr do sol
+pack.show_night_option=Exibir opção de noite
+pack.show_midnight_option=Exibir opção de meia-noite
+pack.settings_updated=Configurações de sono atualizadas.
+
+pack.wait_settings_title=Configurações de aceleração do tempo
+pack.enable_wait_functionality=Ativar funcionalidade de aceleração do tempo
+pack.clear_weather_after_waiting=Limpar o clima após acelerar o tempo
+pack.max_multiplier_of_time=Multiplicador máximo de tempo
+pack.wait_settings_updated=Configurações de aceleração do tempo atualizadas.
+
+pack.phantom_spawning_settings_title=Configurações de geração de phantoms
+pack.show_phantom_spawning_settings_in_beds=Mostrar configurações de geração de phantoms nas camas
+pack.limit_phantom_spawn_number=Limitar o número de phantoms gerados
+pack.max_phantom_spawn_number=Número máximo de phantoms gerados
+pack.set_time_between_spawns=Definir o tempo entre gerações
+pack.in_game_hours=Horas no jogo (1 hora no jogo = 50 segundos)
+pack.phantom_spawning_settings_updated=Configurações de geração de phantoms atualizadas.
+
+pack.settings_failed=As configurações de sono não foram atualizadas.
+pack.wait_settings_failed=As configurações de Acelerar o Tempo não foram atualizadas.
+pack.phantom_spawning_settings_failed=As configurações de geração de phantoms não foram atualizadas.
+
+
+pack.wants_to=quer
+
+pack.spawnpoint_set=Novo ponto de reaparecimento definido.
+
+pack.sleep_at_night=Você só pode dormir à noite.
+
+pack.phantoms_cannot_spawn_yet=Não é possível gerar phantoms ainda. Tempo restante: {0} horas no jogo.
+pack.no_space_for_phantoms=Não é possível gerar phantoms: Não há espaço livre dentro de um raio de 21x15x21 até 50 blocos acima.
+
+pack.phantom_at_night=Os phantoms só podem ser gerados à noite
+pack.only_phantom_at_night=Permitir a geração de phantoms apenas à noite
+pack.disable_phantom_spawning_after_use=Sempre desativar a geração de phantoms após dormir ou acelerar o tempo
+
+
+item.bb:bed_settings=Configurações da cama
+
+
+tile.bb:bed_box.name=Caixa de Camas
+tile.bb:bed_box_acacia.name=Caixa de Camas de Acácia
+tile.bb:bed_box_bamboo.name=Caixa de Camas de Bambu
+tile.bb:bed_box_birch.name=Caixa de Camas de Bétula
+tile.bb:bed_box_cherry.name=Caixa de Camas de Cerejeira
+tile.bb:bed_box_crimson.name=Caixa de Camas de Tábuas Carmesins
+tile.bb:bed_box_jungle.name=Caixa de Camas de Madeira da Selva
+tile.bb:bed_box_mangrove.name=Caixa de Camas de Mangue
+tile.bb:bed_box_dark_oak.name=Caixa de Camas de Carvalho Escuro
+tile.bb:bed_box_oak.name=Caixa de Camas de Carvalho
+tile.bb:bed_box_warped.name=Caixa de Camas de Tábuas Distorcidas
+tile.bb:bed_box_spruce.name=Caixa de Camas de Pinheiro
+
+tile.bb:preview_single_oak_creeper_bed.name=Cama Individual de Creeper de Carvalho
+tile.bb:preview_single_spruce_creeper_bed.name=Cama Individual de Creeper de Pinheiro
+tile.bb:preview_single_birch_creeper_bed.name=Cama Individual de Creeper de Bétula
+tile.bb:preview_single_jungle_creeper_bed.name=Cama Individual de Creeper de Madeira da Selva
+tile.bb:preview_single_acacia_creeper_bed.name=Cama Individual de Creeper de Acácia
+tile.bb:preview_single_dark_oak_creeper_bed.name=Cama Individual de Creeper de Carvalho Escuro
+tile.bb:preview_single_mangrove_creeper_bed.name=Cama Individual de Creeper de Mangue
+tile.bb:preview_single_cherry_creeper_bed.name=Cama Individual de Creeper de Cerejeira
+tile.bb:preview_single_bamboo_creeper_bed.name=Cama Individual de Creeper de Bambu
+tile.bb:preview_single_crimson_creeper_bed.name=Cama Individual de Creeper de Tábuas Carmesins
+tile.bb:preview_single_warped_creeper_bed.name=Cama Individual de Creeper de Tábuas Distorcidas
+
+tile.bb:preview_single_oak_zombie_bed.name=Cama Individual de Zumbi de Carvalho
+tile.bb:preview_single_spruce_zombie_bed.name=Cama Individual de Zumbi de Pinheiro
+tile.bb:preview_single_birch_zombie_bed.name=Cama Individual de Zumbi de Bétula
+tile.bb:preview_single_jungle_zombie_bed.name=Cama Individual de Zumbi de Madeira da Selva
+tile.bb:preview_single_acacia_zombie_bed.name=Cama Individual de Zumbi de Acácia
+tile.bb:preview_single_dark_oak_zombie_bed.name=Cama Individual de Zumbi de Carvalho Escuro
+tile.bb:preview_single_mangrove_zombie_bed.name=Cama Individual de Zumbi de Mangue
+tile.bb:preview_single_cherry_zombie_bed.name=Cama Individual de Zumbi de Cerejeira
+tile.bb:preview_single_bamboo_zombie_bed.name=Cama Individual de Zumbi de Bambu
+tile.bb:preview_single_crimson_zombie_bed.name=Cama Individual de Zumbi de Tábuas Carmensins
+tile.bb:preview_single_warped_zombie_bed.name=Cama Individual de Zumbi de Tábuas Distorcidas
+
+tile.bb:preview_single_oak_skeleton_bed.name=Cama Individual de Esqueleto de Carvalho
+tile.bb:preview_single_spruce_skeleton_bed.name=Cama Individual de Esqueleto de Pinheiro
+tile.bb:preview_single_birch_skeleton_bed.name=Cama Individual de Esqueleto de Bétula
+tile.bb:preview_single_jungle_skeleton_bed.name=Cama Individual de Esqueleto de Madeira da Selva
+tile.bb:preview_single_acacia_skeleton_bed.name=Cama Individual de Esqueleto de Acácia
+tile.bb:preview_single_dark_oak_skeleton_bed.name=Cama Individual de Esqueleto de Carvalho Escuro
+tile.bb:preview_single_mangrove_skeleton_bed.name=Cama Individual de Esqueleto de Mangue
+tile.bb:preview_single_cherry_skeleton_bed.name=Cama Individual de Esqueleto de Cerejeira
+tile.bb:preview_single_bamboo_skeleton_bed.name=Cama Individual de Esqueleto de Bambu
+tile.bb:preview_single_crimson_skeleton_bed.name=Cama Individual de Esqueleto de Tábuas Carmesins
+tile.bb:preview_single_warped_skeleton_bed.name=Cama Individual de Esqueleto de Tábuas Distorcidas
+
+tile.bb:preview_single_oak_enderman_bed.name=Cama Individual de Enderman de Carvalho
+tile.bb:preview_single_spruce_enderman_bed.name=Cama Individual de Enderman de Pinheiro
+tile.bb:preview_single_birch_enderman_bed.name=Cama Individual de Enderman de Bétula
+tile.bb:preview_single_jungle_enderman_bed.name=Cama Individual de Enderman de Madeira da Selva
+tile.bb:preview_single_acacia_enderman_bed.name=Cama Individual de Enderman de Acácia
+tile.bb:preview_single_dark_oak_enderman_bed.name=Cama Individual de Enderman de Carvalho Escuro
+tile.bb:preview_single_mangrove_enderman_bed.name=Cama Individual de Enderman de Mangue
+tile.bb:preview_single_cherry_enderman_bed.name=Cama Individual de Enderman de Cerejeira
+tile.bb:preview_single_bamboo_enderman_bed.name=Cama Individual de Enderman de Bambu
+tile.bb:preview_single_crimson_enderman_bed.name=Cama Individual de Enderman de Tábuas Carmesins
+tile.bb:preview_single_warped_enderman_bed.name=Cama Individual de Enderman de Tábuas Distorcidas
+
+tile.bb:preview_single_oak_pig_bed.name=Cama Individual de Porco de Carvalho
+tile.bb:preview_single_spruce_pig_bed.name=Cama Individual de Porco de Pinheiro
+tile.bb:preview_single_birch_pig_bed.name=Cama Individual de Porco de Bétula
+tile.bb:preview_single_jungle_pig_bed.name=Cama Individual de Porco de Madeira da Selva
+tile.bb:preview_single_acacia_pig_bed.name=Cama Individual de Porco de Acácia
+tile.bb:preview_single_dark_oak_pig_bed.name=Cama Individual de Porco de Carvalho Escuro
+tile.bb:preview_single_mangrove_pig_bed.name=Cama Individual de Porco de Mangue
+tile.bb:preview_single_cherry_pig_bed.name=Cama Individual de Porco de Cerejeira
+tile.bb:preview_single_bamboo_pig_bed.name=Cama Individual de Porco de Bambu
+tile.bb:preview_single_crimson_pig_bed.name=Cama Individual de Porco de Tábuas Carmesins
+tile.bb:preview_single_warped_pig_bed.name=Cama Individual de Porco de Tábuas Distorcidas
+
+tile.bb:preview_single_oak_sheep_bed.name=Cama Individual de Ovelha de Carvalho
+tile.bb:preview_single_spruce_sheep_bed.name=Cama Individual de Ovelha de Pinheiro
+tile.bb:preview_single_birch_sheep_bed.name=Cama Individual de Ovelha de Bétula
+tile.bb:preview_single_jungle_sheep_bed.name=Cama Individual de Ovelha de Madeira da Selva
+tile.bb:preview_single_acacia_sheep_bed.name=Cama Individual de Ovelha de Acácia
+tile.bb:preview_single_dark_oak_sheep_bed.name=Cama Individual de Ovelha de Carvalho Escuro
+tile.bb:preview_single_mangrove_sheep_bed.name=Cama Individual de Ovelha de Mangue
+tile.bb:preview_single_cherry_sheep_bed.name=Cama Individual de Ovelha de Cerejeira
+tile.bb:preview_single_bamboo_sheep_bed.name=Cama Individual de Ovelha de Bambu
+tile.bb:preview_single_crimson_sheep_bed.name=Cama Individual de Ovelha de Tábuas Carmesins
+tile.bb:preview_single_warped_sheep_bed.name=Cama Individual de Ovelha de Tábuas Distorcidas
+
+tile.bb:preview_single_oak_cow_bed.name=Cama Individual de Vaca de Carvalho
+tile.bb:preview_single_spruce_cow_bed.name=Cama Individual de Vaca de Pinheiro
+tile.bb:preview_single_birch_cow_bed.name=Cama Individual de Vaca de Bétula
+tile.bb:preview_single_jungle_cow_bed.name=Cama Individual de Vaca de Madeira da Selva
+tile.bb:preview_single_acacia_cow_bed.name=Cama Individual de Vaca de Acácia
+tile.bb:preview_single_dark_oak_cow_bed.name=Cama Individual de Vaca de Carvalho Escuro
+tile.bb:preview_single_mangrove_cow_bed.name=Cama Individual de Vaca de Mangue
+tile.bb:preview_single_cherry_cow_bed.name=Cama Individual de Vaca de Cerejeira
+tile.bb:preview_single_bamboo_cow_bed.name=Cama Individual de Vaca de Bambu
+tile.bb:preview_single_crimson_cow_bed.name=Cama Individual de Vaca de Tábuas Carmesins
+tile.bb:preview_single_warped_cow_bed.name=Cama Individual de Vaca de Tábuas Distorcidas
+
+tile.bb:preview_single_oak_chicken_bed.name=Cama Individual de Galinha de Carvalho
+tile.bb:preview_single_spruce_chicken_bed.name=Cama Individual de Galinha de Pinheiro
+tile.bb:preview_single_birch_chicken_bed.name=Cama Individual de Galinha de Bétula
+tile.bb:preview_single_jungle_chicken_bed.name=Cama Individual de Galinha de Madeira da Selva
+tile.bb:preview_single_acacia_chicken_bed.name=Cama Individual de Galinha de Acácia
+tile.bb:preview_single_dark_oak_chicken_bed.name=Cama Individual de Galinha de Carvalho Escuro
+tile.bb:preview_single_mangrove_chicken_bed.name=Cama Individual de Galinha de Mangue
+tile.bb:preview_single_cherry_chicken_bed.name=Cama Individual de Galinha de Cerejeira
+tile.bb:preview_single_bamboo_chicken_bed.name=Cama Individual de Galinha de Bambu
+tile.bb:preview_single_crimson_chicken_bed.name=Cama Individual de Galinha de Tábuas Carmesins
+tile.bb:preview_single_warped_chicken_bed.name=Cama Individual de Galinha de Tábuas Distorcidas
+
+tile.bb:preview_single_oak_bee_bed.name=Cama Individual de Abelha de Carvalho
+tile.bb:preview_single_spruce_bee_bed.name=Cama Individual de Abelha de Pinheiro
+tile.bb:preview_single_birch_bee_bed.name=Cama Individual de Abelha de Bétula
+tile.bb:preview_single_jungle_bee_bed.name=Cama Individual de Abelha de Madeira da Selva
+tile.bb:preview_single_acacia_bee_bed.name=Cama Individual de Abelha de Acácia
+tile.bb:preview_single_dark_oak_bee_bed.name=Cama Individual de Abelha de Carvalho Escuro
+tile.bb:preview_single_mangrove_bee_bed.name=Cama Individual de Abelha de Mangue
+tile.bb:preview_single_cherry_bee_bed.name=Cama Individual de Abelha de Cerejeira
+tile.bb:preview_single_bamboo_bee_bed.name=Cama Individual de Abelha de Bambu
+tile.bb:preview_single_crimson_bee_bed.name=Cama Individual de Abelha de Tábuas Carmesins
+tile.bb:preview_single_warped_bee_bed.name=Cama Individual de Abelha de Tábuas Distorcidas
+
+
+tile.bb:preview_single_oak_spider_bed.name=Cama Individual de Aranha de Carvalho
+tile.bb:preview_single_spruce_spider_bed.name=Cama Individual de Aranha de Pinheiro
+tile.bb:preview_single_birch_spider_bed.name=Cama Individual de Aranha de Bétula
+tile.bb:preview_single_jungle_spider_bed.name=Cama Individual de Aranha de Madeira da Selva
+tile.bb:preview_single_acacia_spider_bed.name=Cama Individual de Aranha de Acácia
+tile.bb:preview_single_dark_oak_spider_bed.name=Cama Individual de Aranha de Carvalho Escuro
+tile.bb:preview_single_mangrove_spider_bed.name=Cama Individual de Aranha de Mangue
+tile.bb:preview_single_cherry_spider_bed.name=Cama Individual de Aranha de Cerejeira
+tile.bb:preview_single_bamboo_spider_bed.name=Cama Individual de Aranha de Bambu
+tile.bb:preview_single_crimson_spider_bed.name=Cama Individual de Aranha de Tábuas Carmesins
+tile.bb:preview_single_warped_spider_bed.name=Cama Individual de Aranha de Tábuas Distorcidas
+
+tile.bb:preview_single_oak_shulker_bed.name=Cama Individual de Shulker de Carvalho
+tile.bb:preview_single_spruce_shulker_bed.name=Cama Individual de Shulker de Pinheiro
+tile.bb:preview_single_birch_shulker_bed.name=Cama Individual de Shulker de Bétula
+tile.bb:preview_single_jungle_shulker_bed.name=Cama Individual de Shulker de Madeira da Selva
+tile.bb:preview_single_acacia_shulker_bed.name=Cama Individual de Shulker de Acácia
+tile.bb:preview_single_dark_oak_shulker_bed.name=Cama Individual de Shulker de Carvalho Escuro
+tile.bb:preview_single_mangrove_shulker_bed.name=Cama Individual de Shulker de Mangue
+tile.bb:preview_single_cherry_shulker_bed.name=Cama Individual de Shulker de Cerejeira
+tile.bb:preview_single_bamboo_shulker_bed.name=Cama Individual de Shulker de Bambu
+tile.bb:preview_single_crimson_shulker_bed.name=Cama Individual de Shulker de Tábuas Carmesins
+tile.bb:preview_single_warped_shulker_bed.name=Cama Individual de Shulker de Tábuas Distorcidas
+
+tile.bb:preview_single_oak_axolotl_bed.name=Cama Individual de Axolote de Carvalho
+tile.bb:preview_single_spruce_axolotl_bed.name=Cama Individual de Axolote de Pinheiro
+tile.bb:preview_single_birch_axolotl_bed.name=Cama Individual de Axolote de Bétula
+tile.bb:preview_single_jungle_axolotl_bed.name=Cama Individual de Axolote de Madeira da Selva
+tile.bb:preview_single_acacia_axolotl_bed.name=Cama Individual de Axolote de Acácia
+tile.bb:preview_single_dark_oak_axolotl_bed.name=Cama Individual de Axolote de Carvalho Escuro
+tile.bb:preview_single_mangrove_axolotl_bed.name=Cama Individual de Axolote de Mangue
+tile.bb:preview_single_cherry_axolotl_bed.name=Cama Individual de Axolote de Cerejeira
+tile.bb:preview_single_bamboo_axolotl_bed.name=Cama Individual de Axolote de Bambu
+tile.bb:preview_single_crimson_axolotl_bed.name=Cama Individual de Axolote de Tábuas Carmesins
+tile.bb:preview_single_warped_axolotl_bed.name=Cama Individual de Axolote de Tábuas Distorcidas
+
+tile.bb:preview_single_oak_moderncraft_bed.name=Cama de Carvalho do Mecenas §l[ModernCraft]
+tile.bb:preview_single_spruce_moderncraft_bed.name=Cama de Pinheiro do Mecenas §l[ModernCraft]
+tile.bb:preview_single_birch_moderncraft_bed.name=Cama de Bétula do Mecenas §l[ModernCraft]
+tile.bb:preview_single_jungle_moderncraft_bed.name=Cama de Madeira da Selva do Mecenas §l[ModernCraft]
+tile.bb:preview_single_acacia_moderncraft_bed.name=Cama de Acácia do Mecenas §l[ModernCraft]
+tile.bb:preview_single_dark_oak_moderncraft_bed.name=Cama de Carvalho Escuro do Mecenas §l[ModernCraft]
+tile.bb:preview_single_mangrove_moderncraft_bed.name=Cama de Mangue do Mecenas §l[ModernCraft]
+tile.bb:preview_single_cherry_moderncraft_bed.name=Cama de Cerejeira do Mecenas §l[ModernCraft]
+tile.bb:preview_single_bamboo_moderncraft_bed.name=Cama de Bambu do Mecenas §l[ModernCraft]
+tile.bb:preview_single_crimson_moderncraft_bed.name=Cama de Tábuas Carmesins do Mecenas §l[ModernCraft]
+tile.bb:preview_single_warped_moderncraft_bed.name=Cama de Tábuas Distorcidas do Mecenas §l[ModernCraft]
+
+tile.bb:preview_single_oak_red_bed.name=Cama Vermelha de Carvalho Individual
+tile.bb:preview_single_spruce_red_bed.name=Cama Vermelha de Abeto Individual
+tile.bb:preview_single_birch_red_bed.name=Cama Vermelha de Bétula Individual
+tile.bb:preview_single_jungle_red_bed.name=Cama Vermelha de Selva Individual
+tile.bb:preview_single_acacia_red_bed.name=Cama Vermelha de Acácia Individual
+tile.bb:preview_single_dark_oak_red_bed.name=Cama Vermelha de Carvalho Escuro Individual
+tile.bb:preview_single_mangrove_red_bed.name=Cama Vermelha de Mangue Individual
+tile.bb:preview_single_cherry_red_bed.name=Cama Vermelha de Cerejeira Individual
+tile.bb:preview_single_bamboo_red_bed.name=Cama Vermelha de Bambu Individual
+tile.bb:preview_single_crimson_red_bed.name=Cama Vermelha Carmesim Individual
+tile.bb:preview_single_warped_red_bed.name=Cama Vermelha Distorcida Individual
+
+tile.bb:preview_single_oak_blue_bed.name=Cama Azul de Carvalho Individual
+tile.bb:preview_single_spruce_blue_bed.name=Cama Azul de Abeto Individual
+tile.bb:preview_single_birch_blue_bed.name=Cama Azul de Bétula Individual
+tile.bb:preview_single_jungle_blue_bed.name=Cama Azul de Selva Individual
+tile.bb:preview_single_acacia_blue_bed.name=Cama Azul de Acácia Individual
+tile.bb:preview_single_dark_oak_blue_bed.name=Cama Azul de Carvalho Escuro Individual
+tile.bb:preview_single_mangrove_blue_bed.name=Cama Azul de Mangue Individual
+tile.bb:preview_single_cherry_blue_bed.name=Cama Azul de Cerejeira Individual
+tile.bb:preview_single_bamboo_blue_bed.name=Cama Azul de Bambu Individual
+tile.bb:preview_single_crimson_blue_bed.name=Cama Azul Carmesim Individual
+tile.bb:preview_single_warped_blue_bed.name=Cama Azul Distorcida Individual
+
+tile.bb:preview_single_oak_polar_bear_bed.name=Cama Individual de Carvalho com Urso Polar
+tile.bb:preview_single_spruce_polar_bear_bed.name=Cama Individual de Abeto com Urso Polar
+tile.bb:preview_single_birch_polar_bear_bed.name=Cama Individual de Bétula com Urso Polar
+tile.bb:preview_single_jungle_polar_bear_bed.name=Cama Individual de Selva com Urso Polar
+tile.bb:preview_single_acacia_polar_bear_bed.name=Cama Individual de Acácia com Urso Polar
+tile.bb:preview_single_dark_oak_polar_bear_bed.name=Cama Individual de Carvalho Escuro com Urso Polar
+tile.bb:preview_single_mangrove_polar_bear_bed.name=Cama Individual de Mangue com Urso Polar
+tile.bb:preview_single_cherry_polar_bear_bed.name=Cama Individual de Cerejeira com Urso Polar
+tile.bb:preview_single_bamboo_polar_bear_bed.name=Cama Individual de Bambu com Urso Polar
+tile.bb:preview_single_crimson_polar_bear_bed.name=Cama Individual Carmesim com Urso Polar
+tile.bb:preview_single_warped_polar_bear_bed.name=Cama Individual Distorta com Urso Polar
+
+tile.bb:preview_single_oak_christmas_bed.name=Cama Individual de Carvalho Natalina
+tile.bb:preview_single_spruce_christmas_bed.name=Cama Individual de Abeto Natalina
+tile.bb:preview_single_birch_christmas_bed.name=Cama Individual de Bétula Natalina
+tile.bb:preview_single_jungle_christmas_bed.name=Cama Individual de Selva Natalina
+tile.bb:preview_single_acacia_christmas_bed.name=Cama Individual de Acácia Natalina
+tile.bb:preview_single_dark_oak_christmas_bed.name=Cama Individual de Carvalho Escuro Natalina
+tile.bb:preview_single_mangrove_christmas_bed.name=Cama Individual de Mangue Natalina
+tile.bb:preview_single_cherry_christmas_bed.name=Cama Individual de Cerejeira Natalina
+tile.bb:preview_single_bamboo_christmas_bed.name=Cama Individual de Bambu Natalina
+tile.bb:preview_single_crimson_christmas_bed.name=Cama Individual Carmesim Natalina
+tile.bb:preview_single_warped_christmas_bed.name=Cama Individual Distorta Natalina

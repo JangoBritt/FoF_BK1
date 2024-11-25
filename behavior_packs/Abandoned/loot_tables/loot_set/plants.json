@@ -430,7 +430,20 @@
               "count": 1
             }
           ]
-        }
+        },
+        {"type": "item","weight": 25,"name": "korbon:aspen_sapling_item","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:autumn_sapling_item","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:baobab_sapling_item","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:jacaranda_sapling_item","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:maple_sapling_item","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:redwood_sapling_item","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:brittlebush_item","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:buttercup_item","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:bluebell_item","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:cattail_item","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:aloe_vera_item","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:aloe","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:brittlebush_item","functions": [{"function": "set_count","count": 1}]}      
       ]
     }
   ]

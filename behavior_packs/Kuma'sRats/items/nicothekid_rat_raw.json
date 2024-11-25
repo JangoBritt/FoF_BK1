@@ -53,8 +53,13 @@
         "nutrition": 2,
         "saturation_modifier": 0.4
       },
-      "minecraft:custom_components": [
-        "nicothekid:rat_raw_on_consume"
+      "effects": [
+        {
+          "name": "hunger",
+          "chance": 0.3,
+          "duration": 30,
+          "amplifier": 0
+        }
       ],
       "minecraft:tags": {
         "tags": [

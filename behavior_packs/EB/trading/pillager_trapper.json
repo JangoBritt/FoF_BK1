@@ -319,30 +319,8 @@
 							"max_uses": 12,
 							"reward_exp": true
 						},
-						{
-							"wants": [
-								{
-									"item": "minecraft:emerald",
-									"quantity": {
-										"min": 2,
-										"max": 6
-									},
-									"price_multiplier": 0.13
-								}
-							],
-							"gives": [
-								{
-									"item": "korbon:grizzly_bear_pelt",
-									"quantity": {
-										"min": 1,
-										"max": 3
-									}
-								}
-							],
-							"trader_exp": 1,
-							"max_uses": 12,
-							"reward_exp": true
-						}
+						{ "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 2, "max": 6 }, "price_multiplier": 0.13 } ], "gives": [ { "item": "korbon:grizzly_bear_pelt", "quantity": { "min": 1, "max": 3 } } ], "trader_exp": 1, "max_uses": 12, "reward_exp": true },
+						{"max_uses":2,"wants":[{"item":"minecraft:emerald","quantity":{ "min": 2, "max": 6 }, "price_multiplier": 0.13 }],"gives":[{"item":"fof:rat_pelt","quantity":{ "min": 1, "max": 3 }}]}
 					]
 				}
 			]

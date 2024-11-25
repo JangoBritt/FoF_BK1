@@ -1,0 +1,22 @@
+{
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "md:preview_single_oxidized_copper_jail_door"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:copper_door"
+			}
+		],
+		"result": [
+			{
+				"item": "md:preview_single_oxidized_copper_jail_door",
+				"count": 1
+			}
+		]
+	},
+	"format_version": "1.17.0"
+}

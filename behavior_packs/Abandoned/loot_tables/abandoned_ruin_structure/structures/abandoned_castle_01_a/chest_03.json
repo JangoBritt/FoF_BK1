@@ -33,7 +33,7 @@
     },
     // Materials
     {
-      "rolls": 21,
+      "rolls": 5,
       "entries": [
         {
           "type": "item",

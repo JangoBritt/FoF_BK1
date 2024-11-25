@@ -1,0 +1,1434 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"catalog": {
+			"textures": [
+				"textures/items/catalog"
+			]
+		},
+		"mesamadera": {
+			"textures": [
+				{
+					"path": "textures/blocks/mesamadera"
+				}
+			]
+		},
+		"bed_box": {
+			"textures": [
+				{
+					"path": "textures/blocks/boxproto"
+				}
+			]
+		},
+		"bed_box_acacia": {
+			"textures": [
+				{
+					"path": "textures/blocks/bed_box_acacia"
+				}
+			]
+		},
+		"bed_box_bamboo": {
+			"textures": [
+				{
+					"path": "textures/blocks/bed_box_bamboo"
+				}
+			]
+		},
+		"bed_box_birch": {
+			"textures": [
+				{
+					"path": "textures/blocks/bed_box_birch"
+				}
+			]
+		},
+		"bed_box_cherry": {
+			"textures": [
+				{
+					"path": "textures/blocks/bed_box_cherry"
+				}
+			]
+		},
+		"bed_box_crimson": {
+			"textures": [
+				{
+					"path": "textures/blocks/bed_box_crimson"
+				}
+			]
+		},
+		"bed_box_dark_oak": {
+			"textures": [
+				{
+					"path": "textures/blocks/bed_box_dark_oak"
+				}
+			]
+		},
+		"bed_box_jungle": {
+			"textures": [
+				{
+					"path": "textures/blocks/bed_box_jungle"
+				}
+			]
+		},
+		"bed_box_mangrove": {
+			"textures": [
+				{
+					"path": "textures/blocks/bed_box_mangrove"
+				}
+			]
+		},
+		"bed_box_oak": {
+			"textures": [
+				{
+					"path": "textures/blocks/bed_box_oak"
+				}
+			]
+		},
+		"bed_box_spruce": {
+			"textures": [
+				{
+					"path": "textures/blocks/bed_box_spruce"
+				}
+			]
+		},
+		"bed_box_warped": {
+			"textures": [
+				{
+					"path": "textures/blocks/bed_box_warped"
+				}
+			]
+		},
+		"bed_preview": {
+			"textures": [
+				{
+					"path": "textures/blocks/blue_preview"
+				}
+			]
+		},
+		"bed1": {
+			"textures": [
+				{
+					"path": "textures/blocks/blue_preview"
+				}
+			]
+		},
+		"bed2": {
+			"textures": [
+				{
+					"path": "textures/blocks/blue_preview"
+				}
+			]
+		},
+		"single_wood_creeper_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_creeper_bed_1"
+				}
+			]
+		},
+		"single_wood_creeper_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_creeper_bed_2"
+				}
+			]
+		},
+		"single_wood_creeper_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_creeper_bed_3"
+				}
+			]
+		},
+		"single_wood_creeper_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_creeper_bed_4"
+				}
+			]
+		},
+		"single_wood_creeper_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_creeper_bed_5"
+				}
+			]
+		},
+		"single_wood_creeper_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_creeper_bed_6"
+				}
+			]
+		},
+		"single_wood_creeper_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_creeper_bed_7"
+				}
+			]
+		},
+		"single_wood_creeper_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_creeper_bed_8"
+				}
+			]
+		},
+		"single_wood_creeper_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_creeper_bed_9"
+				}
+			]
+		},
+		"single_wood_creeper_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_creeper_bed_10"
+				}
+			]
+		},
+		"single_wood_creeper_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_creeper_bed_11"
+				}
+			]
+		},
+		"single_wood_zombie_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_zombie_bed_1"
+				}
+			]
+		},
+		"single_wood_zombie_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_zombie_bed_2"
+				}
+			]
+		},
+		"single_wood_zombie_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_zombie_bed_3"
+				}
+			]
+		},
+		"single_wood_zombie_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_zombie_bed_4"
+				}
+			]
+		},
+		"single_wood_zombie_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_zombie_bed_5"
+				}
+			]
+		},
+		"single_wood_zombie_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_zombie_bed_6"
+				}
+			]
+		},
+		"single_wood_zombie_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_zombie_bed_7"
+				}
+			]
+		},
+		"single_wood_zombie_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_zombie_bed_8"
+				}
+			]
+		},
+		"single_wood_zombie_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_zombie_bed_9"
+				}
+			]
+		},
+		"single_wood_zombie_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_zombie_bed_10"
+				}
+			]
+		},
+		"single_wood_zombie_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_zombie_bed_11"
+				}
+			]
+		},
+		"single_wood_enderman_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_enderman_bed_1"
+				}
+			]
+		},
+		"single_wood_enderman_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_enderman_bed_2"
+				}
+			]
+		},
+		"single_wood_enderman_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_enderman_bed_3"
+				}
+			]
+		},
+		"single_wood_enderman_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_enderman_bed_4"
+				}
+			]
+		},
+		"single_wood_enderman_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_enderman_bed_5"
+				}
+			]
+		},
+		"single_wood_enderman_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_enderman_bed_6"
+				}
+			]
+		},
+		"single_wood_enderman_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_enderman_bed_7"
+				}
+			]
+		},
+		"single_wood_enderman_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_enderman_bed_8"
+				}
+			]
+		},
+		"single_wood_enderman_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_enderman_bed_9"
+				}
+			]
+		},
+		"single_wood_enderman_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_enderman_bed_10"
+				}
+			]
+		},
+		"single_wood_enderman_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_enderman_bed_11"
+				}
+			]
+		},
+		"single_wood_skeleton_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_skeleton_bed_1"
+				}
+			]
+		},
+		"single_wood_skeleton_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_skeleton_bed_2"
+				}
+			]
+		},
+		"single_wood_skeleton_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_skeleton_bed_3"
+				}
+			]
+		},
+		"single_wood_skeleton_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_skeleton_bed_4"
+				}
+			]
+		},
+		"single_wood_skeleton_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_skeleton_bed_5"
+				}
+			]
+		},
+		"single_wood_skeleton_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_skeleton_bed_6"
+				}
+			]
+		},
+		"single_wood_skeleton_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_skeleton_bed_7"
+				}
+			]
+		},
+		"single_wood_skeleton_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_skeleton_bed_8"
+				}
+			]
+		},
+		"single_wood_skeleton_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_skeleton_bed_9"
+				}
+			]
+		},
+		"single_wood_skeleton_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_skeleton_bed_10"
+				}
+			]
+		},
+		"single_wood_skeleton_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_skeleton_bed_11"
+				}
+			]
+		},
+		"single_wood_pig_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_pig_bed_1"
+				}
+			]
+		},
+		"single_wood_pig_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_pig_bed_2"
+				}
+			]
+		},
+		"single_wood_pig_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_pig_bed_3"
+				}
+			]
+		},
+		"single_wood_pig_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_pig_bed_4"
+				}
+			]
+		},
+		"single_wood_pig_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_pig_bed_5"
+				}
+			]
+		},
+		"single_wood_pig_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_pig_bed_6"
+				}
+			]
+		},
+		"single_wood_pig_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_pig_bed_7"
+				}
+			]
+		},
+		"single_wood_pig_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_pig_bed_8"
+				}
+			]
+		},
+		"single_wood_pig_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_pig_bed_9"
+				}
+			]
+		},
+		"single_wood_pig_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_pig_bed_10"
+				}
+			]
+		},
+		"single_wood_pig_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_pig_bed_11"
+				}
+			]
+		},
+		"single_wood_chicken_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_chicken_bed_1"
+				}
+			]
+		},
+		"single_wood_chicken_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_chicken_bed_2"
+				}
+			]
+		},
+		"single_wood_chicken_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_chicken_bed_3"
+				}
+			]
+		},
+		"single_wood_chicken_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_chicken_bed_4"
+				}
+			]
+		},
+		"single_wood_chicken_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_chicken_bed_5"
+				}
+			]
+		},
+		"single_wood_chicken_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_chicken_bed_6"
+				}
+			]
+		},
+		"single_wood_chicken_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_chicken_bed_7"
+				}
+			]
+		},
+		"single_wood_chicken_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_chicken_bed_8"
+				}
+			]
+		},
+		"single_wood_chicken_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_chicken_bed_9"
+				}
+			]
+		},
+		"single_wood_chicken_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_chicken_bed_10"
+				}
+			]
+		},
+		"single_wood_chicken_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_chicken_bed_11"
+				}
+			]
+		},
+		"single_wood_cow_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_cow_bed_1"
+				}
+			]
+		},
+		"single_wood_cow_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_cow_bed_2"
+				}
+			]
+		},
+		"single_wood_cow_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_cow_bed_3"
+				}
+			]
+		},
+		"single_wood_cow_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_cow_bed_4"
+				}
+			]
+		},
+		"single_wood_cow_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_cow_bed_5"
+				}
+			]
+		},
+		"single_wood_cow_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_cow_bed_6"
+				}
+			]
+		},
+		"single_wood_cow_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_cow_bed_7"
+				}
+			]
+		},
+		"single_wood_cow_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_cow_bed_8"
+				}
+			]
+		},
+		"single_wood_cow_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_cow_bed_9"
+				}
+			]
+		},
+		"single_wood_cow_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_cow_bed_10"
+				}
+			]
+		},
+		"single_wood_cow_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_cow_bed_11"
+				}
+			]
+		},
+		"single_wood_sheep_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_sheep_bed_1"
+				}
+			]
+		},
+		"single_wood_sheep_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_sheep_bed_2"
+				}
+			]
+		},
+		"single_wood_sheep_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_sheep_bed_3"
+				}
+			]
+		},
+		"single_wood_sheep_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_sheep_bed_4"
+				}
+			]
+		},
+		"single_wood_sheep_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_sheep_bed_5"
+				}
+			]
+		},
+		"single_wood_sheep_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_sheep_bed_6"
+				}
+			]
+		},
+		"single_wood_sheep_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_sheep_bed_7"
+				}
+			]
+		},
+		"single_wood_sheep_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_sheep_bed_8"
+				}
+			]
+		},
+		"single_wood_sheep_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_sheep_bed_9"
+				}
+			]
+		},
+		"single_wood_sheep_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_sheep_bed_10"
+				}
+			]
+		},
+		"single_wood_sheep_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_sheep_bed_11"
+				}
+			]
+		},
+		"single_wood_bee_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_bee_bed_1"
+				}
+			]
+		},
+		"single_wood_bee_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_bee_bed_2"
+				}
+			]
+		},
+		"single_wood_bee_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_bee_bed_3"
+				}
+			]
+		},
+		"single_wood_bee_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_bee_bed_4"
+				}
+			]
+		},
+		"single_wood_bee_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_bee_bed_5"
+				}
+			]
+		},
+		"single_wood_bee_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_bee_bed_6"
+				}
+			]
+		},
+		"single_wood_bee_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_bee_bed_7"
+				}
+			]
+		},
+		"single_wood_bee_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_bee_bed_8"
+				}
+			]
+		},
+		"single_wood_bee_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_bee_bed_9"
+				}
+			]
+		},
+		"single_wood_bee_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_bee_bed_10"
+				}
+			]
+		},
+		"single_wood_bee_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_bee_bed_11"
+				}
+			]
+		},
+		"single_wood_spider_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_spider_bed_1"
+				}
+			]
+		},
+		"single_wood_spider_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_spider_bed_2"
+				}
+			]
+		},
+		"single_wood_spider_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_spider_bed_3"
+				}
+			]
+		},
+		"single_wood_spider_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_spider_bed_4"
+				}
+			]
+		},
+		"single_wood_spider_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_spider_bed_5"
+				}
+			]
+		},
+		"single_wood_spider_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_spider_bed_6"
+				}
+			]
+		},
+		"single_wood_spider_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_spider_bed_7"
+				}
+			]
+		},
+		"single_wood_spider_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_spider_bed_8"
+				}
+			]
+		},
+		"single_wood_spider_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_spider_bed_9"
+				}
+			]
+		},
+		"single_wood_spider_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_spider_bed_10"
+				}
+			]
+		},
+		"single_wood_spider_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_spider_bed_11"
+				}
+			]
+		},
+		"single_wood_axolotl_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_axolotl_bed_1"
+				}
+			]
+		},
+		"single_wood_shulker_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_shulker_bed_1"
+				}
+			]
+		},
+		"single_wood_axolotl_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_axolotl_bed_2"
+				}
+			]
+		},
+		"single_wood_shulker_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_shulker_bed_2"
+				}
+			]
+		},
+		"single_wood_axolotl_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_axolotl_bed_3"
+				}
+			]
+		},
+		"single_wood_shulker_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_shulker_bed_3"
+				}
+			]
+		},
+		"single_wood_axolotl_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_axolotl_bed_4"
+				}
+			]
+		},
+		"single_wood_shulker_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_shulker_bed_4"
+				}
+			]
+		},
+		"single_wood_axolotl_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_axolotl_bed_5"
+				}
+			]
+		},
+		"single_wood_shulker_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_shulker_bed_5"
+				}
+			]
+		},
+		"single_wood_axolotl_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_axolotl_bed_6"
+				}
+			]
+		},
+		"single_wood_shulker_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_shulker_bed_6"
+				}
+			]
+		},
+		"single_wood_axolotl_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_axolotl_bed_7"
+				}
+			]
+		},
+		"single_wood_shulker_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_shulker_bed_7"
+				}
+			]
+		},
+		"single_wood_axolotl_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_axolotl_bed_8"
+				}
+			]
+		},
+		"single_wood_shulker_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_shulker_bed_8"
+				}
+			]
+		},
+		"single_wood_axolotl_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_axolotl_bed_9"
+				}
+			]
+		},
+		"single_wood_shulker_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_shulker_bed_9"
+				}
+			]
+		},
+		"single_wood_axolotl_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_axolotl_bed_10"
+				}
+			]
+		},
+		"single_wood_shulker_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_shulker_bed_10"
+				}
+			]
+		},
+		"single_wood_axolotl_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_axolotl_bed_11"
+				}
+			]
+		},
+		"single_wood_shulker_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_shulker_bed_11"
+				}
+			]
+		},
+		"single_wood_moderncraft_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_moderncraft_bed_1"
+				}
+			]
+		},
+		"single_wood_moderncraft_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_moderncraft_bed_2"
+				}
+			]
+		},
+		"single_wood_moderncraft_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_moderncraft_bed_3"
+				}
+			]
+		},
+		"single_wood_moderncraft_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_moderncraft_bed_4"
+				}
+			]
+		},
+		"single_wood_moderncraft_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_moderncraft_bed_5"
+				}
+			]
+		},
+		"single_wood_moderncraft_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_moderncraft_bed_6"
+				}
+			]
+		},
+		"single_wood_moderncraft_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_moderncraft_bed_7"
+				}
+			]
+		},
+		"single_wood_moderncraft_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_moderncraft_bed_8"
+				}
+			]
+		},
+		"single_wood_moderncraft_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_moderncraft_bed_9"
+				}
+			]
+		},
+		"single_wood_moderncraft_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_moderncraft_bed_10"
+				}
+			]
+		},
+		"single_wood_moderncraft_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_moderncraft_bed_11"
+				}
+			]
+		},
+		"single_wood_red_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_red_bed_1"
+				}
+			]
+		},
+		"single_wood_red_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_red_bed_2"
+				}
+			]
+		},
+		"single_wood_red_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_red_bed_3"
+				}
+			]
+		},
+		"single_wood_red_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_red_bed_4"
+				}
+			]
+		},
+		"single_wood_red_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_red_bed_5"
+				}
+			]
+		},
+		"single_wood_red_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_red_bed_6"
+				}
+			]
+		},
+		"single_wood_red_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_red_bed_7"
+				}
+			]
+		},
+		"single_wood_red_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_red_bed_8"
+				}
+			]
+		},
+		"single_wood_red_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_red_bed_9"
+				}
+			]
+		},
+		"single_wood_red_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_red_bed_10"
+				}
+			]
+		},
+		"single_wood_red_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_red_bed_11"
+				}
+			]
+		},
+		"single_wood_blue_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_blue_bed_1"
+				}
+			]
+		},
+		"single_wood_blue_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_blue_bed_2"
+				}
+			]
+		},
+		"single_wood_blue_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_blue_bed_3"
+				}
+			]
+		},
+		"single_wood_blue_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_blue_bed_4"
+				}
+			]
+		},
+		"single_wood_blue_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_blue_bed_5"
+				}
+			]
+		},
+		"single_wood_blue_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_blue_bed_6"
+				}
+			]
+		},
+		"single_wood_blue_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_blue_bed_7"
+				}
+			]
+		},
+		"single_wood_blue_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_blue_bed_8"
+				}
+			]
+		},
+		"single_wood_blue_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_blue_bed_9"
+				}
+			]
+		},
+		"single_wood_blue_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_blue_bed_10"
+				}
+			]
+		},
+		"single_wood_blue_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_blue_bed_11"
+				}
+			]
+		},
+		"single_wood_polar_bear_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_polar_bear_bed_1"
+				}
+			]
+		},
+		"single_wood_polar_bear_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_polar_bear_bed_2"
+				}
+			]
+		},
+		"single_wood_polar_bear_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_polar_bear_bed_3"
+				}
+			]
+		},
+		"single_wood_polar_bear_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_polar_bear_bed_4"
+				}
+			]
+		},
+		"single_wood_polar_bear_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_polar_bear_bed_5"
+				}
+			]
+		},
+		"single_wood_polar_bear_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_polar_bear_bed_6"
+				}
+			]
+		},
+		"single_wood_polar_bear_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_polar_bear_bed_7"
+				}
+			]
+		},
+		"single_wood_polar_bear_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_polar_bear_bed_8"
+				}
+			]
+		},
+		"single_wood_polar_bear_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_polar_bear_bed_9"
+				}
+			]
+		},
+		"single_wood_polar_bear_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_polar_bear_bed_10"
+				}
+			]
+		},
+		"single_wood_polar_bear_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_polar_bear_bed_11"
+				}
+			]
+		},
+		"single_wood_christmas_bed_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_christmas_bed_1"
+				}
+			]
+		},
+		"single_wood_christmas_bed_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_christmas_bed_2"
+				}
+			]
+		},
+		"single_wood_christmas_bed_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_christmas_bed_3"
+				}
+			]
+		},
+		"single_wood_christmas_bed_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_christmas_bed_4"
+				}
+			]
+		},
+		"single_wood_christmas_bed_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_christmas_bed_5"
+				}
+			]
+		},
+		"single_wood_christmas_bed_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_christmas_bed_6"
+				}
+			]
+		},
+		"single_wood_christmas_bed_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_christmas_bed_7"
+				}
+			]
+		},
+		"single_wood_christmas_bed_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_christmas_bed_8"
+				}
+			]
+		},
+		"single_wood_christmas_bed_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_christmas_bed_9"
+				}
+			]
+		},
+		"single_wood_christmas_bed_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_christmas_bed_10"
+				}
+			]
+		},
+		"single_wood_christmas_bed_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_wood_christmas_bed_11"
+				}
+			]
+		}
+	}
+}

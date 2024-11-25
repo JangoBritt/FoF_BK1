@@ -1,0 +1,33 @@
+{
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "md:screwdriver"
+		},
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "W",
+            "N"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:iron_ingot"
+            },
+            "W": {
+                "item": "minecraft:stick"
+            },
+            "N": {
+                "item": "minecraft:iron_nugget"
+            }
+        },
+		"result": [
+			{
+				"item": "md:screwdriver",
+				"count": 1
+			}
+		]
+	},
+	"format_version": "1.17.0"
+}

@@ -57,7 +57,7 @@
     },
     // Arrows
     {
-      "rolls": 18,
+      "rolls": 5,
       "entries": [
         {
           "type": "loot_table",

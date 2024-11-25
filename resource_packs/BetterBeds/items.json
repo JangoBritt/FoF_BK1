@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.20",
+  "bb:preview_single_acacia_creeper_bed": {
+    "description": {
+      "identifier": "bb:preview_single_acacia_creeper_bed",
+      "menu_category": {
+        "category": "construction",
+        "group": "itemGroup.name.bedWoodAcacia"
+      }
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "construction",
+        "group": "itemGroup.name.bedWoodAcacia",
+        "order": 1
+      },
+      "minecraft:placement_direction": {
+        "enabled_states": [
+          "minecraft:cardinal_direction"
+        ]
+      },
+      "minecraft:block_sound": {
+        "sound": "wood"
+      }
+    }
+  }
+}

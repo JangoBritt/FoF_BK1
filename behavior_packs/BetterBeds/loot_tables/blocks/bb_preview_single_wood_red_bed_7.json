@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bb:preview_single_crimson_red_bed",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

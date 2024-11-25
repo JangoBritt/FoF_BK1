@@ -61,6 +61,7 @@
 	
 	{
 		"pack_id" : "fcd5a4e5-887c-4496-955c-5a89ab947f12", //Wandering Trader
+		"subpack" : "standard",
 		"version" : [ 6, 1, 0 ]
 	},
 	
@@ -121,5 +122,15 @@
 	{
 		"pack_id" : "6d0f3545-c1cb-46ee-be9d-c3bb01a3ccc5", //Biome Compass
 		"version" : [ 3, 0, 0 ]
+	},
+		
+	{
+		"pack_id" : "540f1b1e-20ae-4a1c-8f47-2ae8c892ca6e", //Better Beds
+		"version" : [ 1, 7, 0 ]
+	},
+	
+	{
+		"pack_id" : "949fe917-3b4b-4d47-8c64-3b8046fde4b5", //Modern Doors
+		"version" : [ 1, 7, 0 ]
 	}
 ]

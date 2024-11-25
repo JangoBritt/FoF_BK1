@@ -13,7 +13,7 @@
     },
     // Overworld Gemstones
     {
-      "rolls": 11,
+      "rolls": 5,
       "entries": [
         {
           "type": "item",

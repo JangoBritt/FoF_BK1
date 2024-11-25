@@ -16,10 +16,6 @@
 				{ //ACS Player Heads, Uniques, Paintings, Lanterns
 					"num_to_select": 4,
 					"trades": [
-						//Paintings
-						{"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_s3","quantity": 1}]},
-						{"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_s4","quantity": 1}]},
-						{"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_s5","quantity": 1}]},
 						//Seasonal
 						//Lanterns
 						//Player Heads

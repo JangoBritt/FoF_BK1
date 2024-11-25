@@ -6,11 +6,6 @@
 				{ //ACS Player Heads, Uniques, Paintings, Lanterns
 					"num_to_select": 4,
 					"trades": [
-              //Paintings
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_drop","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_raid","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_milk","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_neighbours","quantity": 1}]},
               //Seasonal
               //Lanterns
               {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:lantern"}],"gives": [{"item": "nicothekid:blackstone_lantern","quantity": 1}]},

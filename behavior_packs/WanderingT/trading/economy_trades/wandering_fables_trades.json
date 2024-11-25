@@ -6,20 +6,6 @@
 				{ //ACS Player Heads, Uniques, Paintings, Lanterns
 					"num_to_select": 4,
 					"trades": [
-              //Paintings
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_ufo","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_mars","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_borg","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_reunion","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_rocket","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_reflection","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_cape","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_town","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_shops","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_s3","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_s4","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_pun","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_painting:painting_s5","quantity": 1}]},
  			  //Seasonal
               {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:stereo_glasses_mask","quantity": 1}]},
               {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:sunglasses_mask","quantity": 1}]},

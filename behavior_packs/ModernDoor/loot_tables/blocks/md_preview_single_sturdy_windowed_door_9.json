@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "md:preview_single_mangrove_sturdy_windowed_door",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

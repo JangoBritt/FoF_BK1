@@ -1,0 +1,25 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Better Beds 1.7 RP",
+		"description": "Better Beds Resource Pack. Created by Ezekielico. More addons at trmc-studios.com",
+		"uuid": "08364f0f-c53a-4ecf-b8d2-5cb52356ca80",
+		"version": [1, 7, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Ezekielico"],
+		"generated_with": {
+			"blockbench_block_wizard": ["1.2.2"],
+			"blockbench_item_wizard": ["1.1.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Better Beds Resource Pack",
+			"type": "resources",
+			"uuid": "6ce63602-dc63-4438-afbc-c4ba740fad8c",
+			"version": [1, 7, 0]
+		}
+	]
+}

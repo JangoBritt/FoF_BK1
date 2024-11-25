@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Modern Doors 1.7 RP",
+		"description": "Modern Doors Resource Pack",
+		"uuid": "7905b145-7b40-459d-8f87-436fd0e19254",
+		"version": [1, 7, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Ezekielico"],
+		"generated_with": {
+			"blockbench_block_wizard": ["1.2.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Modern Doors Resource Pack",
+			"type": "resources",
+			"uuid": "f35cb552-9163-4b2e-8761-00de70c6e806",
+			"version": [1, 7, 0]
+		}
+	]
+}

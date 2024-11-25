@@ -5,14 +5,133 @@ system.runInterval( () =>{
     let equip = p.getComponent(EntityEquippableComponent.componentId);
     let hand = equip.getEquipment(EquipmentSlot.Mainhand);
     let offhand = equip.getEquipment(EquipmentSlot.Offhand);
-    let light15 = ["lit_pumpkin", "lava_bucket", "glowstone", "shroomlight", "beacon", "lantern", "sea_lantern", "campfire", "froglight", "end_rod"]
-    let light13 = ["torch_offhand", "minecraft:torch", "soul_lantern", "soul_campfire", "candle"]
-    let light11 = ["crying_obsidian", "soul_torch", "soul_torch_offhand"]
-    let light9 = ["fire_charge", "redstone_torch", "redstone_torch_offhand", "ender_chest", "enchanting_table", "catalyst", "totem_of_undying", "nether_star"]
+    let light15 = [
+      
+      "lit_pumpkin",
+      "lava_bucket",
+      "glowstone", 
+      "shroomlight", 
+      "beacon", 
+      "lantern", 
+      "sea_lantern", 
+      "campfire", 
+      "froglight", 
+      "end_rod",
+      "nicothekid:amethyst_lamp",
+      "nicothekid:andesite_lantern",
+      "nicothekid:basalt_lantern",
+      "nicothekid:blackstone_lantern",
+      "nicothekid:bricks_lantern",
+      "nicothekid:calcite_lantern",
+      "nicothekid:cobbled_deepslate_lantern",
+      "nicothekid:cobblestone_lantern",
+      "nicothekid:cracked_deepslate_bricks_lantern",
+      "nicothekid:cracked_polished_blackstone_bricks_lantern",
+      "nicothekid:cracked_stone_bricks_lantern",
+      "nicothekid:deepslate_bricks_lantern",
+      "nicothekid:deepslate_lantern",
+      "nicothekid:diorite_lantern",
+      "nicothekid:dripstone_lantern",
+      "nicothekid:granite_lantern",
+      "nicothekid:mossy_cobblestone_lantern",
+      "nicothekid:mossy_stone_bricks_lantern",
+      "nicothekid:mud_bricks_lantern",
+      "nicothekid:nether_bricks_lantern",
+      "nicothekid:packed_mud_lantern",
+      "nicothekid:polished_blackstone_bricks_lantern",
+      "nicothekid:quartz_lamp",
+      "nicothekid:red_nether_bricks_lantern",
+      "nicothekid:red_sandstone_lantern",
+      "nicothekid:sandstone_lantern",
+      "nicothekid:smooth_basalt_lantern",
+      "nicothekid:smooth_red_sandstone_lantern",
+      "nicothekid:smooth_sandstone_lantern",
+      "nicothekid:stone_bricks_lantern",
+      "nicothekid:stone_lantern",
+      "nicothekid:tuff_lantern",
+      "nicothekid:wooden_lamp_acacia",
+      "nicothekid:wooden_lamp_bamboo",
+      "nicothekid:wooden_lamp_birch",
+      "nicothekid:wooden_lamp_cherry",
+      "nicothekid:wooden_lamp_crimson",
+      "nicothekid:wooden_lamp_dark_oak",
+      "nicothekid:wooden_lamp_jungle",
+      "nicothekid:wooden_lamp_mangrove",
+      "nicothekid:wooden_lamp_oak",
+      "nicothekid:wooden_lamp_spruce",
+      "nicothekid:wooden_lamp_warped",
+      "nicothekid:wooden_lantern_acacia",
+      "nicothekid:wooden_lantern_bamboo",
+      "nicothekid:wooden_lantern_birch",
+      "nicothekid:wooden_lantern_cherry",
+      "nicothekid:wooden_lantern_crimson",
+      "nicothekid:wooden_lantern_dark_oak",
+      "nicothekid:wooden_lantern_jungle",
+      "nicothekid:wooden_lantern_mangrove",
+      "nicothekid:wooden_lantern_oak",
+      "nicothekid:wooden_lantern_spruce",
+      "nicothekid:wooden_lantern_warped"
+    ]
+    let light13 = [
+      "torch_offhand",
+      "minecraft:torch",
+      "soul_lantern",
+      "soul_campfire",
+      "candle", 
+      "korbon:standing_torch_item"
+    ]
+    let light11 = [
+      "crying_obsidian",
+      "soul_torch",
+      "soul_torch_offhand"
+    ]
+    let light9 = [
+      "fire_charge",
+      "redstone_torch",
+      "redstone_torch_offhand", 
+      "ender_chest", 
+      "enchanting_table", 
+      "catalyst", 
+      "totem_of_undying", 
+      "nether_star",
+      "nicothekid:andesite_soul_lantern",
+      "nicothekid:basalt_soul_lantern",
+      "nicothekid:blackstone_soul_lantern",
+      "nicothekid:bricks_soul_lantern",
+      "nicothekid:calcite_soul_lantern",
+      "nicothekid:cobbled_deepslate_soul_lantern",
+      "nicothekid:cobblestone_soul_lantern",
+      "nicothekid:cracked_deepslate_bricks_soul_lantern",
+      "nicothekid:cracked_polished_blackstone_bricks_soul_lantern",
+      "nicothekid:cracked_stone_bricks_soul_lantern",
+      "nicothekid:deepslate_bricks_soul_lantern",
+      "nicothekid:deepslate_soul_lantern",
+      "nicothekid:diorite_soul_lantern",
+      "nicothekid:dripstone_soul_lantern",
+      "nicothekid:granite_soul_lantern",
+      "nicothekid:jack_o_soul_lantern",
+      "nicothekid:mossy_cobblestone_soul_lantern",
+      "nicothekid:mossy_stone_bricks_soul_lantern",
+      "nicothekid:mud_bricks_soul_lantern",
+      "nicothekid:nether_bricks_soul_lantern",
+      "nicothekid:packed_mud_soul_lantern",
+      "nicothekid:polished_blackstone_bricks_soul_lantern",
+      "nicothekid:red_nether_bricks_soul_lantern",
+      "nicothekid:red_sandstone_soul_lantern",
+      "nicothekid:sandstone_soul_lantern",
+      "nicothekid:smooth_basalt_soul_lantern",
+      "nicothekid:smooth_red_sandstone_soul_lantern",
+      "nicothekid:smooth_sandstone_soul_lantern",
+      "nicothekid:stone_bricks_soul_lantern",
+      "nicothekid:stone_soul_lantern",
+      "nicothekid:tuff_soul_lantern"
+    ]
+
+
     let light6 = ["enchanted_book", "dragon_breath", "ender_eye", "magma", "blaze_rod", "blaze_powder", "glow_ink_sac", "glow_berries", "glowstone_dust", "experience_bottle"]
     let light_offhand = ["new:soul_torch_offhand", "new:redstone_torch_offhand", "new:torch_offhand", , "totem_of_undying"]
 
-    let light_all = ["lit_pumpkin", "lava_bucket", "glowstone", "shroomlight", "beacon", "lantern", "sea_lantern", "campfire", "froglight","torch_offhand", "minecraft:torch", "soul_lantern", "soul_campfire", "candle","crying_obsidian", "soul_torch", "soul_torch_offhand", "catalyst", "redstone_torch", "redstone_torch_offhand", "ender_chest", "enchanting_table", "magma", "blaze_rod", "blaze_powder", "glow_ink_sac", "glow_berries", "glowstone_dust"]
+    let light_all = ["lit_pumpkin", "lava_bucket", "glowstone", "shroomlight", "beacon", "lantern", "sea_lantern", "campfire", "froglight", "torch_offhand", "minecraft:torch", "soul_lantern", "soul_campfire", "candle", "crying_obsidian", "soul_torch", "soul_torch_offhand", "catalyst", "redstone_torch", "redstone_torch_offhand", "ender_chest", "enchanting_table", "magma", "blaze_rod", "blaze_powder", "glow_ink_sac", "glow_berries", "glowstone_dust"]
     let inv = p.getComponent("inventory").container;
 
     for(let slot = 0; slot < inv.size; slot++){

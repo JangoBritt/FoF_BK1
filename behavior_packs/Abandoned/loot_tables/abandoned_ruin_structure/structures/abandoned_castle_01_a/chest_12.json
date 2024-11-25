@@ -13,7 +13,7 @@
     },
     // Minerals 
     {
-      "rolls": 20,
+      "rolls": 5,
       "entries": [
         {
           "type": "item",

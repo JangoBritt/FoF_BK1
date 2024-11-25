@@ -1,0 +1,7 @@
+pack.name=§lBetter Beds BP
+pack.description=Necessary Behavior Pack for the Better Beds Addon. More addons at trmc-studios.com
+
+pack.destroy_beds = Destruir uma cama não redefine o ponto de renascimento.
+pack.monsters_beware = Cuidado! Há monstros por perto!
+pack.wake_up = Você acorda!
+pack.not_enough_space = Não há espaço suficiente.

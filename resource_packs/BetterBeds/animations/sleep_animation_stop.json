@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10",
+    "animations": {
+        "animation.player.sleeping_stop": {
+            "animation_length": 0.0001,
+            "loop": true,
+            "override_previous_animation": true,
+            "bones": {
+                "head": {
+                    "rotation": [ "30.0 - this", "-this", "-this" ]
+                },
+                "root": {
+                    "position": [ 0.0, 0.0, 0.0 ],
+                    "rotation": [ -90.0, "270.0  - query.body_y_rotation", 0.0 ]
+                }
+            }
+        }
+    }
+}

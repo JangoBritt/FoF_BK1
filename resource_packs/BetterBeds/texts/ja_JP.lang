@@ -1,0 +1,336 @@
+## If you think this translation needs improving feel free to say so in the Discord, translation provided by ChatGPT
+pack.name=§lBetter Beds RP
+pack.description=Better Beds アドオンに必要なリソースパックです。他のアドオンは trmc-studios.com でご確認ください
+action.hint.exit.ff:sit=§lシフト §rまたは §lスペース §rキーで立ち上がる
+tile.bb:preview_prototype_bed.name=プロトタイプ Better Bed
+
+pack.destroy_beds=ベッドを破壊してもスポーン地点はリセットされません
+pack.monsters_beware=注意！モンスターが近くにいます！
+pack.wake_up=あなたは目を覚まします！
+pack.not_enough_space=スペースが足りません
+
+pack.accelerate_time=時間を加速する
+pack.sleep_sunrise=日の出まで眠る
+pack.sleep_morning=朝まで眠る
+pack.sleep_noon=正午まで眠る
+pack.sleep_sunset=夕方まで眠る
+pack.sleep_night=夜まで眠る
+pack.sleep_midnight=真夜中まで眠る
+pack.phantom_spawning=phantom のスポーン
+pack.respawn_options=リスポーンオプション
+pack.settings=設定
+
+pack.reset_random_tick_speed=ランダムティックの速度をデフォルトにリセットする
+
+
+pack.waiting_for_more_players=他のプレイヤーを待っています...
+
+pack.player_wants_to_action=プレイヤーはしたい
+
+pack.accelerate_menu=時間を加速するメニュー
+pack.speed_multiplier=速度の倍率
+
+pack.set_spawnpoint=スポーン地点を設定する
+pack.ask_spawnpoint=このベッドにスポーン地点を設定しますか？
+pack.yes_do_it=はい、そうしてください！
+pack.no_leave_it=いいえ、そのままにしてください！
+
+pack.activate_phantom_spawning=phantom のスポーンを有効にしますか？
+pack.phantom_spawning_disabled=ベッドで一度寝ると、phantom のスポーンは再び無効になります
+
+pack.ask_spawnpoint_setting=このベッドでスポーン設定を尋ねない
+pack.ask_spawnpoint_body=このベッドを使用するたびにスポーン地点を設定するか尋ねますか？すでにベッドにスポーン地点を設定している場合、そのベッドではもう尋ねられません。
+pack.yes_ask_every_time=はい、毎回尋ねてください！
+pack.no_stop_asking=いいえ、尋ねるのをやめてください！
+
+pack.phantom_spawning_settings=phantom スポーン設定
+pack.phantom_spawning_toggle=ワールド内のphantomの生成
+pack.phantom_spawning_activated=phantom のスポーンが有効になりました。
+pack.phantom_spawning_deactivated=phantom のスポーンが無効になりました。
+pack.phantom_spawning_error=phantom スポーン設定フォームの表示に失敗しました：
+
+pack.spawn_phantoms=phantom をスポーン
+
+pack.password_required=パスワードが必要です
+pack.enter_password=パスワードを入力
+pack.incorrect_password=パスワードが間違っています。
+
+pack.phantoms_to_spawn=スポーンする phantom の数
+
+pack.bed_settings_title=ベッドの設定
+pack.choose_option=オプションを選択してください：
+pack.sleep_options=スリープオプション
+pack.wait_time_options=時間加速オプション
+pack.phantom_spawning_options=phantom スポーンオプション
+pack.reenable_phantom_spawning=自然な phantom スポーンを再有効化する
+pack.disable_phantom_spawning=自然なphantomの生成を無効にする
+pack.disableAndReenable_phantom_spawning_after_use=ベッドを使用中はphantomの生成を無効にし、使用後に再有効化する（以下のトグルより優先されます）
+
+
+
+pack.sleep_settings_title=スリープ設定
+pack.enable_sleep=スリープ機能を有効にする
+pack.only_sleep_at_night=夜間と雨の時のみ寝ることを許可する
+pack.lock_with_password=パスワードでロック
+pack.password_prompt=パスワード（ロックが有効な場合にのみ適用）
+pack.require_percentage=アクティブにするために必要なプレイヤーの割合
+pack.activation_percentage=プレイヤーのアクティベーション割合（上記のトグルが有効な場合にのみ適用）
+pack.clear_weather=睡眠後に天気を晴らす
+pack.show_sunrise_option=日の出オプションを表示
+pack.show_morning_option=朝のオプションを表示
+pack.show_noon_option=正午のオプションを表示
+pack.show_sunset_option=夕方のオプションを表示
+pack.show_night_option=夜のオプションを表示
+pack.show_midnight_option=真夜中のオプションを表示
+pack.settings_updated=スリープ設定が更新されました。
+
+pack.wait_settings_title=時間加速設定
+pack.enable_wait_functionality=時間加速機能を有効にする
+pack.clear_weather_after_waiting=時間加速後に天気を晴らす
+pack.max_multiplier_of_time=時間の最大倍率
+pack.wait_settings_updated=時間加速設定が更新されました。
+
+pack.phantom_spawning_settings_title=phantom スポーン設定
+pack.show_phantom_spawning_settings_in_beds=ベッドで phantom スポーン設定を表示する
+pack.limit_phantom_spawn_number=phantom スポーン数を制限する
+pack.max_phantom_spawn_number=最大 phantom スポーン数
+pack.set_time_between_spawns=スポーン間の時間を設定
+pack.in_game_hours=ゲーム内の時間（1ゲーム内の時間 = 50秒）
+pack.phantom_spawning_settings_updated=phantom スポーン設定が更新されました。
+
+pack.settings_failed=睡眠設定が更新されませんでした。
+pack.wait_settings_failed=時間加速設定が更新されませんでした。
+pack.phantom_spawning_settings_failed=phantom生成設定が更新されませんでした。
+
+pack.wants_to=したい
+
+pack.spawnpoint_set=新しいスポーン地点が設定されました。
+
+pack.sleep_at_night=夜のみ寝ることができます。
+
+pack.phantoms_cannot_spawn_yet=まだ phantom をスポーンできません。残り時間: {0} ゲーム内時間。
+pack.no_space_for_phantoms=phantom をスポーンできません: 21x15x21 の半径内に、最大50ブロック上までの空きスペースがありません。
+
+pack.phantom_at_night=phantom は夜のみスポーンできます
+pack.only_phantom_at_night=夜のみ phantom スポーンを許可する
+pack.disable_phantom_spawning_after_use=寝るか時間を加速した後、常にphantomの生成を無効にする
+
+item.bb:bed_settings=ベッドの設定
+
+
+tile.bb:bed_box.name=ベッドボックス
+tile.bb:bed_box_acacia.name=ベッドボックス アカシア
+tile.bb:bed_box_bamboo.name=ベッドボックス バンブー
+tile.bb:bed_box_birch.name=ベッドボックス バーチ
+tile.bb:bed_box_cherry.name=ベッドボックス チェリー
+tile.bb:bed_box_crimson.name=ベッドボックス クリムゾン
+tile.bb:bed_box_jungle.name=ベッドボックス ジャングル
+tile.bb:bed_box_mangrove.name=ベッドボックス マングローブ
+tile.bb:bed_box_dark_oak.name=ベッドボックス ダークオーク
+tile.bb:bed_box_oak.name=ベッドボックス オーク
+tile.bb:bed_box_warped.name=ベッドボックス ウォープド
+tile.bb:bed_box_spruce.name=ベッドボックス スプルース
+
+tile.bb:preview_single_oak_creeper_bed.name=シングル オーク クリーパー ベッド
+tile.bb:preview_single_spruce_creeper_bed.name=シングル スプルース クリーパー ベッド
+tile.bb:preview_single_birch_creeper_bed.name=シングル バーチ クリーパー ベッド
+tile.bb:preview_single_jungle_creeper_bed.name=シングル ジャングル クリーパー ベッド
+tile.bb:preview_single_acacia_creeper_bed.name=シングル アカシア クリーパー ベッド
+tile.bb:preview_single_dark_oak_creeper_bed.name=シングル ダークオーク クリーパー ベッド
+tile.bb:preview_single_mangrove_creeper_bed.name=シングル マングローブ クリーパー ベッド
+tile.bb:preview_single_cherry_creeper_bed.name=シングル チェリー クリーパー ベッド
+tile.bb:preview_single_bamboo_creeper_bed.name=シングル バンブー クリーパー ベッド
+tile.bb:preview_single_crimson_creeper_bed.name=シングル クリムゾン クリーパー ベッド
+tile.bb:preview_single_warped_creeper_bed.name=シングル ウォープド クリーパー ベッド
+
+tile.bb:preview_single_oak_zombie_bed.name=シングル オーク ゾンビ ベッド
+tile.bb:preview_single_spruce_zombie_bed.name=シングル スプルース ゾンビ ベッド
+tile.bb:preview_single_birch_zombie_bed.name=シングル バーチ ゾンビ ベッド
+tile.bb:preview_single_jungle_zombie_bed.name=シングル ジャングル ゾンビ ベッド
+tile.bb:preview_single_acacia_zombie_bed.name=シングル アカシア ゾンビ ベッド
+tile.bb:preview_single_dark_oak_zombie_bed.name=シングル ダークオーク ゾンビ ベッド
+tile.bb:preview_single_mangrove_zombie_bed.name=シングル マングローブ ゾンビ ベッド
+tile.bb:preview_single_cherry_zombie_bed.name=シングル チェリー ゾンビ ベッド
+tile.bb:preview_single_bamboo_zombie_bed.name=シングル バンブー ゾンビ ベッド
+tile.bb:preview_single_crimson_zombie_bed.name=シングル クリムゾン ゾンビ ベッド
+tile.bb:preview_single_warped_zombie_bed.name=シングル ウォープド ゾンビ ベッド
+
+tile.bb:preview_single_oak_skeleton_bed.name=シングル オーク スケルトン ベッド
+tile.bb:preview_single_spruce_skeleton_bed.name=シングル スプルース スケルトン ベッド
+tile.bb:preview_single_birch_skeleton_bed.name=シングル バーチ スケルトン ベッド
+tile.bb:preview_single_jungle_skeleton_bed.name=シングル ジャングル スケルトン ベッド
+tile.bb:preview_single_acacia_skeleton_bed.name=シングル アカシア スケルトン ベッド
+tile.bb:preview_single_dark_oak_skeleton_bed.name=シングル ダークオーク スケルトン ベッド
+tile.bb:preview_single_mangrove_skeleton_bed.name=シングル マングローブ スケルトン ベッド
+tile.bb:preview_single_cherry_skeleton_bed.name=シングル チェリー スケルトン ベッド
+tile.bb:preview_single_bamboo_skeleton_bed.name=シングル バンブー スケルトン ベッド
+tile.bb:preview_single_crimson_skeleton_bed.name=シングル クリムゾン スケルトン ベッド
+tile.bb:preview_single_warped_skeleton_bed.name=シングル ウォープド スケルトン ベッド
+
+tile.bb:preview_single_oak_enderman_bed.name=シングル オーク エンダーマン ベッド
+tile.bb:preview_single_spruce_enderman_bed.name=シングル スプルース エンダーマン ベッド
+tile.bb:preview_single_birch_enderman_bed.name=シングル バーチ エンダーマン ベッド
+tile.bb:preview_single_jungle_enderman_bed.name=シングル ジャングル エンダーマン ベッド
+tile.bb:preview_single_acacia_enderman_bed.name=シングル アカシア エンダーマン ベッド
+tile.bb:preview_single_dark_oak_enderman_bed.name=シングル ダークオーク エンダーマン ベッド
+tile.bb:preview_single_mangrove_enderman_bed.name=シングル マングローブ エンダーマン ベッド
+tile.bb:preview_single_cherry_enderman_bed.name=シングル チェリー エンダーマン ベッド
+tile.bb:preview_single_bamboo_enderman_bed.name=シングル バンブー エンダーマン ベッド
+tile.bb:preview_single_crimson_enderman_bed.name=シングル クリムゾン エンダーマン ベッド
+tile.bb:preview_single_warped_enderman_bed.name=シングル ウォープド エンダーマン ベッド
+
+tile.bb:preview_single_oak_pig_bed.name=シングル オーク ピッグ ベッド
+tile.bb:preview_single_spruce_pig_bed.name=シングル スプルース ピッグ ベッド
+tile.bb:preview_single_birch_pig_bed.name=シングル バーチ ピッグ ベッド
+tile.bb:preview_single_jungle_pig_bed.name=シングル ジャングル ピッグ ベッド
+tile.bb:preview_single_acacia_pig_bed.name=シングル アカシア ピッグ ベッド
+tile.bb:preview_single_dark_oak_pig_bed.name=シングル ダークオーク ピッグ ベッド
+tile.bb:preview_single_mangrove_pig_bed.name=シングル マングローブ ピッグ ベッド
+tile.bb:preview_single_cherry_pig_bed.name=シングル チェリー ピッグ ベッド
+tile.bb:preview_single_bamboo_pig_bed.name=シングル バンブー ピッグ ベッド
+tile.bb:preview_single_crimson_pig_bed.name=シングル クリムゾン ピッグ ベッド
+tile.bb:preview_single_warped_pig_bed.name=シングル ウォープド ピッグ ベッド
+
+tile.bb:preview_single_oak_sheep_bed.name=シングル オーク シープ ベッド
+tile.bb:preview_single_spruce_sheep_bed.name=シングル スプルース シープ ベッド
+tile.bb:preview_single_birch_sheep_bed.name=シングル バーチ シープ ベッド
+tile.bb:preview_single_jungle_sheep_bed.name=シングル ジャングル シープ ベッド
+tile.bb:preview_single_acacia_sheep_bed.name=シングル アカシア シープ ベッド
+tile.bb:preview_single_dark_oak_sheep_bed.name=シングル ダークオーク シープ ベッド
+tile.bb:preview_single_mangrove_sheep_bed.name=シングル マングローブ シープ ベッド
+tile.bb:preview_single_cherry_sheep_bed.name=シングル チェリー シープ ベッド
+tile.bb:preview_single_bamboo_sheep_bed.name=シングル バンブー シープ ベッド
+tile.bb:preview_single_crimson_sheep_bed.name=シングル クリムゾン シープ ベッド
+tile.bb:preview_single_warped_sheep_bed.name=シングル ウォープド シープ ベッド
+
+tile.bb:preview_single_oak_cow_bed.name=シングル オーク カウ ベッド
+tile.bb:preview_single_spruce_cow_bed.name=シングル スプルース カウ ベッド
+tile.bb:preview_single_birch_cow_bed.name=シングル バーチ カウ ベッド
+tile.bb:preview_single_jungle_cow_bed.name=シングル ジャングル カウ ベッド
+tile.bb:preview_single_acacia_cow_bed.name=シングル アカシア カウ ベッド
+tile.bb:preview_single_dark_oak_cow_bed.name=シングル ダークオーク カウ ベッド
+tile.bb:preview_single_mangrove_cow_bed.name=シングル マングローブ カウ ベッド
+tile.bb:preview_single_cherry_cow_bed.name=シングル チェリー カウ ベッド
+tile.bb:preview_single_bamboo_cow_bed.name=シングル バンブー カウ ベッド
+tile.bb:preview_single_crimson_cow_bed.name=シングル クリムゾン カウ ベッド
+tile.bb:preview_single_warped_cow_bed.name=シングル ウォープド カウ ベッド
+
+tile.bb:preview_single_oak_chicken_bed.name=シングル オーク チキン ベッド
+tile.bb:preview_single_spruce_chicken_bed.name=シングル スプルース チキン ベッド
+tile.bb:preview_single_birch_chicken_bed.name=シングル バーチ チキン ベッド
+tile.bb:preview_single_jungle_chicken_bed.name=シングル ジャングル チキン ベッド
+tile.bb:preview_single_acacia_chicken_bed.name=シングル アカシア チキン ベッド
+tile.bb:preview_single_dark_oak_chicken_bed.name=シングル ダークオーク チキン ベッド
+tile.bb:preview_single_mangrove_chicken_bed.name=シングル マングローブ チキン ベッド
+tile.bb:preview_single_cherry_chicken_bed.name=シングル チェリー チキン ベッド
+tile.bb:preview_single_bamboo_chicken_bed.name=シングル バンブー チキン ベッド
+tile.bb:preview_single_crimson_chicken_bed.name=シングル クリムゾン チキン ベッド
+tile.bb:preview_single_warped_chicken_bed.name=シングル ウォープド チキン ベッド
+
+tile.bb:preview_single_oak_bee_bed.name=シングル オーク ビー ベッド
+tile.bb:preview_single_spruce_bee_bed.name=シングル スプルース ビー ベッド
+tile.bb:preview_single_birch_bee_bed.name=シングル バーチ ビー ベッド
+tile.bb:preview_single_jungle_bee_bed.name=シングル ジャングル ビー ベッド
+tile.bb:preview_single_acacia_bee_bed.name=シングル アカシア ビー ベッド
+tile.bb:preview_single_dark_oak_bee_bed.name=シングル ダークオーク ビー ベッド
+tile.bb:preview_single_mangrove_bee_bed.name=シングル マングローブ ビー ベッド
+tile.bb:preview_single_cherry_bee_bed.name=シングル チェリー ビー ベッド
+tile.bb:preview_single_bamboo_bee_bed.name=シングル バンブー ビー ベッド
+tile.bb:preview_single_crimson_bee_bed.name=シングル クリムゾン ビー ベッド
+tile.bb:preview_single_warped_bee_bed.name=シングル ウォープド ビー ベッド
+
+tile.bb:preview_single_oak_spider_bed.name=シングル オーク スパイダー ベッド
+tile.bb:preview_single_spruce_spider_bed.name=シングル スプルース スパイダー ベッド
+tile.bb:preview_single_birch_spider_bed.name=シングル バーチ スパイダー ベッド
+tile.bb:preview_single_jungle_spider_bed.name=シングル ジャングル スパイダー ベッド
+tile.bb:preview_single_acacia_spider_bed.name=シングル アカシア スパイダー ベッド
+tile.bb:preview_single_dark_oak_spider_bed.name=シングル ダークオーク スパイダー ベッド
+tile.bb:preview_single_mangrove_spider_bed.name=シングル マングローブ スパイダー ベッド
+tile.bb:preview_single_cherry_spider_bed.name=シングル チェリー スパイダー ベッド
+tile.bb:preview_single_bamboo_spider_bed.name=シングル バンブー スパイダー ベッド
+tile.bb:preview_single_crimson_spider_bed.name=シングル クリムゾン スパイダー ベッド
+tile.bb:preview_single_warped_spider_bed.name=シングル ウォープド スパイダー ベッド
+
+tile.bb:preview_single_oak_axolotl_bed.name=シングル オーク アホロートル ベッド
+tile.bb:preview_single_spruce_axolotl_bed.name=シングル スプルース アホロートル ベッド
+tile.bb:preview_single_birch_axolotl_bed.name=シングル バーチ アホロートル ベッド
+tile.bb:preview_single_jungle_axolotl_bed.name=シングル ジャングル アホロートル ベッド
+tile.bb:preview_single_acacia_axolotl_bed.name=シングル アカシア アホロートル ベッド
+tile.bb:preview_single_dark_oak_axolotl_bed.name=シングル ダークオーク アホロートル ベッド
+tile.bb:preview_single_mangrove_axolotl_bed.name=シングル マングローブ アホロートル ベッド
+tile.bb:preview_single_cherry_axolotl_bed.name=シングル チェリー アホロートル ベッド
+tile.bb:preview_single_bamboo_axolotl_bed.name=シングル バンブー アホロートル ベッド
+tile.bb:preview_single_crimson_axolotl_bed.name=シングル クリムゾン アホロートル ベッド
+tile.bb:preview_single_warped_axolotl_bed.name=シングル ウォープド アホロートル ベッド
+
+tile.bb:preview_single_oak_shulker_bed.name=シングル オーク シュルカー ベッド
+tile.bb:preview_single_spruce_shulker_bed.name=シングル スプルース シュルカー ベッド
+tile.bb:preview_single_birch_shulker_bed.name=シングル バーチ シュルカー ベッド
+tile.bb:preview_single_jungle_shulker_bed.name=シングル ジャングル シュルカー ベッド
+tile.bb:preview_single_acacia_shulker_bed.name=シングル アカシア シュルカー ベッド
+tile.bb:preview_single_dark_oak_shulker_bed.name=シングル ダークオーク シュルカー ベッド
+tile.bb:preview_single_mangrove_shulker_bed.name=シングル マングローブ シュルカー ベッド
+tile.bb:preview_single_cherry_shulker_bed.name=シングル チェリー シュルカー ベッド
+tile.bb:preview_single_bamboo_shulker_bed.name=シングル バンブー シュルカー ベッド
+tile.bb:preview_single_crimson_shulker_bed.name=シングル クリムゾン シュルカー ベッド
+tile.bb:preview_single_warped_shulker_bed.name=シングル ウォープド シュルカー ベッド
+
+tile.bb:preview_single_oak_moderncraft_bed.name=パトロンのオークのベッド §l[ModernCraft]
+tile.bb:preview_single_spruce_moderncraft_bed.name=パトロンのスプルースのベッド §l[ModernCraft]
+tile.bb:preview_single_birch_moderncraft_bed.name=パトロンのバーチのベッド §l[ModernCraft]
+tile.bb:preview_single_jungle_moderncraft_bed.name=パトロンのジャングルのベッド §l[ModernCraft]
+tile.bb:preview_single_acacia_moderncraft_bed.name=パトロンのアカシアのベッド §l[ModernCraft]
+tile.bb:preview_single_dark_oak_moderncraft_bed.name=パトロンのダークオークのベッド §l[ModernCraft]
+tile.bb:preview_single_mangrove_moderncraft_bed.name=パトロンのマングローブのベッド §l[ModernCraft]
+tile.bb:preview_single_cherry_moderncraft_bed.name=パトロンのチェリーのベッド §l[ModernCraft]
+tile.bb:preview_single_bamboo_moderncraft_bed.name=パトロンの竹のベッド §l[ModernCraft]
+tile.bb:preview_single_crimson_moderncraft_bed.name=パトロンのクリムゾンのベッド §l[ModernCraft]
+tile.bb:preview_single_warped_moderncraft_bed.name=パトロンのウォープドのベッド §l[ModernCraft]
+
+tile.bb:preview_single_oak_red_bed.name=オークの赤いシングルベッド
+tile.bb:preview_single_spruce_red_bed.name=スプルースの赤いシングルベッド
+tile.bb:preview_single_birch_red_bed.name=バーチの赤いシングルベッド
+tile.bb:preview_single_jungle_red_bed.name=ジャングルの赤いシングルベッド
+tile.bb:preview_single_acacia_red_bed.name=アカシアの赤いシングルベッド
+tile.bb:preview_single_dark_oak_red_bed.name=ダークオークの赤いシングルベッド
+tile.bb:preview_single_mangrove_red_bed.name=マングローブの赤いシングルベッド
+tile.bb:preview_single_cherry_red_bed.name=チェリーの赤いシングルベッド
+tile.bb:preview_single_bamboo_red_bed.name=竹の赤いシングルベッド
+tile.bb:preview_single_crimson_red_bed.name=クリムゾンの赤いシングルベッド
+tile.bb:preview_single_warped_red_bed.name=ひずんだ木の赤いシングルベッド
+
+tile.bb:preview_single_oak_blue_bed.name=オークの青いシングルベッド
+tile.bb:preview_single_spruce_blue_bed.name=スプルースの青いシングルベッド
+tile.bb:preview_single_birch_blue_bed.name=バーチの青いシングルベッド
+tile.bb:preview_single_jungle_blue_bed.name=ジャングルの青いシングルベッド
+tile.bb:preview_single_acacia_blue_bed.name=アカシアの青いシングルベッド
+tile.bb:preview_single_dark_oak_blue_bed.name=ダークオークの青いシングルベッド
+tile.bb:preview_single_mangrove_blue_bed.name=マングローブの青いシングルベッド
+tile.bb:preview_single_cherry_blue_bed.name=チェリーの青いシングルベッド
+tile.bb:preview_single_bamboo_blue_bed.name=竹の青いシングルベッド
+tile.bb:preview_single_crimson_blue_bed.name=クリムゾンの青いシングルベッド
+tile.bb:preview_single_warped_blue_bed.name=ひずんだ木の青いシングルベッド
+
+tile.bb:preview_single_oak_polar_bear_bed.name=オークのシングルホッキョクグマベッド
+tile.bb:preview_single_spruce_polar_bear_bed.name=スプルースのシングルホッキョクグマベッド
+tile.bb:preview_single_birch_polar_bear_bed.name=バーチのシングルホッキョクグマベッド
+tile.bb:preview_single_jungle_polar_bear_bed.name=ジャングルのシングルホッキョクグマベッド
+tile.bb:preview_single_acacia_polar_bear_bed.name=アカシアのシングルホッキョクグマベッド
+tile.bb:preview_single_dark_oak_polar_bear_bed.name=ダークオークのシングルホッキョクグマベッド
+tile.bb:preview_single_mangrove_polar_bear_bed.name=マングローブのシングルホッキョクグマベッド
+tile.bb:preview_single_cherry_polar_bear_bed.name=チェリーのシングルホッキョクグマベッド
+tile.bb:preview_single_bamboo_polar_bear_bed.name=バンブーのシングルホッキョクグマベッド
+tile.bb:preview_single_crimson_polar_bear_bed.name=クリムゾンのシングルホッキョクグマベッド
+tile.bb:preview_single_warped_polar_bear_bed.name=ワープドのシングルホッキョクグマベッド
+
+tile.bb:preview_single_oak_christmas_bed.name=オークのシングルクリスマスベッド
+tile.bb:preview_single_spruce_christmas_bed.name=スプルースのシングルクリスマスベッド
+tile.bb:preview_single_birch_christmas_bed.name=バーチのシングルクリスマスベッド
+tile.bb:preview_single_jungle_christmas_bed.name=ジャングルのシングルクリスマスベッド
+tile.bb:preview_single_acacia_christmas_bed.name=アカシアのシングルクリスマスベッド
+tile.bb:preview_single_dark_oak_christmas_bed.name=ダークオークのシングルクリスマスベッド
+tile.bb:preview_single_mangrove_christmas_bed.name=マングローブのシングルクリスマスベッド
+tile.bb:preview_single_cherry_christmas_bed.name=チェリーのシングルクリスマスベッド
+tile.bb:preview_single_bamboo_christmas_bed.name=バンブーのシングルクリスマスベッド
+tile.bb:preview_single_crimson_christmas_bed.name=クリムゾンのシングルクリスマスベッド
+tile.bb:preview_single_warped_christmas_bed.name=ワープドのシングルクリスマスベッド

@@ -13,7 +13,7 @@
     },
     // Arrows
     {
-      "rolls": 12,
+      "rolls": 5,
       "entries": [
         {
           "type": "item",
