@@ -76,7 +76,6 @@
               //Player Heads
               {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:atlaskes_head_item","quantity": 1}]},
               {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:calico_jacque_head_item","quantity": 1}]},
-              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:damo8030_head_item","quantity": 1}]},
               {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:dcstar36_head_item","quantity": 1}]},
               {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:diatomicsloth19_head_item","quantity": 1}]},
               {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:fr0mm1_head_item","quantity": 1}]},
