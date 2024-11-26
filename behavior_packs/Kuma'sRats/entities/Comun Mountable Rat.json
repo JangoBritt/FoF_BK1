@@ -172,6 +172,9 @@
 				],
 				"target": {}
 			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
 			"minecraft:movement": {
 				"value": {
 					"range_min": 0.2555,

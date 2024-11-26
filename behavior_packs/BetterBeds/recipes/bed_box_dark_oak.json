@@ -1,16 +1,23 @@
 {
-	"minecraft:recipe_shapeless": {
+	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "bb:bed_box_dark_oak"
 		},
 		"tags": [
-			"stonecutter"
+			"crafting_table"
 		],
-		"ingredients": [
-			{
-				"item": "minecraft:clay_ball"
+		"pattern": [
+			"XXX",
+			"###"
+		],
+		"key": {
+			"X": {
+				"tag": "minecraft:wool"
+			},
+			"#": {
+				"item": "minecraft:dark_oak_planks"
 			}
-		],
+		},
 		"result": [
 			{
 				"item": "bb:bed_box_dark_oak",
