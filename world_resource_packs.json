@@ -13,7 +13,7 @@
 	{
 		"pack_id" : "7d8dd50d-f5cb-4e8c-8faa-7d4da782f117", //Expansive Biomes
 		"subpack" : "fog_enable",
-		"version" : [ 1, 0, 38 ]
+		"version" : [ 1, 0, 39 ]
 	},
 	
 	{
@@ -118,7 +118,7 @@
 	
 	{
 		"pack_id" : "04051855-530c-4cea-999b-9ead1c0850d9", //Fables Avatars
-		"version" : [ 6, 2, 2 ]
+		"version" : [ 6, 2, 3 ]
 	},
 	{
 		"pack_id" : "0641b13f-6000-4eac-8c1e-6390e5fccb29", //Biome Compass
