@@ -8,4 +8,4 @@ levelname.txt
 .vscode/
 .vscode/launch.json
 zip/
-.zip
+*.zip
