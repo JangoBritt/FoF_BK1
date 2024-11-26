@@ -80,7 +80,6 @@
               {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:diatomicsloth19_head_item","quantity": 1}]},
               {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:fr0mm1_head_item","quantity": 1}]},
               {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:jangobritt_head_item","quantity": 1}]},
-              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:kailio_1980_head_item","quantity": 1}]},
               {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:mids128_head_item","quantity": 1}]},
               {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:ngarvi_head_item","quantity": 1}]},
               {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:purplelady1022_head_item","quantity": 1}]},

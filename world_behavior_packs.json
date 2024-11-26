@@ -4,8 +4,6 @@
 		"pack_id" : "ed2cf1d1-c832-48c8-bf06-0cc38cf5e8a8", //Fables Recycling Recipes
 		"version" : [ 1, 0, 0 ]
 	},
-
-	
 	
 	{
 		"pack_id" : "b2d3458c-ed2c-40b3-bedd-83dbd03d1487", //Alycia's Advancements
@@ -55,7 +53,7 @@
 	},
 	{
 		"pack_id" : "3a36b38b-3e54-4cb4-b99d-139e1c275901",  //Mailboxes
-		"version" : [ 1, 2, 1 ]
+		"version" : [ 1, 2, 2 ]
 	},
 	{
 		"pack_id" : "95cc40f0-999b-49b8-8311-c8aaaa887ed6", //MrCrayFish Furniture
@@ -65,12 +63,12 @@
 	{
 		"pack_id" : "fcd5a4e5-887c-4496-955c-5a89ab947f12", //Wandering Trader
 		"subpack" : "standard",
-		"version" : [ 6, 1, 0 ]
+		"version" : [ 6, 1, 1 ]
 	},
 	
 	{
 		"pack_id" : "6dbf0b33-d0c6-4090-8004-331fe3e16622", //FoF Prep Pack
-		"version" : [ 6, 0, 0 ]
+		"version" : [ 6, 0, 1 ]
 	},
 	
 	{
@@ -85,10 +83,10 @@
 		"pack_id" : "10ba4924-e71c-47a3-a456-ff77d7ef4e7e", //Medieval Furniture
 		"version" : [ 6, 4, 0 ]
 	},
-	{
-		"pack_id" : "91879d55-d90a-411b-8aff-21b58979b6a3", //FoF Paintings
-		"version" : [ 6, 1, 1 ]
-	},
+	// {
+	// 	"pack_id" : "91879d55-d90a-411b-8aff-21b58979b6a3", //FoF Paintings
+	// 	"version" : [ 6, 1, 1 ]
+	// },
 	{
 		"pack_id" : "10001000-1223-1111-1111-a000a000a000", //Abandoned Ruins
 		"version" : [ 1, 8, 4 ]
@@ -101,16 +99,16 @@
 	
 	{
 		"pack_id" : "d9560f08-233c-4c1c-9a72-3f5b6ace7d32", //FoF Medals
-		"version" : [ 6, 1, 0 ]
+		"version" : [ 6, 1, 1 ]
 	},
 	{
 		"pack_id" : "25f31836-beb8-4f79-85f1-b3377e01ff07", //FoF Golems
-		"version" : [ 6, 1, 0 ]
+		"version" : [ 6, 1, 1 ]
 	},
 	
 	{
 		"pack_id" : "16dd192c-48b4-4318-b95a-deae1b50ab72", //FoF Currency
-		"version" : [ 6, 1, 0 ]
+		"version" : [ 6, 1, 1 ]
 	},
 	
 	{
