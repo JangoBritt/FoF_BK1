@@ -25,7 +25,7 @@
 			{"item": "minecraft:dark_oak_log"}
 		],
     "result": {
-			"item": "medieval:darkoak_wood_cupboard",
+			"item": "medieval:dark_oak_wood_cupboard",
 			"count": 1
 		}
 	}
