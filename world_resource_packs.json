@@ -53,7 +53,7 @@
 	
 	{
 		"pack_id" : "9a4bc60d-9e2e-4638-b93b-9b354bb6c64b", //Mailboxes
-		"version" : [ 1, 2, 1 ]
+		"version" : [ 1, 2, 2 ]
 	},
 	
 	{
@@ -73,12 +73,12 @@
 	
 	{
 		"pack_id" : "43120e01-773d-4667-a1cd-fb5d6fb84543", //Fables Glass Pack
-		"version" : [ 6, 0, 0 ]
+		"version" : [ 6, 0, 1 ]
 	},
 	
 	{
 		"pack_id" : "8850b6e4-469e-4084-9d25-d5367dcb7c64", //Fables Frames Pack
-		"version" : [ 6, 0, 0 ]
+		"version" : [ 6, 0, 1 ]
 	},
 	
 	{
@@ -88,7 +88,7 @@
 	
 	{
 		"pack_id" : "910ddcde-dac0-4e42-846d-bbd345f6869e", //Fables Currency Pack
-		"version" : [ 6, 1, 0 ]
+		"version" : [ 6, 1, 1 ]
 	},
 	
 	{
@@ -98,12 +98,12 @@
 	
 	{
 		"pack_id" : "3a0fc7bb-4703-47fb-935f-bd6a1d9cac09", //Fables Golems Pack
-		"version" : [ 6, 1, 0 ]
+		"version" : [ 6, 1, 1 ]
 	},
 	
 	{
 		"pack_id" : "3a71bf5a-e4fc-4cc1-aece-dcd17980a3d9", //Fables Medals Pack
-		"version" : [ 6, 1, 0 ]
+		"version" : [ 6, 1, 1 ]
 	},
 	
 	{
@@ -113,7 +113,7 @@
 	
 	{
 		"pack_id" : "b1c6e1b7-221b-4b6d-8691-85e35cf0e113", //Wandering Trader
-		"version" : [ 6, 1, 0 ]
+		"version" : [ 6, 1, 1 ]
 	},
 	
 	{
