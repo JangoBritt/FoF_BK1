@@ -1,0 +1,234 @@
+pack.name=§lModern Doors RP
+pack.description=Paquete de recursos necesario para el addon Modern Doors. Más addons en trmc-studios.com
+
+pack.door_settings=Ajustes de la Puerta
+pack.choose_option=Elige una opción
+pack.return_simple_redstone=Volver a Detección de Redstone Simple
+pack.upgrade_redstone=Mejorar Detección de Redstone
+pack.return_normal_orientation=Volver a Orientación Normal
+pack.invert_door_orientation=Invertir Orientación de la Puerta
+pack.turn_on_dual_opening=Activar Apertura Dual
+pack.turn_off_dual_opening=Desactivar Apertura Dual
+pack.confirm_full_redstone=Confirmar Activación Completa de Redstone
+pack.full_redstone_warning=¡Advertencia! Esta puerta ya es capaz de detectar señales de redstone, como palancas, botones, placas de presión y cables trampa en las proximidades. Solo usa esta función si necesitas usar cables de redstone. Ten en cuenta que habilitar esto en muchas puertas puede causar lag. ¿Quieres continuar?
+pack.yes=Sí
+pack.no=No
+
+pack.door_menu=Menú de la Puerta
+pack.unlock_door=Desbloquear Puerta
+pack.lock_door=Bloquear Puerta
+pack.lock_settings=Configuración de Bloqueo
+pack.unlock_mechanisms=Mecanismos de Bloqueo
+pack.create_key=Crear Llave
+pack.change_lock=Cambiar Cerradura
+pack.use_password=Usar Contraseña
+pack.use_key=Usar Llave
+pack.unlocked_because_you_are_owner=Desbloqueada porque eres el dueño
+pack.correct_key=Llave Correcta
+pack.incorrect_key=Llave Incorrecta
+pack.password_required=Se requiere Contraseña
+pack.enter_password=Ingresar Contraseña
+pack.correct_password=Contraseña Correcta
+pack.incorrect_password=Contraseña Incorrecta
+pack.use_key_message=Por favor, usa la llave para desbloquear
+pack.door_locked_not_owner=La puerta está bloqueada y no eres el dueño
+pack.door_locked=La puerta está bloqueada
+pack.door_opened=La puerta está abierta
+pack.door_closed=La puerta está cerrada
+pack.key_code_too_long=El código de la llave es demasiado largo. Se permiten un máximo de 20 caracteres
+pack.key_already_in_use=Este código de llave ya está en uso por otro jugador, se ha generado uno nuevo
+pack.key_created=Llave Creada
+pack.key_updated=Llave Actualizada
+pack.adjacent_door_key_applied=Llave aplicada a la puerta adyacente
+pack.adjacent_door_different_owner=La puerta adyacente tiene un dueño diferente
+pack.enter_key_name=Ingresar Nombre de la Llave
+pack.enter_key_description=Ingresar Descripción de la Llave
+pack.number_of_keys=Número de Llaves
+pack.password_settings=Configuración de Contraseña
+pack.password_saved=Contraseña Guardada
+pack.door_unlocked=Puerta Desbloqueada
+pack.first_time_locking=Opciones de Primer Bloqueo
+pack.owner_not_affected=El dueño no está afectado por el bloqueo
+pack.set_lock_create_keys=Permitir Acceso a la Puerta con Llaves
+pack.submit=Enviar
+pack.door_state_open=La puerta está abierta
+pack.door_state_close=La puerta está cerrada
+pack.open_pair_false=No hay bloque emparejado adyacente
+pack.disable_options=Mecanismos de Bloqueo
+pack.locked_because_you_are_owner=Puerta Bloqueada
+pack.locked_door_opened_because_you_are_owner=Puerta Bloqueada abierta porque eres el dueño
+pack.door_you_are_not_owner=No puedes acceder al menú de bloqueo si no eres el dueño de la puerta
+pack.door_with_no_owner=Esta puerta no tiene dueño y no puede ser bloqueada, solo puedes bloquear puertas que hayas colocado después de la actualización de Bloqueos
+
+pack.tutorial_prompt_title=Tutorial
+pack.tutorial_prompt_body=¿Te gustaría seguir un tutorial sobre todas las opciones para bloquear y gestionar puertas?
+pack.follow_tutorial=Seguir el Tutorial
+pack.skip_tutorial=Omitir el Tutorial
+
+pack.cant_destroy_player_not_owner=No puedes destruir una puerta bloqueada
+
+pack.key_and_lock_settings=Configuración de Llaves y Bloqueos
+pack.use_auto_generated_uuid=Usar Código de Llave Generado Automáticamente
+pack.enter_key_code=Ingresar Código de Llave Personalizado (efectivo solo si el interruptor anterior está desactivado)
+pack.enter_key_code_short=Ingresar Código de Llave Personalizado
+
+pack.options_saved=Opciones guardadas
+pack.choose_unlock_method=Puerta bloqueada. Elige un método de desbloqueo
+
+pack.select_key_type=Seleccionar Tipo de Llave
+pack.key_type_gold=Llave de Oro
+pack.key_type_iron=Llave de Hierro
+pack.key_type_copper=Llave de Cobre
+pack.key_type_oxidized_copper=Llave de Cobre Oxidado
+
+item.md:copper_key=MD: Llave de Cobre
+item.md:gold_key=MD: Llave de Oro
+item.md:iron_key=MD: Llave de Hierro
+item.md:oxidized_key=MD: Llave de Cobre Oxidado
+
+tile.md:door_box.name=Caja de Puertas
+
+
+item.md:screwdriver=MD: Destornillador
+
+tile.md:preview_single_oak_glass_door.name=MD: Puerta de cristal enmarcado de roble
+tile.md:preview_single_birch_glass_door.name=MD: Puerta de cristal enmarcado de abedul
+tile.md:preview_single_acacia_glass_door.name=MD: Puerta de cristal enmarcado de acacia
+tile.md:preview_single_spruce_glass_door.name=MD: Puerta de cristal enmarcado de abeto
+tile.md:preview_single_dark_oak_glass_door.name=MD: Puerta de cristal enmarcado de roble oscuro
+tile.md:preview_single_jungle_glass_door.name=MD: Puerta de cristal enmarcado de jungla
+tile.md:preview_single_crimson_glass_door.name=MD: Puerta de cristal enmarcado carmesí
+tile.md:preview_single_warped_glass_door.name=MD: Puerta de cristal enmarcado deformado
+tile.md:preview_single_mangrove_glass_door.name=MD: Puerta de cristal enmarcado de mangle
+tile.md:preview_single_cherry_glass_door.name=MD: Puerta de cristal enmarcado de cerezo
+tile.md:preview_single_bamboo_glass_door.name=MD: Puerta de cristal enmarcado de bambú
+tile.md:preview_single_iron_glass_door.name=MD: Puerta de cristal enmarcado de hierro
+tile.md:preview_single_dark_iron_glass_door.name=MD: Puerta de cristal enmarcado de hierro oscuro
+
+tile.md:preview_single_oak_screen_door.name=MD: Puerta con mosquitera de roble
+tile.md:preview_single_birch_screen_door.name=MD: Puerta con mosquitera de abedul
+tile.md:preview_single_acacia_screen_door.name=MD: Puerta con mosquitera de acacia
+tile.md:preview_single_spruce_screen_door.name=MD: Puerta con mosquitera de abeto
+tile.md:preview_single_dark_oak_screen_door.name=MD: Puerta con mosquitera de roble oscuro
+tile.md:preview_single_jungle_screen_door.name=MD: Puerta con mosquitera de jungla
+tile.md:preview_single_crimson_screen_door.name=MD: Puerta con mosquitera carmesí
+tile.md:preview_single_warped_screen_door.name=MD: Puerta con mosquitera deformado
+tile.md:preview_single_mangrove_screen_door.name=MD: Puerta con mosquitera de mangle
+tile.md:preview_single_cherry_screen_door.name=MD: Puerta con mosquitera de cerezo
+tile.md:preview_single_bamboo_screen_door.name=MD: Puerta con mosquitera de bambú
+tile.md:preview_single_iron_screen_door.name=MD: Puerta con mosquitera de hierro
+tile.md:preview_single_dark_iron_screen_door.name=MD: Puerta con mosquitera de hierro oscuro
+
+tile.md:preview_single_oak_sturdy_windowed_door.name=MD: Puerta robusta con ventana de roble
+tile.md:preview_single_birch_sturdy_windowed_door.name=MD: Puerta robusta con ventana de abedul
+tile.md:preview_single_acacia_sturdy_windowed_door.name=MD: Puerta robusta con ventana de acacia
+tile.md:preview_single_spruce_sturdy_windowed_door.name=MD: Puerta robusta con ventana de abeto
+tile.md:preview_single_dark_oak_sturdy_windowed_door.name=MD: Puerta robusta con ventana de roble oscuro
+tile.md:preview_single_jungle_sturdy_windowed_door.name=MD: Puerta robusta con ventana de jungla
+tile.md:preview_single_crimson_sturdy_windowed_door.name=MD: Puerta robusta con ventana carmesí
+tile.md:preview_single_warped_sturdy_windowed_door.name=MD: Puerta robusta con ventana deformada
+tile.md:preview_single_mangrove_sturdy_windowed_door.name=MD: Puerta robusta con ventana de mangle
+tile.md:preview_single_cherry_sturdy_windowed_door.name=MD: Puerta robusta con ventana de cerezo
+tile.md:preview_single_bamboo_sturdy_windowed_door.name=MD: Puerta robusta con ventana de bambú
+tile.md:preview_single_iron_sturdy_windowed_door.name=MD: Puerta robusta con ventana de hierro
+tile.md:preview_single_dark_iron_sturdy_windowed_door.name=MD: Puerta robusta con ventana de hierro oscuro
+
+tile.md:preview_single_oak_sturdy_door.name=MD: Puerta robusta de roble
+tile.md:preview_single_birch_sturdy_door.name=MD: Puerta robusta de abedul
+tile.md:preview_single_acacia_sturdy_door.name=MD: Puerta robusta de acacia
+tile.md:preview_single_spruce_sturdy_door.name=MD: Puerta robusta de abeto
+tile.md:preview_single_dark_oak_sturdy_door.name=MD: Puerta robusta de roble oscuro
+tile.md:preview_single_jungle_sturdy_door.name=MD: Puerta robusta de jungla
+tile.md:preview_single_crimson_sturdy_door.name=MD: Puerta robusta carmesí
+tile.md:preview_single_warped_sturdy_door.name=MD: Puerta robusta deformada
+tile.md:preview_single_mangrove_sturdy_door.name=MD: Puerta robusta de mangle
+tile.md:preview_single_cherry_sturdy_door.name=MD: Puerta robusta de cerezo
+tile.md:preview_single_bamboo_sturdy_door.name=MD: Puerta robusta de bambú
+tile.md:preview_single_iron_sturdy_door.name=MD: Puerta robusta de hierro
+tile.md:preview_single_dark_iron_sturdy_door.name=MD: Puerta robusta de hierro oscuro
+
+tile.md:preview_single_oak_barred_door.name=MD: Puerta con listones de roble
+tile.md:preview_single_birch_barred_door.name=MD: Puerta con listones de abedul
+tile.md:preview_single_acacia_barred_door.name=MD: Puerta con listones de acacia
+tile.md:preview_single_spruce_barred_door.name=MD: Puerta con listones de abeto
+tile.md:preview_single_dark_oak_barred_door.name=MD: Puerta con listones de roble oscuro
+tile.md:preview_single_jungle_barred_door.name=MD: Puerta con listones de jungla
+tile.md:preview_single_crimson_barred_door.name=MD: Puerta con listones carmesí
+tile.md:preview_single_warped_barred_door.name=MD: Puerta con listones deformado
+tile.md:preview_single_mangrove_barred_door.name=MD: Puerta con listones de mangle
+tile.md:preview_single_cherry_barred_door.name=MD: Puerta con listones de cerezo
+tile.md:preview_single_bamboo_barred_door.name=MD: Puerta con listones de bambú
+tile.md:preview_single_iron_barred_door.name=MD: Puerta con listones de hierro
+tile.md:preview_single_dark_iron_barred_door.name=MD: Puerta con listones de hierro oscuro
+
+tile.md:preview_single_transparent_full_glass_door.name=MD: Puerta de panel de cristal transparente
+tile.md:preview_single_tinted_full_glass_door.name=MD: Puerta de panel de cristal tintado
+tile.md:preview_single_silver_full_glass_door.name=MD: Puerta de panel de cristal gris claro
+tile.md:preview_single_white_full_glass_door.name=MD: Puerta de panel de cristal blanco
+tile.md:preview_single_gray_full_glass_door.name=MD: Puerta de panel de cristal gris
+tile.md:preview_single_black_full_glass_door.name=MD: Puerta de panel de cristal negro
+tile.md:preview_single_brown_full_glass_door.name=MD: Puerta de panel de cristal marrón
+tile.md:preview_single_red_full_glass_door.name=MD: Puerta de panel de cristal rojo
+tile.md:preview_single_orange_full_glass_door.name=MD: Puerta de panel de cristal naranja
+tile.md:preview_single_yellow_full_glass_door.name=MD: Puerta de panel de cristal amarillo
+tile.md:preview_single_lime_full_glass_door.name=MD: Puerta de panel de cristal lima
+tile.md:preview_single_green_full_glass_door.name=MD: Puerta de panel de cristal verde
+tile.md:preview_single_cyan_full_glass_door.name=MD: Puerta de panel de cristal cian
+tile.md:preview_single_light_blue_full_glass_door.name=MD: Puerta de panel de cristal azul claro
+tile.md:preview_single_blue_full_glass_door.name=MD: Puerta de panel de cristal azul
+tile.md:preview_single_purple_full_glass_door.name=MD: Puerta de panel de cristal púrpura
+tile.md:preview_single_magenta_full_glass_door.name=MD: Puerta de panel de cristal magenta
+tile.md:preview_single_pink_full_glass_door.name=MD: Puerta de panel de cristal rosa
+
+
+tile.md:preview_single_iron_jail_door.name=MD: Puerta de Cárcel de Hierro
+tile.md:preview_single_dark_iron_jail_door.name=MD: Puerta de Cárcel de Hierro Oscuro
+tile.md:preview_single_new_copper_jail_door.name=MD: Puerta de Cárcel de Cobre
+tile.md:preview_single_exposed_copper_jail_door.name=MD: Puerta de Cárcel de Cobre Expuesto
+tile.md:preview_single_weathered_copper_jail_door.name=MD: Puerta de Cárcel de Cobre Envejecido
+tile.md:preview_single_oxidized_copper_jail_door.name=MD: Puerta de Cárcel de Cobre Oxidado
+tile.md:preview_single_gold_jail_door.name=MD: Puerta de Cárcel de oro
+tile.md:preview_single_gray_iron_jail_door.name=MD: Puerta de Cárcel de hierro gris
+
+tile.md:preview_single_oak_long_hinge_door.name=MD: Puerta de Roble con Bisagra Larga
+tile.md:preview_single_birch_long_hinge_door.name=MD: Puerta de Abedul con Bisagra Larga
+tile.md:preview_single_acacia_long_hinge_door.name=MD: Puerta de Acacia con Bisagra Larga
+tile.md:preview_single_spruce_long_hinge_door.name=MD: Puerta de Abeto con Bisagra Larga
+tile.md:preview_single_dark_oak_long_hinge_door.name=MD: Puerta de Roble Oscuro con Bisagra Larga
+tile.md:preview_single_jungle_long_hinge_door.name=MD: Puerta de Jungla con Bisagra Larga
+tile.md:preview_single_crimson_long_hinge_door.name=MD: Puerta Carmesí con Bisagra Larga
+tile.md:preview_single_warped_long_hinge_door.name=MD: Puerta Deformada con Bisagra Larga
+tile.md:preview_single_mangrove_long_hinge_door.name=MD: Puerta de Mangle con Bisagra Larga
+tile.md:preview_single_cherry_long_hinge_door.name=MD: Puerta de Cerezo con Bisagra Larga
+tile.md:preview_single_bamboo_long_hinge_door.name=MD: Puerta de Bambú con Bisagra Larga
+tile.md:preview_single_iron_long_hinge_door.name=MD: Puerta de Hierro con Bisagra Larga
+tile.md:preview_single_dark_iron_long_hinge_door.name=MD: Puerta de Hierro Oscuro con Bisagra Larga
+
+tile.md:preview_single_oak_timber_door.name=MD: Puerta de tablas de roble
+tile.md:preview_single_birch_timber_door.name=MD: Puerta de tablas de abedul
+tile.md:preview_single_acacia_timber_door.name=MD: Puerta de tablas de acacia
+tile.md:preview_single_spruce_timber_door.name=MD: Puerta de tablas de abeto
+tile.md:preview_single_dark_oak_timber_door.name=MD: Puerta de tablas de roble oscuro
+tile.md:preview_single_jungle_timber_door.name=MD: Puerta de tablas de jungla
+tile.md:preview_single_crimson_timber_door.name=MD: Puerta de tablas carmesí
+tile.md:preview_single_warped_timber_door.name=MD: Puerta de tablas deformadas
+tile.md:preview_single_mangrove_timber_door.name=MD: Puerta de tablas de mangle
+tile.md:preview_single_cherry_timber_door.name=MD: Puerta de tablas de cerezo
+tile.md:preview_single_bamboo_timber_door.name=MD: Puerta de tablas de bambú
+tile.md:preview_single_iron_timber_door.name=MD: Puerta de tablas blancas
+tile.md:preview_single_dark_iron_timber_door.name=MD: Puerta de tablas oscuras
+
+tile.md:preview_single_oak_multi_panel_door.name=MD: Puerta de Roble de Múltiples Paneles
+tile.md:preview_single_birch_multi_panel_door.name=MD: Puerta de Abedul de Múltiples Paneles
+tile.md:preview_single_acacia_multi_panel_door.name=MD: Puerta de Acacia de Múltiples Paneles
+tile.md:preview_single_spruce_multi_panel_door.name=MD: Puerta de Abeto de Múltiples Paneles
+tile.md:preview_single_dark_oak_multi_panel_door.name=MD: Puerta de Roble Oscuro de Múltiples Paneles
+tile.md:preview_single_jungle_multi_panel_door.name=MD: Puerta de Jungla de Múltiples Paneles
+tile.md:preview_single_crimson_multi_panel_door.name=MD: Puerta de Carmesí de Múltiples Paneles
+tile.md:preview_single_warped_multi_panel_door.name=MD: Puerta de Deformado de Múltiples Paneles
+tile.md:preview_single_mangrove_multi_panel_door.name=MD: Puerta de Mangle de Múltiples Paneles
+tile.md:preview_single_cherry_multi_panel_door.name=MD: Puerta de Cerezo de Múltiples Paneles
+tile.md:preview_single_bamboo_multi_panel_door.name=MD: Puerta de Bambú de Múltiples Paneles
+tile.md:preview_single_iron_multi_panel_door.name=MD: Puerta Blanca de Múltiples Paneles
+tile.md:preview_single_dark_iron_multi_panel_door.name=MD: Puerta Oscura de Múltiples Paneles
+

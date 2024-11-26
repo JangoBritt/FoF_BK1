@@ -112,11 +112,6 @@
 	},
 	
 	{
-		"pack_id" : "f71c753f-e73d-4959-ab45-af8ab1dafa80", //Fables Paintings Pack
-		"version" : [ 6, 1, 1 ]
-	},
-	
-	{
 		"pack_id" : "b1c6e1b7-221b-4b6d-8691-85e35cf0e113", //Wandering Trader
 		"version" : [ 6, 1, 0 ]
 	},
@@ -128,6 +123,13 @@
 	{
 		"pack_id" : "0641b13f-6000-4eac-8c1e-6390e5fccb29", //Biome Compass
 		"version" : [ 3, 0, 0 ]
+	},
+	{
+		"pack_id": "08364f0f-c53a-4ecf-b8d2-5cb52356ca80", //Better Beds
+		"version": [1, 7, 0]
+	},
+	{
+		"pack_id": "7905b145-7b40-459d-8f87-436fd0e19254", //Modern Doors
+		"version": [1, 7, 0]
 	}
-
 ]

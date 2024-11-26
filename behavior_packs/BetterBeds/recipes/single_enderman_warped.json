@@ -1,0 +1,22 @@
+{
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bb:preview_single_warped_enderman_bed"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "bb:bed_box_warped"
+			}
+		],
+		"result": [
+			{
+				"item": "bb:preview_single_warped_enderman_bed",
+				"count": 1
+			}
+		]
+	},
+	"format_version": "1.17.0"
+}

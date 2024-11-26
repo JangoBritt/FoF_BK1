@@ -1,0 +1,29 @@
+{
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bb:bed_box_dark_oak"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"###"
+		],
+		"key": {
+			"X": {
+				"tag": "minecraft:wool"
+			},
+			"#": {
+				"item": "minecraft:dark_oak_planks"
+			}
+		},
+		"result": [
+			{
+				"item": "bb:bed_box_dark_oak",
+				"count": 1
+			}
+		]
+	},
+	"format_version": "1.17.0"
+}

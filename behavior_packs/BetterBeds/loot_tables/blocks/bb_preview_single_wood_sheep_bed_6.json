@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bb:preview_single_jungle_sheep_bed",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

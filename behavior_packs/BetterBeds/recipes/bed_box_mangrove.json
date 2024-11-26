@@ -1,0 +1,29 @@
+{
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bb:bed_box_mangrove"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"###"
+		],
+		"key": {
+			"X": {
+				"tag": "minecraft:wool"
+			},
+			"#": {
+				"item": "minecraft:mangrove_planks"
+			}
+		},
+		"result": [
+			{
+				"item": "bb:bed_box_mangrove",
+				"count": 1
+			}
+		]
+	},
+	"format_version": "1.17.0"
+}

@@ -1,0 +1,22 @@
+{
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "md:preview_single_acacia_barred_door"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:acacia_door"
+			}
+		],
+		"result": [
+			{
+				"item": "md:preview_single_acacia_barred_door",
+				"count": 1
+			}
+		]
+	},
+	"format_version": "1.17.0"
+}

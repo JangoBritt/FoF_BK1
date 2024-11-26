@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "BB:bed_settings",
+			"menu_category": {
+				"is_hidden_in_commands": false,
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "icon_setting"
+			}
+		}
+	}
+}

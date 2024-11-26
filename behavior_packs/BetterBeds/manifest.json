@@ -1,0 +1,44 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Better Beds 1.7 BP",
+		"description": "Better Beds Behavior Pack.\n Created by Ezekielico. More addons at trmc-studios.com",
+		"uuid": "949fe917-3b4b-4d47-8c64-3b8046fde4b5",
+		"version": [1, 7, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Ezekielico"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.1.0"]
+		}
+	},
+	"modules": [
+		{
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0],
+			"uuid": "7f322cd6-209a-47f9-8c9d-f0969d04ce6e",
+			"type": "script"
+		},
+		{
+			"description": "Better Beds Behavior Pack",
+			"version": [1, 7, 0],
+			"uuid": "6897e4e8-4f2e-4797-a1fc-95109448ca46",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "08364f0f-c53a-4ecf-b8d2-5cb52356ca80",
+			"version": [1, 7, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.13.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	]
+}

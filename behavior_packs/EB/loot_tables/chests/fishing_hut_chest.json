@@ -1,5 +1,17 @@
 {
   "pools": [
+
+	// Fables of Folly
+	{
+		"rolls": 1,
+		"entries": [
+			{
+			"type": "loot_table",
+			"weight": 5,
+			"name": "loot_tables/loot_set/fables_loot.json"
+			}
+		]
+		},
     {
       "rolls": {
         "min": 3,

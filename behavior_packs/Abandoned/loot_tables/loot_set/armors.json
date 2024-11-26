@@ -455,7 +455,33 @@
               "chance": 0.50
             }
           ]
-        }
+        },
+        {"type": "item","weight": 25,"name": "medieval:blue_wt_robe","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:desert_hat","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:desert_robe","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:jungle_robe","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:plains_robe","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:savanna_robe","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:snow_hat","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:snow_robe","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:swamp_robe","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:taiga_robe","functions": [{"function": "set_count","count": 1}]},
+
+        {"type": "item","weight": 25,"name": "medieval:villager_profession_librarian","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:villager_hat_librarian","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:villager_hat_farmer","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:villager_hat_butcher","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:villager_hat_armorer","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:villager_hat_fletcher","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:villager_hat_shepherd","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:villager_hat_weaponsmith","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:villager_hat_fisherman","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "medieval:villager_hat_cartographer","functions": [{"function": "set_count","count": 1}]},
+
+        {"type": "item","weight": 25,"name": "korbon:grizzly_bear_pelt_boots","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:grizzly_bear_pelt_helmet","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:grizzly_bear_pelt_leggings","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:grizzly_bear_pelt_chestplate","functions": [{"function": "set_count","count": 1}]}
       ]
     }
   ]

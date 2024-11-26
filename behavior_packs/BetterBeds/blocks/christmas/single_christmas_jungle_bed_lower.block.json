@@ -1,0 +1,135 @@
+{
+	
+	"format_version": "1.21.10",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bb:lower_single_jungle_christmas_bed",
+						"states": {
+				"custom:geometry": [
+					"solo",
+					"litera"		
+				]
+			},
+			"menu_category": {
+				"category": "none"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [
+				"content:cool_bed"
+			],
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					3,
+					-8
+				],
+				"size": [
+					16,
+					6,
+					16
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					3,
+					-8
+				],
+				"size": [
+					16,
+					6,
+					16
+				]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.4
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 15
+			},
+			"minecraft:geometry": "geometry.bed2",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "single_wood_christmas_bed_6",
+					"render_method": "opaque"
+				}
+			},
+
+			"minecraft:flammable": {
+				"destroy_chance_modifier": 20,
+				"catch_chance_modifier": 5
+			},
+			"minecraft:loot": "loot_tables/blocks/bb_preview_single_wood_christmas_bed_6.json"
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							270,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('custom:geometry') == 'solo'",
+				"components": {
+					"minecraft:geometry": "geometry.bed2"
+				}
+			},
+			{
+				"condition": "q.block_state('custom:geometry') == 'litera'",
+				"components": {
+					"minecraft:geometry": "geometry.bed3"
+				}
+			}
+		]
+	}
+}

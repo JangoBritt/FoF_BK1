@@ -1,0 +1,233 @@
+## If you think this translation needs improving feel free to say so in the Discord, translation provided by ChatGPT
+
+pack.name=§lモダンドア RP
+pack.description=モダンドアアドオンに必要なリソースパック。詳しくは trmc-studios.com で他のアドオンをご覧ください。
+
+pack.door_settings=ドア設定
+pack.choose_option=オプションを選択
+pack.return_simple_redstone=シンプルなレッドストーン検出に戻る
+pack.upgrade_redstone=レッドストーン検出をアップグレード
+pack.return_normal_orientation=通常の向きに戻る
+pack.invert_door_orientation=ドアの向きを反転
+pack.turn_on_dual_opening=デュアルオープニングをオンにする
+pack.turn_off_dual_opening=デュアルオープニングをオフにする
+pack.confirm_full_redstone=完全なレッドストーン起動を確認
+pack.full_redstone_warning=警告！このドアはすでに近くのレバー、ボタン、感圧板、トリップワイヤーなどのレッドストーン信号を検出できます。この機能は、レッドストーンワイヤーを使用する必要がある場合にのみ使用してください。多くのドアでこれを有効にするとラグが発生する可能性があることに注意してください。続けますか？
+pack.yes=はい
+pack.no=いいえ
+
+pack.door_menu=ドアメニュー
+pack.unlock_door=ドアを解除する
+pack.lock_door=ドアをロックする
+pack.lock_settings=ロック設定
+pack.unlock_mechanisms=ロックメカニズム
+pack.create_key=鍵を作成する
+pack.change_lock=ロックを変更する
+pack.use_password=パスワードを使用する
+pack.use_key=鍵を使用する
+pack.unlocked_because_you_are_owner=所有者のため解除されました
+pack.correct_key=正しい鍵
+pack.incorrect_key=間違った鍵
+pack.password_required=パスワードが必要です
+pack.enter_password=パスワードを入力してください
+pack.correct_password=正しいパスワード
+pack.incorrect_password=間違ったパスワード
+pack.use_key_message=解除するには鍵を使用してください
+pack.door_locked_not_owner=ドアはロックされており、あなたは所有者ではありません
+pack.door_locked=ドアはロックされています
+pack.door_opened=ドアが開きました
+pack.door_closed=ドアが閉じました
+pack.key_code_too_long=キーコードが長すぎます。最大20文字まで使用可能です
+pack.key_already_in_use=このキーコードは他のプレイヤーが使用中です。新しいものが生成されました
+pack.key_created=鍵が作成されました
+pack.key_updated=鍵が更新されました
+pack.adjacent_door_key_applied=隣接するドアに鍵が適用されました
+pack.adjacent_door_different_owner=隣接するドアには別の所有者がいます
+pack.enter_key_name=鍵の名前を入力してください
+pack.enter_key_description=鍵の説明を入力してください
+pack.number_of_keys=鍵の数
+pack.password_settings=パスワード設定
+pack.password_saved=パスワードが保存されました
+pack.door_unlocked=ドアが解除されました
+pack.first_time_locking=初回ロックのオプション
+pack.owner_not_affected=所有者はロックの影響を受けません
+pack.set_lock_create_keys=鍵でドアへのアクセスを許可する
+pack.submit=送信
+pack.door_state_open=ドアが開いています
+pack.door_state_close=ドアが閉じています
+pack.open_pair_false=隣接するペアブロックがありません
+pack.disable_options=ロックメカニズム
+pack.locked_because_you_are_owner=ドアがロックされました
+pack.locked_door_opened_because_you_are_owner=所有者のためロックされたドアが開きました
+pack.door_you_are_not_owner=所有者でない場合、ロックメニューにアクセスできません
+pack.door_with_no_owner=このドアには所有者がおらず、ロックできません。ロックを更新後に設置したドアのみロックできます
+
+pack.tutorial_prompt_title=チュートリアル
+pack.tutorial_prompt_body=ドアのロックと管理オプションに関するチュートリアルを実行しますか？
+pack.follow_tutorial=チュートリアルを実行する
+pack.skip_tutorial=チュートリアルをスキップする
+
+pack.cant_destroy_player_not_owner=ロックされたドアは破壊できません
+
+pack.key_and_lock_settings=鍵とロックの設定
+pack.use_auto_generated_uuid=自動生成されたキーコードを使用する
+pack.enter_key_code=カスタムキーコードを入力（上記のトグルがオフの場合のみ有効）
+pack.enter_key_code_short=カスタムキーコードを入力
+
+pack.options_saved=オプションが保存されました
+pack.choose_unlock_method=ドアがロックされています。解除方法を選択してください
+
+pack.select_key_type=キーの種類を選択してください
+pack.key_type_gold=ゴールドキー
+pack.key_type_iron=アイアンキー
+pack.key_type_copper=銅キー
+pack.key_type_oxidized_copper=酸化銅キー
+
+item.md:copper_key=MD: 銅キー
+item.md:gold_key=MD: ゴールドキー
+item.md:iron_key=MD: アイアンキー
+item.md:oxidized_key=MD: 酸化銅キー
+
+tile.md:door_box.name=MD: ドアボックス
+
+item.md:screwdriver=MD: ドライバー
+
+tile.md:preview_single_oak_glass_door.name=MD: オークフレームガラスドア
+tile.md:preview_single_birch_glass_door.name=MD: バーチフレームガラスドア
+tile.md:preview_single_acacia_glass_door.name=MD: アカシアフレームガラスドア
+tile.md:preview_single_spruce_glass_door.name=MD: スプルースフレームガラスドア
+tile.md:preview_single_dark_oak_glass_door.name=MD: ダークオークフレームガラスドア
+tile.md:preview_single_jungle_glass_door.name=MD: ジャングルフレームガラスドア
+tile.md:preview_single_crimson_glass_door.name=MD: クリムゾンフレームガラスドア
+tile.md:preview_single_warped_glass_door.name=MD: ウォープドフレームガラスドア
+tile.md:preview_single_mangrove_glass_door.name=MD: マングローブフレームガラスドア
+tile.md:preview_single_cherry_glass_door.name=MD: チェリーフレームガラスドア
+tile.md:preview_single_bamboo_glass_door.name=MD: バンブーフレームガラスドア
+tile.md:preview_single_iron_glass_door.name=MD: アイアンフレームガラスドア
+tile.md:preview_single_dark_iron_glass_door.name=MD: ダークアイアンフレームガラスドア
+
+tile.md:preview_single_oak_screen_door.name=MD: オークスクリーンドア
+tile.md:preview_single_birch_screen_door.name=MD: バーチスクリーンドア
+tile.md:preview_single_acacia_screen_door.name=MD: アカシアスクリーンドア
+tile.md:preview_single_spruce_screen_door.name=MD: スプルーススクリーンドア
+tile.md:preview_single_dark_oak_screen_door.name=MD: ダークオークスクリーンドア
+tile.md:preview_single_jungle_screen_door.name=MD: ジャングルスクリーンドア
+tile.md:preview_single_crimson_screen_door.name=MD: クリムゾンスクリーンドア
+tile.md:preview_single_warped_screen_door.name=MD: ウォープドスクリーンドア
+tile.md:preview_single_mangrove_screen_door.name=MD: マングローブスクリーンドア
+tile.md:preview_single_cherry_screen_door.name=MD: チェリースクリーンドア
+tile.md:preview_single_bamboo_screen_door.name=MD: バンブースクリーンドア
+tile.md:preview_single_iron_screen_door.name=MD: アイアンスクリーンドア
+tile.md:preview_single_dark_iron_screen_door.name=MD: ダークアイアンスクリーンドア
+
+tile.md:preview_single_oak_barred_door.name=MD: オークスラットドア
+tile.md:preview_single_birch_barred_door.name=MD: バーチスラットドア
+tile.md:preview_single_acacia_barred_door.name=MD: アカシアスラットドア
+tile.md:preview_single_spruce_barred_door.name=MD: スプルーススラットドア
+tile.md:preview_single_dark_oak_barred_door.name=MD: ダークオークスラットドア
+tile.md:preview_single_jungle_barred_door.name=MD: ジャングルスラットドア
+tile.md:preview_single_crimson_barred_door.name=MD: クリムゾンスラットドア
+tile.md:preview_single_warped_barred_door.name=MD: ウォープドスラットドア
+tile.md:preview_single_mangrove_barred_door.name=MD: マングローブスラットドア
+tile.md:preview_single_cherry_barred_door.name=MD: チェリースラットドア
+tile.md:preview_single_bamboo_barred_door.name=MD: バンブースラットドア
+tile.md:preview_single_iron_barred_door.name=MD: アイアンスラットドア
+tile.md:preview_single_dark_iron_barred_door.name=MD: ダークアイアンスラットドア
+
+tile.md:preview_single_oak_sturdy_windowed_door.name=MD: オーク頑丈な窓付きドア
+tile.md:preview_single_birch_sturdy_windowed_door.name=MD: カバ頑丈な窓付きドア
+tile.md:preview_single_acacia_sturdy_windowed_door.name=MD: アカシア頑丈な窓付きドア
+tile.md:preview_single_spruce_sturdy_windowed_door.name=MD: トウヒ頑丈な窓付きドア
+tile.md:preview_single_dark_oak_sturdy_windowed_door.name=MD: ダークオーク頑丈な窓付きドア
+tile.md:preview_single_jungle_sturdy_windowed_door.name=MD: ジャングル頑丈な窓付きドア
+tile.md:preview_single_crimson_sturdy_windowed_door.name=MD: クリムゾン頑丈な窓付きドア
+tile.md:preview_single_warped_sturdy_windowed_door.name=MD: ゆがんだ頑丈な窓付きドア
+tile.md:preview_single_mangrove_sturdy_windowed_door.name=MD: マングローブ頑丈な窓付きドア
+tile.md:preview_single_cherry_sturdy_windowed_door.name=MD: 桜頑丈な窓付きドア
+tile.md:preview_single_bamboo_sturdy_windowed_door.name=MD: 竹頑丈な窓付きドア
+tile.md:preview_single_iron_sturdy_windowed_door.name=MD: 鉄頑丈な窓付きドア
+tile.md:preview_single_dark_iron_sturdy_windowed_door.name=MD: ダークアイアン頑丈な窓付きドア
+
+tile.md:preview_single_oak_sturdy_door.name=MD: オーク頑丈なドア
+tile.md:preview_single_birch_sturdy_door.name=MD: カバ頑丈なドア
+tile.md:preview_single_acacia_sturdy_door.name=MD: アカシア頑丈なドア
+tile.md:preview_single_spruce_sturdy_door.name=MD: トウヒ頑丈なドア
+tile.md:preview_single_dark_oak_sturdy_door.name=MD: ダークオーク頑丈なドア
+tile.md:preview_single_jungle_sturdy_door.name=MD: ジャングル頑丈なドア
+tile.md:preview_single_crimson_sturdy_door.name=MD: クリムゾン頑丈なドア
+tile.md:preview_single_warped_sturdy_door.name=MD: ゆがんだ頑丈なドア
+tile.md:preview_single_mangrove_sturdy_door.name=MD: マングローブ頑丈なドア
+tile.md:preview_single_cherry_sturdy_door.name=MD: 桜頑丈なドア
+tile.md:preview_single_bamboo_sturdy_door.name=MD: 竹頑丈なドア
+tile.md:preview_single_iron_sturdy_door.name=MD: 鉄頑丈なドア
+tile.md:preview_single_dark_iron_sturdy_door.name=MD: ダークアイアン頑丈なドア
+
+tile.md:preview_single_transparent_full_glass_door.name=MD: 透明ガラスパネルドア
+tile.md:preview_single_tinted_full_glass_door.name=MD: 色付きガラスパネルドア
+tile.md:preview_single_silver_full_glass_door.name=MD: シルバーガラスパネルドア
+tile.md:preview_single_white_full_glass_door.name=MD: ホワイトガラスパネルドア
+tile.md:preview_single_gray_full_glass_door.name=MD: グレーガラスパネルドア
+tile.md:preview_single_black_full_glass_door.name=MD: ブラックガラスパネルドア
+tile.md:preview_single_brown_full_glass_door.name=MD: ブラウンガラスパネルドア
+tile.md:preview_single_red_full_glass_door.name=MD: レッドガラスパネルドア
+tile.md:preview_single_orange_full_glass_door.name=MD: オレンジガラスパネルドア
+tile.md:preview_single_yellow_full_glass_door.name=MD: イエローガラスパネルドア
+tile.md:preview_single_lime_full_glass_door.name=MD: ライムガラスパネルドア
+tile.md:preview_single_green_full_glass_door.name=MD: グリーンガラスパネルドア
+tile.md:preview_single_cyan_full_glass_door.name=MD: シアンガラスパネルドア
+tile.md:preview_single_light_blue_full_glass_door.name=MD: ライトブルーガラスパネルドア
+tile.md:preview_single_blue_full_glass_door.name=MD: ブルーガラスパネルドア
+tile.md:preview_single_purple_full_glass_door.name=MD: パープルガラスパネルドア
+tile.md:preview_single_magenta_full_glass_door.name=MD: マゼンタガラスパネルドア
+tile.md:preview_single_pink_full_glass_door.name=MD: ピンクガラスパネルドア
+
+tile.md:preview_single_iron_jail_door.name=MD: 鉄の刑務所のドア
+tile.md:preview_single_dark_iron_jail_door.name=MD: 暗鉄の刑務所のドア
+tile.md:preview_single_new_copper_jail_door.name=MD: 銅の刑務所のドア
+tile.md:preview_single_exposed_copper_jail_door.name=MD: 露出した銅の刑務所のドア
+tile.md:preview_single_weathered_copper_jail_door.name=MD: 風化した銅の刑務所のドア
+tile.md:preview_single_oxidized_copper_jail_door.name=MD: 酸化した銅の刑務所のドア
+tile.md:preview_single_gold_jail_door.name=MD: 金の牢屋のドア
+tile.md:preview_single_gray_iron_jail_door.name=MD: 灰色の鉄の牢屋のドア
+
+tile.md:preview_single_oak_long_hinge_door.name=MD: オークの長いヒンジのドア
+tile.md:preview_single_birch_long_hinge_door.name=MD: バーチの長いヒンジのドア
+tile.md:preview_single_acacia_long_hinge_door.name=MD: アカシアの長いヒンジのドア
+tile.md:preview_single_spruce_long_hinge_door.name=MD: スプルースの長いヒンジのドア
+tile.md:preview_single_dark_oak_long_hinge_door.name=MD: ダークオークの長いヒンジのドア
+tile.md:preview_single_jungle_long_hinge_door.name=MD: ジャングルの長いヒンジのドア
+tile.md:preview_single_crimson_long_hinge_door.name=MD: クリムゾンの長いヒンジのドア
+tile.md:preview_single_warped_long_hinge_door.name=MD: ひずんだ木の長いヒンジのドア
+tile.md:preview_single_mangrove_long_hinge_door.name=MD: マングローブの長いヒンジのドア
+tile.md:preview_single_cherry_long_hinge_door.name=MD: チェリーの長いヒンジのドア
+tile.md:preview_single_bamboo_long_hinge_door.name=MD: 竹の長いヒンジのドア
+tile.md:preview_single_iron_long_hinge_door.name=MD: 鉄の長いヒンジのドア
+tile.md:preview_single_dark_iron_long_hinge_door.name=MD: 暗い鉄の長いヒンジのドア
+
+tile.md:preview_single_oak_timber_door.name=MD: オークの木材のドア
+tile.md:preview_single_birch_timber_door.name=MD: バーチの木材のドア
+tile.md:preview_single_acacia_timber_door.name=MD: アカシアの木材のドア
+tile.md:preview_single_spruce_timber_door.name=MD: スプルースの木材のドア
+tile.md:preview_single_dark_oak_timber_door.name=MD: ダークオークの木材のドア
+tile.md:preview_single_jungle_timber_door.name=MD: ジャングルの木材のドア
+tile.md:preview_single_crimson_timber_door.name=MD: クリムゾンの木材のドア
+tile.md:preview_single_warped_timber_door.name=MD: ひずんだ木材のドア
+tile.md:preview_single_mangrove_timber_door.name=MD: マングローブの木材のドア
+tile.md:preview_single_cherry_timber_door.name=MD: チェリーの木材のドア
+tile.md:preview_single_bamboo_timber_door.name=MD: 竹の木材のドア
+tile.md:preview_single_iron_timber_door.name=MD: 白い木材のドア
+tile.md:preview_single_dark_iron_timber_door.name=MD: 暗い木材のドア
+
+tile.md:preview_single_oak_multi_panel_door.name=MD: オークの多パネルドア
+tile.md:preview_single_birch_multi_panel_door.name=MD: シラカバの多パネルドア
+tile.md:preview_single_acacia_multi_panel_door.name=MD: アカシアの多パネルドア
+tile.md:preview_single_spruce_multi_panel_door.name=MD: マツの多パネルドア
+tile.md:preview_single_dark_oak_multi_panel_door.name=MD: ダークオークの多パネルドア
+tile.md:preview_single_jungle_multi_panel_door.name=MD: ジャングルの多パネルドア
+tile.md:preview_single_crimson_multi_panel_door.name=MD: クリムゾンの多パネルドア
+tile.md:preview_single_warped_multi_panel_door.name=MD: ウォープドの多パネルドア
+tile.md:preview_single_mangrove_multi_panel_door.name=MD: マングローブの多パネルドア
+tile.md:preview_single_cherry_multi_panel_door.name=MD: チェリーの多パネルドア
+tile.md:preview_single_bamboo_multi_panel_door.name=MD: バンブーの多パネルドア
+tile.md:preview_single_iron_multi_panel_door.name=MD: 白い多パネルドア
+tile.md:preview_single_dark_iron_multi_panel_door.name=MD: ダークの多パネルドア

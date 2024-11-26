@@ -1,0 +1,7 @@
+pack.name=§lBetter Beds BP
+pack.description=Necessary Behavior Pack for the Better Beds Addon. More addons at trmc-studios.com
+
+pack.destroy_beds=Destroying a bed does not reset spawnpoint
+pack.monsters_beware=Beware! There are monsters nearby!
+pack.wake_up=You wake up!
+pack.not_enough_space=There is not enough space

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "md:screwdriver"
+		},
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "W"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:iron_ingot"
+            },
+            "W": {
+                "item": "minecraft:clay_ball"
+            }
+        },
+		"result": [
+			{
+				"item": "md:screwdriver"
+			}
+		]
+	}
+}

@@ -13,7 +13,7 @@
     },
     // Marines Loots
     {
-      "rolls": 13,
+      "rolls": 5,
       "entries": [
         {
           "type": "loot_table",

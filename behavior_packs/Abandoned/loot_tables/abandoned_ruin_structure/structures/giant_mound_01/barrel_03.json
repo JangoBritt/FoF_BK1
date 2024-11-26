@@ -13,7 +13,7 @@
     },
     // Minerals 
     {
-      "rolls": 15,
+      "rolls": 5,
       "entries": [
         {
           "type": "loot_table",

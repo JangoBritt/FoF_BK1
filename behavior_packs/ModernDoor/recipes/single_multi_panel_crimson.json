@@ -1,0 +1,22 @@
+{
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "md:preview_single_crimson_multi_panel_door"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:crimson_door"
+			}
+		],
+		"result": [
+			{
+				"item": "md:preview_single_crimson_multi_panel_door",
+				"count": 1
+			}
+		]
+	},
+	"format_version": "1.17.0"
+}

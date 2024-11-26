@@ -13,7 +13,7 @@
     },
     // Crops
     {
-      "rolls": 20,
+      "rolls": 5,
       "entries": [
         {
           "type": "loot_table",

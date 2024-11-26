@@ -1,0 +1,332 @@
+pack.name=§lBetter Beds RP
+pack.description=Necessary Resource Pack for the Better Beds Addon. More addons at trmc-studios.com
+action.hint.exit.ff:sit=§lShift §ror §lSPACE §rto get up
+tile.bb:preview_prototype_bed.name=Prototype Better Bed
+
+pack.destroy_beds=Destroying a bed does not reset spawnpoint
+pack.monsters_beware=Beware! There are monsters nearby!
+pack.wake_up=You wake up!
+pack.not_enough_space=There is not enough space
+
+pack.accelerate_time=Accelerate time
+pack.sleep_sunrise=Sleep until sunrise
+pack.sleep_morning=Sleep until morning
+pack.sleep_noon=Sleep until noon
+pack.sleep_sunset=Sleep until sunset
+pack.sleep_night=Sleep until night
+pack.sleep_midnight=Sleep until midnight
+pack.phantom_spawning=Phantom spawning
+pack.respawn_options=Respawn options
+pack.settings=Settings
+
+pack.reset_random_tick_speed=Reset random tick speed to default
+
+pack.waiting_for_more_players=Waiting for more players...
+
+pack.player_wants_to_action=Player wants to
+
+pack.accelerate_menu=Accelerate time menu
+pack.speed_multiplier=Speed multiplier
+
+pack.set_spawnpoint=Set spawnpoint
+pack.ask_spawnpoint=Do you want to set your spawnpoint to this bed?
+pack.yes_do_it=Yes, do it!
+pack.no_leave_it=No, leave it!
+
+pack.activate_phantom_spawning=Activate phantom spawning?
+pack.phantom_spawning_disabled=Phantom spawning will be disabled again after you sleep in the bed once
+
+pack.ask_spawnpoint_setting=Do not ask for setting spawn in this bed
+pack.ask_spawnpoint_body=Ask to set your spawnpoint every time you use this bed? If you have already set your spawnpoint to a bed, you won't be asked again in that bed.
+pack.yes_ask_every_time=Yes, ask every time!
+pack.no_stop_asking=No, stop asking!
+
+pack.phantom_spawning_settings=Phantom Spawning Settings
+pack.phantom_spawning_toggle=Phantom Spawning in World
+pack.phantom_spawning_activated=Phantom spawning has been activated.
+pack.phantom_spawning_deactivated=Phantom spawning has been deactivated.
+pack.phantom_spawning_error=Failed to display phantom spawning settings form: 
+
+pack.spawn_phantoms=Spawn Phantoms
+
+pack.password_required=Password Required
+pack.enter_password=Enter Password
+pack.incorrect_password=Incorrect password.
+
+pack.phantoms_to_spawn=Number of Phantoms to Spawn
+
+pack.bed_settings_title=Bed Settings
+pack.choose_option=Choose an option:
+pack.sleep_options=Sleep Options
+pack.wait_time_options=Accelerate Time Options
+pack.phantom_spawning_options=Phantom Spawning Options
+pack.reenable_phantom_spawning=Reenable Natural Phantom Spawning
+pack.disable_phantom_spawning=Disable Natural Phantom Spawning
+
+pack.sleep_settings_title=Sleep Settings
+pack.enable_sleep=Enable Sleep Functionality
+pack.only_sleep_at_night=Only Allow Sleeping at Night and when Raining
+pack.lock_with_password=Lock with Password
+pack.password_prompt=Password (effective only if lock is enabled)
+pack.require_percentage=Require Percentage of Players to Activate
+pack.activation_percentage=Player Activation Percentage (effective only if above toggle is enabled)
+pack.clear_weather=Clear Weather After Sleeping
+pack.show_sunrise_option=Display Sunrise Option
+pack.show_morning_option=Display Morning Option
+pack.show_noon_option=Display Noon Option
+pack.show_sunset_option=Display Sunset Option
+pack.show_night_option=Display Night Option
+pack.show_midnight_option=Display Midnight Option
+pack.settings_updated=Sleep settings updated.
+pack.settings_failed=Sleep settings have not been updated.
+pack.wait_settings_failed=Accelerate Time settings have not been updated.
+pack.phantom_spawning_settings_failed=Phantom spawning settings have not been updated.
+
+
+pack.wait_settings_title=Accelerate Time Settings
+pack.enable_wait_functionality=Enable Accelerate Time Functionality
+pack.clear_weather_after_waiting=Clear Weather After Accelerating Time
+pack.max_multiplier_of_time=Max Multiplier of Time
+pack.wait_settings_updated=Wait settings updated.
+
+pack.phantom_spawning_settings_title=Phantom Spawning Settings
+pack.show_phantom_spawning_settings_in_beds=Show Phantom Spawning Settings In Beds
+pack.limit_phantom_spawn_number=Limit Phantom Spawn Number
+pack.max_phantom_spawn_number=Max Phantom Spawn Number
+pack.set_time_between_spawns=Set Time Between Spawns
+pack.in_game_hours=In-Game Hours (1 in-game hour = 50 seconds)
+pack.phantom_spawning_settings_updated=Phantom spawning settings updated.
+
+pack.wants_to= wants to 
+
+pack.spawnpoint_set=New spawn point set.
+
+pack.sleep_at_night=You can only sleep at night.
+
+pack.phantoms_cannot_spawn_yet=Cannot spawn phantoms yet. Time remaining: {0} in-game hours.
+pack.no_space_for_phantoms=Unable to spawn phantoms: No free space within a 21x15x21 radius up to 50 blocks above.
+
+pack.phantom_at_night=Phantoms can only spawn at night
+pack.only_phantom_at_night=Only Allow Phantom Spawning at Night
+pack.disable_phantom_spawning_after_use=Always disable Phantom Spawning after sleep or accelerate time
+pack.disableAndReenable_phantom_spawning_after_use=Disable Phantom Spawning while using beds but reenable after use (has priority over below toggle)
+
+
+item.bb:bed_settings=Bed Settings
+
+tile.bb:bed_box.name=Bed Box
+tile.bb:bed_box_acacia.name=Bed Box Acacia
+tile.bb:bed_box_bamboo.name=Bed Box Bamboo
+tile.bb:bed_box_birch.name=Bed Box Birch
+tile.bb:bed_box_cherry.name=Bed Box Cherry
+tile.bb:bed_box_crimson.name=Bed Box Crimson
+tile.bb:bed_box_jungle.name=Bed Box Jungle
+tile.bb:bed_box_mangrove.name=Bed Box Mangrove
+tile.bb:bed_box_dark_oak.name=Bed Box Dark Oak
+tile.bb:bed_box_oak.name=Bed Box Oak
+tile.bb:bed_box_warped.name=Bed Box Warped
+tile.bb:bed_box_spruce.name=Bed Box Spruce
+
+tile.bb:preview_single_oak_creeper_bed.name=Single Oak Creeper Bed
+tile.bb:preview_single_spruce_creeper_bed.name=Single Spruce Creeper Bed
+tile.bb:preview_single_birch_creeper_bed.name=Single Birch Creeper Bed
+tile.bb:preview_single_jungle_creeper_bed.name=Single Jungle Creeper Bed
+tile.bb:preview_single_acacia_creeper_bed.name=Single Acacia Creeper Bed
+tile.bb:preview_single_dark_oak_creeper_bed.name=Single Dark Oak Creeper Bed
+tile.bb:preview_single_mangrove_creeper_bed.name=Single Mangrove Creeper Bed
+tile.bb:preview_single_cherry_creeper_bed.name=Single Cherry Creeper Bed
+tile.bb:preview_single_bamboo_creeper_bed.name=Single Bamboo Creeper Bed
+tile.bb:preview_single_crimson_creeper_bed.name=Single Crimson Creeper Bed
+tile.bb:preview_single_warped_creeper_bed.name=Single Warped Creeper Bed
+
+tile.bb:preview_single_oak_zombie_bed.name=Single Oak Zombie Bed
+tile.bb:preview_single_spruce_zombie_bed.name=Single Spruce Zombie Bed
+tile.bb:preview_single_birch_zombie_bed.name=Single Birch Zombie Bed
+tile.bb:preview_single_jungle_zombie_bed.name=Single Jungle Zombie Bed
+tile.bb:preview_single_acacia_zombie_bed.name=Single Acacia Zombie Bed
+tile.bb:preview_single_dark_oak_zombie_bed.name=Single Dark Oak Zombie Bed
+tile.bb:preview_single_mangrove_zombie_bed.name=Single Mangrove Zombie Bed
+tile.bb:preview_single_cherry_zombie_bed.name=Single Cherry Zombie Bed
+tile.bb:preview_single_bamboo_zombie_bed.name=Single Bamboo Zombie Bed
+tile.bb:preview_single_crimson_zombie_bed.name=Single Crimson Zombie Bed
+tile.bb:preview_single_warped_zombie_bed.name=Single Warped Zombie Bed
+
+tile.bb:preview_single_oak_skeleton_bed.name=Single Oak Skeleton Bed
+tile.bb:preview_single_spruce_skeleton_bed.name=Single Spruce Skeleton Bed
+tile.bb:preview_single_birch_skeleton_bed.name=Single Birch Skeleton Bed
+tile.bb:preview_single_jungle_skeleton_bed.name=Single Jungle Skeleton Bed
+tile.bb:preview_single_acacia_skeleton_bed.name=Single Acacia Skeleton Bed
+tile.bb:preview_single_dark_oak_skeleton_bed.name=Single Dark Oak Skeleton Bed
+tile.bb:preview_single_mangrove_skeleton_bed.name=Single Mangrove Skeleton Bed
+tile.bb:preview_single_cherry_skeleton_bed.name=Single Cherry Skeleton Bed
+tile.bb:preview_single_bamboo_skeleton_bed.name=Single Bamboo Skeleton Bed
+tile.bb:preview_single_crimson_skeleton_bed.name=Single Crimson Skeleton Bed
+tile.bb:preview_single_warped_skeleton_bed.name=Single Warped Skeleton Bed
+
+tile.bb:preview_single_oak_enderman_bed.name=Single Oak Enderman Bed
+tile.bb:preview_single_spruce_enderman_bed.name=Single Spruce Enderman Bed
+tile.bb:preview_single_birch_enderman_bed.name=Single Birch Enderman Bed
+tile.bb:preview_single_jungle_enderman_bed.name=Single Jungle Enderman Bed
+tile.bb:preview_single_acacia_enderman_bed.name=Single Acacia Enderman Bed
+tile.bb:preview_single_dark_oak_enderman_bed.name=Single Dark Oak Enderman Bed
+tile.bb:preview_single_mangrove_enderman_bed.name=Single Mangrove Enderman Bed
+tile.bb:preview_single_cherry_enderman_bed.name=Single Cherry Enderman Bed
+tile.bb:preview_single_bamboo_enderman_bed.name=Single Bamboo Enderman Bed
+tile.bb:preview_single_crimson_enderman_bed.name=Single Crimson Enderman Bed
+tile.bb:preview_single_warped_enderman_bed.name=Single Warped Enderman Bed
+
+tile.bb:preview_single_oak_pig_bed.name=Single Oak Pig Bed
+tile.bb:preview_single_spruce_pig_bed.name=Single Spruce Pig Bed
+tile.bb:preview_single_birch_pig_bed.name=Single Birch Pig Bed
+tile.bb:preview_single_jungle_pig_bed.name=Single Jungle Pig Bed
+tile.bb:preview_single_acacia_pig_bed.name=Single Acacia Pig Bed
+tile.bb:preview_single_dark_oak_pig_bed.name=Single Dark Oak Pig Bed
+tile.bb:preview_single_mangrove_pig_bed.name=Single Mangrove Pig Bed
+tile.bb:preview_single_cherry_pig_bed.name=Single Cherry Pig Bed
+tile.bb:preview_single_bamboo_pig_bed.name=Single Bamboo Pig Bed
+tile.bb:preview_single_crimson_pig_bed.name=Single Crimson Pig Bed
+tile.bb:preview_single_warped_pig_bed.name=Single Warped Pig Bed
+
+tile.bb:preview_single_oak_sheep_bed.name=Single Oak Sheep Bed
+tile.bb:preview_single_spruce_sheep_bed.name=Single Spruce Sheep Bed
+tile.bb:preview_single_birch_sheep_bed.name=Single Birch Sheep Bed
+tile.bb:preview_single_jungle_sheep_bed.name=Single Jungle Sheep Bed
+tile.bb:preview_single_acacia_sheep_bed.name=Single Acacia Sheep Bed
+tile.bb:preview_single_dark_oak_sheep_bed.name=Single Dark Oak Sheep Bed
+tile.bb:preview_single_mangrove_sheep_bed.name=Single Mangrove Sheep Bed
+tile.bb:preview_single_cherry_sheep_bed.name=Single Cherry Sheep Bed
+tile.bb:preview_single_bamboo_sheep_bed.name=Single Bamboo Sheep Bed
+tile.bb:preview_single_crimson_sheep_bed.name=Single Crimson Sheep Bed
+tile.bb:preview_single_warped_sheep_bed.name=Single Warped Sheep Bed
+
+tile.bb:preview_single_oak_cow_bed.name=Single Oak Cow Bed
+tile.bb:preview_single_spruce_cow_bed.name=Single Spruce Cow Bed
+tile.bb:preview_single_birch_cow_bed.name=Single Birch Cow Bed
+tile.bb:preview_single_jungle_cow_bed.name=Single Jungle Cow Bed
+tile.bb:preview_single_acacia_cow_bed.name=Single Acacia Cow Bed
+tile.bb:preview_single_dark_oak_cow_bed.name=Single Dark Oak Cow Bed
+tile.bb:preview_single_mangrove_cow_bed.name=Single Mangrove Cow Bed
+tile.bb:preview_single_cherry_cow_bed.name=Single Cherry Cow Bed
+tile.bb:preview_single_bamboo_cow_bed.name=Single Bamboo Cow Bed
+tile.bb:preview_single_crimson_cow_bed.name=Single Crimson Cow Bed
+tile.bb:preview_single_warped_cow_bed.name=Single Warped Cow Bed
+
+tile.bb:preview_single_oak_chicken_bed.name=Single Oak Chicken Bed
+tile.bb:preview_single_spruce_chicken_bed.name=Single Spruce Chicken Bed
+tile.bb:preview_single_birch_chicken_bed.name=Single Birch Chicken Bed
+tile.bb:preview_single_jungle_chicken_bed.name=Single Jungle Chicken Bed
+tile.bb:preview_single_acacia_chicken_bed.name=Single Acacia Chicken Bed
+tile.bb:preview_single_dark_oak_chicken_bed.name=Single Dark Oak Chicken Bed
+tile.bb:preview_single_mangrove_chicken_bed.name=Single Mangrove Chicken Bed
+tile.bb:preview_single_cherry_chicken_bed.name=Single Cherry Chicken Bed
+tile.bb:preview_single_bamboo_chicken_bed.name=Single Bamboo Chicken Bed
+tile.bb:preview_single_crimson_chicken_bed.name=Single Crimson Chicken Bed
+tile.bb:preview_single_warped_chicken_bed.name=Single Warped Chicken Bed
+
+tile.bb:preview_single_oak_bee_bed.name=Single Oak Bee Bed
+tile.bb:preview_single_spruce_bee_bed.name=Single Spruce Bee Bed
+tile.bb:preview_single_birch_bee_bed.name=Single Birch Bee Bed
+tile.bb:preview_single_jungle_bee_bed.name=Single Jungle Bee Bed
+tile.bb:preview_single_acacia_bee_bed.name=Single Acacia Bee Bed
+tile.bb:preview_single_dark_oak_bee_bed.name=Single Dark Oak Bee Bed
+tile.bb:preview_single_mangrove_bee_bed.name=Single Mangrove Bee Bed
+tile.bb:preview_single_cherry_bee_bed.name=Single Cherry Bee Bed
+tile.bb:preview_single_bamboo_bee_bed.name=Single Bamboo Bee Bed
+tile.bb:preview_single_crimson_bee_bed.name=Single Crimson Bee Bed
+tile.bb:preview_single_warped_bee_bed.name=Single Warped Bee Bed
+
+tile.bb:preview_single_oak_spider_bed.name=Single Oak Spider Bed
+tile.bb:preview_single_spruce_spider_bed.name=Single Spruce Spider Bed
+tile.bb:preview_single_birch_spider_bed.name=Single Birch Spider Bed
+tile.bb:preview_single_jungle_spider_bed.name=Single Jungle Spider Bed
+tile.bb:preview_single_acacia_spider_bed.name=Single Acacia Spider Bed
+tile.bb:preview_single_dark_oak_spider_bed.name=Single Dark Oak Spider Bed
+tile.bb:preview_single_mangrove_spider_bed.name=Single Mangrove Spider Bed
+tile.bb:preview_single_cherry_spider_bed.name=Single Cherry Spider Bed
+tile.bb:preview_single_bamboo_spider_bed.name=Single Bamboo Spider Bed
+tile.bb:preview_single_crimson_spider_bed.name=Single Crimson Spider Bed
+tile.bb:preview_single_warped_spider_bed.name=Single Warped Spider Bed
+
+tile.bb:preview_single_oak_axolotl_bed.name=Single Oak Axolotl Bed
+tile.bb:preview_single_spruce_axolotl_bed.name=Single Spruce Axolotl Bed
+tile.bb:preview_single_birch_axolotl_bed.name=Single Birch Axolotl Bed
+tile.bb:preview_single_jungle_axolotl_bed.name=Single Jungle Axolotl Bed
+tile.bb:preview_single_acacia_axolotl_bed.name=Single Acacia Axolotl Bed
+tile.bb:preview_single_dark_oak_axolotl_bed.name=Single Dark Oak Axolotl Bed
+tile.bb:preview_single_mangrove_axolotl_bed.name=Single Mangrove Axolotl Bed
+tile.bb:preview_single_cherry_axolotl_bed.name=Single Cherry Axolotl Bed
+tile.bb:preview_single_bamboo_axolotl_bed.name=Single Bamboo Axolotl Bed
+tile.bb:preview_single_crimson_axolotl_bed.name=Single Crimson Axolotl Bed
+tile.bb:preview_single_warped_axolotl_bed.name=Single Warped Axolotl Bed
+
+tile.bb:preview_single_oak_shulker_bed.name=Single Oak Shulker Bed
+tile.bb:preview_single_spruce_shulker_bed.name=Single Spruce Shulker Bed
+tile.bb:preview_single_birch_shulker_bed.name=Single Birch Shulker Bed
+tile.bb:preview_single_jungle_shulker_bed.name=Single Jungle Shulker Bed
+tile.bb:preview_single_acacia_shulker_bed.name=Single Acacia Shulker Bed
+tile.bb:preview_single_dark_oak_shulker_bed.name=Single Dark Oak Shulker Bed
+tile.bb:preview_single_mangrove_shulker_bed.name=Single Mangrove Shulker Bed
+tile.bb:preview_single_cherry_shulker_bed.name=Single Cherry Shulker Bed
+tile.bb:preview_single_bamboo_shulker_bed.name=Single Bamboo Shulker Bed
+tile.bb:preview_single_crimson_shulker_bed.name=Single Crimson Shulker Bed
+tile.bb:preview_single_warped_shulker_bed.name=Single Warped Shulker Bed
+
+tile.bb:preview_single_oak_moderncraft_bed.name=Patron Oak Bed §l[ModernCraft]
+tile.bb:preview_single_spruce_moderncraft_bed.name=Patron Spruce Bed §l[ModernCraft]
+tile.bb:preview_single_birch_moderncraft_bed.name=Patron Birch Bed §l[ModernCraft]
+tile.bb:preview_single_jungle_moderncraft_bed.name=Patron Jungle Bed §l[ModernCraft]
+tile.bb:preview_single_acacia_moderncraft_bed.name=Patron Acacia Bed §l[ModernCraft]
+tile.bb:preview_single_dark_oak_moderncraft_bed.name=Patron Dark Oak Bed §l[ModernCraft]
+tile.bb:preview_single_mangrove_moderncraft_bed.name=Patron Mangrove Bed §l[ModernCraft]
+tile.bb:preview_single_cherry_moderncraft_bed.name=Patron Cherry Bed §l[ModernCraft]
+tile.bb:preview_single_bamboo_moderncraft_bed.name=Patron Bamboo Bed §l[ModernCraft]
+tile.bb:preview_single_crimson_moderncraft_bed.name=Patron Crimson Bed §l[ModernCraft]
+tile.bb:preview_single_warped_moderncraft_bed.name=Patron Warped Bed §l[ModernCraft]
+
+tile.bb:preview_single_oak_red_bed.name=Single Oak Red Bed
+tile.bb:preview_single_spruce_red_bed.name=Single Spruce Red Bed
+tile.bb:preview_single_birch_red_bed.name=Single Birch Red Bed
+tile.bb:preview_single_jungle_red_bed.name=Single Jungle Red Bed
+tile.bb:preview_single_acacia_red_bed.name=Single Acacia Red Bed
+tile.bb:preview_single_dark_oak_red_bed.name=Single Dark Oak Red Bed
+tile.bb:preview_single_mangrove_red_bed.name=Single Mangrove Red Bed
+tile.bb:preview_single_cherry_red_bed.name=Single Cherry Red Bed
+tile.bb:preview_single_bamboo_red_bed.name=Single Bamboo Red Bed
+tile.bb:preview_single_crimson_red_bed.name=Single Crimson Red Bed
+tile.bb:preview_single_warped_red_bed.name=Single Warped Red Bed
+
+tile.bb:preview_single_oak_blue_bed.name=Single Oak Blue Bed
+tile.bb:preview_single_spruce_blue_bed.name=Single Spruce Blue Bed
+tile.bb:preview_single_birch_blue_bed.name=Single Birch Blue Bed
+tile.bb:preview_single_jungle_blue_bed.name=Single Jungle Blue Bed
+tile.bb:preview_single_acacia_blue_bed.name=Single Acacia Blue Bed
+tile.bb:preview_single_dark_oak_blue_bed.name=Single Dark Oak Blue Bed
+tile.bb:preview_single_mangrove_blue_bed.name=Single Mangrove Blue Bed
+tile.bb:preview_single_cherry_blue_bed.name=Single Cherry Blue Bed
+tile.bb:preview_single_bamboo_blue_bed.name=Single Bamboo Blue Bed
+tile.bb:preview_single_crimson_blue_bed.name=Single Crimson Blue Bed
+tile.bb:preview_single_warped_blue_bed.name=Single Warped Blue Bed
+
+tile.bb:preview_single_oak_polar_bear_bed.name=Single Oak Polar Bear Bed
+tile.bb:preview_single_spruce_polar_bear_bed.name=Single Spruce Polar Bear Bed
+tile.bb:preview_single_birch_polar_bear_bed.name=Single Birch Polar Bear Bed
+tile.bb:preview_single_jungle_polar_bear_bed.name=Single Jungle Polar Bear Bed
+tile.bb:preview_single_acacia_polar_bear_bed.name=Single Acacia Polar Bear Bed
+tile.bb:preview_single_dark_oak_polar_bear_bed.name=Single Dark Oak Polar Bear Bed
+tile.bb:preview_single_mangrove_polar_bear_bed.name=Single Mangrove Polar Bear Bed
+tile.bb:preview_single_cherry_polar_bear_bed.name=Single Cherry Polar Bear Bed
+tile.bb:preview_single_bamboo_polar_bear_bed.name=Single Bamboo Polar Bear Bed
+tile.bb:preview_single_crimson_polar_bear_bed.name=Single Crimson Polar Bear Bed
+tile.bb:preview_single_warped_polar_bear_bed.name=Single Warped Polar Bear Bed
+
+tile.bb:preview_single_oak_christmas_bed.name=Single Oak Christmas Bed
+tile.bb:preview_single_spruce_christmas_bed.name=Single Spruce Christmas Bed
+tile.bb:preview_single_birch_christmas_bed.name=Single Birch Christmas Bed
+tile.bb:preview_single_jungle_christmas_bed.name=Single Jungle Christmas Bed
+tile.bb:preview_single_acacia_christmas_bed.name=Single Acacia Christmas Bed
+tile.bb:preview_single_dark_oak_christmas_bed.name=Single Dark Oak Christmas Bed
+tile.bb:preview_single_mangrove_christmas_bed.name=Single Mangrove Christmas Bed
+tile.bb:preview_single_cherry_christmas_bed.name=Single Cherry Christmas Bed
+tile.bb:preview_single_bamboo_christmas_bed.name=Single Bamboo Christmas Bed
+tile.bb:preview_single_crimson_christmas_bed.name=Single Crimson Christmas Bed
+tile.bb:preview_single_warped_christmas_bed.name=Single Warped Christmas Bed
