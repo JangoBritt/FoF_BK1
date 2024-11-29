@@ -224,6 +224,9 @@
 			}
 		},
 		"components": {
+			"minecraft:health": {
+				"value": 10
+			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}
 			},

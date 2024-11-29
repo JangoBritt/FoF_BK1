@@ -18,14 +18,14 @@
 			"slowness": {
 				"minecraft:attack": {
 					"effect_name": "slowness",
-					"damage": 2,
+					"damage": 1,
 					"effect_duration": 4
 				}
 			},
 			"wither": {
 				"minecraft:attack": {
 					"effect_name": "wither",
-					"damage": 3,
+					"damage": 1,
 					"effect_duration": 5
 				}
 			},
@@ -33,7 +33,7 @@
 				"minecraft:attack": {
 					"effect_name": "nausea",
 					"effect_duration": 5,
-					"damage": 2
+					"damage": 1
 				}
 			}
 		},
@@ -43,6 +43,10 @@
 			},
 			"minecraft:movement": {
 				"value": 0.4
+			},
+			"minecraft:health": {
+				"value": 5,
+				"max": 5
 			},
 			"minecraft:navigation.walk": {
 				"can_sink": true

@@ -248,7 +248,7 @@
 				"priority": 5
 			},
 			"minecraft:health": {
-				"value": 15
+				"value": 10
 			}
 		},
 		"events": {
