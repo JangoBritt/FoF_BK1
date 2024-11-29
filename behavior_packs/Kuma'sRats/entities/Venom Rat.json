@@ -159,8 +159,7 @@
 			},
 			"minecraft:behavior.melee_attack": {
 				"priority": 4,
-				"track_target": true,
-				"speed_multiplier": 1.25
+				"track_target": true
 			},
 			"minecraft:burns_in_daylight": {},
 			"minecraft:scale": {
