@@ -22,17 +22,5 @@
 			"uuid": "04051855-530c-4cea-999b-9ead1c0850d9",
 			"version": [ 6, 2, 3 ]
 		}
-	],
-	"subpacks": [
-		{
-			"folder_name": "standard",
-			"name": "Standard",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "demise",
-			"name": "Demise",
-			"memory_tier": 1
-		}
 	]
 }
