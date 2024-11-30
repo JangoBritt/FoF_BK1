@@ -472,6 +472,7 @@
 			},
 			"minecraft:physics": {},
 			"minecraft:behavior.tempt": {
+				"within_radius": 16,
 				"priority": 4,
 				"items": [
 					"minecraft:wheat",
