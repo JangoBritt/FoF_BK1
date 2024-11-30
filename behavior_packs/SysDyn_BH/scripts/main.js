@@ -282,68 +282,69 @@ system.runInterval( () =>{
     ]
     let inv = p.getComponent("inventory").container;
 
-    for(let slot = 0; slot < inv.size; slot++){
-      let item = inv.getItem(slot);
-      if(item){
-        let lore = item.getLore()[0];
-        for(let types of light15){
-          if(item.typeId.includes(`${types}`)){
-            if(item.typeId != "minecraft:glowstone_dust"){
-              if(!lore){
-                item.setLore([`§6Illumination: §715 Blocks`, `\n§r§d[System Dynamic Lights]§r`])
-                inv.setItem(slot, item)
-              }
-            }
-          }
-        }
-        for(let types of light13){
-          if(item.typeId.includes(`${types}`)){
-            if(!lore){
-              if(!item.typeId.includes("sea_pickle")){
-                item.setLore([`§6Illumination: §713 Blocks`, `\n§r§d[System Dynamic Lights]§r`])
-                inv.setItem(slot, item)
-              }
-              if(item.typeId.includes("sea_pickle")){
-                item.setLore([`§6Illumination: §713 Blocks`, "You can use it underwater", `\n§r§d[System Dynamic Lights]§r`])
-                inv.setItem(slot, item)
-              }
-            }
-          }
-        }
-        for(let types of light9){
-          if(item.typeId.includes(`${types}`)){
-            if(!lore){
-              item.setLore([`§6Illumination: §79 Blocks`, `\n§r§d[System Dynamic Lights]§r`])
-              inv.setItem(slot, item)
-            }
-          }
-        }
-        for(let types of light_head){
-          if(item.typeId.includes(`${types}`)){
-            if(!lore){
-              item.setLore([`§6Illumination: §79 Blocks`, `\n§r§d[System Dynamic Lights]§r`])
-              inv.setItem(slot, item)
-            }
-          }
-        }
-        for(let types of light11){
-          if(item.typeId.includes(`${types}`)){
-            if(!lore){
-              item.setLore([`§6Illumination: §711 Blocks`, `\n§r§d[System Dynamic Lights]§r`])
-              inv.setItem(slot, item)
-            }
-          }
-        }
-        for(let types of light6){
-          if(item.typeId.includes(`${types}`)){
-            if(!lore){
-              item.setLore([`§6Illumination: §76 Blocks`, `\n§r§d[System Dynamic Lights]§r`])
-              inv.setItem(slot, item)
-            }
-          }
-        }
-      }
-    }
+
+    // for(let slot = 0; slot < inv.size; slot++){
+    //   let item = inv.getItem(slot);
+    //   if(item){
+    //     let lore = item.getLore()[0];
+    //     for(let types of light15){
+    //       if(item.typeId.includes(`${types}`)){
+    //         if(item.typeId != "minecraft:glowstone_dust"){
+    //           if(!lore){
+    //             item.setLore([`§6Illumination: §715 Blocks`, `\n§r§d[System Dynamic Lights]§r`])
+    //             inv.setItem(slot, item)
+    //           }
+    //         }
+    //       }
+    //     }
+    //     for(let types of light13){
+    //       if(item.typeId.includes(`${types}`)){
+    //         if(!lore){
+    //           if(!item.typeId.includes("sea_pickle")){
+    //             item.setLore([`§6Illumination: §713 Blocks`, `\n§r§d[System Dynamic Lights]§r`])
+    //             inv.setItem(slot, item)
+    //           }
+    //           if(item.typeId.includes("sea_pickle")){
+    //             item.setLore([`§6Illumination: §713 Blocks`, "You can use it underwater", `\n§r§d[System Dynamic Lights]§r`])
+    //             inv.setItem(slot, item)
+    //           }
+    //         }
+    //       }
+    //     }
+    //     for(let types of light9){
+    //       if(item.typeId.includes(`${types}`)){
+    //         if(!lore){
+    //           item.setLore([`§6Illumination: §79 Blocks`, `\n§r§d[System Dynamic Lights]§r`])
+    //           inv.setItem(slot, item)
+    //         }
+    //       }
+    //     }
+    //     for(let types of light_head){
+    //       if(item.typeId.includes(`${types}`)){
+    //         if(!lore){
+    //           item.setLore([`§6Illumination: §79 Blocks`, `\n§r§d[System Dynamic Lights]§r`])
+    //           inv.setItem(slot, item)
+    //         }
+    //       }
+    //     }
+    //     for(let types of light11){
+    //       if(item.typeId.includes(`${types}`)){
+    //         if(!lore){
+    //           item.setLore([`§6Illumination: §711 Blocks`, `\n§r§d[System Dynamic Lights]§r`])
+    //           inv.setItem(slot, item)
+    //         }
+    //       }
+    //     }
+    //     for(let types of light6){
+    //       if(item.typeId.includes(`${types}`)){
+    //         if(!lore){
+    //           item.setLore([`§6Illumination: §76 Blocks`, `\n§r§d[System Dynamic Lights]§r`])
+    //           inv.setItem(slot, item)
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
 
     for(let offlight of light_offhand){
       if(p.hasTag("offhand") && !p.hasTag("mainhand")){
