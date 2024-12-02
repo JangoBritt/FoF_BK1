@@ -28,10 +28,10 @@
 		"version" : [ 2, 1, 4 ]
 	},
 	
-	{
-		"pack_id" : "5f777d4a-87be-42b0-8b17-33648ff355a6", //LootR
-		"version" : [ 1, 8, 0 ]
-	},
+	// {
+	// 	"pack_id" : "5f777d4a-87be-42b0-8b17-33648ff355a6", //LootR
+	// 	"version" : [ 1, 8, 0 ]
+	// },
 	
 	{
 		"pack_id" : "957de88d-d527-48cc-bda5-d84ed2cc094e", //Kuma'sRats
