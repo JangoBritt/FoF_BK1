@@ -21,10 +21,10 @@
 		"version" : [ 1, 5, 0 ]
 	},
 	
-	{
-		"pack_id" : "78abc781-83b1-4a76-b731-d586871fc59f", //LootR
-		"version" : [ 1, 8, 0 ]
-	},
+	// {
+	// 	"pack_id" : "78abc781-83b1-4a76-b731-d586871fc59f", //LootR
+	// 	"version" : [ 1, 8, 0 ]
+	// },
 	
 	{
 		"pack_id" : "6181e449-d2b7-4482-8740-544e645bdd5f", //Gravestones
