@@ -508,3 +508,24 @@ entity.fables_avatars:acaito333_head.name=Autumn's Head
 item.fables_avatars:acaito333_avatar_item=Autumn's Avatar
 item.fables_avatars:acaito333_head_item=Autumn's Head
 item.fables_avatars:acaito333_mask=Autumn's Mask
+
+action.hint.exit.fables_avatars:starryrose_head=Jump to Exit
+entity.fables_avatars:starryrose_avatar.name=StarryRose's Avatar
+entity.fables_avatars:starryrose_head.name=StarryRose's Head
+item.fables_avatars:starryrose_avatar_item=StarryRose's Avatar
+item.fables_avatars:starryrose_head_item=StarryRose's Head
+item.fables_avatars:starryrose_mask=StarryRose's Mask
+
+action.hint.exit.fables_avatars:firemanking_316_head=Jump to Exit
+entity.fables_avatars:firemanking_316_avatar.name=FiremanKing 316's Avatar
+entity.fables_avatars:firemanking_316_head.name=FiremanKing 316's Head
+item.fables_avatars:firemanking_316_avatar_item=FiremanKing 316's Avatar
+item.fables_avatars:firemanking_316_head_item=FiremanKing 316's Head
+item.fables_avatars:firemanking_316_mask=FiremanKing 316's Mask
+
+action.hint.exit.fables_avatars:mrsdelfuego_head=Jump to Exit
+entity.fables_avatars:mrsdelfuego_avatar.name=Mrs Del Fuego's Avatar
+entity.fables_avatars:mrsdelfuego_head.name=Mrs Del Fuego's Head
+item.fables_avatars:mrsdelfuego_avatar_item=Mrs Del Fuego's Avatar
+item.fables_avatars:mrsdelfuego_head_item=Mrs Del Fuego's Head
+item.fables_avatars:mrsdelfuego_mask=Mrs Del Fuego's Mask
