@@ -15,3 +15,7 @@ give @s[name="Tellis042"] fables_avatars:tellis042_head_item
 give @s[name="Tonystar73"] fables_avatars:tonystar73_head_item
 give @s[name="xRaistin"] fables_avatars:xraistin_head_item
 give @s[name="acaito333"] fables_avatars:acaito333_head_item
+give @s[name="StarryRose1362"] athos_avatars:starryrose_head_item
+give @s[name="FiremanKing 316"] athos_avatars:firemanking_316_head_item
+
+give @s[name="MrsDelFuego"] athos_avatars:mrsdelfuego_head_item

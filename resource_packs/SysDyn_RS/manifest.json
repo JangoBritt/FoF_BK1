@@ -4,14 +4,14 @@
     "name": "System Dynamic Lights Addon V1.9.8 §9Resources Pack",
     "description": "§3§lMade by SystemTv Twitter@SystemTv_",
     "uuid": "9662b34a-9a6c-47dc-b1ce-7541c8bbda91",
-    "version": [ 1, 0, 0 ],
+    "version": [ 1, 0, 1 ],
     "min_engine_version": [ 1, 20, 30 ]
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "cbf8045f-8b2c-48e7-92ad-eed6f78749db",
-      "version": [ 1, 0, 0 ]
+      "version": [ 1, 0, 1 ]
     }
   ],
   "dependencies": [

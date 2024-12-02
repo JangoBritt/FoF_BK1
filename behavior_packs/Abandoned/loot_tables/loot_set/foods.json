@@ -397,7 +397,17 @@
         {"type": "item","weight": 100,"name": "farmersdelight:salmon_slice","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 100,"name": "farmersdelight:beef_patty","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 100,"name": "farmersdelight:dog_food","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 100,"name": "farmersdelight:horse_feed","functions": [{"function": "set_count","count": 1}]}
+        {"type": "item","weight": 100,"name": "farmersdelight:horse_feed","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:crocodile_meat_cooked","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:crocodile_meat_raw","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "nicothekid:rat_cooked","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "nicothekid:rat_raw","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:cherry","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:venison_raw","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:venison_cooked","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:frog_leg_cooked","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:frog_leg_raw","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "korbon:coconut","functions": [{"function": "set_count","count": 1}]}        
       ]
     }
   ]

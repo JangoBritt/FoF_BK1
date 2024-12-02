@@ -234,7 +234,8 @@
               "count": 1
             }
           ]
-        }
+        },
+        {"type": "item","weight": 100,"name": "korbon:sulfur","functions": [{"function": "set_count","count": 1}]}
       ]
     }
   ]
