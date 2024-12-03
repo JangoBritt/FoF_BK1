@@ -1,0 +1,39 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "comp:backpack_torch"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        "DAD",
+        "COC",
+        "DBD"
+      ],
+      "key": {
+        "O": {
+            "item": "complement:base"
+        },
+
+
+        "A": {
+          "item": "minecraft:torch"
+        },
+        "B": {
+          "item": "minecraft:coal"
+        },
+        "C": {
+            "item": "minecraft:iron_ingot"
+        },
+        "D": {
+            "item": "minecraft:glass"
+        }
+      },
+      "result": {
+        "item": "complement:torch"
+      }
+    }
+  }
+  

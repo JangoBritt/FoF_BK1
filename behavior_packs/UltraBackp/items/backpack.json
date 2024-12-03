@@ -10,7 +10,7 @@
     "components": {
       "minecraft:icon": {
         "textures": {
-          "default": "backpack"
+          "default": "backpack_ultra"
         }
       },
       "minecraft:display_name": {

@@ -6,6 +6,73 @@
 			"spawn_category": "creature",
 			"is_spawnable": false,
 			"is_summonable": false,
+			"properties": {
+				"backpack:backpack": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"backpack:backpack_iron": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"backpack:backpack_diamond": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"backpack:backpack_gold": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"backpack:backpack_copper": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"backpack:backpack_nether": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"bp:farm": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"bp:furn": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"bp:torch": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"bp:pick": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"bp:axe": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"bp:jukebox": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"bp:liquid": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				}
+			},
 			"scripts": {
 				"animate": [
 					"fables_avatars_player_heads"
@@ -57,7 +124,8 @@
 			},
 			"minecraft:type_family": {
 				"family": [
-					"player"
+					"player",
+					"spider"
 				]
 			},
 			"minecraft:is_hidden_when_invisible": {},
@@ -188,6 +256,23 @@
 			}
 		},
 		"events": {
+			"bp:not_backpack": {
+				"set_property": {
+					"bp:axe": false,
+					"bp:farm": false,
+					"bp:furn": false,
+					"bp:pick": false,
+					"bp:torch": false,
+					"bp:jukebox": false,
+					"bp:liquid": false,
+					"backpack:backpack": false,
+					"backpack:backpack_copper": false,
+					"backpack:backpack_iron": false,
+					"backpack:backpack_gold": false,
+					"backpack:backpack_diamond": false,
+					"backpack:backpack_nether": false
+				}
+			},
 			"minecraft:gain_raid_omen": {
 				"add": {
 					"component_groups": [

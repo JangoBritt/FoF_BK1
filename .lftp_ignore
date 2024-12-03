@@ -17,3 +17,4 @@ levelname.txt
 .mcattributes
 .vscode/launch.json
 *.zip
+*.bak

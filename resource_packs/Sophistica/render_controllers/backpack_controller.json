@@ -1,0 +1,145 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		// netherite
+		"controller.render.backpack_nether": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"geometry": "geometry.backpack",
+			"materials": [ { "*": "Material.default" } ],
+
+			"textures": [
+				"texture.b_nether"
+			]
+		},
+		// diamond
+		"controller.render.backpack_diamond": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"geometry": "geometry.backpack",
+			"materials": [ { "*": "Material.default" } ],
+			
+			"textures": [
+				"texture.b_diamond"
+			]
+		},
+		// gold
+		"controller.render.backpack_gold": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"geometry": "geometry.backpack",
+			"materials": [ { "*": "Material.default" } ],
+			
+			"textures": [
+				"texture.b_gold"
+			]
+		},
+		// iron
+		"controller.render.backpack_iron": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"geometry": "geometry.backpack",
+			"materials": [ { "*": "Material.default" } ],
+			
+			"textures": [
+				"texture.b_iron"
+			]
+		},
+		// copper
+		"controller.render.backpack_copper": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"geometry": "geometry.backpack",
+			"materials": [ { "*": "Material.default" } ],
+			
+			"textures": [
+				"texture.b_copper"
+			]
+		},
+		// leather
+		"controller.render.backpack_leather": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"geometry": "geometry.backpack",
+			"materials": [ { "*": "Material.default" } ],
+			
+			"textures": [
+				"texture.b_leather"
+			]
+		},
+
+
+
+
+		// Components backpack 
+		"controller.render.backpack_comp_farming": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_farming",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+
+		"controller.render.backpack_comp_furnace": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_furnace",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+
+		"controller.render.backpack_comp_torch": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1.15,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_torch",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+
+		"controller.render.backpack_comp_pickaxe": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1.15,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_pickaxe",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+
+		"controller.render.backpack_comp_axe": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1.15,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_axe",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+ 
+		"controller.render.backpack_comp_jukebox": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1.15,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_jukebox",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+
+		"controller.render.backpack_comp_liquid": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1.15,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_liquid",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		}
+	}
+}

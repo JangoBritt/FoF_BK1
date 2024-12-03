@@ -1,0 +1,32 @@
+// Chismoso XD - https://es.pornhub.com/
+
+{
+  "format_version": 2,
+  "header": {
+    "description": "@Angeldfire2 - backpacks",
+    "name": "Sophisticangel Backpack v0.5.2 RE",
+    "uuid": "deb394fc-1748-4748-8bb5-395e51ab4990",
+    "version": [
+      0,
+      5,
+      2
+    ],
+    "min_engine_version": [
+      1,
+      19,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "description": "Backpacks",
+      "type": "resources",
+      "uuid": "f99cffc0-a724-9673-9413-584321953256",
+      "version": [
+        0,
+        5,
+        2
+      ]
+    }
+  ]
+}

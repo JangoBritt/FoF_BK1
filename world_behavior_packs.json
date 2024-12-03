@@ -37,11 +37,15 @@
 		"pack_id" : "957de88d-d527-48cc-bda5-d84ed2cc094e", //Kuma'sRats
 		"version" : [ 1, 2, 1 ]
 	},
-	
+	{
+		"pack_id" : "8b1aa586-0871-2bed-b9e0-47997bc19dd5", //Sophisticangel Backpacks
+		"version" : [ 0, 5, 2 ]
+	},
 	{
 		"pack_id" : "65c49b7a-e1c1-4c89-a8d3-01c99bd27c6b", //Ultra Backpacks
 		"version" : [ 2, 0, 0 ]
 	},
+
 	{
 		"pack_id" : "b17755d2-3cc0-424b-89dd-558fc98513f5", //Bedrock Bridge
 		"version" : [ 1, 4, 3 ]

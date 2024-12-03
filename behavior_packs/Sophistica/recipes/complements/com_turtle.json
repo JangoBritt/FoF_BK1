@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "comp:backpack_turtle"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        " A ",
+        "COC",
+        " B "
+      ],
+      "key": {
+        "O": {
+            "item": "complement:base"
+        },
+
+
+        "A": {
+          "item": "minecraft:turtle_helmet"
+        },
+        "B": {
+          "item": "minecraft:prismarine"
+        },
+        "C": {
+            "item": "minecraft:conduit"
+        }
+      },
+      "result": {
+        "item": "complement:turtle"
+      }
+    }
+  }
+  

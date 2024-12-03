@@ -1,0 +1,17 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "music:g"
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "texture": "music_disc"
+            },
+            "minecraft:display_name": {
+                "value": "Disc Music Backpack\n§r§9Metro Boomin - Space Cadet"
+            }
+        }
+    }
+}
