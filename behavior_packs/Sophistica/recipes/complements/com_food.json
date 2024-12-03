@@ -8,8 +8,8 @@
         "crafting_table"
       ],
       "pattern": [
-        " A ",
-        "COC",
+        " C ",
+        "TOK",
         " B "
       ],
       "key": {
@@ -17,15 +17,17 @@
             "item": "complement:base"
         },
 
-
-        "A": {
-          "item": "minecraft:golden_apple"
-        },
         "B": {
-          "item": "minecraft:compass"
+          "item": "minecraft:bowl"
         },
         "C": {
-            "item": "minecraft:vibranium"
+            "item": "minecraft:diamond_shovel"
+        },
+        "K": {
+          "item": "farmersdelight:diamond_knife"
+        },
+        "T": {
+          "item": "minecraft:trident"
         }
       },
       "result": {

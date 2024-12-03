@@ -183,7 +183,7 @@
 			"minecraft:scale": {
 				"value": 0.7
 			}
-		},
+		}
 		// "events": {
 		// 	"minecraft:entity_spawned": {
 		// 		"sequence": [

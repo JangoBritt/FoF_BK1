@@ -8,7 +8,7 @@
         "crafting_table"
       ],
       "pattern": [
-        "DAD",
+        "DHD",
         "COC",
         "DBD"
       ],
@@ -18,9 +18,6 @@
         },
 
 
-        "A": {
-          "item": "minecraft:iron_hoe"
-        },
         "B": {
           "item": "minecraft:dispenser"
         },
@@ -29,6 +26,9 @@
         },
         "D": {
             "item": "minecraft:dirt"
+        },
+        "H": {
+            "item": "medieval:villager_hat_farmer"
         }
       },
       "result": {

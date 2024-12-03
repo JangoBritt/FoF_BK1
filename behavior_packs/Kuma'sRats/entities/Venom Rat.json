@@ -170,7 +170,7 @@
 					"monster"
 				]
 			}
-		},
+		}
 		// "events": {
 		// 	"minecraft:entity_spawned": {
 		// 		"sequence": [
