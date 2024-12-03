@@ -30,4 +30,4 @@ jobs:
           remoteDir: '/worlds/FoF_Bk1'
           reverse: true
           ignoreFile: '.lftp_ignore'
-          options: '--verbose'
+          options: 'delete'
