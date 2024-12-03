@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "backpack:backpack_d"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        " C ",
+        "CBC",
+        " C "
+      ],
+      "key": {
+        "C": {
+          "item": "minecraft:diamond"
+        },
+        "B": {
+          "item": "backpack:backpack_gold"
+        }
+      },
+      "result": {
+        "item": "backpack:backpack_diamond"
+      }
+    }
+  }
+  

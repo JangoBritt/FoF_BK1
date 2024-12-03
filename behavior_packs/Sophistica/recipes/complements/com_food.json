@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "comp:backpack_food"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        " A ",
+        "COC",
+        " B "
+      ],
+      "key": {
+        "O": {
+            "item": "complement:base"
+        },
+
+
+        "A": {
+          "item": "minecraft:golden_apple"
+        },
+        "B": {
+          "item": "minecraft:compass"
+        },
+        "C": {
+            "item": "minecraft:vibranium"
+        }
+      },
+      "result": {
+        "item": "complement:food"
+      }
+    }
+  }
+  

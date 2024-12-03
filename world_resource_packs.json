@@ -35,12 +35,15 @@
 		"pack_id" : "71cca5d2-a4a9-44f1-a23f-3b629102a1b9", //Kuma's Rats
 		"version" : [ 1, 0, 1 ]
 	},
-	
+	{
+		"pack_id" : "deb394fc-1748-4748-8bb5-395e51ab4990", //Sophisticangel
+		"version" : [ 0, 5, 2 ]
+	},
 	{
 		"pack_id" : "9b234d43-48f4-4f87-81c0-64e9cca428ca", //Ultra Backpacks
-		"version" : [ 2, 0, 0 ]
+		"version" : [ 2, 0, 1 ]
 	},
-	
+
 	{
 		"pack_id" : "98836a6c-fe16-60f4-87a4-5afb6439bd9f", //Farmers' Delight
 		"version" : [ 2, 1, 4 ]

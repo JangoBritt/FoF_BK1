@@ -1,0 +1,91 @@
+{
+    "resource_pack_name" : "vanilla",
+    "texture_data" : {
+        "liquid_bp_water": {
+            "textures": "textures/blocks/water_placeholder"
+        },
+        "liquid_bp_lava": {
+            "textures": "textures/blocks/lava_placeholder"
+        },
+
+        "backpack_leather": {
+            "textures": "textures/bp/backpack_leather"
+        },
+        "backpack":{
+            "textures" : "textures/bp/backpack_iron"
+        },
+        "backpack_2":{
+            "textures" : "textures/bp/backpack_diamond"
+        },
+        "backpack_3":{
+            "textures" : "textures/bp/backpack_netherite"
+        },
+        "backpack_copper":{
+            "textures" : "textures/bp/backpack_copper"
+        },
+        "backpack_gold":{
+            "textures" : "textures/bp/backpack_gold"
+        },
+
+        "complement_base": {
+            "textures": "textures/items/base_complement"
+        },
+        
+        "complement_furnace_level2": {
+            "textures": "textures/items/furnace_complement_v2"
+        },
+        "complement_furnace": {
+            "textures": "textures/items/furnace_complement"
+        },
+        "complement_farming": {
+            "textures": "textures/items/farming_complement"
+        },
+        "complement_liquid": {
+            "textures": "textures/items/liquid_complement"
+        },
+        "complement_crafting": {
+            "textures": "textures/items/crafting_complement"
+        },
+
+        
+        "complement_transfer": {
+            "textures": "textures/items/transfer_complement"
+        },
+        "complement_axe": {
+            "textures": "textures/items/axe_complement"
+        },
+        "complement_jump": {
+            "textures": "textures/items/climb_complement_2"
+        },
+        "complement_mining": {
+            "textures": "textures/items/mining_complement"
+        },
+        "complement_torch": {
+            "textures": "textures/items/torch_complement"
+        },
+        "complement_apple": {
+            "textures": "textures/items/apple_complement"
+        },
+        "complement_turtle": {
+            "textures": "textures/items/turtle_complement"
+        },
+        "complement_magnet": {
+            "textures": "textures/items/magnet_complement"
+        },
+        "complement_magnet_2": {
+            "textures": "textures/items/magnet_complement_2"
+        },
+        "complement_food": {
+            "textures": "textures/items/food_complement"
+        },
+
+        "music_disc": {
+            "textures": "textures/items/disc_backpack"
+        },
+        "complement_music": {
+            "textures": "textures/items/music_complement"
+        }
+    },
+    "texture_name" : "atlas.items"
+ }
+ 

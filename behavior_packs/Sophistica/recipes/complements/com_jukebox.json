@@ -1,0 +1,39 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "comp:backpack_jukebox"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        "DAD",
+        "COC",
+        "DBD"
+      ],
+      "key": {
+        "O": {
+            "item": "complement:base"
+        },
+
+
+        "A": {
+          "item": "minecraft:jukebox"
+        },
+        "B": {
+          "item": "minecraft:diamond"
+        },
+        "C": {
+            "item": "minecraft:oak_planks"
+        },
+        "D": {
+            "item": "minecraft:iron_ingot"
+        }
+      },
+      "result": {
+        "item": "complement:jukebox"
+      }
+    }
+  }
+  

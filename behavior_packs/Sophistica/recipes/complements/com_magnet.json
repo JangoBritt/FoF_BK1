@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "comp:backpack_magnet"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        "A A",
+        "B B",
+        "BOB"
+      ],
+      "key": {
+        "O": {
+            "item": "complement:base"
+        },
+
+
+        "A": {
+          "item": "minecraft:redstone_block"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "result": {
+        "item": "complement:magnet"
+      }
+    }
+  }
+  

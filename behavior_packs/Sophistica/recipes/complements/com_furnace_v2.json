@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "comp:backpack_furnace"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        "CBC",
+        "BAB",
+        "COC"
+      ],
+      "key": {
+        "O": {
+            "item": "complement:base"
+        },
+
+
+        "A": {
+          "item": "complement:furnace"
+        },
+        "B": {
+          "item": "minecraft:coal"
+        },
+        "C": {
+            "item": "minecraft:gold_ingot"
+        }
+      },
+      "result": {
+        "item": "complement:furnace_level2"
+      }
+    }
+  }
+  
