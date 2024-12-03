@@ -1,0 +1,19 @@
+## Directories to exclude
+.git/
+.github/
+.github/workflows/
+db/
+.vscode/
+zip/
+
+## Files to exclude
+.gitignore
+.lftp_ignore
+README.md
+level.dat
+level.dat_old
+world_icon.jpeg
+levelname.txt
+.mcattributes
+.vscode/launch.json
+*.zip
