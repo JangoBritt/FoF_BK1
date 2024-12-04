@@ -130,6 +130,7 @@
 				}
 			},
 			"minecraft:collision_box": false,
+			"minecraft:geometry": "geometry.leaf_sprout",
 			"minecraft:map_color": "#B5947D",
 			"minecraft:placement_filter": {
 				"conditions": [

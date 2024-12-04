@@ -11,6 +11,7 @@
 		},
 		"components": {
 			"minecraft:map_color": "#FEA8FF",
+			"minecraft:geometry": "minecraft:geometry.full_block",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "cherry_blossom_leaves",

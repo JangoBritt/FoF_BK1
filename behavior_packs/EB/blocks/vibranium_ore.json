@@ -90,6 +90,7 @@
 		],
 		"components": {
 			"minecraft:map_color": "#39393A",
+			"minecraft:geometry": "minecraft:geometry.full_block",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "vibranium_ore_deepslate",
