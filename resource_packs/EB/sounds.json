@@ -574,14 +574,5 @@
 				"volume": 2
 			}
 		}
-	},
-	"individual_event_sounds": {
-		"events": {
-			"record.mystical": {
-				"sound": "record.mystical",
-				"volume": 1,
-				"pitch": 1
-			}
-		}
 	}
 }
