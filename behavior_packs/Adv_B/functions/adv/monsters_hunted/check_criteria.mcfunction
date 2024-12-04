@@ -7,6 +7,7 @@ tellraw @s[tag=!Killed_Blaze] {"rawtext":[{"text":"Blaze"}]}
 tellraw @s[tag=!Killed_Breeze] {"rawtext":[{"text":"Breeze"}]}
 tellraw @s[tag=!Killed_Bogged] {"rawtext":[{"text":"Bogged"}]}
 tellraw @s[tag=!Killed_CaveSpider] {"rawtext":[{"text":"Cave Spider"}]}
+tellraw @s[tag=!Killed_Creaking] {"rawtext":[{"text":"Creaking"}]}
 tellraw @s[tag=!Killed_Creeper] {"rawtext":[{"text":"Creeper"}]}
 tellraw @s[tag=!Killed_Drowned] {"rawtext":[{"text":"Drowned"}]}
 tellraw @s[tag=!Killed_ElderGuardian] {"rawtext":[{"text":"Elder Guardian"}]}

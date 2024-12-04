@@ -36,7 +36,3 @@ world.afterEvents.playerPlaceBlock.subscribe((event) => {
 
   player.sendMessage(`Block is ${block.typeId}`)
 })
-
-
-
-

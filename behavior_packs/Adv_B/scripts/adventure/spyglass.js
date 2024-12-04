@@ -56,3 +56,21 @@ if (target && target.typeId === "minecraft:ender_dragon") player.runCommandAsync
 
   }
 })
+
+world.afterEvents.itemStartUse.subscribe((event) => {
+  const item = event.itemStack;
+  const player = event.source;
+
+  if (!item || !player) {
+    return;
+  }
+
+  if (item.typeId === 'minecraft:spyglass' && !player.hasTag('ItTree')) {
+
+   
+const target = player.getEntitiesFromViewDirection()[0].entity
+if(!target) return;
+if (target && target.typeId === "minecraft:creaking") player.runCommandAsync('function adv/is_it_a_tree/grant')
+
+  }
+})

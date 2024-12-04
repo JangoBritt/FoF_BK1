@@ -25,7 +25,7 @@ world.afterEvents.itemUse.subscribe(event => {
     let endMax = 6
     let adventureMax = 31
     let husbandryMax = 22
-    let achievementMax = 7
+    let achievementMax = 12
 
     let advancementMax = (minecraftMax + netherMax + endMax + adventureMax + husbandryMax + achievementMax)
 
@@ -722,6 +722,33 @@ world.afterEvents.itemUse.subscribe(event => {
         achievements.button("§aRecord Breaker", "textures/icons/advancement/record_breaker.png");
       } else {
         achievements.button("Record Breaker", "textures/icons/advancement/incomplete/record_breaker.png");
+      }
+
+      if (event.source.hasTag('GardenAwakens')) {
+        achievements.button("§aThe Garden Awakens..", "textures/icons/advancement/the_garden_awakens.png");
+      } else {
+        achievements.button("The Garden Awakens..", "textures/icons/advancement/incomplete/the_garden_awakens.png");
+      }
+      if (event.source.hasTag('ItTree')) {
+        achievements.button("§aIs It a... Tree?", "textures/icons/advancement/is_it_a_tree.png");
+      } else {
+        achievements.button("Is It a... Tree?", "textures/icons/advancement/incomplete/is_it_a_tree.png");
+      }
+      if (event.source.hasTag('Timber')) {
+        achievements.button("§aTimber!!!", "textures/icons/advancement/timber.png");
+      } else {
+        achievements.button("Timber!!!", "textures/icons/advancement/incomplete/timber.png");
+      }
+      if (event.source.hasTag('PureHeart')) {
+        achievements.button("§aPure of Heart", "textures/icons/advancement/pure_of_heart.png");
+      } else {
+        achievements.button("Pure of Heart", "textures/icons/advancement/incomplete/pure_of_heart.png");
+      }
+
+      if (event.source.hasTag('SpeakTrees')) {
+        achievements.button("§5I Speak for the Trees", "textures/icons/advancement/i_speak_for_the_trees.png");
+      } else {
+        achievements.button("I Speak for the Trees", "textures/icons/advancement/incomplete/i_speak_for_the_trees.png");
       }
 
       let response = r.selection;
@@ -2605,6 +2632,94 @@ world.afterEvents.itemUse.subscribe(event => {
 
                   let recordBreaker_response = r.selection;
                   switch (recordBreaker_response) {
+                    default:
+                      return;
+                  }
+                }).catch(e => {
+                  console.error(e, e.stack);
+                });
+                break;
+
+              case 7:
+                let gardenAwakens = new ActionFormData();
+                gardenAwakens.title("Record Breaker");
+                gardenAwakens.body("§7 Category\n§r Achievements\n\n§7 Description\n§r Enter a Pale Garden and beware what lurks inside\n\n§e Reward\n§r None\n\n§e Type\n§a Advancement\n\n");
+                gardenAwakens.button("Close");
+                gardenAwakens.show(event.source).then(r => {
+                  if (r.canceled) return;
+
+                  let gardenAwakens_response = r.selection;
+                  switch (gardenAwakens_response) {
+                    default:
+                      return;
+                  }
+                }).catch(e => {
+                  console.error(e, e.stack);
+                });
+                break;
+
+            case 8:
+                let itTree = new ActionFormData();
+                itTree.title("Is It a... Tree?");
+                itTree.body("§7 Category\n§r Achievements\n\n§7 Description\n§r Look at a Creaking through a Spyglass... and maybe dont look away after\n\n§e Reward\n§r None\n\n§e Type\n§a Advancement\n\n");
+                itTree.button("Close");
+                itTree.show(event.source).then(r => {
+                  if (r.canceled) return;
+
+                  let itTree_response = r.selection;
+                  switch (itTree_response) {
+                    default:
+                      return;
+                  }
+                }).catch(e => {
+                  console.error(e, e.stack);
+                });
+                break;
+
+              case 9:
+                let timber = new ActionFormData();
+                timber.title("Timber!!!");
+                timber.body("§7 Category\n§r Achievements\n\n§7 Description\n§r Destroy a natural Creaking Heart\n\n§e Reward\n§r None\n\n§e Type\n§a Advancement\n\n");
+                timber.button("Close");
+                timber.show(event.source).then(r => {
+                  if (r.canceled) return;
+
+                  let timber_response = r.selection;
+                  switch (timber_response) {
+                    default:
+                      return;
+                  }
+                }).catch(e => {
+                  console.error(e, e.stack);
+                });
+                break;
+              case 10:
+                let pureHeart = new ActionFormData();
+                pureHeart.title("Pure of Heart");
+                pureHeart.body("§7 Category\n§r Achievements\n\n§7 Description\n§r Collect the resin of a Creaking Heart\n\n§e Reward\n§r None\n\n§e Type\n§a Advancement\n\n");
+                pureHeart.button("Close");
+                pureHeart.show(event.source).then(r => {
+                  if (r.canceled) return;
+
+                  let pureHeart_response = r.selection;
+                  switch (pureHeart_response) {
+                    default:
+                      return;
+                  }
+                }).catch(e => {
+                  console.error(e, e.stack);
+                });
+                break;
+              case 11:
+                let speakTrees = new ActionFormData();
+                speakTrees.title("I Speak for the Trees");
+                backCame.body("§7 Category\n§r Achievements\n\n§7 Description\n§r Obtain a Creaking Heart\n\n§e Reward\n§r 50 Experience\n\n§e Type\n§5 Challenge\n\n");
+                speakTrees.button("Close");
+                speakTrees.show(event.source).then(r => {
+                  if (r.canceled) return;
+
+                  let speakTrees_response = r.selection;
+                  switch (speakTrees_response) {
                     default:
                       return;
                   }

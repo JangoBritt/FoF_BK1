@@ -2,7 +2,6 @@ import { world, system } from "@minecraft/server";
 
 import "./book.js";
 import "./debug.js";
-//import "./witherHeal.js";
 
 
 
@@ -46,3 +45,4 @@ import "./husbandry/wolfArmour.js";
 
 
 import "./achievements/recordBreaker.js";
+import "./achievements/timber.js";

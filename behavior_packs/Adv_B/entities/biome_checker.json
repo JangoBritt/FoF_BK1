@@ -11,7 +11,7 @@
       "adv:despawn": {
         "minecraft:timer": {
           "looping": false,
-          "time": 1,
+          "time": 0.2,
           "time_down_event": {
             "event": "adv:begin_despawn"
           }
@@ -23,7 +23,7 @@
       "adv:spawn": {
         "minecraft:timer": {
           "looping": false,
-          "time": 1,
+          "time": 0.2,
           "time_down_event": {
             "event": "adv:begin_despawn"
           }
@@ -94,6 +94,18 @@
                 ]
               },
               "event": "adv:cherry_grove"
+            },
+            {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_biome_tag",
+                    "subject": "self",
+                    "value": "pale_garden"
+                  }
+                ]
+              },
+              "event": "adv:pale_garden"
             },
             {
               "filters": {
@@ -1486,6 +1498,16 @@
           "command": [
             "execute as @p[tag=!AdventuringTime] run function adv/adventuring_time/test",
             "tag @p add OldGrowthSpruceTaiga"
+          ]
+        },
+        "trigger": "adv:instant_despawn"
+      },
+      "adv:pale_garden": {
+        "queue_command": {
+          "command": [
+            "execute as @p[tag=!AdventuringTime] run function adv/adventuring_time/test",
+            "execute as @p[tag=!GardenAwakens] run function adv/the_garden_awakens/grant",
+            "tag @p add PaleGarden"
           ]
         },
         "trigger": "adv:instant_despawn"

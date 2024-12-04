@@ -1,21 +1,21 @@
 {
     "format_version": 2,
     "header": {
-        "name": "§6[§b2.2.3 B§6] §dAlylica's §bAdvancements",
+        "name": "§6[§b2.3.0 B§6] §dAlylica's §bAdvancements",
         "description": "§uAdds advancements that replicate those seen on Minecraft Java Edition!\n§6Made By : §dAlylica",
         "uuid": "b2d3458c-ed2c-40b3-bedd-83dbd03d1487",
-        "version": [2, 2, 3],
-        "min_engine_version": [1, 21, 10]
+        "version": [2, 3, 0],
+        "min_engine_version": [1, 21, 50]
     },
     "modules": [
         {
             "type": "data",
             "uuid": "eb868c75-73a1-4241-a394-3c0ff896d6b1",
-            "version": [2, 2, 3]
+            "version": [2, 3, 0]
         },
         {
             "uuid": "c0bc5909-cfb7-49b3-9338-8f19dd3d76b3",
-	     "version": [2, 2, 3],
+	     "version": [2, 3, 0],
 	     "type": "script",
 	     "language": "javascript",
 	     "entry": "scripts/main.js"
@@ -24,7 +24,7 @@
     "dependencies": [
         {
             "uuid": "883172a3-6049-4c62-8d26-fc17395b1095",
-            "version": [2, 2, 3]
+            "version": [2, 3, 0]
         },
         {
 			"module_name": "@minecraft/server-ui",

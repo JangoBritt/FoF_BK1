@@ -10,7 +10,8 @@
     "components": {
       "minecraft:max_stack_size": 1,
       "minecraft:glint": true,
-      "minecraft:icon": "book_of_advancements"
+      "minecraft:icon": "book_of_advancements",
+      "minecraft:interact_button": "Open"
     }
   }
 }
