@@ -174,7 +174,13 @@ execute as @a[tag=!MagicHappens,hasitem={item=adv:book_of_advancements}] run fun
 
 
 #A Wild World
-execute as @a[tag=!WildWorld,hasitem=[{item=oak_sapling},{item=spruce_sapling},{item=birch_sapling},{item=jungle_sapling},{item=acacia_sapling},{item=dark_oak_sapling},{item=mangrove_propagule},{item=cherry_sapling}]] run function adv/a_wild_world/grant
+execute as @a[tag=!WildWorld,hasitem=[{item=oak_sapling},{item=spruce_sapling},{item=birch_sapling},{item=jungle_sapling},{item=acacia_sapling},{item=dark_oak_sapling},{item=mangrove_propagule},{item=cherry_sapling},{item=pale_oak_sapling}]] run function adv/a_wild_world/grant
 
 #Fruit on the Loom
 execute as @a[tag=!FruitLoom,hasitem={item=mojang_banner_pattern}] run function adv/fruit_on_the_loom/grant
+
+#I Speak for the Trees
+execute as @a[tag=!SpeakTrees,hasitem={item=creaking_heart}] run function adv/i_speak_for_the_trees/grant
+
+#Pure of Heart
+execute as @a[tag=!PureHeart,hasitem={item=resin_clump}] run function adv/pure_of_heart/grant

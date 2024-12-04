@@ -7,6 +7,7 @@ scoreboard players remove @s[scores={AdventureCount=1..}] AdventureCount 1
 tag @s remove MonstersHunted
 tag @s remove Killed_Blaze
 tag @s remove Killed_CaveSpider
+tag @s remove Killed_Creaking
 tag @s remove Killed_Creeper
 tag @s remove Killed_Drowned
 tag @s remove Killed_ElderGuardian
