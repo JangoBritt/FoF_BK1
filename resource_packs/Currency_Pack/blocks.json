@@ -1,15 +1,10 @@
 {
-    "format_version": [
-      1,
-      1,
-      0
-    ],
+	"format_version": [
+		1,
+		1,
+		0
+	],
 	"coin_crate": {
-		"textures": {
-			"up": "coin_crate_up",
-			"down": "coin_crate_down",
-			"side": "coin_crate_side"
-		},
 		"sound": "wood"
 	},
 	"coin_stack": {

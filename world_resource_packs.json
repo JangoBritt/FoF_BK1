@@ -13,7 +13,7 @@
 	{
 		"pack_id" : "7d8dd50d-f5cb-4e8c-8faa-7d4da782f117", //Expansive Biomes
 		"subpack" : "fog_enable",
-		"version" : [ 1, 0, 39 ]
+		"version" : [ 1, 0, 40 ]
 	},
 	
 	{
@@ -56,7 +56,7 @@
 	
 	{
 		"pack_id" : "9a4bc60d-9e2e-4638-b93b-9b354bb6c64b", //Mailboxes
-		"version" : [ 1, 2, 2	 ]
+		"version" : [ 1, 2, 3	 ]
 	},
 	
 	{
@@ -71,7 +71,7 @@
 	
 	{
 		"pack_id" : "ac9817a6-8634-4493-b7e1-70b560d28cbe", //Medieval Furniture
-		"version" : [ 6, 4, 0 ]
+		"version" : [ 6, 4, 1 ]
 	},
 	
 	{
@@ -81,22 +81,22 @@
 	
 	{
 		"pack_id" : "8850b6e4-469e-4084-9d25-d5367dcb7c64", //Fables Frames Pack
-		"version" : [ 6, 0, 1 ]
+		"version" : [ 6, 0, 2 ]
 	},
 	
 	{
 		"pack_id" : "20002000-ab12-2222-2222-b000b000b000", //Abandoned & Ruined Structures
-		"version" : [ 1, 10, 12 ]
+		"version" : [ 1, 10, 13 ]
 	},
 	
 	{
 		"pack_id" : "910ddcde-dac0-4e42-846d-bbd345f6869e", //Fables Currency Pack
-		"version" : [ 6, 1, 1 ]
+		"version" : [ 6, 1, 2 ]
 	},
 	
 	{
 		"pack_id" : "20002000-1223-2222-2222-b000b000b000", //Lamps & Lanterns
-		"version" : [ 1, 8, 4 ]
+		"version" : [ 1, 8, 5 ]
 	},
 	
 	{
