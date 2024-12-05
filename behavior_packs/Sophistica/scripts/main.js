@@ -498,7 +498,7 @@ const effects = {
         'itemType': comp.food,
         'funcion': false,
         'food': foodAutoFun,
-        'effecto': "effect @s saturation 2 2 true"
+        'effecto': "effect @s saturation 15 2 true"
     },
     'transfer': {
         'itemType': comp.transfer,
@@ -535,16 +535,16 @@ const effects = {
     },
     'apple': {
         'itemType': comp.apple,
-        'command': "effect @s health_boost 2 1 true"
+        'command': "effect @s health_boost 12 1 true"
     },
     'mining': {
         'itemType': comp.mining,
-        'command': "effect @s haste 2 3 true",
+        'command': "effect @s haste 12 3 true",
         'evento': "bp:pick"
     },
     'turtle': {
         'itemType': comp.turtle,
-        'command': "effect @s water_breathing 2 2 true"
+        'command': "effect @s water_breathing 12 2 true"
     },
     'magnet': {
         'itemType': comp.magnet,
