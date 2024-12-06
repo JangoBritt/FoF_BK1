@@ -17,6 +17,16 @@
 					"value": "monster",
 					"test": "has_biome_tag",
 					"operator": "=="
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 1
+				},
+				"minecraft:weight": {
+					"default": 10
+				},
+				"minecraft:density_limit": {
+					"surface": 3
 				}
 			}
 		]

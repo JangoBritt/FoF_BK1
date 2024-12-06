@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "fables_misc:sulfur"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "fables_misc:sulfur_bag"
+            }
+        ],
+        "result": {
+            "item": "korbon:sulfur",
+            "count": 9
+        }
+    }
+}

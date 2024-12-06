@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fables_misc:sulfur_bag"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "WWW",
+            "WWW",
+            "WWW"
+        ],
+        "key": {
+            "W": {
+                "item": "korbon:sulfur"
+            }
+        },
+        "result": {
+            "item": "fables_misc:sulfur_bag"
+        }
+    }
+}

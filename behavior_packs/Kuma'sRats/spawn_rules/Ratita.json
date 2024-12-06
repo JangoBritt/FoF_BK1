@@ -4,7 +4,7 @@
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "kuma:kangaroo_rat",
-			"population_control": "animal"
+			"population_control": "cat"
 		},
 		"conditions": [
 			{
@@ -15,14 +15,14 @@
 					"value": "desert"
 				},
 				"minecraft:herd": {
-					"min_size": 2,
-					"max_size": 3
+					"min_size": 1,
+					"max_size": 2
 				},
 				"minecraft:spawns_on_block_filter": [
 					"minecraft:sand"
 				],
 				"minecraft:density_limit": {
-					"surface": 1
+					"surface": 3
 				}
 			}
 		]

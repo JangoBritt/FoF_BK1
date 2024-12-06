@@ -44,3 +44,5 @@ item.fables_misc:mangrove_book.name=§lSearching the Man Grove§r§f\n Just to b
 item.fables_misc:nether_book.name=§lNether Carpentry§r§f\n A discussion on Weird Wood
 item.fables_misc:oak_book.name=§lGot Wood?§r§f\n Well get some Oak, and then build a table"
 item.fables_misc:spruce_book.name=§lSprucing up the place§r§f\nFurnishings from the Snowy North
+
+tile.fables_misc:sulfur_bag.name=Bag of Sulfur
