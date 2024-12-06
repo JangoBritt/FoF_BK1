@@ -1,28 +1,15 @@
 {
-    "format_version": "1.12",
-    "minecraft:recipe_shaped": {
-      "description": {
-        "identifier": "backpack:backpack_n"
-      },
-      "tags": [
-        "crafting_table"
-      ],
-      "pattern": [
-        " C ",
-        "CBC",
-        " C "
-      ],
-      "key": {
-        "C": {
-          "item": "minecraft:netherite_ingot"
-        },
-        "B": {
-          "item": "backpack:backpack_diamond"
-        }
-      },
-      "result": {
-        "item": "backpack:backpack_nether"
-      }
-    }
-  }
-  
+	"format_version": "1.12",
+	"minecraft:recipe_smithing_transform": {
+	 "description": {
+	   "identifier": "backpack:backpack_n"
+	  },
+	 
+	 "tags": [ "smithing_table" ],
+	 
+	  "template": "minecraft:netherite_upgrade_smithing_template",
+	  "base": "backpack:backpack_diamond",
+	  "addition": "minecraft:netherite_ingot",
+	  "result": "backpack:backpack_nether"
+	}
+}

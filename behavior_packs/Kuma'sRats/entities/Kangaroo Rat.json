@@ -4,11 +4,56 @@
 	"minecraft:entity": {
 		"description": {
 			"identifier": "kuma:kangaroo_rat",
+			"runtime_identifier" : "minecraft:parrot",
 			"is_summonable": true,
 			"is_spawnable": true
 		},
 		"component_groups": {
 			"kuma:ratita_tame": {
+				"minecraft:parrot_not_riding_player": {
+					"minecraft:entity_sensor": {
+					  "relative_range": false,
+					  "subsensors": [
+						{
+						  "range": [ 2.0, 2.0 ],
+						  "event_filters": {
+							"all_of": [
+							  { "test": "is_riding", "subject": "self", "operator": "equals", "value": true },
+							  { "test": "has_component", "subject": "self", "operator": "equals", "value": "minecraft:behavior.look_at_player" }
+							]
+						  },
+						  "event": "minecraft:on_riding_player"
+						}
+					  ]
+					},
+					"minecraft:behavior.look_at_player": {
+					  "priority": 1,
+					  "look_distance": 8.0
+					}
+				  },
+				  "minecraft:parrot_riding_player": {
+					"minecraft:entity_sensor": {
+					  "relative_range": false,
+					  "subsensors": [
+						{
+						  "range": [ 2.0, 2.0 ],
+						  "event_filters": {
+							"all_of": [
+							  { "test": "is_riding", "subject": "self", "operator": "equals", "value": false },
+							  { "test": "has_component", "subject": "self", "operator": "not", "value": "minecraft:behavior.look_at_player" }
+							]
+						  },
+						  "event": "minecraft:on_not_riding_player"
+						}
+					  ]
+					}
+				  },
+				"minecraft:type_family": {
+					"family": [
+						"kuma:ratita",
+						"parrot_tame"
+					]
+				},
 				"minecraft:is_tamed": {},
 				"minecraft:sittable": {},
 				"minecraft:behavior.follow_owner": {
@@ -35,6 +80,11 @@
 				}
 			},
 			"minecraft:ratita_wild": {
+				"minecraft:type_family": {
+					"family": [
+						"kuma:ratita"
+					]
+				},
 				"minecraft:behavior.panic": {
 					"damage_sources": "contact"
 				},
@@ -228,11 +278,6 @@
 					20
 				]
 			},
-			"minecraft:type_family": {
-				"family": [
-					"kuma:ratita"
-				]
-			},
 			"minecraft:behavior.breed": {
 				"priority": 10,
 				"speed_multiplier": 0.9
@@ -252,6 +297,30 @@
 			}
 		},
 		"events": {
+			"minecraft:on_riding_player": {
+				"remove": {
+				  "component_groups": [
+					"minecraft:parrot_not_riding_player"
+				  ]
+				},
+				"add": {
+				  "component_groups": [
+					"minecraft:parrot_riding_player"
+				  ]
+				}
+			  },
+			  "minecraft:on_not_riding_player": {
+				"remove": {
+				  "component_groups": [
+					"minecraft:parrot_riding_player"
+				  ]
+				},
+				"add": {
+				  "component_groups": [
+					"minecraft:parrot_not_riding_player"
+				  ]
+				}
+			  },
 			"minecraft:entity_spawned": {
 				"sequence": [
 					{

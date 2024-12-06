@@ -13,7 +13,7 @@
                 "texture": "complement_food"
             },
             "minecraft:display_name": {
-                "value": "Backpack Addition\n§r§7addition: §9Auto Feeding"
+                "value": "Aditamento Backpack\n§r§7addition: §9Food Auto"
             }
         }
     }
