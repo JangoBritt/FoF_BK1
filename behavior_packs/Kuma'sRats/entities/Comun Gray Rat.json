@@ -19,7 +19,9 @@
 						  "event_filters": {
 							"all_of": [
 							  { "test": "is_riding", "subject": "self", "operator": "equals", "value": true },
-							  { "test": "has_component", "subject": "self", "operator": "equals", "value": "minecraft:behavior.look_at_player" }
+							  { "test": "has_component", "subject": "self", "operator": "equals", "value": "minecraft:behavior.look_at_player" },
+							  { "test": "is_owner", "subject": "other", "value": true }
+
 							]
 						  },
 						  "event": "minecraft:on_riding_player"
@@ -277,7 +279,14 @@
 				"value": 0.5
 			},
 			"minecraft:navigation.walk": {
-				"can_sink": true
+				"can_float": true,
+				"avoid_water": true,
+				"avoid_damage_blocks": true
+			},
+			"minecraft:can_climb": {
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
 			},
 			"minecraft:physics": {
 				"has_gravity": true,
@@ -339,7 +348,11 @@
 			},
 			"minecraft:health": {
 				"value": 10
-			}
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			  }
 		},
 		"events": {
 			"minecraft:entity_spawned": {
