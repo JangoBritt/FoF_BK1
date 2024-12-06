@@ -13,7 +13,7 @@
                 "texture": "complement_liquid"
             },
             "minecraft:display_name": {
-                "value": "Backpack Addition\n§r§7addition: §9Liquid Tanks"
+                "value": "Aditamento Backpack\n§r§7addition: §9Container Liquid"
             }
         }
     }
