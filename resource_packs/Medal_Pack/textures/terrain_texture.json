@@ -4,6 +4,11 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
-		"certificate_diamond": { "textures": ["textures/certificates/certificate_diamond"]}
+		"certificate_diamond": {
+			"textures": "textures/certificates/certificate_diamond"
+		},
+		"sulfur_bag_top": {
+			"textures": "textures/blocks/sulfur_bag_top"
+		}
 	}
 }
