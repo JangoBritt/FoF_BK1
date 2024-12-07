@@ -124,10 +124,10 @@
 		"pack_id" : "026d10cc-e079-4f2a-a95f-f822cbe01ffd", //FoF Avatars
 		"version" : [ 6, 2, 6 ]
 	},
-	{
-		"pack_id" : "6d0f3545-c1cb-46ee-be9d-c3bb01a3ccc5", //Biome Compass
-		"version" : [ 3, 0, 0 ]
-	},
+	// {
+	// 	"pack_id" : "6d0f3545-c1cb-46ee-be9d-c3bb01a3ccc5", //Biome Compass
+	// 	"version" : [ 3, 0, 0 ]
+	// },
 		
 	{
 		"pack_id" : "540f1b1e-20ae-4a1c-8f47-2ae8c892ca6e", //Modern Doors

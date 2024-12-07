@@ -226,6 +226,7 @@ function magnetItemsBackpackLevel2(_0x3c565c, _0x2f90cc, _0x4535f7, _0x52427b, _
                         _0x1915b7 = true;
                         break;
                     } else {
+                        
                         if (_0xb1d58.typeId === _0x5da1f9.typeId && _0xb1d58.amount < _0xb1d58.maxAmount) {
                             const _0x462367 = _0xb1d58.amount + _0x5da1f9.amount;
                             if (_0x462367 <= _0xb1d58.maxAmount) {
