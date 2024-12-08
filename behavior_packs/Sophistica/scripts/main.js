@@ -1330,7 +1330,7 @@ function recordItems(_0x22fbe2, _0xd1ce4f, _0x2d4ea9) {
         _0x3f4e98++;
     }
     if (_0x45904f > 0x0) {
-        _0x474a79.push("§r  " + _0x45904f + " más...");
+        _0x474a79.push("§r  " + _0x45904f + " more...");
     }
     world.setDynamicProperty('' + _0x22fbe2, JSON.stringify(_0x31c700));
     return _0x474a79;
