@@ -300,6 +300,7 @@ export const woodTypes = [
     "minecraft:cherry_log",
     "minecraft:warped_stem",
     "minecraft:crimson_stem",
+    "minecraft:pale_oak_log",
 
     "minecraft:oak_wood",
     'minecraft:spruce_wood',
@@ -311,6 +312,7 @@ export const woodTypes = [
     "minecraft:cherry_wood",
     "minecraft:warped_hyphae",
     "minecraft:crimson_hyphae",
+    "minecraft:pale_oak_wood",
     
     "minecraft:mushroom_stem",    
 

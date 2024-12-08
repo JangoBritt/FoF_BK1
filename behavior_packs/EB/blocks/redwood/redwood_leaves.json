@@ -37,6 +37,7 @@
 				"catch_chance_modifier": 5
 			},
 			"minecraft:custom_components": [
+				"pog:baobableavesDecay",
 				"korbon:fallingleaves"
 			],
 			"minecraft:loot": "loot_tables/blocks/redwood_leaves_drops.json"
