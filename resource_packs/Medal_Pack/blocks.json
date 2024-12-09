@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.40",
+  "fables_misc:leather_pile": {
+    "textures": {
+      "up": "leather_pile_up",
+      "down": "leather_pile_up",
+      "side": "leather_pile_side"
+    },
+    "sound": "cloth"
+  },
+  "fables_misc:vibranium_block": {
+    "sound": "netherite",
+    "textures": "vibranium_block"
+  },
+  "fables_misc:vibranium_crystal_block": {
+    "sound": "amethyst_block",
+    "textures": "vibranium_crystal_block"
+  },
+  "fables_misc:sulfur_bag": {
+    "sound": "cloth"
+  }
+}

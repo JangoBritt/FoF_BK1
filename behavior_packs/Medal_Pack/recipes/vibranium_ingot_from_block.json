@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fables_misc:vibranium_ingot_from_block"
+    },
+    "priority": 3,
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "fables_misc:vibranium_block"
+      }
+    ],
+    "result": {
+      "item": "korbon:vibranium_ingot",
+      "count": 9
+    },
+    "unlock": [
+      {
+        "item": "fables_misc:vibranium_block"
+      }
+    ]
+  }
+}

@@ -27,5 +27,9 @@
 	"textures/medals/server_tour_medal_09",
 	"textures/medals/server_tour_medal_10",
 	"textures/medals/server_tour_medal_11",
-	"textures/medals/server_tour_medal_12"
+	"textures/medals/server_tour_medal_12",
+	"textures/blocks/leather_pile_up",
+	"textures/blocks/leather_pile_side",
+	"textures/blocks/vibranium_crystal_block",
+	"textures/blocks/vibranium_block"
 ]

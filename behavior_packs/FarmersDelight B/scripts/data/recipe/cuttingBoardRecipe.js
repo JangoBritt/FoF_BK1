@@ -112,7 +112,8 @@ const BlockofPickaxeList = [
     "minecraft:cut_copper",
     "minecraft:cut_copper_slab",
     "minecraft:cut_copper_stairs",
-    "minecraft:chiseled_copper"
+    "minecraft:chiseled_copper",
+    "fables_misc:vibranium_crystal_block"
 ];
 const BlockofKnifeList = [
     "minecraft:pumpkin",
