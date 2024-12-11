@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fables_misc:vibranium_crystal_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "WW",
+            "WW"
+        ],
+        "key": {
+            "W": {
+                "item": "korbon:vibranium"
+            }
+        },
+        "result": {
+            "item": "fables_misc:vibranium_crystal_block"
+        }
+    }
+}

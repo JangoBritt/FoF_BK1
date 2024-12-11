@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fables_misc:craft_x_leather_pile"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "fables_misc:leather_pile",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:leather"
+      }
+    ]
+  }
+}

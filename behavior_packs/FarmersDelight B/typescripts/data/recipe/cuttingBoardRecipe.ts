@@ -103,7 +103,8 @@ const BlockofPickaxeList: string[] = [
     "minecraft:deepslate",
     "minecraft:quartz_block",
     "minecraft:stone",
-    "minecraft:nether_brick"
+    "minecraft:nether_brick",
+    "vibranium_crystal_block"
 ];
 const BlockofKnifeList: string[] = [
     "minecraft:pumpkin",

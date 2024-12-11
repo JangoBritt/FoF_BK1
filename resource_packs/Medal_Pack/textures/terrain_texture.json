@@ -9,6 +9,18 @@
 		},
 		"sulfur_bag_top": {
 			"textures": "textures/blocks/sulfur_bag_top"
+		},
+		"leather_pile_side": {
+			"textures": "textures/blocks/leather_pile_side"
+		},
+		"leather_pile_up": {
+			"textures": "textures/blocks/leather_pile_up"
+		},
+		"vibranium_crystal_block": {
+			"textures": "textures/blocks/vibranium_crystal_block"
+		},
+		"vibranium_block": {
+			"textures": "textures/blocks/vibranium_block"
 		}
 	}
 }

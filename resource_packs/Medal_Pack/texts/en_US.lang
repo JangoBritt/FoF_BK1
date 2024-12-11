@@ -46,3 +46,6 @@ item.fables_misc:oak_book.name=§lGot Wood?§r§f\n Well get some Oak, and then 
 item.fables_misc:spruce_book.name=§lSprucing up the place§r§f\nFurnishings from the Snowy North
 
 tile.fables_misc:sulfur_bag.name=Bag of Sulfur
+tile.fables_misc:vibranium_crystal_block.name=Vibranium Crystal Block
+tile.fables_misc:vibranium block.name=Vibranium Block
+tile.fables_misc:leather_pile.name=Pile of Leather
