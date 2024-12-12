@@ -47,5 +47,5 @@ item.fables_misc:spruce_book.name=§lSprucing up the place§r§f\nFurnishings fr
 
 tile.fables_misc:sulfur_bag.name=Bag of Sulfur
 tile.fables_misc:vibranium_crystal_block.name=Vibranium Crystal Block
-tile.fables_misc:vibranium block.name=Vibranium Block
+tile.fables_misc:vibranium_block.name=Vibranium Block
 tile.fables_misc:leather_pile.name=Pile of Leather
