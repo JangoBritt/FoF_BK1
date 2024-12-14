@@ -91,7 +91,7 @@
 	
 	{
 		"pack_id" : "910ddcde-dac0-4e42-846d-bbd345f6869e", //Fables Currency Pack
-		"version" : [ 6, 1, 2 ]
+		"version" : [ 6, 1, 3 ]
 	},
 	
 	{
@@ -127,6 +127,10 @@
 	// 	"pack_id" : "0641b13f-6000-4eac-8c1e-6390e5fccb29", //Biome Compass
 	// 	"version" : [ 3, 0, 0 ]
 	// },
+	{
+		"pack_id" : "f71c753f-e73d-4959-ab45-af8ab1dafa80", //FoF Paintings
+		"version" : [ 7, 0, 0 ]
+	},
 	{
 		"pack_id": "08364f0f-c53a-4ecf-b8d2-5cb52356ca80", //Better Beds
 		"version": [1, 7, 0]

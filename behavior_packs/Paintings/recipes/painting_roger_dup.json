@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "fables_painting:painting_roger_dup"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "fables_painting:painting_roger"
+            },
+            {
+                "item": "minecraft:painting"
+            }
+        ],
+        "result": {
+            "item": "fables_painting:painting_roger",
+			"count": 2
+        }
+    }
+}
