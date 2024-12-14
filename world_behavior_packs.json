@@ -87,10 +87,10 @@
 		"pack_id" : "10ba4924-e71c-47a3-a456-ff77d7ef4e7e", //Medieval Furniture
 		"version" : [ 6, 4, 0 ]
 	},
-	// {
-	// 	"pack_id" : "91879d55-d90a-411b-8aff-21b58979b6a3", //FoF Paintings
-	// 	"version" : [ 6, 1, 1 ]
-	// },
+	{
+		"pack_id" : "91879d55-d90a-411b-8aff-21b58979b6a3", //FoF Paintings
+		"version" : [ 7, 0, 0 ]
+	},
 	{
 		"pack_id" : "10001000-1223-1111-1111-a000a000a000", //Abandoned Ruins
 		"version" : [ 1, 8, 4 ]
