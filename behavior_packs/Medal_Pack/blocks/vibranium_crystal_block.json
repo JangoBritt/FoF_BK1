@@ -20,7 +20,7 @@
                 "explosion_resistance": 3
             },
             "minecraft:geometry": "geometry.block",
-            "minecraft:loot": "loot_tables/leather_pile.json"
+            "minecraft:loot": "loot_tables/vibranium_crystal_block.json"
         }
     }
 }
