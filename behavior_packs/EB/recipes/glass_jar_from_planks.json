@@ -14,7 +14,7 @@
 		],
 		"key": {
 			"A": {
-				"item": "minecraft:planks"
+				"tag": "minecraft:planks"
 			},
 			"B": {
 				"item": "minecraft:glass"

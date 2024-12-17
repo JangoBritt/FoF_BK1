@@ -43,12 +43,12 @@
 							"max_dist": 5
 						}
 					]
+				},
+				"minecraft:attack": {
+					"damage": 1,
+					"effect_name": "hunger",
+					"effect_duration": 2
 				}
-				// "minecraft:attack": {
-				// 	"damage": 1,
-				// 	"effect_name": "hunger",
-				// 	"effect_duration": 2
-				// }
 			},
 			"minecraft:ratita_wild": {
 				"minecraft:behavior.panic": {
@@ -60,9 +60,9 @@
 					"angle_of_view_horizontal": 225,
 					"angle_of_view_vertical": 225
 				},
-				// "minecraft:attack_damage": {
-				// 	"value": 2
-				// },
+				"minecraft:attack_damage": {
+					"value": 1
+				},
 				"minecraft:behavior.random_stroll": {
 					"priority": 5
 				},
@@ -93,12 +93,12 @@
 					"family": [
 						"cat"
 					]
+				},
+				"minecraft:attack": {
+					"damage": 1,
+					"effect_name": "hunger",
+					"effect_duration": 2
 				}
-				// "minecraft:attack": {
-				// 	"damage": 1,
-				// 	"effect_name": "hunger",
-				// 	"effect_duration": 2
-				// }
 			},
 			"minecraft:rat_baby": {
 				"minecraft:is_baby": {},
@@ -217,13 +217,13 @@
 			"minecraft:lava_movement": {
 				"value": 0.3
 			},
-			// "minecraft:behavior.melee_attack": {
-			// 	"priority": 5
-			// },
-			// "minecraft:behavior.leap_at_target": {
-			// 	"priority": 4,
-			// 	"target_dist": 0.4
-			// },
+			"minecraft:behavior.melee_attack": {
+				"priority": 5
+			},
+			"minecraft:behavior.leap_at_target": {
+				"priority": 4,
+				"target_dist": 0.4
+			},
 			"minecraft:behavior.hurt_by_target": {
 				"priority": 3
 			},

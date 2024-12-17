@@ -7,36 +7,36 @@
 			"is_summonable": true,
 			"is_spawnable": true
 		},
-		// "component_groups": {
-		// 	"poison": {
-		// 		"minecraft:attack": {
-		// 			"effect_name": "poison",
-		// 			"damage": 1,
-		// 			"effect_duration": 4
-		// 		}
-		// 	},
-		// 	"slowness": {
-		// 		"minecraft:attack": {
-		// 			"effect_name": "slowness",
-		// 			"damage": 1,
-		// 			"effect_duration": 4
-		// 		}
-		// 	},
-		// 	"wither": {
-		// 		"minecraft:attack": {
-		// 			"effect_name": "wither",
-		// 			"damage": 1,
-		// 			"effect_duration": 5
-		// 		}
-		// 	},
-		// 	"nausea": {
-		// 		"minecraft:attack": {
-		// 			"effect_name": "nausea",
-		// 			"effect_duration": 5,
-		// 			"damage": 1
-		// 		}
-		// 	}
-		// },
+		"component_groups": {
+			"poison": {
+				"minecraft:attack": {
+					"effect_name": "poison",
+					"damage": 1,
+					"effect_duration": 1
+				}
+			},
+			"slowness": {
+				"minecraft:attack": {
+					"effect_name": "slowness",
+					"damage": 1,
+					"effect_duration": 1
+				}
+			},
+			"wither": {
+				"minecraft:attack": {
+					"effect_name": "wither",
+					"damage": 1,
+					"effect_duration": 1
+				}
+			},
+			"nausea": {
+				"minecraft:attack": {
+					"effect_name": "nausea",
+					"effect_duration": 1,
+					"damage": 1
+				}
+			}
+		},
 		"components": {
 			"minecraft:despawn": {
 				"despawn_from_distance": {}
@@ -87,80 +87,80 @@
 				]
 			},
 			"minecraft:is_shaking": {},
-			// "minecraft:behavior.nearest_attackable_target": {
-			// 	"priority": 10,
-			// 	"must_see": true,
-			// 	"reselect_targets": true,
-			// 	"within_radius": 25,
-			// 	"must_see_forget_duration": 17,
-			// 	"entity_types": [
-			// 		{
-			// 			"filters": {
-			// 				"any_of": [
-			// 					{
-			// 						"test": "is_family",
-			// 						"subject": "other",
-			// 						"value": "player"
-			// 					},
-			// 					{
-			// 						"test": "is_family",
-			// 						"subject": "other",
-			// 						"value": "snowgolem"
-			// 					},
-			// 					{
-			// 						"test": "is_family",
-			// 						"subject": "other",
-			// 						"value": "irongolem"
-			// 					}
-			// 				]
-			// 			},
-			// 			"max_dist": 35
-			// 		},
-			// 		{
-			// 			"filters": {
-			// 				"any_of": [
-			// 					{
-			// 						"test": "is_family",
-			// 						"subject": "other",
-			// 						"value": "villager"
-			// 					},
-			// 					{
-			// 						"test": "is_family",
-			// 						"subject": "other",
-			// 						"value": "wandering_trader"
-			// 					}
-			// 				]
-			// 			},
-			// 			"max_dist": 35,
-			// 			"must_see": false
-			// 		},
-			// 		{
-			// 			"filters": {
-			// 				"all_of": [
-			// 					{
-			// 						"test": "is_family",
-			// 						"subject": "other",
-			// 						"value": "baby_turtle"
-			// 					},
-			// 					{
-			// 						"test": "in_water",
-			// 						"subject": "other",
-			// 						"operator": "!=",
-			// 						"value": true
-			// 					}
-			// 				]
-			// 			},
-			// 			"max_dist": 35
-			// 		}
-			// 	]
-			// },
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 10,
+				"must_see": true,
+				"reselect_targets": true,
+				"within_radius": 16,
+				"must_see_forget_duration": 17,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "snowgolem"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "irongolem"
+								}
+							]
+						},
+						"max_dist": 16
+					},
+					{
+						"filters": {
+							"any_of": [
+								// {
+								// 	"test": "is_family",
+								// 	"subject": "other",
+								// 	"value": "villager"
+								// },
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "wandering_trader"
+								}
+							]
+						},
+						"max_dist": 16,
+						"must_see": true
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "baby_turtle"
+								},
+								{
+									"test": "in_water",
+									"subject": "other",
+									"operator": "!=",
+									"value": true
+								}
+							]
+						},
+						"max_dist": 16
+					}
+				]
+			},
 			"minecraft:behavior.hurt_by_target": {
 				"priority": 1
 			},
-			// "minecraft:behavior.melee_attack": {
-			// 	"priority": 4,
-			// 	"track_target": true
-			// },
+			"minecraft:behavior.melee_attack": {
+				"priority": 4,
+				"track_target": true
+			},
 			"minecraft:burns_in_daylight": {},
 			"minecraft:scale": {
 				"value": 0.8
@@ -170,44 +170,44 @@
 					"monster"
 				]
 			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"randomize": [
+							{
+								"add": {
+									"component_groups": [
+										"poison"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"slowness"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"wither"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"nausea"
+									]
+								}
+							}
+						]
+					}
+				]
+			}
 		}
-		// "events": {
-		// 	"minecraft:entity_spawned": {
-		// 		"sequence": [
-		// 			{
-		// 				"randomize": [
-		// 					{
-		// 						"add": {
-		// 							"component_groups": [
-		// 								"poison"
-		// 							]
-		// 						}
-		// 					},
-		// 					{
-		// 						"add": {
-		// 							"component_groups": [
-		// 								"slowness"
-		// 							]
-		// 						}
-		// 					},
-		// 					{
-		// 						"add": {
-		// 							"component_groups": [
-		// 								"wither"
-		// 							]
-		// 						}
-		// 					},
-		// 					{
-		// 						"add": {
-		// 							"component_groups": [
-		// 								"nausea"
-		// 							]
-		// 						}
-		// 					}
-		// 				]
-		// 			}
-		// 		]
-		// 	}
-		// }
 	}
 }
