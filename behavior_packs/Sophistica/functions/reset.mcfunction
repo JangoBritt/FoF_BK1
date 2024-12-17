@@ -1,1 +1,0 @@
-event entity @e[type=backpack:entity_container] despawn2
