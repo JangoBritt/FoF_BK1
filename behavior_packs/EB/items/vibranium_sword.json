@@ -35,7 +35,7 @@
 					},
 					{
 						"block": "minecraft:bamboo",
-						"speed": 10
+						"speed": 100
 					}
 				]
 			},
