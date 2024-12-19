@@ -1,0 +1,43 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "An Item For Calling The Mount To Your Location!",
+		"name": "Mounts Whistle BP",
+		"uuid": "1c11cb2d-9375-4b42-ae69-2efd6ef58a96",
+		"version": [ 3, 0, 0 ],
+		"min_engine_version": [ 1, 20, 0 ]
+	},
+	"modules": [
+		{
+			"description": "An Item For Calling The Mount To Your Location!",
+			"type": "data",
+			"uuid": "ceafd586-86b1-468c-bdf9-2e3d053dc8ee",
+			"version": [ 3, 0, 0 ]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "7329e545-9cc9-472d-b71a-5a245140b5b2",
+			"version": [ 1, 0, 0 ]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.13.0"
+		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "chwh",
+			"name": "Compatible With §6Charm",
+			"memory_tier": 0
+		},
+		{
+			"folder_name": "empty",
+			"name": "No Compatibility",
+			"memory_tier": 1
+		}
+	]
+}

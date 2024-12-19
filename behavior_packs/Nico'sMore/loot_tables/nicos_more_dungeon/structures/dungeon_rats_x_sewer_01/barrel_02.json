@@ -1,0 +1,71 @@
+// Food Barrel:
+{
+  "pools": [
+    // Materials
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/materials.json"
+        }
+      ]
+    },
+    // Minerals
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/minerals.json"
+        }
+      ]
+    },
+    // Foods
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/foods.json"
+        }
+      ]
+    },
+    // Crops
+    {
+      "rolls": 7,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/crops.json"
+        }
+      ]
+    },
+    // Plants 
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/plants.json"
+        }
+      ]
+    },
+    // Potions
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/potions.json"
+        }
+      ]
+    }
+  ]
+}

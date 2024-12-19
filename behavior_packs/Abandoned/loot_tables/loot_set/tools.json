@@ -392,8 +392,7 @@
         {"type": "item","weight": 5,"name": "farmersdelight:diamond_knife","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 75,"name": "farmersdelight:flint_knife","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 50,"name": "farmersdelight:golden_knife","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "farmersdelight:iron_knife","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "biomecompass:biomecompass_00","functions": [{"function": "set_count","count": 1}]}
+        {"type": "item","weight": 25,"name": "farmersdelight:iron_knife","functions": [{"function": "set_count","count": 1}]}
       ]
     }
   ]

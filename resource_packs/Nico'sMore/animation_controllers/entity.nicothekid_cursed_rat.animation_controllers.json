@@ -1,0 +1,111 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.entity.nicothekid_cursed_rat.combat": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+					  {
+							"attack_melee": "variable.attack_time > 0.0"
+						}
+					]
+				},
+				"attack_melee": {
+					"animations": [ "attack_melee" ],
+					"transitions": [
+						{
+							"default": "variable.attack_time <= 0.0"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.entity.nicothekid_cursed_rat.interested": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"interested": "query.is_interested"
+						}
+					]
+				},
+				"interested": {
+					"animations": [ "interested" ],
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"default": "!query.is_interested"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.entity.nicothekid_cursed_rat.summoning_particles": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+					  {
+							"summoning_effect": "query.life_span != 0.0"
+						}
+					]
+				},
+				"summoning_effect": {
+					"particle_effects": [
+            {
+              "effect": "summoning_particle",
+							"locator": "lead"
+            },
+            {
+              "effect": "summoned_particle",
+							"locator": "lead"
+            }
+          ],
+          "transitions": [
+					  {
+							"desummoning_effect": "query.life_span == 10.0 || !query.is_alive"
+						}
+					]
+				},
+				"desummoning_effect": {
+					"particle_effects": [
+            {
+              "effect": "desummoning_particle",
+							"locator": "lead"
+            }
+          ]
+				}
+			}
+		},
+		"controller.animation.entity.nicothekid_cursed_rat.movement": {
+			"initial_state": "walking",
+			"states": {
+				"walking": {
+					"animations": [
+						{
+							"walking": "query.modified_move_speed * 1.6"
+						}
+					],
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"sitting": "query.is_sitting"
+						}
+					]
+				},
+				"sitting": {
+					"animations": [ "sitting" ],
+					"blend_transition": 0.4,
+					"transitions": [
+					  {
+					    "walking": "!query.is_sitting"
+					  }
+					]
+				}
+			}
+		}
+	}
+}

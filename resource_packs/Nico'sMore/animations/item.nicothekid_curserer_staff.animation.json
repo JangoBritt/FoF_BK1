@@ -1,0 +1,55 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.item.nicothekid_curserer_staff.staff_animation": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+			  "staff_feather": {
+					"rotation": {
+						"0.0": [0, 90, 0],
+						"2.0": [0, 90, 0]
+					}
+				},
+				"neck": {
+					"scale": {
+						"0.0": [0.65, 0.7, 0.65],
+						"2.0": [0.65, 0.7, 0.65]
+					}
+				},
+				"feather_1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [15, 0, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"feather_2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-15, 0, 0],
+						"2.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.item.nicothekid_curserer_staff.wield_first_person": {
+      "loop": true,
+      "bones": {
+        "rightItem": {
+          "position": [ -7.0, -3.0, -2.0 ],
+          "rotation": [ 152.0, -9.0, 25.0 ]
+        }
+      }
+    },
+    "animation.item.nicothekid_curserer_staff.wield_third_person": {
+      "loop": true,
+      "bones": {
+        "rightItem": {
+          "position": [ 1.5, -2.5, -10.5 ],
+          "rotation": [ 97.0, -1.5, -49.0 ]
+        }
+      }
+    }
+	}
+}

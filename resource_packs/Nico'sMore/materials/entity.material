@@ -1,0 +1,48 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "item_hammer:entity_nocull": {
+      "+defines": [ "ALPHA_TEST", "USE_EMISSIVE" ],
+      "+samplerStates": [
+        {
+          "samplerIndex": 1,
+          "textureWrap": "Repeat"
+        }
+      ],
+      "msaaSupport": "Both"
+    },
+    "item_hammer_animated:entity_emissive_alpha": {
+      "+defines": [ "USE_UV_ANIM", "USE_EMISSIVE" ]
+    },
+    "item_staff:entity_nocull": {
+      "+defines": [ "ALPHA_TEST", "USE_EMISSIVE" ],
+      "+samplerStates": [
+        {
+          "samplerIndex": 1,
+          "textureWrap": "Repeat"
+        }
+      ],
+      "msaaSupport": "Both"
+    },
+    "item_staff_animated:entity_emissive_alpha": {
+      "+defines": [ "USE_UV_ANIM", "USE_EMISSIVE" ]
+    },
+    
+    "projectile_block:entity_emissive_alpha": {},
+    "projectile_curse_magic_missile:entity_emissive_alpha": {},
+    "projectile_egg:entity_emissive_alpha": {},
+    "projectile_fire_spike_magic_missile:entity_emissive_alpha": {},
+    "projectile_flat:entity_alphatest": {},
+    
+    "nicothekid_brute_zombie:entity_emissive_alpha": {},
+    "nicothekid_cobbled_deepslate_golem:entity_emissive_alpha": {},
+    "nicothekid_cursed_rat:entity_emissive_alpha": {},
+    "nicothekid_elder_golem:entity_emissive_alpha": {},
+    "nicothekid_ground_spikes:entity_alphatest": {
+      "+defines": [ "USE_UV_ANIM", "USE_EMISSIVE" ]
+    },
+    "nicothekid_piglin_chief:entity_emissive_alpha": {},
+    "nicothekid_rat:entity_emissive_alpha": {},
+    "nicothekid_rat_curserer:entity_emissive_alpha": {}
+  }
+}

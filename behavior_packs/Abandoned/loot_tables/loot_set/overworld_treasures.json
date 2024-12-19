@@ -102,8 +102,7 @@
         {"type": "item","weight": 25,"name": "korbon:crocodile_meat_cooked","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 25,"name": "korbon:crocodile_meat_raw","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 25,"name": "korbon:grizzly_bear_pelt","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "korbon:stinger","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 10,"name": "sophisticated_backpack:backpack_item","functions": [{"function": "set_count","count": 1}]}      
+        {"type": "item","weight": 25,"name": "korbon:stinger","functions": [{"function": "set_count","count": 1}]}
       ]
     }
   ]

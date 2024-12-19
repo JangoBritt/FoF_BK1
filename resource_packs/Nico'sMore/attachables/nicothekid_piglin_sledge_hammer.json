@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "nicothekid:piglin_sledge_hammer",
+      "item": {
+				"nicothekid:piglin_sledge_hammer": "query.get_equipped_item_name('main_hand') == 'piglin_sledge_hammer'"
+			},
+      "render_controllers": [
+        "controller.render.item.nicothekid_piglin_sledge_hammer"
+      ],
+      "geometry": {
+        "default": "geometry.item.nicothekid_piglin_sledge_hammer"
+      },
+      "materials": {
+        "default": "item_hammer",
+        "enchanted": "item_hammer"
+      },
+      "textures": {
+        "default": "textures/models/ntk_piglin_sledge_hammer",
+        "enchanted": "textures/models/ntk_piglin_sledge_hammer"
+      },
+      "animations": {
+        "controller_wield": "controller.animation.item.nicothekid_piglin_sledge_hammer.wield",
+        "remodel_animation": "animation.item.nicothekid_piglin_sledge_hammer.remodel_animation",
+        "wield_first_person": "animation.item.nicothekid_piglin_sledge_hammer.wield_first_person",
+        "wield_third_person": "animation.item.nicothekid_piglin_sledge_hammer.wield_third_person"
+      },
+      "scripts": {
+        "should_update_bones_and_effects_offscreen": true,
+        "animate": [
+          "controller_wield",
+          "remodel_animation"
+        ]
+      }
+    }
+  }
+}

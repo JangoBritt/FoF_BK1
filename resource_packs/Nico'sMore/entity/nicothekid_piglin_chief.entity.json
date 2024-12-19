@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:piglin_chief",
+      "spawn_egg": {
+        "base_color": "#49393F",
+        "overlay_color": "#F9F3A4"
+      },
+      "render_controllers": [
+        "controller.render.entity.nicothekid_piglin_chief"
+      ],
+      "geometry": {
+        "default": "geometry.entity.nicothekid_piglin_chief"
+      },
+      "materials": {
+        "default": "nicothekid_piglin_chief"
+      },
+      "textures": {
+        "variant_0_piglin_chief": "textures/entity/ntk_piglin_chief"
+      },
+      "particle_effects": {
+        "piglin_fire_staff_particle": "nicothekid:piglin_fire_staff_particle",
+        "piglin_fire_staff_charging_particle": "nicothekid:piglin_fire_staff_charging_particle"
+      },
+      "animations": {
+        "controller_combat": "controller.animation.entity.nicothekid_piglin_chief.combat",
+        "controller_movement": "controller.animation.entity.nicothekid_piglin_chief.movement",
+        "attack_melee": "animation.entity.nicothekid_piglin_chief.attack_melee",
+        "attack_melee_staff": "animation.entity.nicothekid_piglin_chief.attack_melee_staff",
+        "attack_staffed": "animation.entity.nicothekid_piglin_chief.attack_staffed",
+        "bobbing": "animation.entity.nicothekid_piglin_chief.bobbing",
+        "look_at_target": "animation.entity.nicothekid_piglin_chief.look_at_target",
+        "walking": "animation.entity.nicothekid_piglin_chief.walking"
+      },
+      "scripts": {
+				"animate": [
+					"controller_combat",
+					"controller_movement",
+					"bobbing",
+					{
+						"look_at_target": 0.8
+					}
+				]
+			}
+    }
+  }
+}

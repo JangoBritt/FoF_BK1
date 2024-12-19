@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:projectile_curse_magic_missile_2",
+      "render_controllers": [
+        "controller.render.projectile.nicothekid_curse_magic_missile"
+      ],
+      "geometry": {
+        "default": "geometry.projectile.nicothekid_cross_missile"
+      },
+      "materials": {
+        "default": "projectile_curse_magic_missile"
+      },
+      "textures": {
+        "variant_0_projectile_curse_magic_missile": "textures/projectiles/ntk_curse_magic_missile"
+      },
+      "particle_effects": {
+				"curse_magic_missile_particle": "nicothekid:curse_magic_missile_particle"
+			},
+      "animations": {
+        "controller_travelling": "controller.animation.projectile.nicothekid_curse_magic_missile.travelling",
+        "travelling": "animation.projectile.nicothekid_curse_magic_missile.travelling"
+      },
+      "scripts": {
+        "animate": [
+          "controller_travelling"
+        ]
+      }
+    }
+  }
+}

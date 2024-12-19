@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.entity.nicothekid_ground_spikes.combat": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+					  {
+							"attack_melee": "variable.attack_time > 0.0"
+						}
+					]
+				},
+				"attack_melee": {
+					"animations": [ "attack_melee" ],
+					"transitions": [
+						{
+							"default": "variable.attack_time <= 0.0"
+						}
+					]
+				}
+			}
+		}
+	}
+}

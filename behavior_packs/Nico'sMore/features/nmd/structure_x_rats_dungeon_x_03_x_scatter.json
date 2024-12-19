@@ -1,0 +1,14 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "nicothekid:nmd/structure_x_rats_dungeon_x_03_x_scatter"
+		},
+		"places_feature": "nicothekid:nmd/structure_x_rats_dungeon_x_02_x_structure",
+		"project_input_to_floor": false,
+		"iterations": 1.0,
+		"x": -16,
+		"y": -8,
+		"z": -16
+	}
+}

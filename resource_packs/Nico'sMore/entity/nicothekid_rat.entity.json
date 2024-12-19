@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:rat",
+      "spawn_egg": {
+        "base_color": "#4B4541",
+        "overlay_color": "#E7B29A"
+      },
+      "render_controllers": [
+        "controller.render.entity.nicothekid_rat"
+      ],
+      "geometry": {
+        "default": "geometry.entity.nicothekid_rat"
+      },
+      "materials": {
+        "default": "nicothekid_rat"
+      },
+      "textures": {
+        "variant_0_rat_wild": "textures/entity/ntk_rat_wild",
+        "variant_1_rat_tamed": "textures/entity/ntk_rat_tamed"
+      },
+      "particle_effects": {
+        "cursing_particle": "nicothekid:rat_cursing_particle"
+      },
+      "animations": {
+        "controller_combat": "controller.animation.entity.nicothekid_rat.combat",
+        "controller_cursing_transform": "controller.animation.entity.nicothekid_rat.cursing_transform",
+        "controller_interested": "controller.animation.entity.nicothekid_rat.interested",
+        "controller_movement": "controller.animation.entity.nicothekid_rat.movement",
+        "attack_melee": "animation.entity.nicothekid_rat.attack_melee",
+        "baby_scaling": "animation.entity.nicothekid_rat.baby_scaling",
+        "interested": "animation.entity.nicothekid_rat.interested",
+        "look_at_target": "animation.entity.nicothekid_rat.look_at_target",
+        "sitting": "animation.entity.nicothekid_rat.sitting",
+        "walking": "animation.entity.nicothekid_rat.walking"
+      },
+      "scripts": {
+				"animate": [
+          "controller_combat",
+          "controller_cursing_transform",
+          "controller_interested",
+          "controller_movement",
+          {
+            "baby_scaling": "query.is_baby"
+          },
+					{
+						"look_at_target": 0.8
+					}
+				]
+			}
+    }
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "weight": 10,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_armor_trims.json"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_axes.json"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_boots.json"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_chestplates.json"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_helmets.json"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_hoes.json"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_leggings.json"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_pickaxes.json"
+        },
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_pottery_sherds.json"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_shovels.json"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_swords.json"
+        },
+        // Materials
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:armadillo_scute",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:leather",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:phantom_membrane",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:rabbit_hide",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:turtle_scute",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        // Minerals:
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:prismarine_crystals",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:prismarine_shard",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        // Equipment:
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.05,
+                "max": 0.75
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.50
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.05,
+                "max": 0.75
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.50
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

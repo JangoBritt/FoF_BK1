@@ -27,24 +27,11 @@
 		"pack_id" : "f5741565-6be8-4ad5-879a-130c644ff694", //Graves
 		"version" : [ 2, 1, 4 ]
 	},
-	
-	// {
-	// 	"pack_id" : "5f777d4a-87be-42b0-8b17-33648ff355a6", //LootR
-	// 	"version" : [ 1, 8, 0 ]
-	// },
-	
+
 	{
 		"pack_id" : "957de88d-d527-48cc-bda5-d84ed2cc094e", //Kuma'sRats
 		"version" : [ 1, 2, 1 ]
 	},
-	// {
-	// 	"pack_id" : "8b1aa586-0871-2bed-b9e0-47997bc19dd5", //Sophisticangel Backpacks
-	// 	"version" : [ 0, 5, 2 ]
-	// },
-	// {
-	// 	"pack_id" : "65c49b7a-e1c1-4c89-a8d3-01c99bd27c6b", //Ultra Backpacks
-	// 	"version" : [ 2, 0, 0 ]
-	// },
 
 	{
 		"pack_id" : "b17755d2-3cc0-424b-89dd-558fc98513f5", //Bedrock Bridge
@@ -66,7 +53,6 @@
 	
 	{
 		"pack_id" : "fcd5a4e5-887c-4496-955c-5a89ab947f12", //Wandering Trader
-		"subpack" : "standard",
 		"version" : [ 6, 1, 1 ]
 	},
 	
@@ -95,7 +81,12 @@
 		"pack_id" : "10001000-1223-1111-1111-a000a000a000", //Abandoned Ruins
 		"version" : [ 1, 8, 4 ]
 	},
-	
+
+	// {
+	// 	"pack_id" : "10001000-3de0-1111-1111-a000a000a000", //Nico's More More Dungeons
+	// 	"version" : [ 1, 3, 30 ]
+	// },
+
 	{
 		"pack_id" : "f8898c09-6d29-44fe-8303-15dfda9aba44", //FXNT Mob Heads
 		"version" : [ 3, 5, 0 ]
@@ -124,10 +115,6 @@
 		"pack_id" : "026d10cc-e079-4f2a-a95f-f822cbe01ffd", //FoF Avatars
 		"version" : [ 6, 2, 6 ]
 	},
-	// {
-	// 	"pack_id" : "6d0f3545-c1cb-46ee-be9d-c3bb01a3ccc5", //Biome Compass
-	// 	"version" : [ 3, 0, 0 ]
-	// },
 		
 	{
 		"pack_id" : "540f1b1e-20ae-4a1c-8f47-2ae8c892ca6e", //Modern Doors
@@ -137,5 +124,9 @@
 	{
 		"pack_id" : "949fe917-3b4b-4d47-8c64-3b8046fde4b5", //Better Beds
 		"version" : [ 1, 7, 0 ]
-	}
+	}//,
+	// {
+	// 	"pack_id": "1c11cb2d-9375-4b42-ae69-2efd6ef58a96", //Mounts Whistle
+	// 	"version": [ 3, 0, 0 ]
+	// }
 ]

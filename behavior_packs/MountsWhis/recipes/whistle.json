@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "whs:whistle"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  B",
+      " A ",
+      "A  "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bamboo"
+      },
+      "B": {
+        "item": "minecraft:sugar_cane"
+      }
+    },
+    "unlock": [
+      {
+        "item": "whs:whistle"
+      }
+    ],
+    "result": [
+      {
+        "item": "whs:whistle"
+      }
+    ]
+  }
+}

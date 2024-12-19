@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:ground_spikes",
+      "render_controllers": [
+        "controller.render.entity.nicothekid_ground_spikes"
+      ],
+      "geometry": {
+        "default": "geometry.entity.nicothekid_ground_spikes"
+      },
+      "materials": {
+        "default": "nicothekid_ground_spikes"
+      },
+      "textures": {
+        "variant_0_ground_spikes": "textures/entity/ntk_ground_spikes"
+      },
+      "animations": {
+        "controller_combat": "controller.animation.entity.nicothekid_ground_spikes.combat",
+        "attack_melee": "animation.entity.nicothekid_ground_spikes.attack_melee"
+      },
+      "scripts": {
+				"animate": [
+				  "controller_combat"
+				]
+			}
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+	"format_version": "1.20.20",
+	"sound_definitions": {
+	  "item.nicothekid_piglin_sledge_hammer.use": {
+      "__use_legacy_max_distance": "false",
+      "category": "player",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        "sounds/random/smithing_table2"
+      ]
+    },
+    "mob.nicothekid_cobbled_deepslate_golem.repair": {
+      "__use_legacy_max_distance": "true",
+      "category": "neutral",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        "sounds/block/deepslate/step1",
+        "sounds/block/deepslate/step2",
+        "sounds/block/deepslate/stepe",
+        "sounds/block/deepslate/step4",
+        "sounds/block/deepslate/step5",
+        "sounds/block/deepslate/step6"
+      ]
+    },
+    "mob.nicothekid_cobbled_deepslate_golem.sit": {
+      "__use_legacy_max_distance": "true",
+      "category": "neutral",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        "sounds/block/deepslate/break1",
+        "sounds/block/deepslate/break2",
+        "sounds/block/deepslate/break3",
+        "sounds/block/deepslate/break4"
+      ]
+    },
+    "mob.nicothekid_cobbled_deepslate_golem.stand": {
+      "__use_legacy_max_distance": "true",
+      "category": "neutral",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        "sounds/block/deepslate/step1",
+        "sounds/block/deepslate/step2",
+        "sounds/block/deepslate/stepe",
+        "sounds/block/deepslate/step4",
+        "sounds/block/deepslate/step5",
+        "sounds/block/deepslate/step6"
+      ]
+    },
+    "event.nicothekid_cursed_sound": {
+      "__use_legacy_max_distance": "true",
+      "category": "hostile",
+      "max_distance": null,
+      "min_distance": null,
+			"sounds": [
+				"sounds/event/nicos_mobs/cursed_sound_01"
+			]
+		}
+	}
+}

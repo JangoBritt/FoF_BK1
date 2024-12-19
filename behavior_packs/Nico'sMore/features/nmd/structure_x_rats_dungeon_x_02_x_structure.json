@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "nicothekid:nmd/structure_x_rats_dungeon_x_02_x_structure"
+    },
+    "structure_name": "mystructure:nmd/rats_dungeon_01",
+    "adjustment_radius": 0,
+    "facing_direction": "south",
+    "constraints": {
+    }
+  }
+}

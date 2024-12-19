@@ -1,0 +1,55 @@
+{
+  "format_version": "1.21.40",
+  "nicothekid:spawner_blaze": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_hoglin": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_pig": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_piglin": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_piglin_brute": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_skeleton": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_wither_skeleton": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_zoglin": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_zombified_piglin": {
+    "sound": "stone"
+  },
+  
+  "nicothekid:block_of_rotten_brute_flesh": {
+    "sound": "netherrack"
+  },
+  "nicothekid:spawner_brute_zombie": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_cobbled_deepslate_golem": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_cursed_rat": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_elder_golem": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_piglin_chief": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_rat": {
+    "sound": "stone"
+  },
+  "nicothekid:spawner_rat_curserer": {
+    "sound": "stone"
+  }
+}

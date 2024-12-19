@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.entity.nicothekid_ground_spikes": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.variant_0_ground_spikes"
+      ],
+      "uv_anim": {
+				"offset": [
+					0,
+					"math.mod(math.floor(query.life_time * 4),8) / 8"
+				],
+				"scale": [
+					1,
+					"1 / 8"
+				]
+			}
+    }
+  }
+}

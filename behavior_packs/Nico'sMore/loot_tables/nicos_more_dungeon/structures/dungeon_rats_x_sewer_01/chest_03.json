@@ -1,0 +1,92 @@
+{
+  "pools": [
+    // Materials
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/materials.json"
+        }
+      ]
+    },
+    // Minerals
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/minerals.json"
+        }
+      ]
+    },
+    // Foods
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/foods.json"
+        }
+      ]
+    },
+    // Crops
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/crops.json"
+        }
+      ]
+    },
+    // Plants 
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/plants.json"
+        }
+      ]
+    },
+    // Potions
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/potions.json"
+        }
+      ]
+    },
+    // Tools
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/tools.json"
+        }
+      ]
+    },
+    // Equipments
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/equipments.json"
+        }
+      ]
+    }
+  ]
+}

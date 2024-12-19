@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:elder_golem",
+      "spawn_egg": {
+        "base_color": "#444449",
+        "overlay_color": "#5be3e8"
+      },
+      "render_controllers": [
+        "controller.render.entity.nicothekid_elder_golem"
+      ],
+      "geometry": {
+        "default": "geometry.entity.nicothekid_elder_golem"
+      },
+      "materials": {
+        "default": "nicothekid_elder_golem"
+      },
+      "textures": {
+        "variant_0_elder_golem": "textures/entity/ntk_elder_golem"
+      },
+      "animations": {
+        "controller_combat": "controller.animation.entity.nicothekid_elder_golem.combat",
+        "controller_movement": "controller.animation.entity.nicothekid_elder_golem.movement",
+        "attack_melee": "animation.entity.nicothekid_elder_golem.attack_melee",
+        "casting": "animation.entity.nicothekid_elder_golem.casting",
+        "knockback_roaring": "animation.entity.nicothekid_elder_golem.knockback_roaring",
+        "look_at_target": "animation.entity.nicothekid_elder_golem.look_at_target",
+        "stunned": "animation.entity.nicothekid_elder_golem.stunned",
+        "walking": "animation.entity.nicothekid_elder_golem.walking"
+      },
+      "scripts": {
+				"animate": [
+					"controller_combat",
+					"controller_movement",
+					{
+						"look_at_target": 0.8
+					}
+				]
+			}
+    }
+  }
+}

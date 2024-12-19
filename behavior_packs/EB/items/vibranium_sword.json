@@ -29,14 +29,8 @@
 			"minecraft:digger": {
 				"use_efficiency": false,
 				"destroy_speeds": [
-					{
-						"block": "minecraft:web",
-						"speed": 15
-					},
-					{
-						"block": "minecraft:bamboo",
-						"speed": 10
-					}
+					{ "block": "minecraft:web", "speed": 15 },
+					{ "block": "minecraft:bamboo", "speed": 100 }
 				]
 			},
 			"minecraft:icon": {

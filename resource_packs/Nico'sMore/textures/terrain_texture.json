@@ -1,0 +1,60 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "nicothekid_spawner_blaze": {
+      "textures": "textures/blocks/ntk_spawner_blaze"
+    },
+    "nicothekid_spawner_hoglin": {
+      "textures": "textures/blocks/ntk_spawner_hoglin"
+    },
+    "nicothekid_spawner_pig": {
+      "textures": "textures/blocks/ntk_spawner_pig"
+    },
+    "nicothekid_spawner_piglin": {
+      "textures": "textures/blocks/ntk_spawner_piglin"
+    },
+    "nicothekid_spawner_piglin_brute": {
+      "textures": "textures/blocks/ntk_spawner_piglin_brute"
+    },
+    "nicothekid_spawner_skeleton": {
+      "textures": "textures/blocks/ntk_spawner_skeleton"
+    },
+    "nicothekid_spawner_wither_skeleton": {
+      "textures": "textures/blocks/ntk_spawner_wither_skeleton"
+    },
+    "nicothekid_spawner_zoglin": {
+      "textures": "textures/blocks/ntk_spawner_zoglin"
+    },
+    "nicothekid_spawner_zombified_piglin": {
+      "textures": "textures/blocks/ntk_spawner_zombified_piglin"
+    },
+    
+    "nicothekid_block_of_rotten_brute_flesh": {
+      "textures": "textures/blocks/ntk_block_of_rotten_brute_flesh"
+    },
+    "nicothekid_spawner_brute_zombie": {
+      "textures": "textures/blocks/ntk_spawner_brute_zombie"
+    },
+    "nicothekid_spawner_cobbled_deepslate_golem": {
+      "textures": "textures/blocks/ntk_spawner_cobbled_deepslate_golem"
+    },
+    "nicothekid_spawner_cursed_rat": {
+      "textures": "textures/blocks/ntk_spawner_cursed_rat"
+    },
+    "nicothekid_spawner_elder_golem": {
+      "textures": "textures/blocks/ntk_spawner_elder_golem"
+    },
+    "nicothekid_spawner_piglin_chief": {
+      "textures": "textures/blocks/ntk_spawner_piglin_chief"
+    },
+    "nicothekid_spawner_rat": {
+      "textures": "textures/blocks/ntk_spawner_rat"
+    },
+    "nicothekid_spawner_rat_curserer": {
+      "textures": "textures/blocks/ntk_spawner_rat_curserer"
+    }
+  }
+}

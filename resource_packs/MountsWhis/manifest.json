@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "An Item For Calling The Mount To Your Location!",
+    "name": "Mounts Whistle RP",
+    "uuid": "930c299b-17e0-4b74-9ce3-14cbb889d46b",
+    "version": [ 3, 0, 0 ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "An Item For Calling The Mount To Your Location!",
+      "type": "resources",
+      "uuid": "a5a390aa-9428-4d58-aacd-c6c1bac1b5b6",
+      "version": [
+        3,
+        0,
+        0
+      ]
+    }
+  ]
+}

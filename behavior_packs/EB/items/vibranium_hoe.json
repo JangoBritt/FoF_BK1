@@ -32,42 +32,31 @@
 			"minecraft:digger": {
 				"use_eficiency": true,
 				"destroy_speeds": [
-					{
-						"block": "minecraft:hay_block",
-						"speed": 7
-					},
-					{
-						"block": "minecraft:target",
-						"speed": 7
-					},
-					{
-						"block": "minecraft:nether_wart_block",
-						"speed": 7
-					},
-					{
-						"block": "minecraft:warped_wart_block",
-						"speed": 7
-					},
-					{
-						"block": "minecraft:shroomlight",
-						"speed": 7
-					},
-					{
-						"block": "minecraft:leaves",
-						"speed": 7
-					},
-					{
-						"block": "minecraft:leaves2",
-						"speed": 7
-					},
-					{
-						"block": "minecraft:sponge",
-						"speed": 7
-					},
-					{
-						"block": "minecraft:dried_kelp_block",
-						"speed": 7
-					}
+					{ "block": "minecraft:hay_block", "speed": 7 },
+					{ "block": "minecraft:target", "speed": 7 },
+					{ "block": "minecraft:nether_wart_block", "speed": 7 },
+					{ "block": "minecraft:warped_wart_block", "speed": 7 },
+					{ "block": "minecraft:shroomlight", "speed": 7 },
+					{ "block": "minecraft:leaves", "speed": 7 },
+					{ "block": "minecraft:leaves2", "speed": 7 },
+					{ "block": "minecraft:sponge", "speed": 7 },
+					{ "block": "minecraft:dried_kelp_block", "speed": 7 },
+					
+					{"block": "minecraft:cherry_leaves", "speed": 7},
+					{"block": "minecraft:azalea_leaves", "speed": 7},
+					{"block": "minecraft:azalea_leaves_flowered", "speed": 7},
+					{"block": "minecraft:mangrove_leaves", "speed": 7},
+					{"block": "minecraft:pale_oak_leaves", "speed": 7},					
+					{"block": "korbon:aspen_leaves", "speed": 7},
+					{"block": "korbon:autumn_oak_leaves", "speed": 7},
+					{"block": "korbon:autumn_oak_leaves2", "speed": 7},
+					{"block": "korbon:baobab_leaves", "speed": 7},
+					{"block": "korbon:cherry_blossom_leaves", "speed": 7},
+					{"block": "korbon:maple_leaves", "speed": 7},
+					{"block": "korbon:jacaranda_leaves", "speed": 7},
+					{"block": "korbon:redwood_leaves", "speed": 7},
+					{"block": "korbon:glowshroom_block", "speed": 7}
+					
 				]
 			},
 			"minecraft:hand_equipped": true,

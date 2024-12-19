@@ -1,9 +1,0 @@
-{
-  "resource_pack_name": "backpacks",
-  "texture_name": "atlas.items",
-  "texture_data": {
-    "backpack_ultra": {
-      "textures": "textures/backpack_item/backpack_ultra"
-    }
-  }
-}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.projectile.nicothekid_fire_spike_magic_missile.travelling": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "travelling" ],
+          "particle_effects": [
+            {
+              "effect": "fire_spike_magic_missile_particle",
+							"locator": "projectile_particles"
+            }
+          ]
+        }
+      }
+    }
+	}
+}
