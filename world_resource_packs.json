@@ -74,10 +74,10 @@
 		"pack_id" : "20002000-ab12-2222-2222-b000b000b000", //Abandoned & Ruined Structures
 		"version" : [ 1, 10, 13 ]
 	},
-	{
-		"pack_id": "20002000-3de0-2222-2222-b000b000b000",  //More Dungeons
-		"version": [ 1, 3, 30 ]
-	},
+	// {
+	// 	"pack_id": "20002000-3de0-2222-2222-b000b000b000",  //More Dungeons
+	// 	"version": [ 1, 3, 30 ]
+	// },
 	
 	{
 		"pack_id" : "910ddcde-dac0-4e42-846d-bbd345f6869e", //Fables Currency Pack
@@ -125,9 +125,9 @@
 	{
 		"pack_id": "7905b145-7b40-459d-8f87-436fd0e19254", //Modern Doors
 		"version": [1, 7, 0]
-	},
-	{
-		"pack_id": "930c299b-17e0-4b74-9ce3-14cbb889d46b", //Mount Whistle
-    	"version": [ 3, 0, 0 ]
-	}
+	}//,
+	// {
+	// 	"pack_id": "930c299b-17e0-4b74-9ce3-14cbb889d46b", //Mount Whistle
+    // 	"version": [ 3, 0, 0 ]
+	// }
 ]
