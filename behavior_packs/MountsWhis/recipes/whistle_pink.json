@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "whs:whistle_pink"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "whs:whistle"
+      },
+      {
+        "item": "minecraft:pink_dye"
+      }
+    ],
+        "unlock": [
+			{"item": "whs:whistle"}
+		],
+    "result":   {
+      "item": "whs:whistle_pink"
+    }
+  }
+}

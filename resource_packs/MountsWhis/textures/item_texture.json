@@ -1,0 +1,57 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "whistle": {
+      "textures": "textures/items/whistle"
+    },
+    "whistle_black": {
+      "textures": "textures/items/whistle_black"
+    },
+    "whistle_blue": {
+      "textures": "textures/items/whistle_blue"
+    },
+    "whistle_brown": {
+      "textures": "textures/items/whistle_brown"
+    },
+    "whistle_cyan": {
+      "textures": "textures/items/whistle_cyan"
+    },
+    "whistle_gray": {
+      "textures": "textures/items/whistle_gray"
+    },
+    "whistle_green": {
+      "textures": "textures/items/whistle_green"
+    },
+    "whistle_light_blue": {
+      "textures": "textures/items/whistle_light_blue"
+    },
+    "whistle_light_gray": {
+      "textures": "textures/items/whistle_light_gray"
+    },
+    "whistle_lime": {
+      "textures": "textures/items/whistle_lime"
+    },
+    "whistle_magenta": {
+      "textures": "textures/items/whistle_magenta"
+    },
+    "whistle_orange": {
+      "textures": "textures/items/whistle_orange"
+    },
+    "whistle_pink": {
+      "textures": "textures/items/whistle_pink"
+    },
+    "whistle_purple": {
+      "textures": "textures/items/whistle_purple"
+    },
+    "whistle_red": {
+      "textures": "textures/items/whistle_red"
+    },
+    "whistle_white": {
+      "textures": "textures/items/whistle_white"
+    },
+    "whistle_yellow": {
+      "textures": "textures/items/whistle_yellow"
+    }
+  }
+}

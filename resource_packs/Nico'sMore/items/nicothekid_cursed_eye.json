@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nicothekid:cursed_eye",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": "nicothekid_cursed_eye",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

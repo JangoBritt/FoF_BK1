@@ -1,0 +1,45 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+	  "animation.item.nicothekid_piglin_sledge_hammer.remodel_animation": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"position": [0, 0, 0]
+				},
+				"hammer": {
+					"scale": 0.9
+				},
+				"hammer_head": {
+					"position": [0, -0.4, 0],
+					"scale": 0.7
+				},
+				"rod": {
+					"position": [0, -0.4, 0],
+					"scale": [0.6, 1, 0.6]
+				},
+				"bottom": {
+					"scale": 0.6
+				}
+			}
+		},
+		"animation.item.nicothekid_piglin_sledge_hammer.wield_first_person": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": [152, -9, 25],
+					"position": [-7, -3, -2]
+				}
+			}
+		},
+		"animation.item.nicothekid_piglin_sledge_hammer.wield_third_person": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": [97, -1.5, -49],
+					"position": [1.5, -2.5, -10.5]
+				}
+			}
+		}
+	}
+}

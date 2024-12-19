@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/minerals.json"
+        },
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_ore_blocks.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Nico's More Dungeon (v1.3.30) [Behavior Pack]",
+    "description": "Discover more dungeon structures and bosses.",
+    "uuid": "10001000-3de0-1111-1111-a000a000a000",
+    "version": [ 1, 3, 30 ],
+    "min_engine_version": [ 1, 21, 40 ]
+  },
+  "metadata": {
+		"authors": [ "NicoTheKid" ],
+		"url": "https://mcpedl.com/user/dangel/"
+	},
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "10001000-3de0-1111-1111-100010001000",
+      "version": [ 1, 3, 30 ]
+    },
+    {
+			"type": "script",
+			"language": "javascript",
+			"uuid": "10001000-3de0-1111-1111-100010001000",
+			"entry": "scripts/main.js",
+			"version": [ 1, 3, 30 ]
+		}
+  ],
+  "dependencies": [
+    {
+      "uuid": "20002000-3de0-2222-2222-b000b000b000",
+      "version": [ 1, 3, 30 ]
+    },
+    {
+			"module_name": "@minecraft/server",
+			"version": "1.15.0"
+		}
+  ]
+}

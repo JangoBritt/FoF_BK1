@@ -1,0 +1,75 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.entity.nicothekid_elder_golem.combat": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"attack_melee": "variable.attack_time > 0.0"
+						},
+						{
+							"stunned": "query.is_stunned"
+						}
+					]
+				},
+				"attack_melee": {
+					"animations": [ "attack_melee" ],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"default": "variable.attack_time <= 0.0"
+						}
+					]
+				},
+				"stunned": {
+					"animations": [ "stunned" ],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"knockback_roaring": "query.is_roaring"
+						}
+					]
+				},
+				"knockback_roaring": {
+					"animations": [ "knockback_roaring" ],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"default": "!query.is_roaring"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.entity.nicothekid_elder_golem.movement": {
+			"initial_state": "walking",
+			"states": {
+				"walking": {
+					"animations": [
+						{
+							"walking": "query.modified_move_speed * 1.3"
+						}
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+					  {
+							"casting": "query.is_casting"
+					  }
+					]
+				},
+				"casting": {
+					"animations": [ "casting" ],
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"walking": "!query.is_casting"
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,301 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "nicothekid:ground_spikes",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "component:ground_spikes_despawn": {
+				"minecraft:instant_despawn": {
+				  "remove_child_entities": false
+				}
+			}
+    },
+    "components": {
+      "minecraft:balloonable": {
+        "mass": 1.0
+      },
+      "minecraft:can_climb": {},
+      "minecraft:collision_box": {
+        "width": 0.0,
+        "height": 0.0
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:health": {
+        "value": 8,
+        "max": 8
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:movement": {
+        "value": 0.35
+      },
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      "minecraft:type_family": {
+        "family": [
+          "ground_spike",
+          "projectile",
+          "block_entity",
+          "inanimate"
+        ]
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.20
+      },
+      
+      "minecraft:attack": {
+        "damage": 5
+      },
+	    "minecraft:breathable": {
+        "breathes_air": true,
+        "breathes_lava": true,
+        "breathes_solids": true,
+        "breathes_water": true,
+        "generates_bubbles": false,
+        "inhale_time": 0,
+        "suffocate_time": 0,
+        "total_supply": 15,
+        "breathe_blocks": []
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": false,
+						"damage_modifier": 0.0,
+						"damage_multiplier": 1.0,
+						"on_damage_sound_event": "",
+						"on_damage": {
+						  "event": "event:on_fall_damage_sensor",
+						  "target": "self",
+						  "filters": {}
+						}
+          }
+        ]
+      },
+      "minecraft:despawn": {
+        "despawn_from_chance": true,
+        "despawn_from_inactivity": true,
+        "despawn_from_simulation_edge": true,
+        "remove_child_entities": false,
+        "min_range_inactivity_timer": 30,
+        "min_range_random_chance": 800,
+        "despawn_from_distance": {
+          "max_distance": 128,
+          "min_distance": 32
+        },
+        "filters": {}
+      },
+      "minecraft:jump.static": {
+        "jump_power": 0.42
+      },
+      "minecraft:movement.basic": {
+        "max_turn": 30.0
+      },
+	    "minecraft:navigation.walk": {
+        "avoid_damage_blocks": false,
+        "avoid_portals": false,
+        "avoid_sun": false,
+        "avoid_water": false,
+        "can_breach": false,
+        "can_break_doors": false,
+        "can_jump": true,
+        "can_open_doors": false,
+        "can_open_iron_doors": false,
+        "can_pass_doors": true,
+        "can_path_from_air": false,
+        "can_path_over_lava": false,
+        "can_path_over_water": false,
+        "can_sink": true,
+        "can_swim": false,
+        "can_walk": true,
+        "can_walk_in_lava": true,
+        "is_amphibious": false,
+        "blocks_to_avoid": []
+      },
+	    "minecraft:physics": {
+	      "has_collision": true,
+        "has_gravity": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false,
+        "push_towards_closest_space": false
+      },
+      
+      "minecraft:behavior.nearest_prioritized_attackable_target": {
+        "priority": 1,
+        "must_reach": false,
+        "must_see": false,
+        "reselect_targets": true,
+        "set_persistent": false,
+        "attack_interval": 0,
+        "cooldown": 0,
+        "must_see_forget_duration": 3,
+        "scan_interval": 10,
+        "within_radius": 0.0,
+        "entity_types": [
+          {
+            "priority": 0,
+            "must_see": true,
+            "reevaluate_description": false,
+            "max_dist": 18,
+            "walk_speed_multiplier": 1.0,
+            "sprint_speed_multiplier": 1.0,
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "irongolem"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "snowgolem"
+                }
+              ]
+            }
+          },
+          {
+            "priority": 1,
+            "must_see": true,
+            "reevaluate_description": false,
+            "max_dist": 16,
+            "walk_speed_multiplier": 1.0,
+            "sprint_speed_multiplier": 1.0,
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "player_tamed_aggressive"
+                },
+                {
+                  "test": "is_sitting",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": false
+                }
+              ]
+            }
+          },
+          {
+            "priority": 2,
+            "must_see": true,
+            "reevaluate_description": true,
+            "max_dist": 14,
+            "walk_speed_multiplier": 1.0,
+            "sprint_speed_multiplier": 1.0,
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "crates_trader"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "wandering_collector"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "wandering_trader"
+                },
+                {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "operator": "==",
+                      "value": "villager"
+                    },
+                    {
+                      "test": "has_component",
+                      "subject": "other",
+                      "operator": "!=",
+                      "value": "minecraft:is_baby"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 2,
+        "attack_once": true,
+        "can_spread_on_fire": false,
+        "require_complete_path": false,
+        "track_target": true,
+        "cooldown_time": 1.0,
+        "min_path_time": 0.2,
+        "max_path_time": 0.55,
+        "path_inner_boundary": 16.0,
+        "path_outer_boundary": 32.0,
+        "path_fail_time_increase": 0.75,
+        "inner_boundary_time_increase": 0.25,
+        "outer_boundary_time_increase": 0.5,
+        "random_stop_interval": 0,
+        "reach_multiplier": 2.0,
+        "speed_multiplier": 1.1,
+        "melee_fov": 90.0,
+        "x_max_rotation": 30.0,
+        "y_max_head_rotation": 30.0,
+        "attack_types": "",
+        "on_attack": {
+          "event": "event:on_attack",
+          "target": "self"
+        }
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 3,
+        "interval": 120,
+        "xz_dist": 10,
+        "y_dist": 7,
+        "speed_multiplier": 1.1
+      },
+      
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+    "events": {
+      "event:on_attack": {
+        "sequence": [
+          {
+            "queue_command": {
+              "command": [
+                "playsound hit.deepslate @p[r=8] ~ ~ ~ 1.0 1.5 1.0"
+              ]
+            },
+            "add": {
+              "component_groups": [
+                "component:ground_spikes_despawn"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

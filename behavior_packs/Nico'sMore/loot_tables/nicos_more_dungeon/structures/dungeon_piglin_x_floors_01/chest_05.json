@@ -1,0 +1,48 @@
+{
+  "pools": [
+    // Nether Materials 
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/materials_nether.json"
+        }
+      ]
+    },
+    // Nether Foods & Crops
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/foods_crops_nether.json"
+        }
+      ]
+    },
+    // Nether Plants
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/plants_nether.json"
+        }
+      ]
+    },
+    // Potions
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/potions.json"
+        }
+      ]
+    }
+  ]
+}

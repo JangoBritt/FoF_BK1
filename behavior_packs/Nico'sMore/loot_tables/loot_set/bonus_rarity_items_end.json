@@ -1,0 +1,134 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "empty"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_armor_trims_end.json"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_enchanted_books.json"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_music_dics.json"
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:dragon_breath",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.05,
+                "max": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "item",
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "item",
+          "name": "minecraft:ominous_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:shulker_shell",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

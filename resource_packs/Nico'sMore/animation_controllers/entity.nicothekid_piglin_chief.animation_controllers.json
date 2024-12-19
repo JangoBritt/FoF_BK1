@@ -1,0 +1,63 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.entity.nicothekid_piglin_chief.combat": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"attack_melee": "query.is_delayed_attacking == 1"
+						},
+						{
+							"attack_staffed": "query.facing_target_to_range_attack"
+						}
+					]
+				},
+				"attack_melee": {
+					"animations": [ "attack_melee" ],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"default": "!query.is_delayed_attacking"
+						}
+					]
+				},
+				"attack_staffed": {
+					"animations": [ "attack_staffed" ],
+					"particle_effects": [
+						{
+							"effect": "piglin_fire_staff_charging_particle",
+							"locator": "staff_point"
+						}
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"default": "!query.facing_target_to_range_attack"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.entity.nicothekid_piglin_chief.movement": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"walking": "query.modified_move_speed"
+						}
+					],
+					"particle_effects": [
+						{
+							"effect": "piglin_fire_staff_particle",
+							"locator": "staff_point"
+						}
+					]
+				}
+			}
+		}
+	}
+}

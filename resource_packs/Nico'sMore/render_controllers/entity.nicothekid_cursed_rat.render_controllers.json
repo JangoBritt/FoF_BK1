@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.entity.nicothekid_cursed_rat": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+				"array.skins[query.variant]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.variant_0_cursed_rat",
+						"Texture.variant_1_cursed_rat_wild",
+						"Texture.variant_2_cursed_rat_tamed"
+					]
+				}
+			}
+    }
+  }
+}

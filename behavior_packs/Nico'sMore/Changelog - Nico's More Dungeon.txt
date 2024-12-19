@@ -1,0 +1,15 @@
+Nico's More Dungeon
+
+[Version: 1.3.30]
+NOTE:
+• The add-on will now only work with Minecraft versions 1.21.50 and higher.
+
+          "General"
+• Updated for compatibility with Minecraft version 1.21 50.
+
+          "Changes"
+DUNGEONS:
+• Rats Dungeon and Zombie Dungeon can now also generate in Pale Garden surfaces.
+
+MOBS:
+• Brute Zombie and Elder Golem can now also break the pale leaves, pale sapling, pale moss, eye blossom, and resin clumps.

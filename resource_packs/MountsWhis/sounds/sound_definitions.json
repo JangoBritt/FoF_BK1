@@ -1,0 +1,12 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "random.whistle": {
+      "__use_legacy_max_distance": "true",
+      "category": "player",
+      "sounds": [
+        "sounds/random/whistle"
+      ]
+    }
+  }
+}

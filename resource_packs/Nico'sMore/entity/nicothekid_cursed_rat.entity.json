@@ -1,0 +1,53 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:cursed_rat",
+      "spawn_egg": {
+        "base_color": "#4B4541",
+        "overlay_color": "#DF6443"
+      },
+      "render_controllers": [
+        "controller.render.entity.nicothekid_cursed_rat"
+      ],
+      "geometry": {
+        "default": "geometry.entity.nicothekid_cursed_rat"
+      },
+      "materials": {
+        "default": "nicothekid_cursed_rat"
+      },
+      "textures": {
+        "variant_0_cursed_rat": "textures/entity/ntk_cursed_rat",
+        "variant_1_cursed_rat_wild": "textures/entity/ntk_cursed_rat_wild",
+        "variant_2_cursed_rat_tamed": "textures/entity/ntk_cursed_rat_tamed"
+      },
+      "particle_effects": {
+        "desummoning_particle": "nicothekid:cursed_rat_desummoning_particle",
+        "summoned_particle": "nicothekid:cursed_rat_summoned_particle",
+        "summoning_particle": "nicothekid:cursed_rat_summoning_particle"
+      },
+      "animations": {
+        "controller_combat": "controller.animation.entity.nicothekid_cursed_rat.combat",
+        "controller_movement": "controller.animation.entity.nicothekid_cursed_rat.movement",
+        "controller_interested": "controller.animation.entity.nicothekid_cursed_rat.interested",
+        "controller_summoning_particles": "controller.animation.entity.nicothekid_cursed_rat.summoning_particles",
+        "attack_melee": "animation.entity.nicothekid_cursed_rat.attack_melee",
+        "interested": "animation.entity.nicothekid_cursed_rat.interested",
+        "look_at_target": "animation.entity.nicothekid_cursed_rat.look_at_target",
+        "sitting": "animation.entity.nicothekid_cursed_rat.sitting",
+        "walking": "animation.entity.nicothekid_cursed_rat.walking"
+      },
+      "scripts": {
+				"animate": [
+					"controller_combat",
+					"controller_interested",
+					"controller_movement",
+					"controller_summoning_particles",
+					{
+						"look_at_target": 0.8
+					}
+				]
+			}
+    }
+  }
+}

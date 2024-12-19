@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:cobbled_deepslate_golem",
+      "spawn_egg": {
+        "base_color": "#3D3D43",
+        "overlay_color": "#32535C"
+      },
+      "render_controllers": [
+        "controller.render.entity.nicothekid_cobbled_deepslate_golem"
+      ],
+      "geometry": {
+        "default": "geometry.entity.nicothekid_cobbled_deepslate_golem"
+      },
+      "materials": {
+        "default": "nicothekid_cobbled_deepslate_golem"
+      },
+      "textures": {
+        "variant_0_cobbled_deepslate_golem_wild": "textures/entity/ntk_cobbled_deepslate_golem_wild",
+        "variant_1_cobbled_deepslate_golem_asleep": "textures/entity/ntk_cobbled_deepslate_golem_asleep",
+        "variant_2_cobbled_deepslate_golem_tamed": "textures/entity/ntk_cobbled_deepslate_golem_tamed",
+        "variant_3_cobbled_deepslate_golem_seated": "textures/entity/ntk_cobbled_deepslate_golem_seated"
+      },
+      "animations": {
+        "controller_combat": "controller.animation.entity.nicothekid_cobbled_deepslate_golem.combat",
+        "controller_movement": "controller.animation.entity.nicothekid_cobbled_deepslate_golem.movement",
+        "attack_melee": "animation.entity.nicothekid_cobbled_deepslate_golem.attack_melee",
+        "look_at_target": "animation.entity.nicothekid_cobbled_deepslate_golem.look_at_target",
+        "sitting": "animation.entity.nicothekid_cobbled_deepslate_golem.sitting",
+        "sleeping": "animation.entity.nicothekid_cobbled_deepslate_golem.sleeping",
+        "walking": "animation.entity.nicothekid_cobbled_deepslate_golem.walking"
+      },
+      "scripts": {
+        "animate": [
+          "controller_combat",
+          "controller_movement",
+          "look_at_target"
+        ]
+      }
+    }
+  }
+}

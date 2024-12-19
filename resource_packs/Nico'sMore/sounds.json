@@ -1,0 +1,278 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "nicothekid:brute_zombie": {
+        "events": {
+          "ambient": {
+            "sound": "mob.husk.ambient",
+            "pitch": [ 0.40, 0.60 ],
+            "volume": 0.8
+          },
+          "death": {
+            "sound": "mob.husk.death",
+            "pitch": [ 0.40, 0.60 ],
+            "volume": 0.8
+          },
+          "hurt": {
+            "sound": "mob.husk.hurt",
+            "pitch": [ 0.40, 0.60 ],
+            "volume": 0.8
+          },
+          "step": {
+            "sound": "mob.husk.step",
+            "pitch": [ 0.40, 0.60 ],
+            "volume": 0.8
+          }
+        },
+        "pitch": [ 0.80, 1.20 ],
+        "volume": 1.2
+      },
+      "nicothekid:cobbled_deepslate_golem": {
+        "events": {
+          "ambient": {
+            "sound": "mob.polarbear.idle",
+            "pitch": [ 0.60, 0.80 ],
+            "volume": 0.6
+          },
+          "death": {
+            "sound": "mob.polarbear.warning",
+            "pitch": [ 0.40, 0.80 ],
+            "volume": 0.6
+          },
+          "hurt": {
+            "sound": "mob.irongolem.hit",
+            "pitch": [ 0.40, 0.80 ],
+            "volume": 0.6
+          },
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "pitch": [ 0.40, 0.80 ],
+            "volume": 0.8
+          }
+        },
+        "pitch": [ 0.80, 1.20 ],
+        "volume": 1.0
+      },
+      "nicothekid:cursed_rat": {
+        "events": {
+          "ambient": {
+            "sound": "mob.rabbit.idle",
+            "pitch": [ 1.50, 1.80 ],
+            "volume": 1.0
+          },
+          "death": {
+            "sound": "mob.rabbit.death",
+            "pitch": [ 1.50, 1.80 ],
+            "volume": 1.0
+          },
+          "hurt": {
+            "sound": "mob.rabbit.hurt",
+            "pitch": [ 1.50, 1.80 ],
+            "volume": 1.0
+          }
+        },
+        "pitch": [ 0.80, 1.20 ],
+        "volume": 0.80
+      },
+      "nicothekid:elder_golem": {
+        "events": {
+          "ambient": {
+            "sound": "block.grindstone.use",
+            "pitch": [ 0.10, 0.20 ],
+            "volume": 0.8
+          },
+          "cast.spell": {
+            "sound": "step.deepslate",
+            "pitch": [ 0.20, 0.40 ],
+            "volume": 1.2
+          },
+          "death": {
+            "sound": "mob.polarbear.warning",
+            "pitch": [ 0.30, 0.40 ],
+            "volume": 0.6
+          },
+          "hurt": {
+            "sound": "mob.irongolem.hit",
+            "pitch": [ 0.30, 0.40 ],
+            "volume": 0.6
+          },
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "pitch": [ 0.30, 0.70 ],
+            "volume": 1.5
+          }
+        },
+        "pitch": [ 0.80, 1.20 ],
+        "volume": 1.2
+      },
+      "nicothekid:ground_spikes": {
+        "events": {
+          "ambient": {
+            "sound": "step.deepslate",
+            "pitch": [ 0.20, 0.40 ],
+            "volume": 0.8
+          },
+          "death": {
+            "sound": "dig.deepslate",
+            "pitch": [ 0.20, 0.40 ],
+            "volume": 0.8
+          },
+          "hurt": {
+            "sound": "dig.deepslate",
+            "pitch": [ 0.40, 0.80 ],
+            "volume": 0.8
+          },
+          "takeoff": {
+            "sound": "fall.deepslate",
+            "pitch": [ 0.10, 0.20 ],
+            "volume": 0.8
+          }
+        },
+        "pitch": [ 0.80, 1.20 ],
+        "volume": 0.80
+      },
+      "nicothekid:piglin_chief": {
+        "events": {
+          "admire": {
+            "sound": "mob.piglin.admiring_item",
+            "pitch": [ 0.60, 1.00 ],
+            "volume": 1.0
+          },
+          "ambient": {
+            "sound": "mob.piglin_brute.ambient",
+            "pitch": [ 0.60, 1.00 ],
+            "volume": 1.0
+          },
+          "angry": {
+            "sound": "mob.piglin_brute.angry",
+            "pitch": [ 0.60, 1.00 ],
+            "volume": 1.20
+          },
+          "attack": {
+            "sound": "mob.piglin.attack",
+            "pitch": [ 0.60, 1.00 ],
+            "volume": 1.0
+          },
+          "celebrate": {
+            "sound": "mob.piglin.celebrate",
+            "pitch": [ 0.60, 1.00 ],
+            "volume": 1.0
+          },
+          "death": {
+            "sound": "mob.piglin_brute.death",
+            "pitch": [ 0.60, 1.00 ],
+            "volume": 1.0
+          },
+          "hurt": {
+            "sound": "mob.piglin_brute.hurt",
+            "pitch": [ 0.60, 1.00 ],
+            "volume": 1.0
+          },
+          "retreat": {
+            "sound": "mob.piglin.retreat",
+            "pitch": [ 0.60, 1.00 ],
+            "volume": 1.0
+          },
+          "shoot": {
+            "sound": "mob.ghast.fireball",
+            "pitch": [ 0.80, 1.20 ],
+            "volume": 0.50
+          },
+          "step": {
+            "sound": "mob.piglin_brute.step",
+            "pitch": [ 0.60, 1.00 ],
+            "volume": 1.0
+          }
+        },
+        "pitch": [ 0.80, 1.20 ],
+        "volume": 1.0
+      },
+      "nicothekid:rat": {
+        "events": {
+          "ambient": {
+            "sound": "mob.rabbit.idle",
+            "pitch": [ 1.50, 2.00 ],
+            "volume": 1.0
+          },
+          "death": {
+            "sound": "mob.rabbit.death",
+            "pitch": [ 1.50, 2.00 ],
+            "volume": 1.0
+          },
+          "hurt": {
+            "sound": "mob.rabbit.hurt",
+            "pitch": [ 1.50, 2.00 ],
+            "volume": 1.0
+          }
+        },
+        "pitch": [ 0.80, 1.20 ],
+        "volume": 0.8
+      },
+      "nicothekid:rat_curserer": {
+        "events": {
+          "ambient": {
+            "sound": "mob.hoglin.ambient",
+            "pitch": [ 5.20, 5.60 ],
+            "volume": 1.0
+          },
+          "angry": {
+            "sound": "mob.hoglin.angry",
+            "pitch": [ 5.20, 5.60 ],
+            "volume": 0.75
+          },
+          "cast.spell": {
+            "sound": "mob.evocation_illager.cast_spell",
+            "pitch": [ 1.40, 2.00 ],
+            "volume": 1.0
+          },
+          "death": {
+            "sound": "mob.evocation_illager.death",
+            "pitch": [ 0.10, 0.20 ],
+            "volume": 1.0
+          },
+          "hurt": {
+            "sound": "mob.polarbear.hurt",
+            "pitch": [ 3.20, 3.60 ],
+            "volume": 1.0
+          },
+          "prepare.attack": {
+            "sound": "mob.evocation_illager.prepare_attack",
+            "pitch": [ 1.20, 1.60 ],
+            "volume": 1.0
+          },
+          "prepare.summon": {
+            "sound": "mob.evocation_illager.prepare_summon",
+            "pitch": [ 1.20, 1.60 ],
+            "volume": 1.0
+          },
+          "prepare.wololo": {
+            "sound": "mob.evocation_illager.prepare_wololo",
+            "pitch": [ 1.20, 1.60 ],
+            "volume": 1.0
+          },
+          "shoot": {
+            "sound": "mob.shulker.shoot",
+            "pitch": [ 1.30, 1.50 ],
+            "volume": 0.50
+          }
+        },
+        "pitch": [ 0.80, 1.20 ],
+        "volume": 0.8
+      },
+      "nicothekid:projectile_rat_curserer_missile": {
+        "events": {
+          "ambient": "",
+          "death": "",
+          "hurt": {
+            "sound": "firework.blast",
+            "pitch": [ 0.80, 1.20 ],
+            "volume": 1.0
+          }
+        },
+        "pitch": [ 0.80, 1.20 ],
+        "volume": 0.8
+      }
+    }
+  },
+  "individual_event_sounds": {}
+}

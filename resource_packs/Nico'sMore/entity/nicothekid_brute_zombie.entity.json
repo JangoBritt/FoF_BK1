@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:brute_zombie",
+      "spawn_egg": {
+        "base_color": "#65715f",
+        "overlay_color": "#544b3d"
+      },
+      "render_controllers": [
+        "controller.render.entity.nicothekid_brute_zombie"
+      ],
+      "geometry": {
+        "default": "geometry.entity.nicothekid_brute_zombie"
+      },
+      "materials": {
+        "default": "nicothekid_brute_zombie"
+      },
+      "textures": {
+        "variant_0_brute_zombie": "textures/entity/ntk_brute_zombie"
+      },
+      "animations": {
+        "controller_combat": "controller.animation.entity.nicothekid_brute_zombie.combat",
+        "controller_movement": "controller.animation.entity.nicothekid_brute_zombie.movement",
+        "attack_melee": "animation.entity.nicothekid_brute_zombie.attack_melee",
+        "look_at_target": "animation.entity.nicothekid_brute_zombie.look_at_target",
+        "walking": "animation.entity.nicothekid_brute_zombie.walking"
+      },
+      "scripts": {
+				"animate": [
+				  "controller_combat",
+					"controller_movement",
+					{
+						"look_at_target": 0.8
+					}
+				]
+			}
+    }
+  }
+}

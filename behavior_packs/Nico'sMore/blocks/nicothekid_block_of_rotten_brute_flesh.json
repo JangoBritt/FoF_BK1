@@ -1,0 +1,63 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:block_of_rotten_brute_flesh",
+      "menu_category": {
+				"category": "construction",
+        "group": "construction"
+			}
+    },
+    "components": {
+      "minecraft:display_name": "%tile.nicothekid.block_of_rotten_brute_flesh.name",
+      "minecraft:geometry": {
+        "identifier": "geometry.block.nicothekid_unit_cube"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_block_of_rotten_brute_flesh",
+          "render_method": "opaque",
+          "ambient_occlusion": true,
+					"face_dimming": true
+        }
+      },
+      "minecraft:map_color": "#877A3A",
+      "minecraft:collision_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:selection_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:light_dampening": 15,
+      "minecraft:light_emission": 0,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 15.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.6
+      },
+      "minecraft:redstone_conductivity": {
+        "allows_wire_to_step_down": true,
+        "redstone_conductor": false
+      },
+      "minecraft:transformation": {
+        "rotation": [ 0, 0, 0 ]
+      },
+      "minecraft:loot": "loot_tables/nicos_more_dungeon/blocks/nicothekid_block_of_rotten_brute_flesh.json",
+      "tag:block_of_rotten_brute_flesh": {},
+      "tag:custom_compacted_block": {},
+      "tag:shovel_diggable": {},
+      "tag:solid_block": {},
+      "tag:nicothekid_blocks": {},
+      "tag:minecraft:is_shovel_item_destructible": {},
+      "tag:dirt": {}
+    }
+  }
+}

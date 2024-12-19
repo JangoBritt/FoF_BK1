@@ -1,0 +1,57 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.item.nicothekid_piglin_sledge_hammer",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "rightItem",
+					"pivot": [0, 18, 0]
+				},
+				{
+					"name": "hammer",
+					"parent": "rightItem",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "hammer_head",
+					"parent": "hammer",
+					"pivot": [0, 20, 0],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{"origin": [-1.5, 28, -2], "size": [3, 1, 4], "uv": [8, 17]},
+						{"origin": [-3.5, 21, -5], "size": [7, 7, 10], "uv": [0, 0]},
+						{"origin": [-1.5, 20, -2], "size": [3, 1, 4], "uv": [18, 18]}
+					],
+					"locators": {
+						"hammer_head_particles": [0, 25, 0],
+						"head_point": [0, 28, 0]
+					}
+				},
+				{
+					"name": "rod",
+					"parent": "hammer",
+					"pivot": [0, 1, 0],
+					"cubes": [
+						{"origin": [-1, 1, -1], "size": [2, 19, 2], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "bottom",
+					"parent": "hammer",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 0, -1], "size": [3, 1, 2], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

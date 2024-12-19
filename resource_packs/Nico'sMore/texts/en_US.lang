@@ -1,0 +1,56 @@
+
+## Abandoned & Ruin Structures
+tile.nicothekid.spawner_blaze.name=Mob Spawner: Blaze
+tile.nicothekid.spawner_hoglin.name=Mob Spawner: Hoglin
+tile.nicothekid.spawner_pig.name=Mob Spawner: Pig
+tile.nicothekid.spawner_piglin.name=Mob Spawner: Piglin
+tile.nicothekid.spawner_piglin_brute.name=Mob Spawner: Piglin Brute
+tile.nicothekid.spawner_skeleton.name=Mob Spawner: Skeleton
+tile.nicothekid.spawner_wither_skeleton.name=Mob Spawner: Wither Skeleton
+tile.nicothekid.spawner_zoglin.name=Mob Spawner: Zoglin
+tile.nicothekid.spawner_zombified_piglin.name=Mob Spawner: Zombified Piglin
+
+## Nico's Mobs
+item.nicothekid.book_of_curses.name=Book of Curses
+item.nicothekid.cursed_eye.name=Core of Light
+
+## Nico's More Dungeon
+entity.nicothekid:brute_zombie.name=Brute Zombie
+entity.nicothekid:cobbled_deepslate_golem.name=Cobbled Deepslate Golem
+entity.nicothekid:cursed_rat.name=Cursed Rat
+entity.nicothekid:elder_golem.name=Elder Golem
+entity.nicothekid:elder_golem<>.name=Elder Golem
+entity.nicothekid:ground_spikes.name=Elder Golem's Ground Spikes
+entity.nicothekid:piglin_chief.name=Piglin Chief
+entity.nicothekid:piglin_chief<>.name=Piglin Chief
+entity.nicothekid:rat.name=Rat
+entity.nicothekid:rat_curserer.name=Magus Muro
+entity.nicothekid:rat_curserer<>.name=Magus Muro
+entity.nicothekid:projectile_curse_magic_missile.name=Curse magic missile
+entity.nicothekid:projectile_curse_magic_missile_2.name=Curse magic missile
+entity.nicothekid:projectile_fire_spike_magic_missile.name=Fire Spike magic missile
+entity.nicothekid:projectile_fire_spike_magic_missile_piglin_chief.name=Piglin's Fire Spike magic missile
+
+item.spawn_egg.entity.nicothekid:brute_zombie.name=Brute Zombie Spawn Egg
+item.spawn_egg.entity.nicothekid:cobbled_deepslate_golem.name=Cobbled Deepslate Golem Spawn Egg
+item.spawn_egg.entity.nicothekid:cursed_rat.name=Cursed Rat Spawn Egg
+item.spawn_egg.entity.nicothekid:elder_golem.name=Elder Golem Spawn Egg
+item.spawn_egg.entity.nicothekid:piglin_chief.name=Piglin Chief Spawn Egg
+item.spawn_egg.entity.nicothekid:rat.name=Rat Spawn Egg
+item.spawn_egg.entity.nicothekid:rat_curserer.name=Rat Curserer Spawn Egg
+
+item.nicothekid.cooked_rat.name=Cooked Rat
+item.nicothekid.curserer_staff.name=Curserer Staff
+item.nicothekid.piglin_fire_staff.name=Piglin's Fire Staff
+item.nicothekid.piglin_sledge_hammer.name=Piglin's Sledge Hammer
+item.nicothekid.raw_rat.name=Raw Rat
+item.nicothekid.rotten_brute_flesh.name=Rotten Brute Flesh
+
+tile.nicothekid.block_of_rotten_brute_flesh.name=Block of Rotten Brute Flesh
+tile.nicothekid.spawner_brute_zombie.name=Mob Spawner: Brute Zombie
+tile.nicothekid.spawner_cobbled_deepslate_golem.name=Mob Spawner: Cobbled Deepslate Golem
+tile.nicothekid.spawner_cursed_rat.name=Mob Spawner: Cursed Rat
+tile.nicothekid.spawner_elder_golem.name=Mob Spawner: Elder Golem
+tile.nicothekid.spawner_piglin_chief.name=Mob Spawner: Piglin Chief
+tile.nicothekid.spawner_rat.name=Mob Spawner: Rat
+tile.nicothekid.spawner_rat_curserer.name=Mob Spawner: Rat Curserer

@@ -1,0 +1,72 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.item.nicothekid_curserer_staff",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "rightItem",
+					"pivot": [0, 20, 0]
+				},
+				{
+					"name": "staff_head",
+					"parent": "rightItem",
+					"pivot": [0, 21, 0],
+					"cubes": [
+						{"origin": [-1.5, 21, -1.5], "size": [3, 3, 3], "uv": [4, 8]}
+					],
+					"locators": {
+						"staff_head_particles": [0, 22.5, 0]
+					}
+				},
+				{
+					"name": "staff_feather",
+					"parent": "rightItem",
+					"pivot": [0, 21, 0]
+				},
+				{
+					"name": "feather_1",
+					"parent": "staff_feather",
+					"pivot": [1, 21, -1],
+					"rotation": [-22.5, -45, 0],
+					"cubes": [
+						{"origin": [0, 16, -1], "size": [2, 5, 0], "uv": [16, 0]}
+					]
+				},
+				{
+					"name": "feather_2",
+					"parent": "staff_feather",
+					"pivot": [-1, 21, 1],
+					"rotation": [22.5, -45, 0],
+					"cubes": [
+						{"origin": [-2, 16, 1], "size": [2, 5, 0], "uv": [12, 14]}
+					]
+				},
+				{
+					"name": "neck",
+					"parent": "rightItem",
+					"pivot": [0, 21, 0],
+					"cubes": [
+						{"origin": [-1.5, 16, -1.5], "size": [3, 5, 3], "uv": [4, 0]},
+						{"origin": [-1, 14, -1], "size": [2, 4, 2], "uv": [4, 14]}
+					]
+				},
+				{
+					"name": "rod",
+					"parent": "rightItem",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-0.5, 0, -0.5], "size": [1, 21, 1], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

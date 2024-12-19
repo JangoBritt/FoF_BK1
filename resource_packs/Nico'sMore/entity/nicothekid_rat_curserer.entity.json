@@ -1,0 +1,46 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:rat_curserer",
+      "spawn_egg": {
+        "base_color": "#4B4541",
+        "overlay_color": "#E62008"
+      },
+      "render_controllers": [
+        "controller.render.entity.nicothekid_rat_curserer"
+      ],
+      "geometry": {
+        "default": "geometry.entity.nicothekid_rat_curserer"
+      },
+      "materials": {
+        "default": "nicothekid_rat_curserer"
+      },
+      "textures": {
+        "variant_0_rat_curserer_hooded": "textures/entity/ntk_rat_curserer_hooded",
+        "variant_1_rat_curserer_hoodless": "textures/entity/ntk_rat_curserer_hoodless"
+      },
+      "particle_effects": {
+        "casting_particle": "nicothekid:rat_curserer_casting_particle"
+      },
+      "animations": {
+        "controller_combat": "controller.animation.entity.nicothekid_rat_curserer.combat",
+        "controller_movement": "controller.animation.entity.nicothekid_rat_curserer.movement",
+        "attack_melee": "animation.entity.nicothekid_rat_curserer.attack_melee",
+        "attack_staffed": "animation.entity.nicothekid_rat_curserer.attack_staffed",
+        "casting": "animation.entity.nicothekid_rat_curserer.casting",
+        "look_at_target": "animation.entity.nicothekid_rat_curserer.look_at_target",
+        "walking": "animation.entity.nicothekid_rat_curserer.walking"
+      },
+      "scripts": {
+				"animate": [
+					"controller_combat",
+					"controller_movement",
+					{
+						"look_at_target": 0.8
+					}
+				]
+			}
+    }
+  }
+}

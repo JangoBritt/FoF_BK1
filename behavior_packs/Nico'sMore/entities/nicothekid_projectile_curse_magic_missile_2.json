@@ -1,0 +1,126 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "nicothekid:projectile_curse_magic_missile_2",
+      "runtime_identifier": "minecraft:arrow",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "component:projectile_despawn": {
+				"minecraft:instant_despawn": {
+				  "remove_child_entities": false
+				}
+			}
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "height": 0.25,
+        "width": 0.25
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:scale": {
+        "value": 0.65
+      },
+      "minecraft:type_family": {
+        "family": [
+          "curse_magic_missile",
+          "magic_missile",
+          "projectile",
+          "inanimate"
+        ]
+      },
+      
+      "minecraft:physics": {
+	      "has_collision": true,
+        "has_gravity": false
+      },
+      "minecraft:projectile": {
+				"crit_particle_on_hurt": true,
+				"homing": false,
+				"is_dangerous": false,
+				"knockback": true,
+				"multiple_targets": false,
+				"reflect_on_hurt": false,
+				"shoot_target": true,
+        "should_bounce": false,
+        "anchor": 1.0,
+        "angle_offset": 0.0,
+        "power": 1.6,
+        "gravity": 0.001,
+        "inertia": 0.99,
+        "liquid_inertia": 0.99,
+        "on_fire_time": 0.0,
+        "uncertainty_base": 0.0,
+        "uncertainty_multiplier": 0.0,
+        "offset": [ 0, -0.2, 0.0 ],
+				//"particle": "nicothekid:curse_magic_missile_impact_particle",
+        "shoot_sound": "mob.shulker.shoot",
+				"hit_sound": "bullet.hit",
+				"hit_ground_sound": "bullet.hit",
+				"filters": {},
+				"on_hit": {
+          "impact_damage": {
+            "damage": 18,
+            "catch_fire": false,
+            "destroy_on_hit": true,
+            "knockback": true,
+            "should_bounce": false,
+            "semi_random_diff_damage": false
+          }
+          /*"particle_on_hit": {
+            "particle_type": "nicothekid:curse_magic_missile_impact_particle",
+            "num_particles": 25,
+            "on_entity_hit": true,
+            "on_other_hit": true
+          }*/
+        }
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true,
+        "push_towards_closest_space": false
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "randomInterval": true,
+        "random_time_choices": [
+          { "weight": 100, "value": 2.4 },
+          { "weight": 100, "value": 2.4 }
+        ],
+        "time_down_event": {
+          "event": "event:on_timer_down",
+          "target": "self"
+        }
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_dropped_ticks": 7,
+          "max_optimized_distance": 80.0,
+          "use_motion_prediction_hints": true
+        }
+      }
+    },
+    "events": {
+		  "event:on_timer_down": {
+				"sequence": [
+          {
+            "queue_command": {
+              "command": [
+                "playsound step.powder_snow @p[r=8] ~ ~ ~ 1.0 1.3 1.0",
+                "particle nicothekid:curse_magic_missile_impact_particle ~ ~ ~"
+              ]
+            },
+            "add": {
+              "component_groups": [
+                "component:projectile_despawn"
+              ]
+            }
+          }
+        ]
+			}
+		}
+  }
+}

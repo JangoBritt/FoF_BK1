@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nicothekid:craft_x_rotten_brute_flesh"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "nicothekid:block_of_rotten_brute_flesh"
+      }
+    ],
+    "result": {
+      "item": "nicothekid:rotten_brute_flesh",
+      "count": 9
+    },
+    "unlock": [
+      {
+        "item": "nicothekid:block_of_rotten_brute_flesh"
+      }
+    ]
+  }
+}

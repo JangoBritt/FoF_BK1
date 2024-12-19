@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_drinking_potions.json"
+        },
+        {
+          "weight": 15,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_splash_potions.json"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_lingering_potions.json"
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:glass_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ]
+        },
+        {
+          "weight": 15,
+          "type": "item",
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

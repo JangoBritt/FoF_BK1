@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.entity.nicothekid_cobbled_deepslate_golem": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.skins[query.variant]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.variant_0_cobbled_deepslate_golem_wild",
+						"Texture.variant_1_cobbled_deepslate_golem_asleep",
+						"Texture.variant_2_cobbled_deepslate_golem_tamed",
+						"Texture.variant_3_cobbled_deepslate_golem_seated"
+					]
+				}
+			}
+		}
+	}
+}

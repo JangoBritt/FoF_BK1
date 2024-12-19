@@ -1,0 +1,31 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "nicothekid_book_of_curses": {
+      "textures": "textures/items/ntk_book_of_curses"
+    },
+    "nicothekid_cursed_eye": {
+      "textures": "textures/items/ntk_cursed_eye"
+    },
+    
+    "nicothekid_cooked_rat": {
+      "textures": "textures/items/ntk_cooked_rat"
+    },
+    "nicothekid_curserer_staff": {
+      "textures": "textures/items/ntk_curserer_staff"
+    },
+    "nicothekid_piglin_fire_staff": {
+      "textures": "textures/items/ntk_piglin_fire_staff"
+    },
+    "nicothekid_piglin_sledge_hammer": {
+      "textures": "textures/items/ntk_piglin_sledge_hammer"
+    },
+    "nicothekid_raw_rat": {
+      "textures": "textures/items/ntk_raw_rat"
+    },
+    "nicothekid_rotten_brute_flesh": {
+      "textures": "textures/items/ntk_rotten_brute_flesh"
+    }
+  }
+}

@@ -1,0 +1,548 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:short_grass",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:fern",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:tall_grass",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:large_fern",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:allium",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:azure_bluet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:blue_orchid",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:cornflower",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:dandelion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:lily_of_the_valley",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:oxeye_daisy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:poppy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:orange_tulip",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:pink_tulip",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:red_tulip",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:white_tulip",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:pink_petals",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:torchflower",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:pitcher_crop",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:lilac",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:peony",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:rose_bush",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:sunflower",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:oak_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:spruce_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:birch_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:jungle_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:acacia_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:dark_oak_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:mangrove_propagule",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:cherry_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:azalea",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:flowering_azalea",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:brown_mushroom",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:red_mushroom",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:bamboo",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:big_dripleaf",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:cactus",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:deadbush",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:glow_lichen",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:hanging_roots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:moss_carpet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:sea_pickle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:seagrass",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:small_dripleaf_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 15,
+          "type": "item",
+          "name": "minecraft:spore_blossom",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:vine",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:waterlily",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

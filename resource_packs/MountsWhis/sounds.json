@@ -1,0 +1,11 @@
+{
+  "individual_event_sounds": {
+    "events": {
+      "whistle": {
+        "pitch": 1.0,
+        "sound": "random.whistle",
+        "volume": 1.0
+      }
+    }
+  }
+}
