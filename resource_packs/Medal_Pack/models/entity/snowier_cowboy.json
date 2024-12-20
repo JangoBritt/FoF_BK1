@@ -1,0 +1,104 @@
+{
+  "format_version": "1.10.0",
+  "geometry.snowier_cowboy": {
+    "texturewidth": 128,
+    "textureheight": 128,
+    "visible_bounds_width": 2,
+    "visible_bounds_height": 4,
+    "visible_bounds_offset": [
+      0,
+      2,
+      0
+    ],
+    "bones": [
+      {
+        "name": "head",
+        "pivot": [
+          0,
+          24,
+          0
+        ]
+      },
+      {
+        "name": "bone",
+        "parent": "head",
+        "pivot": [
+          0,
+          23.09096,
+          -1.08335
+        ],
+        "rotation": [
+          -5,
+          0,
+          0
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -7,
+              31.09096,
+              -8.08335
+            ],
+            "size": [
+              14,
+              1,
+              14
+            ],
+            "uv": [
+              0,
+              0
+            ]
+          },
+          {
+            "origin": [
+              3,
+              32.09096,
+              -8.08335
+            ],
+            "size": [
+              4,
+              2,
+              14
+            ],
+            "uv": [
+              22,
+              18
+            ]
+          },
+          {
+            "origin": [
+              -7,
+              32.09096,
+              -8.08335
+            ],
+            "size": [
+              4,
+              2,
+              14
+            ],
+            "uv": [
+              0,
+              15
+            ]
+          },
+          {
+            "origin": [
+              -4.5,
+              32.09096,
+              -5.08335
+            ],
+            "size": [
+              9,
+              4,
+              9
+            ],
+            "uv": [
+              0,
+              35
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

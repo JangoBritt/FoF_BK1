@@ -31,5 +31,13 @@
 	"textures/blocks/leather_pile_up",
 	"textures/blocks/leather_pile_side",
 	"textures/blocks/vibranium_crystal_block",
-	"textures/blocks/vibranium_block"
+	"textures/blocks/vibranium_block",
+	"textures/items/hats/snowier_goldglass",
+	"textures/entity/hats/snowier_goldglass",
+	"textures/items/hats/snowier_beard",
+	"textures/entity/hats/snowier_beard",
+	"textures/items/hats/snowier_beardb",
+	"textures/entity/hats/snowier_beardb",
+	"textures/items/hats/snowier_beardg",
+	"textures/entity/hats/snowier_beardg"
 ]
