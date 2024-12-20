@@ -11,24 +11,24 @@
 					"default": "wolf_ear_yellow"
 				}
 			},
-      "minecraft:enchantable": {
-        "value": 10,
-        "slot": "armor_head"
-      },
-      "minecraft:durability": {
-        "max_durability": 200,
-        "damage_chance": {
-          "min": 60,
-          "max": 100
-        }
-      },
-      "minecraft:wearable": {
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "armor_head"
+			},
+			"minecraft:durability": {
+				"max_durability": 200,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:wearable": {
 				"protection": 3,
 				"slot": "slot.armor.head"
 			},
-      "minecraft:knockback_resistance": {
-        "protection": 1
-      },
+			"minecraft:knockback_resistance": {
+				"protection": 1
+			},
 			"minecraft:creative_category": {
 				"category": "none"
 			}
