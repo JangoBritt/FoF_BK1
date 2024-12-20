@@ -2,7 +2,7 @@
   "format_version": "1.13.0",
   "minecraft:tree_feature": {
     "description": {
-      "identifier": "korbon:cherry_tree_flowering_feature"
+      "identifier": "korbon:cherry_tree_vanilla_feature"
     },
     "cherry_trunk": {
       "trunk_block": "minecraft:cherry_log",
@@ -42,7 +42,7 @@
       }
     },
     "cherry_canopy": {
-      "leaf_block": "korbon:cherry_blossom_leaves",
+      "leaf_block": "minecraft:cherry_leaves",
       "height": 5,
       "radius": 4,
       "wide_bottom_layer_hole_chance": 25,

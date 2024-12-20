@@ -7,6 +7,12 @@
 			"menu_category": {
 				"group": "itemGroup.name.leaves",
 				"category": "nature"
+			},
+			"states": {
+				"pog:playerPlaced": [
+					false,
+					true
+				]
 			}
 		},
 		"components": {
@@ -29,7 +35,11 @@
 			"minecraft:flammable": {
 				"destroy_chance_modifier": 20,
 				"catch_chance_modifier": 5
-			}
+			},
+			"minecraft:custom_components": [
+				"pog:cherryleavesDecay",
+				"korbon:fallingleaves"
+			]
 		},
 		"events": {}
 	}
