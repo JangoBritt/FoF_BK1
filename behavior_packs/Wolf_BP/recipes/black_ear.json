@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "new:rat_ear_black"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" D ",
+			" B ",
+			"   "
+		],
+		"key": {
+			"D": {
+				"item": "minecraft:black_dye"
+			},
+			"B": {
+				"item": "new:rat_ear"
+			}
+		},
+		"result": {
+			"item": "new:rat_ear_black"
+		}
+	}
+}

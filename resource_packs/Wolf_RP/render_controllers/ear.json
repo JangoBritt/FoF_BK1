@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.0",
+	"render_controllers": {
+		"controller.render.animated_ear": {
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"query.is_item_name_any('slot.inventory',8,'black_dye')?texture.wolf_ear_black:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'blue_dye')?texture.wolf_ear_blue:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'brown_dye')?texture.wolf_ear_brown:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'cyan_dye')?texture.wolf_ear_cyan:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'gray_dye')?texture.wolf_ear_gray:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'green_dye')?texture.wolf_ear_green:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'light_blue_dye')?texture.wolf_ear_light_blue:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'light_gray_dye')?texture.wolf_ear_light_gray:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'lime_dye')?texture.wolf_ear_lime:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'magenta_dye')?texture.wolf_ear_magenta:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'orange_dye')?texture.wolf_ear_orange:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'pink_dye')?texture.wolf_ear_pink:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'purple_dye')?texture.wolf_ear_purple:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'red_dye')?texture.wolf_ear_red:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'white_dye')?texture.wolf_ear_white:(query.is_alive?texture.default:0)",
+				"query.is_item_name_any('slot.inventory',8,'yellow_dye')?texture.wolf_ear_yellow:(query.is_alive?texture.default:0)"
+			],
+			"geometry": "geometry.default"
+		}
+	}
+}

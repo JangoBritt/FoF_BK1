@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"GradientStudio"
+		]
+	},
+	"header": {
+		"name": "Wolf Attribute - V4.0",
+		"description": "an addons that add wolf tail and ears.",
+		"min_engine_version": [ 1, 20, 0 ],
+		"uuid": "122eda50-6c7c-4750-a55d-5eb7dfd58b55",
+		"version": [ 4, 0, 0 ]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "bc961f66-7dae-4360-a86e-684857932977",
+			"version": [
+				4,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "1d0c02d7-42ab-4cc8-a2c0-053102b8ba72",
+			"version": [
+				4,
+				0,
+				0
+			]
+		}
+	]
+}
