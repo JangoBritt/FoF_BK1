@@ -81,9 +81,6 @@
           }
         ]
       },
-      "minecraft:armor": {
-        "protection": 3
-      },
       "minecraft:display_name": {}
     }
   }

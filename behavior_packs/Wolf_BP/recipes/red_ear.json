@@ -20,6 +20,11 @@
 				"item": "new:rat_ear"
 			}
 		},
+		"unlock": [
+			{
+			  "item": "new:rat_ear"
+			}
+		],
 		"result": {
 			"item": "new:rat_ear_red"
 		}

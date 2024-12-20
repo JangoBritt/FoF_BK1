@@ -2,22 +2,25 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "new:rat_ear_green"
+			"identifier": "new:rat_ear"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"pattern": [
-			" D ",
-			" B ",
-			"   "
+			"R R",
+			"DDD",
+			" P "
 		],
 		"key": {
-			"D": {
-				"item": "minecraft:green_dye"
+			"R": {
+				"item": "fof:rat_pelt"
 			},
-			"B": {
-				"item": "new:rat_ear"
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"P": {
+				"item": "farmersdelight:rope_item"
 			}
 		},
 		"unlock": [
@@ -26,7 +29,7 @@
 			}
 		],
 		"result": {
-			"item": "new:rat_ear_green"
+			"item": "new:rat_ear_black"
 		}
 	}
 }
