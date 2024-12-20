@@ -80,7 +80,8 @@
       "minecraft:azalea_leaves",
       "minecraft:azalea_leaves_flowered",
       "minecraft:mangrove_leaves",
-      "minecraft:snow_layer"
+      "minecraft:cherry_leaves",
+      "korbon:cherry_blossom_leaves"
     ]
   }
 }

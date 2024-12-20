@@ -1,0 +1,33 @@
+{
+	"format_version": "1.18.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "new:rat_ear_magenta",
+			"item": {
+                "new:rat_ear": "query.owner_identifier == 'minecraft:player'"
+            },
+			"materials": {
+				"default": "entity_custom"
+			},
+			"textures": {
+				"default": "textures/models/wolf_ear_magenta"
+			},
+			"geometry": {
+				"default": "geometry.wolf_ear"
+			},
+			"animations": {
+				"idle": "animation.wolf_ear.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_ear"
+			]
+		}
+	}
+}

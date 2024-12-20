@@ -1,0 +1,91 @@
+{
+	"resource_pack_name": "Wolf Ear & Tail",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"wolf_ear": {
+			"textures": [
+				"textures/items/wolf_ear"
+			]
+		},
+		"wolf_ear_black": {
+			"textures": [
+				"textures/items/wolf_ear_black"
+			]
+		},
+		"wolf_ear_blue": {
+			"textures": [
+				"textures/items/wolf_ear_blue"
+			]
+		},
+		"wolf_ear_brown": {
+			"textures": [
+				"textures/items/wolf_ear_brown"
+			]
+		},
+		"wolf_ear_cyan": {
+			"textures": [
+				"textures/items/wolf_ear_cyan"
+			]
+		},
+		"wolf_ear_green": {
+			"textures": [
+				"textures/items/wolf_ear_green"
+			]
+		},
+		"wolf_ear_grey": {
+			"textures": [
+				"textures/items/wolf_ear_grey"
+			]
+		},
+		"wolf_ear_lightblue": {
+			"textures": [
+				"textures/items/wolf_ear_lightblue"
+			]
+		},
+		"wolf_ear_lightgrey": {
+			"textures": [
+				"textures/items/wolf_ear_lightgrey"
+			]
+		},
+		"wolf_ear_lime": {
+			"textures": [
+				"textures/items/wolf_ear_lime"
+			]
+		},
+		"wolf_ear_magenta": {
+			"textures": [
+				"textures/items/wolf_ear_magenta"
+			]
+		},
+		"wolf_ear_orange": {
+			"textures": [
+				"textures/items/wolf_ear_orange"
+			]
+		},
+		"wolf_ear_pink": {
+			"textures": [
+				"textures/items/wolf_ear_pink"
+			]
+		},
+		"wolf_ear_purple": {
+			"textures": [
+				"textures/items/wolf_ear_purple"
+			]
+		},
+		"wolf_ear_red": {
+			"textures": [
+				"textures/items/wolf_ear_red"
+			]
+		},
+		"wolf_ear_white": {
+			"textures": [
+				"textures/items/wolf_ear_white"
+			]
+		},
+		"wolf_ear_yellow": {
+			"textures": [
+				"textures/items/wolf_ear_yellow"
+			]
+		}
+	}
+}

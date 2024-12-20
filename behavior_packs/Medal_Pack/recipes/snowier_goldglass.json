@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fables_misc:goldglass_recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "BBB",
+      "DDD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:spyglass"
+      },
+      "B": {
+        "item": "farmersdelight:rope_item"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "unlock": [
+      {
+        "item": "fables_misc:goldglass"
+      }
+    ],
+    "result": {
+      "item": "fables_misc:goldglass",
+      "count": 1
+    }
+  }
+}

@@ -21,6 +21,30 @@ world.beforeEvents.worldInitialize.subscribe(eventData => {
             // Get the air block below the leaf block
             const belowBlock = block.below();
 
+            // Check if the block is of type 'korbon:cherry_blossom_leaves', the block below is air, and the timer has reached 5 ticks
+            if (block.typeId === 'korbon:cherry_blossom_leaves' && belowBlock.typeId === 'minecraft:air' && timer >= 10) {
+                // Reset the timer
+                timer = 0;
+
+                // Define the position for the particles
+                const position = [0, 0, 0];
+
+                // Destructure position into x, y, z coordinates
+                const [offsetX, offsetY, offsetZ] = position;
+
+                // Calculate the particle spawn position
+                const particleX = x + offsetX;
+                const particleY = y + offsetY;
+                const particleZ = z + offsetZ;
+
+                // Create an empty MolangVariableMap
+                const molangVariables = new MolangVariableMap();
+
+                // Spawn minecraft:aspen_leaves particles
+                block.dimension.spawnParticle('minecraft:cherry_leaves_particle', { x: particleX, y: particleY, z: particleZ }, molangVariables);
+            }
+
+
             // Check if the block is of type 'korbon:aspen_leaves', the block below is air, and the timer has reached 5 ticks
             if (block.typeId === 'korbon:aspen_leaves' && belowBlock.typeId === 'minecraft:air' && timer >= 5) {
                 // Reset the timer
