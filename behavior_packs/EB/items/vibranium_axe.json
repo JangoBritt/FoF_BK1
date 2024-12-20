@@ -40,286 +40,100 @@
 						},
 						"speed": 9
 					},
-					{
-						"block": "minecraft:chest",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:melon_block",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:crimson_hyphae",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:crimson_planks",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:stripped_crimson_hyphae",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:crimson_slab",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:crimson_door",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:crimson_button",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:warped_hyphae",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:warped_planks",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:stripped_warped_hyphae",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:warped_slab",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:warped_door",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:warped_button",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:warped_stem",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:stripped_warped_stem",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:crimson_stem",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:stripped_crimson_stem",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:bookshelf",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:crafting_table",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:lectern",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:composter",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:warped_pressure_plate",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:warped_standing_sign",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:cartography_table",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:warped_trapdoor",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:warped_stairs",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:loom",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:warped_fence",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:warped_fence_gate",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:crimson_fence",
-						"speed": 15
-					},
-					{
-						"block": "minecraft:crimson_fence_gate",
-						"speed": 15
-					},
-					{
-						"block": "minecraft:crimson_stairs",
-						"speed": 9
-					},
-					{
-						"block": "minecraft:crimson_pressure_plate",
-						"speed": 15
-					},
-					{
-						"block": "minecraft:standing_banner",
-						"speed": 15
-					},
-					{
-						"block": "minecraft:wall_banner",
-						"speed": 15
-					},
-					{
-						"block": "minecraft:trapped_chest",
-						"speed": 15
-					},
-					{
-						"block": "minecraft:crimson_trapdoor",
-						"speed": 15
-					},
-					{
-						"block": "korbon:redwood_door",
-						"speed": 9
-					},
-					{
-						"block": "korbon:redwood_planks",
-						"speed": 9
-					},
-					{
-						"block": "korbon:redwood_slab",
-						"speed": 9
-					},
-					{
-						"block": "korbon:redwood_log",
-						"speed": 9
-					},
-					{
-						"block": "korbon:redwood_wood",
-						"speed": 9
-					},
-					{
-						"block": "korbon:redwood_fence",
-						"speed": 9
-					},
-					{
-						"block": "korbon:redwood_fence_inventory",
-						"speed": 9
-					},
-					{
-						"block": "korbon:redwood_fence_gate",
-						"speed": 9
-					},
-					{
-						"block": "korbon:redwood_trapdoor",
-						"speed": 9
-					},
-					{
-						"block": "korbon:stripped_redwood_log",
-						"speed": 9
-					},
-					{
-						"block": "korbon:stripped_redwood_wood",
-						"speed": 9
-					},
-					{
-						"block": "korbon:jacaranda_door",
-						"speed": 9
-					},
-					{
-						"block": "korbon:jacaranda_planks",
-						"speed": 9
-					},
-					{
-						"block": "korbon:jacaranda_slab",
-						"speed": 9
-					},
-					{
-						"block": "korbon:jacaranda_log",
-						"speed": 9
-					},
-					{
-						"block": "korbon:jacaranda_wood",
-						"speed": 9
-					},
-					{
-						"block": "korbon:jacaranda_fence",
-						"speed": 9
-					},
-					{
-						"block": "korbon:jacaranda_fence_inventory",
-						"speed": 9
-					},
-					{
-						"block": "korbon:jacaranda_fence_gate",
-						"speed": 9
-					},
-					{
-						"block": "korbon:jacaranda_trapdoor",
-						"speed": 9
-					},
-					{
-						"block": "korbon:stripped_jacaranda_log",
-						"speed": 9
-					},
-					{
-						"block": "korbon:stripped_jacaranda_wood",
-						"speed": 9
-					},
-					{
-						"block": "korbon:baobab_door",
-						"speed": 9
-					},
-					{
-						"block": "korbon:baobab_planks",
-						"speed": 9
-					},
-					{
-						"block": "korbon:baobab_slab",
-						"speed": 9
-					},
-					{
-						"block": "korbon:baobab_log",
-						"speed": 9
-					},
-					{
-						"block": "korbon:baobab_wood",
-						"speed": 9
-					},
-					{
-						"block": "korbon:baobab_fence",
-						"speed": 9
-					},
-					{
-						"block": "korbon:baobab_fence_inventory",
-						"speed": 9
-					},
-					{
-						"block": "korbon:baobab_fence_gate",
-						"speed": 9
-					},
-					{
-						"block": "korbon:baobab_trapdoor",
-						"speed": 9
-					},
-					{
-						"block": "korbon:stripped_baobab_log",
-						"speed": 9
-					},
+					{ "block": "minecraft:bamboo_block", "speed": 9 },
+					{ "block": "minecraft:stripped_bamboo_block", "speed": 9 },
+
+					{ "block": "minecraft:bamboo_", "speed": 9 },
+					{ "block": "minecraft:bamboo_door", "speed": 9 },
+					{ "block": "minecraft:bamboo_fence", "speed": 9 },
+					{ "block": "minecraft:bamboo_mosaic", "speed": 9 },
+					{ "block": "minecraft:bamboo_mosaic_slab", "speed": 9 },
+					{ "block": "minecraft:bamboo_mosaic_stairs", "speed": 9 },
+					{ "block": "minecraft:bamboo_planks", "speed": 9 },
+					{ "block": "minecraft:bamboo_slab", "speed": 9 },
+					{ "block": "minecraft:bamboo_stairs", "speed": 9 },
+					{ "block": "minecraft:bamboo_door", "speed": 9 },
+					{ "block": "minecraft:bamboo_trapdoor", "speed": 9 },
+					{ "block": "minecraft:chest", "speed": 9 },
+					{ "block": "minecraft:chest", "speed": 9 },
+					{ "block": "minecraft:melon_block", "speed": 9 },
+					{ "block": "minecraft:crimson_hyphae", "speed": 9 },
+					{ "block": "minecraft:crimson_planks", "speed": 9 },
+					{ "block": "minecraft:stripped_crimson_hyphae", "speed": 9 },
+					{ "block": "minecraft:crimson_slab", "speed": 9 },
+					{ "block": "minecraft:crimson_door", "speed": 9 },
+					{ "block": "minecraft:crimson_button", "speed": 9 },
+					{ "block": "minecraft:warped_hyphae", "speed": 9 },
+					{ "block": "minecraft:warped_planks", "speed": 9 },
+					{ "block": "minecraft:stripped_warped_hyphae", "speed": 9 },
+					{ "block": "minecraft:warped_slab", "speed": 9 },
+					{ "block": "minecraft:warped_door", "speed": 9 },
+					{ "block": "minecraft:warped_button", "speed": 9 },
+					{ "block": "minecraft:warped_stem", "speed": 9 },
+					{ "block": "minecraft:stripped_warped_stem", "speed": 9 },
+					{ "block": "minecraft:crimson_stem", "speed": 9 },
+					{ "block": "minecraft:stripped_crimson_stem", "speed": 9 },
+					{ "block": "minecraft:bookshelf", "speed": 9 },
+					{ "block": "minecraft:crafting_table", "speed": 9 },
+					{ "block": "minecraft:lectern", "speed": 9 },
+					{ "block": "minecraft:composter", "speed": 9 },
+					{ "block": "minecraft:warped_pressure_plate", "speed": 9 },
+					{ "block": "minecraft:warped_standing_sign", "speed": 9 },
+					{ "block": "minecraft:cartography_table", "speed": 9 },
+					{ "block": "minecraft:warped_trapdoor", "speed": 9 },
+					{ "block": "minecraft:warped_stairs", "speed": 9 },
+					{ "block": "minecraft:loom", "speed": 9 },
+					{ "block": "minecraft:warped_fence", "speed": 9 },
+					{ "block": "minecraft:warped_fence_gate", "speed": 9 },
+					{ "block": "minecraft:crimson_fence", "speed": 15 },
+					{ "block": "minecraft:crimson_fence_gate", "speed": 15 },
+					{ "block": "minecraft:crimson_stairs", "speed": 9 },
+					{ "block": "minecraft:crimson_pressure_plate", "speed": 15 },
+					{ "block": "minecraft:standing_banner", "speed": 15 },
+					{ "block": "minecraft:wall_banner", "speed": 15 },
+					{ "block": "minecraft:trapped_chest", "speed": 15 },
+					{ "block": "minecraft:crimson_trapdoor", "speed": 15 },
+					
+					{ "block": "minecraft:pale_oak_planks", "speed": 15 },
+					{ "block": "minecraft:pale_oak_slab", "speed": 15 },
+					{ "block": "minecraft:pale_oak_stairs", "speed": 15 },
+					{ "block": "minecraft:pale_oak_fence", "speed": 15 },
+					{ "block": "minecraft:pale_oak_fence_gate", "speed": 15 },
+					{ "block": "minecraft:pale_oak_door", "speed": 15 },
+					{ "block": "minecraft:pale_oak_trapdoor", "speed": 15 },
+
+					{ "block": "korbon:redwood_door", "speed": 9 },
+					{ "block": "korbon:redwood_planks", "speed": 9 },
+					{ "block": "korbon:redwood_slab", "speed": 9 },
+					{ "block": "korbon:redwood_log", "speed": 9 },
+					{ "block": "korbon:redwood_wood", "speed": 9 },
+					{ "block": "korbon:redwood_fence", "speed": 9 },
+					{ "block": "korbon:redwood_fence_inventory", "speed": 9 },
+					{ "block": "korbon:redwood_fence_gate", "speed": 9 },
+					{ "block": "korbon:redwood_trapdoor", "speed": 9 },
+					{ "block": "korbon:stripped_redwood_log", "speed": 9 },
+					{ "block": "korbon:stripped_redwood_wood", "speed": 9 },
+					{ "block": "korbon:jacaranda_door", "speed": 9 },
+					{ "block": "korbon:jacaranda_planks", "speed": 9 },
+					{ "block": "korbon:jacaranda_slab", "speed": 9 },
+					{ "block": "korbon:jacaranda_log", "speed": 9 },
+					{ "block": "korbon:jacaranda_wood", "speed": 9 },
+					{ "block": "korbon:jacaranda_fence", "speed": 9 },
+					{ "block": "korbon:jacaranda_fence_inventory", "speed": 9 },
+					{ "block": "korbon:jacaranda_fence_gate", "speed": 9 },
+					{ "block": "korbon:jacaranda_trapdoor", "speed": 9 },
+					{ "block": "korbon:stripped_jacaranda_log", "speed": 9 },
+					{ "block": "korbon:stripped_jacaranda_wood", "speed": 9 },
+					{ "block": "korbon:baobab_door", "speed": 9 },
+					{ "block": "korbon:baobab_planks", "speed": 9 },
+					{ "block": "korbon:baobab_slab", "speed": 9 },
+					{ "block": "korbon:baobab_log", "speed": 9 },
+					{ "block": "korbon:baobab_wood", "speed": 9 },
+					{ "block": "korbon:baobab_fence", "speed": 9 },
+					{ "block": "korbon:baobab_fence_inventory", "speed": 9 },
+					{ "block": "korbon:baobab_fence_gate", "speed": 9 },
+					{ "block": "korbon:baobab_trapdoor", "speed": 9 },
+					{ "block": "korbon:stripped_baobab_log", "speed": 9 },
 					{
 						"block": "korbon:stripped_baobab_wood",
 						"speed": 9
