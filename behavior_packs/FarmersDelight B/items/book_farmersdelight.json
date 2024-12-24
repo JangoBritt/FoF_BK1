@@ -13,11 +13,6 @@
       "menu_category": {
         "category": "Items",
         "group": "itemGroup.name.items"
-      },
-      "minecraft:tags": {
-        "tags": [
-          "minecraft:bookshelf_books"
-        ]
       }
     }
   }
