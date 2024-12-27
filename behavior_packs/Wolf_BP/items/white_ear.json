@@ -31,6 +31,11 @@
       },
 			"minecraft:creative_category": {
 				"category": "none"
+			},
+			"minecraft:tags": {
+				"tags": [
+				  "new:rat_ears"
+				]
 			}
 		},
 		"events": {}

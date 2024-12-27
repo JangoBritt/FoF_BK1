@@ -7,5 +7,5 @@ execute as @a[hasitem={item=fmh:rabbit_coat_desert_mask,location=slot.armor.head
 execute as @a[hasitem={item=fmh:rabbit_coat_salt_mask,location=slot.armor.head}] at @s run effect @s jump_boost 15 2 true
 execute as @a[hasitem={item=fmh:rabbit_coat_splotched_mask,location=slot.armor.head}] at @s run effect @s jump_boost 15 2 true
 execute as @a[hasitem={item=fmh:rabbit_coat_white_mask,location=slot.armor.head}] at @s run effect @s jump_boost 15 2 true
-execute as @a[hasitem={item=fables_avatars:diving_helmet_mask,location=slot.armor.head}] at @s run effect @s conduit_power 15 0 true
+execute as @a[hasitem={item=fables_avatars:diving_helmet_mask,location=slot.armor.head}] at @s if block ~ ~1 ~ water run effect @s conduit_power 15 0 true
 execute as @a[hasitem={item=fables_misc:goldglass,location=slot.armor.head}] at @s run effect @s village_hero 15 0 true
