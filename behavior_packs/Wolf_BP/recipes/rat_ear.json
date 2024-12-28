@@ -25,11 +25,11 @@
 		},
 		"unlock": [
 			{
-			  "item": "new:rat_ear"
+			  "tag": "new:rat_ears"
 			}
 		],
 		"result": {
-			"item": "new:rat_ear_black"
+			"item": "new:rat_ear"
 		}
 	}
 }

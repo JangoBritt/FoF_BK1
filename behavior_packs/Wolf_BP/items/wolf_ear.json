@@ -32,6 +32,11 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.helmet"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"new:rat_ears"
+				]
 			}
 		},
 		"events": {}
