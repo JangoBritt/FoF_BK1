@@ -58,7 +58,7 @@
 				"minecraft:sittable": {},
 				"minecraft:behavior.follow_owner": {
 					"priority": 1000,
-					"start_distance": 5,
+					"start_distance": 10,
 					"stop_distance": 1
 				},
 				"minecraft:leashable": {},

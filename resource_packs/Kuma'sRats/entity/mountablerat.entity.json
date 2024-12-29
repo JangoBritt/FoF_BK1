@@ -19,7 +19,7 @@
 				"move": "controller.animation.Ratita.move",
 				"moving": "animation.MountableRat.walk",
 				"static": "controller.animation.Ratita.static",
-				"staticking": "animation.MountableRat.static",
+				"staticking": "animation.RataComun.breath",
 				"sit": "controller.animation.rata.move",
 				"sitting": "animation.MountableRat.sitting",
 				"look_at_target": "animation.common.look_at_target",
