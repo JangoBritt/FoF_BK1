@@ -27,7 +27,7 @@
 	
 	{
 		"pack_id" : "71cca5d2-a4a9-44f1-a23f-3b629102a1b9", //Kuma's Rats
-		"version" : [ 1, 0, 1 ]
+		"version" : [ 1, 2, 2 ]
 	},
 
 	{
@@ -74,10 +74,10 @@
 		"pack_id" : "20002000-ab12-2222-2222-b000b000b000", //Abandoned & Ruined Structures
 		"version" : [ 1, 10, 13 ]
 	},
-	// {
-	// 	"pack_id": "20002000-3de0-2222-2222-b000b000b000",  //More Dungeons
-	// 	"version": [ 1, 3, 30 ]
-	// },
+	{
+		"pack_id": "20002000-3de0-2222-2222-b000b000b000",  //More Dungeons
+		"version": [ 1, 3, 30 ]
+	},
 	
 	{
 		"pack_id" : "910ddcde-dac0-4e42-846d-bbd345f6869e", //Fables Currency Pack
