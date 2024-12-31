@@ -122,6 +122,8 @@
 					]
 				}
 			},
+			"minecraft:persistent": {
+			},
 			"minecraft:behavior.stay_while_sitting": {
 				"priority": 1
 			},
