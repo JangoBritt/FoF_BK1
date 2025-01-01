@@ -10,7 +10,11 @@
     "component_groups": {
 			"component:combat_melee": {
 				"minecraft:attack": {
-					"damage": [ 11, 15 ]
+          "knockback_damage": 2,
+          "knockback_horizontal_strength": 3,
+          "knockback_vertical_strength": 3,
+          "knockback_range": 4,
+					"damage": [ 15, 20 ]
 				},
 				"minecraft:behavior.melee_attack": {
           "priority": 5,
@@ -184,12 +188,12 @@
         "height": 1.8
       },
       "minecraft:health": {
-        "value": 500,
-        "max": 500
+        "value": 750,
+        "max": 750
       },
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:knockback_resistance": {
-				"value": 0.4
+				"value": 5
 			},
       "minecraft:movement": {
         "value": 0.25
@@ -209,13 +213,17 @@
       
       "minecraft:annotation.open_door": {},
       "minecraft:attack": {
-        "damage": [ 11, 15 ]
+        "knockback_damage": 6,
+        "knockback_horizontal_strength": 2,
+        "knockback_vertical_strength": 2,
+        "knockback_range": 4,
+        "damage": [ 15, 20 ]
       },
       "minecraft:block_climber": {},
       "minecraft:boss": {
         "name": "Magus Muro",
-				"hud_range": 24,
-				"should_darken_sky": false
+				"hud_range": 32,
+				"should_darken_sky": true
 			},
       "minecraft:breathable": {
         "breathes_air": true,
@@ -551,7 +559,7 @@
             "look_at_target": true,
             "cast_duration": 2.0,
             "cooldown_time": 4.0,
-            "max_activation_range": 16.0,
+            "max_activation_range": 26.0,
             "min_activation_range": 0.0,
             "particle_color": "#E62008",
             "start_sound_event": "cast.spell",

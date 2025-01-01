@@ -218,7 +218,7 @@
 					{ "block": "minecraft:cracked_nether_bricks", "speed": 12 },
 					{ "block": "minecraft:chiseled_nether_bricks", "speed": 12 },
 					{ "block": "minecraft:quartz_bricks", "speed": 12 },
-					{ "block": "minecraft:stonebrick", "speed": 12 },
+					{ "block": "minecraft:stone_bricks", "speed": 12 },
 					{ "block": "minecraft:mossy_stone_brick", "speed": 12 },
 					{ "block": "minecraft:end_bricks", "speed": 12 },
 					{ "block": "minecraft:prismarine", "speed": 12 },
@@ -386,7 +386,8 @@
 					{ "block": "korbon:sulfur_ore_deepslate", "speed": 12 },
 					{ "block": "korbon:vibranium_ore", "speed": 12 },
 					{ "block": "fables_misc:vibranium_block", "speed": 12 },
-					{ "block": "fables_misc:vibranium_crystal_block", "speed": 12 }
+					{ "block": "fables_misc:vibranium_crystal_block", "speed": 12 },
+					{ "block": "korbon:strata", "speed": 16 }
 				]
 			},
 			"minecraft:display_name": {
