@@ -128,9 +128,13 @@
 	{
 		"pack_id": "1d0c02d7-42ab-4cc8-a2c0-053102b8ba72", //Wolf Ears
 		"version": [ 4, 0, 0 ]
-	}//,
+	},
 	// {
 	// 	"pack_id": "1c11cb2d-9375-4b42-ae69-2efd6ef58a96", //Mounts Whistle
 	// 	"version": [ 3, 0, 0 ]
 	// }
+	{
+		"pack_id": "b6b99aa9-40ed-4bfc-b4e4-1858aaa28a75", //Compostables+
+        "version": [1, 0, 2]
+	}
 ]
