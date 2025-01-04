@@ -136,5 +136,9 @@
 	{
 		"pack_id": "b6b99aa9-40ed-4bfc-b4e4-1858aaa28a75", //Compostables+
         "version": [1, 0, 2]
+	},
+	{
+		"pack_id": "02eeda7c-5f4d-4c9e-b5e5-217b120cbd1f", //Better Bonemeal
+        "version": [ 1, 0, 0 ]
 	}
 ]
