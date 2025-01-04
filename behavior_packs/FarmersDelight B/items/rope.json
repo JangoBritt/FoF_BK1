@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.40",
   "minecraft:item": {
     "components": {
       "minecraft:block_placer": {
@@ -12,9 +12,10 @@
       }
     },
     "description": {
-      "identifier": "farmersdelight:rope_item",
+      "identifier": "farmersdelight:rope",
       "menu_category": {
-        "category": "items"
+        "category": "Items",
+        "group": "itemGroup.name.items"
       }
     }
   }
