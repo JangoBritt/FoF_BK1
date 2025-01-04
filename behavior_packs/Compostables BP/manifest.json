@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "uuid": "b6b99aa9-40ed-4bfc-b4e4-1858aaa28a75",
+        "version": [1, 0, 2],
+        "min_engine_version": [1, 21, 20]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "5e4b3cf9-7944-40f1-a4d3-3a4993681d00",
+            "version": [1, 0, 2]
+        },
+        {
+          "type": "script",
+          "language": "javascript",
+          "uuid": "ff1b54c4-fd67-47c2-926b-ba87ac2092c4",
+          "version": [1, 0, 2],
+          "entry": "scripts/Compostables+.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.13.0"
+        }
+    ]
+}
