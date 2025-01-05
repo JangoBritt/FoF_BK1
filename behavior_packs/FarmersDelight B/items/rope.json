@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "identifier": "farmersdelight:rope",
+      "identifier": "farmersdelight:rope_item",
       "menu_category": {
         "category": "Items",
         "group": "itemGroup.name.items"
