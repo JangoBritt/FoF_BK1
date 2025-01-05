@@ -16,6 +16,8 @@ const useableBlocks = [
     'dune_grass',
     'jungfern_bottom',
     'violet_flower',
+    'lavender_flower',
+    'small_cactus',
     'sandy_shrub',
     'wild_beetroots',
     'wild_cabbages',

@@ -30,28 +30,37 @@ export class ItemUtil {
             return itemAmount;
         }
     }
-    public static replaceItem(player: Player, slot: number, newItemStack: ItemStack) {
+    public static replaceItem(player: Player, slot: number, replaceItemStack: ItemStack) {
         const container = player.getComponent("inventory")?.container;
         if (!container) return;
         const itemStack = container?.getItem(slot)
         if (!itemStack) return;
-        container.addItem(newItemStack)
         if (player.getGameMode() == GameMode.creative) return;
         const itemAmount = itemStack.amount;
-        itemStack.amount = itemAmount - 1;
-        container.setItem(slot, itemStack);
+        const amount = itemAmount - 1;
+
+        if (amount <= 0) {
+            container.setItem(slot, undefined);
+        }
+        else {
+            let newItemStack = itemStack
+            newItemStack.amount = amount
+            container.setItem(slot, newItemStack);
+        }
+        container.addItem(replaceItemStack)
+
     }
-    public static spawnItem(target: Block | Entity, item: string | ItemStack, number: number = 1, location: Vector3|undefined= undefined) {
-        if (!location){
+    public static spawnItem(target: Block | Entity, item: string | ItemStack, number: number = 1, location: Vector3 | undefined = undefined) {
+        if (!location) {
             if (item instanceof ItemStack) {
                 if (target instanceof Block) {
-                    if (RandomUtil.probability(50)){
+                    if (RandomUtil.probability(50)) {
                         target.dimension.spawnItem(item, target.center());
                     }
-                    else{
+                    else {
                         target.dimension.spawnItem(item, target.bottomCenter());
                     };
-                    
+
                 };
                 if (target instanceof Entity) {
                     target.dimension.spawnItem(item, target.location);
@@ -59,10 +68,10 @@ export class ItemUtil {
             }
             else {
                 if (target instanceof Block) {
-                    if (RandomUtil.probability(50)){
+                    if (RandomUtil.probability(50)) {
                         target.dimension.spawnItem(new ItemStack(item, number), target.center());
                     }
-                    else{
+                    else {
                         target.dimension.spawnItem(new ItemStack(item, number), target.bottomCenter());
                     };
                 }
@@ -71,7 +80,7 @@ export class ItemUtil {
                 };
             }
         }
-        else{
+        else {
             if (item instanceof ItemStack) {
                 target.dimension.spawnItem(item, location);
             }
@@ -79,6 +88,6 @@ export class ItemUtil {
                 target.dimension.spawnItem(new ItemStack(item, number), location);
             };
         };
-        
+
     }
 }

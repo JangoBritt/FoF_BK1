@@ -15,7 +15,7 @@
     "key": {
       "S": {
         "item": "minecraft:string",
-        "data": 16
+        "data": 0
       },
       "B": {
         "item": "korbon:black_bear_pelt",
@@ -32,7 +32,7 @@
     },
     "unlock": [
       {
-        "item": "fables_misc:beard"
+        "tag": "fables_misc:beards"
       }
     ],
     "result": {

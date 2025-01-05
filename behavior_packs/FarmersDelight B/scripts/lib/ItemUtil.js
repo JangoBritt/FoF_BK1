@@ -33,19 +33,26 @@ export class ItemUtil {
             return itemAmount;
         }
     }
-    static replaceItem(player, slot, newItemStack) {
+    static replaceItem(player, slot, replaceItemStack) {
         const container = player.getComponent("inventory")?.container;
         if (!container)
             return;
         const itemStack = container?.getItem(slot);
         if (!itemStack)
             return;
-        container.addItem(newItemStack);
         if (player.getGameMode() == GameMode.creative)
             return;
         const itemAmount = itemStack.amount;
-        itemStack.amount = itemAmount - 1;
-        container.setItem(slot, itemStack);
+        const amount = itemAmount - 1;
+        if (amount <= 0) {
+            container.setItem(slot, undefined);
+        }
+        else {
+            let newItemStack = itemStack;
+            newItemStack.amount = amount;
+            container.setItem(slot, newItemStack);
+        }
+        container.addItem(replaceItemStack);
     }
     static spawnItem(target, item, number = 1, location = undefined) {
         if (!location) {

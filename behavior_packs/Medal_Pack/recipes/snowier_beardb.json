@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fables_misc:beardb_recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DDD",
+      "ABA",
+      "SSS"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:string",
+        "data": 0
+      },
+      "B": {
+        "item": "korbon:grizzly_bear_pelt",
+        "data": 0
+      },
+      "A": {
+        "item": "minecraft:brown_dye",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:diamond",
+        "data": 0
+      }
+    },
+    "unlock": [
+      {
+        "tag": "fables_misc:beards"
+      }
+    ],
+    "result": {
+      "item": "fables_misc:beardb",
+      "count": 1
+    }
+  }
+}
