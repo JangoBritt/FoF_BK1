@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "fables_misc:beard_recipe"
+      "identifier": "fables_misc:beardg_recipe"
     },
     "tags": [
       "crafting_table"
@@ -18,11 +18,11 @@
         "data": 0
       },
       "B": {
-        "item": "korbon:black_bear_pelt",
+        "item": "fof:rat_pelt",
         "data": 0
       },
       "A": {
-        "item": "minecraft:black_dye",
+        "item": "minecraft:gray_dye",
         "data": 0
       },
       "D": {
@@ -36,7 +36,7 @@
       }
     ],
     "result": {
-      "item": "fables_misc:beard",
+      "item": "fables_misc:beardg",
       "count": 1
     }
   }

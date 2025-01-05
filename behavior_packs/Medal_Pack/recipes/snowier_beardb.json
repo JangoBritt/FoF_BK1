@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "fables_misc:beard_recipe"
+      "identifier": "fables_misc:beardb_recipe"
     },
     "tags": [
       "crafting_table"
@@ -18,11 +18,11 @@
         "data": 0
       },
       "B": {
-        "item": "korbon:black_bear_pelt",
+        "item": "korbon:grizzly_bear_pelt",
         "data": 0
       },
       "A": {
-        "item": "minecraft:black_dye",
+        "item": "minecraft:brown_dye",
         "data": 0
       },
       "D": {
@@ -36,7 +36,7 @@
       }
     ],
     "result": {
-      "item": "fables_misc:beard",
+      "item": "fables_misc:beardb",
       "count": 1
     }
   }

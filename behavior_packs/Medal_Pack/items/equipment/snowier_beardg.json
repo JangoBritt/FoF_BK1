@@ -2,13 +2,13 @@
 	"format_version":"1.21.0",
   "minecraft:item": {
     "description": {
-      "identifier": "fables_misc:beard",
+      "identifier": "fables_misc:beardg",
       "category": "Equipment"
     },
     "components": {
       "minecraft:icon": {
 				"textures": {
-					"default": "snowier_beard"
+					"default": "snowier_beardg"
 				}
 			},
       "minecraft:creative_category": {
