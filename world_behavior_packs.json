@@ -31,10 +31,7 @@
 		"pack_id": "b17af4d5-486d-480e-8d1f-f864c9a33a20", //Graves Addon - Effect99
 		"version": [ 1, 0, 0 ]
 	},
-	{
-		"pack_id": "5ebf1d6b-3c2c-4ae1-bc26-1815134563b1", //Treecapitator - Effect99
-        "version": [1, 4, 2]
-	},
+
 
 	{
 		"pack_id" : "957de88d-d527-48cc-bda5-d84ed2cc094e", //Kuma's Rats
