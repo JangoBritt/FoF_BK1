@@ -165,10 +165,9 @@ world.afterEvents.entityDie.subscribe(e => {
 
     if (entity.typeId === 'minecraft:player') {
         let { x, y, z } = entity.location
-        x = Math.floor(x) + 0.5; y = Math.floor(y); z = Math.floor(z) + 0.5
+        x = Math.floor(x) + 0.5; y = (dimension.id === 'minecraft:the_end') ? Math.max(Math.floor(y), 1) : Math.floor(y); z = Math.floor(z) + 0.5
         let block = dimension.getBlock({ x, y, z })
-        if (dimension.id === 'minecraft:the_end' && y <= 0) {
-            y = 1
+        if (dimension.id === 'minecraft:the_end') {
             dimension.runCommand(`fill ${x + 1} 0 ${z + 1} ${x - 1} 0 ${z - 1} minecraft:end_stone`)
         }
         let setLocation = { x, y, z }

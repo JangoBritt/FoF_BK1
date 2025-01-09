@@ -37,8 +37,7 @@
         "value": 1.0
       },
       "minecraft:inventory": {
-        "inventory_size": 42,
-        "container_type": "inventory"
+        "inventory_size": 42
       },
       "minecraft:collision_box": {
         "width": 0,
