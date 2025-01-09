@@ -931,34 +931,6 @@
 				}
 			]
 		},
-		"single_multi_panel_door_10": {
-			"textures": [
-				{
-					"path": "textures/blocks/single_multi_panel_door_10"
-				}
-			]
-		},
-		"single_multi_panel_door_11": {
-			"textures": [
-				{
-					"path": "textures/blocks/single_multi_panel_door_11"
-				}
-			]
-		},
-		"single_multi_panel_door_13": {
-			"textures": [
-				{
-					"path": "textures/blocks/single_multi_panel_door_13"
-				}
-			]
-		},
-		"single_multi_panel_door_14": {
-			"textures": [
-				{
-					"path": "textures/blocks/single_multi_panel_door_14"
-				}
-			]
-		},
 		"single_multi_panel_door_2": {
 			"textures": [
 				{
@@ -1012,6 +984,181 @@
 			"textures": [
 				{
 					"path": "textures/blocks/single_multi_panel_door_9"
+				}
+			]
+		},
+		"single_multi_panel_door_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_multi_panel_door_10"
+				}
+			]
+		},
+		"single_multi_panel_door_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_multi_panel_door_11"
+				}
+			]
+		},
+		"single_multi_panel_door_13": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_multi_panel_door_13"
+				}
+			]
+		},
+		"single_multi_panel_door_14": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_multi_panel_door_14"
+				}
+			]
+		},
+		"single_twin_glass_door_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_1"
+				}
+			]
+		},
+		"single_twin_glass_door_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_2"
+				}
+			]
+		},
+		"single_twin_glass_door_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_3"
+				}
+			]
+		},
+		"single_twin_glass_door_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_4"
+				}
+			]
+		},
+		"single_twin_glass_door_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_5"
+				}
+			]
+		},
+		"single_twin_glass_door_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_6"
+				}
+			]
+		},
+		"single_twin_glass_door_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_7"
+				}
+			]
+		},
+		"single_twin_glass_door_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_8"
+				}
+			]
+		},
+		"single_twin_glass_door_9": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_9"
+				}
+			]
+		},
+		"single_twin_glass_door_10": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_10"
+				}
+			]
+		},
+		"single_twin_glass_door_11": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_11"
+				}
+			]
+		},
+		"single_twin_glass_door_13": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_13"
+				}
+			]
+		},
+		"single_twin_glass_door_14": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_twin_glass_door_14"
+				}
+			]
+		},
+		"single_japanese_door_1": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_japanese_door_1"
+				}
+			]
+		},
+		"single_japanese_door_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_japanese_door_2"
+				}
+			]
+		},
+		"single_japanese_door_3": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_japanese_door_3"
+				}
+			]
+		},
+		"single_japanese_door_4": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_japanese_door_4"
+				}
+			]
+		},
+		"single_japanese_door_5": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_japanese_door_5"
+				}
+			]
+		},
+		"single_japanese_door_6": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_japanese_door_6"
+				}
+			]
+		},
+		"single_japanese_door_7": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_japanese_door_7"
+				}
+			]
+		},
+		"single_japanese_door_8": {
+			"textures": [
+				{
+					"path": "textures/blocks/single_japanese_door_8"
 				}
 			]
 		},

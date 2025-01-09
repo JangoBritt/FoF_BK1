@@ -232,3 +232,26 @@ tile.md:preview_single_bamboo_multi_panel_door.name=MD: Puerta de Bambú de Múl
 tile.md:preview_single_iron_multi_panel_door.name=MD: Puerta Blanca de Múltiples Paneles
 tile.md:preview_single_dark_iron_multi_panel_door.name=MD: Puerta Oscura de Múltiples Paneles
 
+
+tile.md:preview_single_oak_twin_glass_door.name=MD: Puerta de Roble con Vidrio Doble
+tile.md:preview_single_birch_twin_glass_door.name=MD: Puerta de Abedul con Vidrio Doble
+tile.md:preview_single_acacia_twin_glass_door.name=MD: Puerta de Acacia con Vidrio Doble
+tile.md:preview_single_spruce_twin_glass_door.name=MD: Puerta de Abeto con Vidrio Doble
+tile.md:preview_single_dark_oak_twin_glass_door.name=MD: Puerta de Roble Oscuro con Vidrio Doble
+tile.md:preview_single_jungle_twin_glass_door.name=MD: Puerta de Jungla con Vidrio Doble
+tile.md:preview_single_crimson_twin_glass_door.name=MD: Puerta Carmesí con Vidrio Doble
+tile.md:preview_single_warped_twin_glass_door.name=MD: Puerta Deformada con Vidrio Doble
+tile.md:preview_single_mangrove_twin_glass_door.name=MD: Puerta de Mangle con Vidrio Doble
+tile.md:preview_single_cherry_twin_glass_door.name=MD: Puerta de Cerezo con Vidrio Doble
+tile.md:preview_single_bamboo_twin_glass_door.name=MD: Puerta de Bambú con Vidrio Doble
+tile.md:preview_single_iron_twin_glass_door.name=MD: Puerta Blanca con Vidrio Doble
+tile.md:preview_single_dark_iron_twin_glass_door.name=MD: Puerta Oscura con Vidrio Doble
+
+tile.md:preview_single_oak_japanese_door.name=MD: Puerta Japonesa de Roble
+tile.md:preview_single_birch_japanese_door.name=MD: Puerta Japonesa de Abedul
+tile.md:preview_single_acacia_japanese_door.name=MD: Puerta Japonesa de Acacia
+tile.md:preview_single_spruce_japanese_door.name=MD: Puerta Japonesa de Abeto
+tile.md:preview_single_dark_oak_japanese_door.name=MD: Puerta Japonesa de Roble Oscuro
+tile.md:preview_single_jungle_japanese_door.name=MD: Puerta Japonesa de Jungla
+tile.md:preview_single_crimson_japanese_door.name=MD: Puerta Japonesa Carmesí
+tile.md:preview_single_warped_japanese_door.name=MD: Puerta Japonesa Distorsionada

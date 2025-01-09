@@ -234,3 +234,26 @@ tile.md:preview_single_cherry_multi_panel_door.name=MD: 樱桃木多面板门
 tile.md:preview_single_bamboo_multi_panel_door.name=MD: 竹子多面板门
 tile.md:preview_single_iron_multi_panel_door.name=MD: 白色多面板门
 tile.md:preview_single_dark_iron_multi_panel_door.name=MD: 深色多面板门
+
+tile.md:preview_single_oak_twin_glass_door.name=MD: 橡木双玻璃门
+tile.md:preview_single_birch_twin_glass_door.name=MD: 桦木双玻璃门
+tile.md:preview_single_acacia_twin_glass_door.name=MD: 金合欢木双玻璃门
+tile.md:preview_single_spruce_twin_glass_door.name=MD: 云杉木双玻璃门
+tile.md:preview_single_dark_oak_twin_glass_door.name=MD: 深色橡木双玻璃门
+tile.md:preview_single_jungle_twin_glass_door.name=MD: 丛林木双玻璃门
+tile.md:preview_single_crimson_twin_glass_door.name=MD: 绯红木双玻璃门
+tile.md:preview_single_warped_twin_glass_door.name=MD: 扭曲木双玻璃门
+tile.md:preview_single_mangrove_twin_glass_door.name=MD: 红树林木双玻璃门
+tile.md:preview_single_cherry_twin_glass_door.name=MD: 樱桃木双玻璃门
+tile.md:preview_single_bamboo_twin_glass_door.name=MD: 竹子双玻璃门
+tile.md:preview_single_iron_twin_glass_door.name=MD: 白色铁双玻璃门
+tile.md:preview_single_dark_iron_twin_glass_door.name=MD: 深色铁双玻璃门
+
+tile.md:preview_single_oak_japanese_door.name=MD: 橡木和风门
+tile.md:preview_single_birch_japanese_door.name=MD: 桦木和风门
+tile.md:preview_single_acacia_japanese_door.name=MD: 金合欢木和风门
+tile.md:preview_single_spruce_japanese_door.name=MD: 云杉木和风门
+tile.md:preview_single_dark_oak_japanese_door.name=MD: 深色橡木和风门
+tile.md:preview_single_jungle_japanese_door.name=MD: 丛林木和风门
+tile.md:preview_single_crimson_japanese_door.name=MD: 绯红木和风门
+tile.md:preview_single_warped_japanese_door.name=MD: 畸变木和风门
