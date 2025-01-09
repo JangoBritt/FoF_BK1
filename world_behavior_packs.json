@@ -24,9 +24,14 @@
 	},
 	
 	{
-		"pack_id" : "f5741565-6be8-4ad5-879a-130c644ff694", //Graves
+		"pack_id" : "f5741565-6be8-4ad5-879a-130c644ff694", //Graves (TO BE RETIRED)
 		"version" : [ 2, 1, 4 ]
 	},
+	{
+		"pack_id": "b17af4d5-486d-480e-8d1f-f864c9a33a20", //Graves Addon - Effect99
+		"version": [ 1, 0, 0 ]
+	},
+
 
 	{
 		"pack_id" : "957de88d-d527-48cc-bda5-d84ed2cc094e", //Kuma's Rats
@@ -94,7 +99,7 @@
 	
 	{
 		"pack_id" : "d9560f08-233c-4c1c-9a72-3f5b6ace7d32", //FoF Medals
-		"version" : [ 6, 1, 4 ]
+		"version" : [ 6, 1, 5 ]
 	},
 	{
 		"pack_id" : "25f31836-beb8-4f79-85f1-b3377e01ff07", //FoF Golems

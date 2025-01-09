@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "entity:grave_inventory",
+      "materials": {
+        "default": "zombie"
+      },
+      "textures": {
+        "default": "textures/null"
+      },
+      "geometry": {
+        "default": "geometry.text"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

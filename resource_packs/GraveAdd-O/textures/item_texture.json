@@ -1,0 +1,8 @@
+{
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "key": {
+      "textures": "textures/items/key"
+    }
+  }
+}

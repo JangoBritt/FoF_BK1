@@ -21,10 +21,13 @@
 		"version" : [ 1, 5, 0 ]
 	},
 	{
-		"pack_id" : "6181e449-d2b7-4482-8740-544e645bdd5f", //Gravestones
+		"pack_id" : "6181e449-d2b7-4482-8740-544e645bdd5f", //Gravestones (To Be Retired)
 		"version" : [ 2, 1, 4 ]
 	},
-	
+	{
+		"pack_id": "b17af4d5-486d-480e-8d1f-f864c9a33a20", //Graves Addon - Effect99
+		"version": [ 1, 0, 0 ]
+	},
 	{
 		"pack_id" : "71cca5d2-a4a9-44f1-a23f-3b629102a1b9", //Kuma's Rats
 		"version" : [ 1, 2, 2 ]
@@ -96,7 +99,7 @@
 	
 	{
 		"pack_id" : "3a71bf5a-e4fc-4cc1-aece-dcd17980a3d9", //Fables Medals Pack
-		"version" : [ 6, 1, 4 ]
+		"version" : [ 6, 1, 5 ]
 	},
 	
 	{

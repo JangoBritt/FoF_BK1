@@ -1,0 +1,31 @@
+{
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "wooden_grave": {
+      "textures": [ "textures/blocks/wooden_grave" ]
+    },
+    "stone_grave": {
+      "textures": [ "textures/blocks/stone_grave" ]
+    },
+    "stone_slab_grave": {
+      "textures": [ "textures/blocks/stone_slab_grave" ]
+    },
+    "stone_cross_grave": {
+      "textures": [ "textures/blocks/stone_cross_grave" ]
+    },
+    "blackstone_grave": {
+      "textures": [ "textures/blocks/blackstone_grave" ]
+    },
+    "golden_blackstone_grave": {
+      "textures": [ "textures/blocks/golden_blackstone_grave" ]
+    },
+    "golden_cross_netherite_grave": {
+      "textures": [ "textures/blocks/golden_cross_netherite_grave" ]
+    },
+    "golden_netherite_grave": {
+      "textures": [ "textures/blocks/golden_netherite_grave" ]
+    }
+  }
+}

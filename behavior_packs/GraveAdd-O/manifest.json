@@ -1,0 +1,33 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "§7Created by Effect99",
+    "name": "§l§7Grave Add-On §rV2",
+    "uuid": "0db99973-12b3-4c67-abbb-90e4726e73e1",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 19, 70 ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "487f6e23-afa7-490d-a124-023449f8a641",
+      "version": [ 1, 0, 0 ]
+    },
+    {
+      "type": "script",
+      "uuid": "0ca4aec2-207b-4670-80e7-090020e99bb4",
+      "version": [ 1, 0, 0 ],
+      "entry": "scripts/index.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+        "version": "1.13.0"
+    },
+    {
+      "uuid": "b17af4d5-486d-480e-8d1f-f864c9a33a20",
+      "version": [ 1, 0, 0 ]
+    }
+  ]
+}
