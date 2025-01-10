@@ -28,11 +28,10 @@
 		"version" : [ 2, 1, 4 ]
 	},
 	{
-		"pack_id": "b17af4d5-486d-480e-8d1f-f864c9a33a20", //Graves Addon - Effect99
+		"pack_id": "0db99973-12b3-4c67-abbb-90e4726e73e1", //Graves Addon - Effect99
 		"version": [ 1, 0, 0 ]
 	},
-
-
+	
 	{
 		"pack_id" : "957de88d-d527-48cc-bda5-d84ed2cc094e", //Kuma's Rats
 		"version" : [ 1, 2, 2 ]
