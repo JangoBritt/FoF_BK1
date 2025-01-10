@@ -1,0 +1,30 @@
+{
+ "format_version": [ 1, 1, 0 ],
+   "grave": {
+    "sound": "gravel"
+  },
+   "wooden_grave": {
+    "sound": "wood"
+  },
+   "stone_grave": {
+    "sound": "gravel"
+  },
+   "stone_slab_grave": {
+    "sound": "stone"
+  },
+   "stone_cross_grave": {
+    "sound": "deepslate"
+  },
+   "blackstone_grave": {
+    "sound": "deepslate"
+  },
+   "golden_blackstone_grave": {
+    "sound": "metal"
+  },
+   "golden_cross_netherite_grave": {
+    "sound": "netherite"
+  },
+   "golden_netherite_grave": {
+    "sound": "netherite"
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "§6Trecapitator §fV1.4.9",
+        "description": "§7By Effect99",
+        "uuid": "5ebf1d6b-3c2c-4ae1-bc26-1815134563b1",
+        "version": [1, 4, 2]
+    },
+    "modules": [
+      {
+        "description": "§l§fCreated by Effect99",
+         "type": "data",
+         "uuid": "bb17e36e-2c9c-3a3c-a9b1-fc4efa9765ea",
+         "version": [1, 0, 0]
+      },
+      {
+         "type": "script",
+         "uuid": "76310e1c-d881-46e6-eb3b-4fabfae56941",
+         "version": [1, 0, 0],
+         "entry": "scripts/javascript.js"
+      }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.13.0"
+      }
+    ]
+  }

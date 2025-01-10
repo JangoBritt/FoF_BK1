@@ -1,0 +1,27 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "effect99:key"
+    },  
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ig#", "ig#", "#b#"
+    ],
+    "key": {
+      "i": {
+        "item": "minecraft:gold_nugget"
+      },
+      "g": {
+        "item": "minecraft:gold_ingot"
+      },
+      "b": {
+        "item": "minecraft:bone"
+      }
+    },
+    "result": {
+      "item": "effect99:key",
+      "count": 1
+    }
+  }
+}

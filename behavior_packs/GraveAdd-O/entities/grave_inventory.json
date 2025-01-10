@@ -1,0 +1,100 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.13.0",
+    "description": {
+      "identifier": "entity:grave_inventory",
+      "is_summonable": true,
+      "is_spawnable": false,
+      "is_experimental": false,
+      "properties": {
+        "grave:model": { "type": "int", "range": [ 0, 8 ], "default": 1, "client_sync": true }
+      }
+    },
+    "component_groups": {
+      "spawnItem": {
+        "minecraft:transformation": {
+          "into": "entity:grave_inventory<despawn>",
+          "drop_inventory": true,
+          "drop_equipment": true,
+          "preserve_equipment": false
+        }
+      },
+      "despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "inanimate" ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:inventory": {
+        "inventory_size": 42
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      },
+      "minecraft:persistent": {
+      },
+      "minecraft:tick_world": {
+      },
+      "minecraft:nameable": {
+        "allow_name_tag_renaming": true,
+        "always_show": true
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:environment_sensor": {
+        "triggers": [
+          { "filters": {}, "event": "immovable" },
+          { "filters": {
+            "all_of": [
+            { "test": "in_block", "operator": "!=", "value": "grave" },
+            { "test": "in_block", "operator": "!=", "value": "wooden_grave" },
+            { "test": "in_block", "operator": "!=", "value": "stone_grave" },
+            { "test": "in_block", "operator": "!=", "value": "stone_slab_grave" },
+            { "test": "in_block", "operator": "!=", "value": "stone_cross_grave" },
+            { "test": "in_block", "operator": "!=", "value": "blackstone_grave" },
+            { "test": "in_block", "operator": "!=", "value": "golden_blackstone_grave" },
+            { "test": "in_block", "operator": "!=", "value": "golden_cross_netherite_grave" },
+            { "test": "in_block", "operator": "!=", "value": "golden_netherite_grave" }
+              ]
+            },
+            "event": "grave" 
+          }
+        ]
+      }
+    },
+    "events": {
+      "spawnItem": {
+        "add": { "component_groups": "spawnItem" }
+      },
+      "grave": {
+        "queue_command": { "command": "scriptevent grave:model set" }
+      },
+      "immovable": {
+        "queue_command": { "command": "tp @s ~~~" }
+      },
+      "despawn": {
+        "add": { "component_groups": "despawn" }
+      }
+    }
+  }
+}

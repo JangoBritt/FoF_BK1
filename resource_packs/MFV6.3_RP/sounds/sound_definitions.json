@@ -38,7 +38,7 @@
                     "volume": 0.7
                 }
             ],
-            "max_distance": 15
+            "max_distance": 8
         },
         "m.tac_pendulum_clock": {
             "category": "neutral",
@@ -48,7 +48,7 @@
                     "volume": 0.7
                 }
             ],
-            "max_distance": 15
+            "max_distance": 8
         },
         "m.wagon_moving_start": {
             "__use_legacy_max_distance": true,

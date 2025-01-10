@@ -9,7 +9,6 @@
 			}
     },
     "components": {
-      "minecraft:display_name": "%tile.fables_misc.leather_pile.name",
       "minecraft:material_instances": {
         "*": {
           "texture": "leather_pile_side",

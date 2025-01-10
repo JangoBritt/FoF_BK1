@@ -1,0 +1,12 @@
+tile.effect99:grave.name=§7Grave
+
+tile.effect99:wooden_grave.name=§7Grave
+tile.effect99:stone_grave.name=§7Stone grave
+tile.effect99:stone_slab_grave.name=§7Stone slab grave
+tile.effect99:stone_cross_grave.name=§7Stone cross grave
+tile.effect99:blackstone_grave.name=§7Blackstone grave
+tile.effect99:golden_blackstone_grave.name=§eGolden blackstone grave
+tile.effect99:golden_cross_netherite_grave.name=§gGolden cross netherite grave
+tile.effect99:golden_netherite_grave.name=§6Golden netherite grave
+
+item.effect99:key=§7Grave Key

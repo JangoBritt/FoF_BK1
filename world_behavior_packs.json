@@ -24,10 +24,14 @@
 	},
 	
 	{
-		"pack_id" : "f5741565-6be8-4ad5-879a-130c644ff694", //Graves
+		"pack_id" : "f5741565-6be8-4ad5-879a-130c644ff694", //Graves (TO BE RETIRED)
 		"version" : [ 2, 1, 4 ]
 	},
-
+	{
+		"pack_id": "0db99973-12b3-4c67-abbb-90e4726e73e1", //Graves Addon - Effect99
+		"version": [ 1, 0, 0 ]
+	},
+	
 	{
 		"pack_id" : "957de88d-d527-48cc-bda5-d84ed2cc094e", //Kuma's Rats
 		"version" : [ 1, 2, 2 ]
@@ -71,7 +75,7 @@
 	},
 	{
 		"pack_id" : "10ba4924-e71c-47a3-a456-ff77d7ef4e7e", //Medieval Furniture
-		"version" : [ 6, 4, 0 ]
+		"version" : [ 6, 4, 2 ]
 	},
 	{
 		"pack_id" : "91879d55-d90a-411b-8aff-21b58979b6a3", //FoF Paintings
@@ -94,7 +98,7 @@
 	
 	{
 		"pack_id" : "d9560f08-233c-4c1c-9a72-3f5b6ace7d32", //FoF Medals
-		"version" : [ 6, 1, 4 ]
+		"version" : [ 6, 1, 5 ]
 	},
 	{
 		"pack_id" : "25f31836-beb8-4f79-85f1-b3377e01ff07", //FoF Golems
@@ -118,7 +122,7 @@
 		
 	{
 		"pack_id" : "540f1b1e-20ae-4a1c-8f47-2ae8c892ca6e", //Modern Doors
-		"version" : [ 1, 7, 0 ]
+		"version" : [ 1, 9, 0 ]
 	},
 	
 	{
@@ -127,7 +131,7 @@
 	},
 	{
 		"pack_id": "1d0c02d7-42ab-4cc8-a2c0-053102b8ba72", //Wolf Ears
-		"version": [ 4, 0, 0 ]
+		"version": [ 4, 0, 1 ]
 	},
 	// {
 	// 	"pack_id": "1c11cb2d-9375-4b42-ae69-2efd6ef58a96", //Mounts Whistle

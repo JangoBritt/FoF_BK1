@@ -1,0 +1,89 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.golden_blackstone_grave",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "grave",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -3],
+							"size": [16, 15, 6],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 15]},
+								"east": {"uv": [17, 14], "uv_size": [6, 15]},
+								"south": {"uv": [0, 16], "uv_size": [16, 15]},
+								"west": {"uv": [17, 14], "uv_size": [6, 15]},
+								"up": {"uv": [17, 0], "uv_size": [16, 6]},
+								"down": {"uv": [17, 13], "uv_size": [16, -6]}
+							}
+						},
+						{
+							"origin": [-7, 15, -3],
+							"size": [14, 2, 6],
+							"uv": {
+								"north": {"uv": [34, 0], "uv_size": [14, 2]},
+								"east": {"uv": [17, 30], "uv_size": [6, 2]},
+								"south": {"uv": [34, 3], "uv_size": [14, 2]},
+								"west": {"uv": [13, 33], "uv_size": [6, 2]},
+								"up": {"uv": [24, 14], "uv_size": [14, 6]},
+								"down": {"uv": [24, 27], "uv_size": [14, -6]}
+							}
+						},
+						{
+							"origin": [-6, 17, -3],
+							"size": [12, 1, 6],
+							"uv": {
+								"north": {"uv": [34, 6], "uv_size": [12, 1]},
+								"east": {"uv": [34, 8], "uv_size": [6, 1]},
+								"south": {"uv": [34, 6], "uv_size": [12, 1]},
+								"west": {"uv": [34, 10], "uv_size": [6, 1]},
+								"up": {"uv": [24, 28], "uv_size": [12, 6]},
+								"down": {"uv": [0, 38], "uv_size": [12, -6]}
+							}
+						}
+					]
+				}
+			],
+			"item_display_transforms": {
+				"thirdperson_righthand": {
+					"rotation": [70, 0, -15],
+					"translation": [1.5, 4, 3],
+					"scale": [0.5, 0.5, 0.5],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"firstperson_righthand": {
+					"rotation": [0, 0, 0],
+					"translation": [1.5, 2, 1],
+					"scale": [0.5, 0.5, 0.9],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"gui": {
+					"rotation": [30, 225, 0],
+					"translation": [0, 0, 0],
+					"scale": [0.625, 0.625, 0.625],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"fixed": {
+					"rotation": [0, 0, 25],
+					"translation": [2.5, -3.5, 0],
+					"scale": [0.5, 0.5, 0.5],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				}
+			}
+		}
+	]
+}

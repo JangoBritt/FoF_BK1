@@ -105,6 +105,8 @@
 			"textures": [
 				"textures/items/hats/snowier_beardg"
 			]
-		}
+		},
+		
+		"treesaw": {"textures": "textures/items/treesaw.png"}
 	}
 }
