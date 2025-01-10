@@ -161,9 +161,9 @@ function breakGrave(player, block) {
 
 world.afterEvents.entityDie.subscribe(e => {
     const entity = e.deadEntity
-    const dimension = entity.dimension
+    const dimension = entity?.dimension
 
-    if (entity.typeId === 'minecraft:player') {
+    if (entity?.typeId === 'minecraft:player') {
         let { x, y, z } = entity.location
         x = Math.floor(x) + 0.5; y = (dimension.id === 'minecraft:the_end') ? Math.max(Math.floor(y), 1) : Math.floor(y); z = Math.floor(z) + 0.5
         let block = dimension.getBlock({ x, y, z })
