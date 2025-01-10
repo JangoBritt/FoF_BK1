@@ -28,7 +28,7 @@
 			},
 			"medieval:movement1": {
 				"minecraft:movement": {
-					"value": 0.36
+					"value": 0.46
 				}
 			},
 			"minecraft:horse_saddled": {

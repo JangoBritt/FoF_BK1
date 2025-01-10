@@ -281,7 +281,7 @@
 							"use_item": false,
 							"event": "medieval:become_horse"
 						},
-						"use_item": true,
+						"use_item": false,
 						"add_items": {
 							"table": "loot_tables/entities/cart_acacia.json"
 							},
