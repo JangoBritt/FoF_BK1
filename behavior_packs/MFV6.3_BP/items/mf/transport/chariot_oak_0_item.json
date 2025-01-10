@@ -13,6 +13,9 @@
 			"minecraft:icon": "m.chariot_oak_0_item",
 			"minecraft:display_name": {
 				"value": "item.medieval:chariot_oak_0_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "medieval:cart_oak_1"
 			}
 		}
 	}

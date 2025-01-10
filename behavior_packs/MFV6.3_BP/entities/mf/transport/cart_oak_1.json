@@ -24,8 +24,9 @@
 			}
 		},
 		"components": {
+			
 			"minecraft:loot": {
-				"table": "loot_tables/medieval_furniture/entities/wagon_0/horse_wagon_oak_0.json"
+				"table": "loot_tables/entities/cart_oak.json"
 			},
 			"minecraft:is_tamed": {},
 			"minecraft:interact": {
@@ -76,12 +77,12 @@
 				},
 				"event": "medieval:remove_rider"
 			},
-			"minecraft:inventory": {
-				"inventory_size": 27,
-				"container_type": "horse"
-			},
+			// "minecraft:inventory": {
+			// 	"inventory_size": 27,
+			// 	"container_type": "horse"
+			// },
 			"minecraft:is_hidden_when_invisible": {},
-			"minecraft:is_chested": {},
+			// "minecraft:is_chested": {},
 			"minecraft:collision_box": {
 				"width": 2,
 				"height": 2
