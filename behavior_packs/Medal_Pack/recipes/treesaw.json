@@ -2,7 +2,7 @@
 	"format_version": "1.20.30",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "fables_misc:treesaw"
+			"identifier": "fables_misc:treesaw_recipe"
 		},
 		"tags": [
 			"crafting_table"
@@ -20,7 +20,7 @@
 				"item": "minecraft:netherite_ingot"
 			},
 			"C": {
-				"item": "minecraft:redstone"
+				"item": "korbon:vibranium"
 			},
 			"D": {
 				"item": "minecraft:diamond"
@@ -28,7 +28,7 @@
 		},
 		"unlock": [
 			{
-				"item": "medieval:handsaw"
+				"item": "fables_misc:treesaw_book"
 			}
 		],
 		"result": {
