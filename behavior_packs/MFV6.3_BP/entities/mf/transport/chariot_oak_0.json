@@ -51,7 +51,7 @@
 			"medieval:add_barrel_potato": {"minecraft:skin_id": {"value": 11}},
 			"medieval:add_barrel_carrot": {"minecraft:skin_id": {"value": 12}},
 			"medieval:become_horse": {"minecraft:transformation": {"into": "minecraft:horse","drop_inventory": true,"keep_level": true,"keep_owner":true}},
-			"medieval:become_wagon": {"minecraft:transformation": {"into": "medieval:wagon_oak_2","drop_inventory": false,"keep_level": true,"keep_owner":true}},
+			"medieval:become_wagon": {"minecraft:transformation": {"into": "medieval:wagon_oak_2","drop_inventory": true,"keep_level": true,"keep_owner":true}},
 			"minecraft:base_white": {"minecraft:variant": {"value": 0}},
 			"minecraft:base_creamy": {"minecraft:variant": {"value": 1}},
 			"minecraft:base_chestnut": {"minecraft:variant": {"value": 2}},
@@ -416,7 +416,7 @@
 			},
 			"minecraft:movement": {
 				"value": {
-					"range_min": 0.1125,
+					"range_min": 0.2525,
 					"range_max": 0.3375
 				}
 			},
