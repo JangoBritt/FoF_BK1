@@ -86,6 +86,7 @@ world.beforeEvents.worldInitialize.subscribe(eventData => {
     const jacarandaStructures = ['jacaranda_tree_1', 'jacaranda_tree_2', 'jacaranda_tree_3'];
     const autumnStructures = ['autumn_oak1', 'autumn_oak2', 'autumn_oak3', 'autumn_oak2_1', 'autumn_oak2_2', 'autumn_oak2_3'];
     const mapleStructures = ['maple_tree_1', 'maple_tree_2', 'maple_tree_3', 'maple_tree_with_syrup'];
+    const coconutStructures = ['palm_tree_1', 'palm_tree_2'];
 
     // Define the offsets for each type of sapling
     const aspenOffset = { x: -2, y: 0, z: -2 };
@@ -94,6 +95,7 @@ world.beforeEvents.worldInitialize.subscribe(eventData => {
     const jacarandaOffset = { x: -2, y: 0, z: -2 };
     const autumnOffset = { x: -2, y: 0, z: -2 };
     const mapleOffset = { x: -2, y: 0, z: -2 };
+    const coconutOffset = { x: -5, y: 0, z: -4 };
 
     // Handle growth for each type of sapling with growth chances using bonemeal(first value), natural growth rates(second value), and offsets
     handleSaplingGrowth(eventData, 'aspen', aspenStructures, 0.35, 0.10, aspenOffset);
@@ -102,4 +104,5 @@ world.beforeEvents.worldInitialize.subscribe(eventData => {
     handleSaplingGrowth(eventData, 'jacaranda', jacarandaStructures, 0.35, 0.10, jacarandaOffset);
     handleSaplingGrowth(eventData, 'autumn', autumnStructures, 0.35, 0.10, autumnOffset);
     handleSaplingGrowth(eventData, 'maple', mapleStructures, 0.35, 0.10, mapleOffset);
+    handleSaplingGrowth(eventData, 'coconut', coconutStructures, 0.35, 0.10, coconutOffset);
 });

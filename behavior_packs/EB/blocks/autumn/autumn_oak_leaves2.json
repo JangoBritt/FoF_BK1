@@ -37,8 +37,7 @@
 				"catch_chance_modifier": 5
 			},
 			"minecraft:custom_components": [
-				"pog:autumnleavesDecay",
-				"korbon:fallingleaves"
+				"pog:autumnleavesDecay"
 			],
 			"minecraft:loot": "loot_tables/blocks/autumn_oak_leaves_drops.json"
 		},

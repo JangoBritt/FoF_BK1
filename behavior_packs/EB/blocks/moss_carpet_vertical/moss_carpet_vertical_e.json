@@ -1,6 +1,6 @@
 //bridge-file-version: #126
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:moss_carpet_vertical_e",
@@ -27,6 +27,15 @@
 					1,
 					16,
 					16
+				]
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
 				]
 			},
 			"minecraft:collision_box": {

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "korbon:goblin_well"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "goblin_village/road_n",       
+          "processors": "korbon:goblin_village_pro"
+        },
+        "weight": 1,
+        "projection": "terrain_matching"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "goblin_village/road_cross",       
+          "processors": "korbon:goblin_village_pro"
+        },
+        "weight": 1,
+        "projection": "terrain_matching"
+      }
+    ]
+  }
+}

@@ -1,4 +1,3 @@
-//bridge-file-version: #0
 {
 	"format_version": "1.20.50",
 	"minecraft:item": {
@@ -27,10 +26,14 @@
 			},
 			"minecraft:can_destroy_in_creative": false,
 			"minecraft:digger": {
-				"use_efficiency": false,
+				"use_efficiency": true,
 				"destroy_speeds": [
-					{ "block": "minecraft:web", "speed": 15 },
-					{ "block": "minecraft:bamboo", "speed": 100 }
+					{
+						"block": {
+							"tags": "q.any_tag('minecraft:is_sword_item_destructible')"
+						},
+						"speed": 12
+					}
 				]
 			},
 			"minecraft:icon": {

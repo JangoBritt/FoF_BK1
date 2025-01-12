@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "korbon:swiftrunner_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"Z Z",
+			"W W"
+		],
+		"key": {
+			"X": {
+				"item": "korbon:dweller_flesh"
+			},
+			"Z": {
+				"item": "minecraft:bone"
+			},
+			"W": {
+				"item": "korbon:lurker_foot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "korbon:lurker_foot"
+			}
+		],
+		"result": {
+			"item": "korbon:swiftrunner_boots",
+			"count": 1
+		}
+	}
+}

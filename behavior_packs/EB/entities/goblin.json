@@ -82,7 +82,7 @@
 			},
 			"minecraft:equip_item": {},
 			"minecraft:collision_box": {
-				"width": 0.68,
+				"width": 0.62,
 				"height": 1.65
 			},
 			"minecraft:attack": {

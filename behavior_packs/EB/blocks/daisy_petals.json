@@ -1,6 +1,6 @@
 //bridge-file-version: #15
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:daisy_petals",
@@ -74,6 +74,15 @@
 				"catch_chance_modifier": 30,
 				"destroy_chance_modifier": 100
 			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": false,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
 			"minecraft:light_dampening": 0,
 			"minecraft:placement_filter": {
 				"conditions": [
@@ -122,7 +131,8 @@
 				}
 			},
 			"minecraft:custom_components": [
-				"pinkpetals:patch_block"
+				"pinkpetals:patch_block",
+				"korbon:flowerSpread"
 			]
 		},
 		"events": {}

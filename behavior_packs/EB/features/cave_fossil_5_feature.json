@@ -1,0 +1,21 @@
+//bridge-file-version: #22
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "korbon:cave_fossil_5_feature"
+		},
+		"structure_name": "mystructure:cave_fossil_5",
+		"adjustment_radius": 8,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"block_intersection": {
+				"block_whitelist": [
+					"korbon:lichen_carpet",
+					"minecraft:air"
+				]
+			}
+		}
+	}
+}

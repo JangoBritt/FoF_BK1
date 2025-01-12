@@ -740,8 +740,12 @@ Entities/Mobs:
 
 v1.7.54
 
-Misc:
--updated for 1.21.30
+Recipes:
+-vibranium ingots are now crafted using netherite scraps instead of netherite ingots
+-campfires can now be crafted using baobab, redwood, and jacaranda
+
+Bugs/Fixes:
+-sulfur and vibranium ore will no longer give xp when mined with silk touch
 
 v1.7.55
 
@@ -756,3 +760,66 @@ v1.7.56
 
 Misc:
 -updated for 1.21.40
+
+v1.7.6
+
+Biomes:
+-added Forsaken Depths
+-improved Autumn Forest with new tree shapes
+-added dense fog to Pale Garden
+-increased tree density in maple forest
+
+Blocks:
+-added Hanging Lichen
+-added Lichen Carpet
+-added Whispering Willows
+-renamed Tinder Mushrooms to Shelf Mushrooms (the internal id will remain unchanged)
+-improved mining times for custom blocks when using vanilla tools
+-certain blocks will now be destroyed by flowing water (e.g. custom plants and flowers)
+-custom saplings, doors, trapdoors, fences, and fence gates can now be waterlogged (fences and fence gates don't waterlog perfectly)
+-cattails, deadferns, jungferns, and standing torches can now be waterlogged (will be destroyed if fully submerged)
+-maple leaves will drop saplings more frequently
+-flowers now spread when bonemealed
+-updated texture of redwood log
+-slightly updated cattail texture
+
+Entities/Mobs:
+-added Lurker
+-added Spectre
+-dwellers now spawn within the Forsaken Depths
+-dwellers no longer attack baby turtles
+-decreased wander range of fireflies
+-fireflies now despawn when in water or rain
+-increased damage of dweller (5 -> 8)
+-slightly increased health of dweller (20 -> 25)
+-slightly edited deer texture
+-pumpkin zombies and skeletons can spawn in Autumn Forests
+-removed ghost
+
+Items:
+-added Lurker Foot
+-added Coconut Tree Sapling
+-updated texture of dweller flesh
+-updated texture of crocodile meat
+-updated texture of venison
+-removed ectoplasm
+
+Armor:
+-added Swiftrunner Boots (crafted using 2 dweller flesh, 2 bones, and 2 lurker feet)
+
+Particles:
+-falling leaf particles are now client-side (shoutout to Poggy)
+
+Generation:
+-cattails can spawn waterlogged
+
+Structures:
+-added goblin village (this feature is an experimental WIP, requires the data driven jigsaw toggle)
+
+Bugs/Fixes:
+-fixed biome fog in certain biomes
+-fence gates show in the correct creative menu group
+-leaves drop themselves when sheared
+-vibranium tools destroy additional blocks
+-sulfur and vibranium ore support fortune (credit to JangoBritt)
+-syrup bottles give back a glass bottle when consumed (credit to JangoBritt)

@@ -427,6 +427,8 @@ world.beforeEvents.worldInitialize.subscribe(eventData => {
             // Define an array of block types to exclude from connections
             const excludeBlocksArray = [
                 'minecraft:air',
+                'minecraft:water',
+                'minecraft:flowing_water',
                 'minecraft:tall_grass',
                 'minecraft:short_grass',
                 'minecraft:wooden_door', 
@@ -503,6 +505,8 @@ world.beforeEvents.worldInitialize.subscribe(eventData => {
             // Define an array of block types to exclude from connections
             const excludeBlocksArray = [
                 'minecraft:air',
+                'minecraft:water',
+                'minecraft:flowing_water',
                 'minecraft:tall_grass',
                 'minecraft:short_grass',
                 'minecraft:wooden_door', 
@@ -579,6 +583,8 @@ world.beforeEvents.worldInitialize.subscribe(eventData => {
             // Define an array of block types to exclude from connections
             const excludeBlocksArray = [
                 'minecraft:air',
+                'minecraft:water',
+                'minecraft:flowing_water',
                 'minecraft:tall_grass',
                 'minecraft:short_grass',
                 'minecraft:wooden_door', 
@@ -1383,3 +1389,4 @@ world.beforeEvents.worldInitialize.subscribe(eventData => {
         }
     });
 });
+

@@ -21,7 +21,7 @@
 			]
 		},
 		"distribution": {
-			"iterations": "math.random_integer(18, 20)",
+			"iterations": "math.random_integer(32, 34)",
 			"x": {
 				"distribution": "uniform",
 				"extent": [

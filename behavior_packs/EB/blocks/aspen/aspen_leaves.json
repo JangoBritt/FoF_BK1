@@ -11,9 +11,41 @@
 				"pog:playerPlaced": [
 					false,
 					true
+				],
+				"korbon:opaque": [
+					false,
+					true
 				]
 			}
 		},
+		"permutations": [
+			{
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "aspen_leaves_opaque",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "opaque"
+						}
+					}
+				},
+				"condition": "q.block_state('korbon:opaque') == true"
+			},
+			{
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "aspen_leaves",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "blend"
+						}
+					}
+				},
+				"condition": "q.block_state('korbon:opaque') == false"
+			}
+		],
 		"components": {
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 1
@@ -37,8 +69,7 @@
 			},
 			"minecraft:geometry": "minecraft:geometry.full_block",
 			"minecraft:custom_components": [
-				"pog:aspenleavesDecay",
-				"korbon:fallingleaves"
+				"pog:aspenleavesDecay"
 			],
 			"minecraft:tick": {
 				"looping": true,
@@ -47,7 +78,8 @@
 					150
 				]
 			},
-			"minecraft:loot": "loot_tables/blocks/aspen_leaves_drops.json"
+			"minecraft:loot": "none",
+			"tag:minecraft:is_shears_item_destructible": {}
 		},
 		"events": {}
 	}

@@ -22,15 +22,6 @@
 				"korbon:waterlogged": [
 					false,
 					true
-				],
-				"korbon:tool": [
-					"default",
-					"wood",
-					"stone",
-					"iron",
-					"gold",
-					"diamond",
-					"netherite"
 				]
 			}
 		},
@@ -101,67 +92,14 @@
 						"korbon:jacaranda_slab_on_player_destroy"
 					]
 				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'default'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 2.5
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'wood'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.85
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'stone'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.6
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'iron'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.4
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'gold'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.2
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'diamond'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.32
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'netherite'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.28
-					}
-				}
 			}
 		],
 		"components": {
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 3
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
 			},
 			"minecraft:geometry": {
 				"identifier": "geometry.slab",
@@ -178,8 +116,7 @@
 					"texture": "jacaranda_planks"
 				}
 			},
-			"tag:k_custom_mining_speed": {},
-			"tag:k_correct_tool:axe": {}
+			"tag:minecraft:is_axe_item_destructible": {}
 		},
 		"events": {}
 	}

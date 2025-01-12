@@ -34,6 +34,15 @@
 					"ambient_occlusion": true
 				}
 			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": false,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
 			"minecraft:light_dampening": 0,
 			"minecraft:placement_filter": {
 				"conditions": [

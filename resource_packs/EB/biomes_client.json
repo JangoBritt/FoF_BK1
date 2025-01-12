@@ -122,6 +122,10 @@
 			],
 			"inherit_from_prior_fog": false,
 			"water_surface_color": "#44AFF5"
+		},
+		"pale_garden": {
+			"fog_identifier": "korbon:pale_garden_fog",
+			"inherit_from_prior_fog": false
 		}
 	}
 }

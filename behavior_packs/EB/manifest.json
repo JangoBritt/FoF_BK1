@@ -1,19 +1,19 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "§7[v1.7.57] §bExpansive Biomes §r- §2BP§r",
+		"name": "§7[v1.7.6] §bExpansive Biomes §r- §2BP§r",
 		"description": "Adds more biomes to the game for you to explore! §f| §eby iKorbon§r",
 		"version": [
 			1,
 			0,
-			39
+			42
 		],
 		"min_engine_version": [
 			1,
 			21,
 			0
 		],
-		"uuid": "a4f6bb76-816e-4114-8cf2-bfb4a5b06308"
+		"uuid": "ed45f878-b1c6-4cbc-8527-fa07581ece1f"
 	},
 	"modules": [
 		{
@@ -21,17 +21,17 @@
 			"version": [
 				1,
 				0,
-				39
+				42
 			],
-			"uuid": "714a11fb-7f85-4b53-8f8d-bb241333934d"
+			"uuid": "bb671f13-443d-491c-997e-b2ae522162b5"
 		},
 		{
 			"type": "script",
-			"uuid": "211897fd-2eca-4e82-b3b4-6cb83ce63036",
+			"uuid": "20db6292-772e-4bae-9584-89bb7cc4b847",
 			"version": [
 				1,
 				0,
-				7
+				8
 			],
 			"entry": "scripts/main.js"
 		}

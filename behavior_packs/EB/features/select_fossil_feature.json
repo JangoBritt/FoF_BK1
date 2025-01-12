@@ -1,0 +1,38 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "korbon:select_fossil_feature"
+		},
+		"features": [
+			[
+				"korbon:cave_fossil_1_feature",
+				1
+			],
+			[
+				"korbon:cave_fossil_2_feature",
+				1
+			],
+			[
+				"korbon:cave_fossil_3_feature",
+				1
+			],
+			[
+				"korbon:cave_fossil_4_feature",
+				1
+			],
+			[
+				"korbon:cave_fossil_5_feature",
+				1
+			],
+			[
+				"korbon:lichen_deepslate_scatter_feature",
+				3
+			],
+			[	"korbon:forsaken_depths_tree_scatter_feature",
+				1
+			]
+			
+		]
+	}
+}

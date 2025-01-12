@@ -1,17 +1,6 @@
-//bridge-file-version: #16
 {
 	"pools": [
 		{
-			"conditions": [
-				{
-					"condition": "match_tool",
-					"item": "minecraft:shears",
-					"count": 1,
-					"durability": {
-						"range_min": 1
-					}
-				}
-			],
 			"rolls": 1,
 			"entries": [
 				{

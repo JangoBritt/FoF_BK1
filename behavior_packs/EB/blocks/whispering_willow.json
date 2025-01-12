@@ -1,0 +1,95 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:whispering_willow",
+			"states": {
+                "korbon:is_active": [ false, true ]
+            }
+		},
+		"permutations": [
+			{
+                "condition": "q.block_state('korbon:is_active') == true",
+                "components": {
+                    "minecraft:light_emission": 3,
+					"minecraft:material_instances": {
+				"*": {
+					"texture": "whispering_willow_active",
+					"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			}
+                }
+            },
+			{
+                "condition": "q.block_state('korbon:is_active') == false",
+                "components": {
+                    "minecraft:light_emission": 0,
+					"minecraft:material_instances": {
+				"*": {
+					"texture": "whispering_willow",
+					"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			}
+                }
+            }
+		],
+		"components": {
+			"minecraft:geometry": "geometry.plant",
+			"minecraft:selection_box": {
+				"origin": [
+					-5,
+					0,
+					-6
+				],
+				"size": [
+					11,
+					12,
+					12
+				]
+			},
+			"minecraft:tick": {
+				"looping": true,
+				"interval_range": [
+					120,
+					160
+				]
+			},
+			"minecraft:collision_box": false,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/whispering_willow.json",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:custom_components": [
+				"korbon:whispering_willow",
+				"korbon:flowerSpread"
+			],
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": false,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

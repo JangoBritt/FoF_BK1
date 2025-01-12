@@ -1,33 +1,32 @@
-//bridge-file-version: #8
 {
 	"format_version": "1.13.0",
 	"minecraft:scatter_feature": {
 		"description": {
 			"identifier": "korbon:scatter_cattail_feature"
 		},
-		"iterations": 1,
+		"iterations": 16,
 		"x": {
 			"distribution": "gaussian",
 			"extent": [
-				-8,
-				8
+				-4,
+				4
 			]
 		},
 		"y": {
 			"distribution": "gaussian",
 			"extent": [
-				0,
-				3
+				-1,
+				1
 			]
 		},
 		"z": {
 			"distribution": "gaussian",
 			"extent": [
-				-8,
-				8
+				-4,
+				4
 			]
 		},
 		"coordinate_eval_order": "zyx",
-		"places_feature": "korbon:cattail_feature"
+		"places_feature": "korbon:cattail_snap_surface_feature"
 	}
 }

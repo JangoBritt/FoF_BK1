@@ -1,0 +1,19 @@
+//bridge-file-version: #16
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "korbon:select_forsaken_ground_feature"
+		},
+		"features": [
+			[
+				"korbon:whispering_willow_feature",
+				1
+			],
+			[
+				"korbon:lichen_carpet_cave_deepslate_feature",
+				5
+			]
+		]
+	}
+}

@@ -1,6 +1,6 @@
-//bridge-file-version: #16
+//bridge-file-version: #7
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12.0",
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "korbon:dweller",
@@ -9,26 +9,44 @@
 		"conditions": [
 			{
 				"minecraft:spawns_underground": {},
+				"minecraft:spawns_on_block_filter": [
+					"minecraft:cobbled_deepslate",
+					"korbon:whispering_willow",
+					"korbon:lichen_carpet"
+				],
 				"minecraft:brightness_filter": {
 					"min": 0,
 					"max": 7,
-					"adjust_for_weather": true
-				},
-				"minecraft:height_filter": {
-					"min": -63,
-					"max": 8
+					"adjust_for_weather": false
 				},
 				"minecraft:weight": {
-					"default": 20
+					"default": 80
 				},
 				"minecraft:herd": {
 					"min_size": 1,
 					"max_size": 2
 				},
+				"minecraft:height_filter": {
+					"min": -63,
+					"max": 0
+				},
 				"minecraft:biome_filter": {
-					"test": "has_biome_tag",
-					"operator": "==",
-					"value": "monster"
+					"any_of": [
+						{
+							"all_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "monster"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "deep_dark"
+								}
+							]
+						}
+					]
 				}
 			}
 		]

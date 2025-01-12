@@ -497,6 +497,31 @@
 			"textures": [
 				"textures/blocks/maple_log_syrup_empty"
 			]
+		},
+		"lichen_carpet": {
+			"textures": [
+				"textures/blocks/lichen_carpet"
+			]
+		},
+		"lichen_hanging": {
+			"textures": [
+				"textures/blocks/lichen_hanging"
+			]
+		},
+		"whispering_willow": {
+			"textures": [
+				"textures/blocks/whispering_willow_off"
+			]
+		},
+		"whispering_willow_active": {
+			"textures": [
+				"textures/blocks/whispering_willow_active"
+			]
+		},
+		"coconut_sapling": {
+			"textures": [
+				"textures/blocks/coconut_tree_sapling"
+			]
 		}
 	}
 }

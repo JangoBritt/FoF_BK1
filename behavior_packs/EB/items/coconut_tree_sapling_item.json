@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:coconut_tree_sapling_item",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.sapling"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:block_placer": {
+				"block": "korbon:coconut_sapling_block"
+			},
+			"minecraft:display_name": {
+				"value": "tile.korbon:coconut_sapling_block.name"
+			},
+			"minecraft:icon": {
+				"texture": "korbon:coconut_sapling"
+			},
+			"minecraft:fuel": {
+				"duration": 4.5
+			}
+		},
+		"events": {}
+	}
+}
