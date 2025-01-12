@@ -1,0 +1,19 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:growing_plant_feature": {
+        "description": {
+            "identifier": "korbon:cattail_snap_feature"
+        },
+        "height_distribution": [
+            [{"range_min": 2, "range_max": 2}, 2]
+        ],
+        "growth_direction": "UP",
+        "body_blocks": [
+            ["korbon:cattail_bottom", 1]
+        ],
+        "head_blocks": [
+            ["korbon:cattail_top", 1]
+        ],
+        "allow_water": true
+    }
+}

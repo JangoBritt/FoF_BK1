@@ -1,4 +1,3 @@
-//bridge-file-version: #44
 {
 	"format_version": "1.20.50",
 	"minecraft:item": {
@@ -26,24 +25,8 @@
 				"destroy_speeds": [
 					{
 						"block": {
-							"tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow')"
+							"tags": "q.any_tag('minecraft:is_shovel_item_destructible')"
 						},
-						"speed": 9
-					},
-					{ "block": "minecraft:coarse_dirt", "speed": 9 },
-					{ "block": "minecraft:clay", "speed": 9 },
-					{ "block": "minecraft:concretePowder", "speed": 9 },
-					{ "block": "minecraft:mycelium", "speed": 9 },
-					{ "block": "minecraft:soul_sand", "speed": 9 },
-					{ "block": "minecraft:soul_soil", "speed": 9 },
-					{ "block": "korbon:black_sand", "speed": 9 },
-					{ "block": "korbon:hard_dirt", "speed": 9 },
-					{ "block": "korbon:mud_block", "speed": 9 },
-					{ "block": "korbon:scorched_grass_block", "speed": 9 },
-					{ "block": "korbon:smoldering_grass_block", "speed": 9 },
-					{ "block": "korbon:dune_sand", "speed": 9 },
-					{
-						"block": "korbon:ultisol",
 						"speed": 9
 					}
 				]

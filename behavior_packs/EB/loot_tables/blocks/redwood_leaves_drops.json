@@ -9,7 +9,7 @@
 			"entries": [
 				{
 					"type": "empty",
-					"weight": 75
+					"weight": 100
 				},
 				{
 					"type": "item",
@@ -28,7 +28,7 @@
 				{
 					"type": "item",
 					"name": "korbon:redwood_sapling_item",
-					"weight": 11,
+					"weight": 8,
 					"functions": [
 						{
 							"function": "set_count",

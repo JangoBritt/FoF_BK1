@@ -1,4 +1,4 @@
-//bridge-file-version: #42
+//bridge-file-version: #44
 {
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
@@ -40,7 +40,9 @@
 				"swimming": "animation.zombie.swimming",
 				"attack.rotations": "animation.player.attack.rotations",
 				"attack.positions": "animation.player.attack.positions",
-				"idle": "animation.spectre.idle"
+				"idle": "animation.spectre.idle",
+				"sink": "animation.spectre.sink",
+				"hover": "animation.spectre.hover"
 			},
 			"animation_controllers": [
 				{
@@ -89,6 +91,13 @@
 			"enable_attachables": true,
 			"particle_effects": {
 				"mist": "korbon:spectre_mist"
+			},
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#b9b9b9"
+			},
+			"sound_effects": {
+				"say": "mob.spectre.say"
 			}
 		}
 	}

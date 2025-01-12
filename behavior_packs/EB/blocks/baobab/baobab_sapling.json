@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:baobab_sapling_block"
@@ -33,6 +33,15 @@
 					"face_dimming": false,
 					"ambient_occlusion": true
 				}
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": false,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
 			},
 			"minecraft:light_dampening": 0,
 			"minecraft:placement_filter": {

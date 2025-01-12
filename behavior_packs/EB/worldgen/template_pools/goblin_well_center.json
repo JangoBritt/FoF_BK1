@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "korbon:goblin_well_center"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "goblin_village/goblin_well",
+          "processors": "korbon:goblin_village_pro"     
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

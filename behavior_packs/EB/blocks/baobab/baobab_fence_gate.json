@@ -5,7 +5,7 @@
 			"identifier": "korbon:baobab_fence_gate",
 			"menu_category": {
 				"category": "construction",
-				"group": "itemGroup.name.gate"
+				"group": "itemGroup.name.fenceGate"
 			},
 			"traits": {
 				"minecraft:placement_direction": {
@@ -30,15 +30,6 @@
 				"korbon:direction": [
 					false,
 					true
-				],
-				"korbon:tool": [
-					"default",
-					"wood",
-					"stone",
-					"iron",
-					"gold",
-					"diamond",
-					"netherite"
 				]
 			}
 		},
@@ -170,62 +161,6 @@
 						}
 					}
 				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'default'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 2.5
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'wood'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.85
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'stone'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.6
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'iron'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.4
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'gold'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.2
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'diamond'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.32
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'netherite'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.28
-					}
-				}
 			}
 		],
 		"components": {
@@ -276,8 +211,17 @@
 					3
 				]
 			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
+			},
 			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 3
+				"seconds_to_destroy": 2
 			},
 			"minecraft:material_instances": {
 				"*": {
@@ -286,8 +230,7 @@
 				}
 			},
 			"tag:fence_gate": {},
-			"tag:k_custom_mining_speed": {},
-			"tag:k_correct_tool:axe": {}
+			"tag:minecraft:is_axe_item_destructible": {}
 		},
 		"events": {}
 	}

@@ -8,75 +8,8 @@
 				"group": "itemGroup.name.nature"
 			},
 			"states": {
-				"korbon:tool": [
-					"default",
-					"wood",
-					"stone",
-					"iron",
-					"gold",
-					"diamond",
-					"netherite"
-				]
 			}
 		},
-		"permutations": [
-			{
-				"condition": "q.block_state('korbon:tool') == 'default'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 4
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'wood'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.68
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'stone'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.6
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'iron'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.38
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'gold'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.18
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'diamond'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.28
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('korbon:tool') == 'netherite'",
-				"components": {
-					"minecraft:destructible_by_mining": {
-						"seconds_to_destroy": 0.25
-					}
-				}
-			}
-		],
 		"components": {
 			"minecraft:map_color": "#805528",
 			"minecraft:material_instances": {
@@ -91,8 +24,10 @@
 				"explosion_resistance": 0.3
 			},
 			"minecraft:geometry": "minecraft:geometry.full_block",
-			"tag:k_custom_mining_speed": {},
-			"tag:k_correct_tool:pickaxe": {}
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.8
+			},
+			"tag:minecraft:is_shovel_item_destructible": {}
 		},
 		"events": {}
 	}

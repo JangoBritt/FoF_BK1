@@ -88,12 +88,7 @@
 						"block_filter": [
 							"minecraft:log",
 							"minecraft:log2",
-							"minecraft:cherry_log",
-							"minecraft:mangrove_log",
-							"minecraft:pale_oak_log",
-							"korbon:redwood_log",
-							"korbon:baobab_log",
-							"korbon:jacaranda_log"
+							"korbon:redwood_log"
 						]
 					}
 				]

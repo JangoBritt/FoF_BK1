@@ -1,6 +1,6 @@
 //bridge-file-version: #135
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:moss_carpet_vertical_w",
@@ -18,6 +18,15 @@
 			"minecraft:geometry": "geometry.moss_carpet_vertical_w",
 			"minecraft:loot": "loot_tables/blocks/moss_carpet_vertical.json",
 			"minecraft:map_color": "#2A5322",
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
+			},
 			"minecraft:placement_filter": {
 				"conditions": [
 					{

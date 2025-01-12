@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "korbon:goblin_village_road"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "goblin_village/road_n",
+          "processors": "korbon:clear_area"
+        },
+        "weight": 1,
+        "projection": "terrain_matching"        
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "goblin_village/road_cross1",
+          "processors": "korbon:clear_area"
+        },
+        "weight": 5,
+        "projection": "terrain_matching"        
+      }
+    ]
+  }
+}

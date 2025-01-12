@@ -1,0 +1,66 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "korbon:goblin_village_huts"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "goblin_village/goblin_hut",
+          "processors": "korbon:clear_area"
+        },
+        "weight": 50      
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "goblin_village/goblin_hut_2",
+          "processors": "korbon:clear_area"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "goblin_village/goblin_crop",
+          "processors": "korbon:clear_area"
+        },
+        "weight": 3
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "goblin_village/goblin_fire",
+          "processors": "korbon:clear_area"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "goblin_village/goblin_fletch",
+          "processors": "korbon:clear_area"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "goblin_village/goblin_anvil",
+          "processors": "korbon:clear_area"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "goblin_village/goblin_barrels",
+          "processors": "korbon:clear_area"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

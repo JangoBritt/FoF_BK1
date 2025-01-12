@@ -650,11 +650,18 @@
 				"sounds/mob/chimp/angry5"
 			]
 		},
+		"mob.spectre.attack": {
+			"category": "ui",
+			"sounds": [
+				"sounds/mob/spectre/attack"
+			]
+		},
 		"mob.lurker.cry": {
 			"category": "hostile",
 			"sounds": [
 				{
-					"name": "sounds/mob/lurker/cry1"
+					"name": "sounds/mob/lurker/cry1",
+					"volume": 2
 				}
 			]
 		},
@@ -662,7 +669,8 @@
 			"category": "hostile",
 			"sounds": [
 				{
-					"name": "sounds/mob/lurker/cry2"
+					"name": "sounds/mob/lurker/cry2",
+					"volume": 2
 				}
 			]
 		},
@@ -670,7 +678,8 @@
 			"category": "hostile",
 			"sounds": [
 				{
-					"name": "sounds/mob/lurker/cry3"
+					"name": "sounds/mob/lurker/cry3",
+					"volume": 2
 				}
 			]
 		},
@@ -699,6 +708,78 @@
 				"sounds/ui/challenge_complete"
 			],
 			"subtitle": "achievements:player.complete_challenge"
+		},
+      "whispering_willow.ambient" : {
+         "category" : "ambient",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "is3D" : true,
+               "name" : "sounds/ambient/nether/soulsand_valley/whisper1",
+               "volume" : 3,
+               "weight" : 5
+            },
+            {
+               "is3D" : true,
+               "name" : "sounds/ambient/nether/soulsand_valley/whisper2",
+               "volume" : 3,
+               "weight" : 5
+            },
+            {
+               "is3D" : true,
+               "name" : "sounds/ambient/nether/soulsand_valley/whisper3",
+               "volume" : 3,
+               "weight" : 5
+            },
+            {
+               "is3D" : true,
+               "name" : "sounds/ambient/nether/soulsand_valley/whisper4",
+               "volume" : 3,
+               "weight" : 5
+            },
+            {
+               "is3D" : true,
+               "name" : "sounds/ambient/nether/soulsand_valley/whisper5",
+               "volume" : 3,
+               "weight" : 5
+            },
+            {
+               "is3D" : true,
+               "name" : "sounds/ambient/nether/soulsand_valley/whisper6",
+               "volume" : 3,
+               "weight" : 5
+            },
+            {
+               "is3D" : true,
+               "name" : "sounds/ambient/nether/soulsand_valley/whisper7",
+               "volume" : 3,
+               "weight" : 5
+            },
+            {
+               "is3D" : true,
+               "name" : "sounds/ambient/nether/soulsand_valley/whisper8",
+               "volume" : 3,
+               "weight" : 5
+            }
+         ]
+      },
+		"mob.spectre.say": {
+			"category": "hostile",
+			"sounds": [
+				{
+					"name": "sounds/mob/spectre/say1"
+				},
+				{
+					"name": "sounds/mob/spectre/say2"
+				},
+				{
+					"name": "sounds/mob/spectre/say3"
+				},
+				{
+					"name": "sounds/mob/spectre/say4"
+				}
+			]
 		}
 	}
 }

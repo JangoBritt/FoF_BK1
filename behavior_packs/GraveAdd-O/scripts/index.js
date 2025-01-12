@@ -160,89 +160,92 @@ function breakGrave(player, block) {
 }
 
 world.afterEvents.entityDie.subscribe(e => {
-    const entity = e.deadEntity
-    const dimension = entity?.dimension
+    try {
+        const entity = e.deadEntity
+        const dimension = entity?.dimension
 
-    if (entity?.typeId === 'minecraft:player') {
-        let { x, y, z } = entity.location
-        x = Math.floor(x) + 0.5; y = (dimension.id === 'minecraft:the_end') ? Math.max(Math.floor(y), 1) : Math.floor(y); z = Math.floor(z) + 0.5
-        let block = dimension.getBlock({ x, y, z })
-        if (dimension.id === 'minecraft:the_end') {
-            dimension.runCommand(`fill ${x + 1} 0 ${z + 1} ${x - 1} 0 ${z - 1} minecraft:end_stone`)
-        }
-        let setLocation = { x, y, z }
-        if (graves.includes(block.typeId) || block.typeId === 'minecraft:end_portal_frame') {
-            function newLocation({ x, y, z }) {
-                const locations = [{ x: x + 1, y, z }, { x: x - 1, y, z }, { x, y, z: z + 1 }, { x, y, z: z - 1 }, { x: x + 1, y, z: z + 1 }, { x: x - 1, y, z: z - 1 }, { x: x - 1, y, z: z + 1 }, { x: x + 1, y, z: z - 1 }]
-                const graveFounds = []
-                let notFound = true
-
-                for (const { x, y, z } of locations) {
-                    const isGrave = dimension.getBlock({ x, y, z }).typeId
-                    if (!graves.includes(isGrave) && isGrave != 'minecraft:end_portal_frame') {
-                        setLocation = { x, y, z }
-                        notFound = false
-                        break
-                    }
-                    else { graveFounds.push({ x, y, z }) }
-                }
-                if (notFound) {
-                    newLocation(graveFounds[Math.floor(Math.random() * graveFounds.length)])
-                }
+        if (entity?.typeId === 'minecraft:player') {
+            let { x, y, z } = entity.location
+            x = Math.floor(x) + 0.5; y = (dimension.id === 'minecraft:the_end') ? Math.max(Math.floor(y), 1) : Math.floor(y); z = Math.floor(z) + 0.5
+            let block = dimension.getBlock({ x, y, z })
+            if (dimension.id === 'minecraft:the_end') {
+                dimension.runCommand(`fill ${x + 1} 0 ${z + 1} ${x - 1} 0 ${z - 1} minecraft:end_stone`)
             }
-            newLocation({ x, y, z })
-        }
-        else if (block.typeId === 'minecraft:lava' || block.typeId === 'minecraft:flowing_lava') {
-            entity.runCommand(`fill ~1 ~1 ~1 ~-1 ~-1 ~-1 magma replace lava`)
-            entity.runCommand(`fill ~1 ~1 ~1 ~-1 ~-1 ~-1 magma replace flowing_lava`)
-        }
-        x = setLocation.x; y = setLocation.y; z = setLocation.z;
-        block = dimension.getBlock({ x, y, z })
-        
-        const inventory = entity.getComponent("inventory").container
-        const graveEntity = dimension.spawnEntity('entity:grave_inventory', { x, y, z })
-        const graveInventory = graveEntity.getComponent("inventory").container
-        graveEntity.nameTag = `§c${entity.nameTag}§r \n R.I.P`
-        graveEntity.addTag(entity.id)
+            let setLocation = { x, y, z }
+            if (graves.includes(block.typeId) || block.typeId === 'minecraft:end_portal_frame') {
+                function newLocation({ x, y, z }) {
+                    const locations = [{ x: x + 1, y, z }, { x: x - 1, y, z }, { x, y, z: z + 1 }, { x, y, z: z - 1 }, { x: x + 1, y, z: z + 1 }, { x: x - 1, y, z: z - 1 }, { x: x - 1, y, z: z + 1 }, { x: x + 1, y, z: z - 1 }]
+                    const graveFounds = []
+                    let notFound = true
 
-        if (block.typeId != 'minecraft:air') {
-            graveEntity.runCommand(`setblock ~ ~ ~ air destroy`)
-        }
-        const playerLevel = entity.addLevels(0)
-        const graveRank = playerLevel < 12 ? 1 : playerLevel < 25 ? 2 : playerLevel < 37 ? 3 : playerLevel < 50 ? 4 : playerLevel < 62 ? 5 : playerLevel < 75 ? 6 : playerLevel < 87 ? 7 : playerLevel < 100 ? 8 : 8
-        dimension.setBlockType({ x, y, z }, graves[graveRank])
-        graveEntity.setProperty("grave:model", graveRank)
+                    for (const { x, y, z } of locations) {
+                        const isGrave = dimension.getBlock({ x, y, z }).typeId
+                        if (!graves.includes(isGrave) && isGrave != 'minecraft:end_portal_frame') {
+                            setLocation = { x, y, z }
+                            notFound = false
+                            break
+                        }
+                        else { graveFounds.push({ x, y, z }) }
+                    }
+                    if (notFound) {
+                        newLocation(graveFounds[Math.floor(Math.random() * graveFounds.length)])
+                    }
+                }
+                newLocation({ x, y, z })
+            }
+            else if (block.typeId === 'minecraft:lava' || block.typeId === 'minecraft:flowing_lava') {
+                entity.runCommand(`fill ~1 ~1 ~1 ~-1 ~-1 ~-1 magma replace lava`)
+                entity.runCommand(`fill ~1 ~1 ~1 ~-1 ~-1 ~-1 magma replace flowing_lava`)
+            }
+            x = setLocation.x; y = setLocation.y; z = setLocation.z;
+            block = dimension.getBlock({ x, y, z })
+            
+            const inventory = entity.getComponent("inventory").container
+            const graveEntity = dimension.spawnEntity('entity:grave_inventory', { x, y, z })
+            const graveInventory = graveEntity.getComponent("inventory").container
+            graveEntity.nameTag = `§c${entity.nameTag}§r \n R.I.P`
+            graveEntity.addTag(entity.id)
 
-        for (let i = 0; i < Math.min(entity.addLevels(0) * 7, 100); i++) dimension.spawnEntity('minecraft:xp_orb', { x, y: y + 0.25, z })
-        entity.addLevels(-entity.addLevels(0) - 1)
+            if (block.typeId != 'minecraft:air') {
+                graveEntity.runCommand(`setblock ~ ~ ~ air destroy`)
+            }
+            const playerLevel = entity.addLevels(0)
+            const graveRank = playerLevel < 12 ? 1 : playerLevel < 25 ? 2 : playerLevel < 37 ? 3 : playerLevel < 50 ? 4 : playerLevel < 62 ? 5 : playerLevel < 75 ? 6 : playerLevel < 87 ? 7 : playerLevel < 100 ? 8 : 8
+            dimension.setBlockType({ x, y, z }, graves[graveRank])
+            graveEntity.setProperty("grave:model", graveRank)
 
-        let isEmpty = true
+            for (let i = 0; i < Math.min(entity.addLevels(0) * 7, 100); i++) dimension.spawnEntity('minecraft:xp_orb', { x, y: y + 0.25, z })
+            entity.addLevels(-entity.addLevels(0) - 1)
 
-        for (let i = 0; i < 36; i++) {
-            const item = inventory.getItem(i)
-            if (item && item.typeId === "effect99:key") continue
-            inventory.moveItem(i, i, graveInventory)
-            if (item) isEmpty = false
-        }
-        const equipment = entity.getComponent('equippable')
-        let i = 37
-        for (const slot of equipmentSlots) {
-            const item = equipment.getEquipmentSlot(slot).getItem()?.clone()
-            graveInventory.setItem(i, item)
-            equipment.setEquipment(slot)
-            if (item) isEmpty = false
-            i++
-        }
-        if (isEmpty) graveEntity.remove()
-        const permutation = block.permutation
-        block.setPermutation(permutation.withState("minecraft:cardinal_direction", [ "north", "south", "west", "east" ][Math.floor(Math.random() * 4)]).withState("block:destructible", isEmpty ? 0 : 1))
+            let isEmpty = true
 
-        if (!isEmpty) {
-            const key = new ItemStack('effect99:key')
-            key.setLore([`§r§9Place of death: §c${x - 0.5}, ${y}, ${z - 0.5}`, `§r§8${dimension.id}`])
-            inventory.addItem(key)
+            for (let i = 0; i < 36; i++) {
+                const item = inventory.getItem(i)
+                if (item && item.typeId === "effect99:key") continue
+                inventory.moveItem(i, i, graveInventory)
+                if (item) isEmpty = false
+            }
+            const equipment = entity.getComponent('equippable')
+            let i = 37
+            for (const slot of equipmentSlots) {
+                const item = equipment.getEquipmentSlot(slot).getItem()?.clone()
+                graveInventory.setItem(i, item)
+                equipment.setEquipment(slot)
+                if (item) isEmpty = false
+                i++
+            }
+            if (isEmpty) graveEntity.remove()
+            const permutation = block.permutation
+            block.setPermutation(permutation.withState("minecraft:cardinal_direction", [ "north", "south", "west", "east" ][Math.floor(Math.random() * 4)]).withState("block:destructible", isEmpty ? 0 : 1))
+
+            if (!isEmpty) {
+                const key = new ItemStack('effect99:key')
+                key.setLore([`§r§9Place of death: §c${x - 0.5}, ${y}, ${z - 0.5}`, `§r§8${dimension.id}`])
+                inventory.addItem(key)
+            }
         }
     }
+    catch (e) { }
 })
 
 world.beforeEvents.worldInitialize.subscribe(i => {

@@ -11,9 +11,9 @@
 		"version" : [ 2, 3, 0 ]
 	},
 	{
-		"pack_id" : "7d8dd50d-f5cb-4e8c-8faa-7d4da782f117", //Expansive Biomes
+		"pack_id" : "ab801579-0d1a-4e1a-bf5c-971df036a240", //Expansive Biomes
 		"subpack" : "fog_enable",
-		"version" : [ 1, 0, 41 ]
+		"version" : [ 1, 0, 42 ]
 	},
 	
 	{

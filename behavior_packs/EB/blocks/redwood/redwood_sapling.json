@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:redwood_sapling_block"
@@ -25,6 +25,15 @@
 					12
 				]
 			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": false,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
 			"minecraft:geometry": "geometry.sapling_model",
 			"minecraft:material_instances": {
 				"*": {
@@ -41,9 +50,7 @@
 						"block_filter": [
 							"minecraft:dirt",
 							"minecraft:grass",
-							"minecraft:farmland",
-							"minecraft:podzol",
-							"minecraft:moss"
+							"minecraft:farmland"
 						],
 						"allowed_faces": [
 							"up"

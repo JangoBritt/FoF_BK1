@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:cattail_bottom"
@@ -34,6 +34,15 @@
 			"minecraft:flammable": {
 				"burn_odds": 15,
 				"flame_odds": 15
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
 			},
 			"minecraft:loot": "loot_tables/blocks/cattail.json",
 			"minecraft:selection_box": {

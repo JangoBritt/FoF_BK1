@@ -227,11 +227,6 @@
 				"textures/items/snowdrop_flower"
 			]
 		},
-		"korbon:ectoplasm": {
-			"textures": [
-				"textures/items/ectoplasm"
-			]
-		},
 		"korbon:cattail": {
 			"textures": [
 				"textures/items/cattail"
@@ -354,6 +349,36 @@
 		"korbon:redwood_leaf_sprout": {
 			"textures": [
 				"textures/blocks/redwood_leaf_sprout"
+			]
+		},
+		"korbon:whispering_willow": {
+			"textures": [
+				"textures/items/whispering_willow"
+			]
+		},
+		"korbon:lichen_carpet": {
+			"textures": [
+				"textures/blocks/lichen_carpet_0"
+			]
+		},
+		"korbon:lichen_hanging": {
+			"textures": [
+				"textures/blocks/lichen_hanging"
+			]
+		},
+		"korbon:coconut_sapling": {
+			"textures": [
+				"textures/blocks/coconut_tree_sapling"
+			]
+		},
+		"korbon:swiftrunner_boots": {
+			"textures": [
+				"textures/items/swiftrunner_boots"
+			]
+		},
+		"korbon:lurker_foot": {
+			"textures": [
+				"textures/items/lurker_foot"
 			]
 		}
 	}

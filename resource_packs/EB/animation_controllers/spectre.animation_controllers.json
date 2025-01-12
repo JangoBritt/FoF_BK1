@@ -1,4 +1,3 @@
-//bridge-file-version: #80
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -8,10 +7,26 @@
 				"default": {
 					"animations": [
 						{
-							"idle": "query.is_alive"
+							"idle": "query.is_alive",
+							"hover": "query.is_alive"
+						}
+					],
+					"transitions": [
+						{
+							"sink": "query.is_emerging"
 						}
 					]
+				},
+				"sink": {
+					"animations": [
+						"sink"
+					]
 				}
+			}
+		},
+		"controller.animation.spectre.sink": {
+			"states": {
+				"default": {}
 			}
 		}
 	}

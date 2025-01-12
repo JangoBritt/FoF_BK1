@@ -1,6 +1,6 @@
-//bridge-file-version: #78
+//bridge-file-version: #84
 {
-	"format_version": "1.8.0",
+	"format_version": "1.12.0",
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "korbon:spectre",
@@ -8,43 +8,45 @@
 		},
 		"conditions": [
 			{
-				"minecraft:spawns_on_surface": {},
 				"minecraft:spawns_underground": {},
-				"minecraft:spawns_on_block_prevented_filter": [
-					"minecraft:nether_wart_block",
-					"minecraft:shroomlight"
+				"minecraft:spawns_on_block_filter": [
+					"minecraft:cobbled_deepslate",
+					"korbon:whispering_willow",
+					"korbon:lichen_carpet"
 				],
 				"minecraft:brightness_filter": {
 					"min": 0,
-					"max": 15,
-					"adjust_for_weather": true
+					"max": 7,
+					"adjust_for_weather": false
+				},
+				"minecraft:weight": {
+					"default": 100
 				},
 				"minecraft:herd": {
 					"min_size": 1,
 					"max_size": 1
 				},
-				"minecraft:density_limit": {
-					"surface": 1,
-					"underground": 1
-				},
-				"minecraft:distance_filter": {
-					"min": 30,
-					"max": 48
+				"minecraft:height_filter": {
+					"min": -63,
+					"max": 0
 				},
 				"minecraft:biome_filter": {
 					"any_of": [
 						{
-							"test": "has_biome_tag",
-							"operator": "==",
-							"value": "overworld"
+							"all_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "monster"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "deep_dark"
+								}
+							]
 						}
 					]
-				},
-				"minecraft:delay_filter": {
-					"min": 420,
-					"max": 420,
-					"identifier": "korbon:spectre",
-					"spawn_chance": 3
 				}
 			}
 		]

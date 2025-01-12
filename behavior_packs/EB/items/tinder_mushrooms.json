@@ -16,7 +16,7 @@
 				"texture": "tinder_mushrooms"
 			},
 			"minecraft:display_name": {
-				"value": "item.korbon:tinder_mushrooms.name"
+				"value": "tile.korbon:tinder_mushrooms.name"
 			},
 			"minecraft:block_placer": {
 				"block": "korbon:tinder_mushrooms"

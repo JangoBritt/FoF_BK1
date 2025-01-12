@@ -71,7 +71,7 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
 world.beforeEvents.worldInitialize.subscribe(initEvent => {
     let tickCount = 0; // Initialize a counter for ticks
     const validLogBlocks = new Set(["minecraft:oak_log", "minecraft:birch_log", "minecraft:spruce_log", "minecraft:acacia_log", "minecraft:dark_oak_log", "minecraft:cherry_log", "minecraft:mangrove_log", "minecraft:jungle_log", "minecraft:pale_oak_log", "korbon:redwood_log", "korbon:baobab_log", "korbon:jacaranda_log", "korbon:redwood_wood", "korbon:baobab_wood", "korbon:jacaranda_wood"]);
-    const radius = 3; // Change this value to adjust the radius
+    const radius = 4; // Change this value to adjust the radius
 
     function isWithinSphere(blockLoc, center, radius) {
         const dx = blockLoc.x - center.x;
@@ -135,7 +135,7 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
 world.beforeEvents.worldInitialize.subscribe(initEvent => {
     let tickCount = 0; // Initialize a counter for ticks
     const validLogBlocks = new Set(["minecraft:oak_log", "minecraft:birch_log", "minecraft:spruce_log", "minecraft:acacia_log", "minecraft:dark_oak_log", "minecraft:cherry_log", "minecraft:mangrove_log", "minecraft:jungle_log", "minecraft:pale_oak_log", "korbon:redwood_log", "korbon:baobab_log", "korbon:jacaranda_log", "korbon:redwood_wood", "korbon:baobab_wood", "korbon:jacaranda_wood"]);
-    const radius = 3; // Change this value to adjust the radius
+    const radius = 4; // Change this value to adjust the radius
 
     function isWithinSphere(blockLoc, center, radius) {
         const dx = blockLoc.x - center.x;
@@ -199,7 +199,7 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
 world.beforeEvents.worldInitialize.subscribe(initEvent => {
     let tickCount = 0; // Initialize a counter for ticks
     const validLogBlocks = new Set(["minecraft:oak_log", "minecraft:birch_log", "minecraft:spruce_log", "minecraft:acacia_log", "minecraft:dark_oak_log", "minecraft:cherry_log", "minecraft:mangrove_log", "minecraft:jungle_log", "minecraft:pale_oak_log", "korbon:redwood_log", "korbon:baobab_log", "korbon:jacaranda_log", "korbon:redwood_wood", "korbon:baobab_wood", "korbon:jacaranda_wood"]);
-    const radius = 3; // Change this value to adjust the radius
+    const radius = 4; // Change this value to adjust the radius
 
     function isWithinSphere(blockLoc, center, radius) {
         const dx = blockLoc.x - center.x;
