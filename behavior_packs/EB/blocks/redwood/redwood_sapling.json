@@ -50,7 +50,8 @@
 						"block_filter": [
 							"minecraft:dirt",
 							"minecraft:grass",
-							"minecraft:farmland"
+							"minecraft:farmland",
+							"minecraft:podzol"
 						],
 						"allowed_faces": [
 							"up"
