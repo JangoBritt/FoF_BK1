@@ -1,159 +1,146 @@
 
 [
-	
 	{
-		"pack_id" : "ed2cf1d1-c832-48c8-bf06-0cc38cf5e8a8",
+		"pack_id" : "ed2cf1d1-c832-48c8-bf06-0cc38cf5e8a8", //Fables Recycling Recipes
 		"version" : [ 1, 0, 0 ]
 	},
 	
 	{
-		"pack_id" : "b2d3458c-ed2c-40b3-bedd-83dbd03d1487",
+		"pack_id" : "b2d3458c-ed2c-40b3-bedd-83dbd03d1487", //Alycia's Advancements
 		"version" : [ 2, 3, 0 ]
 	},
 	
 	{
-		"pack_id" : "4af7083a-0b1e-423b-8ba9-8bd56397eafa",
+		"pack_id" : "4af7083a-0b1e-423b-8ba9-8bd56397eafa", //System Dynamic Lighting
 		"version" : [ 1, 0, 0 ]
-	},
-	
+	},		
 	{
-		"pack_id" : "ed45f878-b1c6-4cbc-8527-fa07581ece1f",
+		"pack_id" : "ed45f878-b1c6-4cbc-8527-fa07581ece1f", //Expansive Biomes
 		"version" : [ 1, 0, 42 ]
 	},
-	
 	{
-		"pack_id" : "f0d1778d-2bae-41b2-94c7-9544b40106b0",
+		"pack_id" : "f0d1778d-2bae-41b2-94c7-9544b40106b0", //Lore Anvil
 		"version" : [ 1, 4, 0 ]
 	},
-	
 	{
-		"pack_id" : "0db99973-12b3-4c67-abbb-90e4726e73e1",
-		"version" : [ 1, 0, 0 ]
+		"pack_id": "0db99973-12b3-4c67-abbb-90e4726e73e1", //Graves Addon - Effect99
+		"version": [ 1, 0, 0 ]
 	},
-	
 	{
-		"pack_id" : "5ebf1d6b-3c2c-4ae1-bc26-1815134563b1",
-		"version" : [ 1, 4, 2 ]
+		"pack_id": "5ebf1d6b-3c2c-4ae1-bc26-1815134563b1", //Treecapitator
+        "version": [1, 4, 2]
 	},
-	
 	{
-		"pack_id" : "957de88d-d527-48cc-bda5-d84ed2cc094e",
+		"pack_id" : "957de88d-d527-48cc-bda5-d84ed2cc094e", //Kuma's Rats
 		"version" : [ 1, 2, 2 ]
 	},
-	
+
 	{
-		"pack_id" : "b17755d2-3cc0-424b-89dd-558fc98513f5",
-		"version" : [ 1, 4, 4 ]
+		"pack_id" : "b17755d2-3cc0-424b-89dd-558fc98513f5", //Bedrock Bridge
+		"version" : [ 1, 4, 3 ]
 	},
-	
+		
 	{
-		"pack_id" : "d0131071-9ec1-edcd-6871-857c700703d8",
+		"pack_id" : "d0131071-9ec1-edcd-6871-857c700703d8", //Farmers Delight
 		"version" : [ 3, 0, 0 ]
 	},
-	
 	{
-		"pack_id" : "3a36b38b-3e54-4cb4-b99d-139e1c275901",
+		"pack_id" : "3a36b38b-3e54-4cb4-b99d-139e1c275901",  //Mailboxes
 		"version" : [ 1, 2, 2 ]
 	},
-	
 	{
-		"pack_id" : "95cc40f0-999b-49b8-8311-c8aaaa887ed6",
+		"pack_id" : "95cc40f0-999b-49b8-8311-c8aaaa887ed6", //MrCrayFish Furniture
 		"version" : [ 1, 2, 1 ]
 	},
 	
 	{
-		"pack_id" : "fcd5a4e5-887c-4496-955c-5a89ab947f12",
-		"subpack" : "easter",
+		"pack_id" : "fcd5a4e5-887c-4496-955c-5a89ab947f12", //Wandering Trader
 		"version" : [ 6, 1, 1 ]
 	},
 	
 	{
-		"pack_id" : "6dbf0b33-d0c6-4090-8004-331fe3e16622",
+		"pack_id" : "6dbf0b33-d0c6-4090-8004-331fe3e16622", //FoF Prep Pack
 		"version" : [ 6, 0, 1 ]
 	},
 	
 	{
-		"pack_id" : "91a21bbc-69c8-47b9-abf2-8ab6fdf6042b",
+		"pack_id" : "91a21bbc-69c8-47b9-abf2-8ab6fdf6042b", //FXNT MiniBlocks
 		"version" : [ 7, 4, 3 ]
 	},
-	
 	{
-		"pack_id" : "2d0fd1e8-be04-40c0-a95d-92a6ca931976",
+		"pack_id" : "2d0fd1e8-be04-40c0-a95d-92a6ca931976",  //FXNT Armor Stand & Markers
 		"version" : [ 2, 1, 1 ]
 	},
-	
 	{
-		"pack_id" : "10ba4924-e71c-47a3-a456-ff77d7ef4e7e",
+		"pack_id" : "10ba4924-e71c-47a3-a456-ff77d7ef4e7e", //Medieval Furniture
 		"version" : [ 6, 4, 2 ]
 	},
-	
 	{
-		"pack_id" : "91879d55-d90a-411b-8aff-21b58979b6a3",
+		"pack_id" : "91879d55-d90a-411b-8aff-21b58979b6a3", //FoF Paintings
 		"version" : [ 7, 0, 0 ]
 	},
-	
 	{
-		"pack_id" : "10001000-1223-1111-1111-a000a000a000",
+		"pack_id" : "10001000-1223-1111-1111-a000a000a000", //Abandoned Ruins
 		"version" : [ 1, 8, 4 ]
 	},
-	
+
 	{
-		"pack_id" : "10001000-3de0-1111-1111-a000a000a000",
+		"pack_id" : "10001000-3de0-1111-1111-a000a000a000", //Nico's More More Dungeons
 		"version" : [ 1, 3, 30 ]
 	},
-	
+
 	{
-		"pack_id" : "f8898c09-6d29-44fe-8303-15dfda9aba44",
+		"pack_id" : "f8898c09-6d29-44fe-8303-15dfda9aba44", //FXNT Mob Heads
 		"version" : [ 3, 5, 0 ]
 	},
 	
 	{
-		"pack_id" : "d9560f08-233c-4c1c-9a72-3f5b6ace7d32",
-		"version" : [ 6, 1, 6 ]
+		"pack_id" : "d9560f08-233c-4c1c-9a72-3f5b6ace7d32", //FoF Medals
+		"version" : [ 6, 1, 5 ]
 	},
-	
 	{
-		"pack_id" : "25f31836-beb8-4f79-85f1-b3377e01ff07",
+		"pack_id" : "25f31836-beb8-4f79-85f1-b3377e01ff07", //FoF Golems
 		"version" : [ 6, 1, 1 ]
 	},
 	
 	{
-		"pack_id" : "16dd192c-48b4-4318-b95a-deae1b50ab72",
+		"pack_id" : "16dd192c-48b4-4318-b95a-deae1b50ab72", //FoF Currency
 		"version" : [ 6, 1, 3 ]
 	},
 	
 	{
-		"pack_id" : "10001000-ab12-1111-1111-a000a000a000",
+		"pack_id" : "10001000-ab12-1111-1111-a000a000a000", //Abandoned Ruins
 		"version" : [ 1, 10, 21 ]
 	},
 	
 	{
-		"pack_id" : "026d10cc-e079-4f2a-a95f-f822cbe01ffd",
+		"pack_id" : "026d10cc-e079-4f2a-a95f-f822cbe01ffd", //FoF Avatars
 		"version" : [ 6, 2, 6 ]
 	},
-	
+		
 	{
-		"pack_id" : "540f1b1e-20ae-4a1c-8f47-2ae8c892ca6e",
+		"pack_id" : "540f1b1e-20ae-4a1c-8f47-2ae8c892ca6e", //Modern Doors
 		"version" : [ 1, 9, 0 ]
 	},
 	
 	{
-		"pack_id" : "949fe917-3b4b-4d47-8c64-3b8046fde4b5",
+		"pack_id" : "949fe917-3b4b-4d47-8c64-3b8046fde4b5", //Better Beds
 		"version" : [ 1, 7, 0 ]
 	},
-	
 	{
-		"pack_id" : "1d0c02d7-42ab-4cc8-a2c0-053102b8ba72",
-		"version" : [ 4, 0, 2 ]
+		"pack_id": "1d0c02d7-42ab-4cc8-a2c0-053102b8ba72", //Wolf Ears
+		"version": [ 4, 0, 2 ]
 	},
-	
+	// {
+	// 	"pack_id": "1c11cb2d-9375-4b42-ae69-2efd6ef58a96", //Mounts Whistle
+	// 	"version": [ 3, 0, 0 ]
+	// }
 	{
-		"pack_id" : "b6b99aa9-40ed-4bfc-b4e4-1858aaa28a75",
-		"version" : [ 1, 0, 2 ]
+		"pack_id": "b6b99aa9-40ed-4bfc-b4e4-1858aaa28a75", //Compostables+
+        "version": [1, 0, 2]
 	},
-	
 	{
-		"pack_id" : "02eeda7c-5f4d-4c9e-b5e5-217b120cbd1f",
-		"version" : [ 1, 0, 0 ]
+		"pack_id": "02eeda7c-5f4d-4c9e-b5e5-217b120cbd1f", //Better Bonemeal
+        "version": [ 1, 0, 0 ]
 	}
 ]

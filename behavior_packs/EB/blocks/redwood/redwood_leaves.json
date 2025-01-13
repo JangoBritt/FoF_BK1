@@ -39,7 +39,7 @@
 			"minecraft:custom_components": [
 				"pog:redwoodleavesDecay"
 			],
-			"minecraft:loot": "empty"
+			"minecraft:loot": "loot_tables/blocks/redwood_leaves_drops.json"
 		},
 		"events": {}
 	}

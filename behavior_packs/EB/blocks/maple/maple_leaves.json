@@ -36,7 +36,7 @@
 				"destroy_chance_modifier": 20,
 				"catch_chance_modifier": 5
 			},
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/blocks/maple_leaves_drops.json",
 			"minecraft:custom_components": [
 				"pog:mapleleavesDecay"
 			]

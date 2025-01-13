@@ -10,7 +10,15 @@ item.spawn_egg.entity.kuma:skeleton_rat.name=Spawn §7Skeleton Rat§7
 item.spawn_egg.entity.kuma:venom_rat.name=Spawn §2Venom Rat§2
 item.spawn_egg.entity.kuma:mount_rat.name=Spawn §8Giant Rat§8
 
-entity.kuma:mount_rat.name= Giant Rat
+
+entity.kuma:comun_rat.name=Rat
+entity.kuma:kangaroo_rat.name=Kangaroo Rat
+entity.kuma:netherrack_rat.name=Crimson Rat
+entity.kuma:warped_rat.name=Warped Rat
+entity.kuma:skeleton_rat.name=Skeleton Rat
+entity.kuma:venom_rat.name=Venom Rat
+entity.kuma:mount_rat.name=Giant Rat
+
 action.hint.exit.kuma:mount_rat= Ride Giant Rat
 
 

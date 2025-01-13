@@ -58,7 +58,7 @@ world.afterEvents.playerBreakBlock.subscribe(f => {
         if (!player.isSneaking && validAxes.some(x => { return inv.typeId.includes(x) }) && durability.damage < durability.maxDurability - 5) {
             const blockId = f.brokenBlockPermutation.type.id
             const { x, y, z } = f.block.location
-            if (((blockId.includes('log') || blockId.includes('_wood_') ||blockId.includes('_mushroom_') || blockId.includes('_stem') || blockId.includes('_wart_')) && !blockId.includes('stripped')) && f.dimension.getBlock({ x, y: y + 1, z }).typeId == blockId) {
+            if (((blockId.includes('log') || blockId.includes('_wood') || blockId.includes('_mushroom_') || blockId.includes('_stem') || blockId.includes('_wart_')) && !blockId.includes('stripped')) && f.dimension.getBlock({ x, y: y + 1, z }).typeId == blockId) {
                 for (let i = 0; i < worldPlayer.length; i++) {
                     if (worldPlayer[i].playerName === player.name) {
                         worldPlayer[i].logBlocks.push(`${x} ${y + 1} ${z}`)
@@ -74,7 +74,34 @@ world.afterEvents.playerBreakBlock.subscribe(f => {
 })
 function treecapitator(block, x, y, z, player, dimension) {
     try {
-        const blockSides = [[x, y - 1, z], [x + 1, y, z], [x, y, z - 1], [x - 1, y, z], [x, y, z + 1], [x, y + 1, z], [x + 1, y + 1, z + 1], [x + 1, y + 1, z - 1], [x - 1, y + 1, z - 1], [x - 1, y + 1, z + 1]]
+        const blockSides = [
+            [x, y - 1, z],
+            [x, y + 1, z],
+
+            [x + 1, y, z],
+            [x - 1, y, z],
+
+            [x, y, z - 1],
+            [x, y, z + 1],
+
+            [x + 1, y, z + 1],
+            [x + 1, y, z - 1],
+
+            [x - 1, y, z - 1],
+            [x - 1, y, z + 1],
+
+            [x + 1, y - 1, z + 1],
+            [x + 1, y - 1, z - 1],
+            
+            [x - 1, y - 1, z - 1],
+            [x - 1, y - 1, z + 1],
+
+            [x + 1, y + 1, z + 1],
+            [x + 1, y + 1, z - 1],
+            
+            [x - 1, y + 1, z - 1],
+            [x - 1, y + 1, z + 1]
+        ]
         for (const coords of blockSides) {
             const idBlocks = dimension.getBlock({ x: coords[0], y: coords[1], z: coords[2] }).typeId
             if (idBlocks == block && worldPlayer[player].logCount < 128) {
@@ -83,7 +110,7 @@ function treecapitator(block, x, y, z, player, dimension) {
                     worldPlayer[player].logCount += 1
                 }
             }
-            if ((idBlocks.includes('leaves') || idBlocks.includes('vine') || idBlocks.includes('_wart_') || idBlocks.includes('shroomlight')) && (worldPlayer[player].otherCount < worldPlayer[player].logCount * 6 && worldPlayer[player].otherCount < 390)) {
+            if ((idBlocks.includes('leaves') || idBlocks.includes('_wood') || idBlocks.includes('vine') || idBlocks.includes('_wart_') || idBlocks.includes('shroomlight')) && (worldPlayer[player].otherCount < worldPlayer[player].logCount * 6 && worldPlayer[player].otherCount < 390)) {
                 if (worldPlayer[player].otherBlocks.every(o => o != `${coords[0]} ${coords[1]} ${coords[2]}`)) {
                     worldPlayer[player].otherBlocks.push(`${coords[0]} ${coords[1]} ${coords[2]}`)
                     worldPlayer[player].otherCount += 1
@@ -108,7 +135,7 @@ function treeDestroy(player, block, blockList) {
                         const z = Number(blockList[0].slice(blockList[0].indexOf(' ', blockList[0].indexOf(' ') + 1)))
                         //players.onScreenDisplay.setActionBar(`§f${block} §6log: ${worldPlayer[player].logCount} §8/ §fOther: ${worldPlayer[player].otherCount} - §6${x} ${y} ${z} - §fIndex Player: ${player}`)
                         const logId = players.dimension.getBlock({ x, y, z }).typeId
-                        if (logId.includes('log') || logId.includes('_stem') || logId.includes('_wart_')) {
+                        if (logId.includes('log') || logId.includes('_stem') || logId.includes('_wood') || logId.includes('_wart_')) {
                             const { level } = enchanment.getEnchantment("unbreaking") ?? { level: 0 }
                             if (level === 1) {
                                 if (Math.floor(Math.random() * 2) === 0) updatedItem()

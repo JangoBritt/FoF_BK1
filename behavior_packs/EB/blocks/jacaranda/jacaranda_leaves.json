@@ -39,7 +39,7 @@
 			"minecraft:custom_components": [
 				"pog:jacarandaleavesDecay"
 			],
-			"minecraft:loot": "empty"
+			"minecraft:loot": "loot_tables/blocks/jacaranda_leaves_drops.json"
 		},
 		"events": {}
 	}

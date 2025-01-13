@@ -18,7 +18,7 @@
 					"render_method": "blend"
 				}
 			},
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/blocks/cherry_blossom_leaves_drops.json",
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 1
 			},
