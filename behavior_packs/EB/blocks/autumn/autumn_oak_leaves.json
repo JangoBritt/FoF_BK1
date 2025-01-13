@@ -39,7 +39,7 @@
             "minecraft:custom_components": [
                 "pog:autumnleavesDecay"
             ],
-            "minecraft:loot": "empty"
+            "minecraft:loot": "loot_tables/blocks/autumn_oak_leaves_drops.json"
         }
     }
 }

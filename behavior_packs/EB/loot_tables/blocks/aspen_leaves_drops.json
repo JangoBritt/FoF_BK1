@@ -28,7 +28,7 @@
 				{
 					"type": "item",
 					"name": "korbon:aspen_sapling_item",
-					"weight": 11,
+					"weight": 15,
 					"functions": [
 						{
 							"function": "set_count",

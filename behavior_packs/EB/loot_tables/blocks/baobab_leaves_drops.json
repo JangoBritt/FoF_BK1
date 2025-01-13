@@ -9,7 +9,7 @@
 			"entries": [
 				{
 					"type": "empty",
-					"weight": 75
+					"weight": 45
 				},
 				{
 					"type": "item",
@@ -28,7 +28,7 @@
 				{
 					"type": "item",
 					"name": "korbon:baobab_sapling_item",
-					"weight": 11,
+					"weight": 15,
 					"functions": [
 						{
 							"function": "set_count",

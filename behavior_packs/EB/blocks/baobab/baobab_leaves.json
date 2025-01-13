@@ -39,7 +39,10 @@
 			"minecraft:custom_components": [
 				"pog:baobableavesDecay"
 			],
-			"minecraft:loot": "empty"
+			"minecraft:loot": "loot_tables/blocks/baobab_leaves_drops.json",
+			"tag:minecraft:is_hoe_item_destructible": {}
+
+			
 		},
 		"events": {}
 	}

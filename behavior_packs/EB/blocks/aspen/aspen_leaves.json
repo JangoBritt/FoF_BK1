@@ -78,7 +78,8 @@
 					150
 				]
 			},
-			"minecraft:loot": "none",
+			"minecraft:loot": "loot_tables/blocks/aspen_leaves_drops.json",
+
 			"tag:minecraft:is_shears_item_destructible": {}
 		},
 		"events": {}
