@@ -11,7 +11,7 @@ const useableBlocks = [
     'brittlebush',
     'buttercup',
     'cattail_bottom',
-    'daisy_petals',
+    //'daisy_petals',
     'didymoch',
     'dune_grass',
     'jungfern_bottom',
