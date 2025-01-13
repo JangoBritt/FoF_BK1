@@ -58,7 +58,7 @@ world.afterEvents.playerBreakBlock.subscribe(f => {
         if (!player.isSneaking && validAxes.some(x => { return inv.typeId.includes(x) }) && durability.damage < durability.maxDurability - 5) {
             const blockId = f.brokenBlockPermutation.type.id
             const { x, y, z } = f.block.location
-            if (((blockId.includes('log') || blockId.includes('_stem') || blockId.includes('_wart_')) && !blockId.includes('_mushroom_')) && f.dimension.getBlock({ x, y: y + 1, z }).typeId == blockId) {
+            if (((blockId.includes('log') || blockId.includes('_wood_') ||blockId.includes('_mushroom_') || blockId.includes('_stem') || blockId.includes('_wart_')) && !blockId.includes('stripped')) && f.dimension.getBlock({ x, y: y + 1, z }).typeId == blockId) {
                 for (let i = 0; i < worldPlayer.length; i++) {
                     if (worldPlayer[i].playerName === player.name) {
                         worldPlayer[i].logBlocks.push(`${x} ${y + 1} ${z}`)

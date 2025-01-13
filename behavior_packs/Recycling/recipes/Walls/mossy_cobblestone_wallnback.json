@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:mossy_cobblestone_wallnback"
     },
-    "tags": [ "crafting_table", "stonecutter" ],
+    "tags": [ "recycler", "stonecutter" ],
     "ingredients": [
       {
         "item": "minecraft:cobblestone_wall",

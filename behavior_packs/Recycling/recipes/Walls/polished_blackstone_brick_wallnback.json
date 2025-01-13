@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:polished_blackstone_brick_wallnback"
     },
-    "tags": [ "crafting_table", "stonecutter" ],
+    "tags": [ "recycler", "stonecutter" ],
     "ingredients": [
       {
         "item": "minecraft:polished_blackstone_brick_wall"

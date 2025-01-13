@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:birch_platenback"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "recycler" ],
     "ingredients": [
       {
         "item": "minecraft:birch_pressure_plate"

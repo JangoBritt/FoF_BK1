@@ -240,30 +240,33 @@ world.beforeEvents.itemUseOn.subscribe(data => {
 let compostByDropping = world?.getDynamicProperty('jlmcpe.compostables:compostByDropping') !== false;
 
 world.afterEvents.entitySpawn.subscribe(data => {
-  if (data.entity?.typeId === 'minecraft:item' && compostByDropping) {
-    const item = data.entity;
-    const itemStack = item?.getComponent('item')?.itemStack;
-    const compostable = Compostables.getCompostable(itemStack.typeId) ?? Compostables.getVanillaCompostable(itemStack.typeId);
-    if (!compostable) return;
-    const { dimension } = item;
-    const fallingItem = system.runInterval(() => {
-      if (!item?.isValid() || !compostByDropping) return system.clearRun(fallingItem);
-      if (!item.isFalling) {
-        const block = dimension.getBlock(item.location);
-        let stackAmount = itemStack.amount;
-        if (Compostables.isCompostable(block)) {
-          for (; stackAmount > 0; stackAmount--) {
-            if (!Compostables.isCompostable(block)) break;
-            if (stackAmount > 1) --itemStack.amount;
-            Compostables.composting(dimension, block, compostable.chance);
-          }
-          if (stackAmount > 0) dimension.spawnItem(itemStack, item.location);
-          item.remove();
-        } else if (block.typeId === 'minecraft:composter' || block.below()?.typeId === 'minecraft:composter') return;
-        system.clearRun(fallingItem);
-      }
-    }, 5);
+  try {
+    if (data.entity?.typeId === 'minecraft:item' && compostByDropping) {
+      const item = data.entity;
+      const itemStack = item?.getComponent('item')?.itemStack;
+      const compostable = Compostables.getCompostable(itemStack.typeId) ?? Compostables.getVanillaCompostable(itemStack.typeId);
+      if (!compostable) return;
+      const { dimension } = item;
+      const fallingItem = system.runInterval(() => {
+        if (!item?.isValid() || !compostByDropping) return system.clearRun(fallingItem);
+        if (!item.isFalling) {
+          const block = dimension.getBlock(item.location);
+          let stackAmount = itemStack.amount;
+          if (Compostables.isCompostable(block)) {
+            for (; stackAmount > 0; stackAmount--) {
+              if (!Compostables.isCompostable(block)) break;
+              if (stackAmount > 1) --itemStack.amount;
+              Compostables.composting(dimension, block, compostable.chance);
+            }
+            if (stackAmount > 0) dimension.spawnItem(itemStack, item.location);
+            item.remove();
+          } else if (block.typeId === 'minecraft:composter' || block.below()?.typeId === 'minecraft:composter') return;
+          system.clearRun(fallingItem);
+        }
+      }, 5);
+    }
   }
+  catch (e) { }
 });
 
 system.afterEvents.scriptEventReceive.subscribe(event => {

@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:exposed_copper_cutnback_waxed"
     },
-    "tags": [ "crafting_table", "stonecutter" ],
+    "tags": [ "recycler", "stonecutter" ],
     "ingredients": [
       {
         "item": "minecraft:waxed_exposed_cut_copper"

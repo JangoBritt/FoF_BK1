@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:mangrove_trapdoornback"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "recycler" ],
     "ingredients": [
       {
         "item": "minecraft:mangrove_trapdoor"

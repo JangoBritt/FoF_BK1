@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:acacia_doornback"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "recycler" ],
     "ingredients": [
       {
         "item": "minecraft:acacia_door"

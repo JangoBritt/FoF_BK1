@@ -5,7 +5,7 @@
 			"identifier": "fof_recycle:ui.packed_ice_from_blue_ice"
 		},
 		"tags": [
-			"crafting_table"
+			"recycler"
 		],
 		"priority": -1,
 		"ingredients": [

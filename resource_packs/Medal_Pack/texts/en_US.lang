@@ -60,3 +60,6 @@ item.fables_misc:beardg.name=Gray Beard
 item.fables_misc:beardg=Gray Beard
 
 item.fables_misc:treesaw=Tree Saw
+
+tile.fables_misc:prismarine_bricks_beam.name=Prismarine Brick Beam
+tile.fables_misc:prismarine_dark_beam.name=Dark Prismarine Beam

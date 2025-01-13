@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:crimson_trapdoornback"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "recycler" ],
     "ingredients": [
       {
         "item": "minecraft:crimson_trapdoor"

@@ -5,7 +5,7 @@
 			"identifier": "fof_recycle:bb.stairs.oak_planks"
 		},
 		"tags": [
-			"crafting_table"
+			"recycler"
 		],
 		"group": "stairs_to_blocks",
 		"priority": -1,

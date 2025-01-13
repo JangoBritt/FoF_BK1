@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:iron_trapdoornback"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "recycler" ],
     "ingredients": [
       {
         "item": "minecraft:iron_trapdoor"
