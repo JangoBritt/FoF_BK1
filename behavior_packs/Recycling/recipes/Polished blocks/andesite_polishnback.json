@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:andesite_polishnback"
     },
-    "tags": [ "crafting_table", "stonecutter" ],
+    "tags": [ "recycler", "stonecutter" ],
     "ingredients": [
       {
         "item": "minecraft:stone",

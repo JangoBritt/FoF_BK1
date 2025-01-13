@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:dark_oak_doornback_new"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "recycler" ],
     "ingredients": [
       {
         "item": "minecraft:dark_oak_door"

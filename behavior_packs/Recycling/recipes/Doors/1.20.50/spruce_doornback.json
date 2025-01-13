@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:spruce_doornback_new"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "recycler" ],
     "ingredients": [
       {
         "item": "minecraft:spruce_door"

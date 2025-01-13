@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:jungle_platenback"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "recycler" ],
     "ingredients": [
       {
         "item": "minecraft:jungle_pressure_plate"

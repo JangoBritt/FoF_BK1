@@ -5,7 +5,7 @@
 			"identifier": "fof_recycle:bb.slabs.baobab_planks"
 		},
 		"tags": [
-			"crafting_table"
+			"recycler"
 		],
 		"group": "slabs_to_blocks",
 		"priority": -1,

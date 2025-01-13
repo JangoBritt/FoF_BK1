@@ -6,7 +6,7 @@
     },
 
     
-    "tags": [ "crafting_table", "stonecutter" ],
+    "tags": [ "recycler", "stonecutter" ],
     "ingredients": [
       {
         "item": "minecraft:chiseled_polished_blackstone"

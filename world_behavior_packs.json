@@ -22,11 +22,6 @@
 		"pack_id" : "f0d1778d-2bae-41b2-94c7-9544b40106b0", //Lore Anvil
 		"version" : [ 1, 4, 0 ]
 	},
-	
-	{
-		"pack_id" : "f5741565-6be8-4ad5-879a-130c644ff694", //Graves (TO BE RETIRED)
-		"version" : [ 2, 1, 4 ]
-	},
 	{
 		"pack_id": "0db99973-12b3-4c67-abbb-90e4726e73e1", //Graves Addon - Effect99
 		"version": [ 1, 0, 0 ]

@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:green_carpetnback_3"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "recycler" ],
     "ingredients": [
       {
         "item": "minecraft:green_carpet"

@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fof_recycle:resin_bricks_nback"
+    },
+    "tags": [ "recycler" ],
+    "ingredients": [
+      {
+        "item": "minecraft:resin_bricks"
+      }
+    ],
+    "result": {
+      "item": "minecraft:resin_brick",
+      "count": 4
+    }
+  }
+}

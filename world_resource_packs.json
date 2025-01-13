@@ -20,10 +20,7 @@
 		"pack_id" : "efbba891-5e91-45e3-843e-cd6ac6c2fb4f", //Lore Anvil
 		"version" : [ 1, 5, 0 ]
 	},
-	{
-		"pack_id" : "6181e449-d2b7-4482-8740-544e645bdd5f", //Gravestones (To Be Retired)
-		"version" : [ 2, 1, 4 ]
-	},
+
 	{
 		"pack_id": "b17af4d5-486d-480e-8d1f-f864c9a33a20", //Graves Addon - Effect99
 		"version": [ 1, 0, 0 ]
@@ -52,7 +49,10 @@
 		"pack_id" : "5c2e165b-9240-478e-a4b1-d98804e33476", //FXNT Armor Stands
 		"version" : [ 2, 1, 1 ]
 	},
-	
+	{
+		"pack_id": "33d9b3b6-1a50-483b-9b67-423536aaf532", //Fables Recycling
+		"version": [ 1, 0, 0 ]
+	},
 	{
 		"pack_id" : "5f579963-21e7-4945-ac23-b11e2a0f018c", //FXNT Mini Blocks
 		"version" : [ 7, 4, 3 ]

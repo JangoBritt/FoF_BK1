@@ -4,7 +4,7 @@
     "description": {
       "identifier": "fof_recycle:acacia_trapdoornback_new"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "recycler" ],
     "ingredients": [
       {
         "item": "minecraft:acacia_trapdoor"
