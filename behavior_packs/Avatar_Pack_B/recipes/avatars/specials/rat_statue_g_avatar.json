@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fables_avatars:rat_statue_g_avatar_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			" # ",
+			"   "
+		],
+		"key": {
+			"#": {
+				"tag": "fables_avatars:rat_statue"
+			},
+			"X": {
+				"item": "minecraft:raw_gold"
+			}
+		},
+		"unlock": [
+			{"tag": "fables_avatars:rat_statue"}
+		],
+		"result": [
+			{
+				"item": "fables_avatars:rat_statue_g_avatar_item",
+				"count": 1
+			}
+		]
+	}
+}

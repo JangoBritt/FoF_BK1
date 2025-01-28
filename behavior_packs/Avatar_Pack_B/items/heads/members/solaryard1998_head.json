@@ -8,7 +8,12 @@
             "minecraft:icon": "solaryard1998_head_item", 
 			"minecraft:entity_placer": {
 				"entity": "fables_avatars:solaryard1998_head"
-			}
+			},
+			"minecraft:tags": {
+                "tags": [
+                    "fables_avatars:player_head"
+                ]
+            }
 		}
 	}
 }

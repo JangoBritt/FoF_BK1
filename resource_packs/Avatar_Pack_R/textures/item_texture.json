@@ -631,6 +631,36 @@
                                                      },
                          "mrsdelfuego_head_item":  {
                                                        "textures":  "textures/avatars/members/mrsdelfuego/player_head_item"
-                                                   }
+                                                   },
+                         "rat_statue_avatar_item":  {
+                                                        "textures":  "textures/avatars/specials/rat_statue/avatar_item"
+                                                    },
+                         "rat_statue_head_item":  {
+                                                      "textures":  "textures/avatars/specials/rat_statue/player_head_item"
+                                                  },
+                         "rat_statue_e_avatar_item":  {
+                                                          "textures":  "textures/avatars/specials/rat_statue_e/avatar_item"
+                                                      },
+                         "rat_statue_e_head_item":  {
+                                                        "textures":  "textures/avatars/specials/rat_statue_e/player_head_item"
+                                                    },
+                         "rat_statue_d_avatar_item":  {
+                                                          "textures":  "textures/avatars/specials/rat_statue_d/avatar_item"
+                                                      },
+                         "rat_statue_d_head_item":  {
+                                                        "textures":  "textures/avatars/specials/rat_statue_d/player_head_item"
+                                                    },
+                         "rat_statue_c_avatar_item":  {
+                                                          "textures":  "textures/avatars/specials/rat_statue_c/avatar_item"
+                                                      },
+                         "rat_statue_c_head_item":  {
+                                                        "textures":  "textures/avatars/specials/rat_statue_c/player_head_item"
+                                                    },
+                         "rat_statue_g_avatar_item":  {
+                                                          "textures":  "textures/avatars/specials/rat_statue_g/avatar_item"
+                                                      },
+                         "rat_statue_g_head_item":  {
+                                                        "textures":  "textures/avatars/specials/rat_statue_g/player_head_item"
+                                                    }
                      }
 }

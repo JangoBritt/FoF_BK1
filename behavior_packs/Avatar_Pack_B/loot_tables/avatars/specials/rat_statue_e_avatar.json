@@ -1,0 +1,34 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "fables_avatars:rat_statue_avatar_item",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:emerald",
+					"weight": 1,
+					"functions": [
+
+						{
+						  "function": "set_count",
+						  "count": {
+							"min": 2,
+							"max": 2
+						  }
+						}
+					]
+				}
+			]
+		}
+	]
+}

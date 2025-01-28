@@ -8,7 +8,12 @@
             "minecraft:icon": "xraistin_head_item", 
 			"minecraft:entity_placer": {
 				"entity": "fables_avatars:xraistin_head"
-			}
+			},
+			"minecraft:tags": {
+                "tags": [
+                    "fables_avatars:player_head"
+                ]
+            }
 		}
 	}
 }

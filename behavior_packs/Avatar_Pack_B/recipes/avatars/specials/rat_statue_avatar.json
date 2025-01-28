@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fables_avatars:rat_statue_avatar_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#"
+		],
+		"key": {
+			"X": {
+				"tag": "fables_avatars:player_head"
+			},
+			"#": {
+				"item": "minecraft:armor_stand"
+			}
+		},
+		"unlock": [
+			{"tag": "fables_avatars:player_head"}
+		],
+		"result": [
+			{
+				"item": "fables_avatars:rat_statue_avatar_item",
+				"count": 1
+			}
+		]
+	}
+}

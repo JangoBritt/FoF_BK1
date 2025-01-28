@@ -25,6 +25,9 @@
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 0.3
 			},
+			"minecraft:custom_components": [
+				"pog:cherryleavesDecay"
+			],
 			"minecraft:light_dampening": 10,
 			"minecraft:flammable": {
 				"destroy_chance_modifier": 20,

@@ -28,11 +28,13 @@
 			"minecraft:digger": {
 				"use_efficiency": true,
 				"destroy_speeds": [
+					{ "block": "minecraft:web", "speed": 21 },
+					{ "block": "minecraft:bamboo", "speed": 100 },
 					{
 						"block": {
 							"tags": "q.any_tag('minecraft:is_sword_item_destructible')"
 						},
-						"speed": 12
+						"speed": 16
 					}
 				]
 			},
