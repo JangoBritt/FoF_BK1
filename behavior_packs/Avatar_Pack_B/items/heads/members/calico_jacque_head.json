@@ -8,7 +8,12 @@
             "minecraft:icon": "calico_jacque_head_item", 
 			"minecraft:entity_placer": {
 				"entity": "fables_avatars:calico_jacque_head"
-			}
+			},
+			"minecraft:tags": {
+                "tags": [
+                    "fables_avatars:player_head"
+                ]
+            }
 		}
 	}
 }

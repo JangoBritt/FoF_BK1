@@ -68,7 +68,8 @@
           "food",
           "nicothekid_items",
           "minecraft:is_meat",
-          "minecraft:is_food"
+          "minecraft:is_food",
+          "nicothekid:raw_rat_on_consume"
         ]
       }
     }

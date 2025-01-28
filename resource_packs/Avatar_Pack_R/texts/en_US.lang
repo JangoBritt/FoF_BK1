@@ -529,3 +529,22 @@ entity.fables_avatars:mrsdelfuego_head.name=Mrs Del Fuego's Head
 item.fables_avatars:mrsdelfuego_avatar_item=Mrs Del Fuego's Avatar
 item.fables_avatars:mrsdelfuego_head_item=Mrs Del Fuego's Head
 item.fables_avatars:mrsdelfuego_mask=Mrs Del Fuego's Mask
+
+action.hint.exit.fables_avatars:rat_statue_head=Jump to Exit
+entity.fables_avatars:rat_statue_avatar.name=Rat Statue
+entity.fables_avatars:rat_statue_head.name=Stone Rat Head
+item.fables_avatars:rat_statue_avatar_item=Rat Statue
+item.fables_avatars:rat_statue_head_item=Stone Rat Head
+item.fables_avatars:rat_statue_mask=Stone Rat Mask
+
+entity.fables_avatars:rat_statue_e_avatar.name=Emerald Rat Statue
+item.fables_avatars:rat_statue_e_avatar_item=Emerald Rat Statue
+
+entity.fables_avatars:rat_statue_d_avatar.name=Diamond Rat Statue
+item.fables_avatars:rat_statue_d_avatar_item=Diamond Rat Statue
+
+entity.fables_avatars:rat_statue_c_avatar.name=Copper Rat Statue
+item.fables_avatars:rat_statue_c_avatar_item=Copper Rat Statue
+
+entity.fables_avatars:rat_statue_g_avatar.name=Gold Rat Statue
+item.fables_avatars:rat_statue_g_avatar_item=Gold Rat Statue

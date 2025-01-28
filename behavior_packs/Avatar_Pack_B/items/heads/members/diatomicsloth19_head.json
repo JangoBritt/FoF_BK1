@@ -8,7 +8,12 @@
             "minecraft:icon": "diatomicsloth19_head_item", 
 			"minecraft:entity_placer": {
 				"entity": "fables_avatars:diatomicsloth19_head"
-			}
+			},
+			"minecraft:tags": {
+                "tags": [
+                    "fables_avatars:player_head"
+                ]
+            }
 		}
 	}
 }

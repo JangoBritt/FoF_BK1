@@ -8,7 +8,12 @@
             "minecraft:icon": "mids128_head_item", 
 			"minecraft:entity_placer": {
 				"entity": "fables_avatars:mids128_head"
-			}
+			},
+			"minecraft:tags": {
+                "tags": [
+                    "fables_avatars:player_head"
+                ]
+            }
 		}
 	}
 }
