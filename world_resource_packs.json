@@ -1,10 +1,10 @@
 
 [
 		
-	{
-		"pack_id" : "9662b34a-9a6c-47dc-b1ce-7541c8bbda91", //System Dynamic Lighting
-		"version" : [ 1, 0, 1 ]
-	},
+	// {
+	// 	"pack_id" : "9662b34a-9a6c-47dc-b1ce-7541c8bbda91", //System Dynamic Lighting
+	// 	"version" : [ 1, 0, 1 ]
+	// },
 		
 	{
 		"pack_id" : "883172a3-6049-4c62-8d26-fc17395b1095", //Alycia's Avancements
@@ -132,9 +132,5 @@
 	{
 		"pack_id": "122eda50-6c7c-4750-a55d-5eb7dfd58b55", //Wolf Ears
 		"version": [ 4, 0, 2 ]
-	}//,
-	// {
-	// 	"pack_id": "930c299b-17e0-4b74-9ce3-14cbb889d46b", //Mount Whistle
-    // 	"version": [ 3, 0, 0 ]
-	// }
+	}
 ]
