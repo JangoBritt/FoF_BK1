@@ -77,7 +77,7 @@
 	},
 	{
 		"pack_id" : "91879d55-d90a-411b-8aff-21b58979b6a3", //FoF Paintings
-		"version" : [ 7, 0, 0 ]
+		"version" : [ 7, 0, 2 ]
 	},
 	{
 		"pack_id" : "10001000-1223-1111-1111-a000a000a000", //Abandoned Ruins
@@ -139,5 +139,9 @@
 	{
 		"pack_id": "02eeda7c-5f4d-4c9e-b5e5-217b120cbd1f", //Better Bonemeal
         "version": [ 1, 0, 0 ]
+	},
+	{
+		"pack_id" : "3e941c52-664b-4041-af0f-4fdc299d42bf", //Gauntlets
+		"version" : [ 1, 0, 0 ]
 	}
 ]
