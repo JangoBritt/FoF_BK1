@@ -134,7 +134,11 @@
             {"type": "item","weight": 50,"name": "farmersdelight:tatami_mat","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "farmersdelight:half_tatami_mat_item","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "farmersdelight:canvas","functions": [{"function": "set_count","count": 1}]},
-            {"type": "item","weight": 50,"name": "farmersdelight:canvas_rug","functions": [{"function": "set_count","count": 1}]}
+            {"type": "item","weight": 50,"name": "farmersdelight:canvas_rug","functions": [{"function": "set_count","count": 1}]},
+
+            //paintings
+            {"type": "item","weight": 50,"name": "fables_paintings:shipwreck","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "fables_paintings:roger","functions": [{"function": "set_count","count": 1}]}
         ]
       },
       { //currency

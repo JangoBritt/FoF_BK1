@@ -8,7 +8,8 @@
                 "default": "entity_alphatest",
                 "cape": "entity_alphatest",
                 "animated": "player_animated",
-                "spectator": "player_spectator"
+                "spectator": "player_spectator",
+                "charged": "charged_creeper"
             },
             "enable_attachables": true,
             "textures": {
@@ -51,12 +52,23 @@
                 ],
                 "animate": [
                     "root",
-                    { "fallingleaves": "!q.is_in_ui && !v.is_paperdoll" }
+                    { "fallingleaves": "!q.is_in_ui && !v.is_paperdoll" },        
+                    "manopla_controller" //Manopla
                 ]
             },
             "animations": {
-                "root": "controller.animation.player.root",
+                //Manopla
+                "manopla_controller": "controller.animation.manopla_controller", 
+                "manopla.timer": "animation.manopla.timer",
+                "manopla.attack1": "animation.manopla.attack1",
+                "manopla.attack2": "animation.manopla.attack2",
+                "manopla.attack3": "animation.manopla.attack3",
+                
+                //Expansive Biomes
                 "fallingleaves": "animation.player.fallingleaves",
+                
+                //Vanilla
+                "root": "controller.animation.player.root",
                 "base_controller": "controller.animation.player.base",
                 "hudplayer": "controller.animation.player.hudplayer",
                 "humanoid_base_pose": "animation.humanoid.base_pose",
@@ -75,6 +87,7 @@
                 "riding.legs": "animation.player.riding.legs",
                 "holding": "animation.player.holding",
                 "brandish_spear": "animation.humanoid.brandish_spear",
+                
                 "charging": "animation.humanoid.charging",
                 "attack.positions": "animation.player.attack.positions",
                 "attack.rotations": "animation.player.attack.rotations",

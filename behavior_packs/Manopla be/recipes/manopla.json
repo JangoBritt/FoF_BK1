@@ -1,0 +1,50 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "wesl3y:manopla"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XSX",
+      "EGE",
+      "Y Y"
+    ],
+    "key": {
+      "X": { "item": "korbon:vibranium_ingot" },
+      "Y": { "item": "minecraft:heavy_core" },
+      "S": { "item": "minecraft:shaper_armor_trim_smithing_template"},
+      "G": { "item": "minecraft:gold_ingot" },
+      "E": { "item": "minecraft:emerald" }
+    },
+    "result": {
+      "item": "wesl3y:manopla",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:heavy_core"
+      }
+    ]
+  }
+}
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                                                                                                                                                                                                                                                                                                                                                                         

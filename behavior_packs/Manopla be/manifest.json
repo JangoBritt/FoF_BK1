@@ -1,0 +1,51 @@
+{
+  "format_version": 2,
+  "header": {
+    "description":"",
+    "name": "Manopla 1.0",
+    "uuid": "3e941c52-664b-4041-af0f-4fdc299d42bf",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description":"",
+	    "type": "data",
+      "uuid": "c10d3984-c68d-4e65-90c6-d70a99758aa1",
+      "version": [1, 0, 0]
+    }//,
+    // {
+    //   "description":"",
+    //   "type": "script",
+    //   "language": "javascript",
+    //   "uuid": "e5723195-e247-48c3-8647-6ad144ef025d",
+    //   "version": [1, 0, 0],
+    //   "entry": "scripts/main.js"
+    // }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.15.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0"
+    }
+  ]
+}
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                                       
+                                              

@@ -2,13 +2,13 @@
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "fables_painting:painting_cape",
+			"identifier": "fables_painting:painting_shipwreck",
 			"materials": {
 				"default": "entity_alphatest"
 			},
 			"textures": {
 				"marco": "textures/entity/marco_2x1",
-				"cuadro1": "textures/cuadro2x1/2x1_cape"
+				"cuadro1": "textures/cuadro2x1/2x1_shipwreck"
 			},
 			"geometry": {
 				"marco": "geometry.marco2x1",

@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "wesl3y:manopla",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default1": "textures/entity/manopla1",
+        "default2": "textures/entity/manopla2",
+        "default3": "textures/entity/manopla3",
+        "default4": "textures/entity/manopla4"
+      },
+      "geometry": {
+        "default": "geometry.manopla"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;"
+      },
+      "render_controllers": [ "controller.render.manopla" ]
+    }
+  }
+}
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                         
+                                       
