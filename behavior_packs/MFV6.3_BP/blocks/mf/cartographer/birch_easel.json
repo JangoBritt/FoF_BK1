@@ -20,6 +20,7 @@
 		],
 		"components": {
 			"tag:medieval_furniture": {},
+			"minecraft:crafting_table": {"crafting_tags": ["easel"]},
 			"tag:m.wood_easel": {},
 			"minecraft:geometry": "geometry.m.easel_0",
 			"minecraft:material_instances": {"*": {"texture": "m.stripped_birch","render_method": "alpha_test"},"painting": {"texture": "m.painting_0","render_method": "alpha_test"}},

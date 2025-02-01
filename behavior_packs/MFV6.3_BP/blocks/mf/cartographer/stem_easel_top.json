@@ -6,6 +6,7 @@
 		},
 		"components": {
 			"tag:medieval_furniture": {},
+			"minecraft:crafting_table": {"crafting_tags": ["easel"]},
 			"tag:m.stem_easel_top": {},
 			"minecraft:loot": "empty",
 			"minecraft:geometry": "geometry.m.no_stairs",
