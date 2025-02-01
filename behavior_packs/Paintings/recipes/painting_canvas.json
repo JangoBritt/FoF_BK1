@@ -2,7 +2,7 @@
     "format_version": "1.20.10",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "minecraft:painting_easel_canvas"
+            "identifier": "fables_painting:painting_easel_canvas"
         },
         "tags": [
             "easel",
@@ -27,7 +27,7 @@
           }
         ],
         "result": {
-            "item": "painting",
+            "item": "minecraft:painting",
             "count": 1
         }
     }
