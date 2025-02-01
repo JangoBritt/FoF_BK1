@@ -1871,3 +1871,18 @@ item.medieval:villager_hat_shepherd=Shepherd Hat
 item.medieval:villager_hat_weaponsmith=Weaponsmith's Eyepatch
 item.medieval:villager_hat_fisherman=Fisherman Hat
 item.medieval:villager_hat_cartographer=Cartographer's Monacle
+
+
+medieval:acacia_easel.name=Acacia Easel
+medieval:birch_easel.name=Birch Easel
+medieval:cherry_easel.name=Cherry Easel
+medieval:cherry_easel_top.name=Cherry Easel
+medieval:crimson_easel.name=Crimson Easel
+medieval:darkoak_easel.name=Dark Oak Easel
+medieval:jungle_easel.name=Jungle Easel
+medieval:mangrove_easel.name=Mangrove Easel
+medieval:oak_easel.name=Oak Easel
+medieval:spruce_easel.name=Spruce Easel
+medieval:warped_easel.name=Warped Easel
+medieval:stem_easel_top.name=Easel
+medieval:wood_easel_top.name=Easel

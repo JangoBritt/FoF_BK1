@@ -12,7 +12,6 @@
 		},
 		"components": {
 			"minecraft:geometry": "geometry.fof_recycling.recycling_box",
-			"tag:workbench_left": {},
 			"tag:medieval_furniture": {},
 			"minecraft:material_instances": {"*": {"texture": "recycling_box","render_method": "alpha_test"}},
 			"minecraft:crafting_table": {"crafting_tags": ["recycler"]},
