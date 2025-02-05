@@ -1,1 +1,31 @@
-{"pools":[{"rolls":1,"entries":[{"type":"loot_table","name":"loot_tables/fmh/frog_cold_chance.json"}]},{"rolls":1,"entries":[{"type":"loot_table","name":"loot_tables/vanilla/frog.json"}]}]}
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/fmh/frog_cold_chance.json"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/vanilla/frog.json"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/entities/frog_custom.json"
+                }
+            ]
+        }
+    ]
+}
