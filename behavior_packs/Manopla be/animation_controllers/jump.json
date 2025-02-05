@@ -35,7 +35,10 @@
             "/camerashake add @a[r=10] 0.6 2 positional",
             "/particle wesl3y:manopla2",
             "/particle wesl3y:manopla3",
-            "/damage @e[family=!player,rm=1,r=5] 16 fly_into_wall entity @s",
+            "/effect @s resistance 3 4 true",
+            "/damage @e[rm=1,r=5] 16 fly_into_wall entity @s",
+
+            //smash blocks
             "/fill ~ ~-1 ~ ~ ~-1 ~ minecraft:gravel replace minecraft:cobblestone",
             "/fill ~ ~-1 ~ ~ ~-1 ~ minecraft:cobblestone replace minecraft:stone",
             "/fill ~ ~-1 ~ ~ ~-1 ~ minecraft:cracked_stone_bricks replace minecraft:stone_bricks",
@@ -45,8 +48,8 @@
             "/fill ~ ~-1 ~ ~ ~-1 ~ minecraft:cracked_polished_blackstone_bricks replace minecraft:polished_blackstone_bricks",
             "/fill ~ ~-1 ~ ~ ~-1 ~ minecraft:sand replace minecraft:sandstone",
             "/fill ~ ~-1 ~ ~ ~-1 ~ minecraft:red_sand replace minecraft:red_sandstone",
-            "/fill ~ ~-1 ~ ~ ~-1 ~ minecraft:cobbled_deepslate replace minecraft:deepslate",
-            "/execute as @s at @s if block ~ ~-1 ~ melon_block run fill ~ ~-1 ~ ~ ~-1 ~ air destroy"
+            "/fill ~ ~-1 ~ ~ ~-1 ~ minecraft:cobbled_deepslate replace minecraft:deepslate",  
+            "/execute as @s at @s if block ~ ~-1 ~ melon_block run fill ~ ~-1 ~ ~ ~-1 ~ air destroy" //Break Melons
           ]
         }
       }
