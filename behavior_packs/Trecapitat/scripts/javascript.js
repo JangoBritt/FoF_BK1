@@ -58,7 +58,7 @@ world.afterEvents.playerBreakBlock.subscribe(f => {
         if (!player.isSneaking && validAxes.some(x => { return inv.typeId.includes(x) }) && durability.damage < durability.maxDurability - 5) {
             const blockId = f.brokenBlockPermutation.type.id
             const { x, y, z } = f.block.location
-            if (((blockId.includes('log') || blockId.includes('_wood') || blockId.includes('_mushroom_') || blockId.includes('_stem') || blockId.includes('_wart_')) && !blockId.includes('stripped')) && f.dimension.getBlock({ x, y: y + 1, z }).typeId == blockId) {
+            if (((blockId.includes('log') || blockId.includes('_roots') || blockId.includes('_wood') || blockId.includes('_mushroom_') || blockId.includes('_stem') || blockId.includes('_wart_')) && !blockId.includes('stripped')) && f.dimension.getBlock({ x, y: y + 1, z }).typeId == blockId) {
                 for (let i = 0; i < worldPlayer.length; i++) {
                     if (worldPlayer[i].playerName === player.name) {
                         worldPlayer[i].logBlocks.push(`${x} ${y + 1} ${z}`)
@@ -75,32 +75,45 @@ world.afterEvents.playerBreakBlock.subscribe(f => {
 function treecapitator(block, x, y, z, player, dimension) {
     try {
         const blockSides = [
-            [x, y - 1, z],
-            [x, y + 1, z],
+            [x, y - 1, z], // Below
+            [x, y + 1, z], // Above
 
-            [x + 1, y, z],
-            [x - 1, y, z],
+            [x + 1, y, z], // West
+            [x - 1, y, z], // East
 
-            [x, y, z - 1],
-            [x, y, z + 1],
+            [x, y, z + 1], // North
+            [x, y, z - 1], // South
 
-            [x + 1, y, z + 1],
-            [x + 1, y, z - 1],
+            [x + 1, y + 1, z], // West Above
+            [x - 1, y + 1, z], // East Above
 
-            [x - 1, y, z - 1],
-            [x - 1, y, z + 1],
+            [x, y + 1, z + 1], // North Above
+            [x, y + 1, z - 1], // South Above
 
-            [x + 1, y - 1, z + 1],
-            [x + 1, y - 1, z - 1],
+            [x + 1, y - 1, z], // West Below
+            [x - 1, y - 1, z], // East Below
+
+            [x, y - 1, z + 1], // North Below
+            [x, y - 1, z - 1], // South Below
+
+
+            [x + 1, y, z + 1], //NW
+            [x + 1, y, z - 1], //SW
             
-            [x - 1, y - 1, z - 1],
-            [x - 1, y - 1, z + 1],
+            [x - 1, y, z + 1], //SW
+            [x - 1, y, z - 1], //SE
 
-            [x + 1, y + 1, z + 1],
-            [x + 1, y + 1, z - 1],
+            [x + 1, y - 1, z + 1], //NW Below
+            [x + 1, y - 1, z - 1], //SW Below
             
-            [x - 1, y + 1, z - 1],
-            [x - 1, y + 1, z + 1]
+            [x - 1, y - 1, z + 1], //SW Below
+            [x - 1, y - 1, z - 1], //SE Below
+
+            [x + 1, y + 1, z + 1], //NW Above
+            [x + 1, y + 1, z - 1], //SW Above
+            
+            [x - 1, y + 1, z - 1], //NE Above
+            [x - 1, y + 1, z + 1]  //SE Above
         ]
         for (const coords of blockSides) {
             const idBlocks = dimension.getBlock({ x: coords[0], y: coords[1], z: coords[2] }).typeId
@@ -110,7 +123,7 @@ function treecapitator(block, x, y, z, player, dimension) {
                     worldPlayer[player].logCount += 1
                 }
             }
-            if ((idBlocks.includes('leaves') || idBlocks.includes('_wood') || idBlocks.includes('vine') || idBlocks.includes('_wart_') || idBlocks.includes('shroomlight')) && (worldPlayer[player].otherCount < worldPlayer[player].logCount * 6 && worldPlayer[player].otherCount < 390)) {
+            if ((idBlocks.includes('leaves') || idBlocks.includes('_roots') || idBlocks.includes('_wood') || idBlocks.includes('vine') || idBlocks.includes('_wart_') || idBlocks.includes('shroomlight')) && (worldPlayer[player].otherCount < worldPlayer[player].logCount * 6 && worldPlayer[player].otherCount < 390)) {
                 if (worldPlayer[player].otherBlocks.every(o => o != `${coords[0]} ${coords[1]} ${coords[2]}`)) {
                     worldPlayer[player].otherBlocks.push(`${coords[0]} ${coords[1]} ${coords[2]}`)
                     worldPlayer[player].otherCount += 1
