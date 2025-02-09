@@ -282,6 +282,11 @@
 					"component_groups": [
 						"can_trade"
 					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:angry"
+					]
 				}
 			},
 			"minecraft:become_angry": {

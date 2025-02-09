@@ -270,6 +270,11 @@
 					"component_groups": [
 						"can_trade"
 					]
+				},
+				"remove": {
+					"component_groups": [
+						"hostile"
+					]
 				}
 			}
 		}
