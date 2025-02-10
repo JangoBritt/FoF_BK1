@@ -10,10 +10,6 @@
 		"version" : [ 2, 3, 0 ]
 	},
 	
-	// {
-	// 	"pack_id" : "4af7083a-0b1e-423b-8ba9-8bd56397eafa", //System Dynamic Lighting
-	// 	"version" : [ 1, 0, 0 ]
-	// },		
 	{
 		"pack_id" : "ed45f878-b1c6-4cbc-8527-fa07581ece1f", //Expansive Biomes
 		"version" : [ 1, 0, 43 ]
