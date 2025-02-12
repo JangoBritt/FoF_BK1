@@ -3,7 +3,10 @@
   "minecraft:item": {
     "description": {
       "identifier": "fables_misc:goldglass",
-      "category": "Equipment"
+      "menu_category": {
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.helmet"
+			}
     },
     "components": {
       "minecraft:icon": {

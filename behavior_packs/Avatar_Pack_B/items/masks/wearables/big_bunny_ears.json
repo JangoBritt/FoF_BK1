@@ -4,7 +4,8 @@
 		"description": {
 			"identifier": "fables_avatars:big_bunny_ears_mask",
 			"menu_category": {
-				"category": "equipment"
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.helmet"
 			}
 		},
 		"components": {

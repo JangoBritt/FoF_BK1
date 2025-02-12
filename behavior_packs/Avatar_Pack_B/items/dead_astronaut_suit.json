@@ -4,7 +4,8 @@
 		"description": {
 			"identifier": "fables_avatars:dead_astronaut_suit",
 			"menu_category": {
-				"category": "equipment"
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.chestplate"
 			}
 		},
 		"components": {

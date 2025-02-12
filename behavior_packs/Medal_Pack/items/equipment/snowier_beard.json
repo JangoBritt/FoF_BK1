@@ -2,7 +2,11 @@
 	"format_version":"1.21.0",
   "minecraft:item": {
     "description": {
-      "identifier": "fables_misc:beard"
+      "identifier": "fables_misc:beard",
+      "menu_category": {
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.helmet"
+			}
     },
     "components": {
       "minecraft:icon": {
