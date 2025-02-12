@@ -1,0 +1,31 @@
+{
+   "format_version": "1.21.60",
+   "minecraft:crafting_items_catalog": {
+      "categories": [
+         {
+            "category_name": "equipment",
+            "groups": [
+               {
+                  "group_identifier": {
+                     "icon": "fables_misc:acacia_book",
+                     "name": "fables_misc:itemGroup.name.books"
+                  },
+                  "items": []
+               }
+            ]
+         },
+         {
+            "category_name": "items",
+            "groups": [
+               {
+                  "group_identifier": {
+                     "icon": "fables_medal:server_tour_medal_01",
+                     "name": "fables_misc:itemGroup.name.medals"
+                  },
+                  "items": []
+               }
+            ]
+         }
+      ]
+   }
+}

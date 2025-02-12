@@ -4,7 +4,8 @@
 		"description": {
 			"identifier": "fables_avatars:diving_helmet_mask",
 			"menu_category": {
-				"category": "equipment"
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.helmet"
 			}
 		},
 		"components": {

@@ -5,7 +5,9 @@
 		"description": {
 			"identifier": "korbon:tinder_mushrooms_item",
 			"menu_category": {
-				"category": "nature"
+				"category": "nature",
+				"group": "itemGroup.name.mushroom"
+
 			}
 		},
 		"components": {

@@ -2,8 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "new:rat_ear",
-			"category": "equipment"
+			"identifier": "new:rat_ear"
 		},
 		"components": {
 			"minecraft:max_stack_size": 1,
@@ -38,7 +37,6 @@
 					"new:rat_ears"
 				]
 			}
-		},
-		"events": {}
+		}
 	}
 }

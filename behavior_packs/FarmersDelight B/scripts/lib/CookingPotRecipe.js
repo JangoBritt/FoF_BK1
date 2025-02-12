@@ -1,4 +1,4 @@
-import { ItemStack } from "@minecraft/server";
+import { ItemStack, world } from "@minecraft/server";
 import { RecipeHolder } from "./RecipeHolder";
 import { ItemUtil } from "./ItemUtil";
 export class CookingPotRecipe extends RecipeHolder {
@@ -7,14 +7,19 @@ export class CookingPotRecipe extends RecipeHolder {
         this.currentRecipe2 = false;
     }
     update() {
+        const playerNumber = world.getAllPlayers().length;
+        if (playerNumber == 0)
+            return;
         const heated = this.entity.getDynamicProperty('cookingPot:heated');
         //检查结果栏是否可以输出并完成输出操作
-        const container = this.container.getItem(7);
-        const result = this.container.getItem(6);
+        if (!this.container)
+            return;
+        const container = this.container?.getItem(7);
+        const result = this.container?.getItem(6);
         if (result) {
             this.currentRecipe2 = this.getValidRecipe2(result, container);
             if (this.currentRecipe2) {
-                const itemStack = new ItemStack(this.currentRecipe2.result.item);
+                const itemStack = new ItemStack(this.currentRecipe2.result.item, this.currentRecipe2.result.count || 1);
                 //若菜品不需要容器
                 if (!this.currentRecipe2.container) {
                     if (result && this.setItem(itemStack, 8)) {
@@ -67,21 +72,22 @@ export class CookingPotRecipe extends RecipeHolder {
         }
     }
     setItem(itemStack, index) {
-        const output = this.container.getItem(index);
+        let output = this.container.getItem(index);
         if (output) {
             if (output.typeId != itemStack.typeId)
                 return false;
-            if (output.amount < output.maxAmount) {
-                output.amount += 1;
+            if (output.amount <= (output.maxAmount - (this.currentRecipe2.result.count || 1))) {
+                output.amount = output.amount + (this.currentRecipe2.result.count || 1);
                 this.container.setItem(index, output);
                 return true;
             }
         }
         else {
-            itemStack.amount = 1;
+            itemStack.amount = this.currentRecipe2.result.count || 1;
             this.container.setItem(index, itemStack);
             return true;
         }
+        console.warn(output.amount);
         return false;
     }
     getValidRecipe2(output, container) {

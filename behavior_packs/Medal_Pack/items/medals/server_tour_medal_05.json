@@ -4,7 +4,8 @@
 		"description": {
 			"identifier": "fables_medal:server_tour_medal_05",
 			"menu_category": {
-				"category": "items"
+				"category": "items",
+				"group": "fables_misc:itemGroup.name.medals"
 			}
 		},
 		"components": {

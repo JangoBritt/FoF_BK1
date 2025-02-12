@@ -1,19 +1,19 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "§7[v1.7.6] §bExpansive Biomes §r- §2BP§r",
+		"name": "§7[v1.7.62] §bExpansive Biomes §r- §2BP§r",
 		"description": "Adds more biomes to the game for you to explore! §f| §eby iKorbon§r",
 		"version": [
 			1,
 			0,
-			43
+			38
 		],
 		"min_engine_version": [
 			1,
 			21,
 			0
 		],
-		"uuid": "ed45f878-b1c6-4cbc-8527-fa07581ece1f"
+		"uuid": "ed45f878-b1c6-4cbc-8527-fa07531ece1f"
 	},
 	"modules": [
 		{
@@ -21,17 +21,17 @@
 			"version": [
 				1,
 				0,
-				43
+				37
 			],
-			"uuid": "bb671f13-443d-491c-997e-b2ae522162b5"
+			"uuid": "bb671f13-443d-491c-991c-b2ae522162b5"
 		},
 		{
 			"type": "script",
-			"uuid": "20db6292-772e-4bae-9584-89bb7cc4b847",
+			"uuid": "20db6292-772e-4bae-2584-89bb7cc4b847",
 			"version": [
 				1,
 				0,
-				8
+				5
 			],
 			"entry": "scripts/main.js"
 		}
@@ -47,7 +47,7 @@
 	"dependencies": [
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.17.0-beta"
+			"version": "1.18.0-beta"
 		},
 		{
 			"module_name": "@minecraft/server-ui",

@@ -3,7 +3,10 @@
   "minecraft:item": {
     "description": {
       "identifier": "fables_misc:beardg",
-      "category": "Equipment"
+      "menu_category": {
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.helmet"
+			}
     },
     "components": {
       "minecraft:icon": {
@@ -41,40 +44,40 @@
 				"protection": 3,
 				"slot": "slot.armor.head"
 			},
-      "minecraft:render_offsets": {
-        "main_hand": {
-          "third_person": {
-            "scale": [
-              0.1,
-              0.1,
-              0.1
-            ]
-          },
-          "first_person": {
-            "scale": [
-              0.037999999999977205,
-              0.037999999999977205,
-              0.037999999999977205
-            ]
-          }
-        },
-        "off_hand": {
-          "third_person": {
-            "scale": [
-              0.1,
-              0.1,
-              0.1
-            ]
-          },
-          "first_person": {
-            "scale": [
-              0.037999999999977205,
-              0.037999999999977205,
-              0.037999999999977205
-            ]
-          }
-        }
-      },
+      // "minecraft:render_offsets": {
+      //   "main_hand": {
+      //     "third_person": {
+      //       "scale": [
+      //         0.1,
+      //         0.1,
+      //         0.1
+      //       ]
+      //     },
+      //     "first_person": {
+      //       "scale": [
+      //         0.037999999999977205,
+      //         0.037999999999977205,
+      //         0.037999999999977205
+      //       ]
+      //     }
+      //   },
+      //   "off_hand": {
+      //     "third_person": {
+      //       "scale": [
+      //         0.1,
+      //         0.1,
+      //         0.1
+      //       ]
+      //     },
+      //     "first_person": {
+      //       "scale": [
+      //         0.037999999999977205,
+      //         0.037999999999977205,
+      //         0.037999999999977205
+      //       ]
+      //     }
+      //   }
+      // },
       "minecraft:repairable": {
         "repair_items": [
           {

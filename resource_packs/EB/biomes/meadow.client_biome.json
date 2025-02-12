@@ -8,8 +8,11 @@
       "minecraft:fog_appearance": {
         "fog_identifier": "korbon:autumn_forest_fog"
       },
-      "minecraft:biome_music": {
-        "volume_multiplier": 0
+      "minecraft:grass_appearance": {
+        "color": "#ffca57"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#ffca57"
       }
     }
   }

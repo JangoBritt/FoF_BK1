@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.40",
+  "format_version": "1.21.60",
   "minecraft:item": {
     "components": {
       "minecraft:block_placer": {
@@ -20,7 +20,7 @@
       "identifier": "farmersdelight:sandy_shrub_item",
       "menu_category": {
         "category": "nature",
-        "group": "itemGroup.name.nature"
+        "group": "minecraft:itemGroup.name.grass"
       }
     }
   }

@@ -4,7 +4,8 @@
 		"description": {
 			"identifier": "fables_misc:darkoak_book",
 			"menu_category": {
-				"category": "items"
+				"category": "items",
+				"group": "fables_misc:itemGroup.name.books"
 			}
 		},
 		"components": {

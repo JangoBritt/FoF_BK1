@@ -4,7 +4,8 @@
 		"description": {
 			"identifier": "fables_medal:purple_safe_medal",
 			"menu_category": {
-				"category": "items"
+				"category": "items",
+				"group": "fables_misc:itemGroup.name.medals"
 			}
 		},
 		"components": {

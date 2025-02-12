@@ -1,19 +1,13 @@
 
 [
-		
-	// {
-	// 	"pack_id" : "9662b34a-9a6c-47dc-b1ce-7541c8bbda91", //System Dynamic Lighting
-	// 	"version" : [ 1, 0, 1 ]
-	// },
-		
 	{
 		"pack_id" : "883172a3-6049-4c62-8d26-fc17395b1095", //Alycia's Avancements
 		"version" : [ 2, 3, 0 ]
 	},
 	{
-		"pack_id" : "ab801579-0d1a-4e1a-bf5c-971df036a240", //Expansive Biomes
+		"pack_id" : "ab801579-0d1a-4e1a-bc2c-971df036a240", //Expansive Biomes
 		"subpack" : "fog_enable",
-		"version" : [ 1, 0, 43 ]
+		"version" : [ 1, 0, 37 ]
 	},
 	
 	{
@@ -32,7 +26,7 @@
 
 	{
 		"pack_id" : "98836a6c-fe16-60f4-87a4-5afb6439bd9f", //Farmers' Delight
-		"version" : [ 3, 0, 0 ]
+		"version" : [ 3, 1, 3 ]
 	},
 	
 	{

@@ -5,8 +5,8 @@
 		"description": {
 			"identifier": "korbon:autumn_oak_leaf_pile",
 			"menu_category": {
-				"group": "itemGroup.name.nature",
-				"category": "nature"
+				"category": "nature",
+                "group": "itemGroup.name.leaves"
 			}
 		},
 		"components": {

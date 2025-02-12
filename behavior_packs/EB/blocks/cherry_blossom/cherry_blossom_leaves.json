@@ -7,6 +7,12 @@
 			"menu_category": {
 				"group": "itemGroup.name.leaves",
 				"category": "nature"
+			},
+			"states": {
+				"pog:playerPlaced": [
+					false,
+					true
+				]
 			}
 		},
 		"components": {
