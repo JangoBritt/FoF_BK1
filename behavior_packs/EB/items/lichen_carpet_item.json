@@ -4,7 +4,8 @@
 		"description": {
 			"identifier": "korbon:lichen_carpet_item",
 			"menu_category": {
-				"category": "nature"
+				"category": "nature",
+				"group": "minecraft:itemGroup.name.grass"
 			}
 		},
 		"components": {
@@ -18,7 +19,6 @@
 			"minecraft:block_placer": {
 				"block": "korbon:lichen_carpet"
 			}
-		},
-		"events": {}
+		}
 	}
 }

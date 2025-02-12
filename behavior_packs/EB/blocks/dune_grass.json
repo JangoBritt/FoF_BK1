@@ -5,7 +5,8 @@
 		"description": {
 			"identifier": "korbon:dune_grass",
 			"menu_category": {
-				"category": "none"
+				"category": "nature",
+                "group": "itemGroup.name.grass"
 			}
 		},
 		"components": {

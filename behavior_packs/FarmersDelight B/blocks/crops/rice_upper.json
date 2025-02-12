@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.60",
     "minecraft:block": {
         "description": {
             "identifier": "farmersdelight:rice_block_upper",
@@ -128,6 +128,13 @@
             "minecraft:custom_components": [
                 "farmersdelight:rice"
             ],
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "on_liquid_touches": "popped"
+                    }
+                ]
+            },
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.0
             },
