@@ -30,7 +30,7 @@
         },
         "branch_canopy": {
           "cherry_canopy": {
-            "leaf_block": "minecraft:cherry_leaves",
+            "leaf_block": "korbon:cherry_blossom_leaves",
             "height": 5,
             "radius": 4,
             "wide_bottom_layer_hole_chance": 25,
@@ -80,6 +80,8 @@
       "minecraft:azalea_leaves",
       "minecraft:azalea_leaves_flowered",
       "minecraft:mangrove_leaves",
+      "minecraft:cherry_leaves",
+      "korbon:cherry_blossom_leaves",
       "minecraft:snow_layer"
     ]
   }

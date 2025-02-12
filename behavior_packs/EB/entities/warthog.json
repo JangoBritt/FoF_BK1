@@ -280,21 +280,20 @@
 						"minecraft:podzol",
 						"minecraft:dirt_with_roots",
 						"minecraft:moss_block",
-						"minecraft:farmland",
 						"minecraft:mud",
 						"minecraft:muddy_mangrove_roots"
 					],
 					"goal_radius": 2,
 					"search_range_xz": 20,
 					"search_range_y": 3,
-					"cooldown_range": 0.0,
+					"cooldown_range": 1,
 					"digging_duration_range": [
 						5.5,
 						6.5
 					],
 					"item_table": "loot_tables/gameplay/entities/warthog_forage.json",
 					"spawn_item_after_seconds": 6,
-					"spawn_item_pos_offset": 0.1,
+					"spawn_item_pos_offset": 0.8,
 					"on_digging_start": {
 						"event": "on_digging_start",
 						"target": "self"

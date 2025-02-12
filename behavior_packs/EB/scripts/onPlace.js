@@ -213,6 +213,8 @@ world.beforeEvents.playerPlaceBlock.subscribe(event => {
 });
 
 
+
+
 // Subscribe to the 'worldInitialize' event to register custom components
 world.beforeEvents.worldInitialize.subscribe(eventData => {
     // Register a custom component named korbon:on_place
@@ -420,6 +422,8 @@ world.beforeEvents.playerPlaceBlock.subscribe(event => {
         event.cancel = true;
     }
 });
+
+
 
 
 // Subscribe to the 'worldInitialize' event to register custom components

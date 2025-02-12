@@ -823,3 +823,22 @@ Bugs/Fixes:
 -vibranium tools destroy additional blocks
 -sulfur and vibranium ore support fortune (credit to JangoBritt)
 -syrup bottles give back a glass bottle when consumed (credit to JangoBritt)
+
+v1.7.61
+
+Blocks:
+-shelf mushrooms can be placed on more types of logs
+-updated texture of Jungfern (credit to CooperCan)
+-updated texture of Didymoch (credit to CooperCan)
+-updated texture of Violets
+
+Particles:
+-reverted falling leaf particle change due to conflicts with animation packs
+
+v1.7.62
+
+Biomes:
+-changed the grass and foliage color of autumn forest
+
+Misc:
+-updated for 1.21.60

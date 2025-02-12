@@ -15,4 +15,5 @@ import 'mapleLog'
 import 'leavesLoot'
 import 'flowerSpread'
 import 'whisperingWillow'
+import 'fallingLeaves'
 import './Advancements/handler';

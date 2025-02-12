@@ -11,8 +11,9 @@
 	},
 	
 	{
-		"pack_id" : "ed45f878-b1c6-4cbc-8527-fa07581ece1f", //Expansive Biomes
-		"version" : [ 1, 0, 43 ]
+		// REQUIRES BETA Manifest updates
+		"pack_id" : "ed45f878-b1c6-4cbc-8527-fa07531ece1f", //Expansive Biomes
+		"version" : [ 1, 0, 37 ]
 	},
 	{
 		"pack_id" : "f0d1778d-2bae-41b2-94c7-9544b40106b0", //Lore Anvil
@@ -32,6 +33,7 @@
 	},
 
 	{
+		// REQUIRES BETA Manifest updates
 		"pack_id" : "b17755d2-3cc0-424b-89dd-558fc98513f5", //Bedrock Bridge
 		"version" : [ 1, 4, 3 ]
 	},
