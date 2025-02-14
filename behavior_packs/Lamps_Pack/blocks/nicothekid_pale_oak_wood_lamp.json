@@ -1,0 +1,64 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:pale_oak_wood_lamp",
+      "menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.candles"
+			}
+    },
+    "components": {
+      "minecraft:display_name": "%tile.nicothekid.pale_oak_wood_lamp.name",
+      "minecraft:geometry": {
+        "identifier": "geometry.block.nicothekid_wooden_lamp"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_pale_oak_wood_lamp",
+          "render_method": "blend",
+          "ambient_occlusion": false,
+					"face_dimming": false
+        }
+      },
+      "minecraft:map_color": "#d0b45e",
+      "minecraft:collision_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:selection_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 15,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 15.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2.0
+      },
+      "minecraft:redstone_conductivity": {
+        "allows_wire_to_step_down": true,
+        "redstone_conductor": false
+      },
+      "minecraft:transformation": {
+        "rotation": [ 0, 0, 0 ]
+      },
+      "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_pale_oak_wood_lamp.json",
+      "tag:pale_oak_wood_lamp": {},
+      "tag:custom_wood_lamp": {},
+      "tag:custom_lamp": {},
+      "tag:axe_diggable": {},
+      "tag:full_block": {},
+      "tag:nicothekid_blocks": {},
+      "tag:minecraft:is_axe_item_destructible": {},
+      "tag:wood": {}
+    }
+  }
+}
