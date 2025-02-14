@@ -8,12 +8,18 @@
     "conditions": [
       {
         "minecraft:delay_filter": {
-          "min": 300,
-          "max": 360,
+          "min": 600,
+          "max": 660,
           "identifier": "red:wandering_trader_desert",
-          "spawn_chance": 75
+          "spawn_chance": 25
         },
         "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_on_block_filter": "minecraft:sand",
+        "minecraft:brightness_filter": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
         "minecraft:weight": {
           "default": 1.0,
           "rarity": 8
@@ -21,38 +27,16 @@
         "minecraft:density_limit": {
           "surface": 1
         },
-    
         "minecraft:biome_filter": {
-          "any_of": [
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "animal"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "extreme_hills"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "ocean"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "deep_dark"
-            }
-          ]
+          "test": "has_biome_tag", "operator":"==", "value": "desert"
         }
       },
       {
         "minecraft:delay_filter": {
-          "min": 300,
-          "max": 360,
+          "min": 600,
+          "max": 660,
           "identifier": "red:wandering_trader_desert",
-          "spawn_chance": 75
+          "spawn_chance": 25
         },
         "minecraft:spawns_on_surface": {},
         "minecraft:spawns_on_block_filter": "minecraft:grass",
