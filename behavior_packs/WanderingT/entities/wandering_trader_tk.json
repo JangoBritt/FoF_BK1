@@ -88,7 +88,7 @@
         ]
       },
       // "minecraft:loot": {
-			// 	"table": "loot_tables/entities/wandering_trader_cave.json"
+			// 	"table": "loot_tables/wandering_trader_cave.json"
 			// },
       "minecraft:collision_box": {
         "width": 0.6,

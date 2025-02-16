@@ -87,7 +87,7 @@
         ]
       },
       "minecraft:loot": {
-				"table": "loot_tables/entities/wandering_trader_forest.json"
+				"table": "loot_tables/wandering_trader_forest.json"
 			},
       "minecraft:collision_box": {
         "width": 0.6,

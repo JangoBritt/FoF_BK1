@@ -87,7 +87,7 @@
         ]
       },
       "minecraft:loot": {
-				"table": "loot_tables/entities/wandering_trader_mountain.json"
+				"table": "loot_tables/wandering_trader_mountain.json"
 			},
       "minecraft:collision_box": {
         "width": 0.6,
