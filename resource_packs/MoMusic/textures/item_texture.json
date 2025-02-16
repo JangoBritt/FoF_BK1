@@ -1,0 +1,47 @@
+//bridge-file-version: #29
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"korbon:record_mystical": {
+			"textures": [
+				"textures/items/record_mystical"
+			]
+		},
+		"korbon:record_blue": {
+			"textures": [
+				"textures/items/record_blue"
+			]
+		},
+		"korbon:record_scopophobia": {
+			"textures": [
+				"textures/items/record_scopophobia"
+			]
+		},
+		"korbon:record_weird_realm": {
+			"textures": [
+				"textures/items/record_weird_realm"
+			]
+		},
+		"korbon:record_anti": {
+			"textures": [
+				"textures/items/record_anti"
+			]
+		},
+		"korbon:record_carrot": {
+			"textures": [
+				"textures/items/record_carrot"
+			]
+		},
+		"korbon:record_repeat": {
+			"textures": [
+				"textures/items/record_repeat"
+			]
+		},
+		"korbon:record_blaze": {
+			"textures": [
+				"textures/items/record_blaze"
+			]
+		}
+	}
+}

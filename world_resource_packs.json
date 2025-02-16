@@ -83,7 +83,7 @@
 	
 	{
 		"pack_id" : "20002000-1223-2222-2222-b000b000b000", //Lamps & Lanterns
-		"version" : [ 1, 8, 5 ]
+		"version" : [ 1, 9, 10 ]
 	},
 	
 	{
@@ -130,5 +130,9 @@
 	{
 		"pack_id": "d6cbef3b-9999-4c7d-a8f8-3b8b3fe03ee1", //Gauntlets
 		"version": [1, 0, 0]
-	}
+	}//,
+	// {
+	// 	"pack_id": "e25fe132-0d5c-4415-bc6a-046ddafb75c9", //Mo Music Disc
+	// 	"version": [ 1, 0, 2 ]
+	// }
 ]

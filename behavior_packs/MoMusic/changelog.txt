@@ -1,0 +1,16 @@
+v1.1.0
+
+-changed some music discs.
+
+v1.2.0
+
+-custom discs no longer require a custom jukebox
+-updated end city disc loot table
+
+v1.2.1
+
+-updated for 1.20.80
+
+v1.2.2
+
+-updated for 1.21.0

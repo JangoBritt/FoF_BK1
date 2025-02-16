@@ -278,5 +278,18 @@
   },
   "nicothekid:wooden_lantern_warped": {
     "sound": "wood"
+  },
+  "nicothekid:pale_oak_wood_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:pale_oak_wood_lantern": {
+    "sound": "wood"
+  },
+
+  "nicothekid:resin_brick_lantern": {
+    "sound": "resin_brick"
+  },
+  "nicothekid:resin_brick_soul_lantern": {
+    "sound": "resin_brick"
   }
 }

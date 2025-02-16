@@ -77,6 +77,9 @@
           }
         ]
       },
+      "minecraft:loot": {
+				"table": "loot_tables/wandering_trader_snow.json"
+			},
       "minecraft:collision_box": {
         "width": 0.6,
         "height": 1.9

@@ -93,3 +93,9 @@ tile.nicothekid:wooden_lantern_mangrove.name=Wooden Mangrove Lantern
 tile.nicothekid:wooden_lantern_oak.name=Wooden Oak Lantern
 tile.nicothekid:wooden_lantern_spruce.name=Wooden Spruce Lantern
 tile.nicothekid:wooden_lantern_warped.name=Wooden Warped Lantern
+
+tile.nicothekid.pale_oak_wood_lamp.name=Pale Oak Wood Lamp
+tile.nicothekid.pale_oak_wood_lantern.name=Pale Oak Wood Lantern
+
+tile.nicothekid.resin_brick_lantern.name=Resin Brick Lantern
+tile.nicothekid.resin_brick_soul_lantern.name=Resin Brick Soul Lantern

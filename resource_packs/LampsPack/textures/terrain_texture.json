@@ -339,6 +339,22 @@
     },
     "nicothekid_wooden_lantern_warped_side": {
       "textures": "textures/blocks/ntk_wooden_lantern_warped_side"
+    },
+    "nicothekid_resin_brick_lantern": {
+      "textures": "textures/blocks/ntk_resin_brick_lantern"
+    },
+    "nicothekid_resin_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_resin_brick_soul_lantern"
+    },
+
+    "nicothekid_pale_oak_wood_lamp": {
+      "textures": "textures/blocks/ntk_pale_oak_wood_lamp"
+    },
+    "nicothekid_pale_oak_wood_lantern_down": {
+      "textures": "textures/blocks/ntk_pale_oak_wood_lantern_down"
+    },
+    "nicothekid_pale_oak_wood_lantern_side": {
+      "textures": "textures/blocks/ntk_pale_oak_wood_lantern_side"
     }
   }
 }
