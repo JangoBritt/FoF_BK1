@@ -1,0 +1,25 @@
+//bridge-file-version: #22
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "korbon:record_repeat",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.record"
+			}
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:icon": {
+				"texture": "korbon:record_repeat"
+			},
+			"minecraft:display_name": {
+				"value": "§bMusic Disc\n§7iKorbon - repeat§f"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:record": {}
+		},
+		"events": {}
+	}
+}

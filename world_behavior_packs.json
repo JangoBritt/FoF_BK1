@@ -141,5 +141,10 @@
 	{
 		"pack_id" : "3e941c52-664b-4041-af0f-4fdc299d42bf", //Gauntlets
 		"version" : [ 1, 0, 0 ]
-	}
+	}//,
+		
+	// {
+	// 	"pack_id" : "5997d331-a951-48e8-b949-ae5cbfd5a5a4", //Mo Music Discs
+	// 	"version" : [ 1, 0, 2 ]
+	// }
 ]
