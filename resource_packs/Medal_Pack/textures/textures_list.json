@@ -44,5 +44,7 @@
 	"textures/statues/rat_statue_d",
 	"textures/statues/rat_statue_e",
 	"textures/statues/rat_statue_g",
-	"textures/statues/rat_statue_c"
+	"textures/statues/rat_statue_c",
+	"textures/items/treesaw",
+	"textures/items/record_blank"
 ]

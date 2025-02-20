@@ -107,6 +107,7 @@
 			]
 		},
 		
-		"treesaw": {"textures": "textures/items/treesaw.png"}
+		"treesaw": {"textures": "textures/items/treesaw"},
+		"record_blank": {"textures": "textures/items/record_blank"}
 	}
 }

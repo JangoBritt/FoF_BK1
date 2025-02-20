@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fables_misc:record_blank_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"RRR",
+			"R R",
+			"RRR"
+		],
+		"key": {
+			"R": {
+				"item": "minecraft:disc_fragment_5"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:disc_fragment_5"
+			}
+		],
+		"result": {
+			"item": "fables_misc:record_blank",
+			"count": 1
+		}
+	}
+}
