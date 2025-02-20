@@ -39,7 +39,7 @@
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 0.6
       },
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/framed_glass.json",
       "tag:any_tool_diggable": {},
       "tag:fables_misc:framed_glass": {}
     }

@@ -13,7 +13,7 @@
     ],
     "key": {
       "G": {
-        "tag": "fables_misc:framed_glass"
+        "item": "fables_misc:framed_glass"
       },
       "D": {
         "item": "minecraft:white_dye"
@@ -25,7 +25,7 @@
     },
     "unlock": [
       {
-        "tag": "fables_misc:framed_glass"
+        "item": "fables_misc:framed_glass"
       }
     ]
   }

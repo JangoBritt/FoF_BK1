@@ -20,7 +20,9 @@
     "sound": "cloth"
   },
 
-
+  "fables_misc:framed_glass": {
+    "sound": "glass"
+  },
   "fables_misc:white_framed_glass": {
     "sound": "glass"
   },
