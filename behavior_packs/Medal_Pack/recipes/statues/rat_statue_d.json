@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "fables_avatars:rat_statue_e_avatar_recipe"
+			"identifier": "fables_misc:rat_statue_d_recipe"
 		},
 		"tags": [
 			"crafting_table"
@@ -14,18 +14,18 @@
 		],
 		"key": {
 			"#": {
-				"tag": "fables_avatars:rat_statue"
+				"item": "fables_misc:rat_statue"
 			},
 			"X": {
-				"item": "minecraft:emerald"
+				"item": "minecraft:diamond"
 			}
 		},
 		"unlock": [
-			{"tag": "fables_avatars:rat_statue"}
+			{"item": "fables_misc:rat_statue"}
 		],
 		"result": [
 			{
-				"item": "fables_avatars:rat_statue_e_avatar_item",
+				"item": "fables_misc:rat_statue_d",
 				"count": 1
 			}
 		]

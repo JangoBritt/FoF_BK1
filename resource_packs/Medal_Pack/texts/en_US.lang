@@ -63,3 +63,28 @@ item.fables_misc:treesaw=Tree Saw
 
 tile.fables_misc:prismarine_bricks_beam.name=Prismarine Brick Beam
 tile.fables_misc:prismarine_dark_beam.name=Dark Prismarine Beam
+
+tile.fables_misc:framed_glass.name=Framed Glass
+tile.fables_misc:white_framed_glass.name=White Framed Glass
+tile.fables_misc:light_gray_framed_glass.name=Light Gray Framed Glass
+tile.fables_misc:gray_framed_glass.name=Gray Framed Glass
+tile.fables_misc:black_framed_glass.name=Black Framed Glass
+tile.fables_misc:brown_framed_glass.name=Brown Framed Glass
+tile.fables_misc:red_framed_glass.name=Red Framed Glass
+tile.fables_misc:orange_framed_glass.name=Orange Framed Glass
+tile.fables_misc:yellow_framed_glass.name=Yellow Framed Glass
+tile.fables_misc:lime_framed_glass.name=Lime Framed Glass
+tile.fables_misc:green_framed_glass.name=Green Framed Glass
+tile.fables_misc:cyan_framed_glass.name=Cyan Framed Glass
+tile.fables_misc:light_blue_framed_glass.name=Light Blue Framed Glass
+tile.fables_misc:blue_framed_glass.name=Blue Framed Glass
+tile.fables_misc:purple_framed_glass.name=Purple Framed Glass
+tile.fables_misc:magenta_framed_glass.name=Magenta Framed Glass
+tile.fables_misc:pink_framed_glass.name=Pink Framed Glass
+
+
+tile.fables_misc:rat_statue.name=Rat Statue
+tile.fables_misc:rat_statue_c.name=Copper Rat Statue
+tile.fables_misc:rat_statue_d.name=Diamond Rat Statue
+tile.fables_misc:rat_statue_e.name=Emerald Rat Statue
+tile.fables_misc:rat_statue_g.name=Gold Rat Statue

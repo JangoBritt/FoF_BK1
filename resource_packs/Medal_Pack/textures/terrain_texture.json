@@ -21,6 +21,21 @@
 		},
 		"vibranium_block": {
 			"textures": "textures/blocks/vibranium_block"
+		},
+		"rat_statue_1": {
+			"textures": "textures/statues/rat_statue_1"
+		},
+		"rat_statue_c": {
+			"textures": "textures/statues/rat_statue_c"
+		},
+		"rat_statue_d": {
+			"textures": "textures/statues/rat_statue_d"
+		},
+		"rat_statue_e": {
+			"textures": "textures/statues/rat_statue_e"
+		},
+		"rat_statue_g": {
+			"textures": "textures/statues/rat_statue_g"
 		}
 	}
 }

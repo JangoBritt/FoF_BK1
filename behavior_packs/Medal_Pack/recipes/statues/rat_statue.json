@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "fables_avatars:rat_statue_avatar_recipe"
+			"identifier": "fables_misc:rat_statue_recipe"
 		},
 		"tags": [
 			"crafting_table"
@@ -24,7 +24,7 @@
 		],
 		"result": [
 			{
-				"item": "fables_avatars:rat_statue_avatar_item",
+				"item": "fables_misc:rat_statue",
 				"count": 1
 			}
 		]

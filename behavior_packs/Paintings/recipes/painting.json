@@ -5,8 +5,7 @@
             "identifier": "minecraft:painting_easel"
         },
         "tags": [
-            "easel",
-            "crafting_table"
+            "easel"
         ],
         "pattern": [
             "AAA",

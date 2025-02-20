@@ -18,5 +18,72 @@
   },
   "fables_misc:sulfur_bag": {
     "sound": "cloth"
+  },
+
+  "fables_misc:framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:white_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:light_gray_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:gray_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:black_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:brown_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:red_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:orange_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:yellow_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:lime_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:green_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:cyan_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:light_blue_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:blue_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:purple_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:magenta_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:pink_framed_glass": {
+    "sound": "glass"
+  },
+  "fables_misc:rat_statue": {
+    "sound": "tuff"
+  },
+  "fables_misc:rat_statue_c": {
+    "sound": "tuff"
+  },
+  "fables_misc:rat_statue_d": {
+    "sound": "tuff"
+  },
+  "fables_misc:rat_statue_e": {
+    "sound": "tuff"
+  },
+  "fables_misc:rat_statue_g": {
+    "sound": "tuff"
   }
 }
