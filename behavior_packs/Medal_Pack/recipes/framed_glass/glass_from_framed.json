@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "fables_misc:glass_from_framed"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [
+			{
+				"item": "fables_misc:framed_glass"
+			}
+		],
+		"result": [
+			{
+				"item": "minecraft:glass",
+				"count": 1
+			}
+		]
+	}
+}

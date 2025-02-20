@@ -1,0 +1,47 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "fables_misc:red_framed_glass",
+      "menu_category": {
+				"category": "construction",
+				"group": "construction"
+			}
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "red_stained_glass",
+          "render_method": "blend",
+          "ambient_occlusion": false,
+					"face_dimming": false
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.block"
+      },
+      "minecraft:map_color": "#a16632",
+      "minecraft:collision_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:selection_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:friction": 0.4,
+
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.6
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "tag:any_tool_diggable": {},
+      "tag:fables_misc:framed_glass": {}
+    }
+  }
+}

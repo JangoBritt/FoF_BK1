@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fables_misc:brown_framed_glass_from_dye"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "GGG",
+      "GDG",
+      "GGG"
+    ],
+    "key": {
+      "G": {
+        "tag": "fables_misc:framed_glass"
+      },
+      "D": {
+        "item": "minecraft:brown_dye"
+      }
+    },
+    "result": {
+      "item": "fables_misc:brown_framed_glass",
+      "count": 8
+    },
+    "unlock": [
+      {
+        "tag": "fables_misc:framed_glass"
+      }
+    ]
+  }
+}
