@@ -1,0 +1,81 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.rat_statue",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Statue",
+					"pivot": [0, 21, 0],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "Head",
+					"parent": "Statue",
+					"pivot": [0, 21, 0],
+					"rotation": [4.03742, 4.92385, 0.87038],
+					"cubes": [
+						{"origin": [-4, 20.8, -3.69689], "size": [8, 8, 8], "uv": [0, 0]},
+						{"origin": [-4, 20.56954, -3.63944], "size": [8, 8, 8], "inflate": 0.5, "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Statue",
+					"pivot": [0, 21, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 9, 4], "uv": [16, 16]},
+						{"origin": [-4, 12, -2], "size": [8, 9, 4], "inflate": 0.25, "uv": [16, 32]}
+					]
+				},
+				{
+					"name": "RightArm",
+					"parent": "Statue",
+					"pivot": [-5, 19, 0],
+					"rotation": [-60.7367, -15.18892, -13.16783],
+					"cubes": [
+						{"origin": [-8, 9, -2], "size": [4, 12, 4], "uv": [40, 16]},
+						{"origin": [-8, 9, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [40, 32]}
+					]
+				},
+				{
+					"name": "LeftArm",
+					"parent": "Statue",
+					"pivot": [5, 19, 0],
+					"rotation": [12, 0, 0],
+					"cubes": [
+						{"origin": [4, 9, -2], "size": [4, 12, 4], "uv": [32, 48]},
+						{"origin": [4, 9, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [48, 48]}
+					]
+				},
+				{
+					"name": "RightLeg",
+					"parent": "Statue",
+					"pivot": [-1.9, 8, 0],
+					"rotation": [11, 0, 2],
+					"cubes": [
+						{"origin": [-4.03155, -0.30201, -1.28118], "size": [4, 12, 4], "uv": [0, 16]},
+						{"origin": [-4.04208, -0.00607, -1.22366], "size": [4, 12, 4], "inflate": 0.25, "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "LeftLeg",
+					"parent": "Statue",
+					"pivot": [1.9, 8, 0],
+					"rotation": [-10, 0, -2],
+					"cubes": [
+						{"origin": [0.03169, -0.28624, -2.65484], "size": [4, 12, 4], "uv": [16, 48]},
+						{"origin": [0.04209, 0.00721, -2.70658], "size": [4, 12, 4], "inflate": 0.25, "uv": [0, 48]}
+					]
+				}
+			]
+		}
+	]
+}

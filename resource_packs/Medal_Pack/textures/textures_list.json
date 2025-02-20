@@ -39,5 +39,10 @@
 	"textures/items/hats/snowier_beardb",
 	"textures/entity/hats/snowier_beardb",
 	"textures/items/hats/snowier_beardg",
-	"textures/entity/hats/snowier_beardg"
+	"textures/entity/hats/snowier_beardg",
+	"textures/statues/rat_statue_1",
+	"textures/statues/rat_statue_d",
+	"textures/statues/rat_statue_e",
+	"textures/statues/rat_statue_g",
+	"textures/statues/rat_statue_c"
 ]

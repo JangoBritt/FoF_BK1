@@ -6,8 +6,8 @@
 		},
 		"components": {
             "minecraft:icon": "rat_statue_e_avatar_item", 
-			"minecraft:entity_placer": {
-				"entity": "fables_avatars:rat_statue_e_avatar"
+			"minecraft:block_placer": {
+				"block": "fables_misc:rat_statue_e"
 			},
 			"minecraft:tags": {
                 "tags": [
