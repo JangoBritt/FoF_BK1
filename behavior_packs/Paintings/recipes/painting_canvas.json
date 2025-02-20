@@ -5,8 +5,7 @@
             "identifier": "fables_painting:painting_easel_canvas"
         },
         "tags": [
-            "easel",
-            "crafting_table"
+            "easel"
         ],
         "pattern": [
             "AAA",
