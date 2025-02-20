@@ -93,7 +93,7 @@
 	
 	{
 		"pack_id" : "3a71bf5a-e4fc-4cc1-aece-dcd17980a3d9", //Fables Medals Pack
-		"version" : [ 6, 1, 6 ]
+		"version" : [ 6, 1, 7 ]
 	},
 	
 	{
@@ -113,7 +113,7 @@
 
 	{
 		"pack_id" : "f71c753f-e73d-4959-ab45-af8ab1dafa80", //FoF Paintings
-		"version" : [ 7, 0, 2 ]
+		"version" : [ 7, 0, 3 ]
 	},
 	{
 		"pack_id": "08364f0f-c53a-4ecf-b8d2-5cb52356ca80", //Better Beds
