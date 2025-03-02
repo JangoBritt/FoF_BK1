@@ -2,7 +2,7 @@
   "format_version": "1.20.80",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "fables_misc:framed_glass_from_glass"
+      "identifier": "fables_misc:framed_glass_from_ice"
     },
     "priority": 1,
     "tags": [ "crafting_table" ],
