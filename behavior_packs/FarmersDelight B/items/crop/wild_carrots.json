@@ -21,10 +21,10 @@
       }
     },
     "description": {
-      "identifier": "farmersdelight:wild_carrots_item",
+      "identifier": "farmersdelight:wild_carrots",
       "menu_category": {
         "category": "nature",
-        "group": "minecraft:itemGroup.name.flower"
+        "group": "farmersdelight:itemGroup.name.wildcrop"
       }
     }
   }

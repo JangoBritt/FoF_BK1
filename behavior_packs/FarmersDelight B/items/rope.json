@@ -3,7 +3,8 @@
   "minecraft:item": {
     "components": {
       "minecraft:block_placer": {
-        "block": "farmersdelight:rope"
+        "block": "farmersdelight:rope",
+        "replace_block_item":true
       },
       "minecraft:icon": {
         "textures": {
@@ -12,7 +13,7 @@
       }
     },
     "description": {
-      "identifier": "farmersdelight:rope_item",
+      "identifier": "farmersdelight:rope",
       "menu_category": {
         "category": "Items",
         "group": "minecraft:itemGroup.name.items"

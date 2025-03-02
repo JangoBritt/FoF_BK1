@@ -23,7 +23,12 @@
 							"minecraft:grass",
 							"minecraft:dirt",
 							"minecraft:sand",
-							"korbon:dune_sand"
+							"minecraft:dirt_with_roots",
+							"minecraft:mud",
+							"minecraft:moss_block",
+							"minecraft:muddy_mangrove_roots",
+							"korbon:dune_sand",
+							"farmersdelight:rich_soil"
 						],
 						"allowed_faces": [
 							"up"

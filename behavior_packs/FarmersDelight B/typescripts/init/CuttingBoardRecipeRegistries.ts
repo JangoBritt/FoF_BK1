@@ -1,6 +1,6 @@
 import { MinecraftDimensionTypes, Scoreboard, ScoreboardObjective, system, world } from "@minecraft/server";
 import { methodEventSub } from "../lib/eventHelper";
-import { ItemofKnifeList } from "../data/recipe/cuttingBoardRecipe";
+import { BlockofAxeList, BlockofKnifeList, BlockofPickaxeList, BlockofShovelList, ItemofAxeList, ItemofKnifeList, ItemofPickaxeList, ItemofShearsList } from "../data/recipe/cuttingBoardRecipe";
 
 const scoreboard: Scoreboard = world.scoreboard;
 let bool: boolean = true;
@@ -27,9 +27,43 @@ export class CuttingBoardRegistries {
         if (id != "farmersdelight:cutting_board_recipe") return;
         const message: string = args.message;
         try {
-            
-            ItemofKnifeList.unshift(message)
-            num++;
+            if( message.includes("?")&&(message.split("?").length==2)){
+                const recipeType = message.split("?")[1]
+                if(recipeType=="ItemofPickaxeList"){
+                    ItemofPickaxeList.unshift(message.split("?")[0])
+                    num++;
+                }
+                if(recipeType=="ItemofAxeList"){
+                    ItemofAxeList.unshift(message.split("?")[0])
+                    num++;
+                }
+                if(recipeType=="ItemofShearsList"){
+                    ItemofShearsList.unshift(message.split("?")[0])
+                    num++;
+                }
+                if(recipeType=="BlockofAxeList"){
+                    BlockofAxeList.unshift(message.split("?")[0])
+                    num++;
+                }
+                if(recipeType=="BlockofPickaxeList"){
+                    BlockofPickaxeList.unshift(message.split("?")[0])
+                    num++;
+                }
+                if(recipeType=="BlockofKnifeList"){
+                    BlockofKnifeList.unshift(message.split("?")[0])
+                    num++;
+                }
+                if(recipeType=="BlockofShovelList"){
+                    BlockofShovelList.unshift(message.split("?")[0])
+                    num++;
+                }
+
+            }
+            else{
+                ItemofKnifeList.unshift(message)
+                num++;
+            }
+          
             console.warn(`已加载 §4${num}§f 个砧板配方`);
         } catch (error) {
             return;
