@@ -11,7 +11,7 @@
                     "enabled_states": [
                         "minecraft:cardinal_direction"
                     ],
-                    "y_rotation_offset":180.0 //Jango
+                    "y_rotation_offset": 90
                 }
             }
         },
@@ -22,7 +22,7 @@
                     "minecraft:transformation": {
                         "rotation": [
                             0,
-                            180, //Jango
+                            270,
                             0
                         ]
                     }
@@ -34,7 +34,7 @@
                     "minecraft:transformation": {
                         "rotation": [
                             0,
-                            0, //Jango
+                            90,
                             0
                         ]
                     }
@@ -46,7 +46,7 @@
                     "minecraft:transformation": {
                         "rotation": [
                             0,
-                            270, //Jango
+                            0,
                             0
                         ]
                     }
@@ -58,7 +58,7 @@
                     "minecraft:transformation": {
                         "rotation": [
                             0,
-                            90, //Jango
+                            180,
                             0
                         ]
                     }

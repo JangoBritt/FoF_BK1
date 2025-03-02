@@ -21,10 +21,10 @@
       }
     },
     "description": {
-      "identifier": "farmersdelight:wild_beetroots_item",
+      "identifier": "farmersdelight:wild_beetroots",
       "menu_category": {
         "category": "nature",
-        "group": "minecraft:itemGroup.name.flower"
+        "group": "farmersdelight:itemGroup.name.wildcrop"
       }
     }
   }

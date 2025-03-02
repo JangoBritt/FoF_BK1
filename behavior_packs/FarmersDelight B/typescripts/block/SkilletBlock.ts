@@ -26,7 +26,8 @@ export class SKilletBlock extends BlockWithEntity {
         });
         const player: Player = args.source;
         const itemStack: ItemStack = args.itemStack;
-        const container: Container | undefined = player.getComponent(EntityInventoryComponent.componentId)?.container;
+        const inventory = player?.getComponent("inventory") as EntityInventoryComponent;
+        const container:Container|undefined = inventory?.container
         if (!data || !container) return;
         const entity: Entity = data.entity;
         const { x, y, z }: Vector3 = args.block.location;
@@ -84,21 +85,5 @@ export class SKilletBlock extends BlockWithEntity {
             newEntity.setDynamicProperty('farmersdelight:blockEntityItemStackData', '{"item":"undefined"}');
             world.scoreboard.addObjective(newEntity.typeId + newEntity.id, newEntity.id).setScore('amount', 0);
         }
-    }
-    @methodEventSub(world.afterEvents.entityHurt)
-    hurt(args: any) {
-        const entity: Entity = args.damageSource.damagingEntity;
-        const hurt: Entity = args.hurtEntity;
-        if (!entity || !hurt) return
-        try {
-            const equipment: EntityEquippableComponent | undefined = entity.getComponent(EntityEquippableComponent.componentId);
-            const mainHand: ContainerSlot | undefined = equipment?.getEquipmentSlot(EquipmentSlot.Mainhand);
-            if (mainHand?.typeId == 'farmersdelight:skillet_block') {
-                hurt.applyDamage(8, { damagingEntity: entity, cause: EntityDamageCause.entityAttack });
-            }
-        } catch (error) {
-            
-        }
-       
     }
 }

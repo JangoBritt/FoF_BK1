@@ -2,22 +2,22 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "farmersdelight:half_tatami_mat"
+            "identifier": "farmersdelight:safety_net"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "#"
+            "rr",
+            "rr"
         ],
         "key": {
-            "#": {
-                "item": "farmersdelight:tatami_mat"
+            "r": {
+                "item": "farmersdelight:rope"
             }
         },
         "result": {
-            "item": "farmersdelight:half_tatami_mat",
-            "count": 2
+            "item": "farmersdelight:safety_net"
         }
     }
 }

@@ -16,8 +16,8 @@
                 "minecraft:placement_direction": {
                     "enabled_states": [
                         "minecraft:cardinal_direction"
-                    ]//,
-                    // "y_rotation_offset": 180.0 FoF
+                    ],
+                    "y_rotation_offset": 180.0
                 }
             }
         },
@@ -28,7 +28,7 @@
                     "minecraft:transformation": {
                         "rotation": [
                             0,
-                            180, //FoF
+                            0,
                             0
                         ]
                     }
@@ -40,7 +40,7 @@
                     "minecraft:transformation": {
                         "rotation": [
                             0,
-                            0, //FoF
+                            180,
                             0
                         ]
                     }
@@ -52,7 +52,7 @@
                     "minecraft:transformation": {
                         "rotation": [
                             0,
-                            270,
+                            90,
                             0
                         ]
                     }
@@ -64,7 +64,7 @@
                     "minecraft:transformation": {
                         "rotation": [
                             0,
-                            90,
+                            270,
                             0
                         ]
                     }

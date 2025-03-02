@@ -35,6 +35,17 @@
                      "name": "farmersdelight:itemGroup.name.crate"
                   },
                   "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "farmersdelight:tatami_mat",
+                     "name": "farmersdelight:itemGroup.name.tatami"
+                  },
+                  "items": [
+                     "farmersdelight:tatami",
+                     "farmersdelight:tatami_mat",
+                     "farmersdelight:half_tatami_mat"
+                  ]
                }
             ]
          }
