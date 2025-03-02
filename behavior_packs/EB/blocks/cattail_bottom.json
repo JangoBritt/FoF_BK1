@@ -23,6 +23,10 @@
 							"minecraft:grass",
 							"minecraft:dirt",
 							"minecraft:sand",
+							"minecraft:dirt_with_roots",
+							"minecraft:mud",
+							"minecraft:moss_block",
+							"minecraft:muddy_mangrove_roots",
 							"korbon:dune_sand"
 						],
 						"allowed_faces": [
