@@ -38,18 +38,19 @@
 					}
 				]
 			},
-			"minecraft:collision_box": {
-				"origin": [
-					-1,
-					0,
-					-1
-				],
-				"size": [
-					2,
-					16,
-					2
-				]
-			},
+			"minecraft:collision_box": false,
+			// "minecraft:collision_box": {
+			// 	"origin": [
+			// 		-1,
+			// 		0,
+			// 		-1
+			// 	],
+			// 	"size": [
+			// 		2,
+			// 		16,
+			// 		2
+			// 	]
+			// },
 			"minecraft:destructible_by_explosion": 0.1,
 			"minecraft:loot": "loot_tables/blocks/standing_torch.json",
 			"minecraft:placement_filter": {

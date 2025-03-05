@@ -9,6 +9,11 @@
 		"conditions": [
 			{
 				"minecraft:spawns_on_surface": {},
+				"minecraft:spawns_on_block_filter": [
+					{ "name": "minecraft:grass_block" },
+					{ "name": "minecraft:dirt" },
+					{ "name": "minecraft:coarse_dirt" }
+				  ],
 				"minecraft:brightness_filter": {
 					"min": 7,
 					"max": 15,

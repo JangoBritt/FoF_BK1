@@ -42,7 +42,8 @@
 				"conditions": [
 					{
 						"block_filter": [
-							"minecraft:sand"
+							"minecraft:sand",
+							"korbon:dune_sand"
 						],
 						"allowed_faces": [
 							"up"

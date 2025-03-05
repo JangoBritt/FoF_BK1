@@ -1,7 +1,6 @@
 {
   "format_version": "1.21.40",
   "fof_recycling:recycling_box": {
-    "sound": "planks",
-    "textures": "recycling_box"
+    "sound": "planks"
   }
 }
