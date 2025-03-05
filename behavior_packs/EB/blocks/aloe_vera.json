@@ -54,7 +54,8 @@
 						"block_filter": [
 							"minecraft:grass",
 							"minecraft:dirt",
-							"minecraft:sand"
+							"minecraft:sand",
+							"minecraft:moss_block"
 						],
 						"allowed_faces": [
 							"up"

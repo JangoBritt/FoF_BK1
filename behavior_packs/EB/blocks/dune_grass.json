@@ -47,7 +47,8 @@
 							"minecraft:grass",
 							"minecraft:dirt",
 							"minecraft:sand",
-							"korbon:dune_sand"
+							"korbon:dune_sand",
+							"minecraft:moss_block"
 						],
 						"allowed_faces": [
 							"up"

@@ -32,9 +32,10 @@
                 "conditions": [
                     {
                         "block_filter": [
-                            "dirt",
-                            "grass",
-                            "sand"
+                            "minecraft:dirt",
+                            "minecraft:sand",
+                            "minecraft:grass",
+                            "minecraft:moss_block"
                         ],
                         "allowed_faces": [
                             "up"
