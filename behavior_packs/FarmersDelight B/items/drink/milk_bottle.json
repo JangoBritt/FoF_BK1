@@ -25,6 +25,11 @@
                 "movement_modifier": 0.4
             }
     },
+    "minecraft:tags": {
+      "tags": [
+        "oreville:is_milk"
+      ]
+    },
     "description": {
       "identifier": "farmersdelight:milk_bottle",
       "menu_category": {

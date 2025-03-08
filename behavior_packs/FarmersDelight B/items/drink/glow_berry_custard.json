@@ -20,6 +20,11 @@
                 "movement_modifier": 0.4
             }
     },
+    "minecraft:tags": {
+      "tags": [
+        "oreville:is_drink"
+      ]
+    },
     "description": {
       "identifier": "farmersdelight:glow_berry_custard",
       "menu_category": {

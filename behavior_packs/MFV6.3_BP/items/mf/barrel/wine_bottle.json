@@ -26,6 +26,11 @@
 				"nutrition": 3,
 				"saturation_modifier": 0.3
 			},
+			"minecraft:tags": {
+			  "tags": [
+				"oreville:is_drink"
+			  ]
+			},
 			"minecraft:use_animation": "drink",
 			"minecraft:custom_components": ["mf:beer_effects"]
 		}
