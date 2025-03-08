@@ -27,6 +27,11 @@
 				"saturation_modifier": 0.3,
 				"using_converts_to": "medieval:beer_mug_empty_item"
 			},
+			"minecraft:tags": {
+			  "tags": [
+				"oreville:is_drink"
+			  ]
+			},
 			"minecraft:use_animation": "drink",
 			"minecraft:custom_components": ["mf:beer_effects"]
 		}

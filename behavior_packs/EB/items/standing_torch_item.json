@@ -21,6 +21,11 @@
 				"block": "korbon:standing_torch_bottom"
 			}
 		},
+		"minecraft:tags": {
+		  "tags": [
+			"oreville:is_torch"
+		  ]
+		},
 		"events": {}
 	}
 }

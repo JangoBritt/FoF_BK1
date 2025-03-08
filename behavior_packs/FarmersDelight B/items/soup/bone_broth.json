@@ -23,6 +23,11 @@
         "composting_chance": 45
       }
     },
+    "minecraft:tags": {
+      "tags": [
+        "oreville:is_soup"
+      ]
+    },
     "description": {
       "identifier": "farmersdelight:bone_broth",
       "menu_category": {

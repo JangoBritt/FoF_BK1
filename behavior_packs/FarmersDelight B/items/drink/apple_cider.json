@@ -20,6 +20,11 @@
         "movement_modifier": 0.4
       }
     },
+    "minecraft:tags": {
+      "tags": [
+        "oreville:is_drink"
+      ]
+    },
     "description": {
       "identifier": "farmersdelight:apple_cider",
       "menu_category": {

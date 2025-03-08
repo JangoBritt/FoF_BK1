@@ -28,6 +28,11 @@
 				"duration": 1.3
 			}
 		},
+		"minecraft:tags": {
+		  "tags": [
+			"oreville:is_throwable"
+		  ]
+		},
 		"events": {}
 	}
 }
