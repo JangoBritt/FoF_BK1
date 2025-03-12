@@ -28,6 +28,18 @@
 				}
 			},
 			"minecraft:material_instances": {"*": {"texture": "m.jungle_planks","render_method": "opaque"}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-8.0,8.0,-8.0],"size": [16,8,16]},
 			"minecraft:selection_box": {"origin": [-8.0,8.0,-8.0],"size": [16,8,16]},
 			"minecraft:light_dampening": 0.0,

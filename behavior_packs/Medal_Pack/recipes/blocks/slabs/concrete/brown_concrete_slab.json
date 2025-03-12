@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fables:craft_brown_concrete_slab"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "minecraft:brown_concrete"
+            }
+        },
+        "result": [
+			{
+				"item": "fables:brown_concrete_slab",
+				"count": 6
+			}
+		],
+        "unlock": [
+          {
+            "item": "minecraft:brown_concrete"
+          }
+        ]
+    }
+}

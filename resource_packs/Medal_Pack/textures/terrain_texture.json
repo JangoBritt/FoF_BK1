@@ -16,6 +16,18 @@
 		"leather_pile_up": {
 			"textures": "textures/blocks/leather_pile_up"
 		},
+		"straw_bale_side": {
+			"textures": "textures/blocks/straw_bale_side"
+		},
+		"straw_bale_loose": {
+			"textures": "textures/blocks/straw_bale_loose"
+		},
+		"straw_bale_up": {
+			"textures": "textures/blocks/straw_bale_up"
+		},
+		"hay_bale_loose": {
+			"textures": "textures/blocks/hay_bale_loose"
+		},
 		"vibranium_crystal_block": {
 			"textures": "textures/blocks/vibranium_crystal_block"
 		},

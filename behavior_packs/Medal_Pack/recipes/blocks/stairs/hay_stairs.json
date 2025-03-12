@@ -1,0 +1,31 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "fables:craft_hay_stairs"
+      },
+      "priority": 1,
+      "tags": [ "crafting_table" ],
+      "assume_symmetry": false,
+      "pattern": [
+        "A  ",
+        "AA ",
+        "AAA"
+      ],
+      "key": {
+        "A": {
+          "item": "minecraft:hay_block"
+        }
+      },
+      "result": {
+        "item": "fables:hay_stairs",
+        "count": 4
+      },
+      "unlock": [
+        {
+          "item": "minecraft:hay_block"
+        }
+      ]
+    }
+  }
+  

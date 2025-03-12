@@ -15,6 +15,18 @@
 			"tag:medieval_furniture": {},
 			"minecraft:geometry": "geometry.m.wheel_block",
 			"minecraft:material_instances": {"*": {"texture": "m.wheel_block","render_method": "opaque"}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-8.0,0.0,6.0],"size": [16,16,2]},
 			"minecraft:selection_box": {"origin": [-8.0,0.0,6.0],"size": [16,16,2]},
 			"minecraft:loot": "loot_tables/mf/wheel_block.json",

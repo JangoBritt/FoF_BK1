@@ -1,0 +1,31 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "fables:craft_green_concrete_stairs"
+      },
+      "priority": 1,
+      "tags": [ "crafting_table" ],
+      "assume_symmetry": false,
+      "pattern": [
+        "A  ",
+        "AA ",
+        "AAA"
+      ],
+      "key": {
+        "A": {
+          "item": "minecraft:green_concrete"
+        }
+      },
+      "result": {
+        "item": "fables:green_concrete_stairs",
+        "count": 4
+      },
+      "unlock": [
+        {
+          "item": "minecraft:green_concrete"
+        }
+      ]
+    }
+  }
+  

@@ -47,6 +47,18 @@
 			"minecraft:material_instances": {"*": {"texture": "m.netherite_bars_0","render_method": "opaque","ambient_occlusion": false}},
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:light_dampening": 0.0,
 			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
 			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},

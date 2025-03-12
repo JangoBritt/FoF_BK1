@@ -48,6 +48,18 @@
 			"tag:streetlight_0": {},
 			"minecraft:material_instances": {"*": {"texture": "m.stripped_spruce","render_method": "alpha_test"},"metal": {"texture": "m.streetlight_metal","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}},
 			"minecraft:loot": "loot_tables/medieval_furniture/streetlight_0/spruce_streetlight_0_item.json",
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-3,0,-3],"size": [6,16,6]},
 			"minecraft:selection_box": {"origin": [-3,0,-3],"size": [6,16,6]},
 			"minecraft:light_dampening": 0,

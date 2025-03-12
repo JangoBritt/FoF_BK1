@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fables:craft_cyan_concrete_slab"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "minecraft:cyan_concrete"
+            }
+        },
+        "result": [
+			{
+				"item": "fables:cyan_concrete_slab",
+				"count": 6
+			}
+		],
+        "unlock": [
+          {
+            "item": "minecraft:cyan_concrete"
+          }
+        ]
+    }
+}

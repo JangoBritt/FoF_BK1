@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fables:craft_gray_concrete_slab"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "minecraft:gray_concrete"
+            }
+        },
+        "result": [
+			{
+				"item": "fables:gray_concrete_slab",
+				"count": 6
+			}
+		],
+        "unlock": [
+          {
+            "item": "minecraft:gray_concrete"
+          }
+        ]
+    }
+}

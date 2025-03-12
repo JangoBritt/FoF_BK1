@@ -24,6 +24,18 @@
 			"tag:m.wood_easel": {},
 			"minecraft:geometry": "geometry.m.easel_0",
 			"minecraft:material_instances": {"*": {"texture": "m.stripped_birch","render_method": "alpha_test"},"painting": {"texture": "m.painting_0","render_method": "alpha_test"}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-7,0.0,-7],"size": [14,16,14]},
 			"minecraft:selection_box": {"origin": [-7,0.0,-7],"size": [14,16,14]},
 			"minecraft:light_dampening": 0.0,

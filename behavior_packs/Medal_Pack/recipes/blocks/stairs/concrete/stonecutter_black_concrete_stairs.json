@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "fables:stonecutter_black_concrete_stairs"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 5,
+    "ingredients": [
+      {
+        "item": "minecraft:black_concrete",
+        "data": 1
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:black_concrete"
+      }
+    ],
+    "result": {
+      "item": "fables:black_concrete_stairs"
+    }
+  }
+  
+}

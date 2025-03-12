@@ -18,6 +18,18 @@
 			"tag:m.stairs_top": {},
 			"tag:medieval_furniture": {},
 			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": [{"tags": "q.any_tag('wooden_stairs')"}]}]},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-8.0,0.0,0.0],"size": [16,0.1,8]},
 			"minecraft:selection_box": false,
 			"minecraft:light_dampening": 0.0,

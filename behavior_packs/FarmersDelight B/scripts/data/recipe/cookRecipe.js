@@ -8,7 +8,11 @@ const vanillaItemList = [
     "minecraft:porkchop",
     "minecraft:potato",
     "minecraft:rabbit",
-    "minecraft:salmon"
+    "minecraft:salmon",
+    "nicothekid:rat_raw",
+    "korbon:crocodile_meat_raw",
+    "korbon:frog_leg_raw",
+    "korbon:venison_raw"
 ];
 export { vanillaItemList };
 //# sourceMappingURL=cookRecipe.js.map

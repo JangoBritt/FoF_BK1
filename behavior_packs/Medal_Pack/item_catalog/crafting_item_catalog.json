@@ -2,6 +2,31 @@
    "format_version": "1.21.60",
    "minecraft:crafting_items_catalog": {
       "categories": [
+
+         {
+            "category_name": "construction",
+            "groups": [
+               {
+                  "group_identifier": {
+                     "icon": "fables:white_concrete_slab",
+                     "name": "fables:itemGroup.name.concrete_slabs"
+                  },
+                  "items": []
+               }
+            ]
+         },
+         {
+            "category_name": "construction",
+            "groups": [
+               {
+                  "group_identifier": {
+                     "icon": "fables:white_concrete_stairs",
+                     "name": "fables:itemGroup.name.concrete_stairs"
+                  },
+                  "items": []
+               }
+            ]
+         },
          {
             "category_name": "equipment",
             "groups": [

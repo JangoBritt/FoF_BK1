@@ -27,7 +27,14 @@
 			"minecraft:use_modifiers": {
 				"movement_modifier": 0.5,
 				"use_duration": 1.3
-			}
+			},
+			"minecraft:tags": {
+				"tags": [
+				  "minecraft:is_meat",
+				  "minecraft:is_food",
+				  "farmersdelight:can_cook"
+				]
+			  }
 		},
 		"events": {}
 	}

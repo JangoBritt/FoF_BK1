@@ -16,6 +16,18 @@
 			"minecraft:geometry": "geometry.m.scarecrow_top",
 			"minecraft:material_instances": {"*": {"texture": "m.scarecrow_top","render_method": "alpha_test"}},
             "minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": ["medieval:scarecrow_bot"]}]},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
 			"minecraft:loot": "empty",

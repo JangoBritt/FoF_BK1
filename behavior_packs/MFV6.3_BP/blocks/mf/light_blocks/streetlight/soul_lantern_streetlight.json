@@ -16,6 +16,18 @@
 			"minecraft:geometry":"geometry.m.streetlight_north",
 			"minecraft:material_instances": {"*": {"texture": "m.soul_lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false},"metal2": {"texture": "m.soul_lantern","render_method": "alpha_test"}},
 			"minecraft:loot": "loot_tables/medieval_furniture/drops/soul_lantern.json",
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-3,0,-1],"size": [6,16,9]},
 			"minecraft:selection_box": {"origin": [-3,0,-1],"size": [6,16,9]},
 			"minecraft:light_emission": 15,

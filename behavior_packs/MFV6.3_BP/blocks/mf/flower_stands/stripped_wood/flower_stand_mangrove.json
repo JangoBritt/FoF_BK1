@@ -50,6 +50,18 @@
 			"tag:medieval_furniture": {},
 			"minecraft:geometry": "geometry.flower_stand_empty",
 			"minecraft:material_instances": {"flower": {"texture": "flower_dandelion","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false},"pots": {"texture": "flower_pot","render_method": "alpha_test","ambient_occlusion": false},"dirt_pot": {"texture": "farm_wet","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.stripped_mangrove","render_method": "alpha_test","ambient_occlusion": false}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-8, 0.0, -4],"size": [16, 16, 12]},
 			"minecraft:selection_box": {"origin": [-8, 0.0, -4],"size": [16, 16, 12]},
 			"minecraft:light_dampening": 0.0,

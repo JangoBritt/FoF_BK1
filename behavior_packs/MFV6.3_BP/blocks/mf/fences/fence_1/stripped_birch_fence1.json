@@ -44,6 +44,15 @@
 				}
 			},
 			"minecraft:material_instances": {"*": {"texture": "m.stripped_birch","render_method": "opaque"}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "no_reaction"
+				  }
+				]
+			  },
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
 			"minecraft:light_dampening": 0.0,

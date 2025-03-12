@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fables:craft_straw_slab"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "farmersdelight:straw_bale"
+            }
+        },
+        "result": [
+			{
+				"item": "fables:straw_slab",
+				"count": 6
+			}
+		],
+        "unlock": [
+          {
+            "item": "farmersdelight:straw_bale"
+          }
+        ]
+    }
+}
