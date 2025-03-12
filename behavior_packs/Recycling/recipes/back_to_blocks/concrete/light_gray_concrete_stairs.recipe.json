@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fof_recycle:bb.stairs.light_gray_concrete"
+		},
+		"tags": [
+			"recycler"
+		],
+		"group": "stairs_to_blocks",
+		"priority": -1,
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "fables:light_gray_concrete_stairs"
+			}
+		},
+		"unlock": [
+			{
+				"item": "fables:light_gray_concrete_stairs"
+			}
+		],
+		"result": {
+			"item": "minecraft:light_gray_concrete",
+			"count": 3
+		}
+	}
+}

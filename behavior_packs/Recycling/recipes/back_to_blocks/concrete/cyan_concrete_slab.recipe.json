@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fof_recycle:bb.slabs.cyan_concrete_slab"
+		},
+		"tags": [
+			"recycler"
+		],
+		"group": "slabs_to_blocks",
+		"priority": -1,
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "fables:cyan_concrete_slab"
+			}
+		},
+		"unlock": [
+			{
+				"item": "fables:cyan_concrete_slab"
+			}
+		],
+		"result": {
+			"item": "minecraft:cyan_concrete",
+			"count": 1
+		}
+	}
+}
