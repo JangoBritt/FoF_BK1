@@ -4,6 +4,11 @@
 		"pack_id" : "883172a3-6049-4c62-8d26-fc17395b1095", //Alycia's Avancements
 		"version" : [ 2, 3, 0 ]
 	},
+	
+	{
+		"pack_id" : "98836a6c-fe16-60f4-87a4-5afb6439bd9f", //Farmers' Delight
+		"version" : [ 3, 1, 7 ]
+	},
 	{
 		"pack_id" : "ab801579-0d1a-4e1a-bc2c-971df036a240", //Expansive Biomes
 		"subpack" : "fog_enable",
@@ -24,11 +29,7 @@
 		"version" : [ 1, 2, 2 ]
 	},
 
-	{
-		"pack_id" : "98836a6c-fe16-60f4-87a4-5afb6439bd9f", //Farmers' Delight
-		"version" : [ 3, 1, 6 ]
-	},
-	
+
 	{
 		"pack_id" : "51284a03-e6fe-49e7-a042-aa0002a8e98f", //MrCrayFish Furniture
 		"version" : [ 1, 2, 1 ]

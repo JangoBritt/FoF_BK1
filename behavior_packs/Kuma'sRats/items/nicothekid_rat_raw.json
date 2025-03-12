@@ -69,7 +69,8 @@
           "nicothekid_items",
           "minecraft:is_meat",
           "minecraft:is_food",
-          "nicothekid:raw_rat_on_consume"
+          "nicothekid:raw_rat_on_consume",
+          "farmersdelight:can_cook"
         ]
       }
     }

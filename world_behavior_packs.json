@@ -11,6 +11,11 @@
 	},
 	
 	{
+		"pack_id" : "d0131071-9ec1-edcd-6871-857c700703d8", //Farmers Delight
+		"version" : [ 3, 1, 7 ]
+	},
+	
+	{
 		// REQUIRES BETA Manifest updates
 		"pack_id" : "ed45f878-b1c6-4cbc-8527-fa07531ece1f", //Expansive Biomes
 		"version" : [ 1, 0, 37 ]
@@ -38,10 +43,7 @@
 		"version" : [ 1, 4, 5 ]
 	},
 		
-	{
-		"pack_id" : "d0131071-9ec1-edcd-6871-857c700703d8", //Farmers Delight
-		"version" : [ 3, 1, 6 ]
-	},
+
 	{
 		"pack_id" : "3a36b38b-3e54-4cb4-b99d-139e1c275901",  //Mailboxes
 		"version" : [ 1, 2, 2 ]
