@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "fables:stonecutter_blue_concrete_slab"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 4,
+    "ingredients": [
+      {
+        "item": "minecraft:blue_concrete"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:blue_concrete"
+      }
+    ],
+    "result": {
+      "item": "fables:blue_concrete_slab",
+      "count": 2
+    }
+  }
+  
+}

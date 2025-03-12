@@ -1,0 +1,96 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fables:blue_concrete_stairs",
+			"menu_category": {
+				"category": "construction",
+				"group": "minecraft:itemGroup.name.stairs"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+				  "enabled_states": [ "minecraft:cardinal_direction" ]
+				},
+				"minecraft:placement_position": {
+				  "enabled_states": [ "minecraft:vertical_half" ]
+				}
+			}
+		},
+		"permutations": [
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_from_direction": [ "south" ] } ] }, "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_from_direction": [ "east" ] } ] }, "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_from_direction": [ "north" ] } ] }, "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_from_direction": [ "west" ] } ] }, "minecraft:transformation": { "rotation": [ 0, -90, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:vertical_half') == 'bottom'", "components": { "minecraft:geometry": { "identifier": "geometry.block.fables_stairs_below" }, "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_from_direction": [ "down" ] } ] }, "minecraft:collision_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 8, 16 ] } } },
+			{ "condition": "query.block_state('minecraft:vertical_half') == 'top'", "components": { "minecraft:geometry": { "identifier": "geometry.block.fables_stairs_above" }, "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_from_direction": [ "up" ] } ] }, "minecraft:collision_box": { "origin": [ -8, 8, -8 ], "size": [ 16, 8, 16 ] } } }
+		  ],
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.block.fables_stairs_below"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "blue_concrete",
+					"render_method": "opaque",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": {
+				  "identifier": "geometry.block.fables_stairs_below"
+				},
+				"material_instances": {
+				  "*": {
+					"texture": "blue_concrete",
+					"render_method": "opaque",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				  }
+				}
+			  },
+			"minecraft:collision_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 8, 16 ]
+			},
+			"minecraft:selection_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 16, 16 ]
+			},
+
+			"minecraft:light_dampening": 0,
+			"minecraft:light_emission": 0,
+			"minecraft:friction": 0.4,
+			"minecraft:flammable": {
+				"destroy_chance_modifier": 45,
+				"catch_chance_modifier": 80
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30.0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.5
+			},
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "down"
+					]
+				  }
+				]
+			},
+			"tag:k_custom_mining_speed": {},
+			"tag:k_correct_tool:pickaxe": {}
+		},
+		"events": {}
+	}
+}

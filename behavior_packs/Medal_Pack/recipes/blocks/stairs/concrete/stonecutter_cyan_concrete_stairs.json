@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "fables:stonecutter_cyan_concrete_stairs"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 5,
+    "ingredients": [
+      {
+        "item": "minecraft:cyan_concrete",
+        "data": 1
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:cyan_concrete"
+      }
+    ],
+    "result": {
+      "item": "fables:cyan_concrete_stairs"
+    }
+  }
+  
+}

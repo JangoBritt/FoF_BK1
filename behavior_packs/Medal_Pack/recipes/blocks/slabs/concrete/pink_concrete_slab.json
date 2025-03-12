@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fables:craft_pink_concrete_slab"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "minecraft:pink_concrete"
+            }
+        },
+        "result": [
+			{
+				"item": "fables:pink_concrete_slab",
+				"count": 6
+			}
+		],
+        "unlock": [
+          {
+            "item": "minecraft:pink_concrete"
+          }
+        ]
+    }
+}

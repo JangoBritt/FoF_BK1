@@ -82,9 +82,53 @@ tile.fables_misc:purple_framed_glass.name=Purple Framed Glass
 tile.fables_misc:magenta_framed_glass.name=Magenta Framed Glass
 tile.fables_misc:pink_framed_glass.name=Pink Framed Glass
 
+tile.fables:hay_stairs.name=Hay Stairs
+tile.fables:straw_stairs.name=Straw Stairs
+tile.fables:white_concrete_stairs.name=White Concrete Stairs
+tile.fables:light_gray_concrete_stairs.name=Light_Gray Concrete Stairs
+tile.fables:gray_concrete_stairs.name=Gray Concrete Stairs
+tile.fables:black_concrete_stairs.name=Black Concrete Stairs
+tile.fables:brown_concrete_stairs.name=Brown Concrete Stairs
+tile.fables:red_concrete_stairs.name=Red Concrete Stairs
+tile.fables:orange_concrete_stairs.name=Orange Concrete Stairs
+tile.fables:yellow_concrete_stairs.name=Yellow Concrete Stairs
+tile.fables:lime_concrete_stairs.name=Lime Concrete Stairs
+tile.fables:green_concrete_stairs.name=Green Concrete Stairs
+tile.fables:cyan_concrete_stairs.name=Cyan Concrete Stairs
+tile.fables:light_blue_concrete_stairs.name=Light_Blue Concrete Stairs
+tile.fables:blue_concrete_stairs.name=Blue Concrete Stairs
+tile.fables:purple_concrete_stairs.name=Purple Concrete Stairs
+tile.fables:magenta_concrete_stairs.name=Magenta Concrete Stairs
+tile.fables:pink_concrete_stairs.name=Pink Concrete Stairs
+
+
+tile.fables:hay_slab.name=Hay Slab
+tile.fables:straw_slab.name=Straw Slab
+tile.fables:white_concrete_slab.name=White Concrete Slab
+tile.fables:light_gray_concrete_slab.name=Light_Gray Concrete Slab
+tile.fables:gray_concrete_slab.name=Gray Concrete Slab
+tile.fables:black_concrete_slab.name=Black Concrete Slab
+tile.fables:brown_concrete_slab.name=Brown Concrete Slab
+tile.fables:red_concrete_slab.name=Red Concrete Slab
+tile.fables:orange_concrete_slab.name=Orange Concrete Slab
+tile.fables:yellow_concrete_slab.name=Yellow Concrete Slab
+tile.fables:lime_concrete_slab.name=Lime Concrete Slab
+tile.fables:green_concrete_slab.name=Green Concrete Slab
+tile.fables:cyan_concrete_slab.name=Cyan Concrete Slab
+tile.fables:light_blue_concrete_slab.name=Light_Blue Concrete Slab
+tile.fables:blue_concrete_slab.name=Blue Concrete Slab
+tile.fables:purple_concrete_slab.name=Purple Concrete Slab
+tile.fables:magenta_concrete_slab.name=Magenta Concrete Slab
+tile.fables:pink_concrete_slab.name=Pink Concrete Slab
+
 
 tile.fables_misc:rat_statue.name=Rat Statue
 tile.fables_misc:rat_statue_c.name=Copper Rat Statue
 tile.fables_misc:rat_statue_d.name=Diamond Rat Statue
 tile.fables_misc:rat_statue_e.name=Emerald Rat Statue
 tile.fables_misc:rat_statue_g.name=Gold Rat Statue
+
+fables:itemGroup.name.medals=Medals
+fables:itemGroup.name.books=Recipe Books
+fables:itemGroup.name.concrete_slabs=Concrete Slabs
+fables:itemGroup.name.concrete_stairs=Concrete Stairs

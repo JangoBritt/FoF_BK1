@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "fables:stonecutter_gray_concrete_slab"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 4,
+    "ingredients": [
+      {
+        "item": "minecraft:gray_concrete"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:gray_concrete"
+      }
+    ],
+    "result": {
+      "item": "fables:gray_concrete_slab",
+      "count": 2
+    }
+  }
+  
+}
