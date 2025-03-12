@@ -14,7 +14,7 @@
       ],
       "key": {
         "A": {
-          "item": "farmersdelight:straw_block"
+          "item": "farmersdelight:straw_bale"
         }
       },
       "result": {
@@ -23,7 +23,7 @@
       },
       "unlock": [
         {
-          "item": "farmersdelight:straw_block"
+          "item": "farmersdelight:straw_bale"
         }
       ]
     }
