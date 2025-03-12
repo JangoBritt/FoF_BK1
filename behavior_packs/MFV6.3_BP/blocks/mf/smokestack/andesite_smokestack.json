@@ -18,6 +18,18 @@
 			"tag:mf.smokestack": {},
 			"minecraft:geometry": "geometry.smokestack_top",
 			"minecraft:material_instances": {"*": {"texture": "andesite","render_method": "opaque","ambient_occlusion": false}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
 			"minecraft:light_dampening": 0.0,

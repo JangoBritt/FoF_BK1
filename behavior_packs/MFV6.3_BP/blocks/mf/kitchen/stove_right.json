@@ -21,6 +21,18 @@
 			"minecraft:geometry": "geometry.m.stove_right",
 			"minecraft:loot": "empty",
 			"minecraft:material_instances": {"*": {"texture": "m.stove","render_method": "alpha_test","ambient_occlusion": false},"coal_lit": {"texture": "m.coal_lit","render_method": "alpha_test","ambient_occlusion": false},"fire": {"texture": "campfire_fire","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-8,0.0,-8],"size": [16,16,16]},
 			"minecraft:selection_box": {"origin": [-8,0.0,-8],"size": [16,16,16]},
 			"minecraft:light_dampening": 0.0,

@@ -15,6 +15,18 @@
 			"tag:medieval_furniture": {},
 			"minecraft:geometry": "geometry.m.weapon_stand_left",
 			"minecraft:material_instances": {"*": {"texture": "m.wood_crimson","render_method": "opaque"},"planks": {"texture": "m.crimson_planks","render_method": "opaque"}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-8.0,0.0,-5.0],"size": [16,16,13]},
 			"minecraft:selection_box": {"origin": [-8.0,0.0,-5.0],"size": [16,16,13]},
 			"minecraft:loot": "loot_tables/mf/weapon_stand/wood_crimson_ws.json",

@@ -17,6 +17,18 @@
 			"minecraft:material_instances": {"*": {"texture": "m.workbench","render_method": "alpha_test"}},
 			"minecraft:loot": "empty",
 			"minecraft:crafting_table": {"crafting_tags": ["workbench"]},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
 			"minecraft:light_dampening": 0,

@@ -23,6 +23,18 @@
 			"minecraft:geometry": "geometry.chairs_0_bot",
 			"minecraft:material_instances": {"*": {"texture": "m.stripped_oak","render_method": "opaque"}},
 			"tag:m.wood_chair": {},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-7.0,0.0,-7.0],"size": [14,9,14]},
 			"minecraft:selection_box": {"origin": [-7.0,0.0,-7.0],"size": [14,16,14]},
 			"minecraft:light_dampening": 0.0,

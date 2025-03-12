@@ -27,6 +27,18 @@
 			"tag:medieval_furniture": {},
 			"minecraft:geometry": "geometry.book",
 			"minecraft:material_instances": {"*": {"texture": "book_green","render_method": "opaque","ambient_occlusion": false}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [
+					  "up", "down"
+					]
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-5.0,0.0,-7.0],"size": [10,3,14]},
 			"minecraft:selection_box": {"origin": [-5.0,0.0,-7.0],"size": [10,3,14]},
 			"minecraft:light_dampening": 0.0,

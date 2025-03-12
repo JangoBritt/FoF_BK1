@@ -28,12 +28,12 @@
 			// }
 		},
 		"permutations": [
-			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_out_from_direction": [ "south" ] } ] }, "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
-			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_out_from_direction": [ "east" ] } ] }, "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
-			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_out_from_direction": [ "north" ] } ] }, "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
-			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_out_from_direction": [ "west" ] } ] }, "minecraft:transformation": { "rotation": [ 0, -90, 0 ] } } },
-			{ "condition": "query.block_state('minecraft:vertical_half') == 'bottom'", "components": { "minecraft:geometry": { "identifier": "geometry.block.fables_stairs_below" }, "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_out_from_direction": [ "down" ] } ] }, "minecraft:collision_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 8, 16 ] } } },
-			{ "condition": "query.block_state('minecraft:vertical_half') == 'top'", "components": { "minecraft:geometry": { "identifier": "geometry.block.fables_stairs_above" }, "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_out_from_direction": [ "up" ] } ] }, "minecraft:collision_box": { "origin": [ -8, 8, -8 ], "size": [ 16, 8, 16 ] } } }
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_from_direction": [ "south" ] } ] }, "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_from_direction": [ "east" ] } ] }, "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_from_direction": [ "north" ] } ] }, "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_from_direction": [ "west" ] } ] }, "minecraft:transformation": { "rotation": [ 0, -90, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:vertical_half') == 'bottom'", "components": { "minecraft:geometry": { "identifier": "geometry.block.fables_stairs_below" }, "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_from_direction": [ "down" ] } ] }, "minecraft:collision_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 8, 16 ] } } },
+			{ "condition": "query.block_state('minecraft:vertical_half') == 'top'", "components": { "minecraft:geometry": { "identifier": "geometry.block.fables_stairs_above" }, "minecraft:liquid_detection": { "detection_rules": [ { "can_contain_liquid": true, "liquid_type": "water", "on_liquid_touches": "blocking", "stops_liquid_flowing_from_direction": [ "up" ] } ] }, "minecraft:collision_box": { "origin": [ -8, 8, -8 ], "size": [ 16, 8, 16 ] } } }
 		  ],
 
 		// "permutations": [
@@ -107,7 +107,7 @@
 					"can_contain_liquid": true,
 					"liquid_type": "water",
 					"on_liquid_touches": "blocking",
-					"stops_liquid_flowing_out_from_direction": [
+					"stops_liquid_flowing_from_direction": [
 					  "up", "down", "north", "south", "east", "west"
 					]
 				  }
