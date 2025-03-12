@@ -49,10 +49,7 @@
 				  {
 					"can_contain_liquid": true,
 					"liquid_type": "water",
-					"on_liquid_touches": "blocking",
-					"stops_liquid_flowing_from_direction": [
-					  "up", "down"
-					]
+					"on_liquid_touches": "no_reaction"
 				  }
 				]
 			  },
