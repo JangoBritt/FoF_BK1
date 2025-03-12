@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fof_recycle:bb.slabs.gray_concrete_slab"
+		},
+		"tags": [
+			"recycler"
+		],
+		"group": "slabs_to_blocks",
+		"priority": -1,
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "fables:gray_concrete_slab"
+			}
+		},
+		"unlock": [
+			{
+				"item": "fables:gray_concrete_slab"
+			}
+		],
+		"result": {
+			"item": "minecraft:gray_concrete",
+			"count": 1
+		}
+	}
+}
