@@ -33,6 +33,15 @@
 				}
 			},
 			"minecraft:material_instances": {"*": {"texture": "mr.wood_oak","render_method": "opaque"},"wood": {"texture": "mr.stripped_oak","render_method": "opaque"},"concrete": {"texture": "mr.concrete_white","render_method": "opaque"}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "no_reaction"
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-8,0,-8],"size": [16,16,3]},
 			"minecraft:selection_box": {"origin": [-8,0,-8],"size": [16,16,3]},
 			"minecraft:light_dampening": 1,

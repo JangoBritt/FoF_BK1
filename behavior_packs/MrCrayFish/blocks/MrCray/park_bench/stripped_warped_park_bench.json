@@ -31,6 +31,15 @@
 				}
 			},
 			"minecraft:material_instances": {"*": {"texture": "mr.stripped_warped","render_method": "opaque"},"wood": {"texture": "mr.planks_warped","render_method": "opaque"}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "no_reaction"
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-8,0.0,-8],"size": [16,9,16]},
 			"minecraft:selection_box": {"origin": [-8,0.0,-8],"size": [16,9,16]},
 			"minecraft:light_dampening": 1,

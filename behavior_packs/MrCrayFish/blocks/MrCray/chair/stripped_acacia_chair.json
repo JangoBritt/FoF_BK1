@@ -22,6 +22,15 @@
 			"tag:no_solid": {},
 			"minecraft:geometry": "geometry.mr.chair",
 			"minecraft:material_instances": {"*": {"texture": "mr.stripped_acacia","render_method": "opaque"},"wood": {"texture": "mr.wood_acacia","render_method": "opaque"}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "no_reaction"
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-6.5,0.0,-6.5],"size": [13,10,13]},
 			"minecraft:selection_box": {"origin": [-6.5,0.0,-6.5],"size": [13,10,13]},
 			"minecraft:light_dampening": 0,
