@@ -18,6 +18,15 @@
 		"components": {
 			"minecraft:geometry": "geometry.mb.wood_mailbox",
 			"minecraft:material_instances": {"*": {"texture": "mb.dark_oak_mailbox","render_method": "alpha_test"}},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "no_reaction"
+				  }
+				]
+			  },
 			"minecraft:collision_box": {"origin": [-6,0,-5.5],"size": [12,16,12]},
 			"minecraft:selection_box": {"origin": [-6,0,-5.5],"size": [12,16,12]},
 			"minecraft:light_dampening": 0.0,
