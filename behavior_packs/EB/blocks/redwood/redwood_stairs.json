@@ -2,7 +2,7 @@
 	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
-			"identifier": "korbon:redwood",
+			"identifier": "korbon:redwood_stairs",
 			"menu_category": {
 				"category": "construction",
 				"group": "minecraft:itemGroup.name.stairs"
