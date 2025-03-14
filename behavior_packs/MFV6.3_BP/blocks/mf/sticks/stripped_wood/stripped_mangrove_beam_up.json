@@ -28,7 +28,7 @@
 				  {
 					"can_contain_liquid": true,
 					"liquid_type": "water",
-					"on_liquid_touches": "no_reaction"
+					"on_liquid_touches": "blocking"
 				  }
 				]
 			  },
