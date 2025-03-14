@@ -10,6 +10,14 @@
 		"components": {
 			"minecraft:loot": "loot_tables/currency/coin_crate.json",
             "minecraft:geometry": "geometry.block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "coin_crate",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": true
+				}
+			},
 			"minecraft:friction": 0.7,
 			"minecraft:map_color": "#815100",
 

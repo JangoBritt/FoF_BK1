@@ -36,6 +36,15 @@
 					"face_dimming": false
 				}
 			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "no_reaction"
+				  }
+				]
+			  },
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
 			"minecraft:loot": "loot_tables/statues/rat_statue_g.json",

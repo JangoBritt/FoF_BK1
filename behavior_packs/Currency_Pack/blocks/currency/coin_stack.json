@@ -26,6 +26,15 @@
 					"face_dimming": true
 				}
 			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+				  {
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "no_reaction"
+				  }
+				]
+			  },
             "minecraft:selection_box": { "origin": [ -4, 0, -6 ], "size": [ 8, 7, 8 ] },
 			"minecraft:collision_box": { "origin": [ -4, 0, -6 ], "size": [ 8, 7, 8 ] },
 			"minecraft:destructible_by_mining": {
