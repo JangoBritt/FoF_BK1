@@ -46,7 +46,7 @@
             "liquid_type": "water",
             "on_liquid_touches": "blocking",
             "stops_liquid_flowing_from_direction": [
-              "up", "north", "south", "east", "west"
+              "down"
             ]
           }
         ]
