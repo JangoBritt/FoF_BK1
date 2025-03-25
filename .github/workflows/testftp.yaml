@@ -1,0 +1,33 @@
+name: Deploy via SFTP
+on:
+  push:
+    branches:
+      - Pre-Release
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Deploy files via SFTP
+        uses: pressidium/lftp-mirror-action@v1
+        with:
+          # SFTP credentials
+          host: ${{ secrets.TestFTP_SERVER }}
+          port: ${{ secrets.TestFTP_PORT }}
+          user: ${{ secrets.TestFTP_USERNAME }}
+          pass: ${{ secrets.TestFTP_PASSWORD }}
+          # lftp settings
+          onlyNewer: true
+          settings: 'sftp:auto-confirm=yes'
+          # Mirror command options
+          localDir: '.'
+          remoteDir: '/worlds/FoF_Bk1'
+          reverse: true
+          ignoreFile: '.lftp_ignore'
+          options: 'delete'
