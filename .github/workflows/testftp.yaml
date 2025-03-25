@@ -1,4 +1,4 @@
-name: Deploy via SFTP
+name: Test Server via SFTP
 on:
   push:
     branches:
