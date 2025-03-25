@@ -3,6 +3,7 @@
     "minecraft:entity": {
         "description": {
             "identifier": "minecraft:endermite",
+            "spawn_category": "monster",
             "is_spawnable": true,
             "is_summonable": true,
             "is_experimental": false
@@ -66,14 +67,14 @@
             "minecraft:behavior.float": {
                 "priority": 0
             },
-            "minecraft:behavior.melee_attack": {
+            "minecraft:behavior.melee_box_attack": {
                 "priority": 3,
                 "track_target": true
             },
             "minecraft:behavior.nearest_attackable_target": {
                 "priority": 5,
                 "must_see": true,
-                "within_radius": 16,
+                "within_radius": 16.0,
                 "entity_types": [
                     {
                         "filters": {
