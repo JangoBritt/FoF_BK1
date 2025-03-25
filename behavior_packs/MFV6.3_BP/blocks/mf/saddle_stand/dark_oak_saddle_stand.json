@@ -17,7 +17,7 @@
 			{"condition": "q.block_state('medieval:facing_direction') == 3","components": {"minecraft:transformation": {"rotation": [0,180,0]}}},
 			{"condition": "q.block_state('medieval:facing_direction') == 4","components": {"minecraft:transformation": {"rotation": [0,90,0]}}},
 			{"condition": "q.block_state('medieval:facing_direction') == 5","components": {"minecraft:transformation": {"rotation": [0,-90,0]}}},
-			{"condition": "q.block_state('medieval:status') == 1","components": {"minecraft:geometry": "geometry.saddle_stand2","minecraft:loot": "loot_tables/mf/saddle_stand/dark_oak_saddle_stand.json"}}
+			{"condition": "q.block_state('medieval:status') == 1","components": {"minecraft:geometry": "geometry.saddle_stand2","minecraft:loot": "loot_tables/mf/saddle_stand/darkoak_saddle_stand.json"}}
 		],
 		"components": {
 			"tag:medieval_furniture": {},

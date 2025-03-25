@@ -54,7 +54,7 @@
       "minecraft:transformation": {
         "rotation": [ 0, 0, 0 ]
       },
-      "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_soul_granite_lantern.json",
+      "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nico_granite_soul_lantern.json",
       "tag:granite_soul_lantern": {},
       "tag:custom_stone_lantern": {},
       "tag:custom_lantern": {},

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "farmersdelight:blue_egg_from_crate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "farmersdelight:blue_egg_crate"
+            }
+        ],
+        "result": {
+            "item": "minecraft:blue_egg",
+            "count": 9
+        }
+    }
+}

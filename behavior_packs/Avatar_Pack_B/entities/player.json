@@ -170,6 +170,32 @@
 				]
 			},
 			"minecraft:conditional_bandwidth_optimization": {},
+
+      // "minecraft:damage_sensor": {
+      //   "triggers": [
+      //     {
+      //       "on_damage": {
+      //         "filters": {
+      //           "all_of": [
+      //             {"test":"is_sneaking","subject": "self","value": true},
+      //             {"test":"has_damage","value":"attack"},
+      //             {"test":"has_tag","subject": "self","value": "defense"},
+      //             { "any_of": [
+      //                 {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:wooden_sword"},
+      //                 {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:stone_sword"},
+      //                 {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:iron_sword"},
+      //                 {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:golden_sword"},
+      //                 {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:diamond_sword"},
+      //                 {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:netherite_sword"}
+      //             ]}
+      //           ]
+      //         },
+      //         "event": "wesl3y:defense"
+      //       },
+      //       "deals_damage": false
+      //     }
+      //   ]
+      // },
 			"minecraft:block_climber": {},
 			"minecraft:environment_sensor": {
 				"triggers": {
@@ -192,23 +218,14 @@
 			}
 		},
 		"events": {
-			"bp:not_backpack": {
-				"set_property": {
-					"bp:axe": false,
-					"bp:farm": false,
-					"bp:furn": false,
-					"bp:pick": false,
-					"bp:torch": false,
-					"bp:jukebox": false,
-					"bp:liquid": false,
-					"backpack:backpack": false,
-					"backpack:backpack_copper": false,
-					"backpack:backpack_iron": false,
-					"backpack:backpack_gold": false,
-					"backpack:backpack_diamond": false,
-					"backpack:backpack_nether": false
-				}
-			},
+		// "wesl3y:defense": {
+		// 	"queue_command": {
+		// 		"command": [
+		// 		"scoreboard players add @s defense 1",
+		// 		"scoreboard players set @s[scores={defense=4..}] timeDefense 200"
+		// 		]
+		// 	}
+		// 	},
 			"minecraft:gain_raid_omen": {
 				"add": {
 					"component_groups": [

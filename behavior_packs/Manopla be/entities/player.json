@@ -1,5 +1,5 @@
 {
-  "format_version": "1.19.0",
+  "format_version": "1.21.0",
   "minecraft:entity": {
     "description": {
       "identifier": "minecraft:player",
@@ -8,37 +8,40 @@
       "is_experimental": false,
       "scripts":{
         "animate": [
+					"fables_avatars_player_heads",
           "manopla"
         ]
       },
       "animations": {
+        "fables_avatars_player_heads": "controller.animation.fables_avatars.player_heads",
         "manopla": "controller.animation.manopla"
+
       }
     },
 
     "component_groups": {
-      "minecraft:add_bad_omen": {
+      "minecraft:add_raid_omen": {
         "minecraft:spell_effects": {
           "add_effects": [
             {
-              "effect": "bad_omen",
-              "duration": 6000,
+              "effect": "raid_omen",
+              "duration": 30,
               "display_on_screen_animation": true
             }
-          ]
+          ],
+          "remove_effects": "bad_omen"
         },
         "minecraft:timer": {
           "time": [ 0.0, 0.0 ],
           "looping": false,
           "time_down_event": {
-            "event": "minecraft:clear_add_bad_omen",
+            "event": "minecraft:clear_add_raid_omen",
             "target": "self"
           }
         }
       },
-      "minecraft:clear_bad_omen_spell_effect": {
-        "minecraft:spell_effects": {
-        }
+      "minecraft:clear_raid_omen_spell_effect": {
+        "minecraft:spell_effects": {}
       },
       "minecraft:raid_trigger": {
         "minecraft:raid_trigger": {
@@ -46,9 +49,6 @@
             "event": "minecraft:remove_raid_trigger",
             "target": "self"
           }
-        },
-        "minecraft:spell_effects": {
-          "remove_effects": "bad_omen"
         }
       }
     },
@@ -69,10 +69,6 @@
         "width": 0.6,
         "height": 1.8
       },
-        "minecraft:health": {
-          "value": 20,
-          "max": 20
-        },
       "minecraft:can_climb": {
       },
       "minecraft:movement": {
@@ -81,7 +77,12 @@
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
           {
-            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
             "cause": "lava",
             "damage_per_tick": 4
           }
@@ -90,12 +91,24 @@
       "minecraft:attack": {
         "damage": 1
       },
+      "minecraft:exhaustion_values": {
+        "heal": 6,
+        "jump": 0.05,
+        "sprint_jump": 0.2,
+        "mine": 0.005,
+        "attack": 0.1,
+        "damage": 0.1,
+        "walk": 0.0,
+        "sprint": 0.1,
+        "swim": 0.01
+      },
       "minecraft:player.saturation": {
-        "value": 20
+        "value": 5,
+        "max": 20
       },
       "minecraft:player.exhaustion": {
         "value": 0,
-        "max": 4
+        "max": 20
       },
       "minecraft:player.level": {
         "value": 0,
@@ -116,6 +129,7 @@
         "allow_name_tag_renaming": false
       },
       "minecraft:physics": {
+        "push_towards_closest_space": true
       },
       "minecraft:pushable": {
         "is_pushable": false,
@@ -145,35 +159,36 @@
           }
         ]
       },
-      "minecraft:damage_sensor": {
-        "triggers": [
-          {
-            "on_damage": {
-              "filters": {
-                "all_of": [
-                  {"test":"is_sneaking","subject": "self","value": true},
-                  {"test":"has_damage","value":"attack"},
-                  {"test":"has_tag","subject": "self","value": "defense"},
-                  { "any_of": [
-                      {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:wooden_sword"},
-                      {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:stone_sword"},
-                      {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:iron_sword"},
-                      {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:golden_sword"},
-                      {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:diamond_sword"},
-                      {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:netherite_sword"}
-                  ]}
-                ]
-              },
-              "event": "wesl3y:defense"
-            },
-            "deals_damage": false
-          }
-        ]
+      "minecraft:conditional_bandwidth_optimization": {
       },
-      "minecraft:scaffolding_climber": {},
+      // "minecraft:damage_sensor": {
+      //   "triggers": [
+      //     {
+      //       "on_damage": {
+      //         "filters": {
+      //           "all_of": [
+      //             {"test":"is_sneaking","subject": "self","value": true},
+      //             {"test":"has_damage","value":"attack"},
+      //             {"test":"has_tag","subject": "self","value": "defense"},
+      //             { "any_of": [
+      //                 {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:wooden_sword"},
+      //                 {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:stone_sword"},
+      //                 {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:iron_sword"},
+      //                 {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:golden_sword"},
+      //                 {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:diamond_sword"},
+      //                 {"test":"has_equipment","subjec": "self", "domain": "hand","value":"minecraft:netherite_sword"}
+      //             ]}
+      //           ]
+      //         },
+      //         "event": "wesl3y:defense"
+      //       },
+      //       "deals_damage": false
+      //     }
+      //   ]
+      // },
+      "minecraft:block_climber": {},
       "minecraft:environment_sensor": {
-        "triggers": [
-          {
+        "triggers": {
           "filters": {
             "all_of": [
               {
@@ -188,37 +203,36 @@
               }
             ]
           },
-          "event": "minecraft:trigger_raid"
-          }
-        ]
+          "event": "minecraft:gain_raid_omen"
+        }
       }
     },
 
     "events": {
-      "wesl3y:defense": {
-        "queue_command": {
-          "command": [
-            "scoreboard players add @s defense 1",
-            "scoreboard players set @s[scores={defense=4..}] timeDefense 200"
-          ]
-        }
-      },
-      "minecraft:gain_bad_omen": {
+      // "wesl3y:defense": {
+      //   "queue_command": {
+      //     "command": [
+      //       "scoreboard players add @s defense 1",
+      //       "scoreboard players set @s[scores={defense=4..}] timeDefense 200"
+      //     ]
+      //   }
+      // },
+      "minecraft:gain_raid_omen": {
         "add": {
           "component_groups": [
-            "minecraft:add_bad_omen"
+            "minecraft:add_raid_omen"
           ]
         }
       },
-      "minecraft:clear_add_bad_omen": {
+      "minecraft:clear_add_raid_omen": {
         "remove": {
           "component_groups": [
-            "minecraft:add_bad_omen"
+            "minecraft:add_raid_omen"
           ]
         },
         "add": {
           "component_groups": [
-            "minecraft:clear_bad_omen_spell_effect"
+            "minecraft:clear_raid_omen_spell_effect"
           ]
         }
       },
@@ -235,220 +249,3 @@
     }
   }
 }
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                 
-                                
-                                
-                                
-                                
-                                                                 
-                                
-                                                     
-                                 

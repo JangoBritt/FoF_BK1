@@ -12,7 +12,7 @@
 				"ash": 0.1
 			},
 			"minecraft:mountain_parameters": {
-				"peaks_factor": 1,
+				// "peaks_factor": 1,
 				"steep_material_adjustment": {
 					"material": "minecraft:blackstone",
 					"north_slopes": true,

@@ -364,6 +364,18 @@
 		"egg_crate_side": {
 			"textures": "textures/blocks/egg_crate_side"
 		},
+		"blue_egg_crate_top": {
+			"textures": "textures/blocks/blue_egg_crate_top"
+		},
+		"blue_egg_crate_side": {
+			"textures": "textures/blocks/blue_egg_crate_side"
+		},
+		"brown_egg_crate_top": {
+			"textures": "textures/blocks/brown_egg_crate_top"
+		},
+		"brown_egg_crate_side": {
+			"textures": "textures/blocks/brown_egg_crate_side"
+		},
 		"red_mushroom_crate_top": {
 			"textures": "textures/blocks/red_mushroom_crate_top"
 		},
