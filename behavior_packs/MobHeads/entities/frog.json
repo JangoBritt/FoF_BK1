@@ -182,18 +182,18 @@
                 "priority": 8,
                 "within_radius": 16,
                 "entity_types": [
-					{
-						"filters": {
-							"any_of": [
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "firefly"
-								}
-							]
-						},
-						"max_dist": 32
-					},
+                    {
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "firefly"
+                                }
+                            ]
+                        },
+                        "max_dist": 32
+                    },
                     {
                         "filters": {
                             "all_of": [
