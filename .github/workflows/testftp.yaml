@@ -27,7 +27,7 @@ jobs:
           settings: 'sftp:auto-confirm=yes'
           # Mirror command options
           localDir: '.'
-          remoteDir: '/worlds/FoF_Bk1'
+          remoteDir: '/worlds/Fables_Flat'
           reverse: true
           ignoreFile: '.lftp_ignore'
           options: 'delete'
