@@ -16,9 +16,8 @@
 	},
 	
 	{
-		// REQUIRES BETA Manifest updates
-		"pack_id" : "ed45f878-b1c6-4cbc-8527-fa07531ece1f", //Expansive Biomes
-		"version" : [ 1, 0, 37 ]
+		"pack_id" : "8d5c35a9-f06b-4642-8b7a-49a296f070d9", //Expansive Biomes
+		"version" : [ 1, 0, 39 ]
 	},
 	{
 		"pack_id" : "f0d1778d-2bae-41b2-94c7-9544b40106b0", //Lore Anvil

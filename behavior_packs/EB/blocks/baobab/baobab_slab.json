@@ -1,11 +1,11 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:baobab_slab",
 			"menu_category": {
 				"category": "construction",
-				"group": "itemGroup.name.slab"
+				"group": "minecraft:itemGroup.name.slab"
 			},
 			"traits": {
 				"minecraft:placement_position": {

@@ -1,13 +1,13 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "§7[v1.7.62] §bExpansive Biomes §r- §aRP§r",
+		"name": "§7[v1.7.63] §bExpansive Biomes §r- §aRP§r",
 		"description": "Adds more biomes to the game for you to explore! §f| §eby iKorbon§r",
-		"uuid": "ab801579-0d1a-4e1a-bc2c-971df036a240",
+		"uuid": "06229b2c-5397-4add-8ea2-c9d16ef2c53e",
 		"version": [
 			1,
 			0,
-			37
+			38
 		],
 		"min_engine_version": [
 			1,
@@ -18,11 +18,11 @@
 	"modules": [
 		{
 			"type": "resources",
-			"uuid": "fbdb6573-8c42-4bf0-8f48-3ad9ae64aabc",
+			"uuid": "d748eb1e-2c46-4db5-a647-483acc1440da",
 			"version": [
 				1,
 				0,
-				37
+				38
 			]
 		}
 	],

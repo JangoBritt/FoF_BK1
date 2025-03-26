@@ -5,8 +5,7 @@
 		"description": {
 			"identifier": "korbon:aloe",
 			"menu_category": {
-				"category": "equipment",
-                "group": "itemGroup.name.miscFood"
+				"category": "nature"
 			}
 		},
         "components": {

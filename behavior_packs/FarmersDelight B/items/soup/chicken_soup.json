@@ -23,11 +23,6 @@
         "composting_chance": 45
       }
     },
-    "minecraft:tags": {
-      "tags": [
-        "oreville:is_soup"
-      ]
-    },
     "description": {
       "identifier": "farmersdelight:chicken_soup",
       "menu_category": {

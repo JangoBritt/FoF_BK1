@@ -23,11 +23,6 @@
         "composting_chance": 85
       }
     },
-    "minecraft:tags": {
-      "tags": [
-        "oreville:is_soup"
-      ]
-    },
     "description": {
       "identifier": "farmersdelight:baked_cod_stew",
       "menu_category": {

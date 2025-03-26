@@ -1,11 +1,11 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:redwood_wood",
 			"menu_category": {
 				"category": "nature",
-				"group": "itemGroup.name.wood"
+				"group": "minecraft:itemGroup.name.wood"
 			},
 			"traits": {
 				"minecraft:placement_position": {

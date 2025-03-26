@@ -1,12 +1,12 @@
 //bridge-file-version: #6
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:black_sand",
 			"menu_category": {
 				"category": "nature",
-				"group": "itemGroup.name.nature"
+				"group": "minecraft:itemGroup.name.nature"
 			}
 		},
 		"components": {

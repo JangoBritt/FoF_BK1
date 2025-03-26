@@ -23,11 +23,6 @@
         "composting_chance": 55
       }
     },
-    "minecraft:tags": {
-      "tags": [
-        "oreville:is_soup"
-      ]
-    },
     "description": {
       "identifier": "farmersdelight:noodle_soup",
       "menu_category": {

@@ -1,6 +1,6 @@
 //bridge-file-version: #145
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:tinder_mushroom_e",

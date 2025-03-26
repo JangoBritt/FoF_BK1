@@ -22,11 +22,6 @@
         "composting_chance": 35
       }
     },
-    "minecraft:tags": {
-      "tags": [
-        "oreville:is_soup"
-      ]
-    },
     "description": {
       "identifier": "farmersdelight:tomato_sauce",
       "menu_category": {

@@ -20,11 +20,6 @@
                 "movement_modifier": 0.4
             }
     },
-    "minecraft:tags": {
-      "tags": [
-        "oreville:is_drink"
-      ]
-    },
     "description": {
       "identifier": "farmersdelight:melon_juice",
       "menu_category": {

@@ -28,11 +28,6 @@
 			},
 			"minecraft:should_despawn": true
 		},
-		"minecraft:tags": {
-		  "tags": [
-			"oreville:is_throwable"
-		  ]
-		},
 		"events": {}
 	}
 }
