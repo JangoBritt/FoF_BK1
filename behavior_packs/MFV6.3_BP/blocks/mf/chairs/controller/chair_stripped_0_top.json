@@ -18,7 +18,8 @@
 			"minecraft:geometry": "geometry.chairs_0_top",
 			"tag:chair_top": {},
 			"minecraft:material_instances": {"*": {"texture": "m.empty","render_method": "alpha_test"}},
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/empty.json",
+
 			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["all"],"block_filter": [{"tags": "q.any_tag('m.stem_chair')"}]}]},
 			"minecraft:liquid_detection": {
 				"detection_rules": [

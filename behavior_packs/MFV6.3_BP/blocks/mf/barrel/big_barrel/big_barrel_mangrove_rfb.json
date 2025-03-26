@@ -15,7 +15,8 @@
 			"tag:medieval_furniture": {},
 			"tag:m.barrel_bot": {},
 			"minecraft:geometry": "geometry.m.large_barrel_100",
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/empty.json",
+
 			"minecraft:material_instances": {"*": {"texture": "m.large_barrel_mangrove","render_method": "alpha_test","ambient_occlusion": false}},
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,

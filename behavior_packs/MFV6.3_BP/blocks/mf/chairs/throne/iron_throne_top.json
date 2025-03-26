@@ -15,7 +15,8 @@
 		],
 		"components": {
 			"tag:medieval_furniture": {},
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/empty.json",
+
 			"minecraft:geometry": "geometry.m.iron_throne_top",
 			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": ["medieval:iron_throne_bot"]}]},
 			"minecraft:material_instances": {"*": {"texture": "m.iron_throne","render_method": "alpha_test"}},

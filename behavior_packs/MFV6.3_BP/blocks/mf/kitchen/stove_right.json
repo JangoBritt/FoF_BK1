@@ -19,7 +19,8 @@
 		"components": {
 			"tag:medieval_furniture": {},
 			"minecraft:geometry": "geometry.m.stove_right",
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/empty.json",
+
 			"minecraft:material_instances": {"*": {"texture": "m.stove","render_method": "alpha_test","ambient_occlusion": false},"coal_lit": {"texture": "m.coal_lit","render_method": "alpha_test","ambient_occlusion": false},"fire": {"texture": "campfire_fire","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}},
 			"minecraft:liquid_detection": {
 				"detection_rules": [

@@ -19,7 +19,8 @@
 			"minecraft:material_instances": {"*": {"texture": "m.empty","render_method": "alpha_test"}},
 			"minecraft:map_color": "#59e024",
 			"tag:chair_top": {},
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/empty.json",
+
 			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["all"],"block_filter": [{"tags": "q.any_tag('m.bamboo_chair')"}]}]},
 			"minecraft:liquid_detection": {
 				"detection_rules": [

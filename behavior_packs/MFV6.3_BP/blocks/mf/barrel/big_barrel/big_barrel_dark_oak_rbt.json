@@ -14,7 +14,8 @@
 		"components": {
 			"tag:medieval_furniture": {},
 			"minecraft:geometry": "geometry.m.large_barrel_111",
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/empty.json",
+
 			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": [{"tags": "q.any_tag('m.barrel_bot')"}]}]},
 			"minecraft:material_instances": {"*": {"texture": "m.large_barrel_dark_oak","render_method": "alpha_test","ambient_occlusion": false}},
 			"minecraft:collision_box": true,

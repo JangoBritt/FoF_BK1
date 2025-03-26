@@ -8,7 +8,8 @@
 			"tag:medieval_furniture": {},
 			"minecraft:crafting_table": {"crafting_tags": ["easel"]},
 			"tag:m.wood_easel_top": {},
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/empty.json",
+
 			"minecraft:geometry": "geometry.m.no_stairs",
 			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": [{"tags": "q.any_tag('m.wood_easel')"}]}]},
 			"minecraft:material_instances": {"*": {"texture": "m.empty","render_method": "alpha_test"}},
