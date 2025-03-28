@@ -1,12 +1,11 @@
 //bridge-file-version: #23
 {
-	"format_version": "1.21.40",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:dune_grass",
 			"menu_category": {
-				"category": "nature",
-                "group": "itemGroup.name.grass"
+				"category": "none"
 			}
 		},
 		"components": {

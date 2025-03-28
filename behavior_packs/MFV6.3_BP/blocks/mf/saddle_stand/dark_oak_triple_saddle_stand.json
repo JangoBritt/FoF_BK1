@@ -17,9 +17,9 @@
 			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0] }}},
 			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,90,0] }}},
 			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,-90,0] }}},
-			{"condition": "q.block_state('medieval:state') == 1","components": {"minecraft:geometry": "geometry.saddle_triple_1","minecraft:loot": "loot_tables/mf/saddle_stand/dark_oak_triple_saddle_stand1.json"}},
-			{"condition": "q.block_state('medieval:state') == 2","components": {"minecraft:geometry": "geometry.saddle_triple_2","minecraft:loot": "loot_tables/mf/saddle_stand/dark_oak_triple_saddle_stand2.json"}},
-			{"condition": "q.block_state('medieval:state') == 3","components": {"minecraft:geometry": "geometry.saddle_triple_3","minecraft:loot": "loot_tables/mf/saddle_stand/dark_oak_triple_saddle_stand3.json"}}
+			{"condition": "q.block_state('medieval:state') == 1","components": {"minecraft:geometry": "geometry.saddle_triple_1","minecraft:loot": "loot_tables/mf/saddle_stand/darkoak_triple_saddle_stand1.json"}},
+			{"condition": "q.block_state('medieval:state') == 2","components": {"minecraft:geometry": "geometry.saddle_triple_2","minecraft:loot": "loot_tables/mf/saddle_stand/darkoak_triple_saddle_stand2.json"}},
+			{"condition": "q.block_state('medieval:state') == 3","components": {"minecraft:geometry": "geometry.saddle_triple_3","minecraft:loot": "loot_tables/mf/saddle_stand/darkoak_triple_saddle_stand3.json"}}
 		],
 		"components": {
 			"tag:m.triple_saddle_stand": {},

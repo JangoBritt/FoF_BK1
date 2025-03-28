@@ -13,7 +13,8 @@
 		],
 		"components": {
 			"minecraft:geometry": "geometry.mr.board",
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/empty.json",
+
 			"minecraft:material_instances": {"*": {"texture": "mr.concrete_white","render_method": "opaque"},"concrete": {"texture": "mr.concrete_light_gray","render_method": "opaque"}},
 			"minecraft:collision_box": {"origin": [-7.0,0.0,-8.0],"size": [14,6,16]},
 			"minecraft:selection_box": {"origin": [-7.0,0.0,-8.0],"size": [14,6,16]},

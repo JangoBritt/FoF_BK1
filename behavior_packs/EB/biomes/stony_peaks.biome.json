@@ -1,4 +1,3 @@
-//bridge-file-version: #32
 {
 	"format_version": "1.13.0",
 	"minecraft:biome": {
@@ -12,7 +11,6 @@
 				"ash": 0.1
 			},
 			"minecraft:mountain_parameters": {
-				"peaks_factor": 1,
 				"steep_material_adjustment": {
 					"material": "minecraft:blackstone",
 					"north_slopes": true,

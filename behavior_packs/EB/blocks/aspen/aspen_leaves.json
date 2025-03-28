@@ -1,11 +1,11 @@
 {
-	"format_version": "1.21.0",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:aspen_leaves",
 			"menu_category": {
 				"category": "nature",
-				"group": "itemGroup.name.leaves"
+				"group": "minecraft:itemGroup.name.leaves"
 			},
 			"states": {
 				"pog:playerPlaced": [

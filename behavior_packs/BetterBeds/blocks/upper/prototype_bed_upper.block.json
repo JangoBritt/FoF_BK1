@@ -63,7 +63,7 @@
 				"destroy_chance_modifier": 20,
 				"catch_chance_modifier": 5
 			},
-			"minecraft:loot": "loot_tables/blocks/bb_single_wood_creeper_bed_1.json"
+			"minecraft:loot": "loot_tables/blocks/bb_preview_single_wood_creeper_bed_1.json"
 
 		},
 		"permutations": [

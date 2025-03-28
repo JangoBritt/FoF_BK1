@@ -19,7 +19,7 @@ const worldTicks = () => system.run(() => {
                 worldPlayer[i] = { playerName: worldPlayer[i].playerName, idBlock: '', logBlocks: [], otherBlocks: [], logCount: 1, otherCount: 0 }
                 for (const players of world.getPlayers()) {
                     if (worldPlayer.find(o => { return o.playerName === players.name })) {
-                        players.dimension.runCommand(`title ${worldPlayer[i].playerName} actionbar §fMax 128 blocks`)
+                        players.dimension.runCommand(`title "${worldPlayer[i].playerName}" actionbar §fMax 128 blocks`)
                     }
                 }
             }

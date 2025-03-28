@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:jungfern_top"
@@ -28,7 +28,8 @@
 					}
 				]
 			},
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/blocks/empty.json",
+
 			"minecraft:selection_box": {
 				"origin": [
 					-4,

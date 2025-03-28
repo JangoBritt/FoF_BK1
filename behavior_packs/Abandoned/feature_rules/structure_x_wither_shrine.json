@@ -6,7 +6,7 @@
       "places_feature": "nicothekid:structure_weight_x_wither_shrine"
     },
     "conditions": {
-      "placement_pass": "underground_pass",
+      "placement_pass": "before_underground_pass",
       "minecraft:biome_filter": [
         {
           "all_of": [
@@ -40,7 +40,7 @@
     },
     "distribution": {
       "iterations": 1,
-      "scatter_chance": 0.070,
+      "scatter_chance": 1.5,
       "x": {
         "distribution": "uniform",
         "extent": [ -16, 16 ]

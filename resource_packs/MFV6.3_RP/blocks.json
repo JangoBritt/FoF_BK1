@@ -1,5 +1,5 @@
 {
-	"format_version": [ 1,1, 0 ],
+	"format_version": [ 1, 1, 0 ],
 	"medieval:stairs_top": {"sound": "wood"},
 	"medieval:acacia_drawer0": {"sound": "wood"},
 	"medieval:birch_drawer0": {"sound": "wood"},

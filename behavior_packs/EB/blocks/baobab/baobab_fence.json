@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:baobab_fence",
@@ -532,7 +532,7 @@
 			"minecraft:custom_components": [
 				"korbon:baobab_fence_on_player_destroy",
 				"korbon:baobab_fence_on_interact",
-				"korbon:on_tick"
+				"korbon:baobab_on_tick"
 			],
 			"minecraft:material_instances": {
 				"*": {

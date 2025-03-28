@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.70",
   "minecraft:item": {
     "components": {
       "minecraft:food": {
@@ -22,11 +22,6 @@
       "minecraft:compostable": {
         "composting_chance": 45
       }
-    },
-    "minecraft:tags": {
-      "tags": [
-        "oreville:is_soup"
-      ]
     },
     "description": {
       "identifier": "farmersdelight:chicken_soup",

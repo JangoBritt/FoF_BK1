@@ -15,7 +15,8 @@
 			"minecraft:geometry": "geometry.m.workbench_right",
 			"tag:medieval_furniture": {},
 			"minecraft:material_instances": {"*": {"texture": "m.workbench","render_method": "alpha_test"}},
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/empty.json",
+
 			"minecraft:crafting_table": {"crafting_tags": ["workbench"]},
 			"minecraft:liquid_detection": {
 				"detection_rules": [

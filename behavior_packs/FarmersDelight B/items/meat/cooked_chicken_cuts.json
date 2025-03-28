@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.70",
   "minecraft:item": {
     "components": {
       "minecraft:food": {
@@ -31,7 +31,7 @@
       "identifier": "farmersdelight:cooked_chicken_cuts",
       "menu_category": {
         "category": "equipment",
-				"group": "minecraft:itemGroup.name.cookedFood"
+        "group": "minecraft:itemGroup.name.cookedFood"
       }
     }
   }

@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.50",
+	"format_version": "1.21.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "korbon:stinger_knife",
@@ -36,9 +36,7 @@
 				"slot": "sword"
 			},
 			"minecraft:hand_equipped": true,
-			"minecraft:icon": {
-				"texture": "korbon:stinger_knife"
-			},
+			"minecraft:icon": "korbon:stinger_knife",
 			"minecraft:max_stack_size": 1,
 			"minecraft:repairable": {
 				"repair_items": [
@@ -63,14 +61,12 @@
 				"category": "stinger_knife",
 				"duration": 3
 			},
-			"minecraft:custom_components": ["korbon:stinger_knife"],
 			"minecraft:tags": {
 				"tags": [
 					"minecraft:is_sword",
 					"minecraft:is_tool"
 				]
 			}
-		},
-		"events": {}
+		}
 	}
 }

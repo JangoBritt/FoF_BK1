@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.40",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:cattail_top"
@@ -41,7 +41,8 @@
 				"burn_odds": 15,
 				"flame_odds": 15
 			},
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/blocks/empty.json",
+
 			"minecraft:selection_box": {
 				"origin": [
 					-7,

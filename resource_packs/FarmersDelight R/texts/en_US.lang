@@ -225,7 +225,7 @@ farmersdelight.blockfood.minecraft:bowl=You need a bowl to eat this.
 farmersdelight.skillet.invalid_item=This can't be cooked...
 
 pack.name=Farmer's Delight[RP]
-pack.description=It's time to farm a little bit of everything! Supported version is 1.21.60+
+pack.description=It's time to farm a little bit of everything! Supported version is 1.21.70+
 
 item.farmersdelight:book_farmersdelight=The Book of Farmer's Delight
 
@@ -294,6 +294,8 @@ tile.farmersdelight:cod_crate.name=Cod Crate
 tile.farmersdelight:salmon_crate.name=Salmon Crate
 tile.farmersdelight:golden_carrot_crate.name=Golden Carrot Crate
 tile.farmersdelight:egg_crate.name=Egg Crate
+tile.farmersdelight:blue_egg_crate.name=Blue Egg Crate
+tile.farmersdelight:brown_egg_crate.name=Brown Egg Crate
 tile.farmersdelight:sugar_bag.name=Bag of Sugar
 tile.farmersdelight:gunpowder_bag.name=Bag of Gunpowder
 tile.farmersdelight:cocoabeans_bag.name=Bag of Cocoa Beans

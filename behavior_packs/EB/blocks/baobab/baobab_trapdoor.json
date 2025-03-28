@@ -1,11 +1,11 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:baobab_trapdoor",
 			"menu_category": {
 				"category": "construction",
-				"group": "itemGroup.name.trapdoor"
+				"group": "minecraft:itemGroup.name.trapdoor"
 			},
 			"traits": {
 				"minecraft:placement_position": {

@@ -77,10 +77,9 @@ export class CookingPotRecipe extends RecipeHolder {
                 this.currentTick = -1
             }
         } catch (error) {
-            console.warn(error)
-            console.warn("检测到出错，已自动重载脚本！")
             world.getDimension("overworld").runCommand('reload')
         }
+
 
     }
     private setItem(itemStack: ItemStack, index: number) {

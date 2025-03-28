@@ -5,8 +5,7 @@
 		"description": {
 			"identifier": "korbon:aloe_vera_item",
 			"menu_category": {
-				"category": "nature",
-				"group": "itemGroup.name.grass"
+				"category": "nature"
 			}
 		},
 		"components": {
@@ -20,6 +19,7 @@
 			"minecraft:block_placer": {
 				"block": "korbon:aloe_vera"
 			}
-		}
+		},
+		"events": {}
 	}
 }

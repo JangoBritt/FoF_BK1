@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.70",
   "minecraft:item": {
     "components": {
       "minecraft:food": {
@@ -32,7 +32,7 @@
       "identifier": "farmersdelight:bacon",
       "menu_category": {
         "category": "nature",
-				"group": "minecraft:itemGroup.name.rawFood"
+        "group": "minecraft:itemGroup.name.rawFood"
       }
     }
   }

@@ -14,7 +14,8 @@
 		"components": {
 			"minecraft:geometry": "geometry.m.no_stairs",
 			"tag:medieval_furniture": {},
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/empty.json",
+
 			"minecraft:material_instances": {"*": {"texture": "m.empty","render_method": "alpha_test"}},
 			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": [{"tags": "q.any_tag('m.cherry_triple_saddle_stand')"}]}]},
 			"minecraft:liquid_detection": {

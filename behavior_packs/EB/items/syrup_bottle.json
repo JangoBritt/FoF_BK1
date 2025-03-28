@@ -29,11 +29,6 @@
 				"use_duration": 1.3
 			}
 		},
-		"minecraft:tags": {
-		  "tags": [
-			"oreville:is_drink"
-		  ]
-		},
 		"events": {}
 	}
 }

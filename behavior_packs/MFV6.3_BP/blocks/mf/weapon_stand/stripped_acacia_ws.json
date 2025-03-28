@@ -15,7 +15,8 @@
 			"tag:medieval_furniture": {},
 			"minecraft:geometry": "geometry.m.weapon_stand_right",
 			"minecraft:material_instances": {"*": {"texture": "m.stripped_acacia","render_method": "opaque"},"planks": {"texture": "m.acacia_planks","render_method": "opaque"}},
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/empty.json",
+
 			"minecraft:liquid_detection": {
 				"detection_rules": [
 				  {

@@ -19,7 +19,8 @@
 			"minecraft:material_instances": {"*": {"texture": "m.oak_pendulum_clock","render_method": "alpha_test"}},
 			"minecraft:collision_box": {"origin": [-8,0.0,-8],"size": [16,16,16]},
 			"minecraft:selection_box": {"origin": [-8,0.0,-8],"size": [16,16,16]},
-			"minecraft:loot": "empty",
+			"minecraft:loot": "loot_tables/empty.json",
+
 			"minecraft:light_dampening": 0.0,
 			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
 			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},

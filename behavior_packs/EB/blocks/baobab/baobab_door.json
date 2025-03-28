@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:baobab_door",
@@ -139,9 +139,9 @@
 				"condition": "!q.block_state('korbon:upper_block_bit')",
 				"components": {
 					"minecraft:custom_components": [
-						"korbon:on_place",
-						"korbon:on_interact",
-						"korbon:on_tick"
+						"korbon:baobab_on_place",
+						"korbon:baobab_on_interact",
+						"korbon:baobab_on_tick"
 					],
 					"minecraft:material_instances": {
 						"*": {
@@ -155,8 +155,8 @@
 				"condition": "q.block_state('korbon:upper_block_bit')",
 				"components": {
 					"minecraft:custom_components": [
-						"korbon:on_interact",
-						"korbon:on_tick"
+						"korbon:baobab_on_interact",
+						"korbon:baobab_on_tick"
 					],
 					"minecraft:material_instances": {
 						"*": {
@@ -169,7 +169,7 @@
 		],
 		"components": {
 			"minecraft:custom_components": [
-				"korbon:on_interact"
+				"korbon:baobab_on_interact"
 			],
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 2
@@ -225,7 +225,7 @@
 					"door_closed_flipped": "!q.block_state('korbon:open_bit') && q.block_state('korbon:door_hinge_bit')"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/baobab_door.json",
+			"minecraft:loot": "loot_tables/blocks/empty.json",
 			"tag:minecraft:is_axe_item_destructible": {}
 		},
 		"events": {}

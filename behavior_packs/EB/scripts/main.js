@@ -2,7 +2,7 @@ import "petalFlower"
 import "radialLeafFunction"
 import 'onInteract'
 import 'onTick'
-import 'onPlace'
+import 'doorFunction'
 import 'customSapling'
 import 'doublePlant'
 import 'onPlayerDestroy'

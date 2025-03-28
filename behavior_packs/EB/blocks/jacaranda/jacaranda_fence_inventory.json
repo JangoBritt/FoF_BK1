@@ -1,11 +1,11 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:jacaranda_fence_inventory",
 			"menu_category": {
 				"category": "construction",
-				"group": "itemGroup.name.fence"
+				"group": "minecraft:itemGroup.name.fence"
 			},
 			"states": {
 				"korbon:post": [

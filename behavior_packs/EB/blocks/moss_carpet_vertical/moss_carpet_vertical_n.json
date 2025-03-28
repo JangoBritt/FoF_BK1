@@ -1,6 +1,6 @@
 //bridge-file-version: #116
 {
-	"format_version": "1.21.40",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:moss_carpet_vertical_n",

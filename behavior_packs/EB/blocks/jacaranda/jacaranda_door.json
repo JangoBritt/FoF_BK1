@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "korbon:jacaranda_door",
@@ -225,7 +225,7 @@
 					"door_closed_flipped": "!q.block_state('korbon:open_bit') && q.block_state('korbon:door_hinge_bit')"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/jacaranda_door.json",
+			"minecraft:loot": "loot_tables/blocks/empty.json",
 			"tag:minecraft:is_axe_item_destructible": {}
 		},
 		"events": {}
