@@ -39,7 +39,7 @@
 	{
 		// REQUIRES BETA Manifest updates
 		"pack_id" : "b17755d2-3cc0-424b-89dd-558fc98513f5", //Bedrock Bridge
-		"version" : [ 1, 6, 1 ]
+		"version" : [ 1, 6, 2 ]
 	},
 		
 
