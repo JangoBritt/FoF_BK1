@@ -32,7 +32,7 @@ const allowedCommandTags = ["admin"]
 
 // SLASH COMMAND OPTIONS
 // disable slash commands on the server
-const disableSlashCommands = true; // false
+const disableSlashCommands = false; // false
 
 // players with this tag will be still able to run slash commands
 const allowSlashCommandTags = [];

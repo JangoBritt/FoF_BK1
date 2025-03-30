@@ -76,7 +76,7 @@ bridge.bedrockCommands.registerAdminCommand("addTag", (player, user, role)=>{
             })
             target.addTag("rank:"+colors[settings.roles[role]] + role);
             player.sendMessage("§eTag added.");
-        })
+        })        
     }
     else {
         player.sendMessage("§cWrong command usage. Usage: addTag <username> <tag>\n§r§oNote: tag must be a registered tag");

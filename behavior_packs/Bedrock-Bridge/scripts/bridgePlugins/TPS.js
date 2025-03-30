@@ -12,7 +12,7 @@
  * ideated by Jaso0on
  */
 
-import { system, world, DisplaySlotId, MinecraftDimensionTypes, DimensionTypes } from '@minecraft/server';
+import { system, world, DisplaySlotId, DimensionTypes, Dimension } from '@minecraft/server';
 import { bridge } from '../addons';
 import { bridgeDirect } from "../BridgeDirect";
 
@@ -55,9 +55,9 @@ TPSscoreboard.getParticipants().forEach(p => {
 })
 
 const dimensions = {
-    [MinecraftDimensionTypes.overworld]: world.getDimension(MinecraftDimensionTypes.overworld),
-    [MinecraftDimensionTypes.nether]: world.getDimension(MinecraftDimensionTypes.nether),
-    [MinecraftDimensionTypes.theEnd]: world.getDimension(MinecraftDimensionTypes.theEnd)
+    [DimensionTypes.get("overworld").typeId]: world.getDimension("overworld"),
+    [DimensionTypes.get("nether").typeId]: world.getDimension("nether"),
+    [DimensionTypes.get("the_end").typeId]: world.getDimension("the_end")
 }
 
 function  getCurrentCount(filter){
