@@ -50,5 +50,7 @@
 	"textures/statues/rat_statue_g",
 	"textures/statues/rat_statue_c",
 	"textures/items/treesaw",
-	"textures/items/record_blank"
+	"textures/items/record_blank",
+	"textures/entity/diving_helmet",
+	"textures/entity/mining_helmet"
 ]
