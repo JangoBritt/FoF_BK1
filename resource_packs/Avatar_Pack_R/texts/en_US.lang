@@ -499,7 +499,6 @@ item.fables_avatars:scream_mask_mask=[FoF]Scream Mask
 item.fables_avatars:stereo_glasses_mask=[FoF]3D Glasses
 item.fables_avatars:sunglasses_mask=[FoF]Sunglases
 item.fables_avatars:xwing_helmet_mask=[FoF]X-Wing Helmet
-item.fables_avatars:diving_helmet_mask=[FoF]Diving Helmet
 
 
 action.hint.exit.fables_avatars:acaito333_head=Jump to Exit

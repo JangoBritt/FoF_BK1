@@ -132,3 +132,7 @@ fables:itemGroup.name.medals=Medals
 fables:itemGroup.name.books=Recipe Books
 fables:itemGroup.name.concrete_slabs=Concrete Slabs
 fables:itemGroup.name.concrete_stairs=Concrete Stairs
+
+
+item.fables_avatars:diving_helmet_mask=[FoF]Diving Helmet
+item.fables_avatars:mining_helmet=[FoF]Mining Helmet

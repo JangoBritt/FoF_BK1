@@ -108,6 +108,8 @@
 		},
 		
 		"treesaw": {"textures": "textures/items/treesaw"},
-		"record_blank": {"textures": "textures/items/record_blank"}
+		"record_blank": {"textures": "textures/items/record_blank"},
+		
+		"mining_helmet_item": {"textures": "textures/items/mining_helmet_item"}
 	}
 }
