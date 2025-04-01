@@ -40,7 +40,7 @@
 					},
 					{
 						"items": [
-							"fables_avatars:mining_helmet_mask"
+							"fables_avatars:mining_helmet"
 						],
 						"repair_amount": "context.other->query.remaining_durability + 0.12 * context.other->query.max_durability"
 					}
