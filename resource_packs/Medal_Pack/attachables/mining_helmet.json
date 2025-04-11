@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "fables_avatars:mining_helmet",
 			"materials": {
-				"default": "armor",
+				"default": "slime_outer",
 				"enchanted": "armor_enchanted"
 			},
 			"textures": {
