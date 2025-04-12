@@ -5,7 +5,7 @@
 			"identifier": "fables_avatars:jangoeye_mask",
 			"materials": {
 				"default": "slime_outer",
-				"enchanted": "armor_enchanted"
+				"enchanted": "slime_outer"
 			},
 			"textures": {
 				"default": "textures/avatars/wearables/jangoeye/skin1",
