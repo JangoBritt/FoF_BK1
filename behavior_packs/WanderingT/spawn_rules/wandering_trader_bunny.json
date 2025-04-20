@@ -8,8 +8,8 @@
     "conditions": [
       {
         "minecraft:delay_filter": {
-          "min": 3000,
-          "max": 3060,
+          "min": 600,
+          "max": 660,
           "identifier": "red:wandering_trader_bunny",
           "spawn_chance": 0
         },
@@ -54,8 +54,8 @@
       },
       {
         "minecraft:delay_filter": {
-          "min": 3000,
-          "max": 3060,
+          "min": 600,
+          "max": 660,
           "identifier": "red:wandering_trader_bunny",
           "spawn_chance": 0
         },
