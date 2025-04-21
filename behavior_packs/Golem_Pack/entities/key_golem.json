@@ -53,7 +53,7 @@
         "priority": 0
       },
       "minecraft:loot": {
-        "table": "loot_tables/entities/key.json"
+        "table": "loot_tables/entities/key_golem.json"
       },
       "minecraft:behavior.panic": {
         "priority": 1,

@@ -4,315 +4,53 @@
     {
       "rolls": 1,
       "entries": [
-        {
-          "type": "item",
-          "name": "minecraft:raw_iron",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "set_count",
-              "count":{
-                "max": 12,
-                "min": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:raw_gold",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "set_count",
-              "count":{
-                "max": 8,
-                "min": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count":{
-                "max": 2,
-                "min": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_pickaxe",
-        
-          "weight": 5
-         
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_shovel",
-        
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_hoe",
-        
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_axe",
-        
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_pickaxe",
-        
-          "weight": 2,
-           "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 20,
-                "max": 39
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_shovel",
-        
-          "weight": 2,
-           "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 20,
-                "max": 39
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_hoe",
-        
-          "weight": 2,
-           "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 20,
-                "max": 39
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_axe",
-        
-          "weight": 2,
-           "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 20,
-                "max": 39
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_pickaxe",
-        
-          "weight": 5
-         
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_shovel",
-        
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_hoe",
-        
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_axe",
-        
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_pickaxe",
-        
-          "weight": 3,
-           "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 20,
-                "max": 39
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_shovel",
-        
-          "weight": 3,
-           "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 20,
-                "max": 39
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_hoe",
-        
-          "weight": 3,
-           "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 20,
-                "max": 39
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_axe",
-        
-          "weight": 3,
-           "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 20,
-                "max": 39
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_pickaxe",
-        
-          "weight": 1
-         
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_shovel",
-        
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_hoe",
-        
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_axe",
-        
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_pickaxe",
-        
-          "weight": 1,
-           "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 20,
-                "max": 39
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_shovel",
-        
-          "weight": 1,
-           "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 20,
-                "max": 39
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_hoe",
-        
-          "weight": 1,
-           "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 20,
-                "max": 39
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_axe",
-        
-          "weight": 1,
-           "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 20,
-                "max": 39
-              }
-            }
-          ]
-        }
+        { "type": "item", "name": "minecraft:raw_iron", "weight": 6, "functions": [ { "function": "set_count", "count":{ "max": 12, "min": 6 } } ] },
+        { "type": "item", "name": "minecraft:raw_gold", "weight": 5, "functions": [ { "function": "set_count", "count":{ "max": 8, "min": 3 } } ] },
+        { "type": "item", "name": "minecraft:diamond", "weight": 1, "functions": [ { "function": "set_count", "count":{ "max": 2, "min": 1 } } ] },
+
+        // { "type": "item", "name": "minecraft:iron_pickaxe", "weight": 5 },
+        // { "type": "item", "name": "minecraft:iron_shovel", "weight": 5 },
+        // { "type": "item", "name": "minecraft:iron_hoe", "weight": 5 },
+        // { "type": "item", "name": "minecraft:iron_axe", "weight": 5 },
+        // { "type": "item", "name": "minecraft:iron_pickaxe", "weight": 2, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ] },
+        // { "type": "item", "name": "minecraft:iron_shovel", "weight": 2, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ] },
+        // { "type": "item", "name": "minecraft:iron_hoe", "weight": 2, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ] },
+        // { "type": "item", "name": "minecraft:iron_axe", "weight": 2, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ] },
+
+        { "type": "item", "name": "minecraft:golden_pickaxe", "weight": 5 },
+        { "type": "item", "name": "minecraft:golden_shovel", "weight": 5 },
+        { "type": "item", "name": "minecraft:golden_hoe", "weight": 5 },
+        { "type": "item", "name": "minecraft:golden_axe", "weight": 5 },
+        { "type": "item", "name": "minecraft:golden_pickaxe", "weight": 3, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ] },
+        { "type": "item", "name": "minecraft:golden_shovel", "weight": 3, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ] },
+        { "type": "item", "name": "minecraft:golden_hoe", "weight": 3, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ] },
+        { "type": "item", "name": "minecraft:golden_axe", "weight": 3, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ] },
+
+        { "type": "item", "name": "minecraft:diamond_pickaxe", "weight": 1 },
+        { "type": "item", "name": "minecraft:diamond_shovel", "weight": 1 },
+        { "type": "item", "name": "minecraft:diamond_hoe", "weight": 1 },
+        { "type": "item", "name": "minecraft:diamond_axe", "weight": 1 },
+        { "type": "item", "name": "minecraft:diamond_pickaxe", "weight": 1, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ] },
+        { "type": "item", "name": "minecraft:diamond_shovel", "weight": 1, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ] },
+        { "type": "item", "name": "minecraft:diamond_hoe", "weight": 1, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ] },
+        { "type": "item", "name": "minecraft:diamond_axe", "weight": 1, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ] },
+
+//Fables Loot
+        { "type": "item", "name": "korbon:vibranium", "weight": 5, "functions": [ { "function": "set_count", "count":{ "max": 8, "min": 3 } } ] },
+        { "type": "item", "name": "fables_avatars:mining_helmet", "weight": 1, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ]  },
+        { "type": "item", "name": "fables_avatars:diving_helmet_mask", "weight": 1, "functions": [ { "function": "enchant_with_levels", "treasure": true, "levels": { "min": 20, "max": 39 } } ]  },
+        { "type": "item", "name": "fables_avatars:mining_helmet", "weight": 1 },
+        { "type": "item", "name": "fables_avatars:diving_helmet_mask", "weight": 1 },
+
+        { "type": "item", "name": "fables_misc:goldglass", "weight": 1 },
+        { "type": "item", "name": "korbon:swiftrunner_boots", "weight": 1 },
+        { "type": "item", "name": "minecraft:heavy_core", "weight": 1 },
+        { "type": "item", "name": "fables_misc:rat_statue", "weight": 1 },
+
+//Farmers Delight Loot
+        { "type": "item", "name": "farmersdelight:rope", "weight": 6, "functions": [ { "function": "set_count", "count":{ "max": 12, "min": 6 } } ] },
+        { "type": "item", "name": "farmersdelight:skillet_block", "weight": 1 },
+        { "type": "item", "name": "farmersdelight:cooking_pot", "weight": 1 }
       ]
     }
   ]
