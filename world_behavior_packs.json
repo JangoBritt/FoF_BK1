@@ -5,10 +5,10 @@
 		"version" : [ 1, 0, 0 ]
 	},
 	
-	{
-		"pack_id" : "b2d3458c-ed2c-40b3-bedd-83dbd03d1487", //Alycia's Advancements
-		"version" : [ 2, 3, 0 ]
-	},
+	// {
+	// 	"pack_id" : "b2d3458c-ed2c-40b3-bedd-83dbd03d1487", //Alycia's Advancements
+	// 	"version" : [ 2, 3, 0 ]
+	// },
 	
 	{
 		"pack_id" : "d0131071-9ec1-edcd-6871-857c700703d8", //Farmers Delight
@@ -131,14 +131,14 @@
 		"version": [ 4, 0, 2 ]
 	},
 
-	{
-		"pack_id": "b6b99aa9-40ed-4bfc-b4e4-1858aaa28a75", //Compostables+
-        "version": [1, 0, 2]
-	},
-	{
-		"pack_id": "02eeda7c-5f4d-4c9e-b5e5-217b120cbd1f", //Better Bonemeal
-        "version": [ 1, 0, 0 ]
-	},
+	// {
+	// 	"pack_id": "b6b99aa9-40ed-4bfc-b4e4-1858aaa28a75", //Compostables+
+    //     "version": [1, 0, 2]
+	// },
+	// {
+	// 	"pack_id": "02eeda7c-5f4d-4c9e-b5e5-217b120cbd1f", //Better Bonemeal
+    //     "version": [ 1, 0, 0 ]
+	// },
 	{
 		"pack_id" : "3e941c52-664b-4041-af0f-4fdc299d42bf", //Gauntlets
 		"version" : [ 1, 0, 0 ]
