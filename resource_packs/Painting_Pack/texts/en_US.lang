@@ -11,3 +11,34 @@ entity.fables_painting:painting_shipwreck=§l§3[FoF]§r The Minbfedtinter
 
 item.fables_painting:painting_light_tree=§l§3[FoF]§r Light Tree
 entity.fables_painting:painting_light_tree=§l§3[FoF]§r Light Tree
+
+
+item.fables_painting:painting_clarity1=§l§3[FoF]§r Dark Clarity set (1/10)
+entity.fables_painting:painting_clarity1=§l§3[FoF]§r Painting - Clarity 1
+
+item.fables_painting:painting_clarity2=§l§3[FoF]§r Dark Clarity set (2/10)
+entity.fables_painting:painting_clarity2=§l§3[FoF]§r Painting - Clarity 2
+
+item.fables_painting:painting_clarity3=§l§3[FoF]§r Dark Clarity set (3/10)
+entity.fables_painting:painting_clarity3=§l§3[FoF]§r Painting - Clarity 3
+
+item.fables_painting:painting_clarity4=§l§3[FoF]§r Dark Clarity set (4/10)
+entity.fables_painting:painting_clarity4=§l§3[FoF]§r Painting - Clarity 4
+
+item.fables_painting:painting_clarity5=§l§3[FoF]§r Dark Clarity set (5/10)
+entity.fables_painting:painting_clarity5=§l§3[FoF]§r Painting - Clarity 5
+
+item.fables_painting:painting_clarity6=§l§3[FoF]§r Dark Clarity set (6/10)
+entity.fables_painting:painting_clarity6=§l§3[FoF]§r Painting - Clarity 6
+
+item.fables_painting:painting_clarity7=§l§3[FoF]§r Dark Clarity set (7/10)
+entity.fables_painting:painting_clarity7=§l§3[FoF]§r Painting - Clarity 7
+
+item.fables_painting:painting_clarity8=§l§3[FoF]§r Dark Clarity set (8/10)
+entity.fables_painting:painting_clarity8=§l§3[FoF]§r Painting - Clarity 8
+
+item.fables_painting:painting_clarity9=§l§3[FoF]§r Dark Clarity set (9/10)
+entity.fables_painting:painting_clarity9=§l§3[FoF]§r Painting - Clarity 9
+
+item.fables_painting:painting_clarity0=§l§3[FoF]§r Dark Clarity set (10/10)
+entity.fables_painting:painting_clarity0=§l§3[FoF]§r Painting - Clarity 10

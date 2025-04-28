@@ -10,5 +10,10 @@
 				"entity": "fmh:cat_jellie"
 			}
 		}
+	},
+	"minecraft:tags": {
+		"tags": [
+			"fmh:cat_head"
+		]
 	}
 }

@@ -10,5 +10,10 @@
 				"entity": "fmh:cat_calico"
 			}
 		}
+	},
+	"minecraft:tags": {
+		"tags": [
+			"fmh:cat_head"
+		]
 	}
 }
