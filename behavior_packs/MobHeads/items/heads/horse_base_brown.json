@@ -9,6 +9,11 @@
 			"minecraft:entity_placer": {
 				"entity": "fmh:horse_base_brown"
 			}
+		},
+		"minecraft:tags": {
+			"tags": [
+				"fmh:horse_head"
+			]
 		}
 	}
 }

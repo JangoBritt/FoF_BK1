@@ -1,0 +1,55 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fables_painting:painting_clarity8"
+		},
+		"tags": [
+			"easel"
+		],
+		"pattern": [
+			"BCW",
+			"#H#",
+			"1 3"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:paper"
+			},
+			"H": {
+				"item": "minecraft:brush"
+			},
+			"B": {
+				"item": "minecraft:black_dye"
+			},
+			"C": {
+				"item": "minecraft:cyan_dye"
+			},
+			"W": {
+				"item": "minecraft:white_dye"
+			},
+			"1": {
+				"item": "fof:rat_pelt"
+			},
+			"2": {
+				"item": "minecraft:stick"
+			},
+			"3": {
+				"item": "fof:rat_pelt"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:brush"}
+		],
+        "result": [
+			{
+				"item": "fables_painting:painting_clarity8",
+				"count": 1
+        	},
+			{
+				"item": "minecraft:brush",
+				"count": 1
+			}
+		]
+	}
+}

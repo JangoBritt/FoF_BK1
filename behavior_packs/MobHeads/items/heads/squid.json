@@ -9,6 +9,11 @@
 			"minecraft:entity_placer": {
 				"entity": "fmh:squid"
 			}
+		},
+		"minecraft:tags": {
+			"tags": [
+				"fmh:squid_head"
+			]
 		}
 	}
 }

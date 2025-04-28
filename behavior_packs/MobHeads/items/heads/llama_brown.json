@@ -9,6 +9,11 @@
 			"minecraft:entity_placer": {
 				"entity": "fmh:llama_brown"
 			}
+		},
+		"minecraft:tags": {
+			"tags": [
+				"fmh:llama_head"
+			]
 		}
 	}
 }
