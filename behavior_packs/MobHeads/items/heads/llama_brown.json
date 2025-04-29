@@ -8,12 +8,13 @@
             "minecraft:icon": "fmh_llama_brown_item", 
 			"minecraft:entity_placer": {
 				"entity": "fmh:llama_brown"
+			},
+
+			"minecraft:tags": {
+				"tags": [
+					"fmh:llama_head"
+				]
 			}
-		},
-		"minecraft:tags": {
-			"tags": [
-				"fmh:llama_head"
-			]
 		}
 	}
 }

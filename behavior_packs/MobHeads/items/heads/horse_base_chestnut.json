@@ -8,12 +8,13 @@
             "minecraft:icon": "fmh_horse_base_chestnut_item", 
 			"minecraft:entity_placer": {
 				"entity": "fmh:horse_base_chestnut"
+			},
+
+			"minecraft:tags": {
+				"tags": [
+					"fmh:horse_head"
+				]
 			}
-		},
-		"minecraft:tags": {
-			"tags": [
-				"fmh:horse_head"
-			]
 		}
 	}
 }

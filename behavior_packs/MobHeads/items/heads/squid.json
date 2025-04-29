@@ -8,12 +8,13 @@
             "minecraft:icon": "fmh_squid_item", 
 			"minecraft:entity_placer": {
 				"entity": "fmh:squid"
+			},
+
+			"minecraft:tags": {
+				"tags": [
+					"fmh:squid_head"
+				]
 			}
-		},
-		"minecraft:tags": {
-			"tags": [
-				"fmh:squid_head"
-			]
 		}
 	}
 }
