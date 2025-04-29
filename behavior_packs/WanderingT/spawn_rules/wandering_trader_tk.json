@@ -8,8 +8,8 @@
     "conditions": [
       {
         "minecraft:delay_filter": {
-          "min": 1800,
-          "max": 2400,
+          "min": 600,
+          "max": 660,
           "identifier": "red:wandering_trader_tk",
           "spawn_chance": 25
         },

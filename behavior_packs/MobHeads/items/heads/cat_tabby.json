@@ -8,12 +8,13 @@
             "minecraft:icon": "fmh_cat_tabby_item", 
 			"minecraft:entity_placer": {
 				"entity": "fmh:cat_tabby"
+			},
+
+			"minecraft:tags": {
+				"tags": [
+					"fmh:cat_head"
+				]
 			}
-		},
-		"minecraft:tags": {
-			"tags": [
-				"fmh:cat_head"
-			]
 		}
 	}
 }

@@ -8,12 +8,13 @@
             "minecraft:icon": "fmh_sheep_pink_item", 
 			"minecraft:entity_placer": {
 				"entity": "fmh:sheep_pink"
+			},
+
+			"minecraft:tags": {
+				"tags": [
+					"fmh:sheep_head"
+				]
 			}
-		},
-		"minecraft:tags": {
-			"tags": [
-				"fmh:sheep_head"
-			]
 		}
 	}
 }

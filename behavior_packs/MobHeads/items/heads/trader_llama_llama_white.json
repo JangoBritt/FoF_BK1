@@ -8,12 +8,13 @@
             "minecraft:icon": "fmh_trader_llama_llama_white_item", 
 			"minecraft:entity_placer": {
 				"entity": "fmh:trader_llama_llama_white"
+			},
+
+			"minecraft:tags": {
+				"tags": [
+					"fmh:llama_head"
+				]
 			}
-		},
-		"minecraft:tags": {
-			"tags": [
-				"fmh:llama_head"
-			]
 		}
 	}
 }
