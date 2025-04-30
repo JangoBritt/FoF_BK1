@@ -55,7 +55,7 @@
             },
             "minecraft:timer": {
                 "looping": false,
-                "time": 0.01,
+                "time": 1,
                 "time_down_event": {
                     "event": "despawn"
                 }

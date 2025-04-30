@@ -417,8 +417,8 @@
 					"search_range": 25,
 					"search_height": 25,
 					"tick_interval": 1.0,
-					"stay_duration": 2,
-					"goal_radius": 0.2,
+					"stay_duration": 6,
+					"goal_radius": 0.01,
 					"target_selection_method": "nearest",
 					"target_blocks": [
 						"wooden_button",
@@ -428,7 +428,8 @@
 						"spruce_button",
 						"jungle_button",
 						"acacia_button",
-						"dark_oak_button"
+						"dark_oak_button",
+						"pale_oak_button"
 					],
 					"on_reach": [
 						{
@@ -443,8 +444,8 @@
 					"search_range": 1,
 					"search_height": 1,
 					"tick_interval": 1.0,
-					"stay_duration": 2,
-					"goal_radius": 0.2,
+					"stay_duration": 5,
+					"goal_radius": 0.01,
 					"target_selection_method": "nearest",
 					"target_blocks": [
 						"wooden_button",
@@ -454,7 +455,8 @@
 						"spruce_button",
 						"jungle_button",
 						"acacia_button",
-						"dark_oak_button"
+						"dark_oak_button",
+						"pale_oak_button"
 					],
 					"on_reach": [
 						{
@@ -466,7 +468,7 @@
 			"fables_golem:button_press_timer": {
 				"minecraft:timer": {
 					"looping": false,
-					"time": 0.68,
+					"time": 1.68,
 					"time_down_event": {
 						"event": "fables_golem:button_press_timer_done"
 					}
@@ -475,7 +477,7 @@
 			"fables_golem:button_press_timer2": {
 				"minecraft:timer": {
 					"looping": false,
-					"time": 0.95,
+					"time": 1.95,
 					"time_down_event": {
 						"event": "fables_golem:button_press_timer_done2"
 					}
@@ -498,7 +500,8 @@
 						"spruce_button",
 						"jungle_button",
 						"acacia_button",
-						"dark_oak_button"
+						"dark_oak_button",
+						"pale_oak_button"
 					]
 				},
 				"minecraft:timer": {
@@ -649,7 +652,7 @@
 				"default_block_cost": 50,
 				"preferred_path_blocks": [
 					{
-						"cost": 1,
+						"cost": 0,
 						"blocks": [
 							"waxed_oxidized_chiseled_copper",
 							"waxed_oxidized_copper",
@@ -817,8 +820,8 @@
 						"weight": 1,
 						"queue_command": {
 							"command": [
-								"execute as @s[tag=!copper_golem_sitting] at @s run event entity @s fables_golem:button_ready",
-								"execute as @s[tag=copper_golem_sitting] at @s run event entity @s fables_golem:button_ready2"
+								"event entity @s[tag=!copper_golem_sitting] fables_golem:button_ready",
+								"event entity @s[tag=copper_golem_sitting] fables_golem:button_ready2"
 							]
 						},
 						"remove": {
@@ -848,7 +851,7 @@
 				},
 				"queue_command": {
 					"command": [
-						"tag @s add normal_copper_golem"
+						"tag @s add/ normal_copper_golem"
 					]
 				}
 			},
@@ -860,7 +863,8 @@
 				},
 				"add": {
 					"component_groups": [
-						"fables_golem:copper_golem_tame"
+						"fables_golem:copper_golem_tame",
+						"fables_golem:button_ready"
 					]
 				},
 				"queue_command": {
@@ -878,10 +882,10 @@
 				},
 				"queue_command": {
 					"command": [
-						"execute at @s as @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.button_press a 999 query.is_alive a",
-						"execute at @s as @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.button_press_head a 999 query.is_alive",
-						"execute at @s as @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.button_press2 a 999 query.is_alive a",
-						"execute at @s as @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.button_press_head2 a 999 query.is_alive"
+						"playanimation @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] animation.copper_golem.button_press a 999 query.is_alive a",
+						"playanimation @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] animation.copper_golem.button_press_head a 999 query.is_alive",
+						"playanimation @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] animation.copper_golem.button_press2 a 999 query.is_alive a",
+						"playanimation @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] animation.copper_golem.button_press_head2 a 999 query.is_alive"
 					]
 				}
 			},
@@ -894,7 +898,7 @@
 				"queue_command": {
 					"command": [
 						"event entity @s fables_golem:button_refresh_start",
-						"execute at @s as @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.arms a 1 a a"
+						"playanimation @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] animation.copper_golem.arms a 1 a a"
 					]
 				}
 			},
@@ -911,7 +915,7 @@
 				},
 				"queue_command": {
 					"command": [
-						"execute at @s as @s[tag=!oxidized_copper_golem] run summon fables_golem:golem_button_press ~~~"
+						"summon fables_golem:golem_button_press ~~~"
 					]
 				}
 			},
@@ -1011,7 +1015,7 @@
 					"command": [
 						"tag @s remove exposed_copper_golem",
 						"tag @s add normal_copper_golem",
-						"execute at @s as @s run particle fables_golem:wax_particle ~~0.5~",
+						"particle fables_golem:wax_particle ~~0.5~",
 						"effect @s slowness 1 255 true",
 						"playsound scrape @a[r=10]"
 					]
@@ -1032,7 +1036,7 @@
 					"command": [
 						"tag @s remove weathered_copper_golem",
 						"tag @s add exposed_copper_golem",
-						"execute as @s at @s run particle fables_golem:wax_particle ~~0.5~",
+						"particle fables_golem:wax_particle ~~0.5~",
 						"effect @s slowness 1 255 true",
 						"playsound scrape @a[r=10]"
 					]
@@ -1054,7 +1058,7 @@
 					"command": [
 						"tag @s remove oxidized_copper_golem",
 						"tag @s add weathered_copper_golem",
-						"execute at @s as @s run particle fables_golem:wax_particle ~~0.5~",
+						"particle fables_golem:wax_particle ~~0.5~",
 						"effect @s slowness 1 255 true",
 						"playsound scrape @a[r=10]"
 					]
