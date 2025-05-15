@@ -44,7 +44,7 @@
               "name": "minecraft:itemGroup.name.cookedFood"
             },
             "items": [
-              "nicothekid:cooked_rat"
+              "nicothekid:rat_cooked"
             ]
           },
           { // Staffs:
@@ -120,7 +120,7 @@
               "name": "minecraft:itemGroup.name.rawFood"
             },
             "items": [
-              "nicothekid:raw_rat"
+              "nicothekid:rat_raw"
             ]
           },
           {
