@@ -1,6 +1,6 @@
 // Nico's More Dungeon: breakable_blocks
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.60",
   "minecraft:entity": {
     "description": {
       "identifier": "nicothekid:brute_zombie",
@@ -35,10 +35,11 @@
       "minecraft:type_family": {
         "family": [
           "brute_zombie",
-          "boss",
           "zombie",
           "undead",
+          "humanoid",
           "monster",
+          "boss",
           "mob"
         ]
       },
@@ -77,7 +78,9 @@
           "minecraft:bubble_coral",
           "minecraft:bubble_coral_fan",
           "minecraft:bubble_coral_wall_fan",
+          "minecraft:bush",
           "minecraft:cactus",
+          "minecraft:cactus_flower",
           "minecraft:carrots",
           "minecraft:carved_pumpkin",
           "minecraft:cave_vines",
@@ -116,6 +119,7 @@
           "minecraft:fire_coral",
           "minecraft:fire_coral_fan",
           "minecraft:fire_coral_wall_fan",
+          "minecraft:firefly_bush",
           "minecraft:flower_pot",
           "minecraft:flowering_azalea",
           "minecraft:frog_spawn",
@@ -129,6 +133,7 @@
           "minecraft:kelp",
           "minecraft:large_amethyst_bud",
           "minecraft:large_fern",
+          "minecraft:leaf_litter",
           "minecraft:lilac",
           "minecraft:lily_of_the_valley",
           "minecraft:lit_pumpkin",
@@ -168,6 +173,7 @@
           "minecraft:sculk_vein",
           "minecraft:sea_pickle",
           "minecraft:seagrass",
+          "minecraft:short_dry_grass",
           "minecraft:short_grass",
           "minecraft:small_amethyst_bud",
           "minecraft:small_dripleaf_block",
@@ -179,6 +185,7 @@
           "minecraft:soul_torch",
           "minecraft:sunflower",
           "minecraft:sweet_berry_bush",
+          "minecraft:tall_dry_grass",
           "minecraft:tall_grass",
           "minecraft:torch",
           "minecraft:torchflower",
@@ -197,6 +204,7 @@
           "minecraft:weeping_vines",
           "minecraft:wheat",
           "minecraft:white_tulip",
+          "minecraft:wildflowers",
           "minecraft:wither_rose"
         ]
       },
@@ -214,7 +222,7 @@
         "triggers": [
           {
             "cause": "fall",
-            "deals_damage": true,
+            "deals_damage": "yes",
 						"damage_modifier": 0.0,
 						"damage_multiplier": 1.0,
 						"on_damage_sound_event": "hurt",

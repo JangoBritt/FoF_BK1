@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.10",
+  "format_version": "1.21.60",
   "minecraft:entity": {
     "description": {
       "identifier": "nicothekid:projectile_curse_magic_missile_2",
@@ -17,17 +17,19 @@
     },
     "components": {
       "minecraft:collision_box": {
-        "height": 0.25,
-        "width": 0.25
+        "height": 0.7,
+        "width": 0.7
       },
       "minecraft:fire_immune": {},
       "minecraft:scale": {
-        "value": 0.65
+        "value": 0.7
       },
       "minecraft:type_family": {
         "family": [
           "curse_magic_missile",
           "magic_missile",
+          "magical_scourge_2",
+          "spirit_piercer",
           "projectile",
           "inanimate"
         ]
@@ -63,19 +65,34 @@
 				"filters": {},
 				"on_hit": {
           "impact_damage": {
-            "damage": 18,
+            "damage": 9,
             "catch_fire": false,
-            "destroy_on_hit": true,
+            "destroy_on_hit": false,
             "knockback": true,
             "should_bounce": false,
             "semi_random_diff_damage": false
-          }
+          },
           /*"particle_on_hit": {
             "particle_type": "nicothekid:curse_magic_missile_impact_particle",
             "num_particles": 25,
             "on_entity_hit": true,
             "on_other_hit": true
           }*/
+          "stick_in_ground": {
+						"shake_time": 0.01
+					},
+          //"remove_on_hit": {},
+          "definition_event": {
+						"affect_projectile": true,
+						"affect_shooter": false,
+						"affect_target": false,
+						"affect_splash_area": false,
+						"event_trigger": {
+							"event": "event:on_hit",
+							"target": "self",
+							"filters": {}
+						}
+					}
         }
       },
       "minecraft:pushable": {
@@ -87,8 +104,8 @@
         "looping": false,
         "randomInterval": true,
         "random_time_choices": [
-          { "weight": 100, "value": 2.4 },
-          { "weight": 100, "value": 2.4 }
+          { "weight": 100, "value": 2.8 },
+          { "weight": 100, "value": 2.8 }
         ],
         "time_down_event": {
           "event": "event:on_timer_down",
@@ -104,13 +121,39 @@
       }
     },
     "events": {
+      "minecraft:entity_spawned": {
+        "queue_command": {
+          "command": [
+            "playsound ominous_item_spawner.spawn_item_begin @a[r=16] ~ ~ ~ 1.0 1.0 0.5"
+          ]
+        }
+      },
+      "event:on_hit": {
+        "sequence": [
+          {
+            "queue_command": {
+              "command": [
+                "playsound step.powder_snow @a[r=12] ~ ~ ~ 1.0 1.3 0.5",
+                "particle nicothekid:curse_magic_missile_2_impact_particle ~ ~ ~",
+                "damage @e[r=3] 4 projectile entity @s"
+              ]
+            },
+            "add": {
+              "component_groups": [
+                "component:projectile_despawn"
+              ]
+            }
+          }
+        ]
+      },
 		  "event:on_timer_down": {
 				"sequence": [
           {
             "queue_command": {
               "command": [
-                "playsound step.powder_snow @p[r=8] ~ ~ ~ 1.0 1.3 1.0",
-                "particle nicothekid:curse_magic_missile_impact_particle ~ ~ ~"
+                "playsound step.powder_snow @a[r=12] ~ ~ ~ 1.0 1.3 0.5",
+                "particle nicothekid:curse_magic_missile_2_impact_particle ~ ~ ~",
+                "damage @e[r=3] 4 projectile entity @s"
               ]
             },
             "add": {

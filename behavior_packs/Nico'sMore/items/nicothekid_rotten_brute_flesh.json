@@ -1,17 +1,18 @@
 {
-  "format_version": "1.21.40",
+  "format_version": "1.21.60",
   "minecraft:item": {
     "description": {
       "identifier": "nicothekid:rotten_brute_flesh",
       "menu_category": {
         "category": "nature",
-        "group": "nature"
+        "group": "minecraft:nature"
       }
     },
     "components": {
       "minecraft:display_name": {
 				"value": "%item.nicothekid.rotten_brute_flesh.name"
 			},
+			"minecraft:rarity": "common",
       "minecraft:icon": {
 				"textures": {
           "default": "nicothekid_rotten_brute_flesh"  
@@ -58,10 +59,10 @@
       ],
       "minecraft:tags": {
         "tags": [
-          "rotten_brute_flesh",
-          "flesh",
-          "food",
-          "nicothekid_items",
+          "nicothekid:rotten_brute_flesh",
+          "nicothekid:flesh",
+          "nicothekid:food",
+          "nicothekid:items",
           "minecraft:is_meat",
           "minecraft:is_food"
         ]

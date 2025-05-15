@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Mossheep"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #51",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #51§r\n§lMossheep§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Medium mammal, Nature-elemental, Animal.\n•§lSpawns in§r: Mossy Forest, Swampland.\n•§lHealth§r: 8\n•§lWalk speed§r: 0.25",
+                "•§lBreathes in§r: Air\n•§lTempted by§r: Mossy Willow Sapling\n•§lBred by§r: Mossy Willow Sapling\n•§lAged by§r: Mossy Willow Sapling\n•§lPossible drops§r: Moss Block, Raw Mutton, XP Orbs.\n•Mossed Adult Mossheep can produce a §lMoss Block§r,",
+                "when interacted with using Shears.\n•Can eat a Moss Block, Moss Carpet, Pale Moss Block, Pale Moss Carpet, and Moss Sprouts beneath them, and it will restore their sheared moss on their body.",
+                
+                "§lDescription§r:\n \n§‘The Mossheep is a gentle, moss-covered creature that roams the damp environments of Mossy Forests and Swamplands. This passive, nature-infused animal thrives on mossy vegetation and is especially fond of Mossy Willow Saplings.",
+                "When sheared, it yields Moss Blocks and can regrow its moss by grazing on mossy terrain. Both mystical and earthy, the Mossheep adds a lush touch of life to any wild, green landscape.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Red Mushlings"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #3",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #3§r\n§lRed Mushlings§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Mushling, Myconid, Nature-elemental, Magical\n•§lSpawns in§r: Forest, Birch Forest, Dark Forest, Pale Garden, Taiga,",
+                " \nSwamp, Mushroom Fields, Mushroom Cave.\n•§lHealth§r: 12 §o(Wild)§r | 22 §o(Tamed)§r\n•§lWalk speed§r: 0.25 \n•§lBreathes in§r: Air\n•§lTempted by§r: Azalea, Flowering Azalea.\n•§lHealed by§r: Azalea, Flowering Azalea.",
+                "•§lBreed with§r: Azalea\n•§lAging by§r: Azalea, Flowering Azalea.\n•§lTamed by§r: Flowering Azalea\n•§lPossible drops§r: Red Mushroom, XP Orbs.\n•They can release a §lWeakness Effect§r around themselves after being hit.\n•They can sleep",
+                "during the day.\n•Wild Mushling can randomly sit.\n•Tamed Mushling can be sat down.\n•Tamed Adult Red Mushling can randomly spawn a §lRed Mushroom§r.\n•They can slowly regenerate their health when they sit or sleep.",
+                "§lDescription§r:\n§‘Gentle creatures born from the magic of nature, Red Mushlings are small myconid beings found in forests and mushroom caves. Drawn to the scent of Azaleas, they can be tamed and healed with Flowering Azaleas, becoming loyal companions.",
+                "§‘Though usually peaceful, a threatened Mushling releases a Weakness Effect to ward off attackers. In the wild, they often doze under the sun, slowly restoring their health. When tamed, they can occasionally produce Red Mushrooms as a gift for their owner."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

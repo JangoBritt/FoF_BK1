@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:short_grass",
           "functions": [
@@ -15,7 +15,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:fern",
           "functions": [
@@ -26,7 +26,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:tall_grass",
           "functions": [
@@ -37,9 +37,31 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:large_fern",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "minecraft:short_dry_grass",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "minecraft:tall_dry_grass",
           "functions": [
             {
               "function": "set_count",
@@ -257,6 +279,50 @@
           ]
         },
         {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:closed_eyeblossom",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:open_eyeblossom",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "minecraft:cactus_flower",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:wildflowers",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
           "weight": 100,
           "type": "item",
           "name": "minecraft:oak_sapling",
@@ -323,7 +389,7 @@
           ]
         },
         {
-          "weight": 100,
+          "weight": 25,
           "type": "item",
           "name": "minecraft:mangrove_propagule",
           "functions": [
@@ -334,7 +400,7 @@
           ]
         },
         {
-          "weight": 50,
+          "weight": 25,
           "type": "item",
           "name": "minecraft:cherry_sapling",
           "functions": [
@@ -345,7 +411,7 @@
           ]
         },
         {
-          "weight": 50,
+          "weight": 25,
           "type": "item",
           "name": "minecraft:azalea",
           "functions": [
@@ -356,9 +422,20 @@
           ]
         },
         {
-          "weight": 50,
+          "weight": 25,
           "type": "item",
           "name": "minecraft:flowering_azalea",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:pale_oak_sapling",
           "functions": [
             {
               "function": "set_count",
@@ -411,6 +488,17 @@
           ]
         },
         {
+          "weight": 25,
+          "type": "item",
+          "name": "minecraft:bush",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
           "weight": 50,
           "type": "item",
           "name": "minecraft:cactus",
@@ -433,7 +521,18 @@
           ]
         },
         {
-          "weight": 50,
+          "weight": 10,
+          "type": "item",
+          "name": "minecraft:firefly_bush",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 10,
           "type": "item",
           "name": "minecraft:glow_lichen",
           "functions": [
@@ -444,7 +543,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:hanging_roots",
           "functions": [
@@ -466,9 +565,42 @@
           ]
         },
         {
+          "weight": 10,
+          "type": "item",
+          "name": "minecraft:leaf_litter",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
           "weight": 25,
           "type": "item",
           "name": "minecraft:moss_carpet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "minecraft:pale_hanging_moss",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "minecraft:pale_moss_carpet",
           "functions": [
             {
               "function": "set_count",
@@ -488,7 +620,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:seagrass",
           "functions": [
@@ -499,7 +631,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:small_dripleaf_block",
           "functions": [
@@ -510,7 +642,7 @@
           ]
         },
         {
-          "weight": 15,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:spore_blossom",
           "functions": [

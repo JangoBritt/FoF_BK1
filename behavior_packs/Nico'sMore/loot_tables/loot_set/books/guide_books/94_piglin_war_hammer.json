@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Piglin War Hammer"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #94",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #94§r\n§lPiglin War Hammer§r\n§8ITEM§r\n \n•§lRarity§r: Rare\n•§lDropped by§r: Piglin Chief\n•§lCraftable§r: NO\n•§lStackable§r: 1\n•§lDurability§r: 256\n•§lMining Speed§r: 0\n•§lMelee Damage§r: 20",
+                "•§lMelee Effect§r: Earth Bane III\n•Added effects to user after a hit: Weakness V §o(0:04)§r, Slowness III §o(0:04)§r.\n•§lEnchantable§r: YES\n•§lRepairable with§r: Piglin War Hammer"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

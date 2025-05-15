@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Effect Scrolls 1"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #110",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #110§r\n§lEffect Scrolls 1§r\n§8ITEMS§r\n \n•Scroll of Cleansing I\n•Scroll of Cleansing II\n•Scroll of Cleansing III\n•Scroll of Purification I\n•Scroll of Purification II\n•Scroll of Purification III",
+                "•Scroll of Regeneration I\n•Scroll of Regeneration II\n•Scroll of Regeneration III\n•Scroll of Protection I\n•Scroll of Protection II\n•Scroll of Protection III\n•Scroll of Fire Protection I\n•Scroll of Fire Protection II",
+                "•Scroll of Fire Protection III\n•Scroll of Invisibility I\n•Scroll of Invisibility II\n•Scroll of Invisibility III\n•Scroll of Acceleration I\n•Scroll of Acceleration II\n•Scroll of Acceleration III",
+                
+                "§lScroll of Cleansing I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Removes all effects from all types of mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Cleansing II",
+                
+                "§lScroll of Cleansing II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Removes all effects from all types of mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Cleansing III",
+                
+                "§lScroll of Cleansing III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Removes all effects from all types of mobs within a 12-block radius.",
+                
+                "§lScroll of Purification I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Removes all negative effects from all types of mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Purification II",
+                
+                "§lScroll of Purification II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Removes all negative effects from all types of mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Purification III",
+                
+                "§lScroll of Purification III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Removes all negative effects from all types of mobs within a 12-block radius.",
+                
+                "§lScroll of Regeneration I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Regeneration II (6:00) to all non-monster-type mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Regeneration II",
+                
+                "§lScroll of Regeneration II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Regeneration III (8:00) to all non-monster-type mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Regeneration III",
+                
+                "§lScroll of Regeneration III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Regeneration III (10:00) to all non-monster-type mobs within a 12-block radius.",
+                
+                "§lScroll of Protection I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Resistance II (6:00) to all non-monster-type mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Protection II",
+                
+                "§lScroll of Protection II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Resistance III (8:00) to all non-monster-type mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Protection III",
+                
+                "§lScroll of Protection III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Resistance III (10:00) to all non-monster-type mobs within a 12-block radius.",
+                
+                "§lScroll of Fire Protection I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Fire Resistance (6:00) to all non-monster-type mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Fire Protection II",
+                
+                "§lScroll of Fire Protection II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Fire Resistance (8:00) to all non-monster-type mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Fire Protection III",
+                
+                "§lScroll of Fire Protection III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Fire Resistance (10:00) to all non-monster-type mobs within a 12-block radius.",
+                
+                "§lScroll of Invisibility I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Invisibility (6:00) to all non-monster-type mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Invisibility II",
+                
+                "§lScroll of Invisibility II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Invisibility (8:00) to all non-monster-type mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Invisibility III",
+                
+                "§lScroll of Invisibility III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Invisibility (10:00) to all non-monster-type mobs within a 12-block radius.",
+                
+                "§lScroll of Acceleration I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Speed II (6:00) and Jump Boost (6:00) to all non-monster-type mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Acceleration II",
+                
+                "§lScroll of Acceleration II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Speed II (8:00) and Jump Boost (8:00) to all non-monster-type mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Acceleration III",
+                
+                "§lScroll of Acceleration III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Speed II (10:00) and Jump Boost (10:00) to all non-monster-type mobs within a 12-block radius."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

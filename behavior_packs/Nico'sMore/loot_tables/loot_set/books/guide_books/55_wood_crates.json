@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Wood Crates"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #55",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #55§r\n§lWood Crates§r\n§8BLOCKS§r\n \n•Oak Wood Crate\n•Spruce Wood Crate\n•Birch Wood Crate\n•Jungle Wood Crate\n•Acacia Wood Crate\n•Dark Oak Wood Crate\n•Mangrove Wood Crate\n•Cherry Wood Crate\n•Pale Oak Wood Crate",
+                "•Bamboo Wood Crate\n•Crimson Hyphae Crate\n•Warped Hyphae Crate",
+                
+                "§lOak Wood Crate§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Plains, Forest, Windswept Hills, Beach, Stony Shore, Mushroom Fields surfaces.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64",
+                "•§lBlast Resistance§r: 15.0\n•§lHardness§r: 2.0\n•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Oak Wood Crate\n•§lCan be opened using§r: Flint Axe",
+                
+                "§lSpruce Wood Crate§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Snowy Plains, Windswept Forest, Taiga, Snowy Taiga, Grove, Snowy Slopes, Snowy Beach surfaces.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO",
+                "•§lStackable§r: 64\n•§lBlast Resistance§r: 15.0\n•§lHardness§r: 2.0\n•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Spruce Wood Crate\n•§lCan be opened using§r: Flint Axe",
+                
+                "§lBirch Wood Crate§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Flower Forest, Birch Forest, Meadow surfaces.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 15.0",
+                "•§lHardness§r: 2.0\n•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Birch Wood Crate\n•§lCan be opened using§r: Flint Axe",
+                
+                "§lJungle Wood Crate§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Jungle, Overgrown Jungle surfaces.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 15.0",
+                "•§lHardness§r: 2.0\n•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Jungle Wood Crate\n•§lCan be opened using§r: Flint Axe",
+                 
+                "§lAcacia Wood Crate§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Savanna, Badlands surfaces.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 15.0\n•§lHardness§r: 2.0",
+                "•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Acacia Wood Crate\n•§lCan be opened using§r: Flint Axe",
+                
+                "§lDark Oak Wood Crate§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Dark Forest, Swamp, Corrupted Forest surfaces.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 15.0",
+                "•§lHardness§r: 2.0\n•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Dark Oak Wood Crate\n•§lCan be opened using§r: Flint Axe",
+                 
+                "§lMangrove Wood Crate§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Swamp, Mangrove Swamp surfaces.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 15.0",
+                "•§lHardness§r: 2.0\n•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Mangrove Wood Crate\n•§lCan be opened using§r: Flint Axe",
+                
+                "§lCherry Wood Crate§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Cherry Grove surfaces.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 15.0\n•§lHardness§r: 2.0",
+                "•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Cherry Wood Crate\n•§lCan be opened using§r: Flint Axe",
+                
+                "§lPale Oak Wood Crate§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Pale Garden surfaces.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 15.0\n•§lHardness§r: 2.0",
+                "•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Pale Oak Wood Crate\n•§lCan be opened using§r: Flint Axe",
+                
+                "§lBamboo Crate§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Bamboo Jungle surfaces.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 15.0\n•§lHardness§r: 2.0",
+                "•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Bamboo Wood Crate\n•§lCan be opened using§r: Flint Axe",
+                
+                "§lCrimson Crate§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Crimson Forest.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 15.0\n•§lHardness§r: 2.0",
+                "•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Crimson Wood Crate\n•§lCan be opened using§r: Flint Axe",
+                
+                "§lWarped Crate§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Warped Forest.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 15.0\n•§lHardness§r: 2.0",
+                "•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Warped Wood Crate\n•§lCan be opened using§r: Flint Axe"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

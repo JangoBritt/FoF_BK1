@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Nether Wisp"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #90",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #90§r\n§lNether Wisp§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Wisp, Fire-elemental, Spirit, Aerial.\n•§lSpawns in§r: All nether biomes.\n•§lHealth§r: 12\n•§lFly speed§r: 0.15",
+                "•§lImmune to§r: Physical Damage, Fire.\n•§lBreathes in§r: Air, Lava.\n•§lTempted by§r: Fire Feather\n•§lPossible drops§r: Blaze Powder, XP Orbs.\n•Can be magical charged.\n•Can be interacted with a §lFire Feather§r to turn it",
+                "into §lBlaze Powder§r.\n•Charged Nether Wisp can produce a §lFire Resistance Potion§r, when interacted with using a §lGlass Bottle§r.\n•Uncharged Nether Wisp will become charged again after 5 minutes.\n•It takes damage when in contact with water",
+                "or when it rains.\n•Can transform into a §lNether Soul Wisp§r when interacting with Soul Fire, Soul Sand, or a Soul Campfire."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

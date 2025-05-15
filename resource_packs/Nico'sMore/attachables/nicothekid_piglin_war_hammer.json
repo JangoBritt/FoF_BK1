@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "nicothekid:piglin_war_hammer",
+      "item": {
+				"nicothekid:piglin_war_hammer": "query.get_equipped_item_name('main_hand') == 'piglin_war_hammer'"
+			},
+      "render_controllers": [
+        "controller.render.item.nicothekid_piglin_war_hammer"
+      ],
+      "geometry": {
+        "default": "geometry.item.nicothekid_piglin_war_hammer"
+      },
+      "materials": {
+        "default": "nicothekid_item_hammer",
+        "enchanted": "nicothekid_item_hammer"
+      },
+      "textures": {
+        "default": "textures/models/ntk_piglin_war_hammer",
+        "enchanted": "textures/models/ntk_piglin_war_hammer"
+      },
+      "animations": {
+        "controller_wield": "controller.animation.item.nicothekid_piglin_war_hammer.wield",
+        "remodel_animation": "animation.item.nicothekid_piglin_war_hammer.remodel_animation",
+        "wield_first_person": "animation.item.nicothekid_piglin_war_hammer.wield_first_person",
+        "wield_third_person": "animation.item.nicothekid_piglin_war_hammer.wield_third_person"
+      },
+      "scripts": {
+        "should_update_bones_and_effects_offscreen": true,
+        "animate": [
+          "controller_wield",
+          "remodel_animation"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Grafting Table"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #47",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #47§r\n§lGrafting Table§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lFound naturally§r: NO\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•§lBlast Resistance§r: 45.0",
+                "•§lHardness§r: 2.0\n•§lLuminous§r: 8\n•§lFlammable§r: NO\n•§lMining Tool§r: Pickaxe\n•§lDrops on breaking§r: Grafting Table\n•Can be activated using an §lHanging Roots§r for 5-6 minutes.\n•The Grafting Table is a crafting table that",
+                "requires an activation material to function. It is specialized for expanding plant crafting and creating new types of plants.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

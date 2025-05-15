@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Equipment Effects"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #118",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #118§r\n§lEquipment Effects§r\n§8MISCELLANEOUS§r\n \n•Water Aspect\n•Magical Scourge\n•Spirit Piercer\n•Earth Bane",
+                
+                "§lWater Aspect§r\n§8WEAPON EFFECT§r\n \n•Weapons with this effect deal an extra 2 damage per level to fire-elemental-type mobs and mobs that take damage in water, and can also extinguish fire on mobs.\n \nThe following items have these effects:",
+                "•§lStaff of the Sea§r",
+                
+                "§lMagical Scourge§r\n§8WEAPON EFFECT§r\n \n•Weapons with this effect deal an extra 2 damage per level to magical-type mobs.\n \nThe following items have these effects:\n•§lPowder Staff§r\n•§lCurserer Staff§r",
+                
+                "§lSpirit Piercer§r\n§8WEAPON EFFECT§r\n \n•Weapons with this effect can damage spirit-type mobs with physical immunity.\n \nThe following items have these effects:\n•§lBone Dagger§r\n•§lPowder Staff§r\n•§lCurserer Staff§r",
+                "•§lStaff of the Sea§r",
+                
+                "§lEarth Bane§r\n§8WEAPON EFFECT§r\n \n•Weapons with this effect deal an extra 2 damage per level to earth-elemental-type mobs.\n \nThe following items have these effects:\n•§lPiglin War Hammer§r"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Raven"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #80",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #80§r\n§lRaven§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Small bird, Animal, Aerial.\n•§lSpawns in§r: Plains, Snowy Plains, Ice Spikes, Forest, Flower Forest, Birch Forest, Dark Forest,",
+                "Pale Garden, Windswept Forest, Taiga, Snowy Taiga, Swamp, Mangrove Swamp, Windswept Hills, Cherry Grove, Meadow, Badlands, Savanna, Overgrown Jungle, Corrupted Forest.\n•§lHealth§r: 16 §o(Wild)§r | 24 §o(Tamed)§r\n•§lWalk speed§r: 0.23",
+                "•§lFly speed§r: 0.35\n•§lImmune to§r: Fall Damage\n•§lBreathes in§r: Air\n•§lTempted by§r: Berries, Arthropod Flesh, Rabbit, Rat, Squirrel.\n•§lHealed by§r: Berries, Arthropod Flesh, Rabbit, Rat, Squirrel.\n•§lBreeds with§r: Berries, Raw",
+                "Arthropod Flesh, Raw Squirrel, Raw Rabbit, Raw Rat.\n•§lBreeds with§r: Berries, Raw Arthropod Flesh, Raw Squirrel, Raw Rabbit, Raw Rat.\n•§lAging by§r: Berries, Arthropod Flesh, Rabbit, Rat, Squirrel.\n•§lTamed by§r: Cooked Arthropod Flesh, Cooked",
+                "Rabbit, Cooked Squirrel, Cooked Rat.\n•§lPossible drops§r: Black Feather, XP Orbs.\n•§lAggressive toward§r §o(Wild)§r: Players, Scarecrow, Deopard, Monsters, Carved Pumpkin Block.\n•§lAvoids§r §o(Tamed)§r: Monsters.",
+                "•§lMelee attack damage§r: 1-2 §o(Wild)§r | 2-3 §o(Tamed)§r\n•Wild Raven can randomly sit.\n•Tamed Raven can be sat down.\n•Adult Raven can spawn or produce a §lBlack Feather§r every 10 to 15 minutes when wild or every 5 to 10 minutes when tamed.",
+                "•Wild Raven can destroy crops.\nThey can slowly regenerate their health when they sit or sleep.\n•Wild Raven can pick up foods that tempts them and eat it.\n•Wild Raven carrying food will temporarily stop being aggressive towards the mobs they are",
+                "aggressive with."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_golden_rat_curserer_trophy"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "group": "golden_rat_curserer_trophy",
+    "assume_symmetry": false,
+    "pattern": [
+      " T",
+      "TG"
+    ],
+    "key": {
+      "T": {
+        "item": "nicothekid:iron_rat_curserer_trophy"
+      },
+      "G": {
+        "item": "minecraft:gold_block"
+      }
+    },
+    "result": {
+      "item": "nicothekid:golden_rat_curserer_trophy",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "nicothekid:iron_rat_curserer_trophy"
+      },
+      {
+        "item": "minecraft:gold_block"
+      }
+    ]
+  }
+}

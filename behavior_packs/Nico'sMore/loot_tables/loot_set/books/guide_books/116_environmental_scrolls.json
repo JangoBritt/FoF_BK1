@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Environmental Scrolls"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #116",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #116§r\n§lEnvironmental Scrolls§r\n§8ITEMS§r\n \n•Scroll of Flourishing I\n•Scroll of Flourishing II\n•Scroll of Flourishing III",
+                
+                "§lScroll of Flourishing I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Fertilizes most of the fertilizable blocks within a 4-block radius from the center of the impact location.",
+                
+                "§lScroll of Flourishing II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Fertilizes most of the fertilizable blocks within a 8-block radius from the center of the impact location.",
+                
+                "§lScroll of Flourishing III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Fertilizes most of the fertilizable blocks within a 12-block radius from the center of the impact location."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

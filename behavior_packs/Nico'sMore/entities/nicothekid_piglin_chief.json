@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.60",
   "minecraft:entity": {
     "description": {
       "identifier": "nicothekid:piglin_chief",
@@ -89,7 +89,7 @@
 					"path_outer_boundary": 32.0,
 					"path_fail_time_increase": 0.75,
 					"inner_boundary_time_increase": 0.25,
-					"outer_boundary_time_increase": 0.50,
+					"outer_boundary_time_increase": 0.5,
 					"random_stop_interval": 0,
 					"reach_multiplier": 3.0,
 					"speed_multiplier": 1.1,
@@ -105,7 +105,7 @@
 			},
 			"component:combat_ranged": {
 				"minecraft:shooter": {
-          "def": "nicothekid:projectile_fire_spike_magic_missile_piglin_chief",
+          "def": "nicothekid:projectile_piglin_chief_fire_spike_magic_missile",
           "sound": "shoot",
           "magic": false,
           "power": 1.5
@@ -208,7 +208,7 @@
       },
       "minecraft:can_climb": {},
       "minecraft:collision_box": {
-        "width": 1.2,
+        "width": 1.376,
         "height": 2.4
       },
       "minecraft:health": {
@@ -228,9 +228,11 @@
       "minecraft:type_family": {
         "family": [
           "piglin_chief",
+          "spellcaster",
           "piglin",
-          "boss",
+          "humanoid",
           "monster",
+          "boss",
           "mob"
         ]
       },
@@ -255,7 +257,7 @@
         "triggers": [
           {
             "cause": "fall",
-            "deals_damage": true,
+            "deals_damage": "yes",
 						"damage_modifier": 0.0,
 						"damage_multiplier": 1.0,
 						"on_damage_sound_event": "hurt",
@@ -271,6 +273,7 @@
         "value": 64
       },
       "minecraft:home": {
+        "restriction_type": "random_movement",
         "restriction_radius": 64,
         "home_block_list": []
       },
@@ -331,9 +334,7 @@
         "can_walk_in_lava": false,
         "is_amphibious": false,
         "blocks_to_avoid": [
-          {
-            "tags": "query.any_tag('heated_netherrack_active')"
-          },
+          { "tags": "query.any_tag('nicothekid:heated_netherrack_active')" },
           "minecraft:fire",
           "minecraft:flowing_lava",
           "minecraft:lava",
@@ -383,36 +384,16 @@
             "filters": {
               "any_of": [
                 {
-                  "all_of": [
-                    {
-                      "test": "is_family",
-                      "subject": "other",
-                      "operator": "==",
-                      "value": "fire_bird"
-                    },
-                    {
-                      "test": "is_variant",
-                      "subject": "other",
-                      "operator": "==",
-                      "value": 1
-                    }
-                  ]
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "soul_fire_bird"
                 },
                 {
-                  "all_of": [
-                    {
-                      "test": "is_family",
-                      "subject": "other",
-                      "operator": "==",
-                      "value": "nether_wisp"
-                    },
-                    {
-                      "test": "is_variant",
-                      "subject": "other",
-                      "operator": "==",
-                      "value": 1
-                    }
-                  ]
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "nether_soul_wisp"
                 }
               ]
             }
@@ -618,9 +599,7 @@
         "sound_interval": [ 3.0, 8.0 ],
         "target_selection_method": "nearest",
         "target_blocks": [
-          {
-            "tags": "query.any_tag('custom_soul_lantern')"
-          },
+          { "tags": "query.any_tag('nicothekid:custom_soul_lantern')" },
           "nicothekid:jack_o_soul_lantern",
           "minecraft:soul_campfire",
           "minecraft:soul_fire",
@@ -770,7 +749,7 @@
 			"event:on_delayed_attack": {
         "queue_command": {
           "command": [
-            "playsound mob.evocation_fangs.attack @p[r=8] ~ ~ ~ 1 0.8 1.0"
+            "playsound mob.evocation_fangs.attack @a[r=8] ~ ~ ~ 1 0.8 0.5"
           ]
         }
 			},

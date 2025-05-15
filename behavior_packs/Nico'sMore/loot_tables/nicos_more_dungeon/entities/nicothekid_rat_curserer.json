@@ -1,6 +1,23 @@
 // Nico's More Dungeon 
 {
   "pools": [
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "nicothekid:stone_rat_curserer_trophy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "rolls": 1,
       "entries": [

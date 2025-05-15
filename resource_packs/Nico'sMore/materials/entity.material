@@ -1,7 +1,7 @@
 {
   "materials": {
     "version": "1.0.0",
-    "item_hammer:entity_nocull": {
+    "nicothekid_item_hammer:entity_nocull": {
       "+defines": [ "ALPHA_TEST", "USE_EMISSIVE" ],
       "+samplerStates": [
         {
@@ -11,10 +11,10 @@
       ],
       "msaaSupport": "Both"
     },
-    "item_hammer_animated:entity_emissive_alpha": {
+    "nicothekid_item_hammer_animated:entity_emissive_alpha": {
       "+defines": [ "USE_UV_ANIM", "USE_EMISSIVE" ]
     },
-    "item_staff:entity_nocull": {
+    "nicothekid_item_staff:entity_nocull": {
       "+defines": [ "ALPHA_TEST", "USE_EMISSIVE" ],
       "+samplerStates": [
         {
@@ -24,7 +24,7 @@
       ],
       "msaaSupport": "Both"
     },
-    "item_staff_animated:entity_emissive_alpha": {
+    "nicothekid_item_staff_animated:entity_emissive_alpha": {
       "+defines": [ "USE_UV_ANIM", "USE_EMISSIVE" ]
     },
     

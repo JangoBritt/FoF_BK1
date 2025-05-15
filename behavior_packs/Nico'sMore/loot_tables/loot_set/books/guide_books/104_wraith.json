@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Wraith"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #104",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #104§r\n§lWraith§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Spirit, Monster, Aerial.\n•§lSpawns in§r: Overworld Surfaces, Underground, Soulsand Valley.\n•§lHealth§r: 16",
+                "•§lFly speed§r: 0.2\n•§lImmune to§r: Physical Damage\n•§lBreathes in§r: Air, Water, Lava, Solid Blocks.\n•§lPossible drops§r: White Carpet, XP Orbs.\n•§lAggressive toward§r: Players, Player's aggressive tamed mobs.",
+                "•§lMelee attack damage§r: 2\n•Can burn in daylight."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

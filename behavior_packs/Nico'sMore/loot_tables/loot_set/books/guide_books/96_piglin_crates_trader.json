@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Piglin Crates Trader"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #96",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #96§r\n§lPiglin Crates Trader§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMob type§r: Piglin, Trader, Humanoid, Monster.\n•§lSpawns in§r: Piglin Crates Trader House\n•§lHealth§r: 20",
+                "•§lWalk speed§r: 0.25\n•§lBreathes in§r: Air\n•§lPossible drops§r: Gold Nugget, XP Orbs.\n•§lAvoids§r: Nether Soul Wisp, Soul Fire Bird, Any soul-type light sources.\n•§lAggressive toward§r: Wither Skeleton, Players without gold armor",
+                "equipped.\n•§lEquipped weapon§r: Flint Axe\n•§lMelee attack damage§r: 5\n•Can barter with Gold Ingot.\n•Can trade with players.\n•Can pick up weapons and equip it.\n•Can pick up armor and equip it.\n•Can pick up gold-type items and store them",
+                "in its inventory.\n•Can transform into §lZombified Piglin§r when exposed to other dimensions other than the Nether.\n•Can broadcast its enemies to all nearby Piglin.\n•Can be aggressive towards players if they open or break Crates, Chest, Barrel,",
+                "Shulker Box, Gold Block, Gold Ores, or attack other Piglins.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

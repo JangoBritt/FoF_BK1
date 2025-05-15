@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Rat"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #74",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #74§r\n§lRat§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Small mammal, Animal.\n•§lSpawns in§r: All underground, Plains, Forest, Flower Forest, Birch Forest, Dark Forest, Pale Oak, Taiga,",
+                "Jungle, Swamp, Mangrove Swamp, Savanna surfaces.\n•§lHealth§r: 6 §o(Wild)§r | 20 §o(Tamed)§r\n•§lWalk speed§r: 0.3\n•§lBreathes in§r: Air\n•§lTempted by§r: Most of the food.\n•§lHealed by§r: Most of the food.",
+                "•§lBreeds with§r: Most of the food.\n•§lAging by§r: Most of the food.\n•§lTamed by§r: Cheese Bread\n•§lPossible drops§r: Raw Rat, XP Orbs.\n•§lAvoids§r §o(Wild)§r: Players, Cat, Cave Wolf, Deopard, Fox, Ocelot, Raven, Traders, Villagers,",
+                "Wolf.\n•§lAvoids§r §o(Tamed)§r: Monsters.\n•Wild Rat can randomly sit.\n•Tamed Rat can be sat down.\n•Wild Rat can pick up the food that tempts them and eat it.\n•Wild Rat can destroy crops.\n•They can slowly regenerate their health when they sit",
+                "or sleep.\n•Wild Rat can be cursed by the Rat Curserer.",
+                
+                "§lDescription§r:\n \n§‘Rat is a small, passive underground mammal that’s easily tempted and tamed with food. Though skittish in the wild—often avoiding players and predators—it can destroy crops, steal snacks, and even be cursed into a more dangerous",
+                "form by a Rat Curserer.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

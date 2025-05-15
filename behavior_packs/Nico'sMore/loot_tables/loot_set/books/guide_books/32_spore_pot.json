@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Spore Pot"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #32",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #32§r\n§lSpore Pot§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lFound naturally§r: NO\n•§lCraftable on§r: Artifacture Table\n•§lStackable§r: 64\n•§lBlast Resistance§r: 15.0\n•§lHardness§r: 2.0\n•§lFlammable§r: NO",
+                "•§lMining Tool§r: Pickaxe\n•§lDrops on breaking§r: Spore Pot\n•Can be activated using any type of §lPowder§r or §lDust§r item, including Sugar and Redstone, but except snow powder.\n•Spore pots will emit particles once they are activated.",
+                "•Activated Spore pots have different appearances depending on the type of material you use to activate them.\n•They have a random chance to spawn a powder or dust they emit. And they can also have a chance to be deactivated.",
+                "•The enchanted spore pot has a random chance to spawn §lXP Orbs§r.\n•The active spore pots can be manually deactivated using a §lSalt§r."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

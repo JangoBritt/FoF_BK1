@@ -1,17 +1,18 @@
 {
-  "format_version": "1.21.40",
+  "format_version": "1.21.60",
   "minecraft:item": {
     "description": {
       "identifier": "nicothekid:piglin_fire_staff",
       "menu_category": {
         "category": "equipment",
-        "group": "equipment"
+        "group": "nicothekid:itemGroup.name.staffs"
       }
     },
     "components": {
       "minecraft:display_name": {
-				"value": "§b%item.nicothekid.piglin_fire_staff.name§r"
+				"value": "%item.nicothekid.piglin_fire_staff.name\n§7%enchantment.fire I§r\n§7%enchantment.arrowFire§r"
 			},
+			"minecraft:rarity": "uncommon",
       "minecraft:icon": {
 				"textures": {
           "default": "nicothekid_piglin_fire_staff"  
@@ -45,12 +46,12 @@
 			  "value": "bow"
 			},
 			"minecraft:use_modifiers": {
-			  "use_duration": 1.0,
+			  "use_duration": 0.5,
 			  "movement_modifier": 0.3
 			},
 			"minecraft:cooldown": {
 				"category": "piglin_fire_staff",
-				"duration": 2.2
+				"duration": 1.2
 			},
 			"minecraft:shooter": {
         "max_draw_duration": 0.0,
@@ -81,14 +82,17 @@
 			},
 			"minecraft:custom_components": [
         "nicothekid:piglin_fire_staff_on_hit_entity",
+        "nicothekid:piglin_fire_staff_on_mine_block",
         "nicothekid:piglin_fire_staff_on_use"
       ],
 			"minecraft:tags": {
         "tags": [
-          "piglin_fire_staff",
-          "staff",
-          "melee_weapon",
-          "nicothekid_items"
+          "nicothekid:piglin_fire_staff",
+          "nicothekid:staff",
+          "nicothekid:range_weapon",
+          "nicothekid:fire_aspect",
+          "nicothekid:flame",
+          "nicothekid:items"
         ]
       }
     }

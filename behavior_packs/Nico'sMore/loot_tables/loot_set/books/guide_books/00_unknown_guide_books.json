@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Unknown Guide Book"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #0",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "§k21_CHARACTERS_LINE_01 21_CHARACTERS_LINE_02 21_CHARACTERS_LINE_03 21_CHARACTERS_LINE_04 21_CHARACTERS_LINE_05 21_CHARACTERS_LINE_06 21_CHARACTERS_LINE_07 21_CHARACTERS_LINE_08 21_CHARACTERS_LINE_09 21_CHARACTERS_LINE_10 21_CHARACTERS_LINE_11 abcdefgh§r",
+                "§k21_CHARACTERS_LINE_01 21_CHARACTERS_LINE_02 21_CHARACTERS_LINE_03 21_CHARACTERS_LINE_04 21_CHARACTERS_LINE_05 21_CHARACTERS_LINE_06 21_CHARACTERS_LINE_07 21_CHARACTERS_LINE_08 21_CHARACTERS_LINE_09 21_CHARACTERS_LINE_10 21_CHARACTERS_LINE_11 abcdefgh§r",
+                "§k21_CHARACTERS_LINE_01 21_CHARACTERS_LINE_02 21_CHARACTERS_LINE_03 21_CHARACTERS_LINE_04 21_CHARACTERS_LINE_05 21_CHARACTERS_LINE_06 21_CHARACTERS_LINE_07 21_CHARACTERS_LINE_08 21_CHARACTERS_LINE_09 21_CHARACTERS_LINE_10 21_CHARACTERS_LINE_11 abcdefgh§r"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

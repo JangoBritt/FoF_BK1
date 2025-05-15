@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Sculk Walker"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #63",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #63§r\n§lSculk Walker§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Sculker, Monster.\n•§lSpawns in§r: All deepslate underground.\n•§lHealth§r: 42\n•§lWalk speed§r: 0.27",
+                "•§lImmune to§r: Sculk Vibration, Warden Sensor.\n•§lBreathes in§r: Air\n•§lPossible drops§r: Sculk, Sculk Vein, Sculk Sensor, Echo Shard, XP Orbs.\n•§lAggressive toward§r: Players, Iron Golem, Snow Golem, Villagers, Player's aggressive",
+                "tamed mobs.\n•§lMelee attack damage§r: 8-9",
+                
+                "§lDescription§r:\n \n§‘The Sculk Walker is a menacing, sculk-infested monster that roams the deepest underground, silent and deadly. Immune to sculk vibrations and Warden detection, it moves undisturbed through the darkness, striking down intruders with",
+                "§‘brutal melee force. Its twisted form drops valuable sculk materials and echo shards, making it both a threat and a reward to those who dare face it. Lurking where even sound holds its breath, the Sculk Walker is a relentless predator of the deep."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

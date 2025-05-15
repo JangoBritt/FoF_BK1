@@ -31,6 +31,54 @@
   "nicothekid:block_of_rotten_brute_flesh": {
     "sound": "netherrack"
   },
+  "nicothekid:copper_brute_zombie_trophy": {
+    "sound": "copper"
+  },
+  "nicothekid:copper_elder_golem_trophy": {
+    "sound": "copper"
+  },
+  "nicothekid:copper_piglin_chief_trophy": {
+    "sound": "copper"
+  },
+  "nicothekid:copper_rat_curserer_trophy": {
+    "sound": "copper"
+  },
+  "nicothekid:diamond_brute_zombie_trophy": {
+    "sound": "metal"
+  },
+  "nicothekid:diamond_elder_golem_trophy": {
+    "sound": "metal"
+  },
+  "nicothekid:diamond_piglin_chief_trophy": {
+    "sound": "metal"
+  },
+  "nicothekid:diamond_rat_curserer_trophy": {
+    "sound": "metal"
+  },
+  "nicothekid:golden_brute_zombie_trophy": {
+    "sound": "metal"
+  },
+  "nicothekid:golden_elder_golem_trophy": {
+    "sound": "metal"
+  },
+  "nicothekid:golden_piglin_chief_trophy": {
+    "sound": "metal"
+  },
+  "nicothekid:golden_rat_curserer_trophy": {
+    "sound": "metal"
+  },
+  "nicothekid:iron_brute_zombie_trophy": {
+    "sound": "iron"
+  },
+  "nicothekid:iron_elder_golem_trophy": {
+    "sound": "iron"
+  },
+  "nicothekid:iron_piglin_chief_trophy": {
+    "sound": "iron"
+  },
+  "nicothekid:iron_rat_curserer_trophy": {
+    "sound": "iron"
+  },
   "nicothekid:spawner_brute_zombie": {
     "sound": "stone"
   },
@@ -50,6 +98,18 @@
     "sound": "stone"
   },
   "nicothekid:spawner_rat_curserer": {
+    "sound": "stone"
+  },
+  "nicothekid:stone_brute_zombie_trophy": {
+    "sound": "stone"
+  },
+  "nicothekid:stone_elder_golem_trophy": {
+    "sound": "stone"
+  },
+  "nicothekid:stone_piglin_chief_trophy": {
+    "sound": "stone"
+  },
+  "nicothekid:stone_rat_curserer_trophy": {
     "sound": "stone"
   }
 }

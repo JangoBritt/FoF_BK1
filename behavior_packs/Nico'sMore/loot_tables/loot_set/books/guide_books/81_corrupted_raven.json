@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Corrupted Raven"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #81",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #81§r\n§lCorrupted Raven§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Medium bird, Animal, Monster, Aerial.\n•§lSpawns in§r: Corrupted Forest\n•§lHealth§r: 16\n•§lFly speed§r: 0.35",
+                "•§lImmune to§r: Fall Damage\n•§lBreathes in§r: Air\n•§lTempted by§r: Arthropod Flesh, Chicken, Rabbit, Rat, Squirrel.\n•§lPossible drops§r: Black Feather, Bone, XP Orbs.\n•§lAggressive toward§r: Players, Chickens, Small mammals, Scarecrow,",
+                "Iron Golem, Snow Golem, Player's aggressive tamed mobs.\n•§lMelee attack damage§r: 7-8\n•Can pick up the food that tempts them and eat it.\n•Corrupted Raven carrying food will temporarily stop being aggressive towards the mobs they are aggressive with;",
+                "they will avoid them instead.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

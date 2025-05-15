@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Cursed Rat & Giant Rat"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #75",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #75§r\n§lCursed Rat§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Cursed, Magical, Small mammal, Animal, Monster.\n•§lSpawns in§r: All underground, Plains, Snowy Plains, Forest, Flower Forest,",
+                "Birch Forest, Dark Forest, Pale Oak, Taiga, Snowy Taiga, Jungle, Swamp, Mangrove Swamp, Savanna, Corrupted Forest surfaces.\n•§lSummon by§r: Rat Curserer\n•§lHealth§r: 16\n•§lWalk speed§r: 0.25\n•§lBreathes in§r: Air",
+                "•§lPossible drops§r: Raw Rat, XP Orbs.\n•§lAvoids§r: Any mob wielding the Curserer Staff.\n•§lAggressive toward§r: Players, Iron Golem, Snow Golem, Player's aggressive tamed mobs.\n•§lMelee attack damage§r: 2-3\n•Can be uncursed using",
+                "a §lCursed Eye§r in your mainhand and §lBook of Curses§r in your offhand.\n•Cursed Rat may pick up random items.\n•Cursed Rat can destroy crops.",
+                
+                "§lGiant Rat§r §o(Uncursed Rat)§r\n§8MOB§r\n \n•§lRarity§r: Uncommon\n•§lBehavior§r: Neutral\n•§lMob type§r: Small mammal, Animal.\n•§lSpawns by§r: Uncursing the Cursed Rat.\n•§lHealth§r: 16 §o(Wild)§r | 24 §o(Tamed)§r",
+                "•§lWalk speed§r: 0.28\n•§lBreathes in§r: Air\n•§lTempted by§r: Most of the food.\n•§lHealed by§r: Most of the food.\n•§lTamed by§r: Cheese Bread\n•§lPossible drops§r: Raw Rat, XP Orbs.\n•§lAggressive toward§r §o(Tamed)§r: Owner's",
+                "attackers, Owner's targets.\n•§lMelee attack damage§r: 2-3\n•Wild Giant Rat can randomly sit.\n•Tamed Giant Rat can be sat down.\n•Wild Giant Rat can pick up the food that tempts them and eat it.\n•Wild Giant Rat can destroy crops.",
+                "•They can slowly regenerate their health when they sit or sleep."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

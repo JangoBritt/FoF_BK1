@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Scrollwright"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #101",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #101§r\n§lScrollwright§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMob type§r: Spellcaster, Magical, Villager, Trader, Humanoid.\n•§lSpawns in§r: Villager Libraries\n•§lHealth§r: 30",
+                "•§lWalk speed§r: 0.3\n•§lBreathes in§r: Air\n•§lTempted by§r: Learning Books\n•§lPossible drops§r: Empty Scroll, Guide Book, Learning Book of Scrollwright, XP Orbs.\n•§lAvoids§r: Monsters, Sculk blocks.\n•§lAggressive toward§r: Illager,",
+                "Vex, Zombie.\n•§lRange attack§r: Magic Scroll Missile\n•§lProjectile damage§r: 6\n•§lProjectile effect§r: Slowness §o(0:30)§r\n•Can sleep in a bed at night and responds to bells.\n•Can trade with players.\n•Can resupply trades by interacting",
+                "with a nearby Magic Spells Table.\n•Can transform into another villager type when given a §lLearning Book§r."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

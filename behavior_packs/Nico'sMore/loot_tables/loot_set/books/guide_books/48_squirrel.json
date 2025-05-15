@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Squirrel"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #48",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #48§r\n§lSquirrel§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Small mammal, Animal.\n•§lSpawns in§r: Plains, Forest, Flower Forest, Birch Forest, Dark Forest, Pale Garden, Windswept Forest,",
+                "Taiga, Snowy Taiga, Jungle, Cherry Grove, Meadow, Savanna.\n•§lHealth§r: 6 §o(Wild)§r | 20 §o(Tamed)§r\n•§lWalk speed§r: 0.3\n•§lBreathes in§r: Air\n•§lTempted by§r: Apples, Beetroot, Berries, Melon, Pumpkin Slice.\n•§lHealed by§r: Apples,",
+                "Beetroot, Berries, Melon, Pumpkin Slice.\n•§lBreeds with§r: Beetroot, Berries, Melon, Pumpkin Slice.\n•§lAging by§r: Apples, Beetroot, Berries, Melon, Pumpkin Slice.\n•§lTamed by§r: Apple.\n•§lPossible drops§r: Raw Squirrel, Squirrel Hide,",
+                "XP Orbs.\n•§lAvoids§r §o(Wild)§r: Players, Cave Wolf, Deopard, Ocelot, Raven, Wolf, Monsters.\n•§lAvoids§r §o(Tamed)§r: Monsters.\n•Wild Squirrel can randomly sit.\n•Tamed Squirrel can be sat down.\n•Wild Squirrel can pick up the food that",
+                "tempts them and eat it.\n•Wild Squirrel can destroy crops.\n•They can slowly regenerate their health when they sit or sleep.",
+                "§lDescription§r:\n \n§‘Quick-footed and mischievous, the Squirrel brings life and a hint of chaos to forests and fields alike."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

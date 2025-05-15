@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Book Curserer"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #22",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #22§r\n§lBook Curserer§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Curserer, Summoner, Spellcaster, Magical, Illager, Humanoid, Monster.\n•§lSpawns in§r: All overworld surfaces, Underground,",
+                "& Book Curserer Library.\n•§lHealth§r: 24\n•§lWalk speed§r: 0.3\n•§lBreathes in§r: Air\n•§lPossible drops§r: Book, Cursed Eye, Book of Curses, Enchanted Book, XP Orbs.\n•§lAvoids§r: Players, Creeper, Iron Golem, Snow Golem, Tree Guardians.",
+                "•§lAggressive toward§r: Players, Iron Golem, Snow Golem, Tree Guardians, Villager, & Players aggressive tamed mobs.\n•Can summon 3-4 §lCursed Flying Book§r §o(92% chance)§r, §lEnchanted Flying Book§r §o(4% chance)§r, or",
+                "§lFlying Book§r §o(4% chance)§r around its self.\n•Can transform a normal §lFlying Book§r into a §lCursed Flying Book§r.",
+                "§lDescription§r:\n \n§‘The Book Curserer roams libraries and ruins, commanding cursed books and turning knowledge itself into a weapon. They are feared for their ability to animate books into deadly magical constructs."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Overgrown Jungle Troot"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #53",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #53§r\n§lOvergrown Jungle Troot§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMob type§r: Troot, Treant, Nature-elemental, Magical.\n•§lSpawns in§r: Overgrown Jungle\n•§lHealth§r: 15 §o(Wild)§r",
+                "25 §o(Tamed)§r\n•§lWalk speed§r: 0.25\n•§lBreathes in§r: Air, Water.\n•§lTempted by§r: Beetroot, Beetroot Pie.\n•§lHealed by§r: Beetroot, Beetroot Stew, Beetroot Pie.\n•§lTamed by§r: Beetroot Pie\n•§lPossible drops§r: Overgrown Jungle",
+                "Log, Overgrown Jungle Sapling, Stick, XP Orbs.\n•§lAggressive toward§r §o(Tamed)§r: Owner's attackers, Owner's targets.\n•§lMelee attack damage§r: 2-3\n•Wild Troot can randomly sit.\n•Tamed Troot can be sat down.\n•They can slowly regenerate",
+                "their health when they sit or sleep.\n•Wild Troot can pick up the food that tempts them and eat it.",
+                
+                "§lDescription§r:\n \n§‘The Overgrown Jungle Troot is a curious, treant native to the dense vegetation of the Overgrown Jungle. Neutral by nature, these magical beings can be tempted and tamed with beetroot pie, becoming loyal companions that defend",
+                "§‘their owners and regenerate health when resting.\nWild Troots often sit idly and may nibble on nearby food they find tempting. When defeated, they leave behind jungle-themed resources, but taming one reveals their true value as gentle guardians."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

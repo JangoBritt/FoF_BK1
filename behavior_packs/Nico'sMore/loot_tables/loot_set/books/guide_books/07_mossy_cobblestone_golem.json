@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Mossy Cobblestone Golem"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #7",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #7§r\n§lMossy Cobblestone Golem§r\n§8MOB§r\n \n•§lRarity§r: Uncommon\n•§lBehavior§r: Neutral\n•§lMob type§r: Golem, Earth-elemental, Magical.\n•§lSpawn in§r: Forest, Flower Forest, Birch Forest, Dark Forest, Windswept",
+                "Taiga, Jungle, Swamp, Mossy Forest, Overgrown Jungle.\n•§lSummon through§r: Summoning Scroll\n•§lHealth§r: 50 §o(Wild)§r | 70 §o(Tamed)§r\n•§lKnockback resistance§r: 0.5\n•§lWalk speed§r: 0.2\n•§lBreathes in§r: Air, Water, Solid Blocks.",
+                "•§lHealed by§r: Mossy Cobblestone.\n•§lTamed by§r: Enchanted Emerald\n•§lPossible drops§r: Mossy Cobblestone, Emerald, XP Orbs.\n•§lAggressive toward§r §o(Tamed)§r: Monsters, Owner's attackers, Owner's targets.",
+                "•§lMelee attack damage§r: 7-8\n•Wild Mossy Cobblestone Golem can sleep during the night or thunderstorm.\n•Tamed Mossy Cobblestone Golem can be sat down.\n•They can slowly regenerate their health when they sit or sleep.",
+                "•When a wild mossy cobblestone golem gets exposed for too long to hot-temperature places like the Nether, Desert, or Badlands, it will start to transform into a Cobblestone Golem. And if it is also surrounded by cobblestone, the transformation will be",
+                "accelerated and become more effective.\n•When struck by lightning, it will transform into a Cobbled Deepslate Golem.",
+                
+                "§lDescription§r:\n§‘Mossy Cobblestone Golems dwell in the deep forests and overgrown wilds. Though slow and peaceful unless provoked, they wield powerful strength in defense of their allies. Tameable with an Enchanted Emerald, they make loyal guardians,",
+                "slowly regenerating their stone flesh when resting. If exposed too long to harsh, dry climates, they shed their mossy coating, reverting back to their cobblestone form. A strike of lightning, however, forges them anew into a mightier deepslate body.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

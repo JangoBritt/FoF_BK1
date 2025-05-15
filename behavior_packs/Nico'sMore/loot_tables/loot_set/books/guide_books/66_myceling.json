@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Myceling"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #66",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #66§r\n§lMyceling§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMob type§r: Medium reptile, Nature-elemental, Animal.\n•§lSpawn in§r: Mushroom Cave\n•§lHealth§r: 16 §o(Wild)§r",
+                "32 §o(Tamed)§r\n•§lWalk speed§r: 0.22\n•§lSwim speed§r: 0.1\n•§lBreathes in§r: Air, Water.\n•§lTempted by§r: Moss Berry Pie, Berries.\n•§lHealed by§r: Berries\n•§lBreed with§r: Moss Berries\n•§lEgg laying§r: 1 Myceling Egg.",
+                "•§lAging by§r: Berries\n•§lTamed by§r: Moss Berry Pie\n•§lPossible drops§r: Mycelium Sprouts, XP Orbs.\n•§lAggressive toward§r §o(Tamed)§r: Owner's attackers, Owner's targets.\n•§lMelee attack damage§r: 2-3\n•Wild Myceling can sleep",
+                "during the day.\n•Wild Myceling can randomly sit.\n•Tamed Myceling can be sat down.\n•Adult Myceling can spawn or produce a §lTall Mycelium Sprouts§r every 10 to 15 minutes when wild or every 5 to 10 minutes when tamed.",
+                "•They can slowly regenerate their health when they sit or sleep.\n•Wild Myceling can pick up the food that tempts them and eat it.\n•They can transform into a Glowceling when fed them with Tall Glowcelium Sprouts.",
+                
+                "§lDescription§r:\n§‘The Myceling is a gentle, mushroom-dwelling reptile found in the depths of Mushroom Caves. With a calm nature and an affinity for berries, it can be tamed with Moss Berry Pie and will loyally defend its owner once bonded.",
+                "§‘These mossy creatures produce rare Tall Mycelium Sprouts over time and can slowly heal while resting. Their connection to fungal magic allows them to evolve—feed them Tall Glowcelium Sprouts, and they transform into the luminous Glowceling.",
+                "The Myceling is a peaceful, curious companion for any explorer of the underground wilds.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

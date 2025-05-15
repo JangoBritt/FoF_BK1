@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Fire Bird"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #86",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "       §7Guide Book #86§r\n§lFire Bird§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Small bird, Fire-elemental, Animal, Aerial.\n•§lSpawns in§r: All nether biomes.\n•§lHealth§r: 16 §o(Wild)§r | 22 §o(Tamed)§r",
+                "•§lWalk speed§r: 0.23\n•§lFly speed§r: 0.35\n•§lImmune to§r: Fall Damage\n•§lBreathes in§r: Air, Lava.\n•§lTempted by§r: Torchflower Seeds, Pitcher Pod.\n•§lHealed by§r: Torchflower Seeds, Pitcher Pod.\n•§lBreeds with§r: Pitcher Pod",
+                "•§lEgg laying§r: 1-3 Fire Bird Eggs §o(Wild)§r | 2-4 Fire Bird Eggs §o(Tamed)§r\n•§lAging by§r: Torchflower Seeds, Pitcher Pod.\n•§lTamed by§r: Torchflower Seeds\n•§lPossible drops§r: Fire Feather, XP Orbs.\n•They takes damage when in",
+                "contact with water or when it rains.\n•Wild Fire Bird can randomly sit.\n•Tamed Fire Bird can be sat down.\n•Adult Fire Bird can spawn or produce a §lFire Feather§r every 10 to 15 minutes when wild or every 5 to 10 minutes when tamed.",
+                "•They can slowly regenerate their health when they sit or sleep.\n•Wild Fire Bird can pick up the food that tempts them and eat it.\n•They can transform into a §lSoul Fire Bird§r when interacting with Soul Fire, Soul Sand, or a Soul Campfire."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

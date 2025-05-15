@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Crates Trader"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #54",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #54§r\n§lCrates Trader§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Villager, Trader, Humanoid.\n•§lSpawns in§r: Overworld surface, Underground, Crates Trader House.\n•§lHealth§r: 30",
+                "•§lWalk speed§r: 0.3\n•§lBreathe in§r: Air\n•§lTempted by§r: Learning Books\n•§lPossible drops§r: Learning Book of Crates Trading, XP Orbs.\n•§lAvoids§r: Monsters, Sculk blocks.\n•Can trade with players.\n•Can transform into another",
+                "villager type when given a §lLearning Book§r.\n•Crates Trader has two versions: Wandering and Dwelling.\n•Giving them a §lLearning Book of Crates Trading§r can transform them into either Wandering or Dwelling Crates Trader.",
+                "§lWandering Crates Trader§r:\n•Spawns randomly on overworld surface and underground.\n•Does not sleep at night.\n•Has lower trade prices and a larger trade supply compared to the Dwelling Crates Trader but cannot resupply its trades.",
+                "§lDwelling Crates Trader§r:\n•Spawns only inside a Crates Trader house.\n•Can sleep in a bed at night and responds to bells.\n•Has higher trade prices and a smaller trade supply compared to the Wandering Crates Trader but can resupply trades by",
+                "interacting with a nearby Locked Crates.§’",
+                
+                "§lDescription§r:\n \n§‘The Crates Trader is a passive villager merchant found both on the surface and sometimes deep underground. Drawn to Learning Books, these traders can be transformed into either Wandering or Dwelling variants,",
+                "§‘each with unique trading styles. Wandering Traders roam without rest, offering cheaper deals and larger inventories but no restocks.In contrast, Dwelling Traders stay rooted in their homes, sleep at night, and replenish their stock using",
+                "Locked Crates. Skilled in crates-based commerce, they’re a valuable, if quirky, asset to any savvy adventurer.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

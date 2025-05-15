@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Locked Crates"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #57",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #57§r\n§lLocked Crates§r\n§8BLOCKS§r\n \n•Copper Crate\n•Iron Crate\n•Golden Crate\n•Diamond Crate\n•Piglin Crate",
+                
+                "§lCopper Crate Key§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Overworld Underground.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 45.0\n•§lHardness§r: 2.5",
+                "•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Copper Crate\n•§lCan be opened using§r: Copper Crate Key",
+                
+                "§lIron Crate Key§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Overworld Underground.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 45.0\n•§lHardness§r: 2.5",
+                "•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Iron Crate\n•§lCan be opened using§r: Iron Crate Key",
+                
+                "§lGolden Crate Key§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Overworld Underground.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 45.0\n•§lHardness§r: 2.5",
+                "•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Golden Crate\n•§lCan be opened using§r: Golden Crate Key",
+                
+                "§lDiamond Crate Key§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lGenerate naturally in§r: Overworld Underground.\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 45.0\n•§lHardness§r: 2.5",
+                "•§lFlammable§r: YES\n•§lMining Tool§r: Axe\n•§lDrops on breaking§r: Diamond Crate\n•§lCan be opened using§r: Diamond Crate Key",
+                
+                "§lPiglin Crate Key§r\n§8BLOCK§r\n \n•§lRarity§r: Uncommon\n•§lFound naturally§r: NO\n•§lTrade by§r: Piglin Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lBlast Resistance§r: 150.0\n•§lHardness§r: 5.0\n•§lFlammable§r: NO",
+                "•§lMining Tool§r: Pickaxe\n•§lDrops on breaking§r: Piglin Crate\n•§lCan be opened using§r: Piglin Crate Key"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

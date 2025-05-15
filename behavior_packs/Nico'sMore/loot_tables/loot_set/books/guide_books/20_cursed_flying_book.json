@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Cursed Flying Book"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #20",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #20§r\n§lCursed Flying Book§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Cursed, Construct, Mystical, Aerial, Object, Monster\n•§lSummon by§r: Book Curserer\n•§lHealth§r: 8",
+                "•§lFly speed§r: 0.12\n•§lBreathes in§r: Air\n•§lTempted by§r: Book and Quill\n•§lPossible drops§r: Paper, Book, XP Orbs.\n•§lAvoids§r: Any mob wielding the Curserer Staff.\n•§lAggressive toward§r: Players, Iron Golem, Snow Golem,",
+                "Tree Guardians, Villagers, Player's aggressive tamed mobs.\n•§lMelee attack damage§r: 1\n•Can be uncursed using a §lCursed Eye§r in your mainhand and §lBook of Curses§r in your offhand.\n•Can be sealed by using a Sealing Bookmark.",
+                "•Summoned Cursed Flying Book will disappear after a few minutes.",
+                
+                "§lDescription§r:\n \n§‘Once benign tomes, these flying books have been twisted by dark enchantments. Now under the control of the Book Curserer, they drift through the air with malicious intent, seeking to tear knowledge—",
+                "and intruders—apart page by page. Though fragile, their cursed essence makes them a magical threat.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

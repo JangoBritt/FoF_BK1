@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Conjuration Scrolls"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #113",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #113§r\n§lConjuration Scrolls§r\n§8ITEMS§r\n \n•Summoning Scroll of Iron Golem\n•Summoning Scroll of Snow Golem\n•Summoning Scroll of Cobblestone Golem\n•Summoning Scroll of Mossy Cobblestone Golem",
+                "•Summoning Scroll of Cobbled Deepslate Golem\n•Summoning Scroll of Deepslate Golem\n•Summoning Scroll of Magma Golem\n•Summoning Scroll of Slime\n•Summoning Scroll of Skeleton\n•Summoning Scroll of Wither Skeleton",
+                "•Summoning Scroll of Mossy Skeleton",
+                
+                "§lSummoning Scroll of Iron Golem§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lImpact Hit Damage§r: 2\n•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Summons an Iron Golem on impact.",
+                
+                "§lSummoning Scroll of Snow Golem§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lImpact Hit Damage§r: 2\n•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Summons a Snow Golem on impact.",
+                
+                "§lSummoning Scroll of Cobblestone Golem§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lImpact Hit Damage§r: 2\n•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Summons a Cobblestone Golem on impact.",
+                
+                "§lSummoning Scroll of Mossy Cobblestone Golem§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lImpact Hit Damage§r: 2\n•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Summons a Mossy Cobblestone Golem on impact.",
+                
+                "§lSummoning Scroll of Cobbled Deepslate Golem§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lImpact Hit Damage§r: 2\n•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Summons a Cobbled Deepslate Golem on impact.",
+                
+                "§lSummoning Scroll of Deepslate Golem§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lImpact Hit Damage§r: 2\n•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Summons a Deepslate Golem on impact.",
+                
+                "§lSummoning Scroll of Magma Golem§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lImpact Hit Damage§r: 2\n•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Summons a Magma Golem on impact.",
+                
+                "§lSummoning Scroll of Slime§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lImpact Hit Damage§r: 2\n•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Summons a Large Slime on impact.",
+                
+                "§lSummoning Scroll of Skeleton§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lImpact Hit Damage§r: 2\n•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Summons a Skeleton on impact.",
+                
+                "§lSummoning Scroll of Wither Skeleton§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lImpact Hit Damage§r: 2\n•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Summons a Wither Skeleton on impact.",
+                
+                "§lSummoning Scroll of Mossy Skeleton§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lImpact Hit Damage§r: 2\n•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Summons a Mossy Skeleton on impact."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
