@@ -67,10 +67,7 @@
 					"render_method": "alpha_test_single_sided"
 				}
 			},
-			"minecraft:flammable": {
-				"destroy_chance_modifier": 20,
-				"catch_chance_modifier": 5
-			},
+			"minecraft:flammable": false,
 			"minecraft:loot": "loot_tables/blocks/md_preview_single_sturdy_door_10.json"
 		},
 		"permutations": [
