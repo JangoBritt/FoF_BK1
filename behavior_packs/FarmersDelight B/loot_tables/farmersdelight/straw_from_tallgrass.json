@@ -11,7 +11,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:air",
-                    "weight": 2
+                    "weight": 1
                 }
             ]
         }
