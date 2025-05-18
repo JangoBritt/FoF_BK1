@@ -1,8 +1,120 @@
 {
+	"resource_pack_name": "MrCrayFishFurniture",
+	"texture_name": "atlas.items",
 	"texture_data": {
-		"mr.spatula": {"textures": "textures/MrCray/items/spatula.png"},
-		"mr.diving_board_item": {"textures": "textures/MrCray/items/diving_board_item.png"},
-		"mr.fridge_dark_item": {"textures": "textures/MrCray/items/fridge_dark.png"},
-		"mr.fridge_light_item": {"textures": "textures/MrCray/items/fridge_light.png"}
+		"mr:flesh": {
+			"textures": "textures/MrCray/items/flesh.png"
+		},
+		"mr:cooked_flesh": {
+			"textures": "textures/MrCray/items/cooked_flesh.png"
+		},
+		"mr:spatula": {
+			"textures": "textures/MrCray/items/spatula.png"
+		},
+		"mr:arrow_0": {
+			"textures": "textures/MrCray/ui/arrow_0.png"
+		},
+		"mr:arrow_1": {
+			"textures": "textures/MrCray/ui/arrow_1.png"
+		},
+		"mr:arrow_2": {
+			"textures": "textures/MrCray/ui/arrow_2.png"
+		},
+		"mr:arrow_3": {
+			"textures": "textures/MrCray/ui/arrow_3.png"
+		},
+		"mr:arrow_4": {
+			"textures": "textures/MrCray/ui/arrow_4.png"
+		},
+		"mr:arrow_5": {
+			"textures": "textures/MrCray/ui/arrow_5.png"
+		},
+		"mr:arrow_6": {
+			"textures": "textures/MrCray/ui/arrow_6.png"
+		},
+		"mr:arrow_7": {
+			"textures": "textures/MrCray/ui/arrow_7.png"
+		},
+		"mr:arrow_8": {
+			"textures": "textures/MrCray/ui/arrow_8.png"
+		},
+		"mr:arrow_9": {
+			"textures": "textures/MrCray/ui/arrow_9.png"
+		},
+		"mr:arrow_10": {
+			"textures": "textures/MrCray/ui/arrow_10.png"
+		},
+		"mr:arrow_11": {
+			"textures": "textures/MrCray/ui/arrow_11.png"
+		},
+		"mr:arrow_12": {
+			"textures": "textures/MrCray/ui/arrow_12.png"
+		},
+		"mr:arrow_13": {
+			"textures": "textures/MrCray/ui/arrow_13.png"
+		},
+		"mr:arrow_14": {
+			"textures": "textures/MrCray/ui/arrow_14.png"
+		},
+		"mr:arrow_15": {
+			"textures": "textures/MrCray/ui/arrow_15.png"
+		},
+		"mr:arrow_16": {
+			"textures": "textures/MrCray/ui/arrow_16.png"
+		},
+		"mr:arrow_17": {
+			"textures": "textures/MrCray/ui/arrow_17.png"
+		},
+		"mr:arrow_18": {
+			"textures": "textures/MrCray/ui/arrow_18.png"
+		},
+		"mr:arrow_19": {
+			"textures": "textures/MrCray/ui/arrow_19.png"
+		},
+		"mr:arrow_20": {
+			"textures": "textures/MrCray/ui/arrow_20.png"
+		},
+		"mr:arrow_21": {
+			"textures": "textures/MrCray/ui/arrow_21.png"
+		},
+		"mr:freeze_0": {
+			"textures": "textures/MrCray/ui/freeze_0.png"
+		},
+		"mr:freeze_1": {
+			"textures": "textures/MrCray/ui/freeze_1.png"
+		},
+		"mr:freeze_2": {
+			"textures": "textures/MrCray/ui/freeze_2.png"
+		},
+		"mr:freeze_3": {
+			"textures": "textures/MrCray/ui/freeze_3.png"
+		},
+		"mr:freeze_4": {
+			"textures": "textures/MrCray/ui/freeze_4.png"
+		},
+		"mr:freeze_5": {
+			"textures": "textures/MrCray/ui/freeze_5.png"
+		},
+		"mr:freeze_6": {
+			"textures": "textures/MrCray/ui/freeze_6.png"
+		},
+		"mr:freeze_7": {
+			"textures": "textures/MrCray/ui/freeze_7.png"
+		},
+		"mr:freeze_8": {
+			"textures": "textures/MrCray/ui/freeze_8.png"
+		},
+		"mr:freeze_9": {
+			"textures": "textures/MrCray/ui/freeze_9.png"
+		},
+		"mr:freeze_10": {
+			"textures": "textures/MrCray/ui/freeze_10.png"
+		},
+		"mr:freeze_11": {
+			"textures": "textures/MrCray/ui/freeze_11.png"
+		},
+		"mr:freeze_12": {
+			"textures": "textures/MrCray/ui/freeze_12.png"
+		}
 	}
 }

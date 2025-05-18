@@ -1,12 +1,11 @@
 {
-	"format_version": "1.21.10",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "mr:stripped_acacia_cabinet_mr",
 			"menu_category": {
-				"category": "items",
-				"group": "itemGroup.name.mrCabinet",
-				"is_hidden_in_commands": false
+				"category": "construction",
+				"group": "mr:woodenCabinet"
 			},
 			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}},
 			"states": {
@@ -21,6 +20,8 @@
 			{"condition": "!q.block_state('mr:close')","components": {"minecraft:collision_box": {"origin": [-8,0,-8],"size": [16,16,13]},"minecraft:selection_box": {"origin": [-8,0,-8],"size": [16,16,13]}}}
 		],
 		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
+			"tag:mr:is_cabinet": {},
 			"minecraft:geometry": {
 				"identifier": "geometry.mr.cabinet",
 				"bone_visibility": {
@@ -29,13 +30,24 @@
 					"open": "!q.block_state('mr:close')"
 				}
 			},
-			"minecraft:material_instances": {"*": {"texture": "mr.stripped_acacia","render_method": "opaque"},"wood": {"texture": "mr.wood_acacia","render_method": "opaque"}},
+			"minecraft:material_instances": {
+				"*": { "texture": "mr:stripped_acacia","render_method": "opaque" },
+				"wood": { "texture": "mr:wood_acacia","render_method": "opaque" }
+			},
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
-			"minecraft:light_dampening": 1,
-			"minecraft:flammable": {"catch_chance_modifier":5,"destroy_chance_modifier":5},
-			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
-			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": {
+				"detection_rules": [{
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [ "north", "south", "east", "west", "down" ]
+				}]
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 20 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 2.0 },
 			"minecraft:custom_components": ["mr:place_container"],
 			"minecraft:map_color": "#db904f"
 		}

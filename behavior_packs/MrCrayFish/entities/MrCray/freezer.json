@@ -1,0 +1,109 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mr:freezer",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"mr:check_freezing_event": {
+				"minecraft:entity_sensor": {
+					"find_players_only": true,
+					"subsensors": [
+						{
+							"range": [ 7, 3 ],
+							"cooldown": 0.5,
+							"event": "mr:check_freeze",
+							"minimum_count": 1,
+							"event_filters": {
+								"all_of": [ { "test": "has_container_open", "subject": "other", "value": true } ]
+							}
+						}
+					]
+				}
+			},
+			"mr:start_freezing_event": {
+				"minecraft:timer": {
+					"time": 0.5,
+					"looping": true,
+					"time_down_event": {
+						"event": "mr:update_freezer_timer",
+						"target": "self"
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [ "chest", "inanimate" ]
+		  	},
+			"minecraft:inventory": {
+				"can_be_siphoned_from": false,
+				"container_type": "inventory",
+				"inventory_size": 5,
+				"restrict_to_owner": false
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 0.2
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": "no"
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": false
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "mr:despawn",
+							"target": "self"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"mr:freezer": {
+				"add": { "component_groups": ["mr:check_freezing_event"] }
+			},
+			"mr:check_freeze": {},
+			"mr:update_freezer_timer": {},
+			"mr:start_freezing": {
+				"add": { "component_groups": [ "mr:start_freezing_event" ] },
+				"remove": { "component_groups": [ "mr:check_freezing_event" ] }
+			},
+			"mr:stop_freezing": {
+				"add": { "component_groups": [ "mr:check_freezing_event" ] },
+				"remove": { "component_groups": [ "mr:start_freezing_event" ] }
+			},
+			"mr:despawn": {
+				"queue_command": { "command": [ "scriptevent mr:freezer_loot" ] }
+			}
+		}
+	}
+}

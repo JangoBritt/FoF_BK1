@@ -1,12 +1,11 @@
 {
-	"format_version": "1.21.10",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "mr:wood_acacia_mail_mr",
 			"menu_category": {
-				"category": "equipment",
-				"group": "itemGroup.name.mrMailBox",
-				"is_hidden_in_commands": false
+				"category": "construction",
+				"group": "mr:woodenMailbox"
 			},
 			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}}
 		},
@@ -17,23 +16,25 @@
 			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [0,270,0]}}}
 		],
 		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
 			"minecraft:geometry": "geometry.mr.mail_box",
-			"minecraft:material_instances": {"*": {"texture": "mr.wood_acacia","render_method": "opaque"},"wood": {"texture": "mr.planks_acacia","render_method": "opaque"}},
+			"minecraft:material_instances": {
+				"*": {"texture": "mr:wood_acacia","render_method": "opaque"},
+				"wood": {"texture": "mr:planks_acacia","render_method": "opaque"}
+			},
+			"minecraft:collision_box": {"origin": [-4.5,0,-6],"size": [9,16,12]},
+			"minecraft:selection_box": {"origin": [-4.5,0,-6],"size": [9,16,12]},
+			"minecraft:light_dampening": 0,
 			"minecraft:liquid_detection": {
-				"detection_rules": [
-				  {
+				"detection_rules": [{
 					"can_contain_liquid": true,
 					"liquid_type": "water",
 					"on_liquid_touches": "no_reaction"
-				  }
-				]
-			  },
-			"minecraft:collision_box": {"origin": [-4.5,0,-6],"size": [9,16,12]},
-			"minecraft:selection_box": {"origin": [-4.5,0,-6],"size": [9,16,12]},
-			"minecraft:light_dampening": 1,
-			"minecraft:flammable": {"catch_chance_modifier": 5,"destroy_chance_modifier": 5},
-			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
-			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+				}]
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 20 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 2.0 },
 			"minecraft:custom_components": ["mb:mailbox"],
 			"minecraft:map_color": "#db904f"
 		}

@@ -1,0 +1,53 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mr:stripped_pale_oak_crate_mr",
+			"menu_category": {
+				"category": "construction",
+				"group": "mr:woodenCrate"
+			},
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}},
+			"states": {
+				"mr:close": [ true, false ]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [0,0,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [0,180,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [0,90,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [0,270,0]}}}
+		],
+		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
+			"tag:mr:is_crate": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mr.crate",
+				"bone_visibility": {
+					"close": "q.block_state('mr:close')",
+					"open": "!q.block_state('mr:close')"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {"texture": "mr:stripped_pale_oak","render_method": "opaque"},
+				"wood": {"texture": "mr:planks_pale_oak","render_method": "opaque"}
+			},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": {
+				"detection_rules": [{
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [ "north", "south", "east", "west", "down" ]
+				}]
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 20 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 2.0 },
+			"minecraft:custom_components": ["mr:place_container"],
+			"minecraft:map_color": "#ebe6df"
+		}
+	}
+}

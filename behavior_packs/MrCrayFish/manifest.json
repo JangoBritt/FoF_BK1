@@ -1,36 +1,46 @@
 {
 	"format_version": 2,
 	"header": {
-		"description": "MrCrayFish Furniture V1.2 [BP 1.21.20+]",
-		"name": "MrCrayFish Furniture V1.2 [BP 1.21.20+]",
+		"description": "MrCrayfish Furniture Behavior Pack §bUnofficial Port By EndXenoc",
+		"name": "MrCrayfish Furniture Add-On [BP 1.21.80+] (Ported By EndXenoc)",
 		"uuid": "95cc40f0-999b-49b8-8311-c8aaaa887ed6",
-		"version": [1,2,1],
-		"min_engine_version": [1,21,20]
+		"version": [ 1, 2, 80 ],
+		"min_engine_version": [ 1, 21, 70 ]
 	},
 	"modules": [
 		{
 			"description": "data",
 			"type": "data",
 			"uuid": "332d3db8-0413-4a33-9b28-d1a7fc281645",
-			"version": [1,2,1]
+			"version": [ 1, 2, 80 ]
 		},
 		{
-			"description": "Javascript",
+			"description": "javascript",
 			"language": "javascript",
 			"type": "script",
 			"uuid": "3e2d0654-bfc0-4ba8-be05-6fc91d4c0876",
-			"version": "0.1.2",
+			"version": [ 1, 2, 80 ],
 			"entry": "scripts/main.js"
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "51284a03-e6fe-49e7-a042-aa0002a8e98f",
-			"version": [1,2,1]
+			"version": [ 1, 2, 80 ]
 		},
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.13.0"
+			"version": "1.16.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0"
 		}
-	]
+	],
+	"metadata": {
+		"product_type": "addon",
+		"authors": [
+			"EndXenoc"
+		]
+	}
 }

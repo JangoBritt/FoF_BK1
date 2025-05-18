@@ -1,46 +1,30 @@
 import { rightBlockLocation, leftBlockLocation } from '../util/globalVariables';
 export class MrBlinds {
 	onPlace(e) {
-		const { block } = e;
-		const topBlock = block.offset({x: 0, y: 1, z: 0});
-		const bottomBlock = block.offset({x: 0, y: -1, z: 0});
-		updatePlacedBlinds(block);
-		if (bottomBlock.getTags()[0] === block.getTags()[0]) {
-			updatePlacedBlinds(bottomBlock);
-		}
-		if (topBlock.getTags()[0] === block.getTags()[0]) {
-			updatePlacedBlinds(topBlock);
-		}
+		const direction = e.block.permutation.getState("minecraft:cardinal_direction");
+		updatePlacedBlind(e.block, direction);
+		updateNearestBlinds(e.block, direction, e.block.permutation);
 	}
 	onPlayerDestroy(e) {
-		const { block, destroyedBlockPermutation } = e;
-		const topBlock = block.offset({x: 0, y: 1, z: 0});
-		const bottomBlock = block.offset({x: 0, y: -1, z: 0});
-		if (bottomBlock.getTags()[0] === destroyedBlockPermutation.getTags()[0]) {
-			updatePlacedBlinds(bottomBlock);
-		}
-		if (topBlock.getTags()[0] === destroyedBlockPermutation.getTags()[0]) {
-			updatePlacedBlinds(topBlock);
-		}
+		const direction = e.destroyedBlockPermutation.getState("minecraft:cardinal_direction");
+		updateNearestBlinds(e.block, direction, e.destroyedBlockPermutation);
 	}
 	onPlayerInteract(e) {
 		const { block, dimension } = e;
-		const close = block.permutation.getState("mr:close");
 		updateBlinds(block, block.location.x, block.location.y, block.location.z);
-		if (close) {
-			dimension.playSound("mr.blinds_open", block.center());
-		} else {
-			dimension.playSound("mr.blinds_close", block.center());
-		}
+		dimension.playSound(block.permutation.getState("mr:close") ? "mr.blinds_open" : "mr.blinds_close", block.center());
 	}
 }
-function updatePlacedBlinds(block) {
-	const topBlock = block.offset({x: 0, y: 1, z: 0});
-	if (topBlock.getTags()[0] === block.getTags()[0]) {
-		block.setPermutation(block.permutation.withState("mr:top", true));
-	} else {
-		block.setPermutation(block.permutation.withState("mr:top", false));
-	}
+function updatePlacedBlind(block, direction) {
+	if (!block) return;
+    block.setPermutation(block.permutation.withState("mr:top", block.above().hasTag(`${block.typeId}_${direction}`)));
+}
+function updateNearestBlinds(block, direction, permutation) {
+    const above = block.above();
+    const below = block.below();
+    const tag = `${permutation.type.id}_${direction}`;
+    if (above.hasTag(tag)) updatePlacedBlind(above, direction);
+    if (below.hasTag(tag)) updatePlacedBlind(below, direction);
 }
 function updateBlinds(block, originX, originY, originZ) {
 	const blockType = block.typeId;
@@ -63,14 +47,14 @@ function updateBlinds(block, originX, originY, originZ) {
 		}
 		visitedBlocks.add(blockKey);
 		currentBlock.setPermutation(currentBlock.permutation.withState("mr:close", !currentClose));
-		const rightBlock = currentBlock.offset(rightBlockLocation[currentDirection]);
-		const leftBlock = currentBlock.offset(leftBlockLocation[currentDirection]);
-		const topBlock = currentBlock.offset({ x: 0, y: 1, z: 0 });
-		const bottomBlock = currentBlock.offset({ x: 0, y: -1, z: 0 });
+		const rightBlock = currentBlock.offset(leftBlockLocation[currentDirection]);
+		const leftBlock = currentBlock.offset(rightBlockLocation[currentDirection]);
+		const topBlock = currentBlock.above();
+		const bottomBlock = currentBlock.below();
 		const adjacentBlocks = [rightBlock, leftBlock, topBlock, bottomBlock];
 		adjacentBlocks.forEach(adjacentBlock => {
 			try {
-				if (adjacentBlock && adjacentBlock.typeId === blockType && adjacentBlock.permutation.getState("minecraft:cardinal_direction") === currentDirection) {
+				if (adjacentBlock && adjacentBlock.hasTag(`${blockType}_${currentDirection}`)) {
 					const adjacentClose = adjacentBlock.permutation.getState("mr:close");
 					if (adjacentClose === currentClose) {
 						const { x: adjX, y: adjY, z: adjZ } = adjacentBlock.location;
@@ -79,9 +63,7 @@ function updateBlinds(block, originX, originY, originZ) {
 						}
 					}
 				}
-			} catch (error) {
-				console.error("Unloaded chunk:", error);
-			}
+			} catch (error) {}
 		});
 	}
 }

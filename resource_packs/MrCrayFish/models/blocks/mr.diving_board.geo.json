@@ -12,8 +12,9 @@
 			},
 			"bones": [
 				{
-					"name": "board",
+					"name": "part_0",
 					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0],
 					"cubes": [
 						{
 							"origin": [-5, 0, -6],
@@ -36,6 +37,35 @@
 								"west": {"uv": [0, 10], "uv_size": [16, 2]},
 								"up": {"uv": [15, 16], "uv_size": [-14, -16]},
 								"down": {"uv": [15, 16], "uv_size": [-14, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "part_1",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0],
+					"cubes": [
+						{
+							"origin": [-7, 4, -4],
+							"size": [14, 2, 12],
+							"uv": {
+								"east": {"uv": [0, 10], "uv_size": [12, 2]},
+								"south": {"uv": [1, 10], "uv_size": [14, 2]},
+								"west": {"uv": [4, 10], "uv_size": [12, 2]},
+								"up": {"uv": [15, 16], "uv_size": [-14, -12]},
+								"down": {"uv": [15, 12], "uv_size": [-14, -12]}
+							}
+						},
+						{
+							"origin": [-7, 4, -8],
+							"size": [14, 2, 4],
+							"uv": {
+								"north": {"uv": [1, 10], "uv_size": [14, 2], "material_instance": "concrete"},
+								"east": {"uv": [12, 10], "uv_size": [4, 2], "material_instance": "concrete"},
+								"west": {"uv": [0, 10], "uv_size": [4, 2], "material_instance": "concrete"},
+								"up": {"uv": [15, 4], "uv_size": [-14, -4], "material_instance": "concrete"},
+								"down": {"uv": [15, 16], "uv_size": [-14, -4], "material_instance": "concrete"}
 							}
 						}
 					]

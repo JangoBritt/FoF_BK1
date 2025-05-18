@@ -1,8 +1,8 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.60",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "mr:food_mr",
+			"identifier": "mr:food",
 			"is_summonable": true,
 			"is_spawnable": false,
 			"is_experimental": false,
@@ -17,40 +17,41 @@
 					"default": false,
 					"client_sync": true
 				}
-			}
+			},
+			"runtime_identifier": "minecraft:fox"
 		},
 		"component_groups": {
-			"mr:despawn": {"minecraft:instant_despawn": {}},
-			"mr:no_particle": {
-				"minecraft:transformation": {
-					"delay": 0,
-					"into": "mr:no_sound_mr"
-				}
-			},
+			"mr:despawn": { "minecraft:instant_despawn": {} },
 			"mr:flip": {
 				"minecraft:timer": {
 					"looping": false,
-					"time": 14,
-					"time_down_event": {"event": "mr:final_cooked"}
+					"time": 10,
+					"time_down_event": { "event": "mr:final_cooked" }
 				}
-			},
-			"mr:kelp": {"minecraft:variant": {"value": 0}},
-			"mr:cod": {"minecraft:variant": {"value": 1}},
-			"mr:potato": {"minecraft:variant": {"value": 2}},
-			"mr:porkchop": {"minecraft:variant": {"value": 3}},
-			"mr:beef": {"minecraft:variant": {"value": 4}},
-			"mr:chicken": {"minecraft:variant": {"value": 5}},
-			"mr:mutton": {"minecraft:variant": {"value": 6}},
-			"mr:rabbit": {"minecraft:variant": {"value": 7}},
-			"mr:salmon": {"minecraft:variant": {"value": 8}}
+			}
 		},
 		"components": {
-			"minecraft:type_family": {
-				"family": [
-					  "food"
+			"minecraft:type_family":{
+				"family":[ "inanimate", "block"]
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": false
+			},
+			"minecraft:shareables": {
+				"all_items": true,
+				"singular_pickup": true,
+				"all_items_max_amount": 1,
+				"items": [
+					{ "item": "minecraft:beef", "priority": 0, "max_amount": 1 }
 				]
-		  	},
-			  "minecraft:interact": {
+			},
+			"minecraft:equip_item": {},
+			"minecraft:behavior.equip_item": { "priority": 2 },
+			"minecraft:scale": {
+				"value": 0.6
+			},
+			"minecraft:interact": {
 				"interactions": [
 					{
 						"on_interact": {
@@ -86,12 +87,21 @@
 			},
 			"minecraft:timer": {
 				"looping": false,
-				"time": 14,
-				"time_down_event": {"event": "mr:cooked"}
+				"time": 10,
+				"time_down_event": { "event": "mr:cooked" }
 	  		},
 			"minecraft:collision_box": {
-				"width": 0.2,
-				"height": 0.1
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 0.2,
+						"height": 0.1,
+						"pivot": [ 0, 0.05, 0 ]
+					}
+				]
 			},
 			"minecraft:pushable": {
 				"is_pushable": false,
@@ -105,17 +115,13 @@
 				"triggers": [
 					{
 						"cause": "all",
-						"deals_damage": false
+						"deals_damage": "no"
 					}
 				]
 			},
 			"minecraft:health": {
 				"value": 1,
 				"max": 1
-			},
-			"minecraft:on_death": {
-				"event": "mr:no_particle",
-				"target": "self"
 			},
 			"minecraft:inside_block_notifier": {
 				"block_list": [
@@ -124,61 +130,33 @@
 							"name": "minecraft:air"
 						},
 						"entered_block_event": {
-							"event": "mr:remove_block",
+							"event": "mr:despawn",
 							"target": "self"
 						}
 					}
 				]
 			},
+			"minecraft:mob_effect_immunity": {
+				"mob_effects": [
+					"invisibility"
+				]
+			},
+			"minecraft:fire_immune": {},
+			"minecraft:persistent": {},
 			"minecraft:body_rotation_blocked": {}
 		},
 		"events": {
-			"minecraft:beef": {"add": {"component_groups": ["mr:beef"]}},
-			"minecraft:chicken": {"add": {"component_groups": ["mr:chicken"]}},
-			"minecraft:cod": {"add": {"component_groups": ["mr:cod"]}},
-			"minecraft:kelp": {"add": {"component_groups": ["mr:kelp"]}},
-			"minecraft:mutton": {"add": {"component_groups": ["mr:mutton"]}},
-			"minecraft:porkchop": {"add": {"component_groups": ["mr:porkchop"]}},
-			"minecraft:potato": {"add": {"component_groups": ["mr:potato"]}},
-			"minecraft:rabbit": {"add": {"component_groups": ["mr:rabbit"]}},
-			"minecraft:salmon": {"add": {"component_groups": ["mr:salmon"]}},
-
-			"mr:despawn": {"add": {"component_groups": ["mr:despawn"]}},
-			"mr:remove_block": {
-				"sequence": [
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 0},{"any_of": [{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": false },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": false }]}]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/kelp\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 1},{"any_of": [{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": false },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": false }]}]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/cod\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 2},{"any_of": [{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": false },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": false }]}]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/potato\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 3},{"any_of": [{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": false },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": false }]}]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/porkchop\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 4},{"any_of": [{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": false },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": false }]}]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/beef\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 5}]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/chicken\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 6},{"any_of": [{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": false },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": false }]}]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/mutton\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 7},{"any_of": [{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": false },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": false }]}]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/rabbit\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 8},{"any_of": [{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": false },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": false }]}]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/salmon\""]}},
-
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 0},{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true }]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/dried_kelp\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 1},{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true }]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/cooked_cod\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 2},{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true }]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/baked_potato\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 3},{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true }]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/cooked_porkchop\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 4},{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true }]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/cooked_beef\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 5},{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true }]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/cooked_chicken\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 6},{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true }]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/cooked_mutton\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 7},{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true }]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/cooked_rabbit\""]}},
-					{"filters": {"all_of": [{ "test": "is_variant", "subject": "self", "value": 8},{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true }]},"queue_command": {"command": ["loot spawn ~~0.2~ loot \"MrCray/food/cooked_salmon\""]}},
-
-					{"trigger": {"event": "mr:despawn"}}
-				]
-			},
+			"mr:despawn": {},
 			"mr:flip": {
 				"queue_command": {
-					"command": ["playanimation @s animation.mr.food.flip","playsound mr.grill_flip @a ~~~"]
+					"command": [ "playanimation @s animation.mr.food.flip" ]
 				},
 				"set_property": {
 					"mr:flipped": true,
 					"mr:cooked": false
 				},
 				"add": {
-					"component_groups": ["mr:flip"]
+					"component_groups": [ "mr:flip" ]
 				}
 			},
 			"mr:cooked": {

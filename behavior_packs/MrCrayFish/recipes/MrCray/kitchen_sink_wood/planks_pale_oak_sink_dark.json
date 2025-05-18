@@ -1,0 +1,39 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mr:planks_pale_oak_sink_dark_mr"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#I#",
+            "ACA",
+            "AAA"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:gray_concrete"
+            },
+            "A": {
+                "item": "minecraft:pale_oak_planks"
+            },
+            "C": {
+                "item": "minecraft:bucket"
+            },
+            "I": {
+                "item": "minecraft:iron_ingot"
+            }
+        },
+        "unlock": [
+            {
+                "item": "fables_misc:pale_oak_book"
+            }
+        ],
+        "result": {
+            "item": "mr:planks_pale_oak_sink_dark_mr",
+            "count": 2
+        }
+    }
+}

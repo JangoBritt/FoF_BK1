@@ -5,7 +5,7 @@
 db/
 .vscode/
 zip/
-
+powershell/
 ## Files to exclude
 .gitignore
 .lftp_ignore

@@ -1,0 +1,33 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mr:wood_pale_oak_mail_mr"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "A",
+            "A"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:chest"
+            },
+            "A": {
+                "item": "mr:wood_pale_oak_fence_mr"
+            }
+        },
+        "unlock": [
+            {
+                "item": "fables_misc:pale_oak_book"
+            }
+        ],
+        "result": {
+            "item": "mr:wood_pale_oak_mail_mr",
+            "count": 1
+        }
+    }
+}

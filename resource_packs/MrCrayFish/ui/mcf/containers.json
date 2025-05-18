@@ -1,0 +1,178 @@
+{
+	"namespace": "mcf_container",
+	"chest_label": {
+		"$new_container_title|default": "$container_title",
+		"text": "$container_title"
+	},
+	"bedside_cabinet@mcf_container.mcf_container_panel": {
+		"$title": "inventory.mr.bedside_cabinet.name",
+		"$size_container": [ 176, 140 ],
+		"$grid_size": [ 162, 18 ],
+		"$grid": [ 9, 1 ]
+	},
+	"kitchen_drawer@mcf_container.mcf_container_panel": {
+		"$title": "inventory.mr.kitchen_drawer.name",
+		"$size_container": [ 176, 140 ],
+		"$grid_size": [ 162, 18 ],
+		"$grid": [ 9, 1 ]
+	},
+	"cooler@mcf_container.mcf_container_panel": {
+		"$title": "inventory.mr.cooler.name",
+		"$size_container": [ 176, 140 ],
+		"$grid_size": [ 162, 18 ],
+		"$grid": [ 9, 1 ]
+	},
+	"desk_cabinet@mcf_container.mcf_container_panel": {
+		"$title": "inventory.mr.desk_cabinet.name",
+		"$size_container": [ 176, 140 ],
+		"$grid_size": [ 162, 18 ],
+		"$grid": [ 9, 1 ]
+	},
+	"post_box@mcf_container.mcf_container_panel": {
+		"$title": "inventory.mr.post_box.name",
+		"$size_container": [ 176, 140 ],
+		"$grid_size": [ 162, 18 ],
+		"$grid": [ 9, 1 ]
+	},
+	"mail_box@mcf_container.mcf_container_panel": {
+		"$name_container": "($new_container_title - ('%.20s' * $new_container_title))",
+		"$grid_offset": [ 0, 35 ],
+		"$title": "inventory.mr.mail_box.name",
+		"$size_container": [ 176, 150 ],
+		"$grid_size": [ 162, 18 ],
+		"$grid": [ 9, 1 ]
+	},
+	"cabinet@mcf_container.mcf_container_panel": {
+		"$title": "inventory.mr.cabinet.name",
+		"$size_container": [ 176, 158 ],
+		"$grid_size": [ 162, 36 ],
+		"$grid": [ 9, 2 ]
+	},
+	"crate@mcf_container.mcf_container_panel": {
+		"$title": "inventory.mr.crate.name",
+		"$size_container": [ 176, 176 ],
+		"$grid_size": [ 162, 54 ],
+		"$grid": [ 9, 3 ]
+	},
+	"fridge@mcf_container.mcf_container_panel": {
+		"$title": "inventory.mr.fridge.name",
+		"$size_container": [ 176, 352 ],
+		"$grid_size": [ 162, 108 ],
+		"$grid": [ 9, 6 ]
+	},
+    "stove_label": {
+        "type": "label",
+		"anchor_from": "top_middle",
+		"anchor_to": "top_middle",
+        "text": "$title",
+		"$title|default": " ",
+        "color": "$title_text_color",
+        "layer": 6
+    },
+	"mcf_container_main_container": {
+		"type": "panel",
+		"size": [
+			"100%",
+			"100%"
+		],
+		"offset": [
+			0,
+			0
+		],
+		"anchor_to": "top_middle",
+		"anchor_from": "top_middle",
+		"controls": [
+			{
+				"stove_label@mcf_container.stove_label": {
+					"offset": [ 0, 10 ]
+				}
+			},
+			{
+				"mcf_container_grid@mcf_container.mcf_container_grid": {
+					"offset": "$grid_offset",
+					"$grid_offset|default": [ 0, 25 ]
+				}
+			},
+			{
+				"container_name": {
+					"type": "label",
+					"anchor_from": "top_middle",
+					"anchor_to": "top_middle",
+					"offset": [ 0, 22 ],
+					"text": "$name_container",
+					"$name_container|default": " ",
+					"color": "$title_text_color",
+					"layer": 6
+				}
+			}
+		]
+	},
+	"mcf_container_grid": {
+		"type": "grid",
+		"size": "$grid_size",
+		"$grid_size|default": [ 162, 54 ],
+		"anchor_from": "top_middle",
+		"anchor_to": "top_middle",
+		"grid_dimensions": "$grid",
+		"$grid|default": [ 9, 3 ],
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items"
+	},
+	"mcf_container_panel": {
+		"type": "panel",
+		"controls": [
+			{
+				"container_gamepad_helpers@common.container_gamepad_helpers": {}
+			},
+			{
+				"flying_item_renderer@common.flying_item_renderer": {
+					"layer": 14
+				}
+			},
+			{
+				"selected_item_details_factory@common.selected_item_details_factory": {}
+			},
+			{
+				"item_lock_notification_factory@common.item_lock_notification_factory": {}
+			},
+			{
+				"root_panel@common.root_panel": {
+					"layer": 1,
+					"offset": [
+						0,
+						0
+					],
+					"size": "$size_container",
+					"$size_container|default": [ 176, 166 ],
+					"controls": [
+						{
+							"common_panel@common.common_panel": {}
+						},
+						{
+							"chest_panel": {
+								"type": "panel",
+								"layer": 5,
+								"controls": [
+									{
+										"mcf_container_main_container@mcf_container.mcf_container_main_container": {}
+									},
+									{
+										"inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+									},
+									{
+										"hotbar_grid@common.hotbar_grid_template": {}
+									},
+									{
+										"inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+									}
+								]
+							}
+						},
+						{ "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+						{ "gamepad_cursor@common.gamepad_cursor_button": {} }
+					]
+				}
+			}
+		]
+	}
+}
