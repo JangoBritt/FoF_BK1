@@ -1,0 +1,15 @@
+{
+  "pools": [
+    // Arrows
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/random_arrows.json"
+        }
+      ]
+    }
+  ]
+}
