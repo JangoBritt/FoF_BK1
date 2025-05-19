@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.60",
   "minecraft:entity": {
     "description": {
       "identifier": "nicothekid:cobbled_deepslate_golem",
@@ -17,7 +17,9 @@
           "family": [
             "cobbled_deepslate_golem",
             "golem",
+            "earth_elemental",
             "elemental",
+            "magical",
             "monster",
             "mob"
           ]
@@ -26,7 +28,7 @@
         "minecraft:tameable": {
           "probability": 1.0,
           "tame_items": [
-            "minecraft:echo_shard"
+            "nicothekid:enchanted_emerald"
           ],
           "tame_event": {
             "event": "event:on_tame",
@@ -147,11 +149,12 @@
         "minecraft:type_family": {
           "family": [
             "cobbled_deepslate_golem",
-            "player_tamed",
-            "player_tamed_aggressive",
             "golem",
             "elemental",
-            "mob"
+            "magical",
+            "mob",
+            "player_tamed",
+            "player_tamed_aggressive"
           ]
         },
         
@@ -263,6 +266,12 @@
               "filters": {
                 "all_of": [
                   {
+                    "test": "has_component",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "minecraft:is_tamed"
+                  },
+                  {
                     "test": "is_family",
                     "subject": "other",
                     "operator": "==",
@@ -291,12 +300,6 @@
                     "subject": "other",
                     "operator": "!=",
                     "value": "zombie_pigman"
-                  },
-                  {
-                    "test": "has_component",
-                    "subject": "other",
-                    "operator": "!=",
-                    "value": "minecraft:is_tamed"
                   }
                 ]
               }
@@ -310,6 +313,7 @@
           "max_distance": 60.0,
           "start_distance": 14.0,
           "stop_distance": 4.0,
+          "post_teleport_distance": 4.0,
           "speed_multiplier": 1.1
         },
         "minecraft:loot": {
@@ -329,7 +333,7 @@
           "value": 0.5
         },
         "minecraft:movement": {
-          "value": 0.20
+          "value": 0.2
         },
         
         "minecraft:jump.static": {
@@ -383,7 +387,7 @@
           "path_outer_boundary": 32.0,
           "path_fail_time_increase": 0.75,
           "inner_boundary_time_increase": 0.25,
-          "outer_boundary_time_increase": 0.50,
+          "outer_boundary_time_increase": 0.5,
           "random_stop_interval": 0,
           "reach_multiplier": 2.0,
           "speed_multiplier": 1.1,
@@ -516,10 +520,10 @@
         "triggers": [
           {
             "cause": "fall",
-            "deals_damage": true,
+            "deals_damage": "yes",
 						"damage_modifier": 0.0,
 						"damage_multiplier": 1.0,
-						"on_damage_sound_event": "",
+						"on_damage_sound_event": "hurt",
 						"on_damage": {
 						  "event": "event:on_fall_damage_sensor",
 						  "target": "self",
@@ -527,34 +531,7 @@
 						}
           },
           {
-            "cause": "projectile",
-            "deals_damage": true,
-						"damage_modifier": 0.0,
-						"damage_multiplier": 2.0,
-						"on_damage_sound_event": "hurt",
-						"on_damage": {
-              "event": "event:on_magic_missile_damage_sensor",
-              "target": "self",
-              "filters": {
-                "all_of": [
-                  {
-                    "test": "is_family",
-                    "subject": "damager",
-                    "operator": "==",
-                    "value": "magic_missile"
-                  },
-                  {
-                    "test": "is_family",
-                    "subject": "self",
-                    "operator": "==",
-                    "value": "elemental"
-                  }
-                ]
-              }
-						}
-          },
-          {
-            "deals_damage": false,
+            "deals_damage": "no",
 						"damage_modifier": 0.0,
 						"damage_multiplier": 1.0,
 						"on_damage_sound_event": "",
@@ -992,7 +969,7 @@
       "event:on_sit": {
         "queue_command": {
           "command": [
-            "playsound mob.nicothekid_cobbled_deepslate_golem.sit @p[r=8] ~ ~ ~ 1.0 0.5 1.0"
+            "playsound mob.nicothekid_cobbled_deepslate_golem.sit @a[r=8] ~ ~ ~ 1.0 0.5 0.5"
           ]
         },
         "remove": {
@@ -1010,7 +987,7 @@
       "event:on_stand": {
         "queue_command": {
           "command": [
-            "playsound mob.nicothekid_cobbled_deepslate_golem.stand @p[r=8] ~ ~ ~ 1.0 0.5 1.0"
+            "playsound mob.nicothekid_cobbled_deepslate_golem.stand @a[r=8] ~ ~ ~ 1.0 0.5 0.5"
           ]
         },
         "remove": {
@@ -1028,20 +1005,19 @@
       "event:on_interact_with_cobbled_deepslate": {
         "queue_command": {
           "command": [
-            "playsound mob.nicothekid_cobbled_deepslate_golem.repair @p[r=8] ~ ~ ~ 1.0 0.7 1.0"
+            "playsound mob.nicothekid_cobbled_deepslate_golem.repair @a[r=8] ~ ~ ~ 1.0 0.7 0.5"
           ]
         }
 			},
 			"event:on_interact_with_deepslate": {
 			  "queue_command": {
           "command": [
-            "playsound mob.nicothekid_cobbled_deepslate_golem.repair @p[r=8] ~ ~ ~ 1.0 0.7 1.0"
+            "playsound mob.nicothekid_cobbled_deepslate_golem.repair @a[r=8] ~ ~ ~ 1.0 0.7 0.5"
           ]
         }
 			},
       "event:on_attack": {},
       "event:on_fall_damage_sensor": {},
-      "event:on_magic_missile_damage_sensor": {},
       "event:on_sweet_berry_bush_damage_sensor": {},
 			"event:on_named": {},
 			"event:on_unnamed": {}

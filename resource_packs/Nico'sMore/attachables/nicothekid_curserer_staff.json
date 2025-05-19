@@ -13,8 +13,8 @@
         "default": "geometry.item.nicothekid_curserer_staff"
       },
       "materials": {
-        "default": "item_staff",
-        "enchanted": "item_staff"
+        "default": "nicothekid_item_staff",
+        "enchanted": "nicothekid_item_staff"
       },
       "textures": {
         "default": "textures/models/ntk_curserer_staff",

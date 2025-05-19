@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Bamboo Tumblers"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #28",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #28§r\n§lBamboo Tumblers§r\n \n•Empty Bamboo Tumbler\n•Bamboo Tumbler with Water\n•Bamboo Tumbler with Milk\n•Bamboo Tumbler with Chocolate\n•Bamboo Tumbler with Sweet Berry Juice\n•Bamboo Tumbler with Glow Berry Juice",
+                
+                "§lEmpty Bamboo Tumbler§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•§lFuel§r: 2\n•§lPlaceable§r: YES\n•§lUsed to craft§r: Bamboo Tumbler with Water, Bamboo Tumbler with Milk,",
+                "Bamboo Tumbler with Chocolate, Bamboo Tumbler with Sweet Berry Juice, Bamboo Tumbler with Glow Berry Juice.\n•Can be used to contain drinkable liquids.",
+                
+                "§lBamboo Tumbler with Water§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lObtainable by interacting§r: Empty Bamboo Tumbler on Jar with Water or Evaporator with Water.\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lPlaceable§r: YES",
+                "•§lDrinkable§r: YES\n•§lFood nutrition§r: 0\n•§lUsed to craft§r: Bamboo Tumbler with Chocolate Drinks.\n•§lUsable in§r: Empty Jar, & Jar with Water §o§8(Half)§r.",
+                
+                "§lBamboo Tumbler with Milk§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lObtainable by interacting§r: Empty Bamboo Tumbler on Jar with Milk.\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lPlaceable§r: YES\n•§lDrinkable§r: YES",
+                "•§lFood nutrition§r: 1\n•§lRemove status effect§r: Poison Effect, Nausea Effect, Weakness Effect, Levitation Effect.\n•§lUsed to craft§r: Jar with Milk\n•§lUsable in§r: Empty Jar, Jar with Milk §o§8(Half)§r.\n•§lCan heal§r: Mossy Skeleton",
+                
+                "§lBamboo Tumbler with Chocolate§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lObtainable by interacting§r: Empty Bamboo Tumbler on Jar with Chocolate.\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lPlaceable§r: YES",
+                "•§lDrinkable§r: YES\n•§lFood nutrition§r: 1\n•§lRemove status effect§r: Slowness Effect.\n•§lUsed to craft§r: Jar with Chocolate.\n•§lUsable in§r: Empty Jar, Jar with Chocolate §o§8(Half)§r.",
+                
+                "§lBamboo Tumbler with Sweet Berry Juice§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lObtainable by interacting§r: Empty Bamboo Tumbler on Jar with Sweet Berry Juice.\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lPlaceable§r: YES",
+                "•§lDrinkable§r: YES\n•§lFood nutrition§r: 1\n•§lRemove status effect§r: Hunger Effect\n•§lUsed to craft§r: Jar with Sweet Berry Juice.\n•§lUsable in§r: Empty Jar, Jar with Sweet Berry Juice §o§8(Half)§r.",
+                
+                "§lBamboo Tumbler with Glow Berry Juice§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lObtainable by interacting§r: Empty Bamboo Tumbler on Jar with Glow Berry Juice\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lPlaceable§r: YES",
+                "•§lDrinkable§r: YES\n•§lFood nutrition§r: 1\n•§lRemove status effect§r: Blindness Effect\n•§lUsed to craft§r: Jar with Glow Berry Juice.\n•§lUsable in§r: Empty Jar, Jar with Glow Berry Juice §o§8(Half)§r."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

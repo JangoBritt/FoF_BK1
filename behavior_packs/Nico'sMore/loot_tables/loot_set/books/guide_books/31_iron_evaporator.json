@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Iron Evaporator"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #31",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #31§r\n§lIron Evaporator§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lFound naturally§r: NO\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•§lBlast Resistance§r: 30.0\n•§lHardness§r: 3.0\n•§lFlammable§r: NO",
+                "•§lMining Tool§r: Pickaxe\n•§lDrops on breaking§r: Iron Evaporator\n•§lContainable with§r: Water, Snow, Ices, Lava, Milk, Mud, Rotten Flesh.\n•The iron evaporator can dry out the contained substances in a few minutes.\n•The water, milk, snow,",
+                "ice, or rotten flesh contained will dry out after 75 seconds §o§8(1:15)§r. While the lava contained will dry out after 150 seconds §o§8(2:30)§r.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

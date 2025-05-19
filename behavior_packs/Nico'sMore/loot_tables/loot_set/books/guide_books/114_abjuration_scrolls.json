@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Abjuration Scrolls"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #114",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #114§r\n§lAbjuration Scrolls§r\n§8ITEMS§r\n \n•Scroll of Weaving Webs",
+                
+                "§lScroll of Weaving Webs§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Creates a pile of cobwebs upon impact."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Virtuous Flying Book"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #103",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #103§r\n§lVirtuous Flying Book§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMob type§r: Construct, Object, Magical, Villager defender, Aerial.\n•§lSummon by§r: Book Keeper\n•§lHealth§r: 14",
+                "•§lFly speed§r: 0.12\n•§lBreathes in§r: Air\n•§lPossible drops§r: Paper, Book, XP Orbs.\n•§lAggressive toward§r: Monsters\n•§lMelee attack damage§r: 1\n•Can be sealed by using a §lSealing Bookmark§r."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

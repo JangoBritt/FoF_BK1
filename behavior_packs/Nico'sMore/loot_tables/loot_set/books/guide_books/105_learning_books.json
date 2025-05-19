@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Learning Books"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #105",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #105§r\n§lLearning Books§r\n§8ITEMS§r\n \n•Learning Book of Villaging\n•Learning Book of Book Keeping\n•Learning Book of Scrollwright\n•Learning Book of Crates Trading",
+                
+                "§lLearning Book of Villaging§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Book Keeper\n•§lTrade by§r: Book Keeper\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lOffhand equipable§r: YES\n•§lCan tempt§r: Custom villager-type mobs.",
+                "•Can be used to transform custom villager into §lVillager§r.\n•By giving this to a custom villager, their trade table will automatically change and reset.",
+                
+                "§lLearning Book of Book Keeping§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Book Keeper\n•§lTrade by§r: Book Keeper\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lOffhand equipable§r: YES\n•§lCan tempt§r: Custom villager",
+                "mobs.\n•Can be used to transform custom villager into §lBook Keeper§r.\n•By giving this to a custom villager, their trade table will automatically change and reset.",
+                
+                "§lLearning Book of Scrollwright§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Scrollwright\n•§lTrade by§r: Book Keeper\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lOffhand equipable§r: YES\n•§lCan tempt§r: Custom villager",
+                "mobs.\n•Can be used to transform custom villager into §lScrollwright§r.\n•By giving this to a custom villager, their trade table will automatically change and reset.",
+                
+                "§lLearning Book of Crates Trading§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Crates Trader\n•§lTrade by§r: Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lOffhand equipable§r: YES\n•§lCan tempt§r: Custom villager",
+                "-type mobs.\n•Can be used to transform custom villager into §lCrates Trader§r.\n•By giving this to a custom villager, their trade table will automatically change and reset.\n•When used on a Crates Trader, it will transform them into",
+                "either a Wandering Crates Trader or a Dwelling Crates Trader."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

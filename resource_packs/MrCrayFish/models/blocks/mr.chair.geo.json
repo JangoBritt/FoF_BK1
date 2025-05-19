@@ -1,5 +1,5 @@
 {
-	"format_version": "1.12.0",
+	"format_version": "1.21.20",
 	"minecraft:geometry": [
 		{
 			"description": {
@@ -8,83 +8,657 @@
 				"texture_height": 16,
 				"visible_bounds_width": 2,
 				"visible_bounds_height": 2.5,
-				"visible_bounds_offset": [0, 0.75, 0]
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
 			},
 			"bones": [
 				{
 					"name": "chair",
-					"pivot": [8, 0, -8],
+					"pivot": [
+						8,
+						0,
+						-8
+					],
 					"cubes": [
 						{
-							"origin": [-6, 0, -6],
-							"size": [2, 8, 2],
+							"origin": [
+								-6,
+								0,
+								-6
+							],
+							"size": [
+								2,
+								8,
+								2
+							],
 							"uv": {
-								"north": {"uv": [2, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"east": {"uv": [12, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"south": {"uv": [12, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"west": {"uv": [2, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"down": {"uv": [14, 14], "uv_size": [-2, -2], "material_instance": "wood"}
+								"north": {
+									"uv": [
+										2,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"east": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"south": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"west": {
+									"uv": [
+										2,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"down": {
+									"uv": [
+										14,
+										14
+									],
+									"uv_size": [
+										-2,
+										-2
+									],
+									"material_instance": "wood"
+								}
 							}
 						},
 						{
-							"origin": [4, 0, -6],
-							"size": [2, 8, 2],
+							"origin": [
+								4,
+								0,
+								-6
+							],
+							"size": [
+								2,
+								8,
+								2
+							],
 							"uv": {
-								"north": {"uv": [12, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"east": {"uv": [12, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"south": {"uv": [2, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"west": {"uv": [2, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"down": {"uv": [4, 14], "uv_size": [-2, -2], "material_instance": "wood"}
+								"north": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"east": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"south": {
+									"uv": [
+										2,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"west": {
+									"uv": [
+										2,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"down": {
+									"uv": [
+										4,
+										14
+									],
+									"uv_size": [
+										-2,
+										-2
+									],
+									"material_instance": "wood"
+								}
 							}
 						},
 						{
-							"origin": [-6, 0, 4],
-							"size": [2, 8, 2],
+							"origin": [
+								-6,
+								0,
+								4
+							],
+							"size": [
+								2,
+								8,
+								2
+							],
 							"uv": {
-								"north": {"uv": [2, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"east": {"uv": [2, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"south": {"uv": [12, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"west": {"uv": [12, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"down": {"uv": [14, 4], "uv_size": [-2, -2], "material_instance": "wood"}
+								"north": {
+									"uv": [
+										2,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"east": {
+									"uv": [
+										2,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"south": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"down": {
+									"uv": [
+										14,
+										4
+									],
+									"uv_size": [
+										-2,
+										-2
+									],
+									"material_instance": "wood"
+								}
 							}
 						},
 						{
-							"origin": [4, 0, 4],
-							"size": [2, 8, 2],
+							"origin": [
+								4,
+								0,
+								4
+							],
+							"size": [
+								2,
+								8,
+								2
+							],
 							"uv": {
-								"north": {"uv": [12, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"east": {"uv": [2, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"south": {"uv": [2, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"west": {"uv": [12, 8], "uv_size": [2, 8], "material_instance": "wood"},
-								"down": {"uv": [4, 4], "uv_size": [-2, -2], "material_instance": "wood"}
+								"north": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"east": {
+									"uv": [
+										2,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"south": {
+									"uv": [
+										2,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"material_instance": "wood"
+								},
+								"down": {
+									"uv": [
+										4,
+										4
+									],
+									"uv_size": [
+										-2,
+										-2
+									],
+									"material_instance": "wood"
+								}
 							}
 						},
 						{
-							"origin": [-6.5, 8, -6.5],
-							"size": [13, 2, 13],
+							"origin": [
+								-6.5,
+								8,
+								-6.5
+							],
+							"size": [
+								13,
+								2,
+								13
+							],
 							"uv": {
-								"north": {"uv": [2, 6], "uv_size": [13, 2]},
-								"east": {"uv": [2, 6], "uv_size": [13, 2]},
-								"south": {"uv": [2, 6], "uv_size": [13, 2]},
-								"west": {"uv": [2, 6], "uv_size": [13, 2]},
-								"up": {"uv": [14, 14], "uv_size": [-13, -13]},
-								"down": {"uv": [14, 14], "uv_size": [-13, -13]}
+								"north": {
+									"uv": [
+										2,
+										6
+									],
+									"uv_size": [
+										13,
+										2
+									]
+								},
+								"east": {
+									"uv": [
+										2,
+										6
+									],
+									"uv_size": [
+										13,
+										2
+									]
+								},
+								"south": {
+									"uv": [
+										2,
+										6
+									],
+									"uv_size": [
+										13,
+										2
+									]
+								},
+								"west": {
+									"uv": [
+										2,
+										6
+									],
+									"uv_size": [
+										13,
+										2
+									]
+								},
+								"up": {
+									"uv": [
+										14,
+										14
+									],
+									"uv_size": [
+										-13,
+										-13
+									]
+								},
+								"down": {
+									"uv": [
+										14,
+										14
+									],
+									"uv_size": [
+										-13,
+										-13
+									]
+								}
 							}
 						},
 						{
-							"origin": [-6.5, 10, 4.5],
-							"size": [13, 10, 2],
+							"origin": [
+								-6.5,
+								10,
+								4.5
+							],
+							"size": [
+								13,
+								10,
+								2
+							],
 							"uv": {
-								"north": {"uv": [1, 0], "uv_size": [13, 10]},
-								"east": {"uv": [1, 0], "uv_size": [2, 10]},
-								"south": {"uv": [1, 0], "uv_size": [13, 10]},
-								"west": {"uv": [13, 0], "uv_size": [2, 10]},
-								"up": {"uv": [14, 3], "uv_size": [-13, -2]}
+								"north": {
+									"uv": [
+										1,
+										0
+									],
+									"uv_size": [
+										13,
+										10
+									]
+								},
+								"east": {
+									"uv": [
+										1,
+										0
+									],
+									"uv_size": [
+										2,
+										10
+									]
+								},
+								"south": {
+									"uv": [
+										1,
+										0
+									],
+									"uv_size": [
+										13,
+										10
+									]
+								},
+								"west": {
+									"uv": [
+										13,
+										0
+									],
+									"uv_size": [
+										2,
+										10
+									]
+								},
+								"up": {
+									"uv": [
+										14,
+										3
+									],
+									"uv_size": [
+										-13,
+										-2
+									]
+								}
 							}
 						}
 					]
 				}
-			]
+			],
+			"item_display_transforms": {
+				"thirdperson_righthand": {
+					"rotation": [
+						32,
+						180,
+						0
+					],
+					"translation": [
+						0,
+						2.5,
+						-1.5
+					],
+					"scale": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"rotation_pivot": [
+						0,
+						0,
+						0
+					],
+					"scale_pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				"thirdperson_lefthand": {
+					"rotation": [
+						32,
+						180,
+						0
+					],
+					"translation": [
+						0,
+						2.5,
+						-1.5
+					],
+					"scale": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"rotation_pivot": [
+						0,
+						0,
+						0
+					],
+					"scale_pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				"firstperson_righthand": {
+					"rotation": [
+						0,
+						135,
+						0
+					],
+					"translation": [
+						0,
+						3,
+						0
+					],
+					"scale": [
+						0.4,
+						0.4,
+						0.4
+					],
+					"rotation_pivot": [
+						0,
+						0,
+						0
+					],
+					"scale_pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				"firstperson_lefthand": {
+					"rotation": [
+						0,
+						135,
+						0
+					],
+					"translation": [
+						0,
+						3,
+						0
+					],
+					"scale": [
+						0.4,
+						0.4,
+						0.4
+					],
+					"rotation_pivot": [
+						0,
+						0,
+						0
+					],
+					"scale_pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				"ground": {
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"translation": [
+						0,
+						0,
+						0
+					],
+					"scale": [
+						0.4,
+						0.4,
+						0.4
+					],
+					"rotation_pivot": [
+						0,
+						0,
+						0
+					],
+					"scale_pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				"gui": {
+					"rotation": [
+						30,
+						-135,
+						0
+					],
+					"translation": [
+						0,
+						0,
+						0
+					],
+					"scale": [
+						1,
+						1,
+						1
+					],
+					"rotation_pivot": [
+						0,
+						0,
+						0
+					],
+					"scale_pivot": [
+						0,
+						0,
+						0
+					],
+					"fit_to_frame": true
+				},
+				"head": {
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"translation": [
+						0,
+						0,
+						0
+					],
+					"scale": [
+						1,
+						1,
+						1
+					],
+					"rotation_pivot": [
+						0,
+						0,
+						0
+					],
+					"scale_pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				"fixed": {
+					"rotation": [
+						0,
+						-90,
+						0
+					],
+					"translation": [
+						0,
+						-1.5,
+						0.75
+					],
+					"scale": [
+						0.8,
+						0.8,
+						0.8
+					],
+					"rotation_pivot": [
+						0,
+						0,
+						0
+					],
+					"scale_pivot": [
+						0,
+						0,
+						0
+					]
+				}
+			}
 		}
 	]
 }

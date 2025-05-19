@@ -6,6 +6,22 @@
         {
           "weight": 100,
           "type": "item",
+          "name": "nicothekid:stone_piglin_chief_trophy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
           "name": "nicothekid:piglin_fire_staff",
           "functions": [
             {
@@ -24,7 +40,7 @@
         {
           "weight": 100,
           "type": "item",
-          "name": "nicothekid:piglin_sledge_hammer",
+          "name": "nicothekid:piglin_war_hammer",
           "functions": [
             {
               "function": "set_count",

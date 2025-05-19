@@ -1,17 +1,18 @@
 {
-  "format_version": "1.21.40",
+  "format_version": "1.21.60",
   "minecraft:item": {
     "description": {
       "identifier": "nicothekid:cursed_eye",
       "menu_category": {
         "category": "items",
-        "group": "items"
+        "group": "minecraft:items"
       }
     },
     "components": {
       "minecraft:display_name": {
 				"value": "%item.nicothekid.cursed_eye.name"
 			},
+			"minecraft:rarity": "common",
       "minecraft:icon": {
 				"textures": {
           "default": "nicothekid_cursed_eye"  
@@ -43,8 +44,9 @@
 			},
 			"minecraft:tags": {
         "tags": [
-          "cursed_eye",
-          "nicothekid_items"
+          "nicothekid:cursed_eye",
+          "nicothekid:miscellaneous_item",
+          "nicothekid:items"
         ]
       }
     }

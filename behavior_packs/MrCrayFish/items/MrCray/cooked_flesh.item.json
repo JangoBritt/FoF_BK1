@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mr:cooked_flesh",
+			"menu_category": {
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.cookedFood"
+			}
+		},
+		"components": {
+			"minecraft:icon": "mr:cooked_flesh",
+			"minecraft:display_name": {
+				"value": "item.mr:cooked_flesh"
+			},
+			"minecraft:food": {
+				"can_always_eat": false,
+				"nutrition": 4,
+				"saturation_modifier": 0.6
+			},
+			"minecraft:use_modifiers": { "movement_modifier": 0.35, "use_duration": 1.6 },
+			"minecraft:use_animation": { "value": "eat" }
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Pies"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #27",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #27§r\n§lPies§r\n§8ITEMS§r\n \n•Apple Pie\n•Beetroot Pie\n•Sweet Berry Cookie\n•Glow Berry Pie\n•Moss Berry Pie",
+                
+                "§lApple Pie§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•§lComposting chance§r: 100\n•§lEatable§r: YES\n•§lFood nutrition§r: 7\n•§lAdd status effect§r: Instant Health II §o(0:10)§r",
+                "•§lCan tempt§r: Rats\n•§lCan heal§r: Rats\n•§lCan breed§r: Rats\n•§lCan age§r: Rats",
+                
+                "§lBeetroot Pie§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•§lComposting chance§r: 100\n•§lEatable§r: YES\n•§lFood nutrition§r: 5\n•§lCan tempt§r: Rats, Troots.\n•§lCan heal§r: Rats,",
+                "Troots.\n•§lCan breed§r: Rats\n•§lCan age§r: Rats\n•§lCan tame§r: Troots",
+                
+                "§lSweet Berry Pie§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•§lComposting chance§r: 100\n•§lEatable§r: YES\n•§lFood nutrition§r: 7\n•§lAdd status effect§r: Regeneration §o(0:15)§r",
+                "•§lCan tempt§r: Giant Moa, Rats.\n•§lCan heal§r: Giant Moa, Rats.\n•§lCan breed§r: Giant Moa, Rat.\n•§lCan age§r: Moa, Rat.",
+                
+                "§lGlow Berry Pie§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•§lComposting chance§r: 100\n•§lEatable§r: YES\n•§lFood nutrition§r: 7\n•§lAdd status effect§r: Night Vision §o(0:45)§r",
+                "•§lCan tempt§r: Giant Moa, Rats.\n•§lCan heal§r: Giant Moa, Rats.\n•§lCan breed§r: Rat\n•§lCan age§r: Rat\n•§lCan tame§r: Giant Moa",
+                
+                "§lMoss Berry Pie§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•§lComposting chance§r: 100\n•§lEatable§r: YES\n•§lFood nutrition§r: 7\n•§lAdd status effect§r: Regeneration §o(0:20)§r",
+                "•§lCan tempt§r: Giant Moa, Myceling, Rats.\n•§lCan heal§r: Giant Moa, Myceling, Rats.\n•§lCan breed§r: Rat\n•§lCan age§r: Rat\n•§lCan tame§r: Myceling"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

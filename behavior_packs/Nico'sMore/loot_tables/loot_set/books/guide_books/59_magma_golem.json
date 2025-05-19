@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Magma Golem"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #59",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #59§r\n§lMagma Golem§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Golem, Earth-elemental, Fire-elemental, Magical.\n•§lSpawns in§r: All deepslate underground, Nether Wastes, Crimson Forest,",
+                "Warped Forest, Basalt Deltas.\n•§lSummon through§r: Summoning Scroll\n•§lHealth§r: 50\n•§lKnockback resistance§r: 0.3\n•§lWalk speed§r: 0.25\n•§lSwim speed§r: 0.25\n•§lLava speed§r: 0.3\n•§lImmune to§r: Fire\n•§lBreathes in§r: Air,",
+                "Water, Lava.\n•§lHealed by§r: Magma\n•§lPossible drops§r: Magma Block, Magma Cream, XP Orbs.\n•§lAggressive toward§r: Players, Iron Golem, Snow Golem, Player's aggressive tamed mobs.\n•§lMelee attack damage§r: 8-10\n•Can inflict a 1 damage to",
+                "players that come near it.§’",
+                
+                "§lDescription§r:\n \n§‘The Magma Golem is a fiery, hostile force that prowls the depths of the Deepslate layer and the Nether’s harshest biomes. With searing heat radiating from its body, it damages nearby players even without striking.",
+                "Tough, slow, and immune to fire, it thrives in lava and is healed by magma itself. This elemental brute lashes out with powerful melee attacks, dropping molten materials upon defeat—if you can withstand its blistering presence.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

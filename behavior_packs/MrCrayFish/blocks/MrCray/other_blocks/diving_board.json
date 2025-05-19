@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mr:diving_board",
+			"menu_category": {
+				"category": "construction",
+				"group": "mr:otherBlocks"
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.mr.diving_board_item",
+			"minecraft:material_instances": {
+				"*": {"texture": "mr:concrete_white","render_method": "opaque"},
+				"concrete": {"texture": "mr:concrete_light_gray","render_method": "opaque"}
+			},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0,
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 0.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.0 },
+			"minecraft:custom_components": [ "mr:place_1x1x2_block" ],
+			"minecraft:map_color": "#ced4d5"
+		}
+	}
+}

@@ -35,6 +35,54 @@
     "nicothekid_block_of_rotten_brute_flesh": {
       "textures": "textures/blocks/ntk_block_of_rotten_brute_flesh"
     },
+    "nicothekid_copper_brute_zombie_trophy": {
+      "textures": "textures/blocks/ntk_copper_brute_zombie_trophy"
+    },
+    "nicothekid_copper_elder_golem_trophy": {
+      "textures": "textures/blocks/ntk_copper_elder_golem_trophy"
+    },
+    "nicothekid_copper_piglin_chief_trophy": {
+      "textures": "textures/blocks/ntk_copper_piglin_chief_trophy"
+    },
+    "nicothekid_copper_rat_curserer_trophy": {
+      "textures": "textures/blocks/ntk_copper_rat_curserer_trophy"
+    },
+    "nicothekid_diamond_brute_zombie_trophy": {
+      "textures": "textures/blocks/ntk_diamond_brute_zombie_trophy"
+    },
+    "nicothekid_diamond_elder_golem_trophy": {
+      "textures": "textures/blocks/ntk_diamond_elder_golem_trophy"
+    },
+    "nicothekid_diamond_piglin_chief_trophy": {
+      "textures": "textures/blocks/ntk_diamond_piglin_chief_trophy"
+    },
+    "nicothekid_diamond_rat_curserer_trophy": {
+      "textures": "textures/blocks/ntk_diamond_rat_curserer_trophy"
+    },
+    "nicothekid_golden_brute_zombie_trophy": {
+      "textures": "textures/blocks/ntk_golden_brute_zombie_trophy"
+    },
+    "nicothekid_golden_elder_golem_trophy": {
+      "textures": "textures/blocks/ntk_golden_elder_golem_trophy"
+    },
+    "nicothekid_golden_piglin_chief_trophy": {
+      "textures": "textures/blocks/ntk_golden_piglin_chief_trophy"
+    },
+    "nicothekid_golden_rat_curserer_trophy": {
+      "textures": "textures/blocks/ntk_golden_rat_curserer_trophy"
+    },
+    "nicothekid_iron_brute_zombie_trophy": {
+      "textures": "textures/blocks/ntk_iron_brute_zombie_trophy"
+    },
+    "nicothekid_iron_elder_golem_trophy": {
+      "textures": "textures/blocks/ntk_iron_elder_golem_trophy"
+    },
+    "nicothekid_iron_piglin_chief_trophy": {
+      "textures": "textures/blocks/ntk_iron_piglin_chief_trophy"
+    },
+    "nicothekid_iron_rat_curserer_trophy": {
+      "textures": "textures/blocks/ntk_iron_rat_curserer_trophy"
+    },
     "nicothekid_spawner_brute_zombie": {
       "textures": "textures/blocks/ntk_spawner_brute_zombie"
     },
@@ -55,6 +103,18 @@
     },
     "nicothekid_spawner_rat_curserer": {
       "textures": "textures/blocks/ntk_spawner_rat_curserer"
+    },
+    "nicothekid_stone_brute_zombie_trophy": {
+      "textures": "textures/blocks/ntk_stone_brute_zombie_trophy"
+    },
+    "nicothekid_stone_elder_golem_trophy": {
+      "textures": "textures/blocks/ntk_stone_elder_golem_trophy"
+    },
+    "nicothekid_stone_piglin_chief_trophy": {
+      "textures": "textures/blocks/ntk_stone_piglin_chief_trophy"
+    },
+    "nicothekid_stone_rat_curserer_trophy": {
+      "textures": "textures/blocks/ntk_stone_rat_curserer_trophy"
     }
   }
 }

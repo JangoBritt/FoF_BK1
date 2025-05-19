@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Prismarine Clam"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #4",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #4§r\n§lPrismarine Clam§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Clam, Molluck, Animal, Aquatic.\n•§lSpawn in§r: All ocean floors.\n•§lHealth§r: 12\n•§lSwim speed§r: 0.0",
+                " \n•§lBreathes in§r: Water\n•§lPossible drops§r: Prismarine Shard, Pearl, XP Orbs.\n•It will open its shell after 2-5 minutes, containing a pearl inside.\n•Can produce a §lPearl§r when interacted with using Shears.\n•Will close its shell if",
+                " \nit gets hurt.\n•Can be captured using a Water Bucket.",
+                "§lDescription§r:\n§‘Quiet treasures of the ocean floor, Prismarine Clams are peaceful mollusks that rest among the sands and corals. Though they do not move, their shimmering shells slowly open over time, revealing precious pearls within. Careful divers",
+                "can harvest a pearl using shears, but harming the clam causes it to slam shut in defense. Gentle by nature, these clams can even be scooped up with a water bucket, bringing a piece of the deep sea’s magic to the surface."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

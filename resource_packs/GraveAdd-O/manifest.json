@@ -2,22 +2,22 @@
   "format_version": 2,
   "header": {
     "description": "§7Created by Effect99",
-    "name": "§l§7Grave Add-On §rV2",
+    "name": "§l§7Grave Add-On §rV2.0.2",
     "uuid": "b17af4d5-486d-480e-8d1f-f864c9a33a20",
-    "version": [ 1, 0, 0 ],
+    "version": [ 2, 0, 2 ],
     "min_engine_version": [ 1, 19, 70 ]
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "d495b00f-f996-41d7-b57c-0cf4f77e297b",
-      "version": [ 1, 0, 0 ]
+      "version": [ 2, 0, 2 ]
     }
   ],
   "dependencies": [
     {
       "uuid": "0db99973-12b3-4c67-abbb-90e4726e73e1",
-      "version": [ 1, 0, 0 ]
+      "version": [ 2, 0, 2 ]
     }
   ]
 }

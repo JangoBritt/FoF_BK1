@@ -1,0 +1,136 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mr:mailbox",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false,
+			"properties": {
+				"mr:is_global": {
+					"type": "bool",
+					"default": false,
+					"client_sync": false
+				}
+			}
+		},
+		"component_groups": {
+			"mr:no_particle": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "mr:no_sound_mr"
+				}
+			},
+			"mr:locked_container": {
+				"minecraft:is_tamed":{},
+				"minecraft:inventory": {
+					"can_be_siphoned_from": false,
+					"container_type": "inventory",
+					"inventory_size": 9,
+					"restrict_to_owner": true
+				}
+			},
+			"mr:default_container": {
+				"minecraft:inventory": {
+					"can_be_siphoned_from": false,
+					"container_type": "inventory",
+					"inventory_size": 9,
+					"restrict_to_owner": false
+				}
+			},
+			"mr:register_mailbox": {
+				"minecraft:tick_world": {
+					"never_despawn": true,
+					"radius": 2
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [ "chest", "inanimate", "mr:mailbox" ]
+		  	},
+			"minecraft:collision_box": {
+				"width": 0.75,
+				"height": 0.2
+			},
+			"minecraft:item_hopper": {},
+			"minecraft:tameable": {
+				"probability": 0.001,
+				"tame_items": "bedrock",
+				"tame_event": {
+					"event": "minecraft:on_tame",
+					"target": "self"
+				}
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": "no"
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": false
+			},
+			"minecraft:on_death": {
+				"event": "mr:no_particle",
+				"target": "self"
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "mr:despawn",
+							"target": "self"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"minecraft:on_tame": {
+				"add": { "component_groups": [ "mr:locked_container" ] },
+				"remove": { "component_groups": [ "mr:default_container" ] }
+			},
+			"mr:default_container": {
+				"add": { "component_groups": [ "mr:default_container" ] },
+				"remove": { "component_groups": [ "mr:locked_container" ] }
+			},
+			"mr:register_mailbox": {
+				"add": { "component_groups": [ "mr:register_mailbox" ] },
+				"set_property": { "mr:is_global": true }
+			},
+			"mr:unregister_mailbox": {
+				"remove": { "component_groups": [ "mr:register_mailbox" ] },
+				"set_property": { "mr:is_global": false }
+			},
+			"mr:despawn": {
+				"queue_command": { "command": [ "kill @s" ] }
+			},
+			"mr:no_particle": {
+				"add": {
+					"component_groups": [
+						"mr:no_particle"
+					]
+				}
+			}
+		}
+	}
+}

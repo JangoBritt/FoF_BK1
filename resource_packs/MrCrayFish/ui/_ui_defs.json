@@ -1,0 +1,6 @@
+{
+	"ui_defs": [
+		"ui/mcf/containers.json",
+		"ui/mcf/freezer.json"
+	]
+}

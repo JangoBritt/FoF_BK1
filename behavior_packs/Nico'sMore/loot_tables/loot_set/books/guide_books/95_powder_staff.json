@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Powder Staff"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #95",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #95§r\n§lPowder Staff§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lCraftable on§r: Artifacture Table\n•§lStackable§r: 1\n•§lDurability§r: 128\n•§lMelee Damage§r: 5\n•§lMelee Effect§r: Magical Scourge I, Spirit Piercer.",
+                "•§lShoot§r: Powder Magic Missiles\n•§lRequire Ammunition§r §o(any of)§r: Amethyst Powder, Charcoal Powder, Cocoa Powder, Diamond Powder, Emerald Powder, Enchanted Dust, Gold Powder, Iron Powder, Lapis Lazuli Powder, & Netherite Powder.",
+                "•§lProjectile Hit Damage§r: 20 §o(Netherite Powder)§r, 16 §o(Enchanted Dust)§r, 12 §o(Diamond Powder)§r, 9 §o(Emerald Powder)§r, 8 §o(Amethyst Powder)§r, 8 §o(Iron Powder)§r, 8 §o(Gold Powder)§r, 8 §o(Lapis Lazuli Powder)§r,",
+                "7 §o(Charcoal Powder)§r, 7 §o(Cocoa Powder)§r.\n•§lProjectile Area Damage§r: 10 §o(Netherite Powder)§r, 8 §o(Enchanted Dust)§r, 6 §o(Diamond Powder)§r, 3 §o(Emerald Powder)§r, 3 §o(Amethyst Powder)§r, 3 §o(Iron Powder)§r,",
+                "3 §o(Gold Powder)§r, 4 §o(Lapis Lazuli Powder)§r, 2 §o(Charcoal Powder)§r, 2 §o(Cocoa Powder)§r in 2-block radius.\n•§lProjectile Effect§r: Magical Scourge I, Spirit Piercer.\n•§lCooldown§r: 1.25 §o(sec)§r\n•§lEnchantable§r: YES",
+                "•§lRepairable with§r: Enchanted Pearl, Powder Staff."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

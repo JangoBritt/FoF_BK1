@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Cave Dweller"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #58",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #58§r\n§lCave Dweller§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Illager, Humanoid, Monster.\n•§lSpawns in§r: All underground.\n•§lHealth§r: 24\n•§lWalk speed§r: 0.3",
+                "•§lBreathes in§r: Air\n•§lPossible drops§r: Leather, Leather Scrap, Emerald, XP Orbs.\n•§lAvoids§r: Creeper, Creaking, Warden, Sculk blocks.\n•§lAggressive toward§r: Players, Iron Golem, Snow Golem, Villagers, & Player's aggressive tamed mobs.",
+                "•§lEquipped weapon§r: Wooden Club, Dripstone Club, Magma Club, Bow.\n•§lEquipped armor§r: Chainmail Armor\n•§lMelee attack damage§r: 2-3\n•Can pick up weapons and equip it.",
+                
+                "§lDescription§r:\n \n§‘The Cave Dweller is a hostile Illager lurking in the shadows of the underground, armed with crude weapons like wooden or magma clubs. With sharp instincts and a grudge against players and their allies, this leathery rogue attacks",
+                "§‘on sight.\n \nThough aggressive, it avoids powerful threats like Creepers and Wardens, preferring to ambush the unprepared. Cave Dwellers can scavenge and equip dropped weapons, making each encounter unpredictable. Defeating one may reward you with",
+                "scraps of loot and the eerie satisfaction of surviving the dark.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

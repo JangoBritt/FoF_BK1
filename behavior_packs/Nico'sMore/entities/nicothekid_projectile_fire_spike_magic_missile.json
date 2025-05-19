@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.10",
+	"format_version": "1.21.60",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "nicothekid:projectile_fire_spike_magic_missile",
@@ -17,8 +17,8 @@
     },
 		"components": {
       "minecraft:collision_box": {
-        "height": 0.2,
-        "width": 0.2
+        "height": 0.4,
+        "width": 0.4
       },
       "minecraft:fire_immune": {},
       "minecraft:scale": {
@@ -28,6 +28,7 @@
         "family": [
           "fire_spike_magic_missile",
           "magic_missile",
+          "flame",
           "projectile",
           "inanimate"
         ]
@@ -117,7 +118,21 @@
 					"catch_fire": {
             "fire_affected_by_griefing": false
           },
-          "remove_on_hit": {}
+          "stick_in_ground": {
+						"shake_time": 0.01
+					},
+          //"remove_on_hit": {},
+          "definition_event": {
+						"affect_projectile": true,
+						"affect_shooter": false,
+						"affect_target": false,
+						"affect_splash_area": false,
+						"event_trigger": {
+							"event": "event:on_hit",
+							"target": "self",
+							"filters": {}
+						}
+					}
 				}
 			},
 			"minecraft:pushable": {
@@ -129,8 +144,8 @@
         "looping": false,
         "randomInterval": true,
         "random_time_choices": [
-          { "weight": 100, "value": 1.0 },
-          { "weight": 100, "value": 1.0 }
+          { "weight": 100, "value": 2.2 },
+          { "weight": 100, "value": 2.2 }
         ],
         "time_down_event": {
           "event": "event:on_timer_down",
@@ -147,13 +162,32 @@
       }
 		},
 		"events": {
+		  "event:on_hit": {
+        "sequence": [
+          {
+            "queue_command": {
+              "command": [
+                "playsound random.fizz @a[r=12] ~ ~ ~ 1.0 2.0 0.5",
+                "particle nicothekid:fire_spike_magic_impact_particle ~ ~ ~",
+                "damage @e[r=1] 2 projectile entity @s"
+              ]
+            },
+            "add": {
+              "component_groups": [
+                "component:projectile_despawn"
+              ]
+            }
+          }
+        ]
+      },
 		  "event:on_timer_down": {
 				"sequence": [
           {
             "queue_command": {
               "command": [
-                "playsound random.fizz @p[r=8] ~ ~ ~ 1.0 2.0 1.0",
-                "particle nicothekid:fire_spike_magic_impact_particle ~ ~ ~"
+                "playsound random.fizz @a[r=12] ~ ~ ~ 1.0 2.0 0.5",
+                "particle nicothekid:fire_spike_magic_impact_particle ~ ~ ~",
+                "damage @e[r=1] 2 projectile entity @s"
               ]
             },
             "add": {
@@ -169,7 +203,7 @@
           {
             "queue_command": {
               "command": [
-                "playsound random.fizz @p[r=8] ~ ~ ~ 1.0 2.0 1.0"
+                "playsound random.fizz @a[r=12] ~ ~ ~ 1.0 2.0 0.5"
               ]
             },
             "add": {

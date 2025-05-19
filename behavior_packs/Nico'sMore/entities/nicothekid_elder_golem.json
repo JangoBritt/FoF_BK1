@@ -1,6 +1,6 @@
 // Nico's More Dungeon: breakable_blocks
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.60",
   "minecraft:entity": {
     "description": {
       "identifier": "nicothekid:elder_golem",
@@ -190,10 +190,12 @@
       "minecraft:type_family": {
         "family": [
           "elder_golem",
-          "boss",
           "golem",
+          "earth_elemental",
           "elemental",
+          "magical",
           "monster",
+          "boss",
           "mob"
         ]
       },
@@ -236,7 +238,9 @@
           "minecraft:bubble_coral",
           "minecraft:bubble_coral_fan",
           "minecraft:bubble_coral_wall_fan",
+          "minecraft:bush",
           "minecraft:cactus",
+          "minecraft:cactus_flower",
           "minecraft:candle", //
           "minecraft:carrots",
           "minecraft:carved_pumpkin",
@@ -279,6 +283,7 @@
           "minecraft:fire_coral",
           "minecraft:fire_coral_fan",
           "minecraft:fire_coral_wall_fan",
+          "minecraft:firefly_bush",
           "minecraft:flower_pot",
           "minecraft:flowering_azalea",
           "minecraft:flowing_water", //
@@ -298,6 +303,7 @@
           "minecraft:lantern", //
           "minecraft:large_amethyst_bud",
           "minecraft:large_fern",
+          "minecraft:leaf_litter",
           "minecraft:light_blue_candle", //
           "minecraft:light_blue_carpet", //
           "minecraft:light_gray_candle", //
@@ -353,6 +359,7 @@
           "minecraft:sculk_vein",
           "minecraft:sea_pickle",
           "minecraft:seagrass",
+          "minecraft:short_dry_grass",
           "minecraft:short_grass",
           "minecraft:small_amethyst_bud",
           "minecraft:small_dripleaf_block",
@@ -367,6 +374,7 @@
           "minecraft:standing_banner", //
           "minecraft:sunflower",
           "minecraft:sweet_berry_bush",
+          "minecraft:tall_dry_grass",
           "minecraft:tall_grass",
           "minecraft:torch",
           "minecraft:torchflower",
@@ -388,6 +396,7 @@
           "minecraft:white_candle", //
           "minecraft:white_carpet", //
           "minecraft:white_tulip",
+          "minecraft:wildflowers",
           "minecraft:wither_rose",
           "minecraft:yellow_candle", //
           "minecraft:yellow_carpet" //
@@ -407,7 +416,7 @@
         "triggers": [
           {
             "cause": "fall",
-            "deals_damage": false,
+            "deals_damage": "no",
 						"damage_modifier": 0.0,
 						"damage_multiplier": 1.0,
 						"on_damage_sound_event": "",
@@ -418,34 +427,7 @@
 						}
           },
           {
-            "cause": "projectile",
-            "deals_damage": true,
-						"damage_modifier": 0.0,
-						"damage_multiplier": 2.0,
-						"on_damage_sound_event": "hurt",
-						"on_damage": {
-              "event": "event:on_magic_missile_damage_sensor",
-              "target": "self",
-              "filters": {
-                "all_of": [
-                  {
-                    "test": "is_family",
-                    "subject": "damager",
-                    "operator": "==",
-                    "value": "magic_missile"
-                  },
-                  {
-                    "test": "is_family",
-                    "subject": "self",
-                    "operator": "==",
-                    "value": "elemental"
-                  }
-                ]
-              }
-						}
-          },
-          {
-            "deals_damage": false,
+            "deals_damage": "no",
 						"damage_modifier": 0.0,
 						"damage_multiplier": 1.0,
 						"on_damage_sound_event": "",
@@ -469,7 +451,7 @@
         "damage_conditions": [
           {
             "cause": "lava",
-            "damage_per_tick": 2,
+            "damage_per_tick": 1,
             "filters": {
               "test": "in_lava",
               "subject": "self",
@@ -777,16 +759,16 @@
       "event:on_death": {
         "queue_command": {
           "command": [
-            "camerashake add @p[r=10] 0.25 3 positional",
-            "playsound dig.deepslate @p[r=18] ~ ~ ~ 1.0 0.3 1.0"
+            "camerashake add @a[r=10] 0.25 3 positional",
+            "playsound dig.deepslate @a[r=18] ~ ~ ~ 1.5 0.3 0.5"
           ]
         }
       },
       "event:on_lower_health_sensor": {
 			  "queue_command": {
           "command": [
-            "camerashake add @p[r=16] 0.25 3 positional",
-            "playsound dig.deepslate @p[r=16] ~ ~ ~ 1.0 0.3 1.0"
+            "camerashake add @a[r=16] 0.25 3 positional",
+            "playsound dig.deepslate @a[r=16] ~ ~ ~ 1.5 0.3 0.5"
           ]
         },
 			  "remove": {
@@ -816,8 +798,8 @@
       "event:on_roar_end": {
         "queue_command": {
           "command": [
-            "camerashake add @p[r=16] 0.25 3 positional",
-            "playsound dig.deepslate @p[r=16] ~ ~ ~ 1.0 0.3 1.0"
+            "camerashake add @a[r=16] 0.25 3 positional",
+            "playsound dig.deepslate @a[r=16] ~ ~ ~ 1.5 0.3 0.5"
           ]
         },
         "remove": {
@@ -833,7 +815,6 @@
       },
       "event:on_attack": {},
       "event:on_fall_damage_sensor": {},
-      "event:on_magic_missile_damage_sensor": {},
       "event:on_sweet_berry_bush_damage_sensor": {},
 			"event:on_named": {},
 			"event:on_unnamed": {}

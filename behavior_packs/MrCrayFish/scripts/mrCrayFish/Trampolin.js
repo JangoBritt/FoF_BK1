@@ -45,7 +45,7 @@ function bounce(e, sound) {
 			entity.applyKnockback(0, 0, 0, knockback);
 			const delay = Math.floor((knockback / 1) * 20);
 			system.runTimeout(() => {
-				entity.addEffect("resistance", 10, { amplifier: 4, showParticles: false });
+				try { entity.addEffect("resistance", 10, { amplifier: 4, showParticles: false }); } catch (error) { }
 			}, delay);
 		}
 	} catch (error) {}

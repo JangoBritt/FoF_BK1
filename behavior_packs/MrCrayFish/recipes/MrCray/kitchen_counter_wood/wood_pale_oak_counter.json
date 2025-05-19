@@ -1,0 +1,33 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mr:wood_pale_oak_counter_mr"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:pale_oak_log"
+            },
+            "A": {
+                "item": "minecraft:pale_oak_planks"
+            }
+        },
+        "unlock": [
+            {
+                "item": "fables_misc:pale_oak_book"
+            }
+        ],
+        "result": {
+            "item": "mr:wood_pale_oak_counter_mr",
+            "count": 9
+        }
+    }
+}

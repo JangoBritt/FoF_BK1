@@ -1,0 +1,142 @@
+{
+	"bedside_cabinet@pocket_containers.pocket_panel": {
+		"$title": "inventory.mr.bedside_cabinet.name"
+	},
+	"drawer@pocket_containers.pocket_panel": {
+		"$title": "inventory.mr.kitchen_drawer.name"
+	},
+	"cooler@pocket_containers.pocket_panel": {
+		"$title": "inventory.mr.cooler.name"
+	},
+	"desk_cabinet@pocket_containers.pocket_panel": {
+		"$title": "inventory.mr.desk_cabinet.name"
+	},
+	"post_box@pocket_containers.pocket_panel": {
+		"$title": "inventory.mr.post_box.name"
+	},
+	"mail_box@pocket_containers.pocket_panel": {
+		"$container_name": "Mail Box: ",
+		"$title": "($container_name + ($new_container_title - ('%.20s' * $new_container_title)))"
+	},
+	"cabinet@pocket_containers.pocket_panel": {
+		"$title": "inventory.mr.cabinet.name"
+	},
+	"crate@pocket_containers.pocket_panel": {
+		"$title": "inventory.mr.crate.name"
+	},
+	"fridge@pocket_containers.pocket_panel": {
+		"$title": "inventory.mr.fridge.name"
+	},
+	"title_inv_panel": {
+		"type": "panel",
+		"layer": 1,
+		"size": [
+			"50%",
+			"27px"
+		],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"controls": [
+			{
+				"header_background": {
+					"type": "image",
+					"texture": "textures/ui/header_bar"
+				}
+			},
+			{
+				"title_label": {
+					"type": "label",
+					"layer": 2,
+					"anchor_from": "center",
+					"anchor_to": "center",
+					"color": "$pocket_title_text_color",
+					"text": "$title",
+					"$title|default": " "
+				}
+			}
+		]
+	},
+	"header_area": {
+		"type": "panel",
+		"$compare": "$container_title",
+		"controls": [
+			{
+				"x@common.legacy_pocket_close_button": {
+					"layer": 3
+				}
+			},
+			{
+				"inventory_header@pocket_containers.header_panel": {
+					"$header_label": "chestScreen.header.player"
+				}
+			},
+			{
+				"container_header@pocket_containers.header_panel": {
+					"visible": "(not (('%.11s' * $compare) = 'MrCrayFish.'))",
+					"layer": 2,
+					"anchor_from": "top_middle",
+					"$header_label": "$container_title"
+				}
+			},
+			{
+				"title_inv_panel@pocket_containers.title_inv_panel": {
+					"layer": 2,
+					"anchor_from": "top_middle",
+					"visible": "(('%.11s' * $compare) = 'MrCrayFish.')"
+				}
+			}
+		]
+	},
+	"pocket_panel@pocket_containers.panel": {
+		"$etext": "$container_title",
+		"controls": [
+			{
+				"container_gamepad_helpers@common.container_gamepad_helpers": {
+					"layer": 3
+				}
+			},
+			{
+				"header@header_area": {
+					"layer": 2
+				}
+			},
+			{
+				"bg@background_panel": {
+					"layer": 0
+				}
+			},
+			{
+				"inventory@half_screen": {
+					"$container_size": 36,
+					"$pane_collection": "combined_hotbar_and_inventory_items"
+				}
+			},
+			{
+				"container@half_screen": {
+					"anchor_from": "top_middle",
+					"$pane_collection": "container_items"
+				}
+			},
+			{
+				"selected_item_details_factory@common.selected_item_details_factory": {}
+			},
+			{
+				"item_lock_notification_factory@common.item_lock_notification_factory": {
+					"$offset": [
+						0,
+						"85%"
+					]
+				}
+			},
+			{
+				"gamepad_cursor@common.gamepad_cursor_button": {}
+			},
+			{
+				"inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+			},
+			{
+				"hold_icon@common.inventory_take_progress_icon_button": {}
+			}
+		]
+	}
+}

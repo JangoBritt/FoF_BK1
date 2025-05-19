@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Destruction Scrolls"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #115",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #115§r\n§lDestruction Scrolls§r\n§8ITEMS§r\n \n•Scroll of Flame Burst I\n•Scroll of Flame Burst II\n•Scroll of Flame Burst III\n•Scroll of Fire Blast I\n•Scroll of Fire Blast II\n•Scroll of Fire Blast III",
+                
+                "§lScroll of Flame Burst I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Creates spreading fires within a 4-block radius upon impact.\n•§lUsed to craft§r: Scroll of Fire Blast I, Scroll of Flame Burst II.",
+                
+                "§lScroll of Flame Burst II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Creates spreading fires within a 6-block radius upon impact.\n•§lUsed to craft§r: Scroll of Fire Blast II, Scroll of Flame Burst III.",
+                
+                "§lScroll of Flame Burst III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Creates spreading fires within an 8-block radius upon impact.\n•§lUsed to craft§r: Scroll of Fire Blast III",
+                
+                "§lScroll of Fire Blast I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Creates a fire explosion with power of 2 upon impact.",
+                
+                "§lScroll of Fire Blast II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Creates a fire explosion with power of 4 upon impact.",
+                
+                "§lScroll of Fire Blast III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Result§r: Creates a fire explosion with power of 6 upon impact."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

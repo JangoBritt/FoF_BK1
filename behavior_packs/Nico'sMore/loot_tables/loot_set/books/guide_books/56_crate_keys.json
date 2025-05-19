@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Crate Keys"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #56",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #56§r\n§lCrate Keys§r\n§8ITEMS§r\n \n•Copper Crate Key\n•Iron Crate Key\n•Golden Crate Key\n•Diamond Crate Key\n•Piglin Crate Key",
+                
+                "§lCopper Crate Key§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•Can be used to open or loot the §lCopper Crate§r.",
+                "§lIron Crate Key§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•Can be used to open or loot the §lIron Crate§r.",
+                "§lGolden Crate Key§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•Can be used to open or loot the §lGolden Crate§r.",
+                "§lDiamond Crate Key§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•Can be used to open or loot the §lDiamond Crate§r.",
+                "§lPiglin Crate Key§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lTrade by§r: Piglin Crates Trader\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•Can be used to open or loot the §Piglin Crate§r."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

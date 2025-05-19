@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Scorpion Gauntlet"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #37",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #37§r\n§lScorpion Gauntlet§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lTraded by§r: Weapon Smith Villager\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lDurability§r: 64\n•§lMelee Damage§r: 4",
+                "•§lMelee Effect§r: Fatal Poison §o(0:15)§r\n•§lEnchantable§r: YES\n•§lRepairable with§r: Scorpion Telson, Scorpion Gauntlet.\n•§lTradable with§r: Weapon Smith Villager\n•The melee effect does not affect Earth-golem-type mobs."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

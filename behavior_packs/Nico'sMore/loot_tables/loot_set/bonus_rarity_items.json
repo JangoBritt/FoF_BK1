@@ -5,7 +5,8 @@
       "entries": [
         {
           "weight": 100,
-          "type": "empty"
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_book.json"
         },
         {
           "weight": 25,

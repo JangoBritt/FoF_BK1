@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Clurve"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #61",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #61§r\n§lClurve§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Medium amphibian, Animal, Monster.\n•§lSpawns in§r: All deepslate underground.\n•§lHealth§r: 20\n•§lWalk speed§r: 0.25",
+                "•§lSwim speed§r: 0.22\n•§lImmune to§r: Sculk Vibration\n•§lBreathes in§r: Air, Water\n•§lTempted by§r: Meat-type food, Fish-type food, Fried Eggs.\n•§lPossible drops§r: Glow Ink Sac, Raw Clurve Flesh, XP Orbs.\n•§lAvoids§r: Bat, Bee,",
+                "Dire Bat, Phantom, Warden.\n•§lAggressive toward§r: Any live-fleshed mobs.\n•§lMelee attack damage§r: 6-7\n•Can pick up the food that tempts them and eat it.\n•Clurve carrying food will temporarily stop being aggressive towards the mobs they are",
+                "aggressive with; they will avoid them instead.§’",
+                
+                "§lDescription§r:\n \n§‘The Clurve is a hostile amphibious creature that prowls the deep deepslate layers, hunting anything with flesh. With a slick, unsettling form and sharp instincts, it moves fluidly on land and water, immune to sculk vibrations and",
+                "§‘silent in its approach. Despite its aggression, the Clurve can be distracted by food—if it picks up meat, fish, or fried eggs, it temporarily ceases hostility and slips away. Dropping glow ink sacs and raw flesh, this eerie predator is both a threat",
+                "and a curious enigma of the underground ecosystem.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

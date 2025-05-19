@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Cookies"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #26",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #26§r\n§lCookies§r\n§8ITEMS§r\n \n•Sweet Berry Cookie\n•Glow Berry Cookie\n•Moss Berry Cookie",
+                
+                "§lSweet Berry Cookie§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•§lComposting chance§r: 85\n•§lEatable§r: YES\n•§lFood nutrition§r: 2",
+                "•§lAdd status effect§r: Regeneration §o(0:06) §8[5% Chance]§r\n•§lUsable in§r: Empty Jar\n•§lCan tempt§r: Glow Bird, Rat, Giant Rat.\n•§lCan heal§r: Glow Bird, Rat, Giant Rat.\n•§lCan breed§r: Rat\n•§lCan age§r: Rat",
+                "•§lCan tame§r: Glow Bird",
+                
+                "§lGlow Berry Cookie§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•§lComposting chance§r: 85\n•§lEatable§r: YES\n•§lFood nutrition§r: 2",
+                "•§lAdd status effect§r: Night Vision §o(0:10) §8[5% Chance]§r\n•§lUsable in§r: Empty Jar\n•§lCan tempt§r: Glow Bird, Rat, Giant Rat.\n•§lCan heal§r: Glow Bird, Rat, Giant Rat.\n•§lCan breed§r: Rat\n•§lCan age§r: Rat",
+                "•§lCan tame§r: Glow Bird",
+                
+                "§lMoss Berry Cookie§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 64\n•§lComposting chance§r: 85\n•§lEatable§r: YES\n•§lFood nutrition§r: 3",
+                "•§lAdd status effect§r: Regeneration §o(0:05) §8[5% Chance]§r\n•§lUsable in§r: Empty Jar\n•§lCan tempt§r: Glow Bird, Rat, Giant Rat.\n•§lCan heal§r: Glow Bird, Rat, Giant Rat.\n•§lCan breed§r: Rat\n•§lCan age§r: Rat",
+                "•§lCan tame§r: Glow Bird"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

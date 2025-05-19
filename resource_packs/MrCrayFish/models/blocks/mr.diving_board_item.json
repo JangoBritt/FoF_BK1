@@ -1,0 +1,86 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mr.diving_board_item",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0],
+					"cubes": [
+						{
+							"origin": [-6.5625, 3.75, 0],
+							"size": [13.125, 1.875, 3.75],
+							"pivot": [0, 0, 7.5],
+							"rotation": [-180, 0, 180],
+							"uv": {
+								"north": {"uv": [1, 10], "uv_size": [14, 2], "material_instance": "concrete"},
+								"east": {"uv": [12, 10], "uv_size": [4, 2], "material_instance": "concrete"},
+								"west": {"uv": [0, 10], "uv_size": [4, 2], "material_instance": "concrete"},
+								"up": {"uv": [15, 4], "uv_size": [-14, -4], "material_instance": "concrete"},
+								"down": {"uv": [15, 16], "uv_size": [-14, -4], "material_instance": "concrete"}
+							}
+						},
+						{
+							"origin": [-6.5625, 3.75, 3.75],
+							"size": [13.125, 1.875, 11.25],
+							"pivot": [0, 0, 7.5],
+							"rotation": [-180, 0, 180],
+							"uv": {
+								"east": {"uv": [0, 10], "uv_size": [12, 2]},
+								"south": {"uv": [1, 10], "uv_size": [14, 2]},
+								"west": {"uv": [4, 10], "uv_size": [12, 2]},
+								"up": {"uv": [15, 16], "uv_size": [-14, -12]},
+								"down": {"uv": [15, 12], "uv_size": [-14, -12]}
+							}
+						},
+						{
+							"origin": [-6.5625, 3.75, -15],
+							"size": [13.125, 1.875, 15],
+							"pivot": [0, 0, -7.5],
+							"rotation": [-180, 0, 180],
+							"uv": {
+								"north": {"uv": [1, 10], "uv_size": [14, 2]},
+								"east": {"uv": [0, 10], "uv_size": [16, 2]},
+								"south": {"uv": [1, 10], "uv_size": [14, 2]},
+								"west": {"uv": [0, 10], "uv_size": [16, 2]},
+								"up": {"uv": [15, 16], "uv_size": [-14, -16]},
+								"down": {"uv": [15, 16], "uv_size": [-14, -16]}
+							}
+						},
+						{
+							"origin": [-4.6875, 0, -13.125],
+							"size": [9.375, 3.75, 12.1875],
+							"pivot": [0, 0, -7.5],
+							"rotation": [-180, 0, 180],
+							"uv": {
+								"north": {"uv": [3, 12], "uv_size": [10, 4], "material_instance": "concrete"},
+								"east": {"uv": [1, 12], "uv_size": [13, 4], "material_instance": "concrete"},
+								"south": {"uv": [3, 12], "uv_size": [10, 4], "material_instance": "concrete"},
+								"west": {"uv": [2, 12], "uv_size": [13, 4], "material_instance": "concrete"},
+								"down": {"uv": [13, 14], "uv_size": [-10, -13], "material_instance": "concrete"}
+							}
+						}
+					]
+				}
+			],
+			"item_display_transforms": {
+				"firstperson_righthand": {
+					"rotation": [0, 45, 0],
+					"translation": [0, 3.75, 0],
+					"scale": [0.4, 0.4, 0.4],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				}
+			}
+		}
+	]
+}

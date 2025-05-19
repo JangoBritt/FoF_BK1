@@ -1,11 +1,11 @@
 {
-  "format_version": "1.21.50",
+  "format_version": "1.21.60",
   "minecraft:block": {
     "description": {
       "identifier": "nicothekid:spawner_piglin_brute",
       "menu_category": {
 				"category": "none",
-				"group": "none"
+				"group": "minecraft:none"
 			}
     },
     "components": {
@@ -17,11 +17,45 @@
         "*": {
           "texture": "nicothekid_spawner_piglin_brute",
           "render_method": "blend",
+          //"tint_method": "none",
           "ambient_occlusion": false,
 					"face_dimming": false
         }
       },
-      "minecraft:map_color": "#000000",
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.block.nicothekid_unit_cube"
+        },
+        "material_instances": {
+          "*": {
+            "texture": "nicothekid_spawner_piglin_brute",
+            "render_method": "blend",
+            //"tint_method": "none",
+            "ambient_occlusion": false,
+            "face_dimming": false
+          }
+        }
+      },
+      /*"minecraft:destruction_particles": {
+        "texture": "nicothekid_spawner_piglin_brute",
+        "tint_method": "none"
+      },*/
+      "minecraft:map_color": {
+        //"tint_method": "none",
+        "color": "#000000"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": false,
+            "liquid_type": "water",
+            "on_liquid_touches": "blocking",
+            "stops_liquid_flowing_out_from_direction": [
+              "up", "down", "north", "south", "east", "west"
+            ]
+          }
+        ]
+      },
       "minecraft:collision_box": false,
       "minecraft:selection_box": false,
       "minecraft:light_dampening": 0,
@@ -50,8 +84,8 @@
         "nicothekid:spawner_piglin_brute_on_tick"
       ],
       "minecraft:loot": "loot_tables/empty.json",
-      "tag:mob_block_spawner": {},
-      "tag:nicothekid_blocks": {}
+      "tag:nicothekid:mob_block_spawner": {},
+      "tag:nicothekid:blocks": {}
     }
   }
 }

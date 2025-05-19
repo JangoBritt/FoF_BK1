@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Enchanted Emerald"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #33",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #33§r\n§lEnchanted Emerald§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lCraftable on§r: Artifacture Table\n•§lStackable§r: 64\n•§lUsed to craft§r: Totem of Undying\n•§lCan tame§r: Cobblestone Golem, Mossy Cobblestone",
+                "Golem, Cobbled Deepslate Golem, Deepslate Golem.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

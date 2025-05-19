@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Wands"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #109",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #109§r\n§lWands§r\n§8ITEMS§r\n \n•Quartz Wand\n•Golden Wand\n•Amethyst Wand\n•Diamond Wand",
+                
+                "§lQuartz Wand§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lDurability§r: 64\n•§lMelee Damage§r: 2\n•§lShoot§r: Magic Spell Missiles\n•§lRequired Ammunition§r: Magic Scroll",
+                "•§lProjectile Hit Damage§r: 2\n•§lCasting duration§r: 3.0\n•§lEnchantable§r: YES\n•§lRepairable§r: Quartz Wand",
+                
+                "§lGolden Wand§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lDurability§r: 20\n•§lMelee Damage§r: 2\n•§lShoot§r: Magic Spell Missiles\n•§lRequired Ammunition§r: Magic Scroll",
+                "•§lProjectile Hit Damage§r: 2\n•§lCasting duration§r: 1.5\n•§lEnchantable§r: YES\n•§lRepairable§r: Golden Wand",
+                
+                "§lAmethyst Wand§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lDurability§r: 128\n•§lMelee Damage§r: 2\n•§lShoot§r: Magic Spell Missiles\n•§lRequired Ammunition§r: Magic Scroll",
+                "•§lProjectile Hit Damage§r: 2\n•§lCasting duration§r: 2.5\n•§lEnchantable§r: YES\n•§lRepairable§r: Amethyst Wand",
+                
+                "§lDiamond Wand§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lDurability§r: 256\n•§lMelee Damage§r: 2\n•§lShoot§r: Magic Spell Missiles\n•§lRequired Ammunition§r: Magic Scroll",
+                "•§lProjectile Hit Damage§r: 2\n•§lCasting duration§r: 1.8\n•§lEnchantable§r: YES\n•§lRepairable§r: Diamond Wand"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

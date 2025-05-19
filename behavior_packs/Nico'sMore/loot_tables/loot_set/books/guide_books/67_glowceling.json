@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Glowceling"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #67",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #67§r\n§lGlowceling§r\n§8MOB§r\n \n•§lRarity§r: Uncommon\n•§lBehavior§r: Neutral\n•§lMob type§r: Medium reptile, Nature-elemental, Animal.\n•§lSpawn in§r: Mushroom Cave\n•§lTransformation of§r: Myceling",
+                "•§lHealth§r: 16 §o(Wild)§r | 32 §o(Tamed)§r\n•§lWalk speed§r: 0.22\n•§lSwim speed§r: 0.1\n•§lBreathes in§r: Air, Water.\n•§lTempted by§r: Moss Berry Pie, Berries.\n•§lHealed by§r: Berries\n•§lBreed with§r: Moss Berries",
+                "•§lEgg laying§r: 1 Glowceling Egg.\n•§lAging by§r: Berries\n•§lTamed by§r: Moss Berry Pie\n•§lPossible drops§r: Glowcelium Sprouts, XP Orbs.\n•§lAggressive toward§r §o(Tamed)§r: Owner's attackers, Owner's targets.",
+                "•§lMelee attack damage§r: 2-3\n•Wild Glowceling can sleep during the day.\n•Wild Glowceling can randomly sit.\n•Tamed Glowceling can be sat down.\n•Adult Glowceling can spawn or produce a §lTall Glowcelium Sprouts§r every 10 to 15 minutes when",
+                "wild or every 5 to 10 minutes when tamed.\n•They can slowly regenerate their health when they sit or sleep.\n•Wild Glowceling can pick up the food that tempts them and eat it.\n•They can transform into a Myceling when fed them with Tall Mycelium Sprouts.",
+                
+                "§lDescription§r:\n§‘The Glowceling is a bioluminescent reptilian creature that glows softly in the darkness of Mushroom Caves. Evolved from a Myceling through Tall Glowcelium Sprouts, this gentle nature-elemental thrives on berries and bonds with",
+                "§‘players through Moss Berry Pie. Tamed Glowcelings loyally defend their owners and can produce rare Tall Glowcelium Sprouts, which pulse with natural energy. With the ability to rest, heal, and even revert to a Myceling when fed Tall Mycelium Sprouts,",
+                "the Glowceling is a luminous and adaptable companion in the mystical underground.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

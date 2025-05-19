@@ -1,0 +1,86 @@
+
+effect.earth_bane=Earth Bane
+effect.magical_scourge=Magical Scourge
+effect.spirit_piercer=Spirit Piercer
+
+nicothekid:itemGroup.name.magic_books=Magic Books
+nicothekid:itemGroup.name.mob_spawner_blocks=Mob Spawner Blocks
+nicothekid:itemGroup.name.staffs=Staffs
+nicothekid:itemGroup.name.trophies=Trophies
+
+## Abandoned & Ruin Structures
+tile.nicothekid.spawner_blaze.name=Generador de criaturas: Blaze
+tile.nicothekid.spawner_hoglin.name=Generador de criaturas: Hoglin
+tile.nicothekid.spawner_pig.name=Generador de criaturas: Cerdo
+tile.nicothekid.spawner_piglin.name=Generador de criaturas: Piglin
+tile.nicothekid.spawner_piglin_brute.name=Generador de criaturas: Piglin Bruto
+tile.nicothekid.spawner_skeleton.name=Generador de criaturas: Esqueleto
+tile.nicothekid.spawner_wither_skeleton.name=Generador de criaturas: Esqueleto del Wither 
+tile.nicothekid.spawner_zoglin.name=Generador de criaturas: Zoglin
+tile.nicothekid.spawner_zombified_piglin.name=Generador de criaturas: Piglin Zombificado
+
+## Nico's Mobs
+item.nicothekid.book_of_curses.name=Libro de maldiciones
+item.nicothekid.cursed_eye.name=Ojo maldito
+
+## Nico's More Dungeon
+entity.nicothekid:brute_zombie.name=Zombie Bruto
+entity.nicothekid:cobbled_deepslate_golem.name=Golem de pizarra profunda adoquinada
+entity.nicothekid:cursed_rat.name=Rata maldita
+entity.nicothekid:elder_golem.name=Elder Golem
+entity.nicothekid:elder_golem<>.name=Elder Golem
+entity.nicothekid:ground_spikes.name=Estacas de tierra del Elder Golem
+entity.nicothekid:piglin_chief.name=Jefe Piglin
+entity.nicothekid:piglin_chief<>.name=Jefe Piglin
+entity.nicothekid:rat.name=Rata
+entity.nicothekid:rat_curserer.name=Gran rata maldita
+entity.nicothekid:rat_curserer<>.name=Gran rata maldita
+entity.nicothekid:projectile_curse_magic_missile.name=Misil mágico maldito
+entity.nicothekid:projectile_curse_magic_missile_2.name=Misil mágico maldito
+entity.nicothekid:projectile_fire_spike_magic_missile.name=Misil mágico de pua de fuego
+entity.nicothekid:projectile_piglin_chief_fire_spike_magic_missile.name=Misil mágico de pua de fuego
+
+item.spawn_egg.entity.nicothekid:brute_zombie.name=Huevo generador de Zombie Bruto
+item.spawn_egg.entity.nicothekid:cobbled_deepslate_golem.name=Huevo generador de Golem de pizarra profunda adoquinada
+item.spawn_egg.entity.nicothekid:cursed_rat.name=Huevo generador de Rata maldita
+item.spawn_egg.entity.nicothekid:elder_golem.name=Huevo generador de Elder Golem
+item.spawn_egg.entity.nicothekid:piglin_chief.name=Huevo generador de Jefe Piglin
+item.spawn_egg.entity.nicothekid:rat.name=Huevo generador de Rata
+item.spawn_egg.entity.nicothekid:rat_curserer.name=Huevo generador de Gran Rata maldita
+
+item.nicothekid.cooked_rat.name=Rata Cocida
+item.nicothekid.curserer_staff.name=Bastón maldito
+item.nicothekid.piglin_fire_staff.name=Baston de Fuego Piglin
+item.nicothekid.piglin_war_hammer.name=Martillo de guerra Piglin
+item.nicothekid.potion_of_brute.name=Potion of Brute
+item.nicothekid.raw_rat.name=Rata cruda
+item.nicothekid.rotten_brute_flesh.name=Carne bruta podrida
+
+tile.nicothekid.block_of_rotten_brute_flesh.name=Bloque de carne bruta podrida
+tile.nicothekid.copper_brute_zombie_trophy.name=Copper Brute Zombie Trophy
+tile.nicothekid.copper_elder_golem_trophy.name=Copper Elder Golem Trophy
+tile.nicothekid.copper_piglin_chief_trophy.name=Copper Piglin Chief Trophy
+tile.nicothekid.copper_rat_curserer_trophy.name=Copper Rat Curserer Trophy
+tile.nicothekid.diamond_brute_zombie_trophy.name=Diamond Brute Zombie Trophy
+tile.nicothekid.diamond_elder_golem_trophy.name=Diamond Elder Golem Trophy
+tile.nicothekid.diamond_piglin_chief_trophy.name=Diamond Piglin Chief Trophy
+tile.nicothekid.diamond_rat_curserer_trophy.name=Diamond Rat Curserer Trophy
+tile.nicothekid.golden_brute_zombie_trophy.name=Golden Brute Zombie Trophy
+tile.nicothekid.golden_elder_golem_trophy.name=Golden Elder Golem Trophy
+tile.nicothekid.golden_piglin_chief_trophy.name=Golden Piglin Chief Trophy
+tile.nicothekid.golden_rat_curserer_trophy.name=Golden Rat Curserer Trophy
+tile.nicothekid.iron_brute_zombie_trophy.name=Iron Brute Zombie Trophy
+tile.nicothekid.iron_elder_golem_trophy.name=Iron Elder Golem Trophy
+tile.nicothekid.iron_piglin_chief_trophy.name=Iron Piglin Chief Trophy
+tile.nicothekid.iron_rat_curserer_trophy.name=Iron Rat Curserer Trophy
+tile.nicothekid.spawner_brute_zombie.name=Generador de criaturas: Zombie bruto
+tile.nicothekid.spawner_cobbled_deepslate_golem.name=Generador de criaturas: Golem de pizarra profunda adoquinada
+tile.nicothekid.spawner_cursed_rat.name=Generador de criaturas: Rata maldita
+tile.nicothekid.spawner_elder_golem.name=Generador de criaturas: Elder Golem
+tile.nicothekid.spawner_piglin_chief.name=Generador de criaturas: Jefe Piglin
+tile.nicothekid.spawner_rat.name=Generador de criaturas: Rata
+tile.nicothekid.spawner_rat_curserer.name=Generador de criaturas: Gran rata maldita
+tile.nicothekid.stone_brute_zombie_trophy.name=Stone Brute Zombie Trophy
+tile.nicothekid.stone_elder_golem_trophy.name=Stone Elder Golem Trophy
+tile.nicothekid.stone_piglin_chief_trophy.name=Stone Piglin Chief Trophy
+tile.nicothekid.stone_rat_curserer_trophy.name=Stone Rat Curserer Trophy

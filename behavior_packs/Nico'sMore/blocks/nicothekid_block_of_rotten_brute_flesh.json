@@ -1,11 +1,11 @@
 {
-  "format_version": "1.21.50",
+  "format_version": "1.21.60",
   "minecraft:block": {
     "description": {
       "identifier": "nicothekid:block_of_rotten_brute_flesh",
       "menu_category": {
 				"category": "construction",
-        "group": "construction"
+        "group": "minecraft:construction"
 			}
     },
     "components": {
@@ -21,7 +21,32 @@
 					"face_dimming": true
         }
       },
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.block.nicothekid_unit_cube"
+        },
+        "material_instances": {
+          "*": {
+            "texture": "nicothekid_block_of_rotten_brute_flesh",
+            "render_method": "opaque",
+            "ambient_occlusion": true,
+            "face_dimming": true
+          }
+        }
+      },
       "minecraft:map_color": "#877A3A",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": false,
+            "liquid_type": "water",
+            "on_liquid_touches": "blocking",
+            "stops_liquid_flowing_out_from_direction": [
+              "up", "down", "north", "south", "east", "west"
+            ]
+          }
+        ]
+      },
       "minecraft:collision_box": {
         "origin": [ -8, 0, -8 ],
         "size": [ 16, 16, 16 ]
@@ -51,11 +76,11 @@
         "rotation": [ 0, 0, 0 ]
       },
       "minecraft:loot": "loot_tables/nicos_more_dungeon/blocks/nicothekid_block_of_rotten_brute_flesh.json",
-      "tag:block_of_rotten_brute_flesh": {},
-      "tag:custom_compacted_block": {},
-      "tag:shovel_diggable": {},
-      "tag:solid_block": {},
-      "tag:nicothekid_blocks": {},
+      "tag:nicothekid:block_of_rotten_brute_flesh": {},
+      "tag:nicothekid:custom_compacted_block": {},
+      "tag:nicothekid:shovel_diggable": {},
+      "tag:nicothekid:solid_block": {},
+      "tag:nicothekid:blocks": {},
       "tag:minecraft:is_shovel_item_destructible": {},
       "tag:dirt": {}
     }

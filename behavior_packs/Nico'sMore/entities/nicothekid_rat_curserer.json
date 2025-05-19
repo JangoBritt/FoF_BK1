@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.60",
   "minecraft:entity": {
     "description": {
       "identifier": "nicothekid:rat_curserer",
@@ -205,8 +205,13 @@
         "family": [
           "rat_curserer",
           "curserer",
-          "boss",
+          "summoner",
+          "spellcaster",
+          "magical",
+          "hybrid",
+          "humanoid",
           "monster",
+          "boss",
           "mob"
         ]
       },
@@ -239,7 +244,7 @@
         "triggers": [
           {
             "cause": "fall",
-            "deals_damage": true,
+            "deals_damage": "yes",
 						"damage_modifier": 0.0,
 						"damage_multiplier": 1.0,
 						"on_damage_sound_event": "hurt",
@@ -248,27 +253,6 @@
 						  "target": "self",
 						  "filters": {}
 						}
-          },
-          {
-            "cause": "projectile",
-            "deals_damage": true,
-						"damage_modifier": 0.0,
-						"damage_multiplier": 2.0,
-						"on_damage_sound_event": "hurt",
-						"on_damage": {
-              "event": "event:on_magic_missile_damage_sensor",
-              "target": "self",
-              "filters": {
-                "all_of": [
-                  {
-                    "test": "is_family",
-                    "subject": "damager",
-                    "operator": "==",
-                    "value": "magic_missile"
-                  }
-                ]
-              }
-						}
           }
         ]
       },
@@ -276,6 +260,7 @@
         "value": 64
       },
       "minecraft:home": {
+        "restriction_type": "random_movement",
         "restriction_radius": 32,
         "home_block_list": []
       },
@@ -336,9 +321,7 @@
         "can_walk_in_lava": false,
         "is_amphibious": false,
         "blocks_to_avoid": [
-          {
-            "tags": "query.any_tag('heated_netherrack_active')"
-          },
+          { "tags": "query.any_tag('nicothekid:heated_netherrack_active')" },
           "minecraft:fire",
           "minecraft:flowing_lava",
           "minecraft:lava",
@@ -747,7 +730,7 @@
           "command": [
             "effect @s regeneration 60 2 false",
             "playanimation @s casting controller_movement 2.0",
-            "playsound mob.zombie.unfect @p[r=6] ~ ~ ~ 0.8 1.5 1.0"
+            "playsound mob.zombie.unfect @a[r=6] ~ ~ ~ 0.8 1.5 0.5"
           ]
         },
 			  "remove": {
@@ -775,7 +758,6 @@
 			},
 			"event:on_attack": {},
 			"event:on_fall_damage_sensor": {},
-      "event:on_magic_missile_damage_sensor": {},
 			"event:on_named": {},
 			"event:on_unnamed": {}
     }

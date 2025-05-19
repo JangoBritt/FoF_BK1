@@ -49,7 +49,7 @@
 	},
 	{
 		"pack_id" : "95cc40f0-999b-49b8-8311-c8aaaa887ed6", //MrCrayFish Furniture
-		"version" : [ 1, 2, 1 ]
+		"version" : [ 1, 2, 80 ]
 	},
 	
 	{
@@ -85,7 +85,7 @@
 
 	{
 		"pack_id" : "10001000-3de0-1111-1111-a000a000a000", //Nico's More More Dungeons
-		"version" : [ 1, 3, 30 ]
+		"version" : [ 1, 3, 40 ]
 	},
 
 	{
@@ -119,7 +119,7 @@
 		
 	{
 		"pack_id" : "540f1b1e-20ae-4a1c-8f47-2ae8c892ca6e", //Modern Doors
-		"version" : [ 1, 9, 0 ]
+		"version" : [ 1, 10, 0 ]
 	},
 	
 	{

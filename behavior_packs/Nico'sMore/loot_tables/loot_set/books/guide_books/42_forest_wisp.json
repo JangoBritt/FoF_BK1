@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Forest Wisp"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #42",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #42§r\n§lForest Wisp§r\n§8MOB§r\n \n•§lRarity§r: Uncommon\n•§lBehavior§r: Passive\n•§lMob type§r: Wisp, Spirit, Aerial.\n•§lSpawns in§r: Forest, Flower Forest, Birch Forest, Dark Forest, Pale Garden, Taiga, Jungle, Swamp,",
+                "Mangrove Swamp, Cherry Grove, Mossy Forest, Overgrown Jungle.\n•§lHealth§r: 12\n•§lFly speed§r: 0.1\n•§lImmune to§r: Physical Damage, Fire.\n•§lBreathes in§r: Air, Water.\n•§lPossible drops§r: Enchanted Dust, XP Orbs.\n•Can be magical",
+                "charged.\n•Charged Forest Wisp can produce a §lBottle o'Enchanting§r, when interacted with using a §lGlass Bottle§r.\n•Uncharged Forest Wisp will become charged again after 5 minutes.\n•Can be captured by using a Empty Jar.",
+                "§lDescription§r:\n \n§‘Glowing with ancient magic, the Forest Wisp drifts silently through the underbrush and tree canopies, leaving behind faint trails of light and energy."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

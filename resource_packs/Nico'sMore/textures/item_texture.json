@@ -18,8 +18,11 @@
     "nicothekid_piglin_fire_staff": {
       "textures": "textures/items/ntk_piglin_fire_staff"
     },
-    "nicothekid_piglin_sledge_hammer": {
-      "textures": "textures/items/ntk_piglin_sledge_hammer"
+    "nicothekid_piglin_war_hammer": {
+      "textures": "textures/items/ntk_piglin_war_hammer"
+    },
+    "nicothekid_potion_of_brute": {
+      "textures": "textures/items/ntk_potion_of_brute"
     },
     "nicothekid_raw_rat": {
       "textures": "textures/items/ntk_raw_rat"

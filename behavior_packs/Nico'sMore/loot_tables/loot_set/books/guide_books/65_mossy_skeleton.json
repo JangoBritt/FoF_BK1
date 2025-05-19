@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Mossy Skeleton"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #65",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #65§r\n§lMossy Skeleton§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMob type§r: Skeleton, Undead.\n•§lSpawn in§r: Jungle, Swamp, Mangrove Swamp, Cherry Grove, Lush Caves, Mossy Forest, Overgrown Jungle,",
+                "Mosshroom Cave.\n•§lSummon through§r: Summoning Scroll\n•§lHealth§r: 20 §o(Wild)§r | 30 §o(Tamed)§r\n•§lWalk speed§r: 0.25\n•§lBreathes in§r: Air, Water.\n•§lTempted by§r: Sprouted Bone\n•§lHealed by§r: Bone, Sprouted Bone, Milk",
+                "Bucket, Jar of Milk, Bamboo Tumbler with Milk.\n•§lTamed by§r: Sprouted Bone\n•§lPossible drops§r: Bone, Moss Sprouts, XP Orbs.\n•§lAvoids§r: Cave Wolf, Wolf.\n•§lAggressive toward§r §o(Tamed)§r: Monsters, Owner's attackers, Owner's targets.",
+                "•§lMelee attack damage§r: 3\n•Wild Mossy Skeleton can randomly sit.\n•Tamed Mossy Skeleton can be sat down.\n•They can slowly regenerate their health when they sit or sleep.\n•Wild Mossy Skeleton may pick up random items and equip it.",
+                "•Tamed Mossy Skeleton can pick up any equippable item and equip it. They mostly pick up the item that has the most rare or stronger stats.\n•They can use any type of weapon, like magic staff, trident, or bow, without needing an ammunition stack.",
+                
+                "§lDescription§r:\n§‘The Mossy Skeleton is a reanimated remnant of nature’s grasp, found in lush and overgrown biomes. Though undead, it's surprisingly neutral until provoked, and can be tamed with a Sprouted Bone. Once loyal, it becomes a versatile",
+                "§‘ally capable of wielding any weapon—bows, staves, even tridents—without needing ammunition. These moss-covered skeletons heal slowly when resting and favor equipping powerful gear. With a mix of eerie resilience and nature-infused calm,",
+                "the Mossy Skeleton is a uniquely adaptive companion for adventurers who dare embrace the strange.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

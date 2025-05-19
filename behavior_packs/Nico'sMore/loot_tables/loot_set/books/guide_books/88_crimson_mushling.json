@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Crimson Mushlings"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #88",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #88§r\n§lCrimson Mushlings§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Mushling, Myconid, Nature-elemental, Magical.\n•§lSpawns in§r: Crimson Forest\n•§lHealth§r: 12 §o(Wild)§r",
+                "22 §o(Tamed)§r\n•§lWalk speed§r: 0.25\n•§lBreathes in§r: Air\n•§lTempted by§r: Azalea, Flowering Azalea.\n•§lHealed by§r: Azalea, Flowering Azalea.\n•§lBreed with§r: Azalea\n•§lAging by§r: Azalea, Flowering Azalea.",
+                "•§lTamed by§r: Flowering Azalea\n•§lPossible drops§r: Crimson Fungus, XP Orbs.\n•They can release a §lNausea Effect§r around themselves after being hit.\n•Wild Mushling can randomly sit.\n•Tamed Mushling can be sat down.",
+                "•Tamed Crimson Mushling can randomly spawn a §lCrimson Fungus§r.\n•They can slowly regenerate their health when they sit or sleep."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

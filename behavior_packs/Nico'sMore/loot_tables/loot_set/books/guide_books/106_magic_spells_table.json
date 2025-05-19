@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Magic Spells Table"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #106",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #106§r\n§lMagic Spells Table§r\n§8BLOCK§r\n \n•§lRarity§r: Common\n•§lFound naturally in§r: Villager Libraries\n•§lCraftable on§r: Crafting Table, Artifacture Table.\n•§lStackable§r: 64\n•§lBlast Resistance§r: 150.0",
+                "•§lHardness§r: 5.0\n•§lLuminous§r: 8\n•§lFlammable§r: NO\n•§lMining Tool§r: Pickaxe\n•§lDrops on breaking§r: Magic Spells Table\n•Can be activated using an §lRose Quartz Shard§r for 5-6 minutes.\n•The Magic Spells Table is a crafting",
+                "table that requires an activation material to function. It is specialized for crafting the magic scrolls.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

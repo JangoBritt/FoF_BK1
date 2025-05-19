@@ -1,17 +1,18 @@
 {
-  "format_version": "1.21.40",
+  "format_version": "1.21.60",
   "minecraft:item": {
     "description": {
       "identifier": "nicothekid:book_of_curses",
       "menu_category": {
-        "category": "items",
-        "group": "items"
+        "category": "equipment",
+        "group": "nicothekid:itemGroup.name.magic_books"
       }
     },
     "components": {
       "minecraft:display_name": {
-				"value": "§e%item.nicothekid.book_of_curses.name§r"
+				"value": "%item.nicothekid.book_of_curses.name"
 			},
+			"minecraft:rarity": "uncommon",
       "minecraft:icon": {
 				"textures": {
           "default": "nicothekid_book_of_curses"  
@@ -43,9 +44,10 @@
 			},
 			"minecraft:tags": {
         "tags": [
-          "book_of_curses",
-          "book",
-          "nicothekid_items",
+          "nicothekid:book_of_curses",
+          "nicothekid:magic_book",
+          "nicothekid:book",
+          "nicothekid:items",
           "minecraft:bookshelf_books"
         ]
       }

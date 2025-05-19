@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Skeleton Miner"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #68",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #68§r\n§lSkeleton Miner§r\n§8MOB§r\n \n•§lVariants§r: 10\n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Skeleton, Undead, Monster.\n•§lSpawns in§r: Custom mineshafts.\n•§lHealth§r: 20-32",
+                "•§lWalk speed§r: 0.25\n•§lBreathes in§r: Air, Water.\n•§lPossible drops§r: Bone, Coal, Raw Copper, Raw Gold, Raw Iron, Redstone, Lapis Lazuli, Amethyst Shard, Emerald, Diamond, XP Orbs.\n•§lAvoids§r: Cave Wolf, Wolf.",
+                "•§lAggressive toward§r: Players, Iron Golem, Snow Golem, Villagers, Player's aggressive tamed mobs.\n•§lEquipped weapon§r: Random Pickaxe\n•§lEquipped armor§r: Random Helmet\n•§lMelee attack damage§r: 3\n•Can burn in daylight.",
+                "•Can randomly sit.\n•Can slowly regenerate their health when they sit or sleep.\n•Can pick up weapons and equip it.\n•Can pick up armor and equip it.",
+                
+                "§lDescription§r:\n \n§‘Lurking in custom mineshafts, the Skeleton Miner is a hostile undead worker cursed to endlessly dig. Armed with a random pickaxe and a helmet for protection, it attacks intruders with steady force. Though vulnerable to sunlight,",
+                "this skeleton can sit to slowly regenerate health and may equip better gear it finds. It drops valuable ores and minerals, making it a dangerous but rewarding foe deep underground.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

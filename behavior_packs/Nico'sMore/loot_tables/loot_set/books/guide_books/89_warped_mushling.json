@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Warped Mushlings"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #89",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #89§r\n§lWarped Mushlings§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Mushling, Myconid, Nature-elemental, Magical.\n•§lSpawns in§r: Warped Forest\n•§lHealth§r: 12 §o(Wild)§r",
+                "22 §o(Tamed)§r\n•§lWalk speed§r: 0.25\n•§lBreathes in§r: Air\n•§lTempted by§r: Azalea, Flowering Azalea.\n•§lHealed by§r: Azalea, Flowering Azalea.\n•§lBreed with§r: Azalea\n•§lAging by§r: Azalea, Flowering Azalea.",
+                "•§lTamed by§r: Flowering Azalea\n•§lPossible drops§r: Warped Fungus, XP Orbs.\n•They can release a §lSlowness Effect§r around themselves after being hit.\n•Wild Mushling can randomly sit.\n•Tamed Mushling can be sat down.",
+                "•Tamed Warped Mushling can randomly spawn a §lWarped Fungus§r.\n•They can slowly regenerate their health when they sit or sleep."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

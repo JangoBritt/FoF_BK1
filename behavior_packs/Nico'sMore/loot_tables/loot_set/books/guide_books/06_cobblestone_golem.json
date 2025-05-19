@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Cobblestone Golem"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #6",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #6§r\n§lCobblestone Golem§r\n§8MOB§r\n \n•§lRarity§r: Uncommon\n•§lBehavior§r: Neutral\n•§lMob type§r: Golem, Earth-elemental, Magical.\n•§lSpawn in§r: All stone underground.\n•§lSummon through§r: Summoning Scroll",
+                "•§lHealth§r: 50 §o(Wild)§r | 70 §o(Tamed)§r\n•§lKnockback resistance§r: 0.5\n•§lWalk speed§r: 0.2\n•§lBreathes in§r: Air, Water, Solid Blocks.\n•§lHealed by§r: Cobblestone.\n•§lTamed by§r: Enchanted Emerald",
+                "•§lPossible drops§r: Cobblestone, Emerald, XP Orbs.\n•§lAggressive toward§r §o(Tamed)§r: Monsters, Owner's attackers, Owner's targets.\n•§lMelee attack damage§r: 7-8\n•Wild Cobblestone Golem can sleep during the night or thunderstorm.",
+                "•Tamed Cobblestone Golem can be sat down.\n•They can slowly regenerate their health when they sit or sleep.\n•When a wild cobblestone golem gets exposed to water for too long, it will start to transform into a Mossy Cobblestone Golem.",
+                "And if it is also surrounded by mossy cobblestone or moss block, the transformation will be accelerated and become more effective.\n•When struck by lightning, it will transform into a Cobbled Deepslate Golem.",
+                
+                "§lDescription§r:\n§‘Cobblestone Golems are sturdy guardians of underground caves. Neutral by nature, they wander the stone corridors with slow, powerful steps. When tamed with an Enchanted Emerald, they become fierce protectors, defending their masters",
+                "with crushing force. These resilient beings heal slowly when resting and can even evolve with their environment — becoming mossy when embraced by dampness, or hardened into deepslate when struck by lightning.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

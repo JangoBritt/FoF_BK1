@@ -1,12 +1,11 @@
 {
-	"format_version": "1.21.10",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "mr:white_concrete_sink_mr",
 			"menu_category": {
-				"category": "items",
-				"group": "itemGroup.name.mrConcreteSink",
-				"is_hidden_in_commands": false
+				"category": "construction",
+				"group": "mr:concreteSink"
 			},
 			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}},
 			"states": {
@@ -20,6 +19,7 @@
 			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [0,270,0]}}}
 		],
 		"components": {
+			"tag:minecraft:is_pickaxe_item_destructible": {},
 			"minecraft:geometry": {
 				"identifier": "geometry.mr.kitchen_sink_alt",
 				"bone_visibility": {
@@ -36,12 +36,25 @@
 					"water9": "q.block_state('mr:state') == 10"
 				}
 			},
-			"minecraft:material_instances": {"*": {"texture": "mr.concrete_white","render_method": "alpha_test"},"color": {"texture": "mr.concrete_white","render_method": "alpha_test"},"spout": {"texture": "mr.concrete_light_gray","render_method": "alpha_test"},"water": {"texture": "mr.water_flow","render_method": "alpha_test"}},
+			"minecraft:material_instances": {
+				"*": {"texture": "mr:concrete_white","render_method": "alpha_test"},
+				"color": {"texture": "mr:concrete_white","render_method": "alpha_test"},
+				"spout": {"texture": "mr:concrete_light_gray","render_method": "alpha_test"},
+				"water": {"texture": "mr:water_flow","render_method": "alpha_test"}
+			},
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
-			"minecraft:light_dampening": 1,
-			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
-			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": {
+				"detection_rules": [{
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [ "north", "south", "east", "west", "down" ]
+				}]
+			},
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 2.0 },
 			"minecraft:custom_components": ["mr:fill_sink"],
 			"minecraft:map_color": "#f7f7f7"
 		}

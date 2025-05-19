@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Pearls & Eyes"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #36",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #36§r\n§lPearls & Eyes§r\n§8ITEMS§r\n \n•Pearl\n•Blazing Pearl\n•Enchanted Pearl\n•Cursed Eye",
+                
+                "§lPearl§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lProduced by§r: Prismarine Clam\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lThrowable§r: NO\n•§lUsed to craft§r: Blazing Pearl, Enchanted Pearl, Ender Pearl, Summoning Scroll of",
+                "Cobblestone Golem, Summoning Scroll of Mossy Cobblestone Golem, Summoning Scroll of Cobbled Deepslate Golem, Summoning Scroll of Deepslate Golem.§’",
+                
+                "§lBlazing Pearl§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Artifacture Table\n•§lStackable§r: 16\n•§lFuel§r: 120\n•§lDispensable§r: YES\n•§lThrowable§r: YES\n•§lImpact Hit Damage§r: 3\n•§lImpact Result§r: Fire",
+                "•§lCooldown§r: 0.4 §o§8(sec)§r\n•§lUsed to craft§r: Blazing Staff, Scroll of Flame Burst.",
+                
+                "§lEnchanted Pearl§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lCraftable on§r: Artifacture Table\n•§lStackable§r: 64\n•§lThrowable§r: NO\n•§lUsed to craft§r: Powder Staff",
+                
+                "§lCursed Eye§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Book Curserer, Rat Curserer\n•§lCraftable on§r: Artifacture Table\n•§lStackable§r: 64\n•§lThrowable§r: NO\n•§lUsed to craft§r: Curserer Staff",
+                "•Can be used to uncurse the any cursed mobs along with §lBook of Curses§r on your offhand."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Clubs"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #38",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #38§r\n§lClubs§r\n§8ITEMS§r\n \n•Club\n•Dripstone Club\n•Magma Club",
+                
+                "§lClub§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Cave Dweller\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lFuel§r: 10\n•§lDurability§r: 126\n•§lMelee Damage§r: 4",
+                "•§lMelee Effect§r: Knockback §o§8(15% chance)§r\n•§lEnchantable§r: NO\n•§lRepairable with§r: Planks, Wooden Club.",
+                
+                "§lDripstone Club§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Cave Dweller\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lDurability§r: 189\n•§lMelee Damage§r: 6",
+                "•§lMelee Effect§r: Knockback §o§8(15% chance)§r, Extra 2 Damage §o§8(5% chance)§r\n•§lEnchantable§r: NO\n•§lRepairable with§r: Pointed Dripstone, Dripstone Club.",
+                
+                "§lMagma Club§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Cave Dweller\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lDurability§r: 189\n•§lMelee Damage§r: 6",
+                "•§lMelee Effect§r: Knockback §o§8(15% chance)§r, Fire Aspect I §o§8(5% chance)§r\n•§lEnchantable§r: NO\n•§lRepairable with§r: Magma Block, Magma Club."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

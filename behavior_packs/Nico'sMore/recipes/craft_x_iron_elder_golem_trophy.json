@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_iron_elder_golem_trophy"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "group": "iron_elder_golem_trophy",
+    "assume_symmetry": false,
+    "pattern": [
+      "TT",
+      "TI"
+    ],
+    "key": {
+      "T": {
+        "item": "nicothekid:copper_elder_golem_trophy"
+      },
+      "I": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "nicothekid:iron_elder_golem_trophy",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "nicothekid:copper_elder_golem_trophy"
+      },
+      {
+        "item": "minecraft:iron_block"
+      }
+    ]
+  }
+}

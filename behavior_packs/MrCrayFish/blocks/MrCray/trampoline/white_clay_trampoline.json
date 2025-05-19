@@ -1,23 +1,22 @@
 {
-	"format_version": "1.21.10",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "mr:white_clay_trampoline_mr",
 			"menu_category": {
-				"category": "equipment",
-				"group": "itemGroup.name.mrClayTrampoline",
-				"is_hidden_in_commands": false
+				"category": "construction",
+				"group": "mr:trampoline"
 			},
 			"states": {
-				"mr:n": [0,1],
-				"mr:s": [0,1],
-				"mr:w": [0,1],
-				"mr:e": [0,1]
+				"mr:n": [ 0, 1 ],
+				"mr:s": [ 0, 1 ],
+				"mr:w": [ 0, 1 ],
+				"mr:e": [ 0, 1 ]
 			}
 		},
-		"permutations": [
-		],
 		"components": {
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:mr:trampoline": {},
 			"minecraft:geometry": {
 				"identifier":"geometry.mr.trampoline",
 				"bone_visibility": {
@@ -40,15 +39,25 @@
 					"e": "q.block_state('mr:e') == 0"
 				}
 			},
-			"minecraft:material_instances": {"*": {"texture": "mr.clay_white","render_method": "alpha_test"},"legs": {"texture": "mr.concrete_light_gray","render_method": "alpha_test"},"mesh": {"texture": "mr.mesh","render_method": "alpha_test"}},
+			"minecraft:material_instances": {
+				"*": {"texture": "mr:clay_white","render_method": "alpha_test"},
+				"legs": {"texture": "mr:concrete_light_gray","render_method": "alpha_test"},
+				"mesh": {"texture": "mr:mesh","render_method": "alpha_test"}
+			},
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
-			"minecraft:light_dampening": 0.0,
-			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
-			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
-			"minecraft:custom_components": ["mr:bounce", "mr:same_block_update"],
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": {
+				"detection_rules": [{
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "no_reaction"
+				}]
+			},
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 2.0 },
+			"minecraft:custom_components": [ "mr:bounce", "mr:update_trampoline" ],
 			"minecraft:map_color": "#f7f7f7"
 		}
 	}
 }
-

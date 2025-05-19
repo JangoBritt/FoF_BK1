@@ -1,22 +1,70 @@
 {
-    "block_sounds": {},
-    "entity_sounds": {
-        "entities": {
-            "mr:no_sound_mr": {
-                "events": {"death": {"pitch": [0.8,1],"volume": 0,"sound": ""}},
-                "pitch": [0.8,1],
-                "volume": 0
-            },
-            "mr:container_mr": {
-                "events": {"death": {"pitch": [0.8,1],"volume": 0,"sound": ""}},
-                "pitch": [0.8,1],
-                "volume": 0
-            },
-            "mr:chair_entity": {
-                "events": {"death": {"pitch": [0.8,1],"volume": 0,"sound": ""}},
-                "pitch": [0.8,1],
-                "volume": 0
-            }
-        }
-    }
+	"block_sounds": {},
+	"entity_sounds": {
+		"entities": {
+			"mr:no_sound_mr": {
+				"events": {
+					"death": {
+						"volume": 0,
+						"sound": ""
+					}
+				},
+				"volume": 0
+			},
+			"mr:container_mr": {
+				"events": {
+					"death": {
+						"volume": 0,
+						"sound": ""
+					}
+				},
+				"volume": 0
+			},
+			"mr:chair_entity": {
+				"events": {
+					"death": {
+						"volume": 0,
+						"sound": ""
+					}
+				},
+				"volume": 0
+			},
+			"mr:post_box": {
+				"events": {
+					"death": {
+						"volume": 0,
+						"sound": ""
+					}
+				},
+				"volume": 0
+			},
+			"mr:food": {
+				"events": {
+					"death": {
+						"volume": 0,
+						"sound": ""
+					}
+				},
+				"volume": 0
+			},
+			"mr:mailbox": {
+				"events": {
+					"death": {
+						"volume": 0,
+						"sound": ""
+					}
+				},
+				"volume": 0
+			},
+			"mr:container_lock_mr": {
+				"events": {
+					"death": {
+						"volume": 0,
+						"sound": ""
+					}
+				},
+				"volume": 0
+			}
+		}
+	}
 }
