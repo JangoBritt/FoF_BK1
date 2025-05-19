@@ -83,6 +83,9 @@
 		"oak_book": {
 			"textures": "textures/books/oak_book"
 		},
+		"pale_oak_book": {
+			"textures": "textures/books/pale_oak_book"
+		},
 		"spruce_book": {
 			"textures": "textures/books/spruce_book"
 		},
