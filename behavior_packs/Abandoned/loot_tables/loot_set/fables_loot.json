@@ -106,6 +106,7 @@
             {"type": "item","weight": 50,"name": "fables_misc:jungle_book","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "fables_misc:mangrove_book","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "fables_misc:oak_book","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "fables_misc:pale_oak_book","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "fables_misc:spruce_book","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "fables_misc:nether_book","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 10,"name": "fables_misc:space_book","functions": [{"function": "set_count","count": 1}]}
