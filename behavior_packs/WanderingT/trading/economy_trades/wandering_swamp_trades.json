@@ -66,7 +66,20 @@
               {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:tonystar73_head_item","quantity": 1}]},
               //Specials
 			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:hedgehog_item","quantity": 1}]},
-			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:snail_item","quantity": 1}]}
+			  {"max_uses": 2,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_avatars:snail_item","quantity": 1}]},
+			  	//Books
+				{"max_uses": 1,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_misc:space_book","quantity": 1}]},
+				{"max_uses": 1,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_misc:birch_book","quantity": 1}]},
+				{"max_uses": 1,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_misc:acacia_book","quantity": 1}]},
+				{"max_uses": 1,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_misc:cherry_book","quantity": 1}]},
+				{"max_uses": 1,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_misc:darkoak_book","quantity": 1}]},
+				{"max_uses": 1,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_misc:jungle_book","quantity": 1}]},
+				{"max_uses": 1,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_misc:mangrove_book","quantity": 1}]},
+				{"max_uses": 1,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_misc:oak_book","quantity": 1}]},
+				{"max_uses": 1,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_misc:pale_oak_book","quantity": 1}]},
+				{"max_uses": 1,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_misc:spruce_book","quantity": 1}]},
+				{"max_uses": 1,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_misc:nether_book","quantity": 1}]},
+				{"max_uses": 1,"wants": [{"item": "fables_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "fables_misc:space_book","quantity": 1}]}
             ]
 				},
 				{ //ACS5 Economy Purchases - Stones
