@@ -3,12 +3,12 @@ import { ModalFormData } from "@minecraft/server-ui";
 import { toggleBlockState } from '../util/utils';
 
 const blockDataMap = new Map([
-	["mr:is_bedside_cabinet", { nameTag: "MrCrayFish.bedside_cabinet", inventoryEvent: "mr:inventory_9", openSound: "mr.bedside_cabinet_open", closeSound: "mr.bedside_cabinet_close" }],
-	["mr:is_cabinet", { nameTag: "MrCrayFish.cabinet", inventoryEvent: "mr:inventory_18", openSound: "mr.cabinet_open", closeSound: "mr.cabinet_close" }],
+	["mr:is_bedside_cabinet", { nameTag: "MrCrayFish.bedside_cabinet", inventoryEvent: "mr:inventory_27", openSound: "mr.bedside_cabinet_open", closeSound: "mr.bedside_cabinet_close" }],
+	["mr:is_cabinet", { nameTag: "MrCrayFish.cabinet", inventoryEvent: "mr:inventory_27", openSound: "mr.cabinet_open", closeSound: "mr.cabinet_close" }],
 	["mr:is_crate", { nameTag: "MrCrayFish.crate", inventoryEvent: "mr:inventory_27", openSound: "mr.cabinet_open", closeSound: "mr.cabinet_close" }],
-	["mr:is_drawer", { nameTag: "MrCrayFish.drawer", inventoryEvent: "mr:inventory_9", openSound: "mr.bedside_cabinet_open", closeSound: "mr.bedside_cabinet_close" }],
-	["mr:is_cooler", { nameTag: "MrCrayFish.cooler", inventoryEvent: "mr:inventory_9", openSound: "mr.cabinet_open", closeSound: "mr.cabinet_close", adjustY: -0.2 }],
-	["mr:is_desk_cabinet", { nameTag: "MrCrayFish.desk_cabinet", inventoryEvent: "mr:inventory_9", openSound: "mr.bedside_cabinet_open", closeSound: "mr.bedside_cabinet_close" }]
+	["mr:is_drawer", { nameTag: "MrCrayFish.drawer", inventoryEvent: "mr:inventory_27", openSound: "mr.bedside_cabinet_open", closeSound: "mr.bedside_cabinet_close" }],
+	["mr:is_cooler", { nameTag: "MrCrayFish.cooler", inventoryEvent: "mr:inventory_27", openSound: "mr.cabinet_open", closeSound: "mr.cabinet_close", adjustY: -0.2 }],
+	["mr:is_desk_cabinet", { nameTag: "MrCrayFish.desk_cabinet", inventoryEvent: "mr:inventory_27", openSound: "mr.bedside_cabinet_open", closeSound: "mr.bedside_cabinet_close" }]
 ]);
 export class MrPlaceContainer {
 	onPlayerInteract(e) {
