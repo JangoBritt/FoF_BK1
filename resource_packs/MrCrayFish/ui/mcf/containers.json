@@ -6,27 +6,27 @@
 	},
 	"bedside_cabinet@mcf_container.mcf_container_panel": {
 		"$title": "inventory.mr.bedside_cabinet.name",
-		"$size_container": [ 176, 140 ],
-		"$grid_size": [ 162, 18 ],
-		"$grid": [ 9, 1 ]
+		"$size_container": [ 176, 176 ],
+		"$grid_size": [ 162, 54 ],
+		"$grid": [ 9, 3 ]
 	},
 	"kitchen_drawer@mcf_container.mcf_container_panel": {
 		"$title": "inventory.mr.kitchen_drawer.name",
-		"$size_container": [ 176, 140 ],
-		"$grid_size": [ 162, 18 ],
-		"$grid": [ 9, 1 ]
+		"$size_container": [ 176, 176 ],
+		"$grid_size": [ 162, 54 ],
+		"$grid": [ 9, 3 ]
 	},
 	"cooler@mcf_container.mcf_container_panel": {
 		"$title": "inventory.mr.cooler.name",
-		"$size_container": [ 176, 140 ],
-		"$grid_size": [ 162, 18 ],
-		"$grid": [ 9, 1 ]
+		"$size_container": [ 176, 176 ],
+		"$grid_size": [ 162, 54 ],
+		"$grid": [ 9, 3 ]
 	},
 	"desk_cabinet@mcf_container.mcf_container_panel": {
 		"$title": "inventory.mr.desk_cabinet.name",
-		"$size_container": [ 176, 140 ],
-		"$grid_size": [ 162, 18 ],
-		"$grid": [ 9, 1 ]
+		"$size_container": [ 176, 176 ],
+		"$grid_size": [ 162, 54 ],
+		"$grid": [ 9, 3 ]
 	},
 	"post_box@mcf_container.mcf_container_panel": {
 		"$title": "inventory.mr.post_box.name",
@@ -39,14 +39,14 @@
 		"$grid_offset": [ 0, 35 ],
 		"$title": "inventory.mr.mail_box.name",
 		"$size_container": [ 176, 150 ],
-		"$grid_size": [ 162, 18 ],
-		"$grid": [ 9, 1 ]
+		"$grid_size": [ 162, 54 ],
+		"$grid": [ 9, 3 ]
 	},
 	"cabinet@mcf_container.mcf_container_panel": {
 		"$title": "inventory.mr.cabinet.name",
 		"$size_container": [ 176, 158 ],
-		"$grid_size": [ 162, 36 ],
-		"$grid": [ 9, 2 ]
+		"$grid_size": [ 162, 54 ],
+		"$grid": [ 9, 3 ]
 	},
 	"crate@mcf_container.mcf_container_panel": {
 		"$title": "inventory.mr.crate.name",
