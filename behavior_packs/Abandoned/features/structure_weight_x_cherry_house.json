@@ -5,9 +5,9 @@
       "identifier": "nicothekid:structure_weight_x_cherry_house"
     },
     "features": [
-      [ "nicothekid:ars/structure_x_cherry_house_01", 100 ],
-      [ "nicothekid:ars/structure_x_cherry_house_02", 100 ],
-      [ "nicothekid:ars/structure_x_cherry_house_03", 100 ]
+      [ "nicothekid:structure_x_cherry_house_01", 100 ],
+      [ "nicothekid:structure_x_cherry_house_02", 100 ],
+      [ "nicothekid:structure_x_cherry_house_03", 100 ]
     ]
   }
 }

@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "mr:fridge_light_item",
+					"name": "mr:fridge_light",
 					"weight": 1
 				}
 			]
