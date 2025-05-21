@@ -1,0 +1,24 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "nicothekid:ars/structure_x_ocean_ship_01"
+    },
+    "structure_name": "mystructure:ars/ocean_ship_01",
+    "adjustment_radius": 0,
+    "facing_direction": "random",
+    "constraints": {
+      "block_intersection": {
+        "block_allowlist": [
+          { "tags": "query.any_tag('custom_plant')" },
+          "minecraft:air",
+          "minecraft:flowing_water",
+          "minecraft:kelp",
+          "minecraft:seagrass",
+          "minecraft:waterlily",
+          "minecraft:water"
+        ]
+      }
+    }
+  }
+}
