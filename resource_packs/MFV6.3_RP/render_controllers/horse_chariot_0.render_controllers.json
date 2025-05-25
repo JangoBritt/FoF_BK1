@@ -50,11 +50,11 @@
 			],
 			"textures": [
 				"Array.base[query.variant]",
-				"Array.markings[query.mark_variant]",
-				"Array.armor_leather[query.is_item_name_any('slot.armor', 0, 'minecraft:leather_horse_armor')]",
-				"Array.armor_iron[query.is_item_name_any('slot.inventory', 0, 'minecraft:iron_horse_armor')]",
-				"Array.armor_gold[query.is_item_name_any('slot.inventory', 1, 'minecraft:golden_horse_armor')]",
-				"Array.armor_diamond[query.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_horse_armor')]"
+				"Array.markings[query.mark_variant]"//,
+				// "Array.armor_leather[query.is_item_name_any('slot.armor', 0, 'minecraft:leather_horse_armor')]",
+				// "Array.armor_iron[query.is_item_name_any('slot.inventory', 0, 'minecraft:iron_horse_armor')]",
+				// "Array.armor_gold[query.is_item_name_any('slot.inventory', 1, 'minecraft:golden_horse_armor')]",
+				// "Array.armor_diamond[query.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_horse_armor')]"
 			]
 		}
 	}
