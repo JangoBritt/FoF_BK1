@@ -2,9 +2,9 @@
   "format_version": "1.13.0",
   "minecraft:structure_template_feature": {
     "description": {
-      "identifier": "nicothekid:ars/structure_x_cherry_house_01"
+      "identifier": "nicothekid:structure_x_cherry_house_01"
     },
-    "structure_name": "mystructure:ars/cherry_house_01",
+    "structure_name": "mystructure:cherry_house_01",
     "adjustment_radius": 8,
     "facing_direction": "random",
     "constraints": {
