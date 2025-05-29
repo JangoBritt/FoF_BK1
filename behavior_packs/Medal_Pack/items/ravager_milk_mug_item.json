@@ -1,0 +1,45 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fables_misc:ravager_milk_mug_item",
+			"menu_category": {
+				"category": "items",
+				"group": "minecraft:itemGroup.name.miscFood"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 16,
+			"minecraft:icon": {
+				"textures": {
+					"default": "ravager_milk_mug_item"
+				}
+			},
+			"minecraft:display_name": {
+				"value": "Mug of Ravager Milk"
+			},
+			"minecraft:use_modifiers": {
+				"use_duration": 1.6,
+				"movement_modifier": 0.5
+			},
+			"minecraft:food": {
+				"can_always_eat": true,
+				"nutrition": 3,
+				"saturation_modifier": 0.3,
+				"using_converts_to": "medieval:beer_mug_empty_item"
+			},
+			"minecraft:block_placer": {
+				"block": "fables_misc:ravager_milk_mug"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"oreville:is_drink"
+				]
+			},
+			"minecraft:custom_components": [
+				"fables_misc:ravager_milk_on_consume"
+			],
+			"minecraft:use_animation": "drink"
+		}
+	}
+}

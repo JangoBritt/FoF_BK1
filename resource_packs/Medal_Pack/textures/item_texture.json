@@ -112,7 +112,17 @@
 		
 		"treesaw": {"textures": "textures/items/treesaw"},
 		"record_blank": {"textures": "textures/items/record_blank"},
+
+		"ravager_milk_bucket": {"textures": "textures/items/ravager_milk_bucket"},
+		"ravager_milk_mug_item": {"textures": "textures/items/ravager_milk_mug_item"},
+
 		
+		"coaster_gold_brew": { "textures": "textures/items/coaster_gold_brew" },
+		"coaster_ravager_milk": { "textures": "textures/items/coaster_ravager_milk" },
+
 		"mining_helmet_item": {"textures": "textures/items/mining_helmet_item"}
+
+
+		
 	}
 }
