@@ -71,26 +71,6 @@ export const vanillaCookingPotRecipe = {
         },
         //finish
         {
-            'identifer': 'fables_misc:ravager_milk_mug',
-            'tags': ['cooking_pot'],
-            'priority': 0,
-            "time": 200,
-            "container": {
-                "item": "medieval:beer_mug_empty_item",
-                "count": 4
-            },
-            "ingredients": [
-                {
-                    "item": "fables_misc:ravager_milk_bucket"
-                }
-            ],
-            "result": {
-                "item": "fables_misc:ravager_milk_mug_item",
-                "count": 4
-            }
-        },
-        //finish
-        {
             'identifer': 'farmersdelight:hot_cocoa',
             'tags': ['cooking_pot'],
             'priority': 0,

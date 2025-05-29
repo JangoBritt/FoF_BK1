@@ -9,13 +9,10 @@ export class MrConnectWall {
 }
 export function fenceEvent() {
 	world.afterEvents.playerPlaceBlock.subscribe((e) => {
-		system.runTimeout(()=> { checkAdjacentBlocksForConnection(e.block) }, 5)
-//		checkAdjacentBlocksForConnection(e.block);
+		checkAdjacentBlocksForConnection(e.block);
 	});
 	world.afterEvents.playerBreakBlock.subscribe((e) => {
-		system.runTimeout(()=> { checkAdjacentBlocksForConnection(e.block) }, 5)
-//		checkAdjacentBlocksForConnection(e.block);
-
+		checkAdjacentBlocksForConnection(e.block);
 	});
 }
 function updateConnections(block, tag) {
