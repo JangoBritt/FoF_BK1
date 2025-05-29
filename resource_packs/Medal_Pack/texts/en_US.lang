@@ -137,3 +137,6 @@ fables:itemGroup.name.concrete_stairs=Concrete Stairs
 
 item.fables_avatars:diving_helmet_mask=Diving Helmet
 item.fables_avatars:mining_helmet=Mining Helmet
+
+action.hint.exit.ravager=Jump to Exit
+action.interact.deny=You are not the Master of this Beast

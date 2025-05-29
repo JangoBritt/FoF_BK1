@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fables_misc:coaster_gold_brew"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"MMM",
+			"MBM",
+			"MMM"
+		],
+		"key": {
+			"M": {
+				"item": "minecraft:paper"
+			},
+			"B": {
+				"item": "medieval:beer_mug_fill_item"
+			}
+		},
+		"unlock": [
+			{
+				"item": "medieval:beer_mug_fill_item"
+			}
+		],
+		"result": [
+			{
+				"item": "fables_misc:coaster_gold_brew",
+				"count": 8
+			}
+		]
+	}
+}

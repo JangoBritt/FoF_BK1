@@ -22,7 +22,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "mr:fridge_light",
+					"name": "fables_misc:ravager_milk_mug_item",
 					"weight": 1
 				}
 			]
@@ -32,7 +32,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "mr:fridge_light",
+					"name": "fables_misc:ravager_milk_mug_item",
 					"weight": 1
 				}
 			]

@@ -48,6 +48,11 @@
 		},
 		"rat_statue_g": {
 			"textures": "textures/statues/rat_statue_g"
+		},
+		"ravager_milk_mug": {
+			"textures": [
+				"textures/blocks/ravager_milk_mug_block"
+			]
 		}
 	}
 }

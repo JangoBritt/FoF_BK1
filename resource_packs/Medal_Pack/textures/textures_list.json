@@ -52,5 +52,7 @@
 	"textures/items/treesaw",
 	"textures/items/record_blank",
 	"textures/entity/diving_helmet",
-	"textures/entity/mining_helmet"
+	"textures/entity/mining_helmet",
+	"textures/items/ravager_milk_bucket",
+	"textures/items/ravager_milk_mug_item"
 ]
