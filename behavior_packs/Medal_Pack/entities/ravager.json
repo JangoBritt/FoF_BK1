@@ -445,19 +445,19 @@
 				},
 				"minecraft:interact": {
 					"interactions": [
-						{
-							"on_interact": {
-								"filters": {
-									"test": "is_owner",
-									"subject": "other",
-									"value": "false"
-								},
-								"event": "example:deny",
-								"target": "self"
-							},
-							"cooldown": 0,
-							"interact_text": "action.interact.deny"
-						},
+						// {
+						// 	"on_interact": {
+						// 		"filters": {
+						// 			"test": "is_owner",
+						// 			"subject": "other",
+						// 			"value": "false"
+						// 		},
+						// 		"event": "example:deny",
+						// 		"target": "self"
+						// 	},
+						// 	"cooldown": 0,
+						// 	"interact_text": "action.interact.deny"
+						// },
 						{
 							"on_interact": {
 								"filters": {
