@@ -270,7 +270,7 @@
 				"name": "entity.fables_golem:redstone_mon.name"
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/fables_golem:redstone_mon.json"
+				"table": "loot_tables/entities/redstone_mon.json"
 			}
 		},
 		"events": {
