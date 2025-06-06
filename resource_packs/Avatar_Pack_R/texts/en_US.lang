@@ -547,3 +547,10 @@ item.fables_avatars:rat_statue_c_avatar_item=Copper Rat Statue
 
 entity.fables_avatars:rat_statue_g_avatar.name=Gold Rat Statue
 item.fables_avatars:rat_statue_g_avatar_item=Gold Rat Statue
+
+action.hint.exit.fables_avatars:tamalin44_head=Jump to Exit
+entity.fables_avatars:tamalin44_avatar.name=Tamalin44's Avatar
+entity.fables_avatars:tamalin44_head.name=Tamalin44's Head
+item.fables_avatars:tamalin44_avatar_item=Tamalin44's  Avatar
+item.fables_avatars:tamalin44_head_item=Tamalin44's  Head
+item.fables_avatars:tamalin44_mask=Tamalin44's  Mask

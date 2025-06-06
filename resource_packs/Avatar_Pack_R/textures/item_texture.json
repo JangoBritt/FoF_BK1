@@ -661,6 +661,12 @@
                                                       },
                          "rat_statue_g_head_item":  {
                                                         "textures":  "textures/avatars/specials/rat_statue_g/player_head_item"
-                                                    }
+                                                    },
+                         "tamalin44_avatar_item":  {
+                                                       "textures":  "textures/avatars/members/tamalin44/avatar_item"
+                                                   },
+                         "tamalin44_head_item":  {
+                                                     "textures":  "textures/avatars/members/tamalin44/player_head_item"
+                                                 }
                      }
 }
