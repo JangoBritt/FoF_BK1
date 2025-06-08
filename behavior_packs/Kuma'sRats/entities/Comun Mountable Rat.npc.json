@@ -3,7 +3,7 @@
 	"format_version": "1.13.0",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "kuma:mount_rat",
+			"identifier": "kuma:npc_rat",
 			"is_summonable": true,
 			"is_spawnable": true
 		},
