@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.fables_avatars.humanoid_default",
+				"identifier": "geometry.fables_avatars.garrett",
 				"texture_width": 64,
 				"texture_height": 64,
 				"visible_bounds_width": 10000,
@@ -41,7 +41,8 @@
 					"parent": "head",
 					"pivot": [0, 0, 0],
 					"cubes": [
-						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.5, "uv": [32, 0]}
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.5, "uv": [32, 0]},
+						{"origin": [-6, 22, -0.9], "size": [12, 7, 6], "uv": [-14, -4]}
 					]
 				},
 				{
