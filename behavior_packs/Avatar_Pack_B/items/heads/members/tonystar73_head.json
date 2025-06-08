@@ -8,7 +8,12 @@
             "minecraft:icon": "tonystar73_head_item", 
 			"minecraft:entity_placer": {
 				"entity": "fables_avatars:tonystar73_head"
-			}
+			},
+			"minecraft:tags": {
+                "tags": [
+                    "fables_avatars:player_head"
+                ]
+            }
 		}
 	}
 }

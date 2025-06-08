@@ -180,7 +180,7 @@
 				"head8": "animation.fables_avatars.headAngle8"
 			},
 			"geometry": {
-				"default": "geometry.fables_avatars.humanoid_default"
+				"default": "geometry.fables_avatars.garrett"
 			},
 			"render_controllers": [
 				"controller.render.fables_avatars.avatars"
