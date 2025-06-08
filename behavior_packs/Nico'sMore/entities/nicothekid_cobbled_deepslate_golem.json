@@ -28,7 +28,7 @@
         "minecraft:tameable": {
           "probability": 1.0,
           "tame_items": [
-            "nicothekid:enchanted_emerald"
+            "minecraft:echo_shard"
           ],
           "tame_event": {
             "event": "event:on_tame",
