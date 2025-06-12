@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "fables_painting:painting_clarity5_dup"
+        },
+        "tags": [
+            "easel"
+        ],
+        "ingredients": [
+            {
+                "item": "fables_painting:painting_clarity5"
+            },
+            {
+                "item": "minecraft:painting"
+            }
+        ],
+        "result": {
+            "item": "fables_painting:painting_clarity5",
+			"count": 2
+        }
+    }
+}

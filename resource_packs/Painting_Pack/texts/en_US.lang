@@ -42,3 +42,9 @@ entity.fables_painting:painting_clarity9=§l§3[FoF]§r Painting - Clarity 9
 
 item.fables_painting:painting_clarity0=§l§3[FoF]§r Dark Clarity set (10/10)
 entity.fables_painting:painting_clarity0=§l§3[FoF]§r Painting - Clarity 10
+
+item.fables_painting:painting_watch=§l§3[FoF]§r Not on My Watch!
+entity.fables_painting:painting_watch=§l§3[FoF]§r Painting - My Watch
+
+item.fables_painting:painting_mugshot=§l§3[FoF]§r Mugshot
+entity.fables_painting:painting_mugshot=§l§3[FoF]§r Painting - Mugshot

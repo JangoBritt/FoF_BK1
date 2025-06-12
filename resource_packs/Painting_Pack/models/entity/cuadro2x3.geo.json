@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cuadro2x3",
+				"texture_width": 32,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "pintura",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone",
+					"parent": "pintura",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 1, 7],
+							"size": [30, 46, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [32, 48]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
