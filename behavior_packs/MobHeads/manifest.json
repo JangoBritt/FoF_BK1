@@ -6,7 +6,7 @@
         "name": "Mob Heads [Experimental] v3.4.4",
         "uuid": "f8898c09-6d29-44fe-8303-15dfda9aba44",
         "version": [ 3, 5, 0 ],
-        "min_engine_version": [ 1, 18, 0 ]
+        "min_engine_version": [ 1, 20, 80 ]
     },
     "modules": [
         {
