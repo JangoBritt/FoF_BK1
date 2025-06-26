@@ -64,6 +64,27 @@
 			}
 		},
 		"components": {
+			"minecraft:interact": {
+				"interactions": [
+					{
+					"on_interact": {
+						"filters": {
+						"all_of": [
+							{ "test": "has_equipment", "domain": "hand", "subject": "other", "value": "medieval:handsaw" }
+						]
+						},
+						"event": "mr:despawn"
+					},
+					"particle_on_start": {
+						"particle_y_offset": 0.3,
+						"particle_type": "villagerangry"
+					},
+					"play_sounds": "block.barrel.close",
+     				"swing": true,
+					"interact_text": "Disable Container"
+					}
+				]
+			},
 			"minecraft:type_family": {
 				"family": [ "chest", "inanimate" ]
 		  	},
