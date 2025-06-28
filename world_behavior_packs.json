@@ -31,6 +31,11 @@
 		"pack_id": "5ebf1d6b-3c2c-4ae1-bc26-1815134563b1", //Treecapitator
         "version": [1, 4, 2]
 	},
+
+	{
+		"pack_id": "6ab80357-fe17-4a8b-b4d6-4868c84406be", //Hammer_Time
+        "version": [ 1, 0, 1 ]
+	},
 	{
 		"pack_id" : "957de88d-d527-48cc-bda5-d84ed2cc094e", //Kuma's Rats
 		"version" : [ 1, 2, 3 ]
@@ -114,7 +119,7 @@
 	
 	{
 		"pack_id" : "026d10cc-e079-4f2a-a95f-f822cbe01ffd", //FoF Avatars
-		"version" : [ 6, 2, 8 ]
+		"version" : [ 6, 2, 9 ]
 	},
 		
 	{

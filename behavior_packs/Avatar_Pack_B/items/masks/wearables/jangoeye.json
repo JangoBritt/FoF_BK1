@@ -15,7 +15,7 @@
 				"slot": "armor_head"
 			},
 			"minecraft:durability": {
-				"max_durability": 165,
+				"max_durability": 2010,
 				"damage_chance": {
 					"min": 60,
 					"max": 100

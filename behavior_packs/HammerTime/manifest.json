@@ -1,0 +1,31 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§f§lAddon Creado Por:\n§bSystem§dTv\n§r§lBasado en el Mod de java, Hammer Time",
+        "name": "Hammer Time 2D Addon V1.9.5 §eBehavior",
+        "uuid": "6ab80357-fe17-4a8b-b4d6-4868c84406be",
+        "version": [ 1, 0, 1 ],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "e0f9cccd-6e5f-4bb4-98d6-c2f75042e927",
+            "version": [ 1, 0, 1 ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/index.js",
+            "uuid": "6a3865e5-f82f-4eb3-ae3e-9d766d2467c7",
+            "version": [1, 0, 1]
+        }
+    ],
+    "dependencies": [
+        
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.8.0"
+        }
+    ]
+}

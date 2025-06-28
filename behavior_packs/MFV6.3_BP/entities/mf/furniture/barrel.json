@@ -37,6 +37,27 @@
 			"medieval:copper_ingot": {"minecraft:variant": {"value": 17}}
 		},
 		"components": {
+			"minecraft:interact": {
+				"interactions": [
+					{
+					"on_interact": {
+						"filters": {
+						"all_of": [
+							{ "test": "has_equipment", "domain": "hand", "subject": "other", "value": "medieval:handsaw" }
+						]
+						},
+						"event": "medieval:despawn"
+					},
+					"particle_on_start": {
+						"particle_y_offset": 0.3,
+						"particle_type": "villagerangry"
+					},
+					"play_sounds": "block.barrel.close",
+     				"swing": true,
+					"interact_text": "Disable Container"
+					}
+				]
+			},
 			"minecraft:collision_box": {
 				"width": 0.98,
 				"height": 0.8

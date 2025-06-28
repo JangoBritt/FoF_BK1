@@ -15,11 +15,11 @@ const worldTicks = () => system.run(() => {
     }
     if (t % 2 === 0) {
         for (let i = 0; i < worldPlayer.length; i++) {
-            if (worldPlayer[i].logCount >= 128) {
+            if (worldPlayer[i].logCount >= 256) {
                 worldPlayer[i] = { playerName: worldPlayer[i].playerName, idBlock: '', logBlocks: [], otherBlocks: [], logCount: 1, otherCount: 0 }
                 for (const players of world.getPlayers()) {
                     if (worldPlayer.find(o => { return o.playerName === players.name })) {
-                        players.dimension.runCommand(`title "${worldPlayer[i].playerName}" actionbar §fMax 128 blocks`)
+                        players.dimension.runCommand(`title "${worldPlayer[i].playerName}" actionbar §fMax 256 blocks`)
                     }
                 }
             }
@@ -117,7 +117,7 @@ function treecapitator(block, x, y, z, player, dimension) {
         ]
         for (const coords of blockSides) {
             const idBlocks = dimension.getBlock({ x: coords[0], y: coords[1], z: coords[2] }).typeId
-            if (idBlocks == block && worldPlayer[player].logCount < 128) {
+            if (idBlocks == block && worldPlayer[player].logCount < 256) {
                 if (worldPlayer[player].logBlocks.every(l => l != `${coords[0]} ${coords[1]} ${coords[2]}`)) {
                     worldPlayer[player].logBlocks.push(`${coords[0]} ${coords[1]} ${coords[2]}`)
                     worldPlayer[player].logCount += 1
