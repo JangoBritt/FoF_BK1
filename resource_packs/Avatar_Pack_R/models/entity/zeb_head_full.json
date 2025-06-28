@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.player_head_zebra",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-2, 23.6, -7], "size": [4, 4, 4], "inflate": 0.1, "pivot": [0, 26, -5], "rotation": [10, 0, 0], "uv": [32, 0]},
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.1, "uv": [0, 16]},
+						{"origin": [1.5, 30.7, -1], "size": [3, 4, 2], "inflate": 0.1, "pivot": [3.5, 33, 0], "rotation": [15.22074, 9.65594, 27.61298], "uv": [32, 15]},
+						{"origin": [-4.5, 30.7, -1], "size": [3, 4, 2], "inflate": 0.1, "pivot": [-3.5, 33, 0], "rotation": [15.22074, -9.65594, -27.61298], "uv": [16, 32]},
+						{"origin": [-1, 32, -3.5], "size": [2, 2, 5], "inflate": 0.1, "pivot": [0, 33, -1.5], "rotation": [10, 0, 0], "uv": [32, 8]},
+						{"origin": [-0.999, 25, 0], "size": [1.998, 9, 6], "inflate": 0.1, "pivot": [0, 29.5, 2.5], "rotation": [-12.5, 0, 0], "uv": [2, 32]},
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.1, "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

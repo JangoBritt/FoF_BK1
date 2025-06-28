@@ -8,10 +8,14 @@
 			"crafting_table"
 		],
 		"pattern": [
+			"E",
 			"X",
 			"#"
 		],
 		"key": {
+			"E": {
+				"item": "new:rat_ear_black"
+			},
 			"X": {
 				"item": "fables_avatars:calico_jacque_head_item"
 			},
