@@ -120,6 +120,8 @@
 		"coaster_gold_brew": { "textures": "textures/items/coaster_gold_brew" },
 		"coaster_ravager_milk": { "textures": "textures/items/coaster_ravager_milk" },
 
+		"minimag": { "textures": "textures/items/minimag" },
+
 		"mining_helmet_item": {"textures": "textures/items/mining_helmet_item"}
 
 
