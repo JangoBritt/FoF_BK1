@@ -10,9 +10,9 @@
 			"textures": {
 				"brown": "textures/entity/rata comun/newrat",
 				"blue": "textures/entity/rata comun/newrathairy_blue",
-				"yellow": "textures/entity/rata comun/newrathairy_yellow",
+				"jaune": "textures/entity/rata comun/newrathairy_yellow",
 				"gray": "textures/entity/rata comun/newrathairy_gray",
-				"white": "textures/entity/rata comun/newrathairy_white",
+				"blanc": "textures/entity/rata comun/newrathairy_white",
 				"pink": "textures/entity/rata comun/newrathairy_pink"
 			},
 			"geometry": {
