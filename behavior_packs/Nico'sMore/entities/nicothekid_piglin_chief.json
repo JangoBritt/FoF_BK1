@@ -240,7 +240,7 @@
       "minecraft:block_climber": {},
       "minecraft:boss": {
         "name": "Piglin Chief",
-				"hud_range": 8,
+				"hud_range": 48,
 				"should_darken_sky": false
 			},
       "minecraft:breathable": {
