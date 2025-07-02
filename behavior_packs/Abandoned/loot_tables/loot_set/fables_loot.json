@@ -115,7 +115,7 @@
       { //specials
         "rolls": 1,
         "entries": [
-            {"type": "item","weight": 50,"name": "fables_avatars:cushion_item","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 75,"name": "fables_avatars:cushion_item","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "fables_avatars:eagle_item","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "fables_avatars:hedgehog_item","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "fables_avatars:mouse_item","functions": [{"function": "set_count","count": 1}]},
@@ -132,14 +132,29 @@
             {"type": "item","weight": 50,"name": "fables_avatars:toyswatvan_item","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "farmersdelight:rope","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "farmersdelight:straw","functions": [{"function": "set_count","count": 1}]},
-            {"type": "item","weight": 50,"name": "farmersdelight:tatami_mat","functions": [{"function": "set_count","count": 1}]},
-            {"type": "item","weight": 50,"name": "farmersdelight:half_tatami_mat_item","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "farmersdelight:tatami_mat_main","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "farmersdelight:half_tatami_mat","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "farmersdelight:canvas","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "farmersdelight:canvas_rug","functions": [{"function": "set_count","count": 1}]},
 
             //paintings
-            {"type": "item","weight": 50,"name": "fables_paintings:shipwreck","functions": [{"function": "set_count","count": 1}]},
-            {"type": "item","weight": 50,"name": "fables_paintings:roger","functions": [{"function": "set_count","count": 1}]}
+            {"type": "item","weight": 25,"name": "fables_painting:painting_clarity0","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_clarity1","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_clarity2","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_clarity3","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_clarity4","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_clarity5","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_clarity6","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_clarity7","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_clarity8","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_clarity9","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_mugshot","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_roger","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_light_tree","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_shipwreck","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 25,"name": "fables_painting:painting_watch","functions": [{"function": "set_count","count": 1}]}
+
+
         ]
       },
       { //currency
