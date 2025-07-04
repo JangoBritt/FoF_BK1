@@ -43,17 +43,17 @@
 				"value": 1
 			},
 			"minecraft:durability": {
-				"max_durability": 256,
+				"max_durability": 3250,
 				"damage_chance": {
-					"min": 99,
-					"max": 100
+					"min": 5,
+					"max": 10
 				}
 			},
 			"minecraft:damage": {
 				"value": 20
 			},
 			
-		    "minecraft:mining_speed": 8,
+		    "minecraft:mining_speed": 12,
 			"minecraft:enchantable": {
 				"slot": "pickaxe",
 				"value": 30
