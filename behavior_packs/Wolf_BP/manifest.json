@@ -3,7 +3,8 @@
 	"metadata": {
 		"authors": [
 			"GradientStudio"
-		]
+		],
+        "product_type": "addon"
 	},
 	"header": {
 		"name": "Wolf Attribute - V4.0",

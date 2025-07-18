@@ -22,6 +22,7 @@
 		}
 	],
 	"metadata": {
+		"product_type": "addon",
 		"authors": ["RedstoneGamesBr"],
 		"url": "https://www.redstonegames.com.br/wandering-trader-plus-addon-minecraft-bedrock/"
 	}

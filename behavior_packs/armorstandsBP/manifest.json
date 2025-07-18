@@ -15,6 +15,10 @@
       0
     ]
   },
+  "metadata": {
+      "product_type": "addon",
+      "authors": [ "FoxyNoTail" ]
+  },
   "modules": [
     {
       "type": "data",

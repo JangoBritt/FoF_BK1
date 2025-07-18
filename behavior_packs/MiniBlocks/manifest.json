@@ -7,6 +7,9 @@
         "version": [ 7, 4, 3 ],
         "min_engine_version": [ 1, 20, 80 ]
     },
+    "metadata": {
+        "product_type": "addon"
+    },
     "modules": [
         {
             "type": "data",

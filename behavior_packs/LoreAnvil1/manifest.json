@@ -16,9 +16,8 @@
 		]
 	},
 	"metadata": {
-		"authors": [
-			"Ezekielico"
-		],
+		"authors": [ "Ezekielico" ],
+        "product_type": "addon",
 		"generated_with": {
 			"bridge": [
 				"1.8.4"

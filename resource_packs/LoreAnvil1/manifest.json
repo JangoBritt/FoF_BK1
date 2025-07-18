@@ -8,6 +8,7 @@
 		"min_engine_version": [1, 16, 0]
 	},
 	"metadata": {
+		"product_type": "addon",
 		"authors": ["Ezekielico"],
 		"generated_with": {
 			"blockbench_block_wizard": ["1.2.2"]

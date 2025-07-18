@@ -9,6 +9,7 @@
 		"vanilla": [ 1, 12, 0 ]
 	},
 	"metadata": {
+		"product_type": "addon",
 		"authors": [ "NicoTheKid" ],
 		"url": "https://mcpedl.com/user/dangel/"
 	},

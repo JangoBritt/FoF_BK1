@@ -7,6 +7,10 @@
         "min_engine_version": [ 1, 20, 80 ],
         "version": [ 1, 0, 0 ]
     },
+    "metadata": {
+		"product_type": "addon",
+		"authors": [ "Fables of Folly" ]
+	},
     "modules": [
         {
             "type": "data",

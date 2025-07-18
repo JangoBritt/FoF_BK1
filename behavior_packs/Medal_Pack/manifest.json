@@ -1,7 +1,8 @@
 {
 	"format_version": 2,
 	"metadata": {
-		"authors": [ "Fables of Folly" ]
+		"authors": [ "Fables of Folly" ],
+        "product_type": "addon"
 	},
 	"header": {
 		"description": "Pack By §6Fables of Folly§r | Misc. Stuff Pack | Check the README for details | Visit §9www.fables-of-folly.com§r",
