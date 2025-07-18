@@ -1,0 +1,104 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:bed_0_yellow_visual",
+			"menu_category": {
+				"category": "none",
+				"is_hidden_in_commands": true
+			},
+			"traits": { "minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"], "y_rotation_offset": 180 }},
+			"states": {
+				"medieval:side": [ 0, 1, 2, 3 ],
+				"mc:block_parts": [ 0, 1 ]
+			}
+		},
+		"permutations": [
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,0,0]}}},
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0]}}},
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,90,0]}}},
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,-90,0]}}},
+			{ "condition": "q.block_state('mc:block_parts') == 0", "components": {
+				"tag:mf:bed_0_part_0": {},
+				"minecraft:geometry": {
+					"identifier": "geometry.mf.bed_0_part_0",
+					"bone_visibility": {
+						"bed_right": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1",
+						"bed_left": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2",
+						"center": "q.block_state('medieval:side') == 0",
+						"right": "q.block_state('medieval:side') == 1",
+						"left": "q.block_state('medieval:side') == 2",
+						"middle": "q.block_state('medieval:side') == 3"
+					}
+				},
+				"minecraft:placement_filter": {"conditions": [
+					{
+						"allowed_faces": ["north"],
+						"block_filter": [{"name": "medieval:bed_0_yellow_visual","states": {"minecraft:cardinal_direction": "north", "mc:block_parts": 1}}]
+					},
+					{
+						"allowed_faces": ["south"],
+						"block_filter": [{"name": "medieval:bed_0_yellow_visual","states": {"minecraft:cardinal_direction": "south", "mc:block_parts": 1}}]
+					},
+					{
+						"allowed_faces": ["west"],
+						"block_filter": [{"name": "medieval:bed_0_yellow_visual","states": {"minecraft:cardinal_direction": "west", "mc:block_parts": 1}}]
+					},
+					{
+						"allowed_faces": ["east"],
+						"block_filter": [{"name": "medieval:bed_0_yellow_visual","states": {"minecraft:cardinal_direction": "east", "mc:block_parts": 1}}]
+					}
+				]}
+			} },
+			{ "condition": "q.block_state('mc:block_parts') == 1", "components": {
+				"tag:mf:bed_0_part_1": {},
+				"minecraft:geometry": {
+					"identifier": "geometry.mf.bed_0_part_1",
+					"bone_visibility": {
+						"bed_right": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1",
+						"bed_left": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2",
+						"center": "q.block_state('medieval:side') == 0",
+						"right": "q.block_state('medieval:side') == 1",
+						"left": "q.block_state('medieval:side') == 2",
+						"middle": "q.block_state('medieval:side') == 3"
+					}
+				},
+				"minecraft:placement_filter": {"conditions": [
+					{
+						"allowed_faces": ["south"],
+						"block_filter": [{"name": "medieval:bed_0_yellow_visual","states": {"minecraft:cardinal_direction": "north", "mc:block_parts": 0}}]
+					},
+					{
+						"allowed_faces": ["north"],
+						"block_filter": [{"name": "medieval:bed_0_yellow_visual","states": {"minecraft:cardinal_direction": "south", "mc:block_parts": 0}}]
+					},
+					{
+						"allowed_faces": ["east"],
+						"block_filter": [{"name": "medieval:bed_0_yellow_visual","states": {"minecraft:cardinal_direction": "west", "mc:block_parts": 0}}]
+					},
+					{
+						"allowed_faces": ["west"],
+						"block_filter": [{"name": "medieval:bed_0_yellow_visual","states": {"minecraft:cardinal_direction": "east", "mc:block_parts": 0}}]
+					}
+				]}
+			} }
+		],
+		"components": {
+			"minecraft:display_name": "mc.unobtainable_block.name",
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:material_instances": {
+				"*": { "texture": "mf:stripped_oak","render_method": "alpha_test" },
+				"bed": { "texture": "mf:yellow_bed","render_method": "alpha_test" },
+				"planks": { "texture": "mf:oak_planks","render_method": "alpha_test" }
+			},
+			"minecraft:collision_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 8, 16 ] },
+			"minecraft:selection_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 8, 16 ] },
+			"minecraft:light_dampening": 0,
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 20 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.8 },
+			"minecraft:custom_components": [ "mf:break_big_block", "mf:update_bed" ],
+			"minecraft:map_color": "#fff019"
+		}
+	}
+}

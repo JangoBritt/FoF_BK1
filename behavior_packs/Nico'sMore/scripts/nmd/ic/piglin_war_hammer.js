@@ -35,21 +35,21 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
       else return;
     }
   });
-  initEvent.itemComponentRegistry.registerCustomComponent("nicothekid:piglin_war_hammer_on_mine_block", {
-    onMineBlock: eventData => {
-      const player = eventData.source;
-      const itemUsed = eventData.itemStack;
-      const block = eventData.block;
-      const blockPermutation = eventData.minedBlockPermutation;
-      const playerEquippable = player.getComponent("equippable");
+  // initEvent.itemComponentRegistry.registerCustomComponent("nicothekid:piglin_war_hammer_on_mine_block", {
+  //   onMineBlock: eventData => {
+  //     const player = eventData.source;
+  //     const itemUsed = eventData.itemStack;
+  //     const block = eventData.block;
+  //     const blockPermutation = eventData.minedBlockPermutation;
+  //     const playerEquippable = player.getComponent("equippable");
       
-      if (itemUsed.typeId === "nicothekid:piglin_war_hammer") {
-        if (!instantDiggableBlocks.includes(blockPermutation.type.id) && !blockPermutation.hasTag("nicothekid:instant_diggable")) {
-          damageItemDurability(player, itemUsed, 1, "Mainhand");
-        }
-        else return;
-      }
-      else return;
-    }
-  });
+  //     if (itemUsed.typeId === "nicothekid:piglin_war_hammer") {
+  //       if (!instantDiggableBlocks.includes(blockPermutation.type.id) && !blockPermutation.hasTag("nicothekid:instant_diggable")) {
+  //         damageItemDurability(player, itemUsed, 1, "Mainhand");
+  //       }
+  //       else return;
+  //     }
+  //     else return;
+  //   }
+  // });
 });

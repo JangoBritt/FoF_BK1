@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:bamboo_table_1"
+		},
+		"tags": [
+			"medieval:workbench"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"A A"
+		],
+		"key": {
+			"A": { "item": "medieval:stripped_bamboo_post" },
+			"B": { "item": "medieval:stripped_bamboo_mslab" },
+			"C": { "item": "medieval:stripped_bamboo_mslab" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:bamboo_table_1",
+			"count": 1
+		}
+	}
+}

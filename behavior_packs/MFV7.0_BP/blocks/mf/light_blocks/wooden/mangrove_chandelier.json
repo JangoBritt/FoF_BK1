@@ -1,0 +1,38 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:mangrove_chandelier",
+			"menu_category": {
+				"category": "items",
+				"group": "medFur:woodenChandelier"
+			}
+		},
+		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:geometry": "geometry.mf.wooden_chandelier",
+			"minecraft:material_instances": {
+				"*": { "texture": "mf:mangrove_wooden_chandelier", "render_method": "alpha_test", "ambient_occlusion": false },
+				"candle": { "texture": "mf:candle_normal","render_method": "alpha_test", "ambient_occlusion": false },
+				"fire_candle": {"texture": "mf:fire_candle","render_method": "alpha_test","ambient_occlusion": false, "face_dimming": false }
+			},
+			"minecraft:placement_filter": { "conditions": [ { "allowed_faces": [ "down" ] } ] },
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "no_reaction"
+			} ] },
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 5 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 4.0 },
+			"minecraft:map_color": "#a6324f"
+		}
+	}
+}

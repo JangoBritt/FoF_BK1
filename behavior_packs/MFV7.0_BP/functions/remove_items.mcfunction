@@ -1,0 +1,1 @@
+kill @e[type=item,name=§f§b§runobtainable_block]

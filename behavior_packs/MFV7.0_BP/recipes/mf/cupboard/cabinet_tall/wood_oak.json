@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:oak_wood_cabinet_tall"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"###",
+			"P P",
+			"PPP"
+		],
+		"key": {
+			"#": { "item": "minecraft:oak_log" },
+			"P": { "item": "minecraft:oak_planks" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:oak_wood_cabinet_tall",
+			"count": 1
+		}
+	}
+}

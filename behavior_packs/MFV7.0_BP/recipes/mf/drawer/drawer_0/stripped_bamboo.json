@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:bamboo_drawer0"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"BBB",
+			"#C#",
+			"###"
+		],
+		"key": {
+			"#": { "item": "minecraft:bamboo_planks" },
+			"B": { "item": "medieval:stripped_bamboo_mslab" },
+			"C": { "item": "minecraft:paper" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:bamboo_drawer0",
+			"count": 1
+		}
+	}
+}

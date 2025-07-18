@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:smooth_quartz_beam_up"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:smooth_quartz" } ],
+		"unlock": [ { "item": "minecraft:smooth_quartz" } ],
+		"result": {
+			"item": "medieval:smooth_quartz_beam_up",
+			"count": 16
+		}
+	}
+}

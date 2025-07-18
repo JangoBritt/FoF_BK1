@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:jungle_planks_table"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:jungle_planks" } ],
+		"unlock": [ { "item": "minecraft:jungle_planks" } ],
+		"result": {
+			"item": "medieval:jungle_planks_table",
+			"count": 1
+		}
+	}
+}

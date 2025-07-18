@@ -5,8 +5,8 @@
       "identifier": "fables_misc:brew_x_ravager_milk_mug"
     },
     "tags": [ "brewing_stand" ],
-    "input": "medieval:beer_mug_empty_item",
+    "input": "medieval:beer_mug_empty",
     "reagent": "fables_misc:ravager_milk_bucket",
-    "output": "fables_misc:ravager_milk_mug_item"
+    "output": "fables_misc:ravager_milk_mug"
   }
 }

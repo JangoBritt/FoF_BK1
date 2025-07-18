@@ -132,6 +132,7 @@
         "tags": [
           "minecraft:is_sword",
           "farmersdelight:is_knife",
+          "farmersdelight:is_tool",
           "farmersdelight:straw_harvesters"
         ]
       }

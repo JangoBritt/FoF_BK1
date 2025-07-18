@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:big_barrel_jungle",
+			"menu_category": {
+				"category": "construction",
+				"group": "medFur:bigBarrel"
+			},
+			"traits": {
+				"minecraft:placement_direction": { "enabled_states": [ "minecraft:cardinal_direction" ], "y_rotation_offset": 180 }
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.mf.large_barrel_item",
+			"minecraft:item_visual": {
+				"geometry": "geometry.mf.large_barrel_item",
+				"material_instances": { "*": { "texture": "mf:large_barrel_jungle", "render_method": "alpha_test_single_sided" } }
+			},
+			"minecraft:material_instances": { "*": { "texture": "mf:empty", "render_method": "alpha_test" } },
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "blocking"
+			} ] },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 0.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.0 },
+			"minecraft:custom_components": [ "mf:place_2x2x2_block" ],
+			"minecraft:map_color": "#d6bc94"
+		}
+	}
+}

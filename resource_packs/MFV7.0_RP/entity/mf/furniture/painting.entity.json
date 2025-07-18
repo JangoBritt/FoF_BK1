@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:painting",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/painting/kz"
+			}, 
+			"geometry": {
+				"default":"geometry.mf.easel_painting"
+			},
+			"render_controllers": [
+				"controller.render.mf.painting"
+			]
+		}
+	}
+}

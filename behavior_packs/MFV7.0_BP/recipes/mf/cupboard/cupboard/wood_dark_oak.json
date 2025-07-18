@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:darkoak_wood_cupboard"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"BBB",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": { "item": "minecraft:dark_oak_planks" },
+			"B": { "item": "medieval:darkoak_wood_mslab" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:darkoak_wood_cupboard",
+			"count": 1
+		}
+	}
+}

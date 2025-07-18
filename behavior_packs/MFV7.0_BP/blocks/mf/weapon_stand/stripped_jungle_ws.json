@@ -1,0 +1,52 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stripped_jungle_weapon_stand_side",
+			"menu_category": {
+				"category": "none",
+				"is_hidden_in_commands": true
+			},
+			"traits": {
+				"minecraft:placement_direction": { "enabled_states": [ "minecraft:cardinal_direction" ], "y_rotation_offset": 180 }
+			}
+		},
+		"permutations": [
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 0,0 ] } } },
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 180,0 ] } } },
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 90,0 ] } } },
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, -90,0 ] } } }
+		],
+		"components": {
+			"tag:mf:weapon_stand_side": {},
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:geometry": "geometry.mf.weapon_stand_right",
+			"minecraft:material_instances": { "*": { "texture": "mf:stripped_jungle", "render_method": "opaque" }, "planks": { "texture": "mf:jungle_planks", "render_method": "opaque" } },
+			"minecraft:collision_box": { "origin": [-8, 0, -5], "size": [16, 16, 13] },
+			"minecraft:selection_box": { "origin": [-8, 0, -5], "size": [16, 16, 13] },
+			"minecraft:placement_filter": { "conditions": [
+				{ "allowed_faces": [ "west" ], "block_filter": [ { "name": "medieval:stripped_jungle_weapon_stand", "states": { "minecraft:cardinal_direction": "north" } } ] },
+				{ "allowed_faces": [ "east" ], "block_filter": [ { "name": "medieval:stripped_jungle_weapon_stand", "states": { "minecraft:cardinal_direction": "south" } } ] },
+				{ "allowed_faces": [ "south" ], "block_filter": [ { "name": "medieval:stripped_jungle_weapon_stand", "states": { "minecraft:cardinal_direction": "west" } } ] },
+				{ "allowed_faces": [ "north" ], "block_filter": [ { "name": "medieval:stripped_jungle_weapon_stand", "states": { "minecraft:cardinal_direction": "east" } } ] }
+			] },
+			"minecraft:light_dampening": 0,
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:display_name": "mc.unobtainable_block.name",
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "blocking"
+			} ] },
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 5 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 3.0 },
+			"minecraft:custom_components": [ "mf:wepapon_stand_i" ],
+			"minecraft:map_color": "#d6bc94"
+		}
+	}
+}

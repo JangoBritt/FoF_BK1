@@ -1,0 +1,39 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:bed_0_cyan",
+			"menu_category": {
+				"category": "construction",
+				"group": "medFur:beds"
+			},
+			"traits": {
+				"minecraft:placement_direction": { "enabled_states": [ "minecraft:cardinal_direction" ], "y_rotation_offset": 180 }
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.mf.bed_0_item",
+			"minecraft:item_visual": { 
+				"geometry": "geometry.mf.bed_0_item",
+				"material_instances": {
+					"*": { "texture": "mf:stripped_oak","render_method": "alpha_test" },
+					"bed": { "texture": "mf:cyan_bed","render_method": "alpha_test" },
+					"planks": { "texture": "mf:oak_planks","render_method": "alpha_test" }
+				}
+			},
+			"minecraft:material_instances": { "*": { "texture": "mf:empty", "render_method": "alpha_test" } },
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "blocking"
+			} ] },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0 },
+			"minecraft:custom_components": [ "mf:place_1x1x2_block" ],
+			"minecraft:map_color": "#1e8296"
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:spruce_barrel"
+		},
+		"tags": [
+			"medieval:workbench"
+		],
+		"pattern": [
+			"#A#",
+			"#C#",
+			"#A#"
+		],
+		"key": {
+			"#": { "item": "minecraft:spruce_planks" },
+			"A": { "item": "minecraft:spruce_slab" },
+			"C": { "item": "minecraft:frame" }
+		},
+		"unlock": [
+			{ "item": "medieval:workbench" }
+		],
+		"result": {
+			"item": "medieval:spruce_barrel",
+			"count": 1
+		}
+	}
+}

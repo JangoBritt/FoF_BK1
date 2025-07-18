@@ -1,0 +1,197 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:drawer_0_entity",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false,
+			"properties": {
+				"mf:container_control": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"mf:item": {
+					"type": "int",
+					"client_sync": true,
+					"default": 0,
+					"range": [ 0, 4 ]
+				}
+			}
+		},
+		"component_groups": {
+			"mf:despawn": { "minecraft:instant_despawn": {} },
+			"mf:oak_wood_drawer0": { "minecraft:variant": { "value": 0 } },
+	 		"mf:oak_drawer0": { "minecraft:variant": { "value": 1 } },
+			"mf:spruce_wood_drawer0": { "minecraft:variant": { "value": 2 } },
+			"mf:spruce_drawer0": { "minecraft:variant": { "value": 3 } },
+			"mf:birch_wood_drawer0": { "minecraft:variant": { "value": 4 } },
+			"mf:birch_drawer0": { "minecraft:variant": { "value": 5 } },
+			"mf:jungle_wood_drawer0": { "minecraft:variant": { "value": 6 } },
+			"mf:jungle_drawer0": { "minecraft:variant": { "value": 7 } },
+			"mf:acacia_wood_drawer0": { "minecraft:variant": { "value": 8 } },
+			"mf:acacia_drawer0": { "minecraft:variant": { "value": 9 } },
+			"mf:darkoak_wood_drawer0": { "minecraft:variant": { "value": 10 } },
+			"mf:darkoak_drawer0": { "minecraft:variant": { "value": 11 } },
+			"mf:mangrove_wood_drawer0": { "minecraft:variant": { "value": 12 } },
+			"mf:mangrove_drawer0": { "minecraft:variant": { "value": 13 } },
+			"mf:cherry_wood_drawer0": { "minecraft:variant": { "value": 14 } },
+			"mf:cherry_drawer0": { "minecraft:variant": { "value": 15 } },
+			"mf:pale_oak_wood_drawer0": { "minecraft:variant": { "value": 16 } },
+			"mf:pale_oak_drawer0": { "minecraft:variant": { "value": 17 } },
+			"mf:bamboo_drawer0": { "minecraft:variant": { "value": 18 } },
+			"mf:crimson_wood_drawer0": { "minecraft:variant": { "value": 19 } },
+			"mf:crimson_drawer0": { "minecraft:variant": { "value": 20 } },
+			"mf:warped_wood_drawer0": { "minecraft:variant": { "value": 21 } },
+			"mf:warped_drawer0": { "minecraft:variant": { "value": 22 } },
+			"mf:closed": {
+				"minecraft:entity_sensor": { "subsensors": [ {
+					"range": [ 7, 7 ],
+					"event_filters": {
+						"all_of": [
+							{ "test": "is_family", "subject": "other", "value": "player" },
+							{ "test": "has_container_open", "subject": "other", "value": true }
+						]
+					},
+					"event": "mf:open"
+				} ] }
+			},
+			"mf:open": {
+				"minecraft:entity_sensor": { "subsensors": [ {
+					"range": [ 7, 7 ],
+					"event_filters": {
+						"all_of": [
+							{ "test": "is_family", "subject": "other", "value": "player" },
+							{ "test": "has_container_open", "subject": "other", "value": false }
+						]
+					},
+					"event": "mf:close"
+				} ] }
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.1,
+				"height": 0.1
+			},
+			"minecraft:type_family": { "family": [ "inanimate", "medieval_container", "medieval_return_inv" ] },
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 1,
+						"height": 0.3,
+						"pivot": [0, -0.05, 0]
+					}
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": "no"
+					}
+				]
+			},
+			"minecraft:health": {
+				"min": 1,
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:inventory": {
+				"container_type": "minecart_chest",
+				"can_be_siphoned_from": true,
+				"inventory_size": 27
+			},
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:inside_block_notifier": { "block_list": [
+				{ "block": { "name": "minecraft:air" }, "entered_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:oak_wood_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:oak_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:spruce_wood_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:spruce_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:birch_wood_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:birch_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:jungle_wood_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:jungle_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:acacia_wood_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:acacia_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:darkoak_wood_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:darkoak_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:mangrove_wood_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:mangrove_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:cherry_wood_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:cherry_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:pale_oak_wood_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:pale_oak_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:bamboo_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:crimson_wood_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:crimson_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:warped_wood_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:warped_drawer0" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } }
+			] },
+			"minecraft:knockback_resistance": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:persistent": {},
+			"minecraft:fire_immune": {},
+			"minecraft:renders_when_invisible": {},
+			"minecraft:body_rotation_blocked": {},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"queue_command": { "command": [ "effect @s invisibility infinite 0 true" ] },
+				"add": { "component_groups": [ "mf:closed" ] },
+				"set_property": { "mf:item": "math.random(0, 4)" }
+			},
+			"mf:despawn": { "queue_command": { "command": ["scriptevent medieval:drop_inventory"] } },
+			"mf:open": {
+				"set_property": { "mf:container_control": true },
+				"add": { "component_groups": [ "mf:open" ] },
+				"remove": { "component_groups": [ "mf:closed" ] }
+			},
+			"mf:close": {
+				"set_property": { "mf:container_control": false },
+				"add": { "component_groups": [ "mf:closed" ] },
+				"remove": { "component_groups": [ "mf:open" ] }
+			},
+			"medieval:oak_wood_drawer0": { "add": { "component_groups": [ "mf:oak_wood_drawer0" ] } },
+			"medieval:oak_drawer0": { "add": { "component_groups": [ "mf:oak_drawer0" ] } },
+			"medieval:spruce_wood_drawer0": { "add": { "component_groups": [ "mf:spruce_wood_drawer0" ] } },
+			"medieval:spruce_drawer0": { "add": { "component_groups": [ "mf:spruce_drawer0" ] } },
+			"medieval:birch_wood_drawer0": { "add": { "component_groups": [ "mf:birch_wood_drawer0" ] } },
+			"medieval:birch_drawer0": { "add": { "component_groups": [ "mf:birch_drawer0" ] } },
+			"medieval:jungle_wood_drawer0": { "add": { "component_groups": [ "mf:jungle_wood_drawer0" ] } },
+			"medieval:jungle_drawer0": { "add": { "component_groups": [ "mf:jungle_drawer0" ] } },
+			"medieval:acacia_wood_drawer0": { "add": { "component_groups": [ "mf:acacia_wood_drawer0" ] } },
+			"medieval:acacia_drawer0": { "add": { "component_groups": [ "mf:acacia_drawer0" ] } },
+			"medieval:darkoak_wood_drawer0": { "add": { "component_groups": [ "mf:darkoak_wood_drawer0" ] } },
+			"medieval:darkoak_drawer0": { "add": { "component_groups": [ "mf:darkoak_drawer0" ] } },
+			"medieval:mangrove_wood_drawer0": { "add": { "component_groups": [ "mf:mangrove_wood_drawer0" ] } },
+			"medieval:mangrove_drawer0": { "add": { "component_groups": [ "mf:mangrove_drawer0" ] } },
+			"medieval:cherry_wood_drawer0": { "add": { "component_groups": [ "mf:cherry_wood_drawer0" ] } },
+			"medieval:cherry_drawer0": { "add": { "component_groups": [ "mf:cherry_drawer0" ] } },
+			"medieval:pale_oak_wood_drawer0": { "add": { "component_groups": [ "mf:pale_oak_wood_drawer0" ] } },
+			"medieval:pale_oak_drawer0": { "add": { "component_groups": [ "mf:pale_oak_drawer0" ] } },
+			"medieval:bamboo_drawer0": { "add": { "component_groups": [ "mf:bamboo_drawer0" ] } },
+			"medieval:crimson_wood_drawer0": { "add": { "component_groups": [ "mf:crimson_wood_drawer0" ] } },
+			"medieval:crimson_drawer0": { "add": { "component_groups": [ "mf:crimson_drawer0" ] } },
+			"medieval:warped_wood_drawer0": { "add": { "component_groups": [ "mf:warped_wood_drawer0" ] } },
+			"medieval:warped_drawer0": { "add": { "component_groups": [ "mf:warped_drawer0" ] } }
+		}
+	}
+}

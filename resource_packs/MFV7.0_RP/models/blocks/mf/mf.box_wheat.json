@@ -1,0 +1,1393 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mf.box_wheat",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "wheat3",
+					"parent": "block",
+					"pivot": [-3.57333, 10.01889, 2.89778],
+					"rotation": [-108.8391, 12.2145, -167.2581],
+					"cubes": [
+						{
+							"origin": [-6.28666, 5.35, 0.35556],
+							"size": [5.28, 4.4, 5.28],
+							"uv": {
+								"north": {"uv": [3, 0], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"east": {"uv": [3, 2.5], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"south": {"uv": [3, 5], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"west": {"uv": [0, 6], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"up": {"uv": [0, 0], "uv_size": [3, 3], "material_instance": "wheat"},
+								"down": {"uv": [0, 6], "uv_size": [3, -3], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-4.96666, 1.83, 1.67556],
+							"size": [2.64, 3.52, 2.64],
+							"uv": {
+								"north": {"uv": [6, 0], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"east": {"uv": [6, 2], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"south": {"uv": [6, 4], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"west": {"uv": [6, 6], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"down": {"uv": [7.5, 1.5], "uv_size": [1.5, -1.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 9.75, 3.87556],
+							"size": [0.88, 0.88, 1.76],
+							"uv": {
+								"north": {"uv": [6.5, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [7.5, 6], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [7, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [7.5, 6.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 7], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 9.75, 0.35556],
+							"size": [0.88, 0.88, 2.64],
+							"uv": {
+								"north": {"uv": [8, 7], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [3, 7.5], "uv_size": [1.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [7.5, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [4.5, 7.5], "uv_size": [1.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 4.5], "uv_size": [0.5, 1.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 10.63, 1.23556],
+							"size": [0.88, 0.88, 0.88],
+							"uv": {
+								"north": {"uv": [8, 7.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [0, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [0.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [1, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 10.63, 4.75556],
+							"size": [0.88, 0.88, 0.88],
+							"uv": {
+								"north": {"uv": [1.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [2, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [2.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [3, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8.5, 3], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 9.75, 1.23556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [-3.64666, -6.97, 2.99556],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"east": {"uv": [3.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 3.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [4, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [4.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 9.75, 2.99556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [-3.64666, -6.97, 2.99556],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [8.5, 4.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8, 2.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [3, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8, 3], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 10.63, 3.87556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [-3.64666, -6.97, 2.99556],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8.5, 5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [5.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8.5, 6], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [6.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 9.75, 1.23556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [-3.64666, -6.97, 2.99556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"east": {"uv": [4, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 6.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8, 4], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8, 4.5], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 9.75, 3.87556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [-3.64666, -6.97, 2.99556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [7, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [5, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 7], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8, 5.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [6, 8], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-4.52666, 9.75, 2.99556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [-3.64666, -6.97, 2.99556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [7, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [5, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 7], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8, 5.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [6, 8], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 10.63, 4.75556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [-3.64666, -6.97, 2.99556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [7.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8.5, 7.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8.5, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 10.63, 2.99556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [-3.64666, -6.97, 2.99556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [0, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [9, 0], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [0.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [9, 0.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [1, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 9.75, 2.11556],
+							"size": [0.88, 0.88, 3.52],
+							"pivot": [-3.64666, -6.97, 2.99556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [9, 1], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [7.5, 1.5], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [1.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [7.5, 2], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 2.5], "uv_size": [0.5, 2], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-4.52666, 9.75, 1.23556],
+							"size": [0.88, 0.88, 3.52],
+							"pivot": [-3.64666, -6.97, 2.99556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [9, 1], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [7.5, 1.5], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [7.5, 2], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 2.5], "uv_size": [0.5, 2], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-4.52666, 10.63, 2.99556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [-3.64666, -6.97, 2.99556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [0, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [9, 0], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [0.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [9, 0.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [1, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-6.28666, 10.63, 4.75556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [-3.64666, -6.97, 2.99556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [2, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [2.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [9, 2.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [3, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [9, 3], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						}
+					]
+				},
+				{
+					"name": "wheat2",
+					"parent": "block",
+					"pivot": [3.22667, 3.81889, 2.79778],
+					"rotation": [-102.4885, -0.5409, -92.4408],
+					"cubes": [
+						{
+							"origin": [0.51334, -0.85, 0.25556],
+							"size": [5.28, 4.4, 5.28],
+							"uv": {
+								"north": {"uv": [3, 0], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"east": {"uv": [3, 2.5], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"south": {"uv": [3, 5], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"west": {"uv": [0, 6], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"up": {"uv": [0, 0], "uv_size": [3, 3], "material_instance": "wheat"},
+								"down": {"uv": [0, 6], "uv_size": [3, -3], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [1.83334, -4.37, 1.57556],
+							"size": [2.64, 3.52, 2.64],
+							"uv": {
+								"north": {"uv": [6, 0], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"east": {"uv": [6, 2], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"south": {"uv": [6, 4], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"west": {"uv": [6, 6], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"down": {"uv": [7.5, 1.5], "uv_size": [1.5, -1.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 3.55, 3.77556],
+							"size": [0.88, 0.88, 1.76],
+							"uv": {
+								"north": {"uv": [6.5, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [7.5, 6], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [7, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [7.5, 6.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 7], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 3.55, 0.25556],
+							"size": [0.88, 0.88, 2.64],
+							"uv": {
+								"north": {"uv": [8, 7], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [3, 7.5], "uv_size": [1.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [7.5, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [4.5, 7.5], "uv_size": [1.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 4.5], "uv_size": [0.5, 1.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 4.43, 1.13556],
+							"size": [0.88, 0.88, 0.88],
+							"uv": {
+								"north": {"uv": [8, 7.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [0, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [0.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [1, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 4.43, 4.65556],
+							"size": [0.88, 0.88, 0.88],
+							"uv": {
+								"north": {"uv": [1.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [2, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [2.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [3, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8.5, 3], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 3.55, 1.13556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [3.15334, -13.17, 2.89556],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"east": {"uv": [3.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 3.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [4, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [4.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 3.55, 2.89556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [3.15334, -13.17, 2.89556],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [8.5, 4.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8, 2.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [3, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8, 3], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 4.43, 3.77556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [3.15334, -13.17, 2.89556],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8.5, 5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [5.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8.5, 6], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [6.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 3.55, 1.13556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [3.15334, -13.17, 2.89556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"east": {"uv": [4, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 6.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8, 4], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8, 4.5], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 3.55, 3.77556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [3.15334, -13.17, 2.89556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [7, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [5, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 7], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8, 5.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [6, 8], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [2.27334, 3.55, 2.89556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [3.15334, -13.17, 2.89556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [7, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [5, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 7], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8, 5.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [6, 8], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 4.43, 4.65556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [3.15334, -13.17, 2.89556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [7.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8.5, 7.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8.5, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 4.43, 2.89556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [3.15334, -13.17, 2.89556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [0, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [9, 0], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [0.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [9, 0.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [1, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 3.55, 2.01556],
+							"size": [0.88, 0.88, 3.52],
+							"pivot": [3.15334, -13.17, 2.89556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [9, 1], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [7.5, 1.5], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [1.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [7.5, 2], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 2.5], "uv_size": [0.5, 2], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [2.27334, 3.55, 1.13556],
+							"size": [0.88, 0.88, 3.52],
+							"pivot": [3.15334, -13.17, 2.89556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [9, 1], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [7.5, 1.5], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [7.5, 2], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 2.5], "uv_size": [0.5, 2], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [2.27334, 4.43, 2.89556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [3.15334, -13.17, 2.89556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [0, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [9, 0], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [0.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [9, 0.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [1, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.51334, 4.43, 4.65556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [3.15334, -13.17, 2.89556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [2, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [2.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [9, 2.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [3, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [9, 3], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						}
+					]
+				},
+				{
+					"name": "wheat",
+					"parent": "block",
+					"pivot": [-3.17333, 3.81889, 2.79778],
+					"rotation": [-90.1091, 2.4976, 174.9976],
+					"cubes": [
+						{
+							"origin": [-5.88666, -0.85, 0.25556],
+							"size": [5.28, 4.4, 5.28],
+							"uv": {
+								"north": {"uv": [3, 0], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"east": {"uv": [3, 2.5], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"south": {"uv": [3, 5], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"west": {"uv": [0, 6], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"up": {"uv": [0, 0], "uv_size": [3, 3], "material_instance": "wheat"},
+								"down": {"uv": [0, 6], "uv_size": [3, -3], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-4.56666, -4.37, 1.57556],
+							"size": [2.64, 3.52, 2.64],
+							"uv": {
+								"north": {"uv": [6, 0], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"east": {"uv": [6, 2], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"south": {"uv": [6, 4], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"west": {"uv": [6, 6], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"down": {"uv": [7.5, 1.5], "uv_size": [1.5, -1.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 3.55, 3.77556],
+							"size": [0.88, 0.88, 1.76],
+							"uv": {
+								"north": {"uv": [6.5, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [7.5, 6], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [7, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [7.5, 6.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 7], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 3.55, 0.25556],
+							"size": [0.88, 0.88, 2.64],
+							"uv": {
+								"north": {"uv": [8, 7], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [3, 7.5], "uv_size": [1.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [7.5, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [4.5, 7.5], "uv_size": [1.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 4.5], "uv_size": [0.5, 1.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 4.43, 1.13556],
+							"size": [0.88, 0.88, 0.88],
+							"uv": {
+								"north": {"uv": [8, 7.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [0, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [0.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [1, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 4.43, 4.65556],
+							"size": [0.88, 0.88, 0.88],
+							"uv": {
+								"north": {"uv": [1.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [2, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [2.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [3, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8.5, 3], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 3.55, 1.13556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [-3.24666, -13.17, 2.89556],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"east": {"uv": [3.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 3.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [4, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [4.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 3.55, 2.89556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [-3.24666, -13.17, 2.89556],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [8.5, 4.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8, 2.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [3, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8, 3], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 4.43, 3.77556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [-3.24666, -13.17, 2.89556],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8.5, 5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [5.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8.5, 6], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [6.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 3.55, 1.13556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [-3.24666, -13.17, 2.89556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"east": {"uv": [4, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 6.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8, 4], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8, 4.5], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 3.55, 3.77556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [-3.24666, -13.17, 2.89556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [7, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [5, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 7], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8, 5.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [6, 8], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-4.12666, 3.55, 2.89556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [-3.24666, -13.17, 2.89556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [7, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [5, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 7], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8, 5.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [6, 8], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 4.43, 4.65556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [-3.24666, -13.17, 2.89556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [7.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8.5, 7.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8.5, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 4.43, 2.89556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [-3.24666, -13.17, 2.89556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [0, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [9, 0], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [0.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [9, 0.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [1, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 3.55, 2.01556],
+							"size": [0.88, 0.88, 3.52],
+							"pivot": [-3.24666, -13.17, 2.89556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [9, 1], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [7.5, 1.5], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [1.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [7.5, 2], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 2.5], "uv_size": [0.5, 2], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-4.12666, 3.55, 1.13556],
+							"size": [0.88, 0.88, 3.52],
+							"pivot": [-3.24666, -13.17, 2.89556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [9, 1], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [7.5, 1.5], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [7.5, 2], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 2.5], "uv_size": [0.5, 2], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-4.12666, 4.43, 2.89556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [-3.24666, -13.17, 2.89556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [0, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [9, 0], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [0.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [9, 0.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [1, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [-5.88666, 4.43, 4.65556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [-3.24666, -13.17, 2.89556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [2, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [2.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [9, 2.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [3, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [9, 3], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						}
+					]
+				},
+				{
+					"name": "wheat4",
+					"parent": "block",
+					"pivot": [3.12667, 10.01889, 2.89778],
+					"rotation": [-86.3985, -28.8813, 101.6199],
+					"cubes": [
+						{
+							"origin": [0.41334, 5.35, 0.35556],
+							"size": [5.28, 4.4, 5.28],
+							"uv": {
+								"north": {"uv": [3, 0], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"east": {"uv": [3, 2.5], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"south": {"uv": [3, 5], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"west": {"uv": [0, 6], "uv_size": [3, 2.5], "material_instance": "wheat"},
+								"up": {"uv": [0, 0], "uv_size": [3, 3], "material_instance": "wheat"},
+								"down": {"uv": [0, 6], "uv_size": [3, -3], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [1.73334, 1.83, 1.67556],
+							"size": [2.64, 3.52, 2.64],
+							"uv": {
+								"north": {"uv": [6, 0], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"east": {"uv": [6, 2], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"south": {"uv": [6, 4], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"west": {"uv": [6, 6], "uv_size": [1.5, 2], "material_instance": "wheat"},
+								"down": {"uv": [7.5, 1.5], "uv_size": [1.5, -1.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 9.75, 3.87556],
+							"size": [0.88, 0.88, 1.76],
+							"uv": {
+								"north": {"uv": [6.5, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [7.5, 6], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [7, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [7.5, 6.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 7], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 9.75, 0.35556],
+							"size": [0.88, 0.88, 2.64],
+							"uv": {
+								"north": {"uv": [8, 7], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [3, 7.5], "uv_size": [1.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [7.5, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [4.5, 7.5], "uv_size": [1.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 4.5], "uv_size": [0.5, 1.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 10.63, 1.23556],
+							"size": [0.88, 0.88, 0.88],
+							"uv": {
+								"north": {"uv": [8, 7.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [0, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [0.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [1, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 10.63, 4.75556],
+							"size": [0.88, 0.88, 0.88],
+							"uv": {
+								"north": {"uv": [1.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [2, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [2.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [3, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8.5, 3], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 9.75, 1.23556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [3.05334, -6.97, 2.99556],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"east": {"uv": [3.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 3.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [4, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [4.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 9.75, 2.99556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [3.05334, -6.97, 2.99556],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [8.5, 4.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8, 2.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [3, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8, 3], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 10.63, 3.87556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [3.05334, -6.97, 2.99556],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8.5, 5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [5.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8.5, 6], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [6.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 9.75, 1.23556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [3.05334, -6.97, 2.99556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"east": {"uv": [4, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 6.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8, 4], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8, 4.5], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 9.75, 3.87556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [3.05334, -6.97, 2.99556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [7, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [5, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 7], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8, 5.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [6, 8], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [2.17334, 9.75, 2.99556],
+							"size": [0.88, 0.88, 1.76],
+							"pivot": [3.05334, -6.97, 2.99556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [7, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [5, 8], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8.5, 7], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8, 5.5], "uv_size": [1, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [6, 8], "uv_size": [0.5, 1], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 10.63, 4.75556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [3.05334, -6.97, 2.99556],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [7.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [8.5, 7.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [8, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [8.5, 8], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [8.5, 8.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 10.63, 2.99556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [3.05334, -6.97, 2.99556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [0, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [9, 0], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [0.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [9, 0.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [1, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 9.75, 2.11556],
+							"size": [0.88, 0.88, 3.52],
+							"pivot": [3.05334, -6.97, 2.99556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [9, 1], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [7.5, 1.5], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [1.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [7.5, 2], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 2.5], "uv_size": [0.5, 2], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [2.17334, 9.75, 1.23556],
+							"size": [0.88, 0.88, 3.52],
+							"pivot": [3.05334, -6.97, 2.99556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [9, 1], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [7.5, 1.5], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [7.5, 2], "uv_size": [2, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [7.5, 2.5], "uv_size": [0.5, 2], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [2.17334, 10.63, 2.99556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [3.05334, -6.97, 2.99556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [0, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [9, 0], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [0.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [9, 0.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [1, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						},
+						{
+							"origin": [0.41334, 10.63, 4.75556],
+							"size": [0.88, 0.88, 0.88],
+							"pivot": [3.05334, -6.97, 2.99556],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [2, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"east": {"uv": [2.5, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"south": {"uv": [9, 2.5], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"west": {"uv": [3, 9], "uv_size": [0.5, 0.5], "material_instance": "wheat"},
+								"up": {"uv": [9, 3], "uv_size": [0.5, 0.5], "material_instance": "wheat"}
+							}
+						}
+					]
+				},
+				{
+					"name": "box_bot",
+					"parent": "block",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 1, 16],
+							"uv": {
+								"north": {"uv": [0, 15], "uv_size": [16, 1]},
+								"east": {"uv": [0, 15], "uv_size": [16, 1]},
+								"south": {"uv": [0, 15], "uv_size": [16, 1]},
+								"west": {"uv": [0, 15], "uv_size": [16, 1]},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16]},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16]}
+							}
+						},
+						{
+							"origin": [5, 1, 5],
+							"size": [3, 12, 3],
+							"uv": {
+								"north": {"uv": [13, 3], "uv_size": [3, 12]},
+								"east": {"uv": [0, 3], "uv_size": [3, 12]},
+								"south": {"uv": [0, 3], "uv_size": [3, 12]},
+								"west": {"uv": [13, 3], "uv_size": [3, 12]},
+								"up": {"uv": [3, 16], "uv_size": [-3, -3]}
+							}
+						},
+						{
+							"origin": [6, 1, 2],
+							"size": [1, 8, 2],
+							"uv": {
+								"north": {"uv": [14, 7], "uv_size": [1, 8]},
+								"east": {"uv": [4, 7], "uv_size": [2, 8]},
+								"south": {"uv": [1, 7], "uv_size": [1, 8]},
+								"west": {"uv": [10, 7], "uv_size": [2, 8]}
+							}
+						},
+						{
+							"origin": [2, 1, 6],
+							"size": [2, 8, 1],
+							"uv": {
+								"north": {"uv": [10, 7], "uv_size": [2, 8]},
+								"east": {"uv": [1, 7], "uv_size": [1, 8]},
+								"south": {"uv": [4, 7], "uv_size": [2, 8]},
+								"west": {"uv": [14, 7], "uv_size": [1, 8]}
+							}
+						},
+						{
+							"origin": [6, 1, -1],
+							"size": [1, 8, 2],
+							"uv": {
+								"north": {"uv": [14, 7], "uv_size": [1, 8]},
+								"east": {"uv": [7, 7], "uv_size": [2, 8]},
+								"south": {"uv": [1, 7], "uv_size": [1, 8]},
+								"west": {"uv": [7, 7], "uv_size": [2, 8]}
+							}
+						},
+						{
+							"origin": [-1, 1, 6],
+							"size": [2, 8, 1],
+							"uv": {
+								"north": {"uv": [7, 7], "uv_size": [2, 8]},
+								"east": {"uv": [1, 7], "uv_size": [1, 8]},
+								"south": {"uv": [7, 7], "uv_size": [2, 8]},
+								"west": {"uv": [14, 7], "uv_size": [1, 8]}
+							}
+						},
+						{
+							"origin": [-4, 1, 6],
+							"size": [2, 8, 1],
+							"uv": {
+								"north": {"uv": [4, 7], "uv_size": [2, 8]},
+								"east": {"uv": [1, 7], "uv_size": [1, 8]},
+								"south": {"uv": [10, 7], "uv_size": [2, 8]},
+								"west": {"uv": [14, 7], "uv_size": [1, 8]}
+							}
+						},
+						{
+							"origin": [6, 1, -4],
+							"size": [1, 8, 2],
+							"uv": {
+								"north": {"uv": [14, 7], "uv_size": [1, 8]},
+								"east": {"uv": [10, 7], "uv_size": [2, 8]},
+								"south": {"uv": [1, 7], "uv_size": [1, 8]},
+								"west": {"uv": [4, 7], "uv_size": [2, 8]}
+							}
+						},
+						{
+							"origin": [6, 9, -5],
+							"size": [2, 2, 10],
+							"uv": {
+								"east": {"uv": [3, 5], "uv_size": [10, 2]},
+								"west": {"uv": [3, 5], "uv_size": [10, 2]},
+								"up": {"uv": [2, 13], "uv_size": [-2, -10]},
+								"down": {"uv": [2, 13], "uv_size": [-2, -10]}
+							}
+						},
+						{
+							"origin": [-5, 9, 6],
+							"size": [10, 2, 2],
+							"uv": {
+								"north": {"uv": [3, 5], "uv_size": [10, 2]},
+								"south": {"uv": [3, 5], "uv_size": [10, 2]},
+								"up": {"uv": [13, 16], "uv_size": [-10, -2]},
+								"down": {"uv": [13, 2], "uv_size": [-10, -2]}
+							}
+						},
+						{
+							"origin": [-8, 1, 5],
+							"size": [3, 12, 3],
+							"uv": {
+								"north": {"uv": [0, 3], "uv_size": [3, 12]},
+								"east": {"uv": [0, 3], "uv_size": [3, 12]},
+								"south": {"uv": [13, 3], "uv_size": [3, 12]},
+								"west": {"uv": [13, 3], "uv_size": [3, 12]},
+								"up": {"uv": [16, 16], "uv_size": [-3, -3]}
+							}
+						},
+						{
+							"origin": [5, 1, -8],
+							"size": [3, 12, 3],
+							"uv": {
+								"north": {"uv": [13, 3], "uv_size": [3, 12]},
+								"east": {"uv": [13, 3], "uv_size": [3, 12]},
+								"south": {"uv": [0, 3], "uv_size": [3, 12]},
+								"west": {"uv": [0, 3], "uv_size": [3, 12]},
+								"up": {"uv": [3, 3], "uv_size": [-3, -3]}
+							}
+						},
+						{
+							"origin": [-4, 1, -7],
+							"size": [2, 8, 1],
+							"uv": {
+								"north": {"uv": [4, 7], "uv_size": [2, 8]},
+								"east": {"uv": [14, 7], "uv_size": [1, 8]},
+								"south": {"uv": [10, 7], "uv_size": [2, 8]},
+								"west": {"uv": [1, 7], "uv_size": [1, 8]}
+							}
+						},
+						{
+							"origin": [-7, 1, -4],
+							"size": [1, 8, 2],
+							"uv": {
+								"north": {"uv": [1, 7], "uv_size": [1, 8]},
+								"east": {"uv": [10, 7], "uv_size": [2, 8]},
+								"south": {"uv": [14, 7], "uv_size": [1, 8]},
+								"west": {"uv": [4, 7], "uv_size": [2, 8]}
+							}
+						},
+						{
+							"origin": [-1, 1, -7],
+							"size": [2, 8, 1],
+							"uv": {
+								"north": {"uv": [7, 7], "uv_size": [2, 8]},
+								"east": {"uv": [14, 7], "uv_size": [1, 8]},
+								"south": {"uv": [7, 7], "uv_size": [2, 8]},
+								"west": {"uv": [1, 7], "uv_size": [1, 8]}
+							}
+						},
+						{
+							"origin": [-7, 1, -1],
+							"size": [1, 8, 2],
+							"uv": {
+								"north": {"uv": [1, 7], "uv_size": [1, 8]},
+								"east": {"uv": [7, 7], "uv_size": [2, 8]},
+								"south": {"uv": [14, 7], "uv_size": [1, 8]},
+								"west": {"uv": [7, 7], "uv_size": [2, 8]}
+							}
+						},
+						{
+							"origin": [2, 1, -7],
+							"size": [2, 8, 1],
+							"uv": {
+								"north": {"uv": [10, 7], "uv_size": [2, 8]},
+								"east": {"uv": [14, 7], "uv_size": [1, 8]},
+								"south": {"uv": [4, 7], "uv_size": [2, 8]},
+								"west": {"uv": [1, 7], "uv_size": [1, 8]}
+							}
+						},
+						{
+							"origin": [-7, 1, 2],
+							"size": [1, 8, 2],
+							"uv": {
+								"north": {"uv": [1, 7], "uv_size": [1, 8]},
+								"east": {"uv": [4, 7], "uv_size": [2, 8]},
+								"south": {"uv": [14, 7], "uv_size": [1, 8]},
+								"west": {"uv": [10, 7], "uv_size": [2, 8]}
+							}
+						},
+						{
+							"origin": [-8, 9, -5],
+							"size": [2, 2, 10],
+							"uv": {
+								"east": {"uv": [3, 5], "uv_size": [10, 2]},
+								"west": {"uv": [3, 5], "uv_size": [10, 2]},
+								"up": {"uv": [16, 13], "uv_size": [-2, -10]},
+								"down": {"uv": [16, 13], "uv_size": [-2, -10]}
+							}
+						},
+						{
+							"origin": [-5, 9, -8],
+							"size": [10, 2, 2],
+							"uv": {
+								"north": {"uv": [3, 5], "uv_size": [10, 2]},
+								"south": {"uv": [3, 5], "uv_size": [10, 2]},
+								"up": {"uv": [13, 2], "uv_size": [-10, -2]},
+								"down": {"uv": [13, 15], "uv_size": [-10, -2]}
+							}
+						},
+						{
+							"origin": [-8, 1, -8],
+							"size": [3, 12, 3],
+							"uv": {
+								"north": {"uv": [0, 3], "uv_size": [3, 12]},
+								"east": {"uv": [13, 3], "uv_size": [3, 12]},
+								"south": {"uv": [13, 3], "uv_size": [3, 12]},
+								"west": {"uv": [0, 3], "uv_size": [3, 12]},
+								"up": {"uv": [16, 3], "uv_size": [-3, -3]}
+							}
+						}
+					]
+				},
+				{
+					"name": "box_top",
+					"parent": "block",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [5, 13, 5],
+							"size": [3, 3, 3],
+							"uv": {
+								"north": {"uv": [13, 0], "uv_size": [3, 3]},
+								"east": {"uv": [0, 0], "uv_size": [3, 3]},
+								"south": {"uv": [0, 0], "uv_size": [3, 3]},
+								"west": {"uv": [13, 0], "uv_size": [3, 3]},
+								"up": {"uv": [3, 16], "uv_size": [-3, -3]}
+							}
+						},
+						{
+							"origin": [6, 11, 2],
+							"size": [1, 3, 2],
+							"uv": {
+								"north": {"uv": [14, 1], "uv_size": [1, 3]},
+								"east": {"uv": [4, 2], "uv_size": [2, 3]},
+								"south": {"uv": [1, 2], "uv_size": [1, 3]},
+								"west": {"uv": [10, 2], "uv_size": [2, 3]}
+							}
+						},
+						{
+							"origin": [2, 11, 6],
+							"size": [2, 3, 1],
+							"uv": {
+								"north": {"uv": [10, 2], "uv_size": [2, 3]},
+								"east": {"uv": [1, 2], "uv_size": [1, 3]},
+								"south": {"uv": [4, 2], "uv_size": [2, 3]},
+								"west": {"uv": [14, 1], "uv_size": [1, 3]}
+							}
+						},
+						{
+							"origin": [6, 11, -1],
+							"size": [1, 3, 2],
+							"uv": {
+								"north": {"uv": [14, 1], "uv_size": [1, 3]},
+								"east": {"uv": [7, 2], "uv_size": [2, 3]},
+								"south": {"uv": [1, 2], "uv_size": [1, 3]},
+								"west": {"uv": [7, 2], "uv_size": [2, 3]}
+							}
+						},
+						{
+							"origin": [-1, 11, 6],
+							"size": [2, 3, 1],
+							"uv": {
+								"north": {"uv": [7, 2], "uv_size": [2, 3]},
+								"east": {"uv": [1, 2], "uv_size": [1, 3]},
+								"south": {"uv": [7, 2], "uv_size": [2, 3]},
+								"west": {"uv": [14, 1], "uv_size": [1, 3]}
+							}
+						},
+						{
+							"origin": [6, 11, -4],
+							"size": [1, 3, 2],
+							"uv": {
+								"north": {"uv": [14, 1], "uv_size": [1, 3]},
+								"east": {"uv": [10, 2], "uv_size": [2, 3]},
+								"south": {"uv": [1, 2], "uv_size": [1, 3]},
+								"west": {"uv": [4, 2], "uv_size": [2, 3]}
+							}
+						},
+						{
+							"origin": [-4, 11, 6],
+							"size": [2, 3, 1],
+							"uv": {
+								"north": {"uv": [4, 2], "uv_size": [2, 3]},
+								"east": {"uv": [1, 2], "uv_size": [1, 3]},
+								"south": {"uv": [10, 2], "uv_size": [2, 3]},
+								"west": {"uv": [14, 1], "uv_size": [1, 3]}
+							}
+						},
+						{
+							"origin": [5, 14, -5],
+							"size": [3, 2, 10],
+							"uv": {
+								"east": {"uv": [3, 0], "uv_size": [10, 2]},
+								"west": {"uv": [3, 0], "uv_size": [10, 2]},
+								"up": {"uv": [3, 13], "uv_size": [-3, -10]},
+								"down": {"uv": [3, 13], "uv_size": [-3, -10]}
+							}
+						},
+						{
+							"origin": [-5, 14, 5],
+							"size": [10, 2, 3],
+							"uv": {
+								"north": {"uv": [3, 0], "uv_size": [10, 2]},
+								"south": {"uv": [3, 0], "uv_size": [10, 2]},
+								"up": {"uv": [13, 16], "uv_size": [-10, -3]},
+								"down": {"uv": [13, 3], "uv_size": [-10, -3]}
+							}
+						},
+						{
+							"origin": [-8, 13, 5],
+							"size": [3, 3, 3],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [3, 3]},
+								"east": {"uv": [0, 0], "uv_size": [3, 3]},
+								"south": {"uv": [13, 0], "uv_size": [3, 3]},
+								"west": {"uv": [13, 0], "uv_size": [3, 3]},
+								"up": {"uv": [16, 16], "uv_size": [-3, -3]}
+							}
+						},
+						{
+							"origin": [5, 13, -8],
+							"size": [3, 3, 3],
+							"uv": {
+								"north": {"uv": [13, 0], "uv_size": [3, 3]},
+								"east": {"uv": [13, 0], "uv_size": [3, 3]},
+								"south": {"uv": [0, 0], "uv_size": [3, 3]},
+								"west": {"uv": [0, 0], "uv_size": [3, 3]},
+								"up": {"uv": [3, 3], "uv_size": [-3, -3]}
+							}
+						},
+						{
+							"origin": [2, 14.5, -5],
+							"size": [2, 1, 10],
+							"uv": {
+								"east": {"uv": [3, 1], "uv_size": [10, 1]},
+								"west": {"uv": [3, 1], "uv_size": [10, 1]},
+								"up": {"uv": [6, 13], "uv_size": [-2, -10]},
+								"down": {"uv": [6, 13], "uv_size": [-2, -10]}
+							}
+						},
+						{
+							"origin": [-1, 14.5, -5],
+							"size": [2, 1, 10],
+							"uv": {
+								"east": {"uv": [3, 1], "uv_size": [10, 1]},
+								"west": {"uv": [3, 1], "uv_size": [10, 1]},
+								"up": {"uv": [9, 13], "uv_size": [-2, -10]},
+								"down": {"uv": [9, 13], "uv_size": [-2, -10]}
+							}
+						},
+						{
+							"origin": [-4, 14.5, -5],
+							"size": [2, 1, 10],
+							"uv": {
+								"east": {"uv": [3, 1], "uv_size": [10, 1]},
+								"west": {"uv": [3, 1], "uv_size": [10, 1]},
+								"up": {"uv": [12, 13], "uv_size": [-2, -10]},
+								"down": {"uv": [12, 13], "uv_size": [-2, -10]}
+							}
+						},
+						{
+							"origin": [-7, 11, 2],
+							"size": [1, 3, 2],
+							"uv": {
+								"north": {"uv": [1, 2], "uv_size": [1, 3]},
+								"east": {"uv": [4, 2], "uv_size": [2, 3]},
+								"south": {"uv": [14, 1], "uv_size": [1, 3]},
+								"west": {"uv": [10, 2], "uv_size": [2, 3]}
+							}
+						},
+						{
+							"origin": [2, 11, -7],
+							"size": [2, 3, 1],
+							"uv": {
+								"north": {"uv": [10, 2], "uv_size": [2, 3]},
+								"east": {"uv": [14, 1], "uv_size": [1, 3]},
+								"south": {"uv": [4, 2], "uv_size": [2, 3]},
+								"west": {"uv": [1, 2], "uv_size": [1, 3]}
+							}
+						},
+						{
+							"origin": [-7, 11, -1],
+							"size": [1, 3, 2],
+							"uv": {
+								"north": {"uv": [1, 2], "uv_size": [1, 3]},
+								"east": {"uv": [7, 2], "uv_size": [2, 3]},
+								"south": {"uv": [14, 1], "uv_size": [1, 3]},
+								"west": {"uv": [7, 2], "uv_size": [2, 3]}
+							}
+						},
+						{
+							"origin": [-1, 11, -7],
+							"size": [2, 3, 1],
+							"uv": {
+								"north": {"uv": [7, 2], "uv_size": [2, 3]},
+								"east": {"uv": [14, 1], "uv_size": [1, 3]},
+								"south": {"uv": [7, 2], "uv_size": [2, 3]},
+								"west": {"uv": [1, 2], "uv_size": [1, 3]}
+							}
+						},
+						{
+							"origin": [-7, 11, -4],
+							"size": [1, 3, 2],
+							"uv": {
+								"north": {"uv": [1, 2], "uv_size": [1, 3]},
+								"east": {"uv": [10, 2], "uv_size": [2, 3]},
+								"south": {"uv": [14, 1], "uv_size": [1, 3]},
+								"west": {"uv": [4, 2], "uv_size": [2, 3]}
+							}
+						},
+						{
+							"origin": [-4, 11, -7],
+							"size": [2, 3, 1],
+							"uv": {
+								"north": {"uv": [4, 2], "uv_size": [2, 3]},
+								"east": {"uv": [14, 1], "uv_size": [1, 3]},
+								"south": {"uv": [10, 2], "uv_size": [2, 3]},
+								"west": {"uv": [1, 2], "uv_size": [1, 3]}
+							}
+						},
+						{
+							"origin": [-5, 14, -8],
+							"size": [10, 2, 3],
+							"uv": {
+								"north": {"uv": [3, 0], "uv_size": [10, 2]},
+								"south": {"uv": [3, 0], "uv_size": [10, 2]},
+								"up": {"uv": [13, 3], "uv_size": [-10, -3]},
+								"down": {"uv": [13, 16], "uv_size": [-10, -3]}
+							}
+						},
+						{
+							"origin": [-8, 14, -5],
+							"size": [3, 2, 10],
+							"uv": {
+								"east": {"uv": [3, 0], "uv_size": [10, 2]},
+								"west": {"uv": [3, 0], "uv_size": [10, 2]},
+								"up": {"uv": [16, 13], "uv_size": [-3, -10]},
+								"down": {"uv": [16, 13], "uv_size": [-3, -10]}
+							}
+						},
+						{
+							"origin": [-8, 13, -8],
+							"size": [3, 3, 3],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [3, 3]},
+								"east": {"uv": [13, 0], "uv_size": [3, 3]},
+								"south": {"uv": [13, 0], "uv_size": [3, 3]},
+								"west": {"uv": [0, 0], "uv_size": [3, 3]},
+								"up": {"uv": [16, 3], "uv_size": [-3, -3]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

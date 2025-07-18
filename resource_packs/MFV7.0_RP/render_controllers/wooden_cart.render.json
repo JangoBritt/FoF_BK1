@@ -1,0 +1,209 @@
+{
+	"format_version":"1.8.0",
+	"render_controllers": {
+		"controller.render.mf.wooden_cart": {
+			"part_visibility": [
+				{ "i_*": false },
+				{ "food_*": false },
+				{ "*horse*": false }
+			],
+			"textures": [ "Texture.default" ],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"is_hurt_color": {
+				"r": 0,
+				"g": 0,
+				"b": 0,
+				"a": 0
+			},
+			"on_fire_color": {}
+		},
+		"controller.render.mf.wooden_cart_item_0": {
+			"part_visibility": [
+				{ "cart_*": false },
+				{ "food_*": false },
+				{ "*_1*": false },
+				{ "*horse*": false },
+				{ "i_barrel_0": "q.property('mf:item_0') == 1" },
+				{ "i_chest_0": "q.property('mf:item_0') == 2" }
+			],
+			"arrays": {
+				"textures": {
+					"Array.t": [
+						"Texture.barrel",
+						"Texture.chest"
+					]
+				}
+			},
+			"textures": [
+				"Array.t[q.property('mf:item_0') - 1]"
+			],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			]
+		},
+		"controller.render.mf.wooden_cart_item_1": {
+			"part_visibility": [
+				{ "cart_*": false },
+				{ "food_*": false },
+				{ "*_0*": false },
+				{ "*horse*": false },
+				{ "i_barrel_1": "q.property('mf:item_1') == 1" },
+				{ "i_chest_1": "q.property('mf:item_1') == 2" }
+			],
+			"arrays": {
+				"textures": {
+					"Array.t": [
+						"Texture.barrel",
+						"Texture.chest"
+					]
+				}
+			},
+			"textures": [
+				"Array.t[q.property('mf:item_1') - 1]"
+			],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			]
+		},
+		"controller.render.mf.wooden_cart_food_0": {
+			"part_visibility": [
+				{ "cart_*": false },
+				{ "i_*": false },
+				{ "*_1*": false },
+				{ "*horse*": false },
+				{ "food_0_apple": "q.property('mf:food_0') == 1 || q.property('mf:food_0') == 2" },
+				{ "food_0_beetroot": "q.property('mf:food_0') == 3" },
+				{ "food_0_bamboo": "q.property('mf:food_0') == 4" },
+				{ "food_0_carrot": "q.property('mf:food_0') == 5 || q.property('mf:food_0') == 6" },
+				{ "food_0_fish": "q.property('mf:food_0') == 7 || q.property('mf:food_0') == 8" }
+			],
+			"arrays": {
+				"textures": {
+					"Array.t": [
+						"Texture.barrel_apple",
+						"Texture.barrel_golden_apple",
+						"Texture.barrel_beetroot",
+						"Texture.barrel_bamboo",
+						"Texture.barrel_carrot",
+						"Texture.barrel_golden_carrot",
+						"Texture.barrel_cod",
+						"Texture.barrel_salmon"
+					]
+				}
+			},
+			"textures": [
+				"Array.t[q.property('mf:food_0') - 1]"
+			],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			]
+		},
+		"controller.render.mf.wooden_cart_food_1": {
+			"part_visibility": [
+				{ "cart_*": false },
+				{ "i_*": false },
+				{ "*_0*": false },
+				{ "*horse*": false },
+				{ "food_1_apple": "q.property('mf:food_1') == 1 || q.property('mf:food_1') == 2" },
+				{ "food_1_beetroot": "q.property('mf:food_1') == 3" },
+				{ "food_1_bamboo": "q.property('mf:food_1') == 4" },
+				{ "food_1_carrot": "q.property('mf:food_1') == 5 || q.property('mf:food_1') == 6" },
+				{ "food_1_fish": "q.property('mf:food_1') == 7 || q.property('mf:food_1') == 8" }
+			],
+			"arrays": {
+				"textures": {
+					"Array.t": [
+						"Texture.barrel_apple",
+						"Texture.barrel_golden_apple",
+						"Texture.barrel_beetroot",
+						"Texture.barrel_bamboo",
+						"Texture.barrel_carrot",
+						"Texture.barrel_golden_carrot",
+						"Texture.barrel_cod",
+						"Texture.barrel_salmon"
+					]
+				}
+			},
+			"textures": [
+				"Array.t[q.property('mf:food_1') - 1]"
+			],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			]
+		},
+		"controller.render.mf.wooden_cart_horse": {
+			"part_visibility": [
+				{ "cart_*": false },
+				{ "i_*": false },
+				{ "*_0*": false },
+				{ "*_1*": false },
+				{ "food_*": false },
+				{ "armorhorse*": false }
+			],
+			"arrays": {
+				"textures": {
+					"Array.base": [
+						"Texture.base_white",
+						"Texture.base_creamy",
+						"Texture.base_chestnut",
+						"Texture.base_brown",
+						"Texture.base_black",
+						"Texture.base_gray",
+						"Texture.base_darkbrown"
+					],
+					"Array.mark": [
+						"Texture.markings_none",
+						"Texture.markings_white",
+						"Texture.markings_whitefield",
+						"Texture.markings_whitedots",
+						"Texture.markings_blackdots"
+					]
+				}
+			},
+			"textures": [
+				"Array.base[q.property('mf:base_color')]",
+				"Array.mark[q.property('mf:mark_variant')]"
+			],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.horse" }
+			]
+		},
+		"controller.render.mf.wooden_cart_horse_armor": {
+			"part_visibility": [
+				{ "cart_*": false },
+				{ "i_*": false },
+				{ "*_0*": false },
+				{ "*_1*": false },
+				{ "food_*": false },
+				{ "horse*": false }
+			],
+			"arrays": {
+				"textures": {
+					"Array.armor": [
+						"Texture.armor_none",
+						"Texture.armor_leather",
+						"Texture.armor_iron",
+						"Texture.armor_gold",
+						"Texture.armor_diamond",
+						"Texture.armor_netherite"
+					]
+				}
+			},
+			"textures": [
+				"Array.armor[q.property('mf:horse_armor')]"
+			],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			]
+		}
+	}
+}

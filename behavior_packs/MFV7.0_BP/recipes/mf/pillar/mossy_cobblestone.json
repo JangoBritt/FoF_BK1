@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "endx:mossy_cobblestone_pillar"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:mossy_cobblestone" } ],
+		"unlock": [ { "item": "minecraft:mossy_cobblestone" } ],
+		"result": {
+			"item": "endx:mossy_cobblestone_pillar",
+			"count": 1
+		}
+	}
+}

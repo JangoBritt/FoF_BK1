@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.medieval.player.sleep": {
+			"animation_length": 0,
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"head": { "rotation": [ "30.0", "math.clamp(math.mod(q.head_y_rotation(0) - q.ride_body_y_rotation + 180, 360) - 180, -45, 45)", 0 ] },
+				"root": {
+					"position": [ "q.ride_body_y_rotation == 90.0 ? -16.0 : (q.ride_body_y_rotation == -90.0 ? 16.0 : 0.0)", 10.0, "q.ride_body_y_rotation == -180.0 ? 16.0 : (q.ride_body_y_rotation == 0.0 ? -16.0 : 0.0)" ],
+					"rotation": [ -90.0, "q.ride_body_y_rotation  - q.body_y_rotation", 0.0 ]
+				},
+				"leftleg" : {"rotation" : [ "this", "this", "-this" ]},
+				"rightleg" : {"rotation" : [ "this", "this", "-this" ]},
+				"leftarm" : {"rotation" : [ "-this", 0.0, -15.0 ]},
+				"rightarm" : {"rotation" : [ "-this", 0.0, 15.0 ]}
+			}
+		}
+	}
+}

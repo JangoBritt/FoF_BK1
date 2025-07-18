@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:winch_size"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.mf.winch",
+			"minecraft:material_instances": { "*": { "texture": "mf:winch", "render_method": "alpha_test", "ambient_occlusion": false } },
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0,
+			"minecraft:placement_filter": { "conditions": [{ "allowed_faces": [ "down" ], "block_filter": [ "air" ] }] },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 0.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.0 },
+			"minecraft:map_color": "#af8f55"
+		}
+	}
+}

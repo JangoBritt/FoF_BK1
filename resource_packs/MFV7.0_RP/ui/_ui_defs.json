@@ -1,0 +1,7 @@
+{
+	"ui_defs": [
+		"ui/stove_off_ui.json",
+		"ui/cabinet_tall.json",
+		"ui/weapon_stand_ui.json"
+	]
+}

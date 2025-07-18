@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:acacia_wood_cabinet_tall"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"###",
+			"P P",
+			"PPP"
+		],
+		"key": {
+			"#": { "item": "minecraft:acacia_log" },
+			"P": { "item": "minecraft:acacia_planks" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:acacia_wood_cabinet_tall",
+			"count": 1
+		}
+	}
+}

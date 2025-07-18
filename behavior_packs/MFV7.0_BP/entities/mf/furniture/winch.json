@@ -1,0 +1,246 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:winch_entity",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"properties": {
+				"mf:is_open": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"mf:wait": {
+					"type": "bool",
+					"client_sync": false,
+					"default": false
+				}
+			}
+		},
+		"component_groups": {
+			"medieval:despawn": { "minecraft:instant_despawn": {} },
+			"mf:height_3": {
+				"minecraft:timer": {
+					"time": 1.0,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_4": {
+				"minecraft:timer": {
+					"time": 1.3,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_5": {
+				"minecraft:timer": {
+					"time": 1.55,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_6": {
+				"minecraft:timer": {
+					"time": 1.8,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_7": {
+				"minecraft:timer": {
+					"time": 1.9667,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_8": {
+				"minecraft:timer": {
+					"time": 2.0917,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_9": {
+				"minecraft:timer": {
+					"time": 2.2167,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_10": {
+				"minecraft:timer": {
+					"time": 2.3417,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_11": {
+				"minecraft:timer": {
+					"time": 2.4667,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_12": {
+				"minecraft:timer": {
+					"time": 2.5917,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_13": {
+				"minecraft:timer": {
+					"time": 2.7167,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_14": {
+				"minecraft:timer": {
+					"time": 2.8,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_15": {
+				"minecraft:timer": {
+					"time": 2.8833,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_16": {
+				"minecraft:timer": {
+					"time": 2.9667,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:interact": {
+				"interactions": [
+					{ 
+						"interact_text": "HOLA" ,
+						"on_interact": {
+							"filters": [ { "all_of": [ { "test": "bool_property", "domain": "mf:wait", "operator": "equals", "value": false } ] } ],
+							"event": "mf:spawn_portcullis"
+						}
+					}
+				]
+			},
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:type_family":{
+				"family": [ "inanimate" ]
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 0.5,
+						"height": 0.5,
+						"pivot": [0, 0, 0]
+					}
+				]
+			},
+			"minecraft:damage_sensor": { "triggers": [ { "cause": "all", "deals_damage": "no" } ] },
+			"minecraft:health": {
+				"value": 1,
+				"max": 1,
+				"min": 1
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:mob_effect_immunity": {
+				"mob_effects": [
+					"invisibility", "absorption", "bad_omen", "blindness", "conduit_power", "darkness", "fatal_poison", "poison"
+				]
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [ {
+					"block": { "name": "medieval:winch" },
+					"exited_block_event": {
+						"event": "mf:despawn",
+						"target": "self"
+					}
+				}, {
+					"block": { "name": "minecraft:air" },
+					"entered_block_event": {
+						"event": "mf:despawn",
+						"target": "self"
+					}
+				} ]
+			},
+			"minecraft:renders_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:body_rotation_blocked": {}
+		},
+		"events": {
+			"mf:spawn_portcullis": {},
+			"mf:end_timer": {
+				"set_property": { "mf:wait": false },
+				"remove": { "component_groups": [
+					"mf:height_3", "mf:height_4", "mf:height_5", "mf:height_6", "mf:height_7", "mf:height_8", "mf:height_9", "mf:height_10", "mf:height_11", "mf:height_12", "mf:height_13", "mf:height_14", "mf:height_15", "mf:height_16"
+				] }
+			},
+			"mf:height_3": { "add": { "component_groups": [ "mf:height_3" ] } },
+			"mf:height_4": { "add": { "component_groups": [ "mf:height_4" ] } },
+			"mf:height_5": { "add": { "component_groups": [ "mf:height_5" ] } },
+			"mf:height_6": { "add": { "component_groups": [ "mf:height_6" ] } },
+			"mf:height_7": { "add": { "component_groups": [ "mf:height_7" ] } },
+			"mf:height_8": { "add": { "component_groups": [ "mf:height_8" ] } },
+			"mf:height_9": { "add": { "component_groups": [ "mf:height_9" ] } },
+			"mf:height_10": { "add": { "component_groups": [ "mf:height_10" ] } },
+			"mf:height_11": { "add": { "component_groups": [ "mf:height_11" ] } },
+			"mf:height_12": { "add": { "component_groups": [ "mf:height_12" ] } },
+			"mf:height_13": { "add": { "component_groups": [ "mf:height_13" ] } },
+			"mf:height_14": { "add": { "component_groups": [ "mf:height_14" ] } },
+			"mf:height_15": { "add": { "component_groups": [ "mf:height_15" ] } },
+			"mf:height_16": { "add": { "component_groups": [ "mf:height_16" ] } },
+			"mf:despawn": {"add": {"component_groups": ["medieval:despawn"]}}
+		}
+	}
+}

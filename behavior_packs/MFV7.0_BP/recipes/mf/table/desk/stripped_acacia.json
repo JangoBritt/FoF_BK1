@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_acacia_table0"
+		},
+		"tags": [
+			"medieval:workbench"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": { "item": "minecraft:acacia_planks" },
+			"B": { "item": "medieval:stripped_acacia_mslab" },
+			"C": { "item": "medieval:stripped_acacia_post" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_acacia_table0",
+			"count": 1
+		}
+	}
+}

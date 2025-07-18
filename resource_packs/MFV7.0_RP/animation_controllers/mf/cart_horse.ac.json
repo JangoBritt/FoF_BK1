@@ -1,0 +1,166 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.mf.break_wooden_cart": {
+			"states": {
+				"default": {
+					"transitions": [ { "shaking": "v.health < 5" } ],
+					"blend_transition": 1
+				},
+				"shaking": {
+					"animations": [ "break" ],
+					"transitions": [ { "default": "v.health == 5" } ],
+					"blend_transition": 1
+				}
+			}
+		},
+		"controller.animation.mf.horse_idle": {
+			"states": {
+				"default": {
+					"transitions": [
+						{ "anim": "q.state_time > 0.2" }
+					]
+				},
+				"anim": {
+					"transitions": [
+						{ "default": "q.ground_speed" },
+						{ "random": "q.state_time > v.randomt" }
+					],
+					"on_entry": [ "v.randomt = math.random(0, math.random(5, 15));" ]
+				},
+				"random": {
+					"animations": [
+						{ "idle0": "v.random_anim == 0" },
+						{ "idle1": "v.random_anim == 1" },
+						{ "idle2": "v.random_anim == 2" }
+					],
+					"transitions": [
+						{ "default": "q.any_animation_finished || (v.random_anim == 0 && q.ground_speed)" }
+					],
+					"on_entry": [ "v.random_anim = math.random_integer(0, 2);" ],
+					"blend_transition": 0.2
+				}
+			}
+		},
+		"controller.animation.mf.horse1_idle": {
+			"states": {
+				"default": {
+					"transitions": [
+						{ "anim": "q.state_time > 0.2" }
+					]
+				},
+				"anim": {
+					"transitions": [
+						{ "default": "q.ground_speed" },
+						{ "random": "q.state_time > v.randomt2" }
+					],
+					"on_entry": [ "v.randomt2 = math.random(0, math.random(5, 15));" ]
+				},
+				"random": {
+					"animations": [
+						{ "h1_idle0": "v.random_anim1 == 0" },
+						{ "h1_idle1": "v.random_anim1 == 1" },
+						{ "h1_idle2": "v.random_anim1 == 2" }
+					],
+					"transitions": [
+						{ "default": "q.any_animation_finished || (v.random_anim1 == 0 && q.ground_speed)" }
+					],
+					"on_entry": [ "v.random_anim1 = math.random_integer(0, 2);" ],
+					"blend_transition": 0.2
+				}
+			}
+		},
+		"controller.animation.mf.horse1_move": {
+			"states": {
+				"default": {
+					"animations": [
+						{ "walk": "q.modified_move_speed" }
+					],
+					"transitions": [
+						{ "gallop2": "q.ground_speed >= 10 && q.any_animation_finished" },
+						{ "gallop": "q.ground_speed >= 8.2 && q.any_animation_finished" },
+						{ "trot": "q.ground_speed >= 4.6 && q.any_animation_finished" }
+					],
+					"blend_transition": 0.24
+				},
+				"trot": {
+					"animations": [
+						{ "trot": "q.modified_move_speed" }
+					],
+					"transitions": [
+						{ "default": "q.ground_speed < 4.6 && q.any_animation_finished" },
+						{ "gallop2": "q.ground_speed >= 10 && q.any_animation_finished" },
+						{ "gallop": "q.ground_speed > 8.2 && q.any_animation_finished" }
+					],
+					"blend_transition": 0.24
+				},
+				"gallop": {
+					"animations": [
+						{ "gallop": "q.modified_move_speed" }
+					],
+					"transitions": [
+						{ "gallop2": "q.ground_speed >= 10 && q.any_animation_finished" },
+						{ "trot": "q.ground_speed < 4.6 && q.any_animation_finished" }
+					],
+					"blend_transition": 0.24
+				},
+				"gallop2": {
+					"animations": [
+						{ "gallop2": "q.modified_move_speed" }
+					],
+					"transitions": [
+						{ "trot": "q.ground_speed < 8.2 && q.any_animation_finished" },
+						{ "gallop": "q.ground_speed < 10 && q.any_animation_finished" }
+					],
+					"blend_transition": 0.24
+				}
+			}
+		},
+		"controller.animation.mf.horse2_move": {
+			"states": {
+				"default": {
+					"animations": [
+						{ "h1_walk": "q.modified_move_speed" }
+					],
+					"transitions": [
+						{ "gallop2": "q.ground_speed >= 10 && q.any_animation_finished" },
+						{ "gallop": "q.ground_speed >= 8.2 && q.any_animation_finished" },
+						{ "trot": "q.ground_speed >= 4 && q.any_animation_finished" }
+					],
+					"blend_transition": 0.24
+				},
+				"trot": {
+					"animations": [
+						{ "h1_trot": "q.modified_move_speed" }
+					],
+					"transitions": [
+						{ "default": "q.ground_speed < 4 && q.any_animation_finished" },
+						{ "gallop2": "q.ground_speed >= 10 && q.any_animation_finished" },
+						{ "gallop": "q.ground_speed > 8.2 && q.any_animation_finished" }
+					],
+					"blend_transition": 0.24
+				},
+				"gallop": {
+					"animations": [
+						{ "h1_gallop": "q.modified_move_speed" }
+					],
+					"transitions": [
+						{ "gallop2": "q.ground_speed >= 10 && q.any_animation_finished" },
+						{ "trot": "q.ground_speed < 4 && q.any_animation_finished" }
+					],
+					"blend_transition": 0.24
+				},
+				"gallop2": {
+					"animations": [
+						{ "h1_gallop2": "q.modified_move_speed" }
+					],
+					"transitions": [
+						{ "trot": "q.ground_speed < 8.2 && q.any_animation_finished" },
+						{ "gallop": "q.ground_speed < 10 && q.any_animation_finished" }
+					],
+					"blend_transition": 0.24
+				}
+			}
+		}
+	}
+}

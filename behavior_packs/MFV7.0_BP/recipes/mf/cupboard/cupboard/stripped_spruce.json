@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:spruce_cupboard"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"BBB",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": { "item": "minecraft:spruce_planks" },
+			"B": { "item": "medieval:stripped_spruce_mslab" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:spruce_cupboard",
+			"count": 1
+		}
+	}
+}

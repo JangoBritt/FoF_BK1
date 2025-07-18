@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:acacia_gramophone"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			" B ",
+			"ACA",
+			" A "
+		],
+		"key": {
+			"A": { "item": "medieval:stripped_acacia_mslab" },
+			"B": { "item": "minecraft:gold_ingot" },
+			"C": { "item": "minecraft:jukebox" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:acacia_gramophone",
+			"count": 1
+		}
+	}
+}

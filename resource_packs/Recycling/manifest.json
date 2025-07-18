@@ -7,20 +7,20 @@
 		"description": "Pack By §6Fables of Folly§r | Recycling | Check the README for details | Visit §9www.fables-of-folly.com§r",
 		"name": "§aRecycling Pack§r v6.1.6 [R]",
 		"uuid": "33d9b3b6-1a50-483b-9b67-423536aaf532",
-		"version": [ 1, 0, 0 ],
+		"version": [ 1, 0, 1 ],
 		"min_engine_version": [ 1, 20, 81 ]
 	},
 	"modules": [
 		{
 			"type": "resources",
 			"uuid": "46bc29cf-06ad-4352-98d8-1248e95c4629",
-			"version": [ 1, 0, 0 ]
+			"version": [ 1, 0, 1 ]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "ed2cf1d1-c832-48c8-bf06-0cc38cf5e8a8",
-			"version": [ 1, 0, 0 ]
+			"version": [ 1, 0, 1 ]
 		}
 	]
 }

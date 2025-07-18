@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:stripped_warped_fence2"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:stripped_warped_stem" } ],
+		"unlock": [ { "item": "minecraft:stripped_warped_stem" } ],
+		"result": {
+			"item": "medieval:stripped_warped_fence2",
+			"count": 1
+		}
+	}
+}

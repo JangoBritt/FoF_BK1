@@ -1,35 +1,22 @@
-import { ItemStack, BlockPermutation } from '@minecraft/server';
-import { addItemOrSpawn, decrementItemInHand, isCreative } from './utils';
+import { ItemStack } from '@minecraft/server';
+import { addItemOrSpawn, decrementItemInHand } from './utils';
 
 export class FoFMilkMug {
 	onPlayerInteract(e) {
-		if (e.block.typeId.includes("fables_misc:ravager_milk_mug")) UpdateBlockQuantity(e, 3);
-		else UpdateBlockQuantity(e, 2);
-	}
-	onPlayerDestroy(e) {
-		const { block, dimension, destroyedBlockPermutation } = e;
-		const quantity = destroyedBlockPermutation.getState("medieval:quantity");
-		if (quantity > 0) dimension.spawnItem(new ItemStack(`${destroyedBlockPermutation.type.id}_item`, quantity), block.center());
-	}
-}
-function UpdateBlockQuantity(e, maxQuantity) {
-	const { player, block, dimension } = e;
-	const item = player.getComponent("inventory").container.getItem(player.selectedSlotIndex);
-	const quantity = block.permutation.getState("medieval:quantity");
-
-	if (item?.typeId === `${block.typeId}_item` && quantity < maxQuantity) {
+		const { player, block, dimension } = e;
+		const quantity = block.permutation.getState("medieval:quantity");
+		const sneaking = player.isSneaking;
+		if (sneaking && quantity > 0) {
+			addItemOrSpawn(player, new ItemStack(block.typeId, 1));
+			block.setPermutation(block.permutation.withState("medieval:quantity", quantity - 1));
+			dimension.playSound("block.itemframe.remove_item", block.center());
+			return;
+		}
+		const item = player.getComponent("inventory").container.getItem(player.selectedSlotIndex);
+		const maxAmount = block.typeId === "medieval:wine_bottle" ? 2 : 3
+		if (item?.typeId !== block.typeId || quantity >= maxAmount) return;
 		block.setPermutation(block.permutation.withState("medieval:quantity", quantity + 1));
-		if (!isCreative(player)) decrementItemInHand(player);
+		decrementItemInHand(player);
 		dimension.playSound("block.itemframe.add_item", block.center());
-	}
-	if (quantity > 0 && player.isSneaking) {
-		if (!isCreative(player)) addItemOrSpawn(player, new ItemStack(`${block.typeId}_item`, 1));
-		block.setPermutation(block.permutation.withState("medieval:quantity", quantity - 1));
-		dimension.playSound("block.itemframe.remove_item", block.center());
-	}
-	if (quantity === 0 && player.isSneaking) {
-		if (!isCreative(player)) addItemOrSpawn(player, new ItemStack(`${block.typeId}_item`, 1));
-		block.setPermutation(BlockPermutation.resolve("minecraft:air"));
-		dimension.playSound("block.itemframe.remove_item", block.center());
 	}
 }

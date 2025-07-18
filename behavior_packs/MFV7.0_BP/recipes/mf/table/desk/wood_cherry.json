@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wood_cherry_table0"
+		},
+		"tags": [
+			"medieval:workbench"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": { "item": "minecraft:cherry_planks" },
+			"B": { "item": "medieval:cherry_wood_mslab" },
+			"C": { "item": "medieval:cherry_wood_post" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:wood_cherry_table0",
+			"count": 1
+		}
+	}
+}

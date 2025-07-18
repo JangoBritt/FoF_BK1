@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_jungle_box2"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"###",
+			"#C#",
+			"###"
+		],
+		"key": {
+			"#": { "item": "medieval:stripped_jungle_post" },
+			"C": { "item": "minecraft:jungle_planks" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_jungle_box2",
+			"count": 2
+		}
+	}
+}

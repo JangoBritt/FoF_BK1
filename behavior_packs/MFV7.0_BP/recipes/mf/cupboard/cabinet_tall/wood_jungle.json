@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:jungle_wood_cabinet_tall"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"###",
+			"P P",
+			"PPP"
+		],
+		"key": {
+			"#": { "item": "minecraft:jungle_log" },
+			"P": { "item": "minecraft:jungle_planks" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:jungle_wood_cabinet_tall",
+			"count": 1
+		}
+	}
+}

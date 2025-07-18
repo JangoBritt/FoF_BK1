@@ -1,0 +1,45 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mc.door",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 8, -8],
+							"size": [8, 8, 1.5],
+							"uv": {
+								"north": {"uv": [8, 0], "uv_size": [16, 16], "material_instance": "door_top"},
+								"east": {"uv": [8, 0], "uv_size": [3, 16], "material_instance": "door_top"},
+								"south": {"uv": [24, 0], "uv_size": [-16, 16], "material_instance": "door_top"},
+								"west": {"uv": [21, 0], "uv_size": [3, 16], "material_instance": "door_top"},
+								"up": {"uv": [24, 3], "uv_size": [-16, -3], "material_instance": "door_top"}
+							}
+						},
+						{
+							"origin": [-4, 0, -8],
+							"size": [8, 8, 1.5],
+							"uv": {
+								"north": {"uv": [8, 16], "uv_size": [16, 16], "material_instance": "door_bottom"},
+								"east": {"uv": [8, 16], "uv_size": [3, 16], "material_instance": "door_bottom"},
+								"south": {"uv": [24, 16], "uv_size": [-16, 16], "material_instance": "door_bottom"},
+								"west": {"uv": [21, 16], "uv_size": [3, 16], "material_instance": "door_bottom"},
+								"down": {"uv": [24, 32], "uv_size": [-16, -3], "material_instance": "door_bottom"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

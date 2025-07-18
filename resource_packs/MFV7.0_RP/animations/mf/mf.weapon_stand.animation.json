@@ -1,0 +1,80 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mf.weapon_main.shield": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": [-17.58604, -0.43268, 9.0733],
+					"position": [2.25, 0, 3]
+				}
+			}
+		},
+		"animation.mf.weapon_off.shield": {
+			"loop": true,
+			"bones": {
+				"leftitem": {
+					"rotation": [0, 0, 5]
+				},
+				"left": {
+					"rotation": [-112.38831, -357.89689, -164.20187],
+					"position": [1.5, 0.5, 1.5]
+				}
+			}
+		},
+		"animation.mf.weapon_main.bow": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": [-21.79146, -2.19818, 8.02763],
+					"position": [0, 4.25, 0.35]
+				}
+			}
+		},
+		"animation.mf.weapon_main.crossbow": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": [127.87042, 59.90209, -84.79005],
+					"position": [1.5, 8, 10]
+				}
+			}
+		},
+		"animation.mf.weapon_off.crossbow": {
+			"loop": true,
+			"bones": {
+				"leftarm": {
+					"rotation": [0, 0, 5]
+				},
+				"leftitem": {
+					"rotation": [-28, 0, 0]
+				},
+				"left": {
+					"rotation": [124.20658, 21.43019, 88.25851],
+					"position": [2, 9, 9.25]
+				}
+			}
+		},
+		"animation.mf.weapon_main.trident": {
+			"loop": true,
+			"bones": {
+				"rightarm": {
+					"rotation": [0, -45, 0]
+				},
+				"right": {
+					"rotation": [7.47178, 0.65182, 15.04256],
+					"position": [0, 4, 1.5]
+				}
+			}
+		},
+		"animation.mf.weapon_off.trident": {
+			"loop": true,
+			"bones": {
+				"left": {
+					"rotation": [6.59899, -48.56893, 11.75461],
+					"position": [0.75, 4.75, 0.25]
+				}
+			}
+		}
+	}
+}

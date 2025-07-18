@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:big_barrel_cherry"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": { "item": "medieval:beer_barrel_cherry" }
+		},
+		"unlock": [
+			{ "item": "medieval:workbench" }
+		],
+		"result": {
+			"item": "medieval:big_barrel_cherry",
+			"count": 1
+		}
+	}
+}

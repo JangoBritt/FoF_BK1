@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:birch_wood_wall"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:birch_log" } ],
+		"unlock": [ { "item": "minecraft:birch_log" } ],
+		"result": {
+			"item": "medieval:birch_wood_wall",
+			"count": 5
+		}
+	}
+}

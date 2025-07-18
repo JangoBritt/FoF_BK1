@@ -1,0 +1,59 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:beer_mug_empty",
+			"traits": {
+				"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}
+			},
+			"states": {
+				"medieval:quantity": [0,1,2,3]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,0,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,180,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,90,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,270,0] }}},
+			{"condition": "q.block_state('medieval:quantity') == 1","components": {"minecraft:collision_box": {"origin": [-7,0.0,-7],"size": [15,8,14]},"minecraft:selection_box": {"origin": [-7,0.0,-7],"size": [15,8,14]}}},
+			{"condition": "q.block_state('medieval:quantity') == 2","components": {"minecraft:collision_box": {"origin": [-7.5,0.0,-7.5],"size": [15,8,15]},"minecraft:selection_box": {"origin": [-7.5,0.0,-7.5],"size": [15,8,15]}}},
+			{"condition": "q.block_state('medieval:quantity') == 3","components": {"minecraft:collision_box": {"origin": [-7.5,0.0,-7.5],"size": [15,16,15]},"minecraft:selection_box": {"origin": [-7.5,0.0,-7.5],"size": [15,16,15]}}}
+		],
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.mf.beer_mug_block",
+				"bone_visibility": {
+					"beer_mug": "q.block_state('medieval:quantity') == 0",
+					"beer_mug2": "q.block_state('medieval:quantity') == 1",
+					"beer_mug3": "q.block_state('medieval:quantity') >= 2",
+					"beer_mug4": "q.block_state('medieval:quantity') == 3",
+					"beer": false,
+					"beer2": false,
+					"beer3": false,
+					"beer4": false
+				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [{
+					"allowed_faces": ["up"]
+				}]
+			},
+			"minecraft:material_instances": {"*": {"texture": "mf:beer_mug","render_method": "alpha_test","ambient_occlusion": false}},
+			"minecraft:collision_box": {"origin": [-3,0.0,-3],"size": [9,8,6]},
+			"minecraft:selection_box": {"origin": [-3,0.0,-3],"size": [9,8,6]},
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": {
+				"detection_rules": [{
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "broken"
+				}]
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 20 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0 },
+			"minecraft:custom_components": ["mf:break_by_quantity", "mf:beer_mug"],
+			"minecraft:map_color": "#634526"
+		}
+	}
+}

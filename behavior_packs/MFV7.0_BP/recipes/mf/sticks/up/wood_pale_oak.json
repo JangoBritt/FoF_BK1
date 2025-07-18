@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:pale_oak_wood_beam_up"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:pale_oak_log" } ],
+		"unlock": [ { "item": "minecraft:pale_oak_log" } ],
+		"result": {
+			"item": "medieval:pale_oak_wood_beam_up",
+			"count": 16
+		}
+	}
+}

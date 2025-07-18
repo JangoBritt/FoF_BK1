@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "medieval:spruce_covered_wagon",
+			"render_controllers": ["controller.render.default"],
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/medieval/items/t/covered_wagon"
+			},
+			"geometry": {
+				"default": "geometry.mf.large_item"
+			},
+			"animations": {
+				"hold": "animation.mf.large_item.hold"
+			},
+			"scripts": {
+				"animate": [
+					"hold"
+				]
+			}
+		}
+	}
+}

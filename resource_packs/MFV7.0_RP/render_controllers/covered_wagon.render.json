@@ -1,0 +1,80 @@
+{
+	"format_version":"1.8.0",
+	"render_controllers": {
+		"controller.render.mf.covered_wagon": {
+			"part_visibility": [
+				{ "*horse*": false },
+				{ "cart_yokeh*": "q.is_tamed" }
+			],
+			"textures": [ "Texture.default" ],
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default",
+					"cart_lantern*": "Material.light_lantern"
+				}
+			],
+			"on_fire_color": {},
+			"is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 }
+		},
+		"controller.render.mf.covered_wagon_horse": {
+			"part_visibility": [
+				{ "cart_*": false },
+				{ "armorhorse*": false }
+			],
+			"arrays": {
+				"textures": {
+					"Array.base": [
+						"Texture.base_white",
+						"Texture.base_creamy",
+						"Texture.base_chestnut",
+						"Texture.base_brown",
+						"Texture.base_black",
+						"Texture.base_gray",
+						"Texture.base_darkbrown"
+					],
+					"Array.mark": [
+						"Texture.markings_none",
+						"Texture.markings_white",
+						"Texture.markings_whitefield",
+						"Texture.markings_whitedots",
+						"Texture.markings_blackdots"
+					]
+				}
+			},
+			"textures": [
+				"Array.base[q.property('mf:base_color')]",
+				"Array.mark[q.property('mf:mark_variant')]"
+			],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.horse" }
+			]
+		},
+		"controller.render.mf.covered_wagon_horse_armor": {
+			"part_visibility": [
+				{ "cart_*": false },
+				{ "horse*": false }
+			],
+			"arrays": {
+				"textures": {
+					"Array.armor": [
+						"Texture.armor_none",
+						"Texture.armor_leather",
+						"Texture.armor_iron",
+						"Texture.armor_gold",
+						"Texture.armor_diamond",
+						"Texture.armor_netherite"
+					]
+				}
+			},
+			"textures": [
+				"Array.armor[q.property('mf:horse_armor')]"
+			],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			]
+		}
+	}
+}

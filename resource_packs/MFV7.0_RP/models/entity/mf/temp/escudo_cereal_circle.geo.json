@@ -1,0 +1,48 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.drop_escudo_001",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "shield",
+					"pivot": [1, 15.5, 3],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{
+							"origin": [0, 25.1, 0],
+							"size": [2, 6, 6],
+							"uv": {
+								"north": {"uv": [6, 19], "uv_size": [2, 6]},
+								"east": {"uv": [0, 19], "uv_size": [6, 6]},
+								"south": {"uv": [14, 19], "uv_size": [2, 6]},
+								"west": {"uv": [8, 19], "uv_size": [6, 6]},
+								"up": {"uv": [6, 13], "uv_size": [2, 6]},
+								"down": {"uv": [8, 19], "uv_size": [2, -6]}
+							}
+						},
+						{
+							"origin": [-5, 22, -1],
+							"size": [12, 12, 1],
+							"uv": {
+								"north": {"uv": [1, 1], "uv_size": [12, 12]},
+								"east": {"uv": [0, 1], "uv_size": [1, 12]},
+								"south": {"uv": [13, 1], "uv_size": [-12, 12]},
+								"west": {"uv": [13, 1], "uv_size": [1, 12]},
+								"up": {"uv": [1, 0], "uv_size": [12, 1]},
+								"down": {"uv": [13, 1], "uv_size": [12, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

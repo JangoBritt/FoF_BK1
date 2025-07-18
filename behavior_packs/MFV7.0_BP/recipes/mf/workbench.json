@@ -1,0 +1,28 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:workbench"
+		},
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" H ",
+			"SSS",
+			"###"
+		],
+		"key": {
+			"H": { "item": "minecraft:iron_ingot" },
+			"S": { "item": "minecraft:stick" },
+			"#": { "tag": "minecraft:planks" }
+		},
+		"unlock": [
+			{ "tag": "minecraft:planks" },
+			{ "item": "minecraft:iron_ingot" },
+			{ "item": "minecraft:stick" }
+		],
+		"result": {
+			"item": "medieval:workbench",
+			"count": 1
+		}
+	}
+}

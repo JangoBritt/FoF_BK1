@@ -1,0 +1,98 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:covered_wagon_spruce",
+			"materials": {
+				"default": "bee",
+				"light_lantern": "entity_emissive_alpha",
+				"horse": "entity_multitexture_multiplicative_blend"
+			},
+			"textures": {
+				"default": "textures/medieval/entities/wagon",
+
+				"base_brown": "textures/entity/horse2/horse_brown",
+				"base_white": "textures/entity/horse2/horse_white",
+				"base_creamy": "textures/entity/horse2/horse_creamy",
+				"base_chestnut": "textures/entity/horse2/horse_chestnut",
+				"base_black": "textures/entity/horse2/horse_black",
+				"base_gray": "textures/entity/horse2/horse_gray",
+				"base_darkbrown": "textures/entity/horse2/horse_darkbrown",
+				"markings_none": "textures/entity/horse2/horse_markings_none",
+				"markings_white": "textures/entity/horse2/horse_markings_white",
+				"markings_whitefield": "textures/entity/horse2/horse_markings_whitefield",
+				"markings_whitedots": "textures/entity/horse2/horse_markings_whitedots",
+				"markings_blackdots": "textures/entity/horse2/horse_markings_blackdots",
+				"armor_none": "textures/entity/horse2/armor/horse_armor_none",
+				"armor_leather": "textures/medieval/entities/horse_armor/leather",
+				"armor_iron": "textures/entity/horse2/armor/horse_armor_iron",
+				"armor_gold": "textures/entity/horse2/armor/horse_armor_gold",
+				"armor_diamond": "textures/entity/horse2/armor/horse_armor_diamond",
+				"armor_netherite": "textures/medieval/entities/horse_armor/netherite"
+			},
+			"geometry": {
+				"default": "geometry.mf.covered_wagon"
+			},
+			"animations": {
+				"idle_horse_0_controller": "controller.animation.mf.horse_idle",
+				"idle_horse_1_controller": "controller.animation.mf.horse1_idle",
+				"movement_ca": "controller.animation.mf.horse1_move",
+				"movement_2_ca": "controller.animation.mf.horse2_move",
+				"break_control": "controller.animation.mf.break_wooden_cart",
+				"no_horse": "animation.mf.covered_wagon.no_horse",
+				"idle0": "animation.mf.cart_horse.idle0",
+				"idle1": "animation.mf.cart_horse.idle1",
+				"idle2": "animation.mf.cart_horse.idle2",
+				"h1_idle0": "animation.mf.cart_horse.h1_idle0",
+				"h1_idle1": "animation.mf.cart_horse.h1_idle1",
+				"h1_idle2": "animation.mf.cart_horse.h1_idle2",
+				"walk": "animation.mf.cart_horse.move0",
+				"trot": "animation.mf.cart_horse.move1",
+				"gallop": "animation.mf.cart_horse.move2",
+				"gallop2": "animation.mf.cart_horse.move3",
+				"h1_walk": "animation.mf.cart_horse.h1_move0",
+				"h1_trot": "animation.mf.cart_horse.h1_move1",
+				"h1_gallop": "animation.mf.cart_horse.h1_move2",
+				"h1_gallop2": "animation.mf.cart_horse.h1_move3",
+				"base": "animation.mf.covered_wagon.c_idle",
+				"break": "animation.mf.wooden_cart.break",
+				"light_particle": "animation.mf.covered_wagon.light"
+			},
+			"scripts": {
+				"initialize": [
+					"v.randomt = 0;",
+					"v.randomt2 = 2;",
+					"v.random_anim = 0;",
+					"v.random_anim1 = 1;",
+					"v.neck_yaw = 0;",
+					"v.other = 0;"
+				],
+				"pre_animation": [
+					"v.neck_yaw_target = math.clamp(q.yaw_speed * math.abs(q.yaw_speed) * 0.4, -30, 30);",
+					"v.neck_yaw = math.lerp(v.neck_yaw, v.neck_yaw_target, 0.1);",
+					"v.other_target = math.clamp(q.yaw_speed * 0.4, -12, 12);",
+					"v.other = math.lerp(v.other, v.other_target, 0.1);",
+					"v.health = q.property('mf:health');"
+				],
+				"animate": [
+					"base",
+					"break_control",
+					"light_particle",
+					{ "no_horse": "!q.is_tamed" },
+					{ "idle_horse_0_controller": "q.is_tamed" },
+					{ "idle_horse_1_controller": "q.is_tamed" },
+					{ "movement_ca": "q.is_tamed" },
+					{ "movement_2_ca": "q.is_tamed" }
+				]
+			},
+			"particle_effects": {
+				"light": "medieval:light"
+			},
+			"render_controllers": [
+				"controller.render.mf.covered_wagon",
+				{ "controller.render.mf.covered_wagon_horse": "q.is_tamed" },
+				{ "controller.render.mf.covered_wagon_horse_armor": "q.is_tamed && q.property('mf:horse_armor') > 0" }
+			]
+		}
+	}
+}

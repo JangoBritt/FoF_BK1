@@ -1,0 +1,48 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:spruce_planks_mslab",
+			"menu_category": {
+				"category": "construction",
+				"group": "medFur:smallSlabs"
+			},
+			"traits": {
+				"minecraft:placement_position": { "enabled_states": [ "minecraft:vertical_half" ] }
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:vertical_half') == 'bottom'","components": {
+				"minecraft:collision_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 3, 16 ] },
+				"minecraft:selection_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 3, 16 ] }
+			}}
+		],
+		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mf.roof",
+				"bone_visibility": {
+					"top": "q.block_state('minecraft:vertical_half') == 'top'",
+					"bottom": "q.block_state('minecraft:vertical_half') == 'bottom'"
+				}
+			},
+			"minecraft:material_instances": { "*": { "texture": "mf:spruce_planks", "render_method": "opaque" } },
+			"minecraft:collision_box": { "origin": [ -8, 13, -8 ], "size": [ 16, 3, 16 ] },
+			"minecraft:selection_box": { "origin": [ -8, 13, -8 ], "size": [ 16, 3, 16 ] },
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "blocking"
+			} ] },
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 5 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 4.0 },
+			"minecraft:map_color": "#91662a"
+		}
+	}
+}

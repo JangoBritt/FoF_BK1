@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:bone_block_brazier"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:bone_block" } ],
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:bone_block_brazier",
+			"count": 1
+		}
+	}
+}

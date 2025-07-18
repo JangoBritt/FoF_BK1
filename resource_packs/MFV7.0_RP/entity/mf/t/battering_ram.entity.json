@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:battering_ram_entity",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/medieval/entities/battering_ram"
+			},
+			"geometry": {
+				"default": "geometry.mf.battering_ram"
+			},
+			"animations": {
+				"break_control": "controller.animation.mf.break_wooden_cart",
+				"break": "animation.mf.wooden_cart.break"
+			},
+			"scripts": {
+				"pre_animation": [
+					"v.health = q.property('mf:health');"
+				],
+				"animate": [
+					"break_control"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

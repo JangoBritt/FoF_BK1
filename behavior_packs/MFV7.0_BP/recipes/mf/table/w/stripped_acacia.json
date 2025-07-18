@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_acacia_wtable"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"#G#",
+			"SSS",
+			"S S"
+		],
+		"key": {
+			"#": { "item": "minecraft:stripped_acacia_log" },
+			"G": { "item": "minecraft:glass" },
+			"S": { "item": "minecraft:stick" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_acacia_wtable",
+			"count": 3
+		}
+	}
+}

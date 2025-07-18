@@ -1,0 +1,38 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"medieval:drawer_container": {
+				"events": {"death": {"volume": 0,"sound": ""}},
+				"volume": 0
+			},
+			"medieval:big_container": {
+				"events": {"death": {"volume": 0,"sound": ""}},
+				"volume": 0
+			},
+			"medieval:weapon_stand_ev2": {
+				"events": {"death": {"volume": 0,"sound": ""}},
+				"volume": 0
+			},
+			"medieval:pendulum_clock": {
+				"events": {"death": {"volume": 0,"sound": ""}},
+				"volume": 0
+			},
+			"medieval:mailbox_0": {
+				"events": {"death": {"volume": 0,"sound": ""}},
+				"volume": 0
+			},
+			"medieval:stove_entity": {
+				"events": {"death": {"volume": 0,"sound": ""}},
+				"volume": 0
+			},
+			"medieval:disc_music": {
+				"events": {"death": {"volume": 0,"sound": ""}},
+				"volume": 0
+			},
+			"medieval:barrel_cont": {
+				"events": {"death": {"volume": 0,"sound": ""}},
+				"volume": 0
+			}
+		}
+	}
+}

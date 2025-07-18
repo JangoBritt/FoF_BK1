@@ -1,0 +1,20 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "items",
+				"group": "medFur:woodenCart"
+			},
+			"identifier": "medieval:spruce_covered_wagon"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "mf:covered_wagon_spruce",
+			"minecraft:display_name": {
+				"value": "item.medieval:covered_wagon_spruce"
+			},
+			"minecraft:entity_placer": { "entity": "medieval:covered_wagon_spruce" }
+		}
+	}
+}

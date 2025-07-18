@@ -17,12 +17,12 @@
 				"item": "minecraft:paper"
 			},
 			"B": {
-				"item": "medieval:beer_mug_fill_item"
+				"item": "medieval:beer_mug_fill"
 			}
 		},
 		"unlock": [
 			{
-				"item": "medieval:beer_mug_fill_item"
+				"item": "medieval:beer_mug_fill"
 			}
 		],
 		"result": [

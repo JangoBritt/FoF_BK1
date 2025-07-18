@@ -1,0 +1,65 @@
+{
+	"format_version":"1.8.0",
+	"render_controllers": {
+		"controller.render.mf.painting": {
+			"part_visibility": [
+				{ "paint0": "q.property('mf:type') == 0" },
+				{ "paint1": "q.property('mf:type') == 1" },
+				{ "paint2": "q.property('mf:type') == 2" },
+				{ "paint3": "q.property('mf:type') == 3" },
+				{ "paint4": "q.property('mf:type') == 4" },
+				{ "paint5": "q.property('mf:type') == 5" },
+				{ "paint6": "q.property('mf:type') == 6" },
+				{ "paint7": "q.property('mf:type') == 7" },
+				{ "paint8": "q.property('mf:type') == 8" },
+				{ "paint9": "q.property('mf:type') == 9" },
+				{ "paint10": "q.property('mf:type') == 10" },
+				{ "paint11": "q.property('mf:type') == 11" },
+				{ "paint12": "q.property('mf:type') == 12" },
+				{ "paint13": "q.property('mf:type') == 13" },
+				{ "paint14": "q.property('mf:type') == 14" },
+				{ "paint15": "q.property('mf:type') == 15" },
+				{ "paint16": "q.property('mf:type') == 16" },
+				{ "paint17": "q.property('mf:type') == 17" },
+				{ "paint18": "q.property('mf:type') == 18" },
+				{ "paint19": "q.property('mf:type') == 19" },
+				{ "paint20": "q.property('mf:type') == 20" },
+				{ "paint21": "q.property('mf:type') == 21" },
+				{ "paint22": "q.property('mf:type') == 22" },
+				{ "paint23": "q.property('mf:type') == 23" }
+			],
+			"textures": [ "Texture.default" ],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 }
+		},
+		"controller.render.mf.helmet_stand": {
+			"arrays": {
+				"textures": {
+					"Array.wood": [
+						"Texture.stripped_oak",
+						"Texture.stripped_spruce",
+						"Texture.stripped_birch",
+						"Texture.stripped_jungle",
+						"Texture.stripped_acacia",
+						"Texture.stripped_dark_oak",
+						"Texture.stripped_mangrove",
+						"Texture.stripped_cherry",
+						"Texture.stripped_pale_oak",
+						"Texture.bamboo",
+						"Texture.stripped_crimson",
+						"Texture.stripped_warped"
+					]
+				}
+			},
+			"textures": [ "Array.wood[q.variant]" ],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 }
+		}
+	}
+}

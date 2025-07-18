@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_birch_box1"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"ABA",
+			"BCB",
+			"ABA"
+		],
+		"key": {
+			"A": { "item": "medieval:stripped_birch_post" },
+			"B": { "item": "medieval:stripped_birch_beam_right_inclined" },
+			"C": { "item": "minecraft:birch_planks" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_birch_box1",
+			"count": 2
+		}
+	}
+}

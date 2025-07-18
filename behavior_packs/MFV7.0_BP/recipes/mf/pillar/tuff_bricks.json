@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "endx:tuff_bricks_pillar"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:tuff_bricks" } ],
+		"unlock": [ { "item": "minecraft:tuff_bricks" } ],
+		"result": {
+			"item": "endx:tuff_bricks_pillar",
+			"count": 1
+		}
+	}
+}

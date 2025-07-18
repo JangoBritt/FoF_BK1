@@ -60,7 +60,7 @@
                             {
                                 "block_filter": [
                                     "dirt",
-                                    "grass"
+                                    "grass_block"
                                 ],
                                 "allowed_faces": [
                                     "up"

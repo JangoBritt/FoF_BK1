@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:pendulum_clock",
+			"enable_attachables": false,
+			"hide_armor": true,
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/medieval/blocks/clock/oak"
+			},
+			"geometry": {
+				"default": "geometry.mf.pendulum_of_clock"
+			},
+			"animations": {
+				"time": "animation.mf.pendulum_clock.move",
+				"pendulum": "animation.mf.pendulum_clock.time",
+				"sounds": "animation.mf.pendulum_clock.sounds",
+				"no_time": "animation.mf.pendulum_clock.no_time"
+			},
+			"sound_effects": {
+				"m.tic": "m.tic_pendulum_clock",
+				"m.tac": "m.tac_pendulum_clock"
+			},
+			"scripts": {
+				"animate": [
+					{ "sounds": "q.property('mf:enable_sounds') && q.property('mf:animations')" },
+					{ "time": "q.property('mf:animations')" },
+					{ "pendulum": "q.property('mf:animations')" },
+					{ "no_time": "!q.property('mf:animations')" }
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

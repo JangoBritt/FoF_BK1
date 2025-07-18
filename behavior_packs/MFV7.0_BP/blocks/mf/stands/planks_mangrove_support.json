@@ -1,0 +1,48 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:mangrove_planks_support",
+            "menu_category": {
+                "category": "construction",
+                "group": "medFur:planksSupport"
+            },
+			"states": {
+				"medieval:facing_direction": [ 2, 3, 4, 5 ],
+				"medieval:side": [ 0, 1 ]
+			}
+		},
+		"permutations": [
+			{ "condition": "q.block_state('medieval:side') == 1", "components": {
+				"minecraft:collision_box": { "origin": [ -8, 13, -8 ], "size": [ 16, 3, 16 ] },
+				"minecraft:selection_box": { "origin": [ -8, 13, -8 ], "size": [ 16, 3, 16 ] }
+			} }
+		],
+		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:geometry": {
+				"identifier":"geometry.mf.support_0_no_rotation",
+				"bone_visibility": {
+					"shelf_n": "q.block_state('medieval:facing_direction') == 2 && q.block_state('medieval:side') == 0",
+					"shelf_s": "q.block_state('medieval:facing_direction') == 3 && q.block_state('medieval:side') == 0",
+					"shelf_w": "q.block_state('medieval:facing_direction') == 4 && q.block_state('medieval:side') == 0",
+					"shelf_e": "q.block_state('medieval:facing_direction') == 5 && q.block_state('medieval:side') == 0"
+				}
+			},
+			"minecraft:material_instances": { "*": { "texture": "mf:mangrove_planks", "render_method": "opaque" } },
+			"minecraft:collision_box": { "origin": [ -8, 8, -8 ], "size": [ 16, 8, 16 ] },
+			"minecraft:selection_box": { "origin": [ -8, 8, -8 ], "size": [ 16, 8, 16 ] },
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "blocking"
+			} ] },
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 20 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 4.0 },
+			"minecraft:custom_components": [ "mf:old_rotation2", "mf:support_connection" ],
+			"minecraft:map_color": "#a6324f"
+		}
+	}
+}

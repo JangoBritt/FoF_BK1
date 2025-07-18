@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_spruce_wooden_stairs"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"#  ",
+			"B# ",
+			" B#"
+		],
+		"key": {
+			"#": { "item": "minecraft:stripped_spruce_log" },
+			"B": { "item": "minecraft:stick" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_spruce_wooden_stairs",
+			"count": 4
+		}
+	}
+}

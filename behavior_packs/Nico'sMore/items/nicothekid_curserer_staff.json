@@ -92,7 +92,8 @@
           "nicothekid:range_weapon",
           "nicothekid:magical_scourge",
           "nicothekid:spirit_piercer",
-          "nicothekid:items"
+          "nicothekid:items",
+		  "minecraft:is_tool"
         ]
       }
     }

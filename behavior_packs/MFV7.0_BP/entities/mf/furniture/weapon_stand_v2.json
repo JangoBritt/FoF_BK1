@@ -1,0 +1,128 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:weapon_stand_ev2",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"mf:despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:type_family": { "family": [ "inanimate", "medieval_container", "medieval_return_inv" ] },
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:inventory": {
+				"inventory_size": 12,
+				"container_type": "inventory"
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:custom_hit_test": { "hitboxes": [
+				{
+					"width": 0.7,
+					"height": 0.6,
+					"pivot": [0, -0.1, 0]
+				}
+			] },
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": "no"
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1,
+				"min": 1
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:on_death": {
+				"event": "medieval:no_particle",
+				"target": "self"
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{ "block": { "name": "minecraft:air" }, "entered_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_oak_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_oak_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_oak_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_oak_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_spruce_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_spruce_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_spruce_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_spruce_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_birch_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_birch_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_birch_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_birch_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_jungle_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_jungle_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_jungle_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_jungle_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_acacia_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_acacia_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_acacia_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_acacia_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_darkoak_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_darkoak_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_darkoak_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_darkoak_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_mangrove_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_mangrove_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_mangrove_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_mangrove_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_cherry_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_cherry_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_cherry_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_cherry_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_pale_oak_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_pale_oak_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_pale_oak_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_pale_oak_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_crimson_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_crimson_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_crimson_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_crimson_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_warped_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_warped_weapon_stand" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:wood_warped_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stripped_warped_weapon_stand_side" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } }
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:persistent": {},
+			"minecraft:fire_immune": {},
+			"minecraft:renders_when_invisible": {},
+			"minecraft:body_rotation_blocked": {},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"queue_command": { "command": [ "effect @s invisibility infinite 0 true" ] }
+			},
+			"mf:despawn": { "queue_command": { "command": [ "scriptevent medieval:drop_inventory" ] } }
+		}
+	}
+}

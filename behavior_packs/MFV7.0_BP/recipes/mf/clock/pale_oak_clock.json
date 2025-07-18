@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:pale_oak_pendulum_clock"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"#C#",
+			"#G#",
+			"###"
+		],
+		"key": {
+			"#": { "item": "minecraft:pale_oak_planks" },
+			"C": {"item": "minecraft:clock" },
+			"G": {"item": "minecraft:gold_ingot" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:pale_oak_pendulum_clock",
+			"count": 1
+		}
+	}
+}

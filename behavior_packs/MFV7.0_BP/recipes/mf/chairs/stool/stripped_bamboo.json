@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:bamboo_stool"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"#P#",
+			"S S"
+		],
+		"key": {
+			"#": { "item": "minecraft:stripped_bamboo_block" },
+			"P": { "item": "minecraft:bamboo_planks" },
+			"S": { "item": "minecraft:stick" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:bamboo_stool",
+			"count": 2
+		}
+	}
+}

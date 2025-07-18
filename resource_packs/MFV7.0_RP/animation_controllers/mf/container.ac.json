@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.mf.container": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "keep_close": "(1.0)" }
+					]
+				},
+				"keep_close": {
+					"animations": [ "keep_close" ],
+					"transitions": [
+						{ "open": "q.property('mf:container_control') && v.look_at_entity && q.all_animations_finished" }
+					]
+				},
+				"open": {
+					"animations": [ "open" ],
+					"transitions": [
+						{ "keep_open": "q.all_animations_finished" }
+					]
+				},
+				"keep_open": {
+					"animations": [ "keep_open" ],
+					"transitions": [
+						{ "close": "(!q.property('mf:container_control') || !v.look_at_entity) && q.all_animations_finished" }
+					]
+				},
+				"close": {
+					"animations": [ "close" ],
+					"transitions": [
+						{ "keep_close": "q.all_animations_finished" }
+					]
+				}
+			}
+		}
+	}
+}

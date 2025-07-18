@@ -62,6 +62,9 @@ item.fables_misc:beardg=Gray Beard
 
 item.fables_misc:treesaw=Tree Saw
 
+tile.fables_misc:prismarine_wall_0.name=Prismarine Wall
+tile.fables_misc:dark_prismarine_wall_0.name=Dark Prismarine Wall
+
 tile.fables_misc:prismarine_bricks_beam.name=Prismarine Brick Beam
 tile.fables_misc:prismarine_dark_beam.name=Dark Prismarine Beam
 
@@ -137,6 +140,9 @@ fables:itemGroup.name.concrete_stairs=Concrete Stairs
 
 item.fables_avatars:diving_helmet_mask=Diving Helmet
 item.fables_avatars:mining_helmet=Mining Helmet
+
+
+tile.fables_misc:ravager_milk_mug.name=Mug of Ravager Milk
 
 action.hint.exit.ravager=Jump to Exit
 action.interact.deny=You are not the Master of this Beast

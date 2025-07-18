@@ -1,0 +1,44 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Medieval Furniture V7.0.0 [BETA] Behvior Pack",
+		"name": "Medieval Furniture V7.0.0 [BETA] 1.21.80 §bBy EndXenoc",
+		"uuid": "2b7fc11f-2f1c-43d6-89cd-01c6b6921057",
+		"version": [ 7, 0, 0 ],
+		"min_engine_version": [ 1, 21, 70 ]
+	},
+	"modules": [
+		{
+			"description": "data",
+			"type": "data",
+			"uuid": "e59a07bb-cac4-4502-8082-69d95ede3578",
+			"version": [ 7, 0, 0 ]
+		},
+		{
+			"description": "js",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "49061d89-4de5-47d2-b53e-cd89b9293223",
+			"version": [ 7, 0, 0 ],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a09917a4-8add-43a6-a9ee-06b2ae33eac1",
+			"version": [ 7, 0, 0 ]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.16.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0"
+		}
+	],
+	"metadata": {
+		"product_type": "addon",
+		"authors": [ "EndXenoc" ]
+	}
+}

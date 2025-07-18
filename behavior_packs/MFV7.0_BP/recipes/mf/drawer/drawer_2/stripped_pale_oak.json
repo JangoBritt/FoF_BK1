@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:pale_oak_drawer2"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": { "item": "minecraft:pale_oak_planks" },
+			"B": { "item": "medieval:stripped_pale_oak_mslab" },
+			"C": { "item": "minecraft:book" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:pale_oak_drawer2",
+			"count": 1
+		}
+	}
+}

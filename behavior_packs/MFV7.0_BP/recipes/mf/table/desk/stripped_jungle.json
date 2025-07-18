@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_jungle_table0"
+		},
+		"tags": [
+			"medieval:workbench"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": { "item": "minecraft:jungle_planks" },
+			"B": { "item": "medieval:stripped_jungle_mslab" },
+			"C": { "item": "medieval:stripped_jungle_post" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_jungle_table0",
+			"count": 1
+		}
+	}
+}

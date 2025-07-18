@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_spruce_stool"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"#P#",
+			"S S"
+		],
+		"key": {
+			"#": { "item": "minecraft:stripped_spruce_log" },
+			"P": { "item": "minecraft:spruce_planks" },
+			"S": { "item": "minecraft:stick" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_spruce_stool",
+			"count": 2
+		}
+	}
+}

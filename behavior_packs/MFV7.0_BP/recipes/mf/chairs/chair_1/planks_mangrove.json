@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:mangrove_planks_chair1"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:mangrove_planks" } ],
+		"unlock": [ { "item": "minecraft:mangrove_planks" } ],
+		"result": {
+			"item": "medieval:mangrove_planks_chair1",
+			"count": 1
+		}
+	}
+}

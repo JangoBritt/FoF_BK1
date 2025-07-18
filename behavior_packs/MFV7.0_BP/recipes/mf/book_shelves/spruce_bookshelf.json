@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:spruce_bookshelf_0"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"###",
+			"PPP",
+			"###"
+		],
+		"key": {
+			"#": { "item": "minecraft:spruce_planks" },
+			"P": { "item": "minecraft:stick" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:spruce_bookshelf_0",
+			"count": 1
+		}
+	}
+}

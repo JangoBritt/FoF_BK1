@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:warped_chandelier"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"C#C",
+			"#S#",
+			"C#C"
+		],
+		"key": {
+			"#": { "item": "minecraft:candle" },
+			"C": { "item": "minecraft:chain" },
+			"S": { "item": "minecraft:stripped_warped_stem" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:warped_chandelier",
+			"count": 2
+		}
+	}
+}

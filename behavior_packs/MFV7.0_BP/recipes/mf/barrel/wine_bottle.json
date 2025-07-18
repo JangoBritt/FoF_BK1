@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wine_bottle"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"WWW",
+			"#A#"
+		],
+		"key": {
+			"#": { "item": "minecraft:brown_dye" },
+			"A": { "item": "minecraft:potion", "data": 0 },
+			"W": { "item": "minecraft:wheat" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:wine_bottle",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:acacia_barrel"
+		},
+		"tags": [
+			"medieval:workbench"
+		],
+		"pattern": [
+			"#A#",
+			"#C#",
+			"#A#"
+		],
+		"key": {
+			"#": { "item": "minecraft:acacia_planks" },
+			"A": { "item": "minecraft:acacia_slab" },
+			"C": { "item": "minecraft:frame" }
+		},
+		"unlock": [
+			{ "item": "medieval:workbench" }
+		],
+		"result": {
+			"item": "medieval:acacia_barrel",
+			"count": 1
+		}
+	}
+}

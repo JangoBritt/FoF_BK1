@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:jungle_box2"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"###",
+			"#C#",
+			"###"
+		],
+		"key": {
+			"#": { "item": "medieval:jungle_wood_post" },
+			"C": { "item": "minecraft:jungle_planks" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:jungle_box2",
+			"count": 2
+		}
+	}
+}

@@ -1,0 +1,17 @@
+[
+	{
+		"flipbook_texture": "textures/medieval/blocks/other_blocks/fire_candle",
+		"atlas_tile": "mf:fire_candle",
+		"ticks_per_frame": 4
+	},
+	{
+		"flipbook_texture": "textures/medieval/blocks/coal_lit",
+		"atlas_tile": "mf:coal_lit",
+		"ticks_per_frame": 5
+	},
+	{
+		"flipbook_texture": "textures/medieval/blocks/water_flow",
+		"atlas_tile": "mf:water",
+		"ticks_per_frame": 2
+	}
+]

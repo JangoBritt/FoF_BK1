@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:darkoak_streetlight_0"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"#",
+			"A",
+			"#"
+		],
+		"key": {
+			"A": { "item": "medieval:stripped_darkoak_post" },
+			"#": { "item": "minecraft:iron_ingot" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:darkoak_streetlight_0",
+			"count": 1
+		}
+	}
+}

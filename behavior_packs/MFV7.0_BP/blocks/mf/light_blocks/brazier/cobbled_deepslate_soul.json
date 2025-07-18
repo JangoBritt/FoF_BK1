@@ -1,0 +1,51 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:cobbled_deepslate_soul_brazier",
+			"menu_category": {
+				"category": "construction",
+				"group": "medFur:soulStoneBrazier"
+			},
+			"states": {"medieval:state": [0,1,2,3]}
+		},
+		"permutations": [
+			{"condition": "q.block_state('medieval:state') == 0","components": {"minecraft:light_emission": 15,"minecraft:collision_box": {"origin": [-6,0,-6],"size": [12,11,12]}}},
+			{"condition": "q.block_state('medieval:state') == 1","components": {"minecraft:light_emission": 15,"minecraft:collision_box": {"origin": [-6,0,-6],"size": [12,11,12]}}}
+		],
+		"components": {
+			"tag:mf:brazier": {},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mf.stone_campfire",
+				"bone_visibility": {
+					"top": "q.block_state('medieval:state') <= 1",
+					"0": "q.block_state('medieval:state') == 0",
+					"3": "q.block_state('medieval:state') == 3",
+					"middle": "q.block_state('medieval:state') >= 2"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {"texture": "mf:cobbled_deepslate","render_method": "alpha_test","ambient_occlusion": false},
+				"fire": {"texture": "soul_campfire_fire","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false},
+				"fire_base": {"texture": "soul_campfire_log_lit","render_method": "alpha_test","ambient_occlusion": false}
+			},
+			"minecraft:collision_box": {"origin": [-6,0,-6],"size": [12,16,12]},
+			"minecraft:selection_box": {"origin": [-6,0,-6],"size": [12,16,12]},
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "blocking"
+			} ] },
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 6.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 4.0 },
+			"minecraft:custom_components": [ "mf:brazier" ],
+			"minecraft:map_color": "#696969"
+		}
+	}
+}

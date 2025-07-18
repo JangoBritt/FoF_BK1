@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_mangrove_weapon_stand"
+		},
+		"tags": [
+			"medieval:workbench"
+		],
+		"pattern": [
+			"ABA",
+			"ABA"
+		],
+		"key": {
+			"A": { "item": "minecraft:stripped_mangrove_log" },
+			"B": { "item": "medieval:stripped_mangrove_beam_up" }
+		},
+		"result": {
+			"item": "medieval:stripped_mangrove_weapon_stand",
+			"count": 1
+		}
+	}
+}

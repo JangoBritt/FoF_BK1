@@ -1,0 +1,260 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mf.portcullis.open2": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1.5,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, 0, 0],
+						"1.0": [0, 48, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "t.mp3"
+				}
+			}
+		},
+		"animation.mf.portcullis.open3": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1.25,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 32", 0],
+						"0.75": [0, "q.property('mf:is_open') ? 32 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound3"
+				}
+			}
+		},
+		"animation.mf.portcullis.open4": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1.5,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 48", 0],
+						"1.0": [0, "q.property('mf:is_open') ? 48 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound4"
+				}
+			}
+		},
+		"animation.mf.portcullis.open5": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1.75,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 64", 0],
+						"1.25": [0, "q.property('mf:is_open') ? 64 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound5"
+				}
+			}
+		},
+		"animation.mf.portcullis.open6": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 80", 0],
+						"1.5": [0, "q.property('mf:is_open') ? 80 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound6"
+				}
+			}
+		},
+		"animation.mf.portcullis.open7": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 96", 0],
+						"1.6667": [0, "q.property('mf:is_open') ? 96 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound7"
+				}
+			}
+		},
+		"animation.mf.portcullis.open8": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2.125,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 112", 0],
+						"1.7917": [0, "q.property('mf:is_open') ? 112 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound8"
+				}
+			}
+		},
+		"animation.mf.portcullis.open9": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2.3333,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 128", 0],
+						"1.9167": [0, "q.property('mf:is_open') ? 128 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound9"
+				}
+			}
+		},
+		"animation.mf.portcullis.open10": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2.5,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 144", 0],
+						"2.0417": [0, "q.property('mf:is_open') ? 144 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound10"
+				}
+			}
+		},
+		"animation.mf.portcullis.open11": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2.5833,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 160", 0],
+						"2.1667": [0, "q.property('mf:is_open') ? 160 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound11"
+				}
+			}
+		},
+		"animation.mf.portcullis.open12": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2.75,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 176", 0],
+						"2.2917": [0, "q.property('mf:is_open') ? 176 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound12"
+				}
+			}
+		},
+		"animation.mf.portcullis.open13": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2.75,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 192", 0],
+						"2.4167": [0, "q.property('mf:is_open') ? 192 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound13"
+				}
+			}
+		},
+		"animation.mf.portcullis.open14": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 3,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 208", 0],
+						"2.5": [0, "q.property('mf:is_open') ? 208 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound14"
+				}
+			}
+		},
+		"animation.mf.portcullis.open15": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 3.25,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 224", 0],
+						"2.5833": [0, "q.property('mf:is_open') ? 224 : 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound15"
+				}
+			}
+		},
+		"animation.mf.portcullis.open16": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 3.0833,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0833": [0, "q.property('mf:is_open') ? 0 : 240", 0],
+						"2.6667": [0, "q.property('mf:is_open') ? 240: 0", 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sound16"
+				}
+			}
+		}
+	}
+}

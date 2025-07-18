@@ -23,7 +23,7 @@
 			"tag:medieval_furniture": {},
 			"tag:mf.door": {},
 			"minecraft:material_instances": {"*": {"texture": "m.stripped_mangrove","render_method": "alpha_test","ambient_occlusion": false},"glass": {"texture": "glass","render_method": "alpha_test","ambient_occlusion": false},"knob": {"texture": "light_gray_concrete","render_method": "alpha_test","ambient_occlusion": false}},
-			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": ["stripped_mangrove_tall_window"]}]},
+			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": ["medieval:stripped_mangrove_tall_window"]}]},
 			"minecraft:liquid_detection": {
 				"detection_rules": [
 				  {

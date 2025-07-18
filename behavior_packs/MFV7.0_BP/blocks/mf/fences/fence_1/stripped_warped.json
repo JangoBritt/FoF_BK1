@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stripped_warped_fence1",
+			"menu_category": {
+				"category": "construction",
+				"group": "medFur:fence1"
+			},
+			"states": {
+				"mc:n": [ false, true ],
+				"mc:s": [ false, true ],
+				"mc:w": [ false, true ],
+				"mc:e": [ false, true ]
+			}
+		},
+		"permutations": [
+			{"condition": "!q.block_state('mc:n') && !q.block_state('mc:s') && !q.block_state('mc:w') && !q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-2,0,-2],"size": [4,16,4]},"minecraft:selection_box": {"origin": [-2,0,-2],"size": [4,16,4]}}},
+			{"condition": "q.block_state('mc:n') && !q.block_state('mc:s') && !q.block_state('mc:w') && !q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-2,0,-8],"size": [4,16,10]},"minecraft:selection_box": {"origin": [-2,0,-8],"size": [4,16,10]}}},
+			{"condition": "!q.block_state('mc:n') && q.block_state('mc:s') && !q.block_state('mc:w') && !q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-2,0,-2],"size": [4,16,10]},"minecraft:selection_box": {"origin": [-2,0,-2],"size": [4,16,10]}}},
+			{"condition": "!q.block_state('mc:n') && !q.block_state('mc:s') && q.block_state('mc:w') && !q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-2,0,-2],"size": [10,16,4]},"minecraft:selection_box": {"origin": [-2,0,-2],"size": [10,16,4]}}},
+			{"condition": "!q.block_state('mc:n') && !q.block_state('mc:s') && !q.block_state('mc:w') && q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-8,0,-2],"size": [10,16,4]},"minecraft:selection_box": {"origin": [-8,0,-2],"size": [10,16,4]}}},
+			{"condition": "q.block_state('mc:n') && q.block_state('mc:s') && !q.block_state('mc:w') && !q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-2,0,-8],"size": [4,16,16]},"minecraft:selection_box": {"origin": [-2,0,-8],"size": [4,16,16]}}},
+			{"condition": "!q.block_state('mc:n') && !q.block_state('mc:s') && q.block_state('mc:w') && q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-8,0,-2],"size": [16,16,4]},"minecraft:selection_box": {"origin": [-8,0,-2],"size": [16,16,4]}}},
+			{"condition": "q.block_state('mc:n') && !q.block_state('mc:s') && q.block_state('mc:w') && !q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-2,0,-8],"size": [10,16,10]},"minecraft:selection_box": {"origin": [-2,0,-8],"size": [10,16,10]}}},
+			{"condition": "q.block_state('mc:n') && !q.block_state('mc:s') && !q.block_state('mc:w') && q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-8,0,-8],"size": [10,16,10]},"minecraft:selection_box": {"origin": [-8,0,-8],"size": [10,16,10]}}},
+			{"condition": "!q.block_state('mc:n') && q.block_state('mc:s') && q.block_state('mc:w') && !q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-2,0,-2],"size": [10,16,10]},"minecraft:selection_box": {"origin": [-2,0,-2],"size": [10,16,10]}}},
+			{"condition": "!q.block_state('mc:n') && q.block_state('mc:s') && !q.block_state('mc:w') && q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-8,0,-2],"size": [10,16,10]},"minecraft:selection_box": {"origin": [-8,0,-2],"size": [10,16,10]}}},
+			{"condition": "q.block_state('mc:n') && !q.block_state('mc:s') && q.block_state('mc:w') && q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-8,0,-8],"size": [16,16,10]},"minecraft:selection_box": {"origin": [-8,0,-8],"size": [16,16,10]}}},
+			{"condition": "!q.block_state('mc:n') && q.block_state('mc:s') && q.block_state('mc:w') && q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-8,0,-2],"size": [16,16,10]},"minecraft:selection_box": {"origin": [-8,0,-2],"size": [16,16,10]}}},
+			{"condition": "q.block_state('mc:n') && q.block_state('mc:s') && q.block_state('mc:w') && !q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-2,0,-8],"size": [10,16,16]},"minecraft:selection_box": {"origin": [-2,0,-8],"size": [10,16,16]}}},
+			{"condition": "q.block_state('mc:n') && q.block_state('mc:s') && !q.block_state('mc:w') && q.block_state('mc:e')","components": {"minecraft:collision_box": {"origin": [-8,0,-8],"size": [10,16,16]},"minecraft:selection_box": {"origin": [-8,0,-8],"size": [10,16,16]}}}
+		],
+		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
+			"tag:mc:fence": {},
+			"tag:mc:can_connect": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mf.fence_1",
+				"bone_visibility": {
+					"n": "q.block_state('mc:n')",
+					"s": "q.block_state('mc:s')",
+					"w": "q.block_state('mc:w')",
+					"e": "q.block_state('mc:e')"
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.mf.fence_1_item",
+				"material_instances": {
+					"*": { "texture": "mf:stripped_warped", "render_method": "opaque" }
+				}
+			},
+			"minecraft:material_instances": { "*": { "texture": "mf:stripped_warped", "render_method": "opaque" } },
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": {
+				"detection_rules": [{
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking"
+				}]
+			},
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 5 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 4.0 },
+			"minecraft:custom_components": [ "mf:connect_fence" ],
+			"minecraft:map_color": "#228579"
+		}
+	}
+}

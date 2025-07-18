@@ -1,0 +1,233 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mf.basket_fish",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "basket",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [2, 8, 14],
+							"uv": {
+								"north": {"uv": [9, 3], "uv_size": [0.5, 2]},
+								"east": {"uv": [0, 0], "uv_size": [3.5, 2]},
+								"south": {"uv": [9, 5.25], "uv_size": [0.5, 2]},
+								"west": {"uv": [0, 2.25], "uv_size": [3.5, 2]},
+								"up": {"uv": [7.5, 0], "uv_size": [0.5, 3.5]},
+								"down": {"uv": [8.25, 3.5], "uv_size": [0.5, -3.5]}
+							}
+						},
+						{
+							"origin": [5, 0, -7],
+							"size": [2, 8, 14],
+							"uv": {
+								"north": {"uv": [9, 5.25], "uv_size": [0.5, 2]},
+								"east": {"uv": [3.75, 0], "uv_size": [3.5, 2]},
+								"south": {"uv": [9, 3], "uv_size": [0.5, 2]},
+								"west": {"uv": [3.75, 2.25], "uv_size": [3.5, 2]},
+								"up": {"uv": [8.25, 3.75], "uv_size": [0.5, 3.5]},
+								"down": {"uv": [8.25, 11], "uv_size": [0.5, -3.5]}
+							}
+						},
+						{
+							"origin": [-5, 0, -7],
+							"size": [10, 8, 2],
+							"uv": {
+								"north": {"uv": [5.5, 4.5], "uv_size": [2.5, 2]},
+								"south": {"uv": [5.5, 6.75], "uv_size": [2.5, 2]},
+								"up": {"uv": [9, 0], "uv_size": [2.5, 0.5]},
+								"down": {"uv": [9, 1.25], "uv_size": [2.5, -0.5]}
+							}
+						},
+						{
+							"origin": [-5, 0, 5],
+							"size": [10, 8, 2],
+							"uv": {
+								"north": {"uv": [0, 7.25], "uv_size": [2.5, 2]},
+								"south": {"uv": [5.5, 4.5], "uv_size": [2.5, 2]},
+								"up": {"uv": [9, 1.5], "uv_size": [2.5, 0.5]},
+								"down": {"uv": [9, 2.75], "uv_size": [2.5, -0.5]}
+							}
+						},
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"up": {"uv": [0, 4.5], "uv_size": [2.5, 2.5]},
+								"down": {"uv": [2.75, 7], "uv_size": [2.5, -2.5]}
+							}
+						},
+						{
+							"origin": [6, 8, -5],
+							"size": [0, 7, 10],
+							"uv": {
+								"west": {"uv": [2.75, 7.25], "uv_size": [2.5, 1.75]}
+							}
+						},
+						{
+							"origin": [-6, 8, -5],
+							"size": [0, 7, 10],
+							"uv": {
+								"west": {"uv": [5.25, 7.25], "uv_size": [-2.5, 1.75]}
+							}
+						}
+					]
+				},
+				{
+					"name": "salmon",
+					"parent": "basket",
+					"pivot": [-4.9, 4.6, 4.7],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{
+							"origin": [-11.8, 2.1, -0.2],
+							"size": [7, 3, 5],
+							"uv": {
+								"north": {"uv": [0, 10], "uv_size": [3.5, 1.5], "material_instance": "item"},
+								"east": {"uv": [10, 2], "uv_size": [2.5, 1.5], "material_instance": "item"},
+								"south": {"uv": [10, 0], "uv_size": [3.5, 1.5], "material_instance": "item"},
+								"up": {"uv": [0, 7], "uv_size": [3.5, 2.5], "material_instance": "item"},
+								"down": {"uv": [4, 10.5], "uv_size": [3.5, -2.5], "material_instance": "item"}
+							}
+						},
+						{
+							"origin": [-18.8, 3.7, -0.2],
+							"size": [7, 0, 5],
+							"pivot": [-11.8, 3.7, 2.3],
+							"rotation": [0, 0, 57.5],
+							"uv": {
+								"up": {"uv": [5, 5], "uv_size": [3.5, 2.5], "material_instance": "item"}
+							}
+						}
+					]
+				},
+				{
+					"name": "salmon2",
+					"parent": "basket",
+					"pivot": [0.5, 4.6, 4.7],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{
+							"origin": [-6.4, 2.1, -0.2],
+							"size": [7, 3, 5],
+							"uv": {
+								"north": {"uv": [0, 10], "uv_size": [3.5, 1.5], "material_instance": "item"},
+								"east": {"uv": [10, 2], "uv_size": [2.5, 1.5], "material_instance": "item"},
+								"south": {"uv": [10, 0], "uv_size": [3.5, 1.5], "material_instance": "item"},
+								"up": {"uv": [0, 7], "uv_size": [3.5, 2.5], "material_instance": "item"},
+								"down": {"uv": [4, 10.5], "uv_size": [3.5, -2.5], "material_instance": "item"}
+							}
+						},
+						{
+							"origin": [-13.4, 3.7, -0.2],
+							"size": [7, 0, 5],
+							"pivot": [-6.4, 3.7, 2.3],
+							"rotation": [0, 0, 57.5],
+							"uv": {
+								"up": {"uv": [5, 5], "uv_size": [3.5, 2.5], "material_instance": "item"}
+							}
+						}
+					]
+				},
+				{
+					"name": "salmon3",
+					"parent": "basket",
+					"pivot": [-2, 7, 1.5],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{
+							"origin": [-3, 7, -1.5],
+							"size": [9, 4, 6],
+							"pivot": [0, 7, 2.5],
+							"rotation": [0, 0, -42.5],
+							"uv": {
+								"north": {"uv": [5, 0], "uv_size": [4.5, 2], "material_instance": "item"},
+								"east": {"uv": [8, 8], "uv_size": [3, 2], "material_instance": "item"},
+								"south": {"uv": [5, 2.5], "uv_size": [4.5, 2], "material_instance": "item"},
+								"west": {"uv": [9, 5], "uv_size": [3, 2], "material_instance": "item"},
+								"up": {"uv": [0, 0], "uv_size": [4.5, 3], "material_instance": "item"},
+								"down": {"uv": [0, 6.5], "uv_size": [4.5, -3], "material_instance": "item"}
+							}
+						},
+						{
+							"origin": [-10.1, 4.5, -1],
+							"size": [7, 3, 5],
+							"pivot": [-0.1, 4.5, 2.5],
+							"rotation": [0, 0, 17.5],
+							"uv": {
+								"north": {"uv": [0, 10], "uv_size": [3.5, 1.5], "material_instance": "item"},
+								"east": {"uv": [10, 2], "uv_size": [2.5, 1.5], "material_instance": "item"},
+								"south": {"uv": [10, 0], "uv_size": [3.5, 1.5], "material_instance": "item"},
+								"up": {"uv": [0, 7], "uv_size": [3.5, 2.5], "material_instance": "item"},
+								"down": {"uv": [4, 10.5], "uv_size": [3.5, -2.5], "material_instance": "item"}
+							}
+						},
+						{
+							"origin": [-16.1, 8.9, -1],
+							"size": [7, 0, 5],
+							"pivot": [-9.1, 8.9, 1.5],
+							"rotation": [0, 0, -27.5],
+							"uv": {
+								"up": {"uv": [5, 5], "uv_size": [3.5, 2.5], "material_instance": "item"}
+							}
+						}
+					]
+				},
+				{
+					"name": "salmon4",
+					"parent": "basket",
+					"pivot": [-2, 10, 1.5],
+					"rotation": [0, -120, 0],
+					"cubes": [
+						{
+							"origin": [-7.6, 12, -1.7],
+							"size": [9, 4, 6],
+							"pivot": [-4.6, 12, 2.3],
+							"rotation": [0, 0, -15],
+							"uv": {
+								"north": {"uv": [5, 0], "uv_size": [4.5, 2], "material_instance": "item"},
+								"east": {"uv": [8, 8], "uv_size": [3, 2], "material_instance": "item"},
+								"south": {"uv": [5, 2.5], "uv_size": [4.5, 2], "material_instance": "item"},
+								"west": {"uv": [9, 5], "uv_size": [3, 2], "material_instance": "item"},
+								"up": {"uv": [0, 0], "uv_size": [4.5, 3], "material_instance": "item"},
+								"down": {"uv": [0, 6.5], "uv_size": [4.5, -3], "material_instance": "item"}
+							}
+						},
+						{
+							"origin": [-14.1, 13.3, -1],
+							"size": [7, 3, 5],
+							"pivot": [-4.1, 13.3, 2.5],
+							"rotation": [0, 0, -35],
+							"uv": {
+								"north": {"uv": [0, 10], "uv_size": [3.5, 1.5], "material_instance": "item"},
+								"east": {"uv": [10, 2], "uv_size": [2.5, 1.5], "material_instance": "item"},
+								"south": {"uv": [10, 0], "uv_size": [3.5, 1.5], "material_instance": "item"},
+								"up": {"uv": [0, 7], "uv_size": [3.5, 2.5], "material_instance": "item"},
+								"down": {"uv": [4, 10.5], "uv_size": [3.5, -2.5], "material_instance": "item"}
+							}
+						},
+						{
+							"origin": [-19.9, 8.7, -1],
+							"size": [7, 0, 5],
+							"pivot": [-12.9, 8.7, 1.5],
+							"rotation": [0, 0, -62.5],
+							"uv": {
+								"up": {"uv": [5, 5], "uv_size": [3.5, 2.5], "material_instance": "item"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

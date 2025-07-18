@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:stripped_spruce_table"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:stripped_spruce_log" } ],
+		"unlock": [ { "item": "minecraft:stripped_spruce_log" } ],
+		"result": {
+			"item": "medieval:stripped_spruce_table",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:spruce_triple_saddle_stand",
+			"menu_category": {
+				"category": "items",
+				"group": "medFur:tripleSaddleStand"
+			},
+			"traits": {
+				"minecraft:placement_direction": { "enabled_states": [ "minecraft:cardinal_direction" ], "y_rotation_offset": 180 }
+			},
+			"states": {
+				"medieval:state": [ 0, 1, 2, 3 ]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [ 0, 0, 0 ] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [ 0, 180, 0 ] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [ 0, 90, 0 ] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [ 0, -90, 0 ] }}},
+			{"condition": "q.block_state('medieval:state') == 1","components": {"minecraft:loot": "loot_tables/mf/saddle_stand/spruce_triple_saddle_stand1.json"}},
+			{"condition": "q.block_state('medieval:state') == 2","components": {"minecraft:loot": "loot_tables/mf/saddle_stand/spruce_triple_saddle_stand2.json"}},
+			{"condition": "q.block_state('medieval:state') == 3","components": {"minecraft:loot": "loot_tables/mf/saddle_stand/spruce_triple_saddle_stand3.json"}}
+		],
+		"components": {
+			"tag:m.triple_saddle_stand": {},
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mf.triple_saddle_stand",
+				"bone_visibility": {
+					"saddle1": "q.block_state('medieval:state') >= 1",
+					"saddle2": "q.block_state('medieval:state') >= 2",
+					"saddle3": "q.block_state('medieval:state') == 3"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {"texture": "mf:stripped_spruce","render_method": "alpha_test_single_sided"},
+				"saddle": {"texture": "mf:saddle_horse","render_method": "alpha_test_single_sided"}
+			},
+			"minecraft:placement_filter": { "conditions": [{"allowed_faces":["up"]}]},
+			"minecraft:collision_box": {"origin": [-4.5,0.0,-8.0],"size": [9,16,16]},
+			"minecraft:selection_box": {"origin": [-4.5,0.0,-8.0],"size": [9,16,16]},
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "blocking"
+			} ] },
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 5 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 4.0 },
+			"minecraft:custom_components": ["mf:triple_saddle_stand"],
+			"minecraft:map_color": "#91662a"
+		}
+	}
+}

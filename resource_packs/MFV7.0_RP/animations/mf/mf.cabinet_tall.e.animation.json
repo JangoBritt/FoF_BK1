@@ -1,0 +1,97 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mf.cabinet_tall.e.open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"bones": {
+				"door_normal": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 90, 0]
+					}
+				},
+				"door_side": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -90, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "open"
+				}
+			}
+		},
+		"animation.mf.cabinet_tall.e.close": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"bones": {
+				"door_normal": {
+					"rotation": {
+						"0.0": [0, 90, 0],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"door_side": {
+					"rotation": {
+						"0.0": [0, -90, 0],
+						"0.25": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "close"
+				}
+			}
+		},
+		"animation.mf.cabinet_tall.e.keep_close": {
+			"loop": true,
+			"bones": {
+				"door_normal": {
+					"rotation": [0, 0, 0]
+				},
+				"door_side": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.mf.cabinet_tall.e.keep_open": {
+			"loop": true,
+			"bones": {
+				"door_normal": {
+					"rotation": [0, 90, 0]
+				},
+				"door_side": {
+					"rotation": [0, -90, 0]
+				}
+			}
+		},
+		"animation.mf.cabinet_tall.e.scale": {
+			"loop": true,
+			"bones": {
+				"waist": {
+					"scale": 0.8
+				}
+			}
+		},
+		"animation.mf.cabinet_tall.e.no_armor_top": {
+			"loop": true,
+			"bones": {
+				"top": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.mf.cabinet_tall.e.no_armor_bottom": {
+			"loop": true,
+			"bones": {
+				"bottom": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}

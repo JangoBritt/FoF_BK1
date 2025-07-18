@@ -1,0 +1,61 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stacked_birch_log",
+			"menu_category": {
+				"category": "nature",
+				"group": "medFur:stackedLog"
+			},
+			"traits": {
+				"minecraft:placement_direction": { "enabled_states": [ "minecraft:cardinal_direction" ] }
+			},
+			"states": {
+				"medieval:quantity": [ 0, 1, 2, 3 ]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [ 0, 0, 0 ] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [ 0, 180, 0 ] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [ 0, 90, 0 ] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [ 0, -90, 0 ] }}},
+			{"condition": "q.block_state('medieval:quantity') == 1 || q.block_state('medieval:quantity') == 2", "components": {
+				"minecraft:collision_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 8, 16 ] },
+				"minecraft:selection_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 8, 16 ] }
+			}}
+		],
+		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mf.stacked_log",
+				"bone_visibility": {
+					"log": "q.block_state('medieval:quantity') == 0",
+					"log1": "q.block_state('medieval:quantity') == 1",
+					"log2": "q.block_state('medieval:quantity') >= 2",
+					"log3": "q.block_state('medieval:quantity') == 3"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {"texture": "mf:wood_birch","render_method": "opaque"},
+				"log_top": {"texture": "mf:wood_birch_top","render_method": "opaque"}
+			},
+			"minecraft:collision_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 12, 16 ] },
+			"minecraft:selection_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 12, 16 ] },
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "no_reaction"
+			} ] },
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 5 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 2.0 },
+			"minecraft:custom_components": ["mf:stacked_log"],
+			"minecraft:map_color": "#f0efd3"
+		}
+	}
+}

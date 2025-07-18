@@ -13,7 +13,14 @@
         "minecraft:enchantable": {
           "slot": "sword",
           "value": 12
+        },
+          
+        "minecraft:tags": {
+          "tags": [
+            "minecraft:is_tool"
+          ]
         }
+        
       },
       "description": {
         "identifier": "farmersdelight:skillet_block",

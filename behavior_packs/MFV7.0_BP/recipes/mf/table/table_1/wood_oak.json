@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wood_oak_table_1"
+		},
+		"tags": [
+			"medieval:workbench"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"A A"
+		],
+		"key": {
+			"A": { "item": "medieval:oak_wood_post" },
+			"B": { "item": "medieval:oak_wood_mslab" },
+			"C": { "item": "medieval:oak_planks_mslab" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:wood_oak_table_1",
+			"count": 1
+		}
+	}
+}

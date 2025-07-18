@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:mangrove_flower_stand"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"AA",
+			"BB",
+			"CC"
+		],
+		"key": {
+			"B": { "item": "minecraft:flower_pot" },
+			"A": { "item": "medieval:stripped_mangrove_post" },
+			"C": { "item": "medieval:stripped_mangrove_mslab" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:mangrove_flower_stand",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:warped_saddle_stand"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"AAA",
+			"B B"
+		],
+		"key": {
+			"B": { "item": "minecraft:stripped_warped_stem" },
+			"A": { "item": "minecraft:stick" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:warped_saddle_stand",
+			"count": 1
+		}
+	}
+}

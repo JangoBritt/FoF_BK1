@@ -1,0 +1,62 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:polished_deepslate_wall_0",
+			"menu_category": {
+				"category": "construction",
+				"group": "medFur:walls"
+			},
+			"states": {
+				"medieval:facing_direction": [ 2, 3, 4, 5 ]
+			}
+		},
+		"permutations": [
+			{ "condition": "q.block_state('medieval:facing_direction') == 2", "components": {
+				"minecraft:collision_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 16, 3 ] },
+				"minecraft:selection_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 16, 3 ] }
+			} },
+			{ "condition": "q.block_state('medieval:facing_direction') == 3", "components": {
+				"minecraft:collision_box": { "origin": [ -8, 0, 5 ], "size": [ 16, 16, 3 ] },
+				"minecraft:selection_box": { "origin": [ -8, 0, 5 ], "size": [ 16, 16, 3 ] }
+			}},
+			{ "condition": "q.block_state('medieval:facing_direction') == 4", "components": {
+				"minecraft:collision_box": { "origin": [ 5, 0, -8 ], "size": [ 3, 16, 16 ] },
+				"minecraft:selection_box": { "origin": [ 5, 0, -8 ], "size": [ 3, 16, 16 ] }
+			}},
+			{ "condition": "q.block_state('medieval:facing_direction') == 5", "components": {
+				"minecraft:collision_box": { "origin": [ -8, 0, -8 ], "size": [ 3, 16, 16 ] },
+				"minecraft:selection_box": { "origin": [ -8, 0, -8 ], "size": [ 3, 16, 16 ] }
+			}}
+		],
+		"components": {
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mf.wall_0_no_rotation",
+				"bone_visibility": {
+					"wall_0": "q.block_state('medieval:facing_direction') == 2",
+					"wall_180": "q.block_state('medieval:facing_direction') == 3",
+					"wall_90": "q.block_state('medieval:facing_direction') == 4",
+					"wall_270": "q.block_state('medieval:facing_direction') == 5"
+				}
+			},
+			"minecraft:material_instances": { "*": { "texture": "mf:polished_deepslate", "render_method": "opaque" } },
+			"minecraft:collision_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 16, 3 ] },
+			"minecraft:selection_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 16, 3 ] },
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "blocking"
+			} ] },
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 6.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 4.0 },
+			"minecraft:custom_components": [ "mf:old_rotation2" ],
+			"minecraft:map_color": "#383737"
+		}
+	}
+}

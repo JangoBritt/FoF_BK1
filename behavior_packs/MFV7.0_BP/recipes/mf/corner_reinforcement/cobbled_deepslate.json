@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:cobbled_deepslate_corner_reinforcement"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:cobbled_deepslate" } ],
+		"unlock": [ { "item": "minecraft:cobbled_deepslate" } ],
+		"result": {
+			"item": "medieval:cobbled_deepslate_corner_reinforcement",
+			"count": 1
+		}
+	}
+}

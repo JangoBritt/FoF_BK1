@@ -1284,8 +1284,5 @@
 	},
 	"mr:door_mat": {
 		"sound": "grass"
-	},
-	"mr:post_box": {
-		"sound": "metal"
 	}
 }

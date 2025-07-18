@@ -32,7 +32,6 @@
 			"minecraft:light_dampening": 1,
 			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
 			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
-			"minecraft:custom_components": ["mr:open_fridge", "mr:fridge_break"],
 			"minecraft:map_color": "#2e3030"
 		}
 	}
