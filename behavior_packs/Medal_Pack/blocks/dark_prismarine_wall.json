@@ -2,7 +2,7 @@
 	"format_version": "1.20.30",
 	"minecraft:block": {
 		"description": {
-			"identifier": "medieval:dark_prismarine_wall_0",
+			"identifier": "fables_misc:dark_prismarine_wall_0",
 			"menu_category": {
 				"category": "construction",
 				"group": "itemGroup.name.walls"
