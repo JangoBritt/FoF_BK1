@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fables_avatars:citizen1_head_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#"
+		],
+		"key": {
+			"X": {
+				"tag": "fables_avatars:player_head"
+			},
+			"#": {
+				"item": "minecraft:skull",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"tag": "fables_avatars:player_head"}
+		],
+		"result": [
+			{
+				"item": "fables_avatars:citizen1_head_item",
+				"count": 1
+			}
+		]
+	}
+}

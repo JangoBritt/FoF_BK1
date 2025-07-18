@@ -12,8 +12,8 @@ Install-Module ImagePlayground -Scope CurrentUser
 
 #$Skin_File = "C:\Users\adam\Downloads\astronaut_V2.png"
 
-$itemImg = Get-Image -FilePath "C:\Users\adam\Desktop\Minecraft stuff\Packs\S6\Avatar_Pack_R\textures\default_steve\player_head_item.png"
-$avatarImg = Get-Image -FilePath "C:\Users\adam\Desktop\Minecraft stuff\Packs\S6\Avatar_Pack_R\textures\default_steve\avatar_item.png"
+$itemImg = Get-Image -FilePath "C:\Users\adam\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds\FoF_Bk1\resource_packs\Avatar_Pack_R\textures\default_steve\player_head_item.png"
+$avatarImg = Get-Image -FilePath "C:\Users\adam\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds\FoF_Bk1\resource_packs\Avatar_Pack_R\textures\default_steve\avatar_item.png"
 
 ####################### No Change Below ######################
 

@@ -526,5 +526,15 @@
     "textures/avatars/members/tamalin44/skin1",
     "textures/avatars/members/tamalin44/avatar_item",
     "textures/avatars/members/tamalin44/skin2",
-    "textures/avatars/members/tamalin44/skin3"
+    "textures/avatars/members/tamalin44/skin3",
+    "textures/avatars/specials/police_officer/player_head_item",
+    "textures/avatars/specials/police_officer/skin1",
+    "textures/avatars/specials/police_officer/avatar_item",
+    "textures/avatars/specials/police_officer/skin2",
+    "textures/avatars/specials/police_officer/skin3",
+    "textures/avatars/specials/citizen1/player_head_item",
+    "textures/avatars/specials/citizen1/skin1",
+    "textures/avatars/specials/citizen1/avatar_item",
+    "textures/avatars/specials/citizen1/skin2",
+    "textures/avatars/specials/citizen1/skin3"
 ]
