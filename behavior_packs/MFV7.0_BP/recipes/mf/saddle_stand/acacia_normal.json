@@ -13,7 +13,8 @@
 			"B": { "item": "minecraft:stripped_acacia_log" },
 			"A": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:acacia_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:acacia_saddle_stand",
 			"count": 1

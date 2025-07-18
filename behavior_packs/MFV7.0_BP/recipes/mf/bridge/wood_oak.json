@@ -13,7 +13,8 @@
 			"#": { "item": "minecraft:oak_planks" },
 			"A": { "item": "minecraft:oak_log" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:oak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:wood_oak_bridge",
 			"count": 4

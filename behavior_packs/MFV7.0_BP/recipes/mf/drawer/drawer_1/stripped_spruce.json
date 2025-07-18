@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:stripped_spruce_mslab" },
 			"C": { "item": "minecraft:clock" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:spruce_drawer1",
 			"count": 1

@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:acacia_planks" },
 			"B": { "item": "medieval:acacia_wood_mslab" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:acacia_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:acacia_wood_cupboard",
 			"count": 1

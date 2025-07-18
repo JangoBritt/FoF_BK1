@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:bamboo_planks" },
 			"B": { "item": "medieval:stripped_bamboo_mslab" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:bamboo_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:bamboo_cupboard",
 			"count": 1

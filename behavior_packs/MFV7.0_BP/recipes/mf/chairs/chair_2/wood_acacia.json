@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:acacia_log" } ],
-		"unlock": [ { "item": "minecraft:acacia_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:acacia_book" }, { "item": "minecraft:acacia_log" } ],
 		"result": {
 			"item": "medieval:acacia_wood_chair2",
 			"count": 1

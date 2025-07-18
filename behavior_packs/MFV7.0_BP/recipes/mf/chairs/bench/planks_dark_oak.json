@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:dark_oak_planks" } ],
-		"unlock": [ { "item": "minecraft:dark_oak_planks" } ],
+		"unlock": [
+			{ "item": "fables_misc:darkoak_book" }, { "item": "minecraft:dark_oak_planks" } ],
 		"result": {
 			"item": "medieval:darkoak_planks_bench",
 			"count": 1

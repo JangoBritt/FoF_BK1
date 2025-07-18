@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:spruce_wood_beam_right_inclined" },
 			"C": { "item": "minecraft:spruce_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:spruce_box1",
 			"count": 2

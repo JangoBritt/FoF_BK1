@@ -15,7 +15,8 @@
 			"A": { "item": "medieval:stripped_acacia_post" },
 			"C": { "item": "medieval:stripped_acacia_mslab" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:acacia_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:acacia_flower_stand_side",
 			"count": 1

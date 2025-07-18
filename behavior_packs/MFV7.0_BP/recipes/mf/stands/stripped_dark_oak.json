@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:stripped_dark_oak_log" } ],
-		"unlock": [ { "item": "minecraft:stripped_dark_oak_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:darkoak_book" }, { "item": "minecraft:stripped_dark_oak_log" } ],
 		"result": {
 			"item": "medieval:stripped_darkoak_support",
 			"count": 1

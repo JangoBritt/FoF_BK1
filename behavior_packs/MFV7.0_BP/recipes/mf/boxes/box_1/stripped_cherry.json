@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:stripped_cherry_beam_right_inclined" },
 			"C": { "item": "minecraft:cherry_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:stripped_cherry_box1",
 			"count": 2

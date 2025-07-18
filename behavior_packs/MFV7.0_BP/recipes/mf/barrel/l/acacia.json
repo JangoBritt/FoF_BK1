@@ -13,6 +13,7 @@
 			"#": { "item": "medieval:beer_barrel_acacia" }
 		},
 		"unlock": [
+			{ "item": "fables_misc:acacia_book" },
 			{ "item": "medieval:workbench" }
 		],
 		"result": {

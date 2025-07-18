@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:stripped_cherry_mslab" },
 			"C": { "item": "minecraft:paper" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:cherry_drawer0",
 			"count": 1

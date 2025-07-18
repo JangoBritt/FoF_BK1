@@ -13,7 +13,8 @@
 		"key": {
 			"#": { "item": "medieval:spruce_saddle_stand" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:spruce_triple_saddle_stand",
 			"count": 1

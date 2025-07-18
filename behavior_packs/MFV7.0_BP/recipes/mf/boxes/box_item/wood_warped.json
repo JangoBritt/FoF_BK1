@@ -14,7 +14,8 @@
 			"#": { "item": "medieval:warped_wood_post" },
 			"C": { "item": "minecraft:frame" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:warped_box",
 			"count": 2

@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:oak_log" },
 			"P": { "item": "minecraft:oak_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:oak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:oak_wood_cabinet_tall",
 			"count": 1

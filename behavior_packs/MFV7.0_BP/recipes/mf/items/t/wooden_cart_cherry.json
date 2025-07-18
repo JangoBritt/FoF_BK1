@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:cherry_planks" },
 			"B": { "item": "medieval:wheel_block" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:wooden_cart_cherry",
 			"count": 1

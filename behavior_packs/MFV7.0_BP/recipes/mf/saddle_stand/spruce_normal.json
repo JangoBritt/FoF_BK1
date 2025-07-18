@@ -13,7 +13,8 @@
 			"B": { "item": "minecraft:stripped_spruce_log" },
 			"A": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:spruce_saddle_stand",
 			"count": 1

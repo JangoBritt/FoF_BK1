@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:stripped_bamboo_block" },
 			"P": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:bamboo_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:stripped_bamboo_bookshelf_0",
 			"count": 1

@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:warped_planks" } ],
-		"unlock": [ { "item": "minecraft:warped_planks" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "minecraft:warped_planks" } ],
 		"result": {
 			"item": "medieval:warped_planks_chair2",
 			"count": 1

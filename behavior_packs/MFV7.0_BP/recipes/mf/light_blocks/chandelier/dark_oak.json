@@ -15,7 +15,8 @@
 			"C": { "item": "minecraft:chain" },
 			"S": { "item": "minecraft:stripped_dark_oak_log" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:darkoak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:darkoak_chandelier",
 			"count": 2

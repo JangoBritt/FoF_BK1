@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:cherry_log" } ],
-		"unlock": [ { "item": "minecraft:cherry_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "minecraft:cherry_log" } ],
 		"result": {
 			"item": "medieval:stacked_cherry_log",
 			"count": 4

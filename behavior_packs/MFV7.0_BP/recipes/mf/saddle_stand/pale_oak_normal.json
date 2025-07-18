@@ -13,7 +13,8 @@
 			"B": { "item": "minecraft:stripped_pale_oak_log" },
 			"A": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:pale_oak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:pale_oak_saddle_stand",
 			"count": 1

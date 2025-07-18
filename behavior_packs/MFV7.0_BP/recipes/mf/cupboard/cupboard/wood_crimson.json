@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:crimson_planks" },
 			"B": { "item": "medieval:crimson_wood_mslab" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:crimson_wood_cupboard",
 			"count": 1

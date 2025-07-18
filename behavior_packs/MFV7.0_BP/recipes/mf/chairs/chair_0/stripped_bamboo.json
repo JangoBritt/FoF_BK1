@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:bamboo_planks" } ],
-		"unlock": [ { "item": "minecraft:bamboo_planks" } ],
+		"unlock": [
+			{ "item": "fables_misc:bamboo_book" }, { "item": "minecraft:bamboo_planks" } ],
 		"result": {
 			"item": "medieval:stripped_bamboo_chair0",
 			"count": 1

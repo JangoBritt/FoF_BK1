@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:pale_oak_planks" },
 			"P": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:pale_oak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:stripped_pale_oak_sign",
 			"count": 4

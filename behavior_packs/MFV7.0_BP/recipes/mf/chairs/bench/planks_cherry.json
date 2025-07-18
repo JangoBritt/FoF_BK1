@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:cherry_planks" } ],
-		"unlock": [ { "item": "minecraft:cherry_planks" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "minecraft:cherry_planks" } ],
 		"result": {
 			"item": "medieval:cherry_planks_bench",
 			"count": 1

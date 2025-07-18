@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:acacia_wood_beam_double" },
 			"C": { "item": "minecraft:acacia_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:acacia_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:acacia_box0",
 			"count": 2

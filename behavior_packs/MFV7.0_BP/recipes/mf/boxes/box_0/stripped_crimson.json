@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:stripped_crimson_beam_double" },
 			"C": { "item": "minecraft:crimson_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:stripped_crimson_box0",
 			"count": 2

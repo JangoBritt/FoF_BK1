@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:stripped_birch_log" },
 			"P": { "item": "minecraft:birch_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:birch_cabinet_tall",
 			"count": 1

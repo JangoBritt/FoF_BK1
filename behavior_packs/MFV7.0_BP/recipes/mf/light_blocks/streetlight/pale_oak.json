@@ -14,7 +14,8 @@
 			"A": { "item": "medieval:stripped_pale_oak_post" },
 			"#": { "item": "minecraft:iron_ingot" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:pale_oak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:pale_oak_streetlight_0",
 			"count": 1

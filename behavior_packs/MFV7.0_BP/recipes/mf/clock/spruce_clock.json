@@ -15,7 +15,8 @@
 			"C": {"item": "minecraft:clock" },
 			"G": {"item": "minecraft:gold_ingot" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:spruce_pendulum_clock",
 			"count": 1

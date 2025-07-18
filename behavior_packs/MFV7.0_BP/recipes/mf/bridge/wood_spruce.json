@@ -13,7 +13,8 @@
 			"#": { "item": "minecraft:spruce_planks" },
 			"A": { "item": "minecraft:spruce_log" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:wood_spruce_bridge",
 			"count": 4

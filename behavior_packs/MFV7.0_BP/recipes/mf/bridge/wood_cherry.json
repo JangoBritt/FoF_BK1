@@ -13,7 +13,8 @@
 			"#": { "item": "minecraft:cherry_planks" },
 			"A": { "item": "minecraft:cherry_log" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:wood_cherry_bridge",
 			"count": 4

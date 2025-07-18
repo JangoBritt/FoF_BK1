@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:stripped_jungle_log" },
 			"P": { "item": "minecraft:jungle_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:jungle_cabinet_tall",
 			"count": 1

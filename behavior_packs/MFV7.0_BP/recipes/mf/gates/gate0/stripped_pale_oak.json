@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:stripped_pale_oak_log" } ],
-		"unlock": [ { "item": "minecraft:stripped_pale_oak_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:pale_oak_book" }, { "item": "minecraft:stripped_pale_oak_log" } ],
 		"result": {
 			"item": "medieval:stripped_pale_oak_gate",
 			"count": 1

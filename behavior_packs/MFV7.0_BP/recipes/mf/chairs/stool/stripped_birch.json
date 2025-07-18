@@ -14,7 +14,8 @@
 			"P": { "item": "minecraft:birch_planks" },
 			"S": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:stripped_birch_stool",
 			"count": 2

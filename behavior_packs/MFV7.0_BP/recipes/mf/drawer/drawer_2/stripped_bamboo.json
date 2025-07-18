@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:stripped_bamboo_mslab" },
 			"C": { "item": "minecraft:book" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:bamboo_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:bamboo_drawer2",
 			"count": 1

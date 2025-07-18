@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:birch_wood_beam_right_inclined" },
 			"C": { "item": "minecraft:birch_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:birch_box1",
 			"count": 2

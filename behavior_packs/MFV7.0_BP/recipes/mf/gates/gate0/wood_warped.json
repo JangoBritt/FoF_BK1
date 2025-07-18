@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:warped_stem" } ],
-		"unlock": [ { "item": "minecraft:warped_stem" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "minecraft:warped_stem" } ],
 		"result": {
 			"item": "medieval:warped_wood_gate",
 			"count": 1

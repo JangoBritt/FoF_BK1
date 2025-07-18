@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:stripped_crimson_stem" },
 			"P": { "item": "minecraft:crimson_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:crimson_cabinet_tall",
 			"count": 1

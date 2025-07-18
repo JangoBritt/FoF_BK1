@@ -17,7 +17,8 @@
 			"B": { "item": "medieval:cherry_wood_mslab" },
 			"C": { "item": "medieval:cherry_planks_mslab" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:wood_cherry_table_1",
 			"count": 1

@@ -15,7 +15,8 @@
 			"G": { "item": "minecraft:glass" },
 			"S": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:acacia_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:stripped_acacia_wtable",
 			"count": 3

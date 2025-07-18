@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:cherry_wood_beam_double" },
 			"C": { "item": "minecraft:cherry_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:cherry_box0",
 			"count": 2

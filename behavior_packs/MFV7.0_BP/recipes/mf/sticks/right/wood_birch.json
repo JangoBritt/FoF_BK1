@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:birch_log" } ],
-		"unlock": [ { "item": "minecraft:birch_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "minecraft:birch_log" } ],
 		"result": {
 			"item": "medieval:birch_wood_beam_right_inclined",
 			"count": 12

@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:spruce_log" } ],
-		"unlock": [ { "item": "minecraft:spruce_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "minecraft:spruce_log" } ],
 		"result": {
 			"item": "medieval:spruce_wood_gate0",
 			"count": 1

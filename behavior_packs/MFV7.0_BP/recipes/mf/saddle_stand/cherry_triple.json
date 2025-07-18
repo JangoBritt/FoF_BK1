@@ -13,7 +13,8 @@
 		"key": {
 			"#": { "item": "medieval:cherry_saddle_stand" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:cherry_triple_saddle_stand",
 			"count": 1

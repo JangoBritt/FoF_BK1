@@ -13,7 +13,8 @@
 			"B": { "item": "minecraft:stripped_jungle_log" },
 			"A": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:jungle_saddle_stand",
 			"count": 1

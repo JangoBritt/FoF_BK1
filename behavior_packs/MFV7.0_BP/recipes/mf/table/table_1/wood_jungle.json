@@ -17,7 +17,8 @@
 			"B": { "item": "medieval:jungle_wood_mslab" },
 			"C": { "item": "medieval:jungle_planks_mslab" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:wood_jungle_table_1",
 			"count": 1

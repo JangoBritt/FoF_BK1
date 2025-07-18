@@ -13,6 +13,7 @@
 			"#": { "item": "medieval:beer_barrel_pale_oak" }
 		},
 		"unlock": [
+			{ "item": "fables_misc:pale_oak_book" },
 			{ "item": "medieval:workbench" }
 		],
 		"result": {

@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:jungle_log" } ],
-		"unlock": [ { "item": "minecraft:jungle_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "minecraft:jungle_log" } ],
 		"result": {
 			"item": "medieval:jungle_wood_fence0",
 			"count": 1

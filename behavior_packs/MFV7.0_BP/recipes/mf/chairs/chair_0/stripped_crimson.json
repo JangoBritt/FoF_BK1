@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:stripped_crimson_stem" } ],
-		"unlock": [ { "item": "minecraft:stripped_crimson_stem" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "minecraft:stripped_crimson_stem" } ],
 		"result": {
 			"item": "medieval:stripped_crimson_chair0",
 			"count": 1

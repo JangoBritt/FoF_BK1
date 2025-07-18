@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:jungle_planks" },
 			"B": { "item": "medieval:wheel_block" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:wooden_cart_jungle",
 			"count": 1

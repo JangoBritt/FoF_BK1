@@ -15,7 +15,8 @@
 			"C": { "item": "minecraft:chain" },
 			"S": { "item": "minecraft:stripped_cherry_log" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:cherry_chandelier",
 			"count": 2

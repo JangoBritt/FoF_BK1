@@ -15,7 +15,8 @@
 			"G": { "item": "minecraft:glass" },
 			"S": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:wood_birch_wtable",
 			"count": 3

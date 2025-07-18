@@ -13,7 +13,8 @@
 			"#": { "item": "minecraft:bamboo_planks" },
 			"A": { "item": "minecraft:stripped_bamboo_block" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:bamboo_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:stripped_bamboo_bridge",
 			"count": 4

@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:jungle_planks" },
 			"P": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:stripped_jungle_sign",
 			"count": 4

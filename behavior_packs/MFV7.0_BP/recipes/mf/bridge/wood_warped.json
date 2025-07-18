@@ -13,7 +13,8 @@
 			"#": { "item": "minecraft:warped_planks" },
 			"A": { "item": "minecraft:warped_stem" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:wood_warped_bridge",
 			"count": 4

@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:stripped_spruce_log" } ],
-		"unlock": [ { "item": "minecraft:stripped_spruce_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "minecraft:stripped_spruce_log" } ],
 		"result": {
 			"item": "medieval:stripped_spruce_beam_right_inclined",
 			"count": 12

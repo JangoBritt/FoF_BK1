@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:stripped_jungle_log" },
 			"S": { "item": "medieval:stripped_jungle_post" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:jungle_easel",
 			"count": 2

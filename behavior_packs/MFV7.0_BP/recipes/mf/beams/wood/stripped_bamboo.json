@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:stripped_bamboo_block" } ],
-		"unlock": [ { "item": "minecraft:stripped_bamboo_block" } ],
+		"unlock": [
+			{ "item": "fables_misc:bamboo_book" }, { "item": "minecraft:stripped_bamboo_block" } ],
 		"result": {
 			"item": "medieval:stripped_bamboo_beam",
 			"count": 2

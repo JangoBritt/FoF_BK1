@@ -14,7 +14,8 @@
 			"#": { "item": "medieval:stripped_spruce_post" },
 			"C": { "item": "minecraft:frame" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:stripped_spruce_box",
 			"count": 2

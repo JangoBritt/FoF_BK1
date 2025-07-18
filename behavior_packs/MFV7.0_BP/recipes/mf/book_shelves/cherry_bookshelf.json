@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:cherry_planks" },
 			"P": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:cherry_bookshelf_0",
 			"count": 1

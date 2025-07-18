@@ -17,7 +17,8 @@
 			"B": { "item": "medieval:stripped_pale_oak_mslab" },
 			"C": { "item": "minecraft:frame" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:pale_oak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:stripped_pale_oak_table_2",
 			"count": 1

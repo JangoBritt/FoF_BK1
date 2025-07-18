@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:acacia_planks" },
 			"P": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:acacia_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:acacia_bookshelf_0",
 			"count": 1

@@ -14,6 +14,7 @@
 			"B": { "item": "medieval:jungle_barrel" }
 		},
 		"unlock": [
+			{ "item": "fables_misc:jungle_book" },
 			{ "item": "medieval:workbench" }
 		],
 		"result": {

@@ -17,7 +17,8 @@
 			"B": { "item": "medieval:oak_wood_mslab" },
 			"C": { "item": "medieval:oak_planks_mslab" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:oak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:wood_oak_table_1",
 			"count": 1

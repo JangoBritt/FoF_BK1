@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:stripped_birch_mslab" },
 			"C": { "item": "minecraft:paper" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:birch_drawer0",
 			"count": 1

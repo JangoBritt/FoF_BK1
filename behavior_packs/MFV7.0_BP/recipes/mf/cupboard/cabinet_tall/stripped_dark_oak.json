@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:stripped_dark_oak_log" },
 			"P": { "item": "minecraft:dark_oak_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:darkoak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:darkoak_cabinet_tall",
 			"count": 1

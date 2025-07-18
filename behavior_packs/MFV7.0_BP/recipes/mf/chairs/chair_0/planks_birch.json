@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:birch_planks" } ],
-		"unlock": [ { "item": "minecraft:birch_planks" } ],
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "minecraft:birch_planks" } ],
 		"result": {
 			"item": "medieval:birch_planks_chair0",
 			"count": 1

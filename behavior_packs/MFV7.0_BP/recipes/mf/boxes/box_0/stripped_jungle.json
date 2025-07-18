@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:stripped_jungle_beam_double" },
 			"C": { "item": "minecraft:jungle_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:stripped_jungle_box0",
 			"count": 2

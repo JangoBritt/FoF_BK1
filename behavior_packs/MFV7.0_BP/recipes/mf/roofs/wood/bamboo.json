@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:bamboo_block" } ],
-		"unlock": [ { "item": "minecraft:bamboo_block" } ],
+		"unlock": [
+			{ "item": "fables_misc:bamboo_book" }, { "item": "minecraft:bamboo_block" } ],
 		"result": {
 			"item": "medieval:bamboo_mslab",
 			"count": 5

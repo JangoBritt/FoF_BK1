@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:stripped_acacia_log" } ],
-		"unlock": [ { "item": "minecraft:stripped_acacia_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:acacia_book" }, { "item": "minecraft:stripped_acacia_log" } ],
 		"result": {
 			"item": "medieval:stripped_acacia_gate0",
 			"count": 1

@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:crimson_stem" } ],
-		"unlock": [ { "item": "minecraft:crimson_stem" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "minecraft:crimson_stem" } ],
 		"result": {
 			"item": "medieval:crimson_wood_beam_up",
 			"count": 16

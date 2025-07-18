@@ -13,7 +13,8 @@
 			"B": { "item": "minecraft:stripped_cherry_log" },
 			"A": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:cherry_saddle_stand",
 			"count": 1

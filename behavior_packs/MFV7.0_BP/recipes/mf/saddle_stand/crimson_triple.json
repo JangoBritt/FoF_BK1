@@ -13,7 +13,8 @@
 		"key": {
 			"#": { "item": "medieval:crimson_saddle_stand" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:crimson_triple_saddle_stand",
 			"count": 1

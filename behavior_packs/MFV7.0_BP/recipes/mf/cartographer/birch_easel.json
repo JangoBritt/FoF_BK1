@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:stripped_birch_log" },
 			"S": { "item": "medieval:stripped_birch_post" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:birch_easel",
 			"count": 2

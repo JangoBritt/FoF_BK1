@@ -14,7 +14,8 @@
 			"P": { "item": "minecraft:jungle_planks" },
 			"S": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:wood_jungle_stool",
 			"count": 1

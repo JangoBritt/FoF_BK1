@@ -13,7 +13,8 @@
 			"#": { "item": "minecraft:acacia_planks" },
 			"A": { "item": "minecraft:acacia_log" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:acacia_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:wood_acacia_bridge",
 			"count": 4

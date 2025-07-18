@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:dark_oak_planks" },
 			"B": { "item": "medieval:darkoak_wood_mslab" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:darkoak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:darkoak_wood_cupboard",
 			"count": 1

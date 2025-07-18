@@ -15,7 +15,8 @@
 			"B": { "item": "minecraft:gold_ingot" },
 			"C": { "item": "minecraft:jukebox" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:cherry_gramophone",
 			"count": 1

@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:cherry_planks" },
 			"B": { "item": "medieval:stripped_cherry_mslab" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:cherry_cupboard",
 			"count": 1

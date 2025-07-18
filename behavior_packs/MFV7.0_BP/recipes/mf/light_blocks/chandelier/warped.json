@@ -15,7 +15,8 @@
 			"C": { "item": "minecraft:chain" },
 			"S": { "item": "minecraft:stripped_warped_stem" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:warped_chandelier",
 			"count": 2

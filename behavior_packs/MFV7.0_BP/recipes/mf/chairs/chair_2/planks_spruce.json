@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:spruce_planks" } ],
-		"unlock": [ { "item": "minecraft:spruce_planks" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "minecraft:spruce_planks" } ],
 		"result": {
 			"item": "medieval:spruce_planks_chair2",
 			"count": 1

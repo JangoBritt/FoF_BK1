@@ -13,6 +13,7 @@
 			"#": { "item": "medieval:beer_barrel_jungle" }
 		},
 		"unlock": [
+			{ "item": "fables_misc:jungle_book" },
 			{ "item": "medieval:workbench" }
 		],
 		"result": {

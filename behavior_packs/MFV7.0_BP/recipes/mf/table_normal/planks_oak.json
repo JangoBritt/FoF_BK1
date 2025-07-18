@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:oak_planks" } ],
-		"unlock": [ { "item": "minecraft:oak_planks" } ],
+		"unlock": [
+			{ "item": "fables_misc:oak_book" }, { "item": "minecraft:oak_planks" } ],
 		"result": {
 			"item": "medieval:oak_planks_table",
 			"count": 1

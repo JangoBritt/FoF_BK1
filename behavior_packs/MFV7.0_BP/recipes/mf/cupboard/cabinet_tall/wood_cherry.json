@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:cherry_log" },
 			"P": { "item": "minecraft:cherry_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:cherry_wood_cabinet_tall",
 			"count": 1

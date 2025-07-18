@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:oak_planks" },
 			"B": { "item": "medieval:oak_wood_mslab" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:oak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:oak_wood_cupboard",
 			"count": 1

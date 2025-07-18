@@ -13,7 +13,8 @@
 			"B": { "item": "minecraft:stripped_dark_oak_log" },
 			"A": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:darkoak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:darkoak_saddle_stand",
 			"count": 1

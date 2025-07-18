@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:crimson_wood_mslab" },
 			"C": { "item": "minecraft:paper" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:crimson_wood_drawer0",
 			"count": 1

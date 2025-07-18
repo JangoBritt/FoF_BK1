@@ -15,7 +15,8 @@
 			"L": { "item": "minecraft:lantern" },
 			"C": { "item": "medieval:wooden_cart_spruce" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:spruce_covered_wagon",
 			"count": 1

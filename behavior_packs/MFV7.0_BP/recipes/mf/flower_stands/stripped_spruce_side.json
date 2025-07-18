@@ -15,7 +15,8 @@
 			"A": { "item": "medieval:stripped_spruce_post" },
 			"C": { "item": "medieval:stripped_spruce_mslab" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:spruce_flower_stand_side",
 			"count": 1

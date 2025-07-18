@@ -18,6 +18,7 @@
 			"C": { "item": "minecraft:frame" }
 		},
 		"unlock": [
+			{ "item": "fables_misc:spruce_book" },
 			{ "item": "medieval:workbench" }
 		],
 		"result": {

@@ -15,7 +15,8 @@
 			"B": { "item": "medieval:warped_wood_beam_double" },
 			"C": { "item": "minecraft:warped_planks" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:warped_box0",
 			"count": 2

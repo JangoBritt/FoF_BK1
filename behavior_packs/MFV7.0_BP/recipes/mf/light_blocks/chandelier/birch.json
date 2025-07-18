@@ -15,7 +15,8 @@
 			"C": { "item": "minecraft:chain" },
 			"S": { "item": "minecraft:stripped_birch_log" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:birch_chandelier",
 			"count": 2

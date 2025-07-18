@@ -13,7 +13,8 @@
 			"B": { "item": "minecraft:stripped_warped_stem" },
 			"A": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:warped_saddle_stand",
 			"count": 1

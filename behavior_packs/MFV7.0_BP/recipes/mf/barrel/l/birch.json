@@ -13,6 +13,7 @@
 			"#": { "item": "medieval:beer_barrel_birch" }
 		},
 		"unlock": [
+			{ "item": "fables_misc:birch_book" },
 			{ "item": "medieval:workbench" }
 		],
 		"result": {

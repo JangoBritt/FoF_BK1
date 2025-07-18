@@ -6,7 +6,8 @@
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:dark_oak_log" } ],
-		"unlock": [ { "item": "minecraft:dark_oak_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:darkoak_book" }, { "item": "minecraft:dark_oak_log" } ],
 		"result": {
 			"item": "medieval:darkoak_wood_chair1",
 			"count": 1

@@ -14,7 +14,8 @@
 			"#": { "item": "minecraft:oak_planks" },
 			"P": { "item": "minecraft:stick" }
 		},
-		"unlock": [ { "item": "medieval:workbench" } ],
+		"unlock": [
+			{ "item": "fables_misc:oak_book" }, { "item": "medieval:workbench" } ],
 		"result": {
 			"item": "medieval:oak_bookshelf_0",
 			"count": 1
