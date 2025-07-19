@@ -1,0 +1,27 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_pale_oak_table_1"
+		},
+		"tags": [
+			"medieval:workbench"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"A A"
+		],
+		"key": {
+			"A": { "item": "medieval:stripped_pale_oak_post" },
+			"B": { "item": "medieval:stripped_pale_oak_mslab" },
+			"C": { "item": "medieval:pale_oak_planks_mslab" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:pale_oak_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_pale_oak_table_1",
+			"count": 1
+		}
+	}
+}

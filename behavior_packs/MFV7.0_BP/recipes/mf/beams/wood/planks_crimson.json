@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:crimson_planks_beam"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:crimson_planks" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "minecraft:crimson_planks" } ],
+		"result": {
+			"item": "medieval:crimson_planks_beam",
+			"count": 2
+		}
+	}
+}

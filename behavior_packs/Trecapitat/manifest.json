@@ -6,6 +6,9 @@
         "uuid": "5ebf1d6b-3c2c-4ae1-bc26-1815134563b1",
         "version": [1, 4, 2]
     },
+    "metadata": {
+        "product_type": "addon"
+    },
     "modules": [
       {
         "description": "§l§fCreated by Effect99",

@@ -98,7 +98,7 @@
 			"minecraft:light_dampening": 0.0,
 			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
 			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
-			"minecraft:custom_components": ["mf:old_rotation2", "mf:basket"],
+			"minecraft:custom_components": ["mf6:old_rotation2", "mf:basket"],
 			"minecraft:map_color": "#bd9c6f"
 		}
 	}

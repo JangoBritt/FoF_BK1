@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_birch_sign"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"P##",
+			"P##",
+			"P  "
+		],
+		"key": {
+			"#": { "item": "minecraft:birch_planks" },
+			"P": { "item": "minecraft:stick" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_birch_sign",
+			"count": 4
+		}
+	}
+}

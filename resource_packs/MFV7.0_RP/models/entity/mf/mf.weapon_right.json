@@ -1,0 +1,37 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mf.weapon_right",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 1,
+				"visible_bounds_height": 1,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "right",
+					"parent": "block",
+					"pivot": [8.5, 0, -3.6]
+				},
+				{
+					"name": "rightarm",
+					"parent": "right",
+					"pivot": [8.5, 0, -3.6]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightarm",
+					"pivot": [8.5, 0, -2.6],
+					"rotation": [-161.25664, -56.45699, 81.96175]
+				}
+			]
+		}
+	]
+}

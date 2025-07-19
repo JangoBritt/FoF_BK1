@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:stripped_bamboo_fence2"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:bamboo_planks" } ],
+		"unlock": [
+			{ "item": "fables_misc:bamboo_book" }, { "item": "minecraft:bamboo_planks" } ],
+		"result": {
+			"item": "medieval:stripped_bamboo_fence2",
+			"count": 1
+		}
+	}
+}

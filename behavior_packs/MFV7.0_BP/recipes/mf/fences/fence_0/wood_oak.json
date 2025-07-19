@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:oak_wood_fence0"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:oak_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:oak_book" }, { "item": "minecraft:oak_log" } ],
+		"result": {
+			"item": "medieval:oak_wood_fence0",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:wood_oak_wtable",
+			"menu_category": {
+				"category": "items",
+				"group": "medFur:windowTable"
+			},
+			"states": {
+				"medieval:n": [ 0, 1 ],
+				"medieval:s": [ 0, 1 ],
+				"medieval:w": [ 0, 1 ],
+				"medieval:e": [ 0, 1 ]
+			}
+		},
+		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
+			"tag:wintable": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mf.window_table",
+				"bone_visibility": {
+					"0000": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 0",
+					"0100": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 0",
+					"1000": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 0",
+					"0010": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 0",
+					"0001": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 1",
+					"1100": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 0",
+					"0011": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 1",
+					"0110": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 0",
+					"0101": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 1",
+					"1001": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 1",
+					"1010": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 0",
+					"0111": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 1",
+					"1011": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 1",
+					"1110": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 0",
+					"1101": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 1",
+					"1111": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 1"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {"texture": "mf:wood_oak","render_method": "alpha_test"},
+				"planks": {"texture": "mf:oak_planks","render_method": "alpha_test"},
+				"glass": {"texture": "mf:glass_table","render_method": "alpha_test"}
+			},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "no_reaction"
+			} ] },
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 5 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 4.0 },
+			"minecraft:custom_components": ["mf:window_table"],
+			"minecraft:map_color": "#ab8b3f"
+		}
+	}
+}

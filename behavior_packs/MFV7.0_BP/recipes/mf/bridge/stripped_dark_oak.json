@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_darkoak_bridge"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"AAA",
+			"###"
+		],
+		"key": {
+			"#": { "item": "minecraft:dark_oak_planks" },
+			"A": { "item": "minecraft:stripped_dark_oak_log" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:darkoak_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_darkoak_bridge",
+			"count": 4
+		}
+	}
+}

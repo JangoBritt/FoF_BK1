@@ -554,3 +554,17 @@ entity.fables_avatars:tamalin44_head.name=Tamalin44's Head
 item.fables_avatars:tamalin44_avatar_item=Tamalin44's Avatar
 item.fables_avatars:tamalin44_head_item=Tamalin44's Head
 item.fables_avatars:tamalin44_mask=Tamalin44's Mask
+
+action.hint.exit.fables_avatars:police_officer_head=Jump to Exit
+entity.fables_avatars:police_officer_avatar.name=Police Officer's Avatar
+entity.fables_avatars:police_officer_head.name=Police Officer's Head
+item.fables_avatars:police_officer_avatar_item=Police Officer's  Avatar
+item.fables_avatars:police_officer_head_item=Police Officer's  Head
+item.fables_avatars:police_officer_mask=Police Officer's  Mask
+
+action.hint.exit.fables_avatars:citizen1_head=Jump to Exit
+entity.fables_avatars:citizen1_avatar.name=Citizen 1's Avatar
+entity.fables_avatars:citizen1_head.name=Citizen 1's Head
+item.fables_avatars:citizen1_avatar_item=Citizen 1's  Avatar
+item.fables_avatars:citizen1_head_item=Citizen 1's  Head
+item.fables_avatars:citizen1_mask=Citizen 1's  Mask

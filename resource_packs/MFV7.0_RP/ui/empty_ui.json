@@ -1,0 +1,75 @@
+{
+    "namespace": "empty_ui",
+    "chest_label": {
+        "$new_container_title|default": "$container_title",
+        "text": "$container_title"
+    },
+
+    "stove_ui_panel": {
+        "type": "panel",
+        "controls": [
+            {
+                "container_gamepad_helpers@common.container_gamepad_helpers": {}
+            },
+            {
+                "flying_item_renderer@common.flying_item_renderer": {
+                    "layer": 14
+                }
+            },
+            {
+                "selected_item_details_factory@common.selected_item_details_factory": {}
+            },
+            {
+                "item_lock_notification_factory@common.item_lock_notification_factory": {}
+            },
+            {
+                "root_panel@common.root_panel": {
+                    "layer": 1,
+                    "offset": [
+                        0,
+                        0
+                    ],
+                    "size": [203, 220],
+                    "controls": [
+                        {
+                            "common_panel@common.common_panel": {
+                                "controls": [
+                                    {
+                                        "bg_image": {
+                                            "type": "image",
+                                            "texture": "textures/ui/stove_inventory",
+                                            "size": [203, 221], 
+                                            "offset": [0, 0]
+                                        }
+                                    },
+                                    {
+                                        "close_button@common.close_button": {}
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "chest_panel": {
+                                "type": "panel",
+                                "layer": 5,
+                                "controls": [
+                                    {
+                                        "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                                    },
+                                    {
+                                        "hotbar_grid@common.hotbar_grid_template": {}
+                                    },
+                                    {
+                                        "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                                    }
+                                ]
+                            }
+                        },
+                        { "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+                        { "gamepad_cursor@common.gamepad_cursor_button": {} }
+                    ]
+                }
+            }
+        ]
+    }
+}

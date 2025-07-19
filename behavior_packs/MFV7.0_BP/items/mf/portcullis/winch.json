@@ -1,0 +1,20 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "medFur:miscBlocks"
+			},
+			"identifier": "medieval:winch_size"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:block_placer": {
+				"block": "medieval:winch_size",
+				"replace_block_item": true
+			},
+			"minecraft:custom_components": [ "mf:portcullis_set_size" ]
+		}
+	}
+}

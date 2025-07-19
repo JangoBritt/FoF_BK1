@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:andesite_wall"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:andesite" } ],
+		"unlock": [ { "item": "minecraft:andesite" } ],
+		"result": {
+			"item": "medieval:andesite_wall_0",
+			"count": 5
+		}
+	}
+}

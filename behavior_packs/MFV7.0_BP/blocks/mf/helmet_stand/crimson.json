@@ -1,0 +1,61 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:helmet_stand_crimson",
+			"menu_category": {
+				"category": "items",
+				"group": "medFur:helmetStand"
+			},
+			"traits": {
+				"minecraft:placement_direction": { "enabled_states": [ "minecraft:cardinal_direction" ], "y_rotation_offset": 180 }
+			}
+		},
+		"permutations": [
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, -90, 0 ] } } }
+		],
+		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mf.helmet_stand",
+				"bone_visibility": {
+					"e": false
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.mf.helmet_stand",
+				"material_instances": {
+					"*": { "texture": "mf:stripped_crimson", "render_method": "alpha_test" },
+					"wood": { "texture": "mf:wood_crimson", "render_method": "alpha_test" }
+				}
+			},
+			"minecraft:material_instances": {
+				"*": { "texture": "mf:stripped_crimson", "render_method": "alpha_test" },
+				"wood": { "texture": "mf:wood_crimson", "render_method": "alpha_test" }
+			},
+			"minecraft:collision_box": { "origin": [-4.5, 0, -4.5],"size": [9, 12, 9] },
+			"minecraft:selection_box": { "origin": [-4.5, 0, -4.5],"size": [9, 12, 9] },
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": {
+				"detection_rules": [{
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "blocking",
+					"stops_liquid_flowing_from_direction": [ "north", "south", "east", "west", "down" ]
+				}]
+			},
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 5 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.8 },
+			"minecraft:custom_components": [ "mf:helmet_stand" ],
+			"minecraft:map_color": "#802a76"
+		}
+	}
+}

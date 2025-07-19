@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:iron_throne"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"SSS",
+			"S#S",
+			"S#S"
+		],
+		"key": {
+			"#": { "item": "minecraft:iron_block" },
+			"S": { "item": "minecraft:iron_sword" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:iron_throne",
+			"count": 1
+		}
+	}
+}

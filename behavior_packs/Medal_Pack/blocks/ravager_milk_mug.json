@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.30",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "fables_misc:ravager_milk_mug",
@@ -16,13 +16,12 @@
 			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,90,0] }}},
 			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,270,0] }}},
 			{"condition": "q.block_state('medieval:quantity') == 1","components": {"minecraft:collision_box": {"origin": [-7,0.0,-7],"size": [15,8,14]},"minecraft:selection_box": {"origin": [-7,0.0,-7],"size": [15,8,14]}}},
-			{"condition": "q.block_state('medieval:quantity') == 2","components": {"minecraft:collision_box": {"origin": [-8,0.0,-8],"size": [16,8,16]},"minecraft:selection_box": {"origin": [-8,0.0,-8],"size": [16,8,16]}}},
-			{"condition": "q.block_state('medieval:quantity') == 3","components": {"minecraft:collision_box": {"origin": [-8,0.0,-8],"size": [16,16,16]},"minecraft:selection_box": {"origin": [-8,0.0,-8],"size": [16,16,16]}}}
+			{"condition": "q.block_state('medieval:quantity') == 2","components": {"minecraft:collision_box": {"origin": [-7.5,0.0,-7.5],"size": [15,8,15]},"minecraft:selection_box": {"origin": [-7.5,0.0,-7.5],"size": [15,8,15]}}},
+			{"condition": "q.block_state('medieval:quantity') == 3","components": {"minecraft:collision_box": {"origin": [-7.5,0.0,-7.5],"size": [15,16,15]},"minecraft:selection_box": {"origin": [-7.5,0.0,-7.5],"size": [15,16,15]}}}
 		],
 		"components": {
-			"tag:medieval_furniture": {},
 			"minecraft:geometry": {
-				"identifier": "geometry.m.beer_mug",
+				"identifier": "geometry.mf.beer_mug_block",
 				"bone_visibility": {
 					"beer_mug": "q.block_state('medieval:quantity') == 0",
 					"beer_mug2": "q.block_state('medieval:quantity') == 1",
@@ -34,13 +33,25 @@
 					"beer4": "q.block_state('medieval:quantity') == 3"
 				}
 			},
+			"minecraft:placement_filter": {
+				"conditions": [{
+					"allowed_faces": ["up"]
+				}]
+			},
 			"minecraft:material_instances": {"*": {"texture": "ravager_milk_mug","render_method": "alpha_test","ambient_occlusion": false}},
 			"minecraft:collision_box": {"origin": [-3,0.0,-3],"size": [9,8,6]},
 			"minecraft:selection_box": {"origin": [-3,0.0,-3],"size": [9,8,6]},
-			"minecraft:loot": "loot_tables/ravager_milk_mug.json",
-			"minecraft:light_dampening": 0.0,
-			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
-			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": {
+				"detection_rules": [{
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "broken"
+				}]
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 20 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.0 },
 			"minecraft:custom_components": ["fables_misc:ravager_milk_mug"],
 			"minecraft:map_color": "#634526"
 		}

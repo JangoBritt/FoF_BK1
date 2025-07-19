@@ -59,7 +59,8 @@
 			},
 			"minecraft:tags": {
 				"tags": [
-					"minecraft:is_hoe"
+					"minecraft:is_pickaxe",
+					"minecraft:is_tool"
 				]
 			}
 		},

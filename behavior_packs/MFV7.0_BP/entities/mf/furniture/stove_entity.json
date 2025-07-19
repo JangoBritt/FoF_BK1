@@ -1,0 +1,122 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:stove_entity",
+			"is_spawnable": false,
+			"is_summonable": true
+		},
+		"component_groups": {
+			"medieval:despawn": { "minecraft:instant_despawn": {} },
+			"mf:check_cooking_event": {
+				"minecraft:entity_sensor": {
+					"find_players_only": true,
+					"subsensors": [
+						{
+							"range": [ 7, 3 ],
+							"cooldown": 0.5,
+							"event": "mf:check",
+							"minimum_count": 1,
+							"event_filters": {
+								"all_of": [ { "test": "has_container_open", "subject": "other", "value": true } ]
+							}
+						}
+					]
+				}
+			},
+			"mf:start_cooking_event": {
+				"minecraft:timer": {
+					"time": 0.1,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:update_timer",
+						"target": "self"
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:type_family":{
+				"family":[ "inanimate", "medieval_container", "medieval_return_inv" ]
+			},
+			"minecraft:inventory": {
+				"inventory_size": 11,
+				"container_type": "container",
+				"can_be_siphoned_from": false
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 1,
+						"height": 0.4,
+						"pivot": [0, 0, 0]
+					}
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": "no"
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1,
+				"min": 1
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{ "block": { "name": "minecraft:air" }, "entered_block_event": { "event": "medieval:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stove" }, "exited_block_event": { "event": "medieval:despawn", "target": "self" } },
+					{ "block": { "name": "medieval:stove_visual" }, "exited_block_event": { "event": "medieval:despawn", "target": "self" } }
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:persistent": {},
+			"minecraft:fire_immune": {},
+			"minecraft:renders_when_invisible": {},
+			"minecraft:body_rotation_blocked": {},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"queue_command": { "command": [ "effect @s invisibility infinite 0 true" ] },
+				"add": { "component_groups": [ "mf:check_cooking_event" ] }
+			},
+			"medieval:despawn": { "queue_command": { "command": [ "scriptevent medieval:drop_stove 7" ] } },
+			"mf:check": {},
+			"mf:update_timer": {},
+			"mf:start_cooking": {
+				"add": { "component_groups": [ "mf:start_cooking_event" ] },
+				"remove": { "component_groups": [ "mf:check_cooking_event" ] }
+			},
+			"mf:stop_cooking": {
+				"add": { "component_groups": [ "mf:check_cooking_event" ] },
+				"remove": { "component_groups": [ "mf:start_cooking_event" ] }
+			},
+			"mf:remove_timer": { "remove": { "component_groups": ["medieval:timer"] } }
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:stonebrick_diagonal_roof"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:stone_bricks" } ],
+		"unlock": [ { "item": "minecraft:stone_bricks" } ],
+		"result": {
+			"item": "medieval:stonebrick_diagonal_roof",
+			"count": 1
+		}
+	}
+}

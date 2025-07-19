@@ -1,0 +1,349 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mf.basket_bottle",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "basket",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [2, 8, 14],
+							"uv": {
+								"north": {"uv": [9, 3], "uv_size": [0.5, 2]},
+								"east": {"uv": [0, 0], "uv_size": [3.5, 2]},
+								"south": {"uv": [9, 5.25], "uv_size": [0.5, 2]},
+								"west": {"uv": [0, 2.25], "uv_size": [3.5, 2]},
+								"up": {"uv": [7.5, 0], "uv_size": [0.5, 3.5]},
+								"down": {"uv": [8.25, 3.5], "uv_size": [0.5, -3.5]}
+							}
+						},
+						{
+							"origin": [5, 0, -7],
+							"size": [2, 8, 14],
+							"uv": {
+								"north": {"uv": [9, 5.25], "uv_size": [0.5, 2]},
+								"east": {"uv": [3.75, 0], "uv_size": [3.5, 2]},
+								"south": {"uv": [9, 3], "uv_size": [0.5, 2]},
+								"west": {"uv": [3.75, 2.25], "uv_size": [3.5, 2]},
+								"up": {"uv": [8.25, 3.75], "uv_size": [0.5, 3.5]},
+								"down": {"uv": [8.25, 11], "uv_size": [0.5, -3.5]}
+							}
+						},
+						{
+							"origin": [-5, 0, -7],
+							"size": [10, 8, 2],
+							"uv": {
+								"north": {"uv": [5.5, 4.5], "uv_size": [2.5, 2]},
+								"south": {"uv": [5.5, 6.75], "uv_size": [2.5, 2]},
+								"up": {"uv": [9, 0], "uv_size": [2.5, 0.5]},
+								"down": {"uv": [9, 1.25], "uv_size": [2.5, -0.5]}
+							}
+						},
+						{
+							"origin": [-5, 0, 5],
+							"size": [10, 8, 2],
+							"uv": {
+								"north": {"uv": [0, 7.25], "uv_size": [2.5, 2]},
+								"south": {"uv": [5.5, 4.5], "uv_size": [2.5, 2]},
+								"up": {"uv": [9, 1.5], "uv_size": [2.5, 0.5]},
+								"down": {"uv": [9, 2.75], "uv_size": [2.5, -0.5]}
+							}
+						},
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"up": {"uv": [0, 4.5], "uv_size": [2.5, 2.5]},
+								"down": {"uv": [2.75, 7], "uv_size": [2.5, -2.5]}
+							}
+						},
+						{
+							"origin": [6, 8, -5],
+							"size": [0, 7, 10],
+							"uv": {
+								"west": {"uv": [2.75, 7.25], "uv_size": [2.5, 1.75]}
+							}
+						},
+						{
+							"origin": [-6, 8, -5],
+							"size": [0, 7, 10],
+							"uv": {
+								"west": {"uv": [5.25, 7.25], "uv_size": [-2.5, 1.75]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bottle",
+					"parent": "basket",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0],
+					"cubes": [
+						{
+							"origin": [-3.78083, 18.09823, 0.34076],
+							"size": [2.295, 0.765, 2.295],
+							"pivot": [-0.98333, 3.99823, 5.83826],
+							"rotation": [32.5, 0, 7.5],
+							"uv": {
+								"north": {"uv": [0, 7], "uv_size": [3, 1], "material_instance": "bottle"},
+								"east": {"uv": [3, 7], "uv_size": [-3, 1], "material_instance": "bottle"},
+								"south": {"uv": [0, 7], "uv_size": [3, 1], "material_instance": "bottle"},
+								"west": {"uv": [3, 7], "uv_size": [-3, 1], "material_instance": "bottle"},
+								"up": {"uv": [3, 11], "uv_size": [-3, -3], "material_instance": "bottle"},
+								"down": {"uv": [0, 11], "uv_size": [3, -3], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [-4.54583, 16.56823, -0.42424],
+							"size": [3.825, 1.53, 3.825],
+							"pivot": [-0.98333, 3.99823, 5.83826],
+							"rotation": [32.5, 0, 7.5],
+							"uv": {
+								"north": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"east": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"south": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"west": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"up": {"uv": [12, 7], "uv_size": [-5, -5], "material_instance": "bottle"},
+								"down": {"uv": [12, 7], "uv_size": [-5, -5], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [-4.16333, 15.80323, -0.04174],
+							"size": [3.06, 0.765, 3.06],
+							"pivot": [-0.98333, 3.99823, 5.83826],
+							"rotation": [32.5, 0, 7.5],
+							"uv": {
+								"north": {"uv": [8, 0], "uv_size": [4, 1], "material_instance": "bottle"},
+								"east": {"uv": [7, 2], "uv_size": [4, 1], "material_instance": "bottle"},
+								"south": {"uv": [8, 2], "uv_size": [4, 1], "material_instance": "bottle"},
+								"west": {"uv": [7, 0], "uv_size": [4, 1], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [-5.31083, 10.44823, -1.18924],
+							"size": [5.355, 5.355, 5.355],
+							"pivot": [-0.98333, 3.99823, 5.83826],
+							"rotation": [32.5, 0, 7.5],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"east": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"south": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"west": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"up": {"uv": [7, 7], "uv_size": [-7, -7], "material_instance": "bottle"},
+								"down": {"uv": [7, 7], "uv_size": [-7, -7], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [-4.92833, 10.83073, -0.80674],
+							"size": [4.59, 3.825, 4.59],
+							"pivot": [-0.98333, 3.99823, 5.83826],
+							"rotation": [32.5, 0, 7.5],
+							"uv": {
+								"north": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"east": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"south": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"west": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"up": {"uv": [9, 13], "uv_size": [-6, -6], "material_instance": "bottle"},
+								"down": {"uv": [9, 13], "uv_size": [-6, -6], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [-4.0475, 13.0567, -2.5895],
+							"size": [2.295, 0.765, 2.295],
+							"pivot": [0, 5.4567, -3.442],
+							"rotation": [-72.5, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 7], "uv_size": [3, 1], "material_instance": "bottle"},
+								"east": {"uv": [3, 7], "uv_size": [-3, 1], "material_instance": "bottle"},
+								"south": {"uv": [0, 7], "uv_size": [3, 1], "material_instance": "bottle"},
+								"west": {"uv": [3, 7], "uv_size": [-3, 1], "material_instance": "bottle"},
+								"up": {"uv": [3, 11], "uv_size": [-3, -3], "material_instance": "bottle"},
+								"down": {"uv": [0, 11], "uv_size": [3, -3], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [-4.8125, 11.5267, -3.3545],
+							"size": [3.825, 1.53, 3.825],
+							"pivot": [0, 5.4567, -3.442],
+							"rotation": [-72.5, 0, 0],
+							"uv": {
+								"north": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"east": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"south": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"west": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"up": {"uv": [12, 7], "uv_size": [-5, -5], "material_instance": "bottle"},
+								"down": {"uv": [12, 7], "uv_size": [-5, -5], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [-4.43, 10.7617, -2.972],
+							"size": [3.06, 0.765, 3.06],
+							"pivot": [0, 5.4567, -3.442],
+							"rotation": [-72.5, 0, 0],
+							"uv": {
+								"north": {"uv": [8, 0], "uv_size": [4, 1], "material_instance": "bottle"},
+								"east": {"uv": [7, 2], "uv_size": [4, 1], "material_instance": "bottle"},
+								"south": {"uv": [8, 2], "uv_size": [4, 1], "material_instance": "bottle"},
+								"west": {"uv": [7, 0], "uv_size": [4, 1], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [-5.5775, 5.4067, -4.1195],
+							"size": [5.355, 5.355, 5.355],
+							"pivot": [0, 5.4567, -3.442],
+							"rotation": [-72.5, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"east": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"south": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"west": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"up": {"uv": [7, 7], "uv_size": [-7, -7], "material_instance": "bottle"},
+								"down": {"uv": [7, 7], "uv_size": [-7, -7], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [-5.195, 5.7892, -3.737],
+							"size": [4.59, 3.825, 4.59],
+							"pivot": [0, 5.4567, -3.442],
+							"rotation": [-72.5, 0, 0],
+							"uv": {
+								"north": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"east": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"south": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"west": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"up": {"uv": [9, 13], "uv_size": [-6, -6], "material_instance": "bottle"},
+								"down": {"uv": [9, 13], "uv_size": [-6, -6], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [0.255, 1.4825, -5.145],
+							"size": [4.59, 3.825, 4.59],
+							"uv": {
+								"north": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"east": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"south": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"west": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"up": {"uv": [9, 13], "uv_size": [-6, -6], "material_instance": "bottle"},
+								"down": {"uv": [9, 13], "uv_size": [-6, -6], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [1.5025, 8.75, 1.6025],
+							"size": [2.295, 0.765, 2.295],
+							"uv": {
+								"north": {"uv": [0, 7], "uv_size": [3, 1], "material_instance": "bottle"},
+								"east": {"uv": [3, 7], "uv_size": [-3, 1], "material_instance": "bottle"},
+								"south": {"uv": [0, 7], "uv_size": [3, 1], "material_instance": "bottle"},
+								"west": {"uv": [3, 7], "uv_size": [-3, 1], "material_instance": "bottle"},
+								"up": {"uv": [3, 11], "uv_size": [-3, -3], "material_instance": "bottle"},
+								"down": {"uv": [0, 11], "uv_size": [3, -3], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [0.7375, 7.22, 0.8375],
+							"size": [3.825, 1.53, 3.825],
+							"uv": {
+								"north": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"east": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"south": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"west": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"up": {"uv": [12, 7], "uv_size": [-5, -5], "material_instance": "bottle"},
+								"down": {"uv": [12, 7], "uv_size": [-5, -5], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [1.12, 6.455, 1.22],
+							"size": [3.06, 0.765, 3.06],
+							"uv": {
+								"north": {"uv": [8, 0], "uv_size": [4, 1], "material_instance": "bottle"},
+								"east": {"uv": [7, 2], "uv_size": [4, 1], "material_instance": "bottle"},
+								"south": {"uv": [8, 2], "uv_size": [4, 1], "material_instance": "bottle"},
+								"west": {"uv": [7, 0], "uv_size": [4, 1], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [-0.0275, 1.1, 0.0725],
+							"size": [5.355, 5.355, 5.355],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"east": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"south": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"west": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"up": {"uv": [7, 7], "uv_size": [-7, -7], "material_instance": "bottle"},
+								"down": {"uv": [7, 7], "uv_size": [-7, -7], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [0.355, 1.4825, 0.455],
+							"size": [4.59, 3.825, 4.59],
+							"uv": {
+								"north": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"east": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"south": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"west": {"uv": [3, 7], "uv_size": [6, 5], "material_instance": "bottle"},
+								"up": {"uv": [9, 13], "uv_size": [-6, -6], "material_instance": "bottle"},
+								"down": {"uv": [9, 13], "uv_size": [-6, -6], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [-0.1275, 1.1, -5.5275],
+							"size": [5.355, 5.355, 5.355],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"east": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"south": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"west": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "bottle"},
+								"up": {"uv": [7, 7], "uv_size": [-7, -7], "material_instance": "bottle"},
+								"down": {"uv": [7, 7], "uv_size": [-7, -7], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [1.02, 6.455, -4.38],
+							"size": [3.06, 0.765, 3.06],
+							"uv": {
+								"north": {"uv": [8, 0], "uv_size": [4, 1], "material_instance": "bottle"},
+								"east": {"uv": [7, 2], "uv_size": [4, 1], "material_instance": "bottle"},
+								"south": {"uv": [8, 2], "uv_size": [4, 1], "material_instance": "bottle"},
+								"west": {"uv": [7, 0], "uv_size": [4, 1], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [0.6375, 7.22, -4.7625],
+							"size": [3.825, 1.53, 3.825],
+							"uv": {
+								"north": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"east": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"south": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"west": {"uv": [7, 0], "uv_size": [5, 2], "material_instance": "bottle"},
+								"up": {"uv": [12, 7], "uv_size": [-5, -5], "material_instance": "bottle"},
+								"down": {"uv": [12, 7], "uv_size": [-5, -5], "material_instance": "bottle"}
+							}
+						},
+						{
+							"origin": [1.4025, 8.75, -3.9975],
+							"size": [2.295, 0.765, 2.295],
+							"uv": {
+								"north": {"uv": [0, 7], "uv_size": [3, 1], "material_instance": "bottle"},
+								"east": {"uv": [3, 7], "uv_size": [-3, 1], "material_instance": "bottle"},
+								"south": {"uv": [0, 7], "uv_size": [3, 1], "material_instance": "bottle"},
+								"west": {"uv": [3, 7], "uv_size": [-3, 1], "material_instance": "bottle"},
+								"up": {"uv": [3, 11], "uv_size": [-3, -3], "material_instance": "bottle"},
+								"down": {"uv": [0, 11], "uv_size": [3, -3], "material_instance": "bottle"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

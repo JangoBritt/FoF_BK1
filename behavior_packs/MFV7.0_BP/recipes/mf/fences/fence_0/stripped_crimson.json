@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:stripped_crimson_fence0"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:stripped_crimson_stem" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "minecraft:stripped_crimson_stem" } ],
+		"result": {
+			"item": "medieval:stripped_crimson_fence0",
+			"count": 1
+		}
+	}
+}

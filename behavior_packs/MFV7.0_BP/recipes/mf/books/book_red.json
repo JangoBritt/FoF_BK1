@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:book_red"
+		},
+		"tags": [ "crafting_table", "medieval:workbench" ],
+		"ingredients": [
+			{ "item": "minecraft:book" },
+			{ "item": "minecraft:red_dye" }
+		],
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:book_red",
+			"count": 1
+		}
+	}
+}

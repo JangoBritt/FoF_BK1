@@ -88,7 +88,7 @@
 				"conditions": [
 					{
 						"block_filter": [
-							"grass",
+							"grass_block",
 							"dirt",
 							"podzol",
 							"mycelium",

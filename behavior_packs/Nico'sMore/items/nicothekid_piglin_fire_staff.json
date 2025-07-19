@@ -92,7 +92,8 @@
           "nicothekid:range_weapon",
           "nicothekid:fire_aspect",
           "nicothekid:flame",
-          "nicothekid:items"
+          "nicothekid:items",
+		  "minecraft:is_tool"
         ]
       }
     }

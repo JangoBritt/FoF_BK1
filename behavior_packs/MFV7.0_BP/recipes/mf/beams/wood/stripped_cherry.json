@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:stripped_cherry_beam"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:stripped_cherry_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "minecraft:stripped_cherry_log" } ],
+		"result": {
+			"item": "medieval:stripped_cherry_beam",
+			"count": 2
+		}
+	}
+}

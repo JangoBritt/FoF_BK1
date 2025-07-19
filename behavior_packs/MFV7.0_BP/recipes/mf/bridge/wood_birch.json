@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wood_birch_bridge"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"AAA",
+			"###"
+		],
+		"key": {
+			"#": { "item": "minecraft:birch_planks" },
+			"A": { "item": "minecraft:birch_log" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:wood_birch_bridge",
+			"count": 4
+		}
+	}
+}

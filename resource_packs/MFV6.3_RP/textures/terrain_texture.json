@@ -359,6 +359,7 @@
 		"m.empty": {"textures":["textures/medieval_blocks/blocks/kitchen/empty"]},
 
 		"m.acacia_planks": { "textures": [ "textures/blocks/planks_acacia"]},
+		"m.pale_oak_planks": { "textures": [ "textures/blocks/pale_oak_planks"]},
 		"m.birch_planks": { "textures": [ "textures/blocks/planks_birch"]},
 		"m.cherry_planks": { "textures": [ "textures/blocks/cherry_planks"]},
 		"m.crimson_planks": { "textures": [ "textures/blocks/huge_fungus/crimson_planks"]},
@@ -370,6 +371,7 @@
 		"m.spruce_planks": { "textures": [ "textures/blocks/planks_spruce"]},
 		"m.warped_planks": { "textures": [ "textures/blocks/huge_fungus/warped_planks"]},
 
+		"m.stripped_pale_oak": { "textures": [ "textures/blocks/stripped_pale_oak_log_side"]},
 		"m.stripped_acacia": { "textures": [ "textures/blocks/stripped_acacia_log"]},
 		"m.stripped_birch": { "textures": [ "textures/blocks/stripped_birch_log"]},
 		"m.stripped_cherry": { "textures": [ "textures/blocks/stripped_cherry_log_side"]},
@@ -384,6 +386,7 @@
 		"m.stripped_bamboo_block": { "textures": [ "textures/blocks/stripped_bamboo_block"]},
 
 		"m.wood_acacia": { "textures": [ "textures/blocks/log_acacia"]},
+		"m.wood_pale_oak": { "textures": [ "textures/blocks/pale_oak_log_side"]},
 		"m.wood_birch": { "textures": [ "textures/blocks/log_birch"]},
 		"m.wood_cherry": { "textures": [ "textures/blocks/cherry_log_side"]},
 		"m.wood_crimson": { "textures": [ "textures/blocks/huge_fungus/crimson_log_side"]},
@@ -520,6 +523,8 @@
 		"m.beer_fill_item": {"textures": "textures/medieval_blocks/items/barrel/beer_mug_fill_item"},
 
 		"m.acacia_mailbox": {"textures": "textures/medieval_blocks/blocks/mailbox/acacia_mailbox"},
+		"m.pale_oak_mailbox": {"textures": "textures/medieval_blocks/blocks/mailbox/pale_oak_mailbox"},
+
 		"m.birch_mailbox": {"textures": "textures/medieval_blocks/blocks/mailbox/birch_mailbox"},
 		"m.cherry_mailbox": {"textures": "textures/medieval_blocks/blocks/mailbox/cherry_mailbox"},
 		"m.crimson_mailbox": {"textures": "textures/medieval_blocks/blocks/mailbox/crimson_mailbox"},

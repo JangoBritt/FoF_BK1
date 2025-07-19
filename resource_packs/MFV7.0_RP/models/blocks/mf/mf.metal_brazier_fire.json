@@ -1,0 +1,59 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mf.metal_brazier_fire",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "fire",
+					"pivot": [0, -3.25, 0],
+					"cubes": [
+						{
+							"origin": [-12, -3.25, 11],
+							"size": [24, 24, 0],
+							"pivot": [0, -3.25, 11],
+							"rotation": [30, 0, 0],
+							"uv": {
+								"south": {"uv": [0, 0], "uv_size": [16, 16]}
+							}
+						},
+						{
+							"origin": [-12, -3.25, -11],
+							"size": [24, 24, 0],
+							"pivot": [0, -3.25, -11],
+							"rotation": [-30, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16]}
+							}
+						},
+						{
+							"origin": [11, -3.25, -12],
+							"size": [0, 24, 24],
+							"pivot": [11, -3.25, 0],
+							"rotation": [0, 0, -30],
+							"uv": {
+								"west": {"uv": [0, 0], "uv_size": [16, 16]}
+							}
+						},
+						{
+							"origin": [-11, -3.25, -12],
+							"size": [0, 24, 24],
+							"pivot": [-11, -3.25, 0],
+							"rotation": [0, 0, 30],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [16, 16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

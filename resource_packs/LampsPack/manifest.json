@@ -8,6 +8,7 @@
     "min_engine_version": [ 1, 21, 40 ]
   },
   "metadata": {
+		"product_type": "addon",
 		"authors": [ "NicoTheKid" ],
 		"url": "https://mcpedl.com/user/dangel/"
 	},

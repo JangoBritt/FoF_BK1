@@ -1,0 +1,301 @@
+{
+	"namespace": "stove_ui",
+	"chest_label": {
+		"$new_container_title|default": "$container_title",
+		"text": "$container_title"
+	},
+	"title_label": {
+		"type": "label",
+		"text": "tile.medieval:stove.name",
+		"color": "$title_text_color",
+		"layer": 2
+	},
+	"stove_ui_main_container": {
+		"type": "panel",
+		"size": [
+			"100%",
+			"50%"
+		],
+		"offset": [ 0, 0 ],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{
+				"title_label@stove_ui.title_label": {
+					"offset": [ 0, -35 ]
+				}
+			},
+			{
+				"stove_ui_grid@stove_ui.stove_ui_grid": {
+					"offset": [
+						22,
+						9
+					]
+				}
+			},
+			{
+				"progress_fire_0@stove_ui.img_anim_panel": {
+					"$size": [ 18, 18 ],
+					"$offset": [ -22, -17 ],
+					"$clipd": "down",
+					"$slot": 10,
+					"$texture_empty": "textures/medieval/ui/fire_empty",
+					"$texture_full": "textures/medieval/ui/fire_full"
+				}
+			},
+			{
+				"progress_fire_1@stove_ui.img_anim_panel": {
+					"$size": [ 18, 18 ],
+					"$offset": [ -22, 9 ],
+					"$clipd": "down",
+					"$slot": 10,
+					"$texture_empty": "textures/medieval/ui/fire_empty",
+					"$texture_full": "textures/medieval/ui/fire_full"
+				}
+			},
+			{
+				"progress_fire_2@stove_ui.img_anim_panel": {
+					"$size": [ 18, 18 ],
+					"$offset": [ -22, 35 ],
+					"$clipd": "down",
+					"$slot": 10,
+					"$texture_empty": "textures/medieval/ui/fire_empty",
+					"$texture_full": "textures/medieval/ui/fire_full"
+				}
+			},
+			{
+				"progress_arrow_0@stove_ui.img_anim_panel": {
+					"$size": [ 25, 25 ],
+					"$offset": [ 12, -16 ],
+					"$clipd": "left",
+					"$slot": 7,
+					"$texture_empty": "textures/medieval/ui/arrow_empty",
+					"$texture_full": "textures/medieval/ui/arrow_full"
+				}
+			},
+			{
+				"progress_arrow_1@stove_ui.img_anim_panel": {
+					"$size": [ 25, 25 ],
+					"$offset": [ 12, 10 ],
+					"$clipd": "left",
+					"$slot": 8,
+					"$texture_empty": "textures/medieval/ui/arrow_empty",
+					"$texture_full": "textures/medieval/ui/arrow_full"
+				}
+			},
+			{
+				"progress_arrow_1@stove_ui.img_anim_panel": {
+					"$size": [ 25, 25 ],
+					"$offset": [ 12, 36 ],
+					"$clipd": "left",
+					"$slot": 9,
+					"$texture_empty": "textures/medieval/ui/arrow_empty",
+					"$texture_full": "textures/medieval/ui/arrow_full"
+				}
+			}
+		]
+	},
+	"input_grid_panel": {
+		"type": "panel",
+		"grid_position": [
+			0,
+			0
+		]
+	},
+	"img_anim_panel": {
+		"type": "panel",
+		"size": "$size",
+		"$clipd|default": "down",
+		"$slot|default": 0,
+		"$size|default": [ 16, 16 ],
+		"$offset|default": [ 0, 0 ],
+		"$texture_empty|default": "textures/empty",
+		"$texture_full|default": "textures/empty",
+		"controls": [
+			{
+				"arrow_progress": {
+					"type": "collection_panel",
+					"size": "$size",
+					"collection_name": "container_items",
+					"anchor_from": "center",
+					"anchor_to": "center",
+					"offset": "$offset",
+					"controls": [
+						{
+							"arw": {
+								"type": "image",
+								"layer": 5,
+								"size": "$size",
+								"collection_index": "$slot",
+								"$max_stack|default": 63.0,
+								"clip_direction": "$clipd",
+								"clip_pixelperfect": true,
+								"bindings": [
+									{
+										"binding_name": "#inventory_stack_count",
+										"binding_name_override": "#stack_count",
+										"binding_condition": "always",
+										"binding_type": "collection",
+										"binding_collection_name": "container_items"
+									},
+									{
+										"binding_type": "view",
+										"source_property_name": "(not (#stack_count = ''))",
+										"target_property_name": "#visible"
+									},
+									{
+										"binding_type": "view",
+										"source_property_name": "((#stack_count - '§r' - '§f' - '§o') * 1)",
+										"target_property_name": "#stack_number"
+									},
+									{
+										"binding_condition": "always",
+										"binding_type": "view",
+										"source_property_name": "(1 - ((#stack_number - 1) / $max_stack))",
+										"target_property_name": "#clip_ratio"
+									}
+								],
+								"texture": "$texture_full"
+							}
+						}
+					]
+				}
+			},
+			{
+				"arw_bg": {
+					"type": "image",
+					"layer": 4,
+					"size": "$size",
+					"offset": "$offset",
+					"texture": "$texture_empty"
+				}
+			}
+		]
+	},
+	"stove_ui_grid": {
+		"type": "grid",
+		"size": [ 18, 126 ],
+		"anchor_from": "top_middle",
+		"anchor_to": "top_middle",
+		"grid_dimensions": [
+			1,
+			7
+		],
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items",
+		"controls": [
+			{
+				"stove_ui_slot_0@stove_ui.input_grid_panel": {
+					"grid_position": [ 0, 0 ],
+					"controls": [
+						{ "top_left@chest.chest_grid_item": { "offset": [ -72, 18 ] } }
+					]
+				}
+			},
+			{
+				"stove_ui_slot_1@stove_ui.input_grid_panel": {
+					"grid_position": [ 1, 0 ],
+					"controls": [
+						{ "top_mid@chest.chest_grid_item": { "offset": [ -72, 26 ] } }
+					]
+				}
+			},
+			{
+				"stove_ui_slot_2@stove_ui.input_grid_panel": {
+					"grid_position": [ 2, 0 ],
+					"controls": [
+						{ "top_right@chest.chest_grid_item": { "offset": [ -72, 34 ] } }
+					]
+				}
+			},
+			{
+				"stove_ui_slot_3@stove_ui.input_grid_panel": {
+					"grid_position": [ 3, 0 ],
+					"controls": [
+						{ "top_left@chest.chest_grid_item": { "offset": [ -44, 34 ] } }
+					]
+				}
+			},
+			{
+				"stove_ui_slot_4@stove_ui.input_grid_panel": {
+					"grid_position": [ 4, 0 ],
+					"controls": [
+						{ "top_mid@chest.chest_grid_item": { "offset": [ 18, -54 ] } }
+					]
+				}
+			},
+			{
+				"stove_ui_slot_5@stove_ui.input_grid_panel": {
+					"grid_position": [ 5, 0 ],
+					"controls": [
+						{ "top_right@chest.chest_grid_item": { "offset": [ 18, -46 ] } }
+					]
+				}
+			},
+			{
+				"stove_ui_slot_3@stove_ui.input_grid_panel": {
+					"grid_position": [ 6, 0 ],
+					"controls": [
+						{ "top_left@chest.chest_grid_item": { "offset": [ 18, -38 ] } }
+					]
+				}
+			}
+		]
+	},
+	"stove_ui_panel": {
+		"type": "panel",
+		"controls": [
+			{
+				"container_gamepad_helpers@common.container_gamepad_helpers": {}
+			},
+			{
+				"flying_item_renderer@common.flying_item_renderer": {
+					"layer": 14
+				}
+			},
+			{
+				"selected_item_details_factory@common.selected_item_details_factory": {}
+			},
+			{
+				"item_lock_notification_factory@common.item_lock_notification_factory": {}
+			},
+			{
+				"root_panel@common.root_panel": {
+					"layer": 1,
+					"offset": [
+						0,
+						0
+					],
+					"size": [180, 205],
+					"controls": [
+						{
+							"common_panel@common.common_panel": {}
+						},
+						{
+							"chest_panel": {
+								"type": "panel",
+								"layer": 5,
+								"controls": [
+									{
+										"stove_ui_main_container@stove_ui.stove_ui_main_container": {}
+									},
+									{
+										"inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+									},
+									{
+										"hotbar_grid@common.hotbar_grid_template": {}
+									},
+									{
+										"inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+									}
+								]
+							}
+						},
+						{ "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+						{ "gamepad_cursor@common.gamepad_cursor_button": {} }
+					]
+				}
+			}
+		]
+	}
+}

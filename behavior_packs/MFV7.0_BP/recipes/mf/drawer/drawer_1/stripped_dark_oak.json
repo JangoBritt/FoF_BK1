@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:darkoak_drawer1"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"BBB",
+			"#C#",
+			"###"
+		],
+		"key": {
+			"#": { "item": "minecraft:dark_oak_planks" },
+			"B": { "item": "medieval:stripped_darkoak_mslab" },
+			"C": { "item": "minecraft:clock" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:darkoak_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:darkoak_drawer1",
+			"count": 1
+		}
+	}
+}

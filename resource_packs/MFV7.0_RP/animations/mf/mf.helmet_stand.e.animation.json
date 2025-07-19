@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mf.helmet_stand.e.circles": {
+			"loop": true,
+			"animation_length": 8,
+			"bones": {
+				"block": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"8.0": [0, 360, 0]
+					}
+				}
+			}
+		},
+		"animation.mf.helmet_stand.e.def_rot": {
+			"loop": true,
+			"bones": {
+				"block": {
+					"rotation": [0, "v.rot", 0]
+				},
+				"body": {
+					"scale": 0
+				},
+				"rightArm": {
+					"scale": 0
+				},
+				"leftArm": {
+					"scale": 0
+				},
+				"rightLeg": {
+					"scale": 0
+				},
+				"leftLeg": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}

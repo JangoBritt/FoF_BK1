@@ -4,7 +4,7 @@
 		"description": "MrCrayfish Furniture Resource Pack §bUnofficial Port By EndXenoc",
 		"name": "MrCrayfish Furniture Add-On [RP 1.21.80+] (Ported By EndXenoc)",
 		"uuid": "51284a03-e6fe-49e7-a042-aa0002a8e98f",
-		"version": [ 1, 2, 81 ],
+		"version": [ 1, 2, 82 ],
 		"min_engine_version": [ 1, 21, 70 ]
 	},
 	"modules": [
@@ -12,13 +12,13 @@
 			"description": "resources",
 			"type": "resources",
 			"uuid": "dcc50c78-6ef5-401c-a3bc-06d57a86c588",
-			"version": [ 1, 2, 81 ]
+			"version": [ 1, 2, 82 ]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "95cc40f0-999b-49b8-8311-c8aaaa887ed6",
-			"version": [ 1, 2, 81 ]
+			"version": [ 1, 2, 82 ]
 		}
 	],
 	"metadata": {

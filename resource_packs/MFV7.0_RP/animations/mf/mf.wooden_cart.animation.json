@@ -1,0 +1,13 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mf.wooden_cart.no_horse": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"position": [0, 0, -22.5]
+				}
+			}
+		}
+	}
+}

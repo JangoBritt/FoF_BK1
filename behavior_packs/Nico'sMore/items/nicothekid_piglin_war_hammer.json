@@ -530,7 +530,7 @@
 						"speed": 9
 					},
 					{
-						"block": "minecraft:deepslate_brick",
+						"block": "minecraft:deepslate_bricks",
 						"speed": 9
 					},
 					{ //PIZARRA ABISMAL PULIDA
@@ -765,10 +765,7 @@
 						"block": "minecraft:smoker",
 						"speed": 9
 					},
-					{
-						"block": "minecraft:light_smoker",
-						"speed": 9
-					},
+
 					/*BLOQUES INDIVIDUALES*/
 					{
 						"block": "minecraft:bone_block",
@@ -1072,7 +1069,8 @@
 					"nicothekid:hammer",
 					"nicothekid:melee_weapon",
 					"nicothekid:earth_bane",
-					"nicothekid:items"
+					"nicothekid:items",
+		  			"minecraft:is_tool"
 				]
 			}
 		}

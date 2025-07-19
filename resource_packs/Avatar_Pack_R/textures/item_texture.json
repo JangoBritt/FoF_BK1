@@ -667,6 +667,18 @@
                                                    },
                          "tamalin44_head_item":  {
                                                      "textures":  "textures/avatars/members/tamalin44/player_head_item"
-                                                 }
+                                                 },
+                         "police_officer_avatar_item":  {
+                                                            "textures":  "textures/avatars/specials/police_officer/avatar_item"
+                                                        },
+                         "police_officer_head_item":  {
+                                                          "textures":  "textures/avatars/specials/police_officer/player_head_item"
+                                                      },
+                         "citizen1_avatar_item":  {
+                                                      "textures":  "textures/avatars/specials/citizen1/avatar_item"
+                                                  },
+                         "citizen1_head_item":  {
+                                                    "textures":  "textures/avatars/specials/citizen1/player_head_item"
+                                                }
                      }
 }

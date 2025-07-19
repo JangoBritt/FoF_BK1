@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_warped_bridge"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"AAA",
+			"###"
+		],
+		"key": {
+			"#": { "item": "minecraft:warped_planks" },
+			"A": { "item": "minecraft:stripped_warped_stem" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_warped_bridge",
+			"count": 4
+		}
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:workbench_visual",
+			"menu_category": {
+				"category": "none",
+				"is_hidden_in_commands": true
+			},
+			"traits": {
+				"minecraft:placement_direction": { "enabled_states": [ "minecraft:cardinal_direction" ], "y_rotation_offset": 180 }
+			},
+			"states": {
+				"mc:block_parts": [ 0, 1 ]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [ 0, 0, 0 ] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [ 0, 180, 0 ] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [ 0, 90, 0 ] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [ 0, -90, 0 ] }}},
+			{"condition": "q.block_state('mc:block_parts') == 0", "components": {
+				"minecraft:placement_filter": {"conditions": [
+					{
+						"allowed_faces": ["east"],
+						"block_filter": [{"name": "medieval:workbench_visual","states": {"minecraft:cardinal_direction": "north", "mc:block_parts": 1}}]
+					},
+					{
+						"allowed_faces": ["west"],
+						"block_filter": [{"name": "medieval:workbench_visual","states": {"minecraft:cardinal_direction": "south", "mc:block_parts": 1}}]
+					},
+					{
+						"allowed_faces": ["south"],
+						"block_filter": [{"name": "medieval:workbench_visual","states": {"minecraft:cardinal_direction": "east", "mc:block_parts": 1}}]
+					},
+					{
+						"allowed_faces": ["north"],
+						"block_filter": [{"name": "medieval:workbench_visual","states": {"minecraft:cardinal_direction": "west", "mc:block_parts": 1}}]
+					}
+				]}
+			}},
+			{"condition": "q.block_state('mc:block_parts') == 1", "components": {
+				"minecraft:placement_filter": {"conditions": [
+					{
+						"allowed_faces": ["west"],
+						"block_filter": [{"name": "medieval:workbench_visual","states": {"minecraft:cardinal_direction": "north", "mc:block_parts": 0}}]
+					},
+					{
+						"allowed_faces": ["east"],
+						"block_filter": [{"name": "medieval:workbench_visual","states": {"minecraft:cardinal_direction": "south", "mc:block_parts": 0}}]
+					},
+					{
+						"allowed_faces": ["south"],
+						"block_filter": [{"name": "medieval:workbench_visual","states": {"minecraft:cardinal_direction": "west", "mc:block_parts": 0}}]
+					},
+					{
+						"allowed_faces": ["north"],
+						"block_filter": [{"name": "medieval:workbench_visual","states": {"minecraft:cardinal_direction": "east", "mc:block_parts": 0}}]
+					}
+				]}
+			}}
+		],
+		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mf.workbench",
+				"bone_visibility": {
+					"part_0": "q.block_state('mc:block_parts') == 0",
+					"part_1": "q.block_state('mc:block_parts') == 1"
+				}
+			},
+			"minecraft:material_instances": { "*": { "texture": "mf:workbench", "render_method": "alpha_test" } },
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:display_name": "mc.unobtainable_block.name",
+			"minecraft:crafting_table": { "crafting_tags": [ "medieval:workbench" ], "table_name": "mf:workbench.recipe" },
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "blocking",
+				"stops_liquid_flowing_from_direction": [ "north", "south", "west", "east", "up", "down" ]
+			} ] },
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 20 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 2.0 },
+			"minecraft:custom_components": [ "mf:break_big_block" ],
+			"minecraft:map_color": "#9f844d"
+		}
+	}
+}

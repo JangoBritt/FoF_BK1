@@ -38,8 +38,6 @@
 			"minecraft:digger": {
 				"use_efficiency": true,
 				"destroy_speeds": [
-					{"block": {"tags": "q.any_tag('medieval_furniture')"},"speed": 15},
-
 					{"block": "korbon:jacaranda_log","speed": 8},
 					{"block": "korbon:baobab_log","speed": 8},
 					{"block": "korbon:redwood_log","speed": 8},			
@@ -59,6 +57,12 @@
 					{"block": "minecraft:mushroom_stem","speed": 8},
 					{"block": "minecraft:nether_wart_block","speed": 8},
 					{"block": "minecraft:warped_wart_block","speed": 8}
+				]
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_axe",
+					"minecraft:is_tool"
 				]
 			}
 		}

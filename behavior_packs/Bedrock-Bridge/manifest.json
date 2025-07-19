@@ -37,6 +37,7 @@
     ],
     "metadata": {
         "authors": ["InnateAlpaca"],
+        "product_type": "addon",
         "license": "MIT",
         "url": "https://bedrockbridge.esploratori.space/"
     }

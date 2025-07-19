@@ -1,0 +1,297 @@
+{
+	"format_version":"1.8.0",
+	"render_controllers": {
+		"controller.render.mf.drawer_metal": {
+			"part_visibility": [
+				{ "wood*": false },
+				{ "item*": false }
+			],
+			"textures": [ "Texture.metal" ],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 }
+		},
+		"controller.render.mf.wooden_container": {
+			"part_visibility": [
+				{ "metal*": false },
+				{ "item*": false }
+			],
+			"arrays": {
+				"textures": {
+					"Array.wood": [
+						"Texture.wood_oak",
+						"Texture.stripped_oak",
+						"Texture.wood_spruce",
+						"Texture.stripped_spruce",
+						"Texture.wood_birch",
+						"Texture.stripped_birch",
+						"Texture.wood_jungle",
+						"Texture.stripped_jungle",
+						"Texture.wood_acacia",
+						"Texture.stripped_acacia",
+						"Texture.wood_dark_oak",
+						"Texture.stripped_dark_oak",
+						"Texture.wood_mangrove",
+						"Texture.stripped_mangrove",
+						"Texture.wood_cherry",
+						"Texture.stripped_cherry",
+						"Texture.wood_pale_oak",
+						"Texture.stripped_pale_oak",
+						"Texture.bamboo",
+						"Texture.wood_crimson",
+						"Texture.stripped_crimson",
+						"Texture.wood_warped",
+						"Texture.stripped_warped"
+					]
+				},
+				"geometries": {
+					"Array.geo": [
+						"Geometry.default",
+						"Geometry.nether"
+					]
+				}
+			},
+			"textures": [ "Array.wood[q.variant]" ],
+			"geometry": "Array.geo[(q.variant == 19 || q.variant == 21) ? 1 : 0]",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 }
+		},
+		"controller.render.mf.container_item": {
+			"part_visibility": [
+				{ "wood*": false },
+				{ "metal*": false }
+			],
+			"arrays": {
+				"textures": {
+					"Array.item": [
+						"Texture.no_item",
+						"Texture.paper",
+						"Texture.book",
+						"Texture.book_writable",
+						"Texture.book_enchanted"
+					]
+				}
+			},
+			"textures": [ "Array.item[q.property('mf:item')]" ],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 }
+		},
+		"controller.render.mf.container_item2": {
+			"part_visibility": [
+				{ "wood*": false },
+				{ "metal*": false }
+			],
+			"arrays": {
+				"textures": {
+					"Array.item": [
+						"Texture.no_item",
+						"Texture.book_0",
+						"Texture.book_1",
+						"Texture.book_2",
+						"Texture.book_3",
+						"Texture.book_4",
+						"Texture.book_5",
+						"Texture.book_black",
+						"Texture.book_blue",
+						"Texture.book_brown",
+						"Texture.book_cyan",
+						"Texture.book_gray",
+						"Texture.book_green",
+						"Texture.book_light_blue",
+						"Texture.book_light_gray",
+						"Texture.book_lime",
+						"Texture.book_magenta",
+						"Texture.book_orange",
+						"Texture.book_pink",
+						"Texture.book_purple",
+						"Texture.book_red",
+						"Texture.book_white",
+						"Texture.book_yellow"
+					]
+				}
+			},
+			"textures": [ "Array.item[q.property('mf:item')]" ],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 }
+		},
+		"controller.render.mf.wooden_cabinet_tall": {
+			"part_visibility": [
+				{ "*normal": "!q.property('mf:side_door')" },
+				{ "*side*": "q.property('mf:side_door')" },
+				{ "metal*": false },
+				{ "item*": false }
+			],
+			"arrays": {
+				"textures": {
+					"Array.wood": [
+						"Texture.wood_oak",
+						"Texture.stripped_oak",
+						"Texture.wood_spruce",
+						"Texture.stripped_spruce",
+						"Texture.wood_birch",
+						"Texture.stripped_birch",
+						"Texture.wood_jungle",
+						"Texture.stripped_jungle",
+						"Texture.wood_acacia",
+						"Texture.stripped_acacia",
+						"Texture.wood_dark_oak",
+						"Texture.stripped_dark_oak",
+						"Texture.wood_mangrove",
+						"Texture.stripped_mangrove",
+						"Texture.wood_cherry",
+						"Texture.stripped_cherry",
+						"Texture.wood_pale_oak",
+						"Texture.stripped_pale_oak",
+						"Texture.bamboo",
+						"Texture.wood_crimson",
+						"Texture.stripped_crimson",
+						"Texture.wood_warped",
+						"Texture.stripped_warped"
+					]
+				},
+				"geometries": {
+					"Array.geo": [
+						"Geometry.default",
+						"Geometry.nether"
+					]
+				}
+			},
+			"textures": [ "Array.wood[q.variant]" ],
+			"geometry": "Array.geo[(q.variant == 19 || q.variant == 21) ? 1 : 0]",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 }
+		},
+		"controller.render.mf.cabinet_tall_metal": {
+			"part_visibility": [
+				{ "*normal": "!q.property('mf:side_door')" },
+				{ "*side*": "q.property('mf:side_door')" },
+				{ "wood*": false },
+				{ "item*": false }
+			],
+			"textures": [ "Texture.metal" ],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 }
+		},
+		"controller.render.mf.item_potion_top": {
+			"part_visibility": [
+				{ "*normal": false },
+				{ "*side*": false },
+				{ "*bottom": false },
+				{ "item_potion_top": "q.property('mf:item_top') == 1" },
+				{ "item_book_top": "q.property('mf:item_top') == 2" }
+			],
+			"arrays": {
+				"textures": {
+					"Array.t": [
+						"Texture.potion_0",
+						"Texture.potion_1",
+						"Texture.potion_2",
+						"Texture.potion_3",
+						"Texture.potion_4",
+						"Texture.potion_5",
+						"Texture.potion_6",
+						"Texture.potion_7",
+						"Texture.potion_8",
+						"Texture.potion_9",
+						"Texture.potion_10",
+						"Texture.potion_11",
+						"Texture.potion_12",
+						"Texture.potion_13",
+						"Texture.potion_14",
+						"Texture.potion_15",
+						"Texture.book_0",
+						"Texture.book_1",
+						"Texture.book_2",
+						"Texture.book_3",
+						"Texture.book_4",
+						"Texture.book_5",
+						"Texture.book_6",
+						"Texture.book_7",
+						"Texture.book_8",
+						"Texture.book_9",
+						"Texture.book_10",
+						"Texture.book_11",
+						"Texture.book_12",
+						"Texture.book_13",
+						"Texture.book_14",
+						"Texture.book_15"
+					]
+				}
+			},
+			"textures": [ "Array.t[q.property('mf:random_top') + 16 * (q.property('mf:item_top') - 1)]" ],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 }
+		},
+		"controller.render.mf.item_potion_bottom": {
+			"part_visibility": [
+				{ "*normal": false },
+				{ "*side*": false },
+				{ "*top": false },
+				{ "item_potion_bottom": "q.property('mf:item_bottom') == 1" },
+				{ "item_book_bottom": "q.property('mf:item_bottom') == 2" }
+			],
+			"arrays": {
+				"textures": {
+					"Array.t": [
+						"Texture.potion_0",
+						"Texture.potion_1",
+						"Texture.potion_2",
+						"Texture.potion_3",
+						"Texture.potion_4",
+						"Texture.potion_5",
+						"Texture.potion_6",
+						"Texture.potion_7",
+						"Texture.potion_8",
+						"Texture.potion_9",
+						"Texture.potion_10",
+						"Texture.potion_11",
+						"Texture.potion_12",
+						"Texture.potion_13",
+						"Texture.potion_14",
+						"Texture.potion_15",
+						"Texture.book_0",
+						"Texture.book_1",
+						"Texture.book_2",
+						"Texture.book_3",
+						"Texture.book_4",
+						"Texture.book_5",
+						"Texture.book_6",
+						"Texture.book_7",
+						"Texture.book_8",
+						"Texture.book_9",
+						"Texture.book_10",
+						"Texture.book_11",
+						"Texture.book_12",
+						"Texture.book_13",
+						"Texture.book_14",
+						"Texture.book_15"
+					]
+				}
+			},
+			"textures": [ "Array.t[q.property('mf:random_bottom') + 16 * (q.property('mf:item_bottom') - 1)]" ],
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 }
+		}
+	}
+}

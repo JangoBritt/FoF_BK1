@@ -16,9 +16,8 @@
 		]
 	},
 	"metadata": {
-		"authors": [
-			"Ezekielico"
-		]
+		"authors": [ "Ezekielico" ],
+        "product_type": "addon"
 	},
 	"modules": [
 		{

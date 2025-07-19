@@ -1,0 +1,38 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:copper_chain_0",
+			"menu_category": {
+				"category": "construction",
+				"group": "medFur:chains"
+			},
+			"traits" : {
+				"minecraft:placement_position": {"enabled_states": ["minecraft:block_face"]}
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:block_face') == 'north' || q.block_state('minecraft:block_face') == 'south'","components": {"minecraft:transformation": {"rotation": [90, 0, 0]}}},
+			{"condition": "q.block_state('minecraft:block_face') == 'east' || q.block_state('minecraft:block_face') == 'west'","components": {"minecraft:transformation": {"rotation": [0, 0, 90]}}},
+			{"condition": "q.block_state('minecraft:block_face') == 'up' || q.block_state('minecraft:block_face') == 'down'","components": {"minecraft:transformation": {"rotation": [0, 0, 0]}}}
+		],
+		"components": {
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"minecraft:geometry": "geometry.mf.chain_0",
+			"minecraft:material_instances": {"*": {"texture": "mf:copper_chain_0","render_method": "opaque","ambient_occlusion": false}},
+			"minecraft:collision_box": {"origin": [-3.5,0.0,-3.5],"size": [7,16,7]},
+			"minecraft:selection_box": {"origin": [-3.5,0.0,-3.5],"size": [7,16,7]},
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": {
+				"detection_rules": [{
+					"can_contain_liquid": true,
+					"liquid_type": "water",
+					"on_liquid_touches": "no_reaction"
+				}]
+			},
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 6.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 4.0 },
+			"minecraft:map_color": "#47DCDE"
+		}
+	}
+}

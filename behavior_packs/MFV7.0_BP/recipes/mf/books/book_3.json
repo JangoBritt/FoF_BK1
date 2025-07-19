@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:book_3"
+		},
+		"tags": [ "crafting_table", "medieval:workbench" ],
+		"ingredients": [
+			{ "item": "minecraft:book" },
+			{ "item": "minecraft:black_dye" },
+			{ "item": "minecraft:yellow_dye" }
+		],
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:book_3",
+			"count": 1
+		}
+	}
+}

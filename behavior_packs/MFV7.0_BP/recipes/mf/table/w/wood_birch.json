@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wood_birch_wtable"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"#G#",
+			"SSS",
+			"S S"
+		],
+		"key": {
+			"#": { "item": "minecraft:birch_log" },
+			"G": { "item": "minecraft:glass" },
+			"S": { "item": "minecraft:stick" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:wood_birch_wtable",
+			"count": 3
+		}
+	}
+}

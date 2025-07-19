@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "medFur:miscBlocks"
+			},
+			"identifier": "medieval:wheel_block"
+		},
+		"components": {
+			"minecraft:max_stack_size": 16,
+			"minecraft:icon": "mf:wheel_item",
+			"minecraft:display_name": {
+				"value": "item.medieval:wheel_item"
+			},
+			"minecraft:block_placer": {
+				"block": "medieval:wheel_block",
+				"replace_block_item": true
+			}
+		}
+	}
+}

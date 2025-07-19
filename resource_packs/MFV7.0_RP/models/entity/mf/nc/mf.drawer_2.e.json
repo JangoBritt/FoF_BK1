@@ -1,0 +1,227 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mf.drawer_2.e",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [0, -8, 0],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "drawer",
+					"parent": "block",
+					"pivot": [0, 4, 6.75]
+				},
+				{
+					"name": "wood",
+					"parent": "drawer",
+					"pivot": [0, -8, -3.25],
+					"cubes": [
+						{
+							"origin": [4.9, 2.5, -6],
+							"size": [1, 4, 13],
+							"uv": {
+								"east": {"uv": [0, 1], "uv_size": [13, 4], "material_instance": "planks"},
+								"west": {"uv": [3, 1], "uv_size": [13, 4], "material_instance": "planks"},
+								"up": {"uv": [1, 14], "uv_size": [-1, -13], "material_instance": "planks"},
+								"down": {"uv": [16, 14], "uv_size": [-1, -13], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [-4.9, 2.5, -6],
+							"size": [9.8, 0.5, 13],
+							"uv": {
+								"east": {"uv": [0, 3], "uv_size": [13, 1], "material_instance": "planks"},
+								"west": {"uv": [3, 3], "uv_size": [13, 1], "material_instance": "planks"},
+								"up": {"uv": [12.8, 15], "uv_size": [-9.8, -13], "material_instance": "planks"},
+								"down": {"uv": [12.8, 14], "uv_size": [-9.8, -13], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [-5.9, 2.5, -6],
+							"size": [1, 4, 13],
+							"uv": {
+								"east": {"uv": [0, 1], "uv_size": [13, 4], "material_instance": "planks"},
+								"west": {"uv": [3, 1], "uv_size": [13, 4], "material_instance": "planks"},
+								"up": {"uv": [16, 14], "uv_size": [-1, -13], "material_instance": "planks"},
+								"down": {"uv": [1, 14], "uv_size": [-1, -13], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [-6, 2.5, 7],
+							"size": [12, 4, 1],
+							"uv": {
+								"north": {"uv": [2, 1], "uv_size": [12, 4], "material_instance": "awood"},
+								"east": {"uv": [0, 1], "uv_size": [1, 4], "material_instance": "awood"},
+								"south": {"uv": [2, 1], "uv_size": [12, 4], "material_instance": "awood"},
+								"west": {"uv": [15, 1], "uv_size": [1, 4], "material_instance": "awood"},
+								"up": {"uv": [14, 16], "uv_size": [-12, -1], "material_instance": "awood"},
+								"down": {"uv": [14, 1], "uv_size": [-12, -1], "material_instance": "awood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "metal",
+					"parent": "drawer",
+					"pivot": [0, -8, -3.25],
+					"cubes": [
+						{
+							"origin": [-4, 4, 8],
+							"size": [1, 1, 0.5],
+							"uv": {
+								"east": {"uv": [5, 7], "uv_size": [1, 1], "material_instance": "line"},
+								"south": {"uv": [5, 7], "uv_size": [1, 1], "material_instance": "line"},
+								"west": {"uv": [5, 7], "uv_size": [1, 1], "material_instance": "line"},
+								"up": {"uv": [5, 7], "uv_size": [1, 1], "material_instance": "line"},
+								"down": {"uv": [6, 8], "uv_size": [-1, -1], "material_instance": "line"}
+							}
+						},
+						{
+							"origin": [3, 4, 8],
+							"size": [1, 1, 0.5],
+							"uv": {
+								"east": {"uv": [5, 7], "uv_size": [1, 1], "material_instance": "line"},
+								"south": {"uv": [5, 7], "uv_size": [1, 1], "material_instance": "line"},
+								"west": {"uv": [5, 7], "uv_size": [1, 1], "material_instance": "line"},
+								"up": {"uv": [5, 7], "uv_size": [1, 1], "material_instance": "line"},
+								"down": {"uv": [6, 8], "uv_size": [-1, -1], "material_instance": "line"}
+							}
+						}
+					]
+				},
+				{
+					"name": "item",
+					"parent": "drawer",
+					"pivot": [0, -8, -3.25],
+					"cubes": [
+						{
+							"origin": [-2.68, 3.01, -3.55],
+							"size": [6.96, 2.61, 8.7],
+							"uv": {
+								"north": {"uv": [4.5, 4], "uv_size": [4, 1.5]},
+								"east": {"uv": [4.5, 0], "uv_size": [5, 1.5]},
+								"south": {"uv": [8.5, 4], "uv_size": [-4, 1.5]},
+								"west": {"uv": [4.5, 2], "uv_size": [5, 1.5]},
+								"up": {"uv": [0, 0], "uv_size": [4, 5]},
+								"down": {"uv": [0, 5], "uv_size": [4, -5]}
+							}
+						}
+					]
+				},
+				{
+					"name": "drawer2",
+					"parent": "block",
+					"pivot": [0, -3, 7]
+				},
+				{
+					"name": "wood2",
+					"parent": "drawer2",
+					"pivot": [0, -8, -7],
+					"cubes": [
+						{
+							"origin": [4.9, -6.5, -6],
+							"size": [1, 8, 13],
+							"uv": {
+								"east": {"uv": [0, 7], "uv_size": [13, 8], "material_instance": "awood"},
+								"west": {"uv": [3, 7], "uv_size": [13, 8], "material_instance": "awood"},
+								"up": {"uv": [1, 16], "uv_size": [-1, -13], "material_instance": "awood"},
+								"down": {"uv": [1, 13], "uv_size": [-1, -13], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-6, -6.5, 7],
+							"size": [12, 8, 1],
+							"uv": {
+								"north": {"uv": [2, 7], "uv_size": [12, 8], "material_instance": "awood"},
+								"east": {"uv": [0, 7], "uv_size": [1, 8], "material_instance": "awood"},
+								"south": {"uv": [2, 7], "uv_size": [12, 8], "material_instance": "awood"},
+								"west": {"uv": [15, 7], "uv_size": [1, 8], "material_instance": "awood"},
+								"up": {"uv": [14, 16], "uv_size": [-12, -1], "material_instance": "awood"},
+								"down": {"uv": [14, 1], "uv_size": [-12, -1], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-4.9, -6.5, -6],
+							"size": [9.8, 0.5, 13],
+							"uv": {
+								"east": {"uv": [0, 3], "uv_size": [13, 1], "material_instance": "planks"},
+								"west": {"uv": [3, 3], "uv_size": [13, 1], "material_instance": "planks"},
+								"up": {"uv": [3, 1], "uv_size": [10, 13], "material_instance": "planks"},
+								"down": {"uv": [13, 15], "uv_size": [-10, -13], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [-5.9, -6.5, -6],
+							"size": [1, 8, 13],
+							"uv": {
+								"east": {"uv": [0, 7], "uv_size": [13, 8], "material_instance": "awood"},
+								"west": {"uv": [3, 7], "uv_size": [13, 8], "material_instance": "awood"},
+								"up": {"uv": [16, 16], "uv_size": [-1, -13], "material_instance": "awood"},
+								"down": {"uv": [16, 13], "uv_size": [-1, -13], "material_instance": "awood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "metal2",
+					"parent": "drawer2",
+					"pivot": [0, -8, -7],
+					"cubes": [
+						{
+							"origin": [-3, -3, 8],
+							"size": [6, 1, 0.5],
+							"uv": {
+								"east": {"uv": [6.5, 7], "uv_size": [1, 1], "material_instance": "line"},
+								"south": {"uv": [4, 7], "uv_size": [6, 1], "material_instance": "line"},
+								"west": {"uv": [4, 7], "uv_size": [1, 1], "material_instance": "line"},
+								"up": {"uv": [10, 7], "uv_size": [-6, 1], "material_instance": "line"},
+								"down": {"uv": [10, 8], "uv_size": [-6, -1], "material_instance": "line"}
+							}
+						}
+					]
+				},
+				{
+					"name": "item2",
+					"parent": "drawer2",
+					"pivot": [0, -8, -7],
+					"cubes": [
+						{
+							"origin": [-4.28, -6.006, -5.35],
+							"size": [8.56, 3.21, 10.7],
+							"uv": {
+								"north": {"uv": [4.5, 4], "uv_size": [4, 1.5]},
+								"east": {"uv": [4.5, 0], "uv_size": [5, 1.5]},
+								"south": {"uv": [8.5, 4], "uv_size": [-4, 1.5]},
+								"west": {"uv": [4.5, 2], "uv_size": [5, 1.5]},
+								"up": {"uv": [0, 0], "uv_size": [4, 5]},
+								"down": {"uv": [0, 5], "uv_size": [4, -5]}
+							}
+						},
+						{
+							"origin": [-2.4668, -2.27286, -5.0335],
+							"size": [6.9336, 2.6001, 8.667],
+							"uv": {
+								"north": {"uv": [4.5, 4], "uv_size": [4, 1.5]},
+								"east": {"uv": [4.5, 0], "uv_size": [5, 1.5]},
+								"south": {"uv": [8.5, 4], "uv_size": [-4, 1.5]},
+								"west": {"uv": [4.5, 2], "uv_size": [5, 1.5]},
+								"up": {"uv": [0, 0], "uv_size": [4, 5]},
+								"down": {"uv": [0, 5], "uv_size": [4, -5]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

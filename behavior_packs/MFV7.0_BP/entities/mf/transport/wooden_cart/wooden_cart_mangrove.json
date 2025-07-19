@@ -1,0 +1,425 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:chariot_mangrove_0",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"properties": {
+				"mf:item_0": {
+					"type": "int",
+					"range": [ 0, 2 ],
+					"client_sync": true,
+					"default": 0
+				},
+				"mf:item_1": {
+					"type": "int",
+					"range": [ 0, 2 ],
+					"client_sync": true,
+					"default": 0
+				},
+				"mf:food_0": {
+					"type": "int",
+					"range": [ 0, 16 ],
+					"client_sync": true,
+					"default": 0
+				},
+				"mf:food_1": {
+					"type": "int",
+					"range": [ 0, 16 ],
+					"client_sync": true,
+					"default": 0
+				},
+				"mf:health": {
+					"type": "int",
+					"range": [ 0 , 5 ],
+					"client_sync": true,
+					"default": 5
+				},
+				"mf:horse_armor": { "type": "int", "range": [ 0, 5 ], "client_sync": true, "default": 0 },
+				"mf:amount_horse": { "type": "int", "range": [ 0, 1 ], "default": 1 },
+				"mf:base_color": { "type": "int", "range": [ 0, 6 ], "client_sync": true, "default": 0 },
+				"mf:mark_variant": { "type": "int", "range": [ 0, 4 ], "client_sync": true, "default": 0 },
+				"mf:speed": { "type": "int", "range": [ 0, 4 ], "client_sync": true, "default": 0 }
+			},
+			"scripts": { "animate": [
+				"horse_armor", "equip_item_0", "equip_item_1", "food_barrel_0", "food_barrel_1", "rider_seat_controller",
+				"speed_control", "sound_control", "sound_horse_control"
+			] },
+			"animations": {
+				"horse_armor": "controller.animation.mf.horse_armor",
+				"equip_item_0": "controller.animation.mf.item_slot_0",
+				"equip_item_1": "controller.animation.mf.item_slot_1",
+				"food_barrel_0": "controller.animation.mf.food_barrel_slot_0",
+				"food_barrel_1": "controller.animation.mf.food_barrel_slot_1",
+				"rider_seat_controller": "controller.animation.mf.rider_seat_cotroller",
+				"speed_control": "controller.animation.mf.speed_cotroller",
+				"sound_control": "controller.animation.mf.wooden_cart.sound_controller",
+				"sound_horse_control": "controller.animation.mf.wooden_cart.horse_sound",
+				"horse_walk_sound": "animation.mf.horse.walk_sound",
+				"horse_trot_sound": "animation.mf.horse.trot_sound",
+				"horse_gallop_sound": "animation.mf.horse.gallop_sound",
+				"timer": "animation.mf.wooden_cart.timer",
+				"timer_stop": "animation.mf.wooden_cart.timer_stop",
+				"moving_start": "animation.mf.wooden_cart.moving_start",
+				"moving": "animation.mf.wooden_cart.moving",
+				"moving_end": "animation.mf.wooden_cart.moving_end"
+			}
+		},
+		"component_groups": {
+			"medieval:despawn": {
+				"minecraft:instant_despawn": {}
+			},
+			"medieval:has_player_rider": {
+				"minecraft:input_ground_controlled": {}
+			},
+			"medieval:no_player_rider": {
+				"minecraft:body_rotation_blocked": {}
+			},
+			"medieval:horse_attached": {
+				"minecraft:variable_max_auto_step": {
+					"base_value": 1.01,
+					"controlled_value": 1.01,
+					"jump_prevented_value": 1.01
+				},
+				"minecraft:rideable": {
+					"controlling_seat": 0,
+					"crouching_skip_interact": true,
+					"family_types": [ "player", "illager", "villager" ],
+					"interact_text": "action.interact.mount",
+					"pull_in_entities": true,
+					"rider_can_interact": false,
+					"passenger_max_width": 1,
+					"seat_count": 3,
+					"seats": [
+						{
+							"min_rider_count": 0,
+							"max_rider_count": 3,
+							"position": [0, 1.1, 0.2]
+						},
+						{
+							"min_rider_count": 1,
+							"max_rider_count": 3,
+							"position": [0, 0.75, -0.9],
+							"rotate_rider_by": 0,
+							"lock_rider_rotation": 90
+						},
+						{
+							"min_rider_count": 2,
+							"max_rider_count": 3,
+							"position": [0, 0.75, -2.4],
+							"rotate_rider_by": 0,
+							"lock_rider_rotation": 90
+						}
+					]
+				},
+				"minecraft:dash": {
+					"cooldown_time": 4.5,
+					"horizontal_momentum": 0,
+					"vertical_momentum": 0
+				},
+				"minecraft:jump.static": {},
+				"minecraft:is_tamed": {}
+			},
+			"medieval:movement_walk": {
+				"minecraft:movement": { "value": 0.07 }
+			},
+			"medieval:movement_trot": {
+				"minecraft:movement": { "value": 0.14 }
+			},
+			"medieval:movement_gallop": {
+				"minecraft:movement": { "value": 0.2 }
+			},
+			"medieval:movement_gallop2": {
+				"minecraft:movement": { "value": 0.3 }
+			},
+			"medieval:horse_detached": {
+				"minecraft:rideable": {
+					"controlling_seat": 0,
+					"crouching_skip_interact": true,
+					"family_types": [ "player", "illager", "villager" ],
+					"interact_text": "action.interact.mount",
+					"pull_in_entities": true,
+					"rider_can_interact": false,
+					"passenger_max_width": 1,
+					"seat_count": 3,
+					"seats": [
+						{
+							"min_rider_count": 0,
+							"max_rider_count": 3,
+							"position": [0, 1.1, 1.65]
+						},
+						{
+							"min_rider_count": 1,
+							"max_rider_count": 3,
+							"position": [0, 0.75, 0.45],
+							"rotate_rider_by": 0,
+							"lock_rider_rotation": 90
+						},
+						{
+							"min_rider_count": 2,
+							"max_rider_count": 3,
+							"position": [0, 0.75, -1],
+							"rotate_rider_by": 0,
+							"lock_rider_rotation": 90
+						}
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{ "test": "has_equipment", "domain": "hand", "subject": "other", "operator": "equals", "value": "minecraft:shears" },
+									{ "test": "is_family", "subject": "other", "value": "player" },
+									{ "test": "is_sneak_held", "subject": "other", "value": true }
+								]
+							},
+							"target": "self",
+							"event": "mf:detach_horse"
+						},
+						"play_sounds": "mob.sheep.shear",
+						"hurt_item": 1,
+						"interact_text": "mf.action.interact.detach_horse"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of":[
+									{ "test": "is_family", "subject": "other", "value": "player" },
+									{ "test": "is_sneaking", "subject": "other", "value": true },
+									{ "test": "has_equipment", "subject": "other", "value": "minecraft:lead" }
+								]
+							}
+						},
+						"interact_text": "mf.action.interact.attach_horse"
+					}
+				]
+			},
+			"minecraft:inventory": {
+				"inventory_size": 30,
+				"container_type": "horse"
+			},
+			"minecraft:equippable": {
+				"slots": [
+					{
+						"slot": 0,
+						"item": "horsearmoriron",
+						"accepted_items": [ "leather_horse_armor", "iron_horse_armor", "golden_horse_armor", "diamond_horse_armor", "medieval:horse_armor_netherite" ]
+					},
+					{
+						"slot": 1,
+						"item": "empty",
+						"accepted_items": [ "barrel", "chest" ]
+					},
+					{
+						"slot": 2,
+						"item": "empty",
+						"accepted_items": [ "barrel", "chest" ]
+					}
+				]
+			},
+			"minecraft:leashable": {
+				"can_be_stolen": false,
+				"hard_distance": 6,
+				"max_distance": 10,
+				"soft_distance": 4
+			},
+			"minecraft:type_family": { "family": [ "inanimate", "medieval_cart", "medieval_return_inv" ] },
+			"minecraft:collision_box": {
+				"width": 1.8,
+				"height": 1.6
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 2.1,
+						"height": 1.6,
+						"pivot": [0, 0.8, 0]
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1,
+				"min": 1
+			},
+			"minecraft:timer": {
+				"time": 0.5,
+				"looping": true,
+				"time_down_event": {
+					"filters": {
+						"all_of": [
+							{ "test": "int_property", "domain": "mf:health", "operator": "<", "subject": "self", "value": 5  }
+						]
+					},
+					"event": "mf:recover_health"
+				}
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": "no",
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								]
+							},
+							"target": "self",
+							"event": "mf:reduce_health"
+						}
+					},
+					{
+						"cause": "projectile",
+						"deals_damage": "no"
+					},
+					{
+						"deals_damage": "no"
+					}
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": false
+			},
+			"minecraft:physics": {},
+			"minecraft:is_chested": {},
+			"minecraft:renders_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": { "component_groups": [ "medieval:no_player_rider", "medieval:horse_detached", "medieval:movement_walk" ] },
+				"set_property": {
+					"mf:base_color": "math.random_integer(0, 6)",
+					"mf:mark_variant": "math.random_integer(0, 4)"
+				}
+			},
+			"mf:recover_health": {
+				"set_property": { "mf:health": "q.property('mf:health') + 1" }
+			},
+			"mf:walk": {
+				"add": { "component_groups": [ "medieval:movement_walk" ] },
+				"remove": { "component_groups": [ "medieval:movement_trot", "medieval:movement_gallop", "medieval:movement_gallop2" ] }
+			},
+			"mf:trot": {
+				"add": { "component_groups": [ "medieval:movement_trot" ] },
+				"remove": { "component_groups": [ "medieval:movement_walk", "medieval:movement_gallop", "medieval:movement_gallop2" ] }
+			},
+			"mf:gallop": {
+				"add": { "component_groups": [ "medieval:movement_gallop" ] },
+				"remove": { "component_groups": [ "medieval:movement_trot", "medieval:movement_walk", "medieval:movement_gallop2" ] }
+			},
+			"mf:gallop2": {
+				"add": { "component_groups": [ "medieval:movement_gallop2" ] },
+				"remove": { "component_groups": [ "medieval:movement_trot", "medieval:movement_gallop", "medieval:movement_walk" ] }
+			},
+			"mf:has_player_rider": {
+				"add": { "component_groups": [ "medieval:has_player_rider" ] },
+				"remove": { "component_groups": [ "medieval:no_player_rider" ] }
+			},
+			"mf:no_player_rider": {
+				"add": { "component_groups": [ "medieval:no_player_rider" ] },
+				"remove": { "component_groups": [ "medieval:has_player_rider" ] }
+			},
+			"mf:detach_horse": { "queue_command": { "command": [ "scriptevent mf:wooden_cart_spawn_horse \"[{\"x\":0,\"z\":2}]\"" ] } },
+			"mf:reduce_health": {
+				"sequence": [
+					{
+						"filters": {
+							"all_of": [
+								{ "test": "int_property", "domain": "mf:health", "operator": "equals", "subject": "self", "value": 0 }
+							]
+						},
+						"queue_command": { "command": [
+							"playsound mob.zombie.woodbreak @a ~~~ 0.5 1.5",
+							"scriptevent mf:break_wooden_cart \"[{\"x\":0,\"z\":2}]\"",
+							"loot spawn ~~~ loot \"mf/wooden_cart/mangrove\""
+						] },
+						"trigger": "mf:spawn_lead"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{ "test": "int_property", "domain": "mf:health", "operator": ">", "subject": "self", "value": 0 }
+							]
+						},
+						"set_property": { "mf:health": "q.property('mf:health') - 1" },
+						"queue_command": { "command": [ "playsound mob.zombie.wood @a ~~~ 0.5 1.5" ] }
+					}
+				]
+			},
+			"mf:spawn_lead": {
+				"filters": {
+					"all_of": [
+						{ "test": "has_component", "subject": "self", "operator": "equals", "value": "minecraft:is_tamed" }
+					]
+				},
+				"queue_command": { "command": [ "loot spawn ~~~ loot \"mf/drops/lead\"" ] }
+			},
+			"mf:no_armor": { "set_property": { "mf:horse_armor": 0 } },
+			"mf:armor_leather": { "set_property": { "mf:horse_armor": 1 } },
+			"mf:armor_iron": { "set_property": { "mf:horse_armor": 2 } },
+			"mf:armor_golden": { "set_property": { "mf:horse_armor": 3 } },
+			"mf:armor_diamond": { "set_property": { "mf:horse_armor": 4 } },
+			"mf:armor_netherite": { "set_property": { "mf:horse_armor": 5 } },
+
+			"mf:empty_0": { "set_property": { "mf:item_0": 0 } },
+			"mf:barrel_0": { "set_property": { "mf:item_0": 1 } },
+			"mf:chest_0": { "set_property": { "mf:item_0": 2 } },
+
+			"mf:empty_1": { "set_property": { "mf:item_1": 0 } },
+			"mf:barrel_1": { "set_property": { "mf:item_1": 1 } },
+			"mf:chest_1": { "set_property": { "mf:item_1": 2 } },
+
+			"mf:remove_food_0": { "set_property": { "mf:food_0": 0 } },
+			"mf:food_barrel_apple_0": { "set_property": { "mf:food_0": 1 } },
+			"mf:food_barrel_golden_apple_0": { "set_property": { "mf:food_0": 2 } },
+			"mf:food_barrel_beetroot_0": { "set_property": { "mf:food_0": 3 } },
+			"mf:food_barrel_bamboo_0": { "set_property": { "mf:food_0": 4 } },
+			"mf:food_barrel_carrot_0": { "set_property": { "mf:food_0": 5 } },
+			"mf:food_barrel_golden_carrot_0": { "set_property": { "mf:food_0": 6 } },
+			"mf:food_barrel_cod_0": { "set_property": { "mf:food_0": 7 } },
+			"mf:food_barrel_salmon_0": { "set_property": { "mf:food_0": 8 } },
+
+			"mf:remove_food_1": { "set_property": { "mf:food_1": 0 } },
+			"mf:food_barrel_apple_1": { "set_property": { "mf:food_1": 1 } },
+			"mf:food_barrel_golden_apple_1": { "set_property": { "mf:food_1": 2 } },
+			"mf:food_barrel_beetroot_1": { "set_property": { "mf:food_1": 3 } },
+			"mf:food_barrel_bamboo_1": { "set_property": { "mf:food_1": 4 } },
+			"mf:food_barrel_carrot_1": { "set_property": { "mf:food_1": 5 } },
+			"mf:food_barrel_golden_carrot_1": { "set_property": { "mf:food_1": 6 } },
+			"mf:food_barrel_cod_1": { "set_property": { "mf:food_1": 7 } },
+			"mf:food_barrel_salmon_1": { "set_property": { "mf:food_1": 8 } },
+
+			"mf:despawn": { "add": { "component_groups": [ "medieval:despawn" ] } },
+			"mf:attach_horse": {
+				"add": { "component_groups": [ "medieval:horse_attached" ] },
+				"remove": { "component_groups": [ "medieval:horse_detached" ] }
+			},
+			"mf:trigger_detach_horse": {
+				"add": { "component_groups": [ "medieval:horse_detached" ] },
+				"remove": { "component_groups": [ "medieval:horse_attached" ] }
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "medieval:weapon_stand_ev2",
+            "enable_attachables": true,
+            "materials": {
+                "default": "entity_alphablend"
+            },
+            "textures": {
+                "default": "textures/empty"
+            }, 
+            "geometry": {
+                "default":"geometry.mf.weapon_left"
+			},
+            "animations": {
+                "shield_main": "animation.mf.weapon_main.shield",
+                "shield_off": "animation.mf.weapon_off.shield",
+                "bow_main": "animation.mf.weapon_main.bow",
+                "crossbow_main": "animation.mf.weapon_main.crossbow",
+                "crossbow_off": "animation.mf.weapon_off.crossbow",
+                "trident_main": "animation.mf.weapon_main.trident",
+                "trident_off": "animation.mf.weapon_off.trident"
+            },
+            "scripts": {
+                "animate": [
+                    { "shield_main": "q.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:shield')" },
+                    { "shield_off": "q.is_item_name_any('slot.weapon.offhand', 0, 'minecraft:shield')" },
+                    { "bow_main": "q.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:bow')" },
+                    { "crossbow_main": "q.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:crossbow')" },
+                    { "crossbow_off": "q.is_item_name_any('slot.weapon.offhand', 0, 'minecraft:crossbow')" },
+                    { "trident_main": "q.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:trident')" },
+                    { "trident_off": "q.is_item_name_any('slot.weapon.offhand', 0, 'minecraft:trident')" }
+                ]
+            },
+			"render_controllers": [
+				"controller.render.default"
+			]
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:barrel_cont",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/empty",
+				"apple": "textures/medieval/food/apple",
+				"beetroot": "textures/medieval/food/beetroot",
+				"carrot": "textures/medieval/food/carrot",
+				"potato": "textures/medieval/food/potato",
+				"wheat": "textures/medieval/food/wheat",
+				"bamboo": "textures/medieval/vanilla/bamboo",
+				"cod": "textures/medieval/food/cod",
+				"salmon": "textures/medieval/food/salmon",
+				"golden_apple": "textures/medieval/food/apple_gold",
+				"golden_carrot": "textures/medieval/food/carrot_gold",
+				"water_bucket": "textures/medieval/food/water",
+				"arrow": "textures/entity/arrows",
+				"diamond": "textures/medieval/vanilla/diamond",
+				"emerald": "textures/medieval/vanilla/emerald",
+				"iron_ingot": "textures/medieval/vanilla/iron_ingot",
+				"gold_ingot": "textures/medieval/vanilla/gold_ingot",
+				"copper_ingot": "textures/medieval/vanilla/copper_ingot"
+			}, 
+			"geometry": {
+				"default":"geometry.mf.barrel_top",
+				"apple":"geometry.mf.barrel_apple",
+				"beetroot":"geometry.mf.barrel_beetroot",
+				"carrot":"geometry.mf.barrel_carrot",
+				"potato":"geometry.mf.barrel_potato",
+				"wheat":"geometry.mf.barrel_wheat",
+				"bamboo":"geometry.mf.barrel_bamboo",
+				"fish":"geometry.mf.barrel_fish",
+				"water":"geometry.mf.barrel_fill",
+				"arrow":"geometry.mf.barrel_arrow",
+				"diamond":"geometry.mf.barrel_diamond",
+				"emerald":"geometry.mf.barrel_emerald",
+				"ingot":"geometry.mf.barrel_ingot"
+			},
+			"render_controllers": [
+				"controller.render.mf.barrel_item"
+			]
+		}
+	}
+}

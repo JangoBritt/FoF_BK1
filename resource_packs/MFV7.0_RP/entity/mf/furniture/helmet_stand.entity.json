@@ -1,0 +1,48 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:helmet_stand_entity",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"enable_attachables": true,
+			"textures": {
+				"stripped_oak": "textures/blocks/stripped_oak_log",
+				"stripped_spruce": "textures/blocks/stripped_spruce_log",
+				"stripped_birch": "textures/blocks/stripped_birch_log",
+				"stripped_jungle": "textures/blocks/stripped_jungle_log",
+				"stripped_acacia": "textures/blocks/stripped_acacia_log",
+				"stripped_dark_oak": "textures/blocks/stripped_dark_oak_log",
+				"stripped_mangrove": "textures/blocks/stripped_mangrove_log_side",
+				"stripped_cherry": "textures/blocks/stripped_cherry_log_side",
+				"stripped_pale_oak": "textures/blocks/stripped_pale_oak_log_side",
+				"bamboo": "textures/blocks/bamboo_planks",
+				"stripped_crimson": "textures/blocks/huge_fungus/stripped_crimson_stem_side",
+				"stripped_warped": "textures/blocks/huge_fungus/stripped_warped_stem_side"
+			},
+			"animations": {
+				"circles": "animation.mf.helmet_stand.e.circles",
+				"rot": "animation.mf.helmet_stand.e.def_rot"
+			},
+			"scripts": {
+				"animate": [
+					"rot",
+					{ "circles": "q.property('mf:def_anim')" }
+				],
+				"initialize": [
+					"v.rot = 0;"
+				],
+				"pre_animation": [
+					"v.rot = q.property('mf:rotation');"
+				]
+			},
+			"geometry": {
+				"default":"geometry.mf.helmet_stand.e"
+			},
+			"render_controllers": [
+				"controller.render.mf.helmet_stand"
+			]
+		}
+	}
+}

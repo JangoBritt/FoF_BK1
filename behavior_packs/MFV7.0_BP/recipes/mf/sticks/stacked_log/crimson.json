@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:stacked_crimson_stem"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:crimson_stem" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "minecraft:crimson_stem" } ],
+		"result": {
+			"item": "medieval:stacked_crimson_log",
+			"count": 4
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wheel_block"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			" B ",
+			"BAB",
+			" B "
+		],
+		"key": {
+			"A": { "tag": "minecraft:planks" },
+			"B": { "item": "minecraft:iron_ingot" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:wheel_block",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:spruce_covered_wagon"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"###",
+			"L L",
+			" C "
+		],
+		"key": {
+			"#": { "item": "farmersdelight:canvas" },
+			"L": { "item": "minecraft:lantern" },
+			"C": { "item": "medieval:wooden_cart_spruce" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:spruce_covered_wagon",
+			"count": 1
+		}
+	}
+}

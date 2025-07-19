@@ -1,0 +1,120 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:helmet_stand_entity",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false,
+			"properties": {
+				"mf:rotation": {
+					"type": "int",
+					"client_sync": true,
+					"default": 0,
+					"range": [ 0, 360 ]
+				},
+				"mf:def_anim": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"mf:lock_properties": {
+					"type": "bool",
+					"client_sync": false,
+					"default": false
+				}
+			}
+		},
+		"component_groups": {
+			"mf:despawn": { "minecraft:instant_despawn": {} },
+			"mf:helmet_stand_oak": { "minecraft:variant": { "value": 0 } },
+			"mf:helmet_stand_spruce": { "minecraft:variant": { "value": 1 } },
+			"mf:helmet_stand_birch": { "minecraft:variant": { "value": 2 } },
+			"mf:helmet_stand_jungle": { "minecraft:variant": { "value": 3 } },
+			"mf:helmet_stand_acacia": { "minecraft:variant": { "value": 4 } },
+			"mf:helmet_stand_darkoak": { "minecraft:variant": { "value": 5 } },
+			"mf:helmet_stand_mangrove": { "minecraft:variant": { "value": 6 } },
+			"mf:helmet_stand_cherry": { "minecraft:variant": { "value": 7 } },
+			"mf:helmet_stand_pale_oak": { "minecraft:variant": { "value": 8 } },
+			"mf:helmet_stand_bamboo": { "minecraft:variant": { "value": 9 } },
+			"mf:helmet_stand_crimson": { "minecraft:variant": { "value": 10 } },
+			"mf:helmet_stand_warped": { "minecraft:variant": { "value": 11 } }
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:type_family": { "family": [ "inanimate", "medieval_return_inv", "medieval_helmet_stand" ] },
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": { "triggers": [
+				{
+					"cause": "all",
+					"deals_damage": "no"
+				}
+			] },
+			"minecraft:health": {
+				"min": 1,
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:inventory": {
+				"container_type": "inventory",
+				"inventory_size": 1,
+				"private": true,
+				"restrict_to_owner": true
+			},
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:inside_block_notifier": { "block_list": [
+				{ "block": { "name": "minecraft:air" }, "entered_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:helmet_stand_oak" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:helmet_stand_spruce" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:helmet_stand_birch" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:helmet_stand_jungle" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:helmet_stand_acacia" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:helmet_stand_darkoak" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:helmet_stand_mangrove" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:helmet_stand_cherry" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:helmet_stand_pale_oak" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:helmet_stand_bamboo" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:helmet_stand_crimson" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:helmet_stand_warped" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } }
+			] },
+			"minecraft:knockback_resistance": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:persistent": {},
+			"minecraft:fire_immune": {},
+			"minecraft:renders_when_invisible": {},
+			"minecraft:body_rotation_blocked": {},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"mf:despawn": { "queue_command": { "command": [ "scriptevent medieval:drop_inventory" ] } },
+			"medieval:helmet_stand_oak": { "add": { "component_groups": [ "mf:helmet_stand_oak" ] } },
+			"medieval:helmet_stand_spruce": { "add": { "component_groups": [ "mf:helmet_stand_spruce" ] } },
+			"medieval:helmet_stand_birch": { "add": { "component_groups": [ "mf:helmet_stand_birch" ] } },
+			"medieval:helmet_stand_jungle": { "add": { "component_groups": [ "mf:helmet_stand_jungle" ] } },
+			"medieval:helmet_stand_acacia": { "add": { "component_groups": [ "mf:helmet_stand_acacia" ] } },
+			"medieval:helmet_stand_darkoak": { "add": { "component_groups": [ "mf:helmet_stand_darkoak" ] } },
+			"medieval:helmet_stand_mangrove": { "add": { "component_groups": [ "mf:helmet_stand_mangrove" ] } },
+			"medieval:helmet_stand_cherry": { "add": { "component_groups": [ "mf:helmet_stand_cherry" ] } },
+			"medieval:helmet_stand_pale_oak": { "add": { "component_groups": [ "mf:helmet_stand_pale_oak" ] } },
+			"medieval:helmet_stand_bamboo": { "add": { "component_groups": [ "mf:helmet_stand_bamboo" ] } },
+			"medieval:helmet_stand_crimson": { "add": { "component_groups": [ "mf:helmet_stand_crimson" ] } },
+			"medieval:helmet_stand_warped": { "add": { "component_groups": [ "mf:helmet_stand_warped" ] } }
+		}
+	}
+}

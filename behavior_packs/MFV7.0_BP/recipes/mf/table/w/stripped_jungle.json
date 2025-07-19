@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_jungle_wtable"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"#G#",
+			"SSS",
+			"S S"
+		],
+		"key": {
+			"#": { "item": "minecraft:stripped_jungle_log" },
+			"G": { "item": "minecraft:glass" },
+			"S": { "item": "minecraft:stick" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_jungle_wtable",
+			"count": 3
+		}
+	}
+}

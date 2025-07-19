@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "endx:bone_block_pillar"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:bone_block" } ],
+		"unlock": [ { "item": "minecraft:bone_block" } ],
+		"result": {
+			"item": "endx:bone_block_pillar",
+			"count": 1
+		}
+	}
+}

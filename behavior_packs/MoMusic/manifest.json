@@ -11,6 +11,9 @@
 			0
 		]
 	},
+    "metadata": {
+        "product_type": "addon"
+    },
 	"modules": [
 		{
 			"type": "data",

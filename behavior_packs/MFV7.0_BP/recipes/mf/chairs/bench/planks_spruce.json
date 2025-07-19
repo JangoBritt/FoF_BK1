@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:spruce_planks_bench"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:spruce_planks" } ],
+		"unlock": [
+			{ "item": "fables_misc:spruce_book" }, { "item": "minecraft:spruce_planks" } ],
+		"result": {
+			"item": "medieval:spruce_planks_bench",
+			"count": 1
+		}
+	}
+}

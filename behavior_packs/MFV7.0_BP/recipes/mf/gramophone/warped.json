@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:warped_gramophone"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			" B ",
+			"ACA",
+			" A "
+		],
+		"key": {
+			"A": { "item": "medieval:stripped_warped_mslab" },
+			"B": { "item": "minecraft:gold_ingot" },
+			"C": { "item": "minecraft:jukebox" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:warped_gramophone",
+			"count": 1
+		}
+	}
+}

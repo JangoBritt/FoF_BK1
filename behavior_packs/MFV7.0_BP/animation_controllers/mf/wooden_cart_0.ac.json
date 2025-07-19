@@ -1,0 +1,345 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.mf.horse_armor": {
+			"initial_state": "none",
+			"states": {
+				"none": {
+					"transitions": [
+						{ "leather": "q.is_item_name_any('slot.inventory', 0, 'minecraft:leather_horse_armor') && q.is_tamed" },
+						{ "iron": "q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_horse_armor') && q.is_tamed" },
+						{ "golden": "q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_horse_armor') && q.is_tamed" },
+						{ "diamond": "q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_horse_armor') && q.is_tamed" },
+						{ "netherite": "q.is_item_name_any('slot.inventory', 0, 'medieval:horse_armor_netherite') && q.is_tamed" }
+					],
+					"on_entry": [ "@s mf:no_armor" ]
+				},
+				"leather": {
+					"transitions": [
+						{ "none": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:leather_horse_armor') || !q.is_tamed" }
+					],
+					"on_entry": [ "@s mf:armor_leather", "/playsound armor.equip_leather @a ~~~ 1 1" ]
+				},
+				"iron": {
+					"transitions": [
+						{ "none": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_horse_armor') || !q.is_tamed" }
+					],
+					"on_entry": [ "@s mf:armor_iron", "/playsound armor.equip_iron @a ~~~ 1 1" ]
+				},
+				"golden": {
+					"transitions": [
+						{ "none": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_horse_armor') || !q.is_tamed" }
+					],
+					"on_entry": [ "@s mf:armor_golden", "/playsound armor.equip_gold @a ~~~ 1 1" ]
+				},
+				"diamond": {
+					"transitions": [
+						{ "none": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_horse_armor') || !q.is_tamed" }
+					],
+					"on_entry": [ "@s mf:armor_diamond", "/playsound armor.equip_diamond @a ~~~ 1 1" ]
+				},
+				"netherite": {
+					"transitions": [
+						{ "none": "!q.is_item_name_any('slot.inventory', 0, 'medieval:horse_armor_netherite') || !q.is_tamed" }
+					],
+					"on_entry": [ "@s mf:armor_netherite", "/playsound armor.equip_netherite @a ~~~ 1 1" ]
+				}
+			}
+		},
+		"controller.animation.mf.wooden_cart.horse_sound": {
+			"states": {
+				"default": {
+					"animations": [
+						{ "horse_walk_sound": "q.ground_speed > 1 && q.is_tamed" }
+					],
+					"transitions": [
+						{ "gallop": "q.ground_speed > 8" },
+						{ "trot": "q.ground_speed > 4" }
+					]
+				},
+				"trot": {
+					"animations": [
+						{ "horse_trot_sound": "q.ground_speed > 4" }
+					],
+					"transitions": [
+						{ "default": "q.ground_speed < 4 && q.any_animation_finished" },
+						{ "gallop": "q.ground_speed > 8 && q.any_animation_finished" }
+					]
+				},
+				"gallop": {
+					"animations": [
+						{ "horse_gallop_sound": "q.ground_speed > 8" }
+					],
+					"transitions": [
+						{ "trot": "q.ground_speed < 4 && q.any_animation_finished" }
+					]
+				}
+			}
+		},
+		"controller.animation.mf.wooden_cart.sound_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "moving_start": "q.ground_speed > 2" }
+					]
+				},
+				"moving_start": {
+					"animations": [ "moving_start" ],
+					"transitions": [
+						{ "moving": "q.any_animation_finished && q.ground_speed > 2" },
+        				{ "moving_end": "q.any_animation_finished && q.ground_speed < 2" }
+					]
+				},
+				"moving": {
+					"animations": [ "moving" ],
+					"transitions": [
+						{ "moving": "q.all_animations_finished && q.ground_speed > 2" },
+						{ "moving_end": "q.ground_speed < 2 && q.all_animations_finished" }
+					]
+				},
+				"moving_end": {
+					"animations": [ "moving_end" ],
+					"transitions": [
+						{ "default": "q.all_animations_finished" },
+        				{ "moving": "q.any_animation_finished && q.ground_speed > 2" }
+					]
+				}
+			}
+		},
+		"controller.animation.mf.speed_cotroller": {
+			"initial_state": "walk",
+			"states": {
+				"walk": {
+					"animations": [ "timer" ],
+					"transitions": [
+						{ "trot": "q.has_dash_cooldown && q.any_animation_finished" }
+					],
+					"on_entry": [ "@s mf:walk" ]
+				},
+				"trot": {
+					"animations": [
+						"timer",
+						{ "timer_stop": "q.ground_speed < 2" }
+					],
+					"transitions": [
+						{ "walk": "q.ground_speed < 2 && q.any_animation_finished" },
+						{ "gallop": "q.ground_speed > 6 && q.has_dash_cooldown && q.any_animation_finished" }
+					],
+					"on_entry": [ "@s mf:trot" ]
+				},
+				"gallop": {
+					"animations": [
+						"timer",
+						{ "timer_stop": "q.ground_speed < 3" }
+					],
+					"transitions": [
+						{ "trot": "q.ground_speed < 3 && q.any_animation_finished" },
+						{ "gallop2": "q.ground_speed > 8 && q.has_dash_cooldown && q.any_animation_finished" }
+					],
+					"on_entry": [ "@s mf:gallop" ]
+				},
+				"gallop2": {
+					"animations": [ "timer_stop" ],
+					"transitions": [
+						{ "gallop": "q.ground_speed < 8 && q.any_animation_finished" }
+					],
+					"on_entry": [ "@s mf:gallop2" ]
+				}
+			}
+		},
+		"controller.animation.mf.rider_seat_cotroller": {
+			"initial_state": "no_player_rider",
+			"states": {
+				"no_player_rider": {
+					"transitions": [
+						{ "has_player_rider": "q.has_player_rider && q.is_tamed" }
+					],
+					"on_entry": [ "@s mf:no_player_rider" ]
+				},
+				"has_player_rider": {
+					"transitions": [
+						{ "no_player_rider": "!q.has_player_rider || !q.is_tamed" }
+					],
+					"on_entry": [ "@s mf:has_player_rider" ]
+				}
+			}
+		},
+		"controller.animation.mf.item_slot_0": {
+			"states": {
+				"default": {
+					"transitions": [
+						{ "item_barrel_0": "q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel')" },
+						{ "item_chest_0": "q.is_item_name_any('slot.inventory', 1, 'minecraft:chest')" }
+					],
+					"on_entry": [ "@s mf:empty_0" ]
+				},
+				"item_barrel_0": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel')" }
+					],
+					"on_entry": [ "@s mf:barrel_0" ]
+				},
+				"item_chest_0": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:chest')" }
+					],
+					"on_entry": [ "@s mf:chest_0" ]
+				}
+			}
+		},
+		"controller.animation.mf.item_slot_1": {
+			"states": {
+				"default": {
+					"transitions": [
+						{ "item_barrel_1": "q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel')" },
+						{ "item_chest_1": "q.is_item_name_any('slot.inventory', 2, 'minecraft:chest')" }
+					],
+					"on_entry": [ "@s mf:empty_1" ]
+				},
+				"item_barrel_1": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel')" }
+					],
+					"on_entry": [ "@s mf:barrel_1" ]
+				},
+				"item_chest_1": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 2, 'minecraft:chest')" }
+					],
+					"on_entry": [ "@s mf:chest_1" ]
+				}
+			}
+		},
+		"controller.animation.mf.food_barrel_slot_0": {
+			"states": {
+				"default": {
+					"transitions": [
+						{ "barrel_apple": "q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 3, 'minecraft:apple')" },
+						{ "barrel_golden_apple": "q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 3, 'minecraft:golden_apple')" },
+						{ "barrel_beetroot": "q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 3, 'minecraft:beetroot')" },
+						{ "barrel_bamboo": "q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 3, 'minecraft:bamboo')" },
+						{ "barrel_carrot": "q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 3, 'minecraft:carrot')" },
+						{ "barrel_golden_carrot": "q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 3, 'minecraft:golden_carrot')" },
+						{ "barrel_cod": "q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 3, 'minecraft:cod')" },
+						{ "barrel_salmon": "q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 3, 'minecraft:salmon')" }
+					],
+					"on_entry": [ "@s mf:remove_food_0" ]
+				},
+				"barrel_apple": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 3, 'minecraft:apple')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_apple_0" ]
+				},
+				"barrel_golden_apple": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 3, 'minecraft:golden_apple')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_golden_apple_0" ]
+				},
+				"barrel_beetroot": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 3, 'minecraft:beetroot')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_beetroot_0" ]
+				},
+				"barrel_bamboo": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 3, 'minecraft:bamboo')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_bamboo_0" ]
+				},
+				"barrel_carrot": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 3, 'minecraft:carrot')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_carrot_0" ]
+				},
+				"barrel_golden_carrot": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 3, 'minecraft:golden_carrot')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_golden_carrot_0" ]
+				},
+				"barrel_cod": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 3, 'minecraft:cod')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_cod_0" ]
+				},
+				"barrel_salmon": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 3, 'minecraft:salmon')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_salmon_0" ]
+				}
+			}
+		},
+		"controller.animation.mf.food_barrel_slot_1": {
+			"states": {
+				"default": {
+					"transitions": [
+						{ "barrel_apple": "q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 4, 'minecraft:apple')" },
+						{ "barrel_golden_apple": "q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 4, 'minecraft:golden_apple')" },
+						{ "barrel_beetroot": "q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 4, 'minecraft:beetroot')" },
+						{ "barrel_bamboo": "q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 4, 'minecraft:bamboo')" },
+						{ "barrel_carrot": "q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 4, 'minecraft:carrot')" },
+						{ "barrel_golden_carrot": "q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 4, 'minecraft:golden_carrot')" },
+						{ "barrel_cod": "q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 4, 'minecraft:cod')" },
+						{ "barrel_salmon": "q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') && q.is_item_name_any('slot.inventory', 4, 'minecraft:salmon')" }
+					],
+					"on_entry": [ "@s mf:remove_food_1" ]
+				},
+				"barrel_apple": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 4, 'minecraft:apple')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_apple_1" ]
+				},
+				"barrel_golden_apple": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 4, 'minecraft:golden_apple')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_golden_apple_1" ]
+				},
+				"barrel_beetroot": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 4, 'minecraft:beetroot')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_beetroot_1" ]
+				},
+				"barrel_bamboo": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 4, 'minecraft:bamboo')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_bamboo_1" ]
+				},
+				"barrel_carrot": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 4, 'minecraft:carrot')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_carrot_1" ]
+				},
+				"barrel_golden_carrot": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 4, 'minecraft:golden_carrot')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_golden_carrot_1" ]
+				},
+				"barrel_cod": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 4, 'minecraft:cod')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_cod_1" ]
+				},
+				"barrel_salmon": {
+					"transitions": [
+						{ "default": "!q.is_item_name_any('slot.inventory', 2, 'minecraft:barrel') || !q.is_item_name_any('slot.inventory', 4, 'minecraft:salmon')" }
+					],
+					"on_entry": [ "@s mf:food_barrel_salmon_1" ]
+				}
+			}
+		}
+	}
+}

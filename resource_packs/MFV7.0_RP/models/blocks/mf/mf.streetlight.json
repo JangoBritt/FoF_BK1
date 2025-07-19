@@ -1,0 +1,206 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mf.streetlight",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "streetlight",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{
+							"origin": [-2, 0, -2],
+							"size": [4, 16.05, 4],
+							"uv": {
+								"north": {"uv": [11, 10], "uv_size": [4, 16], "material_instance": "awood"},
+								"east": {"uv": [16, 10], "uv_size": [4, 16], "material_instance": "awood"},
+								"south": {"uv": [11, 10], "uv_size": [4, 16], "material_instance": "awood"},
+								"west": {"uv": [11, 10], "uv_size": [4, 16], "material_instance": "awood"},
+								"up": {"uv": [31, 33], "uv_size": [-3, -3]}
+							}
+						}
+					]
+				},
+				{
+					"name": "lantern_north",
+					"parent": "streetlight",
+					"pivot": [0, 7.9, 0],
+					"cubes": [
+						{
+							"origin": [-1, 1.5, -1],
+							"size": [2, 15, 2],
+							"pivot": [0, 0, 0],
+							"rotation": [45, 0, 0],
+							"uv": {
+								"north": {"uv": [4, 22], "uv_size": [2, 15], "material_instance": "awood"},
+								"east": {"uv": [7, 22], "uv_size": [2, 15], "material_instance": "awood"},
+								"south": {"uv": [25, 18], "uv_size": [2, 15], "material_instance": "awood"},
+								"west": {"uv": [10, 27], "uv_size": [2, 15], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-1.5, 11, -15],
+							"size": [3, 3, 13],
+							"uv": {
+								"north": {"uv": [28, 30], "uv_size": [3, 3], "material_instance": "awood"},
+								"east": {"uv": [21, 10], "uv_size": [13, 3], "material_instance": "awood"},
+								"west": {"uv": [21, 14], "uv_size": [13, 3], "material_instance": "awood"},
+								"up": {"uv": [24, 18], "uv_size": [-3, 13], "material_instance": "awood"},
+								"down": {"uv": [3, 35], "uv_size": [-3, -13], "material_instance": "awood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "lantern_south",
+					"parent": "streetlight",
+					"pivot": [0, 7.9, 0],
+					"rotation": [0, 180, 0],
+					"cubes": [
+						{
+							"origin": [-1, 1.5, -1],
+							"size": [2, 15, 2],
+							"pivot": [0, 0, 0],
+							"rotation": [45, 0, 0],
+							"uv": {
+								"north": {"uv": [4, 22], "uv_size": [2, 15], "material_instance": "awood"},
+								"east": {"uv": [7, 22], "uv_size": [2, 15], "material_instance": "awood"},
+								"south": {"uv": [25, 18], "uv_size": [2, 15], "material_instance": "awood"},
+								"west": {"uv": [10, 27], "uv_size": [2, 15], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-1.5, 11, -15],
+							"size": [3, 3, 13],
+							"uv": {
+								"north": {"uv": [28, 30], "uv_size": [3, 3], "material_instance": "awood"},
+								"east": {"uv": [21, 10], "uv_size": [13, 3], "material_instance": "awood"},
+								"west": {"uv": [21, 14], "uv_size": [13, 3], "material_instance": "awood"},
+								"up": {"uv": [21, 18], "uv_size": [3, 13], "material_instance": "awood"},
+								"down": {"uv": [0, 35], "uv_size": [3, -13], "material_instance": "awood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "lantern_east",
+					"parent": "streetlight",
+					"pivot": [0, 7.9, 0],
+					"rotation": [0, 90, 0],
+					"cubes": [
+						{
+							"origin": [-1.5, 11, -15],
+							"size": [3, 3, 13],
+							"uv": {
+								"north": {"uv": [28, 30], "uv_size": [3, 3], "material_instance": "awood"},
+								"east": {"uv": [21, 10], "uv_size": [13, 3], "material_instance": "awood"},
+								"west": {"uv": [21, 14], "uv_size": [13, 3], "material_instance": "awood"},
+								"up": {"uv": [24, 18], "uv_size": [-3, 13], "material_instance": "awood"},
+								"down": {"uv": [3, 35], "uv_size": [-3, -13], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-1, 1.5, -1],
+							"size": [2, 15, 2],
+							"pivot": [0, 0, 0],
+							"rotation": [45, 0, 0],
+							"uv": {
+								"north": {"uv": [4, 22], "uv_size": [2, 15], "material_instance": "awood"},
+								"east": {"uv": [7, 22], "uv_size": [2, 15], "material_instance": "awood"},
+								"south": {"uv": [25, 18], "uv_size": [2, 15], "material_instance": "awood"},
+								"west": {"uv": [10, 27], "uv_size": [2, 15], "material_instance": "awood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "lantern_west",
+					"parent": "streetlight",
+					"pivot": [0, 7.9, 0],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{
+							"origin": [-1, 1.5, -1],
+							"size": [2, 15, 2],
+							"pivot": [0, 0, 0],
+							"rotation": [45, 0, 0],
+							"uv": {
+								"north": {"uv": [4, 22], "uv_size": [2, 15], "material_instance": "awood"},
+								"east": {"uv": [7, 22], "uv_size": [2, 15], "material_instance": "awood"},
+								"south": {"uv": [25, 18], "uv_size": [2, 15], "material_instance": "awood"},
+								"west": {"uv": [10, 27], "uv_size": [2, 15], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-1.5, 11, -15],
+							"size": [3, 3, 13],
+							"uv": {
+								"north": {"uv": [28, 30], "uv_size": [3, 3], "material_instance": "awood"},
+								"east": {"uv": [21, 10], "uv_size": [13, 3], "material_instance": "awood"},
+								"west": {"uv": [21, 14], "uv_size": [13, 3], "material_instance": "awood"},
+								"up": {"uv": [24, 18], "uv_size": [-3, 13], "material_instance": "awood"},
+								"down": {"uv": [3, 35], "uv_size": [-3, -13], "material_instance": "awood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "root_top",
+					"parent": "streetlight",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{
+							"origin": [-2.5, 15, -2.5],
+							"size": [5, 4, 5],
+							"uv": {
+								"north": {"uv": [29, 0], "uv_size": [5, 4], "material_instance": "metal2"},
+								"east": {"uv": [29, 0], "uv_size": [5, 4], "material_instance": "metal2"},
+								"south": {"uv": [29, 0], "uv_size": [5, 4], "material_instance": "metal2"},
+								"west": {"uv": [29, 5], "uv_size": [5, 4], "material_instance": "metal2"},
+								"up": {"uv": [28, 18], "uv_size": [5, 5], "material_instance": "metal2"},
+								"down": {"uv": [28, 29], "uv_size": [5, -5], "material_instance": "metal2"}
+							}
+						}
+					]
+				},
+				{
+					"name": "root_bot",
+					"parent": "streetlight",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 9, 10],
+							"uv": {
+								"north": {"uv": [11, 0], "uv_size": [10, 9], "material_instance": "metal"},
+								"east": {"uv": [11, 0], "uv_size": [10, 9], "material_instance": "metal"},
+								"south": {"uv": [11, 0], "uv_size": [10, 9], "material_instance": "metal"},
+								"west": {"uv": [11, 0], "uv_size": [10, 9], "material_instance": "metal"},
+								"up": {"uv": [0, 0], "uv_size": [10, 10], "material_instance": "metal"},
+								"down": {"uv": [0, 21], "uv_size": [10, -10], "material_instance": "metal"}
+							}
+						},
+						{
+							"origin": [-3, 9, -3],
+							"size": [6, 5, 6],
+							"uv": {
+								"north": {"uv": [13, 27], "uv_size": [6, 5], "material_instance": "metal"},
+								"east": {"uv": [13, 27], "uv_size": [6, 5], "material_instance": "metal"},
+								"south": {"uv": [13, 27], "uv_size": [6, 5], "material_instance": "metal"},
+								"west": {"uv": [13, 27], "uv_size": [6, 5], "material_instance": "metal"},
+								"up": {"uv": [22, 0], "uv_size": [6, 6], "material_instance": "metal"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

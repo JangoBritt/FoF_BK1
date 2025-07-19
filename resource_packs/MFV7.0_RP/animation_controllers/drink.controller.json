@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.mf.drink_beer": {
+			"states": {
+				"default": {
+					"transitions": [
+						{"first_person": "c.is_first_person"}
+					]
+				},
+				"first_person": {
+					"transitions": [
+						{"default": "!c.is_first_person"},
+						{"drink_1st": "q.main_hand_item_use_duration > 0.0f"}
+					]
+				},
+				"drink_1st": {
+					"blend_transition": 0.2,
+					"animations": ["fp.drink_cup"],
+					"transitions": [
+						{"first_person": "q.main_hand_item_use_duration == 0.0f || !c.is_first_person"}
+					]
+				}
+			}
+		}
+	}
+}

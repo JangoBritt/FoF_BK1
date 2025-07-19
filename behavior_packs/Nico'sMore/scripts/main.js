@@ -2,7 +2,7 @@ import { system, world } from "@minecraft/server";
 
 import "./ntk_events_on_entity_hurt.js"
 
-import "./ars/bc/mob_spawner_ars.js"
+// import "./ars/bc/mob_spawner_ars.js"
 
 import "./nmd/bc/mob_spawner_nmd.js"
 

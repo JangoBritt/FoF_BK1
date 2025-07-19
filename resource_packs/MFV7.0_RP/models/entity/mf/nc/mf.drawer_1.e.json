@@ -1,0 +1,177 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mf.drawer_1.e",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [0, -8, 0],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "drawer",
+					"parent": "block",
+					"pivot": [0, 0, 7]
+				},
+				{
+					"name": "wood",
+					"parent": "drawer",
+					"pivot": [0, -8, -2],
+					"cubes": [
+						{
+							"origin": [-5.9, 0, -6],
+							"size": [1, 5, 13],
+							"uv": {
+								"east": {"uv": [0, 3], "uv_size": [13, 5], "material_instance": "awood"},
+								"west": {"uv": [3, 3], "uv_size": [13, 5], "material_instance": "awood"},
+								"up": {"uv": [15, 16], "uv_size": [-1, -16], "material_instance": "awood"},
+								"down": {"uv": [15, 16], "uv_size": [-1, -16], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-4.9, 0, -6],
+							"size": [9.8, 0.5, 13],
+							"uv": {
+								"east": {"uv": [0, 3], "uv_size": [16, 0.5], "material_instance": "planks"},
+								"west": {"uv": [0, 3], "uv_size": [16, 0.5], "material_instance": "planks"},
+								"up": {"uv": [13, 13], "uv_size": [-10, -13], "material_instance": "planks"},
+								"down": {"uv": [13, 16], "uv_size": [-10, -13], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [4.9, 0, -6],
+							"size": [1, 5, 13],
+							"uv": {
+								"east": {"uv": [0, 3], "uv_size": [13, 5], "material_instance": "awood"},
+								"west": {"uv": [3, 3], "uv_size": [13, 5], "material_instance": "awood"},
+								"up": {"uv": [2, 16], "uv_size": [-1, -16], "material_instance": "awood"},
+								"down": {"uv": [2, 16], "uv_size": [-1, -16], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-6, 0, 7],
+							"size": [12, 6, 1],
+							"uv": {
+								"north": {"uv": [2, 2], "uv_size": [12, 6], "material_instance": "awood"},
+								"east": {"uv": [0, 2], "uv_size": [1, 6], "material_instance": "awood"},
+								"south": {"uv": [2, 2], "uv_size": [12, 6], "material_instance": "awood"},
+								"west": {"uv": [15, 2], "uv_size": [1, 6], "material_instance": "awood"},
+								"up": {"uv": [14, 16], "uv_size": [-12, -1], "material_instance": "awood"},
+								"down": {"uv": [14, 1], "uv_size": [-12, -1], "material_instance": "awood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "metal",
+					"parent": "drawer",
+					"pivot": [0, -8, -2],
+					"cubes": [
+						{
+							"origin": [-3, 2, 7.5],
+							"size": [6, 1, 1],
+							"uv": {
+								"east": {"uv": [4, 5], "uv_size": [1, 1], "material_instance": "line"},
+								"south": {"uv": [5, 5], "uv_size": [6, 1], "material_instance": "line"},
+								"west": {"uv": [11, 5], "uv_size": [1, 1], "material_instance": "line"},
+								"up": {"uv": [11, 5], "uv_size": [-6, 1], "material_instance": "line"},
+								"down": {"uv": [11, 6], "uv_size": [-6, -1], "material_instance": "line"}
+							}
+						}
+					]
+				},
+				{
+					"name": "drawer2",
+					"parent": "block",
+					"pivot": [0, -7, 7]
+				},
+				{
+					"name": "rightArm",
+					"parent": "drawer2",
+					"pivot": [-2, -4, 2]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm",
+					"pivot": [-1.25, -3.5, 7.5],
+					"rotation": [14.03209, 14.6297, -11.644]
+				},
+				{
+					"name": "wood2",
+					"parent": "drawer2",
+					"pivot": [0, -8, -5],
+					"cubes": [
+						{
+							"origin": [-5.9, -7, -6],
+							"size": [1, 5, 13],
+							"uv": {
+								"east": {"uv": [0, 10], "uv_size": [13, 5], "material_instance": "awood"},
+								"west": {"uv": [3, 10], "uv_size": [13, 5], "material_instance": "awood"},
+								"up": {"uv": [15, 16], "uv_size": [-1, -16], "material_instance": "awood"},
+								"down": {"uv": [15, 16], "uv_size": [-1, -16], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-4.9, -7, -6],
+							"size": [9.8, 0.5, 13],
+							"uv": {
+								"east": {"uv": [0, 15], "uv_size": [16, 0.5], "material_instance": "planks"},
+								"west": {"uv": [0, 15], "uv_size": [16, 0.5], "material_instance": "planks"},
+								"up": {"uv": [13, 13], "uv_size": [-10, -13], "material_instance": "planks"},
+								"down": {"uv": [13, 16], "uv_size": [-10, -13], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [4.9, -7, -6],
+							"size": [1, 5, 13],
+							"uv": {
+								"east": {"uv": [0, 10], "uv_size": [13, 5], "material_instance": "awood"},
+								"west": {"uv": [3, 10], "uv_size": [13, 5], "material_instance": "awood"},
+								"up": {"uv": [2, 16], "uv_size": [-1, -16], "material_instance": "awood"},
+								"down": {"uv": [2, 16], "uv_size": [-1, -16], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-6, -7, 7],
+							"size": [12, 6, 1],
+							"uv": {
+								"north": {"uv": [2, 9], "uv_size": [12, 6], "material_instance": "awood"},
+								"east": {"uv": [0, 9], "uv_size": [1, 6], "material_instance": "awood"},
+								"south": {"uv": [2, 9], "uv_size": [12, 6], "material_instance": "awood"},
+								"west": {"uv": [15, 9], "uv_size": [1, 6], "material_instance": "awood"},
+								"up": {"uv": [14, 16], "uv_size": [-12, -1], "material_instance": "awood"},
+								"down": {"uv": [14, 1], "uv_size": [-12, -1], "material_instance": "awood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "metal2",
+					"parent": "drawer2",
+					"pivot": [0, -8, -5],
+					"cubes": [
+						{
+							"origin": [-3, -5, 7.5],
+							"size": [6, 1, 1],
+							"uv": {
+								"east": {"uv": [4, 8], "uv_size": [1, 1], "material_instance": "line"},
+								"south": {"uv": [5, 11], "uv_size": [6, 1], "material_instance": "line"},
+								"west": {"uv": [11, 8], "uv_size": [1, 1], "material_instance": "line"},
+								"up": {"uv": [11, 8], "uv_size": [-6, 1], "material_instance": "line"},
+								"down": {"uv": [11, 9], "uv_size": [-6, -1], "material_instance": "line"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

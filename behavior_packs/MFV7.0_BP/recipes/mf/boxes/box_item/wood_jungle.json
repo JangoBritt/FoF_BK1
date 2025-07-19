@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:jungle_box"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"###",
+			"#C#",
+			"###"
+		],
+		"key": {
+			"#": { "item": "medieval:jungle_wood_post" },
+			"C": { "item": "minecraft:frame" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:jungle_box",
+			"count": 2
+		}
+	}
+}

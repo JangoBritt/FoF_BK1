@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:pale_oak_wood_flower_stand_side"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"AB",
+			"BC",
+			"CA"
+		],
+		"key": {
+			"B": { "item": "minecraft:flower_pot" },
+			"A": { "item": "medieval:pale_oak_wood_post" },
+			"C": { "item": "medieval:pale_oak_wood_mslab" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:pale_oak_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:pale_oak_wood_flower_stand_side",
+			"count": 1
+		}
+	}
+}

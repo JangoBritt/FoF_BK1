@@ -1,0 +1,83 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:painting",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"properties": {
+				"mf:type": {
+					"client_sync": true,
+					"type": "int",
+					"range": [ 0, 23 ],
+					"default": 0
+				}
+			}
+		},
+		"component_groups": {
+			"mf:despawn": { "minecraft:instant_despawn": {} }
+		},
+		"components": {
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:type_family":{
+				"family": [ "inanimate"]
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:damage_sensor": { "triggers": [ { "cause": "all", "deals_damage": "no" } ] },
+			"minecraft:health": {
+				"value": 1,
+				"max": 1,
+				"min": 1
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:mob_effect_immunity": {
+				"mob_effects": [
+					"invisibility", "absorption", "bad_omen", "blindness", "conduit_power", "darkness", "fatal_poison", "poison"
+				]
+			},
+			"minecraft:inside_block_notifier": { "block_list": [
+				{ "block": { "name": "minecraft:air" }, "entered_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:oak_easel" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:spruce_easel" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:birch_easel" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:jungle_easel" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:acacia_easel" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:darkoak_easel" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:mangrove_easel" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:cherry_easel" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:pale_oak_easel" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:crimson_easel" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } },
+				{ "block": { "name": "medieval:warped_easel" }, "exited_block_event": { "event": "mf:despawn", "target": "self" } }
+			] },
+			"minecraft:knockback_resistance": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:persistent": {},
+			"minecraft:fire_immune": {},
+			"minecraft:renders_when_invisible": {},
+			"minecraft:body_rotation_blocked": {},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": { "set_property": { "mf:type": "math.random(0, 23)" } },
+			"mf:add_paint": { "set_property": { "mf:type": "q.property('mf:type') < 23 ? q.property('mf:type') + 1 : 0" } },
+			"mf:despawn": { "add": { "component_groups": [ "mf:despawn" ] } }
+		}
+	}
+}

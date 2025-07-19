@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_pale_oak_bridge"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"AAA",
+			"###"
+		],
+		"key": {
+			"#": { "item": "minecraft:pale_oak_planks" },
+			"A": { "item": "minecraft:stripped_pale_oak_log" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:pale_oak_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_pale_oak_bridge",
+			"count": 4
+		}
+	}
+}

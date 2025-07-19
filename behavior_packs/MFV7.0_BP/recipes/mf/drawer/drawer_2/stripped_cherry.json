@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cherry_drawer2"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": { "item": "minecraft:cherry_planks" },
+			"B": { "item": "medieval:stripped_cherry_mslab" },
+			"C": { "item": "minecraft:book" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:cherry_drawer2",
+			"count": 1
+		}
+	}
+}

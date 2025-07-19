@@ -1,0 +1,130 @@
+{
+	"namespace": "weapon_stand",
+	"chest_label": {
+		"$new_container_title|default": "$container_title",
+		"text": "$container_title"
+	},
+	"title_label": {
+		"type": "label",
+		"text": "ui.title.weapon_stand",
+		"color": "$title_text_color",
+		"layer": 2
+	},
+	"weapon_stand_main_container": {
+		"type": "panel",
+		"size": [ "100%", "100%" ],
+		"offset": [ 0, 0 ],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{
+				"title_label@weapon_stand.title_label": {
+					"offset": [ 0, -68 ]
+				}
+			},
+			{
+				"weapon_stand_grid@weapon_stand.weapon_stand_grid": {
+					"offset": [ 0, 47 ]
+				}
+			},
+			{
+				"slots": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"anchor_from": "top_left",
+					"anchor_to": "top_left",
+					"collection_name": "container_items",
+					"offset": [ 35, 20 ],
+					"controls": [
+						{ "slot@chest.chest_grid_item": {
+							"size": [ 22, 22 ],
+    						"$item_renderer_size|default": [ 20, 20 ],
+							"$cell_image_size": [ 22, 22 ],
+							"collection_index": 9
+						} }
+					]
+				}
+			},
+			{
+				"slots": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"anchor_from": "top_middle",
+					"anchor_to": "top_middle",
+					"collection_name": "container_items",
+					"offset": [ 0, 20 ],
+					"controls": [
+						{ "slot@chest.chest_grid_item": {
+							"size": [ 22, 22 ],
+    						"$item_renderer_size|default": [ 20, 20 ],
+							"$cell_image_size": [ 22, 22 ],
+							"collection_index": 10
+						} }
+					]
+				}
+			},
+			{
+				"slots": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"anchor_from": "top_right",
+					"anchor_to": "top_right",
+					"collection_name": "container_items",
+					"offset": [ -35, 20 ],
+					"controls": [
+						{ "slot@chest.chest_grid_item": {
+							"size": [ 22, 22 ],
+    						"$item_renderer_size|default": [ 20, 20 ],
+							"$cell_image_size": [ 22, 22 ],
+							"collection_index": 11
+						} }
+					]
+				}
+			}
+		]
+	},
+	"weapon_stand_grid": {
+		"type": "grid",
+		"size": [ 162, 18 ],
+		"anchor_from": "top_middle",
+		"anchor_to": "top_middle",
+		"grid_dimensions": [ 9, 1 ],
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items"
+	},
+	"weapon_stand_panel": {
+		"type": "panel",
+		"controls": [
+			{ "container_gamepad_helpers@common.container_gamepad_helpers": {} },
+			{
+				"flying_item_renderer@common.flying_item_renderer": { "layer": 14 }
+			},
+			{ "selected_item_details_factory@common.selected_item_details_factory": {} },
+			{ "item_lock_notification_factory@common.item_lock_notification_factory": {} },
+			{
+				"root_panel@common.root_panel": {
+					"layer": 1,
+					"offset": [ 0, 0 ],
+					"size": [ 176, 158 ],
+					"controls": [
+						{ "common_panel@common.common_panel": {} },
+						{
+							"chest_panel": {
+								"type": "panel",
+								"layer": 5,
+								"controls": [
+									{ "weapon_stand_main_container@weapon_stand.weapon_stand_main_container": {} },
+									{ "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {} },
+									{ "hotbar_grid@common.hotbar_grid_template": {} },
+									{ "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+								]
+							}
+						},
+						{ "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+						{ "gamepad_cursor@common.gamepad_cursor_button": {} }
+					]
+				}
+			}
+		]
+	}
+}

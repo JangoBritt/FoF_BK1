@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:pale_oak_wood_cabinet_tall"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"###",
+			"P P",
+			"PPP"
+		],
+		"key": {
+			"#": { "item": "minecraft:pale_oak_log" },
+			"P": { "item": "minecraft:pale_oak_planks" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:pale_oak_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:pale_oak_wood_cabinet_tall",
+			"count": 1
+		}
+	}
+}

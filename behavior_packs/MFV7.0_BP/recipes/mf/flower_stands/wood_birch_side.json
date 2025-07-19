@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:birch_wood_flower_stand_side"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"AB",
+			"BC",
+			"CA"
+		],
+		"key": {
+			"B": { "item": "minecraft:flower_pot" },
+			"A": { "item": "medieval:birch_wood_post" },
+			"C": { "item": "medieval:birch_wood_mslab" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:birch_wood_flower_stand_side",
+			"count": 1
+		}
+	}
+}

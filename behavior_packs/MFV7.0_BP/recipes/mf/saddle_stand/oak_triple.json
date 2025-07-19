@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:oak_triple_saddle_stand"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"#",
+			"#",
+			"#"
+		],
+		"key": {
+			"#": { "item": "medieval:oak_saddle_stand" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:oak_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:oak_triple_saddle_stand",
+			"count": 1
+		}
+	}
+}

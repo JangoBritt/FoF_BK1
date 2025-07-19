@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:beer_mug",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/medieval/blocks/barrel/beer_mug"
+			}, 
+			"geometry": {
+				"default":"geometry.mf.beer_mug_on_barrel"
+			},
+			"sound_effects": {
+				"mf.beer_pour": "m.beer_pour",
+				"mf.itemframe_remove": "block.itemframe.remove_item"
+			},
+			"animations": {
+				"idle": "animation.mf.beer_mug_on_barrel.fill"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"scripts": {
+				"animate": [
+					"idle"
+				]
+			}
+		}
+	}
+}

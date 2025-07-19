@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:hand_cart_oak"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"S S",
+			"###",
+			"B B"
+		],
+		"key": {
+			"#": { "item": "minecraft:oak_planks" },
+			"S": { "item": "minecraft:stick" },
+			"B": { "item": "medieval:wheel_block" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:chariot_oak_0_item",
+			"count": 1
+		}
+	}
+}

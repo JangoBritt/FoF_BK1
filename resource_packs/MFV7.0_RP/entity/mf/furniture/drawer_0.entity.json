@@ -1,0 +1,72 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:drawer_0_entity",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"wood_oak": "textures/blocks/log_oak",
+				"stripped_oak": "textures/blocks/stripped_oak_log",
+				"wood_spruce": "textures/blocks/log_spruce",
+				"stripped_spruce": "textures/blocks/stripped_spruce_log",
+				"wood_birch": "textures/blocks/log_birch",
+				"stripped_birch": "textures/blocks/stripped_birch_log",
+				"wood_jungle": "textures/blocks/log_jungle",
+				"stripped_jungle": "textures/blocks/stripped_jungle_log",
+				"wood_acacia": "textures/blocks/log_acacia",
+				"stripped_acacia": "textures/blocks/stripped_acacia_log",
+				"wood_dark_oak": "textures/blocks/log_big_oak",
+				"stripped_dark_oak": "textures/blocks/stripped_dark_oak_log",
+				"wood_mangrove": "textures/blocks/mangrove_log_side",
+				"stripped_mangrove": "textures/blocks/stripped_mangrove_log_side",
+				"wood_cherry": "textures/blocks/cherry_log_side",
+				"stripped_cherry": "textures/blocks/stripped_cherry_log_side",
+				"wood_pale_oak": "textures/blocks/pale_oak_log_side",
+				"stripped_pale_oak": "textures/blocks/stripped_pale_oak_log_side",
+				"bamboo": "textures/blocks/bamboo_planks",
+				"wood_crimson": "textures/blocks/huge_fungus/crimson_log_side",
+				"stripped_crimson": "textures/blocks/huge_fungus/stripped_crimson_stem_side",
+				"wood_warped": "textures/blocks/huge_fungus/warped_stem_side",
+				"stripped_warped": "textures/blocks/huge_fungus/stripped_warped_stem_side",
+				"metal": "textures/blocks/concrete_silver",
+
+				"no_item": "textures/empty",
+				"paper": "textures/items/paper",
+				"book": "textures/items/book_normal",
+				"book_writable": "textures/items/book_writable",
+				"book_enchanted": "textures/items/book_enchanted"
+			}, 
+			"animations": {
+				"controller": "controller.animation.mf.container",
+				"open": "animation.mf.drawer_0.e.open",
+				"close": "animation.mf.drawer_0.e.close",
+				"keep_open": "animation.mf.drawer_0.e.keep_open",
+				"keep_close": "animation.mf.drawer_0.e.keep_close"
+			},
+			"sound_effects": {
+				"open": "block.barrel.open",
+				"close": "block.barrel.close"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				],
+				"pre_animation": [
+					"v.rotation_to_camera_0 = -Math.atan2(-q.distance_from_camera * Math.sin(q.rotation_to_camera(0)), q.distance_from_camera * Math.cos(q.rotation_to_camera(0)));",
+  					"v.look_at_entity = Math.abs(Math.abs(q.rotation_to_camera(1) - q.camera_rotation(1)) - 180) < (35 / q.distance_from_camera) && Math.abs(v.rotation_to_camera_0 + q.camera_rotation(0)) < (35 / q.distance_from_camera);"
+				]
+			},
+			"geometry": {
+				"default":"geometry.mf.drawer_0.e",
+				"nether": "geometry.mf.drawer_0_nether.e"
+			},
+			"render_controllers": [
+				"controller.render.mf.wooden_container",
+				"controller.render.mf.drawer_metal",
+				"controller.render.mf.container_item"
+			]
+		}
+	}
+}

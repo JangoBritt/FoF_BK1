@@ -1,0 +1,94 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:chariot_spruce_0",
+			"materials": {
+				"default": "entity_alphatest",
+				"horse": "entity_multitexture_multiplicative_blend"
+			},
+			"textures": {
+				"default": "textures/medieval/entities/wooden_cart/spruce",
+				"barrel": "textures/medieval/blocks/barrel/barrel_spruce",
+				"chest": "textures/medieval/vanilla/chest",
+
+				"barrel_apple": "textures/medieval/food/apple",
+				"barrel_golden_apple": "textures/medieval/food/apple_gold",
+				"barrel_beetroot": "textures/medieval/food/beetroot",
+				"barrel_bamboo": "textures/medieval/vanilla/bamboo",
+				"barrel_carrot": "textures/medieval/food/carrot",
+				"barrel_golden_carrot": "textures/medieval/food/carrot_gold",
+				"barrel_cod": "textures/medieval/food/cod",
+				"barrel_salmon": "textures/medieval/food/salmon",
+
+				"base_brown": "textures/entity/horse2/horse_brown",
+				"base_white": "textures/entity/horse2/horse_white",
+				"base_creamy": "textures/entity/horse2/horse_creamy",
+				"base_chestnut": "textures/entity/horse2/horse_chestnut",
+				"base_black": "textures/entity/horse2/horse_black",
+				"base_gray": "textures/entity/horse2/horse_gray",
+				"base_darkbrown": "textures/entity/horse2/horse_darkbrown",
+				"markings_none": "textures/entity/horse2/horse_markings_none",
+				"markings_white": "textures/entity/horse2/horse_markings_white",
+				"markings_whitefield": "textures/entity/horse2/horse_markings_whitefield",
+				"markings_whitedots": "textures/entity/horse2/horse_markings_whitedots",
+				"markings_blackdots": "textures/entity/horse2/horse_markings_blackdots",
+				"armor_none": "textures/entity/horse2/armor/horse_armor_none",
+				"armor_leather": "textures/medieval/entities/horse_armor/leather",
+				"armor_iron": "textures/entity/horse2/armor/horse_armor_iron",
+				"armor_gold": "textures/entity/horse2/armor/horse_armor_gold",
+				"armor_diamond": "textures/entity/horse2/armor/horse_armor_diamond",
+				"armor_netherite": "textures/medieval/entities/horse_armor/netherite"
+			},
+			"geometry": {
+				"default": "geometry.mf.wooden_cart"
+			},
+			"animations": {
+				"idle_controller": "controller.animation.mf.horse_idle",
+				"movement_ca": "controller.animation.mf.horse1_move",
+				"break_control": "controller.animation.mf.break_wooden_cart",
+				"no_horse": "animation.mf.wooden_cart.no_horse",
+				"idle0": "animation.mf.cart_horse.idle0",
+				"idle1": "animation.mf.cart_horse.idle1",
+				"idle2": "animation.mf.cart_horse.idle2",
+				"walk": "animation.mf.cart_horse.move0",
+				"trot": "animation.mf.cart_horse.move1",
+				"gallop": "animation.mf.cart_horse.move2",
+				"gallop2": "animation.mf.cart_horse.move3",
+				"base": "animation.mf.cart_horse.wooden_cart_base",
+				"break": "animation.mf.wooden_cart.break"
+			},
+			"scripts": {
+				"initialize": [
+					"v.randomt = 0;",
+					"v.random_anim = 0;",
+					"v.neck_yaw = 0;",
+					"v.other = 0;"
+				],
+				"pre_animation": [
+					"v.neck_yaw_target = math.clamp(q.yaw_speed * math.abs(q.yaw_speed) * 0.4, -30, 30);",
+					"v.neck_yaw = math.lerp(v.neck_yaw, v.neck_yaw_target, 0.1);",
+					"v.other_target = math.clamp(q.yaw_speed * 0.4, -20, 20);",
+					"v.other = math.lerp(v.other, v.other_target, 0.1);",
+					"v.health = q.property('mf:health');"
+				],
+				"animate": [
+					"break_control",
+					{ "no_horse": "!q.is_tamed" },
+					{ "idle_controller": "q.is_tamed" },
+					{ "movement_ca": "q.is_tamed" },
+					{ "base": "q.is_tamed" }
+				]
+			},
+			"render_controllers": [
+				"controller.render.mf.wooden_cart",
+				{ "controller.render.mf.wooden_cart_horse": "q.is_tamed" },
+				{ "controller.render.mf.wooden_cart_horse_armor": "q.is_tamed && q.property('mf:horse_armor') > 0" },
+				{ "controller.render.mf.wooden_cart_item_0": "q.property('mf:item_0') > 0" },
+				{ "controller.render.mf.wooden_cart_food_0": "q.property('mf:item_0') == 1 && q.property('mf:food_0') > 0" },
+				{ "controller.render.mf.wooden_cart_item_1": "q.property('mf:item_1') > 0" },
+				{ "controller.render.mf.wooden_cart_food_1": "q.property('mf:item_1') == 1 && q.property('mf:food_1') > 0" }
+			]
+		}
+	}
+}

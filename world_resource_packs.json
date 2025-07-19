@@ -32,25 +32,25 @@
 
 	{
 		"pack_id" : "51284a03-e6fe-49e7-a042-aa0002a8e98f", //MrCrayFish Furniture
-		"version" : [ 1, 2, 81 ]
+		"version" : [ 1, 2, 82 ]
 	},
-	
-	{
-		"pack_id" : "9a4bc60d-9e2e-4638-b93b-9b354bb6c64b", //Mailboxes
-		"version" : [ 1, 2, 3	 ]
-	},
-	
+
 	{
 		"pack_id" : "5c2e165b-9240-478e-a4b1-d98804e33476", //FXNT Armor Stands
 		"version" : [ 2, 1, 2 ]
 	},
 	{
 		"pack_id": "33d9b3b6-1a50-483b-9b67-423536aaf532", //Fables Recycling
-		"version": [ 1, 0, 0 ]
+		"version": [ 1, 0, 1 ]
 	},
 	{
 		"pack_id" : "5f579963-21e7-4945-ac23-b11e2a0f018c", //FXNT Mini Blocks
 		"version" : [ 7, 4, 3 ]
+	},
+	
+	{
+		"pack_id" : "a09917a4-8add-43a6-a9ee-06b2ae33eac1", //Medieval Furniture
+		"version" : [ 7, 0, 0 ]
 	},
 	
 	{
@@ -59,13 +59,18 @@
 	},
 	
 	{
+		"pack_id" : "9a4bc60d-9e2e-4638-b93b-9b354bb6c64b", //Mailboxes
+		"version" : [ 1, 2, 3	 ]
+	},
+	
+	{
 		"pack_id" : "43120e01-773d-4667-a1cd-fb5d6fb84543", //Fables Glass Pack
-		"version" : [ 6, 0, 1 ]
+		"version" : [ 6, 0, 2 ]
 	},
 	
 	{
 		"pack_id" : "8850b6e4-469e-4084-9d25-d5367dcb7c64", //Fables Frames Pack
-		"version" : [ 6, 0, 2 ]
+		"version" : [ 6, 0, 3 ]
 	},
 	
 	{
@@ -94,7 +99,7 @@
 	
 	{
 		"pack_id" : "3a71bf5a-e4fc-4cc1-aece-dcd17980a3d9", //Fables Medals Pack
-		"version" : [ 6, 1, 13 ]
+		"version" : [ 6, 1, 14 ]
 	},
 	
 	{
@@ -109,7 +114,7 @@
 	
 	{
 		"pack_id" : "04051855-530c-4cea-999b-9ead1c0850d9", //Fables Avatars
-		"version" : [ 6, 2, 9 ]
+		"version" : [ 6, 2, 10 ]
 	},
 
 	{

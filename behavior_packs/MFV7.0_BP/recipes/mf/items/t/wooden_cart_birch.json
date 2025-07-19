@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wooden_cart_birch"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"# #",
+			"###",
+			"B B"
+		],
+		"key": {
+			"#": { "item": "minecraft:birch_planks" },
+			"B": { "item": "medieval:wheel_block" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:wooden_cart_birch",
+			"count": 1
+		}
+	}
+}

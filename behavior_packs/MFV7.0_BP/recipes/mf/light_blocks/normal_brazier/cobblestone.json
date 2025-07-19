@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:cobblestone_brazier"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:cobblestone" } ],
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:cobblestone_brazier",
+			"count": 1
+		}
+	}
+}

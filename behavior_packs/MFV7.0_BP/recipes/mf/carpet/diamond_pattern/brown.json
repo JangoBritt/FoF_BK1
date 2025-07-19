@@ -1,0 +1,20 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:brown_carpet_diamond_pattern"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": { "item": "minecraft:brown_carpet" }
+		},
+		"unlock": [ { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:brown_carpet_diamond_pattern",
+			"count": 1
+		}
+	}
+}

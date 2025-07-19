@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fables_misc:dark_prismarine_wall_0"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"#",
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:dark_prismarine",
+				"data": 0
+		}
+    },
+		"unlock": [
+			{"item": "minecraft:dark_prismarine"}
+		],
+    "result": {
+			"item": "fables_misc:dark_prismarine_wall_0",
+			"count": 12
+		}
+	}
+}

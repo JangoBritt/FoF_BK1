@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:deepslate_tile_beam"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:deepslate_tiles" } ],
+		"unlock": [ { "item": "minecraft:deepslate_tiles" } ],
+		"result": {
+			"item": "medieval:deepslate_tile_beam",
+			"count": 2
+		}
+	}
+}

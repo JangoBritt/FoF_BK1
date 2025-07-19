@@ -134,6 +134,7 @@
           "minecraft:diamond_tier",
           "minecraft:transformable_items",
           "farmersdelight:is_knife",
+          "farmersdelight:is_tool",
           "farmersdelight:straw_harvesters"
         ]
       }

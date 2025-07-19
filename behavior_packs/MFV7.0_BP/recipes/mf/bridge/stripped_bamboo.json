@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_bamboo_bridge"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"AAA",
+			"###"
+		],
+		"key": {
+			"#": { "item": "minecraft:bamboo_planks" },
+			"A": { "item": "minecraft:stripped_bamboo_block" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:bamboo_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:stripped_bamboo_bridge",
+			"count": 4
+		}
+	}
+}

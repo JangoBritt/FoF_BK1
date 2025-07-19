@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:crimson_chandelier"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"C#C",
+			"#S#",
+			"C#C"
+		],
+		"key": {
+			"#": { "item": "minecraft:candle" },
+			"C": { "item": "minecraft:chain" },
+			"S": { "item": "minecraft:stripped_crimson_stem" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:crimson_chandelier",
+			"count": 2
+		}
+	}
+}

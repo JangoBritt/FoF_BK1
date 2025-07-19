@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:polished_blackstone_mslab"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:polished_blackstone" } ],
+		"unlock": [ { "item": "minecraft:polished_blackstone" } ],
+		"result": {
+			"item": "medieval:polished_blackstone_mslab",
+			"count": 5
+		}
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.mf.wooden_cart.timer": {
+			"loop": false,
+			"animation_length": 5
+		},
+		"animation.mf.wooden_cart.timer_stop": {
+			"loop": false,
+			"animation_length": 0.75
+		},
+		"animation.mf.wooden_cart.moving_start": {
+			"loop": false,
+			"animation_length": 0.36,
+			"timeline": {
+				"0.0": "/playsound m.wagon_moving_start @a ~~~"
+			}
+		},
+		"animation.mf.wooden_cart.moving": {
+			"loop": false,
+			"animation_length": 1,
+			"timeline": {
+				"0.0": "/playsound m.wagon_moving @a ~~~"
+			}
+		},
+		"animation.mf.wooden_cart.moving_end": {
+			"loop": false,
+			"animation_length": 1.16,
+			"timeline": {
+				"0.0": "/playsound m.wagon_moving_end @a ~~~"
+			}
+		},
+		"animation.mf.horse.walk_sound": {
+			"loop": true,
+			"animation_length": 1,
+			"timeline": {
+				"0.0": "/playsound mob.horse.gallop @a ~~~ 0.6 1"
+			}
+		},
+		"animation.mf.horse.trot_sound": {
+			"loop": true,
+			"animation_length": 0.8,
+			"timeline": {
+				"0.0": "/playsound mob.horse.gallop @a ~~~ 0.6 1"
+			}
+		},
+		"animation.mf.horse.gallop_sound": {
+			"loop": true,
+			"animation_length": 0.5,
+			"timeline": {
+				"0.0": "/playsound mob.horse.gallop @a ~~~ 0.6 1"
+			}
+		}
+	}
+}

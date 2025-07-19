@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:warped_wood_chair0"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:warped_stem" } ],
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "minecraft:warped_stem" } ],
+		"result": {
+			"item": "medieval:warped_wood_chair0",
+			"count": 1
+		}
+	}
+}

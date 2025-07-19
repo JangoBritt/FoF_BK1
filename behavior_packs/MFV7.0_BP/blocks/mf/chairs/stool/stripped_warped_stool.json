@@ -1,0 +1,72 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stripped_warped_stool",
+			"menu_category": {
+				"category": "construction",
+				"group": "medFur:woodenStool"
+			},
+			"traits": {
+				"minecraft:placement_direction": { "enabled_states": [ "minecraft:cardinal_direction"], "y_rotation_offset": 180 }
+			},
+			"states": {
+				"medieval:state": [ 0, 1, 2, 3 ]
+			}
+		},
+		"permutations": [
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
+			{ "condition": "q.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, 270, 0 ] } } },
+			{ "condition": "q.block_state('medieval:state') == 1", "components": {
+				"minecraft:collision_box": {"origin": [ -8, 0, -7 ], "size": [ 15, 8, 14 ] },
+				"minecraft:selection_box": {"origin": [ -8, 0, -7 ], "size": [ 15, 8, 14 ] }
+			}},
+			{ "condition": "q.block_state('medieval:state') == 2", "components": {
+				"minecraft:collision_box": {"origin": [ -7 , 0, -7 ], "size": [ 15, 8, 14 ] },
+				"minecraft:selection_box": {"origin": [ -7 , 0, -7 ], "size": [ 15, 8, 14 ] }
+			}},
+			{ "condition": "q.block_state('medieval:state') == 3", "components": {
+				"minecraft:collision_box": {"origin": [ -8 , 0, -7 ], "size": [ 16, 8, 14 ] },
+				"minecraft:selection_box": {"origin": [ -8 , 0, -7 ], "size": [ 16, 8, 14 ] }
+			}}
+		],
+		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mf.wooden_stool",
+				"bone_visibility": {
+					"right": "q.block_state('medieval:state') == 0 || q.block_state('medieval:state') == 1",
+					"left": "q.block_state('medieval:state') == 0 || q.block_state('medieval:state') == 2",
+					"state0": "q.block_state('medieval:state') == 0",
+					"state1": "q.block_state('medieval:state') == 1",
+					"state2": "q.block_state('medieval:state') == 2",
+					"state3": "q.block_state('medieval:state') == 3"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": { "texture": "mf:stripped_warped", "render_method": "opaque" },
+				"wt": { "texture": "mf:light_gray_concrete", "render_method": "opaque" },
+				"planks": { "texture": "mf:warped_planks", "render_method": "opaque" }
+			},
+			"minecraft:collision_box": { "origin": [ -7, 0, -7 ], "size": [ 14, 8, 14 ] },
+			"minecraft:selection_box": { "origin": [ -7, 0, -7 ], "size": [ 14, 8, 14 ] },
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "blocking"
+			} ] },
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:flammable": {"catch_chance_modifier": 5, "destroy_chance_modifier": 5 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 4.0 },
+			"minecraft:custom_components": [ "mf:default_sit", "mf:update_sided_blocks" ],
+			"minecraft:map_color": "#228579"
+		}
+	}
+}

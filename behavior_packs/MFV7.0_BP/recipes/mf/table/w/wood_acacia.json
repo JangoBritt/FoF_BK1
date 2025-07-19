@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wood_acacia_wtable"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"#G#",
+			"SSS",
+			"S S"
+		],
+		"key": {
+			"#": { "item": "minecraft:acacia_log" },
+			"G": { "item": "minecraft:glass" },
+			"S": { "item": "minecraft:stick" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:acacia_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:wood_acacia_wtable",
+			"count": 3
+		}
+	}
+}

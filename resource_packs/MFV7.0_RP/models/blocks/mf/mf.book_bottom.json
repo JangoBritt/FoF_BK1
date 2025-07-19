@@ -1,0 +1,124 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mf.book_bottom",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "book",
+					"parent": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4.66664, 0, -5.8333],
+							"size": [9.33328, 3.49998, 11.6666],
+							"uv": {
+								"north": {"uv": [4.5, 4], "uv_size": [4, 1.5]},
+								"east": {"uv": [4.5, 0], "uv_size": [5, 1.5]},
+								"south": {"uv": [8.5, 4], "uv_size": [-4, 1.5]},
+								"west": {"uv": [4.5, 2], "uv_size": [5, 1.5]},
+								"up": {"uv": [0, 0], "uv_size": [4, 5]},
+								"down": {"uv": [0, 5], "uv_size": [4, -5]}
+							}
+						}
+					]
+				},
+				{
+					"name": "book2",
+					"parent": "bone",
+					"pivot": [0, 3.5, 0],
+					"cubes": [
+						{
+							"origin": [-4, 3.5, -5],
+							"size": [8, 3, 10],
+							"pivot": [0, 3.5, 0],
+							"rotation": [0, 20, 0],
+							"uv": {
+								"north": {"uv": [4.5, 4], "uv_size": [4, 1.5]},
+								"east": {"uv": [4.5, 0], "uv_size": [5, 1.5]},
+								"south": {"uv": [8.5, 4], "uv_size": [-4, 1.5]},
+								"west": {"uv": [4.5, 2], "uv_size": [5, 1.5]},
+								"up": {"uv": [0, 0], "uv_size": [4, 5]},
+								"down": {"uv": [0, 5], "uv_size": [4, -5]}
+							}
+						}
+					]
+				},
+				{
+					"name": "book3",
+					"parent": "bone",
+					"pivot": [0, 6.5, 0],
+					"cubes": [
+						{
+							"origin": [-4, 6.5, -5],
+							"size": [8, 3, 10],
+							"pivot": [0, 6.5, 0],
+							"rotation": [0, 7.5, 0],
+							"uv": {
+								"north": {"uv": [4.5, 4], "uv_size": [4, 1.5]},
+								"east": {"uv": [4.5, 0], "uv_size": [5, 1.5]},
+								"south": {"uv": [8.5, 4], "uv_size": [-4, 1.5]},
+								"west": {"uv": [4.5, 2], "uv_size": [5, 1.5]},
+								"up": {"uv": [0, 0], "uv_size": [4, 5]},
+								"down": {"uv": [0, 5], "uv_size": [4, -5]}
+							}
+						}
+					]
+				},
+				{
+					"name": "book4",
+					"parent": "bone",
+					"pivot": [0, 9.5, 0],
+					"cubes": [
+						{
+							"origin": [-4.66664, 9.5, -5.8333],
+							"size": [9.33328, 3.49998, 11.6666],
+							"pivot": [0, 9.5, 0],
+							"rotation": [0, -5, 0],
+							"uv": {
+								"north": {"uv": [4.5, 4], "uv_size": [4, 1.5]},
+								"east": {"uv": [4.5, 0], "uv_size": [5, 1.5]},
+								"south": {"uv": [8.5, 4], "uv_size": [-4, 1.5]},
+								"west": {"uv": [4.5, 2], "uv_size": [5, 1.5]},
+								"up": {"uv": [0, 0], "uv_size": [4, 5]},
+								"down": {"uv": [0, 5], "uv_size": [4, -5]}
+							}
+						}
+					]
+				},
+				{
+					"name": "book5",
+					"parent": "bone",
+					"pivot": [0, 13, 0],
+					"cubes": [
+						{
+							"origin": [-4, 13, -5],
+							"size": [8, 3, 10],
+							"pivot": [0, 13, 0],
+							"rotation": [0, 17.5, 0],
+							"uv": {
+								"north": {"uv": [4.5, 4], "uv_size": [4, 1.5]},
+								"east": {"uv": [4.5, 0], "uv_size": [5, 1.5]},
+								"south": {"uv": [8.5, 4], "uv_size": [-4, 1.5]},
+								"west": {"uv": [4.5, 2], "uv_size": [5, 1.5]},
+								"up": {"uv": [0, 0], "uv_size": [4, 5]},
+								"down": {"uv": [0, 5], "uv_size": [4, -5]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,218 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:portcullis",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"properties": {
+				"mf:width": {
+					"client_sync": true,
+					"type": "int",
+					"range": [ 1, 16 ],
+					"default": 1
+				},
+				"mf:height": {
+					"client_sync": true,
+					"type": "int",
+					"range": [ 1, 16 ],
+					"default": 1
+				},
+				"mf:is_open": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"mf:open_size": {
+					"type": "int",
+					"range": [ 1, 16 ],
+					"client_sync": true,
+					"default": 1
+				}
+			}
+		},
+		"component_groups": {
+			"medieval:despawn": { "minecraft:instant_despawn": {} },
+			"mf:height_3": {
+				"minecraft:timer": {
+					"time": 0.8,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_4": {
+				"minecraft:timer": {
+					"time": 1.1,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_5": {
+				"minecraft:timer": {
+					"time": 1.35,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_6": {
+				"minecraft:timer": {
+					"time": 1.6,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_7": {
+				"minecraft:timer": {
+					"time": 1.7667,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_8": {
+				"minecraft:timer": {
+					"time": 1.8917,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_9": {
+				"minecraft:timer": {
+					"time": 2.0167,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_10": {
+				"minecraft:timer": {
+					"time": 2.1417,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_11": {
+				"minecraft:timer": {
+					"time": 2.2667,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_12": {
+				"minecraft:timer": {
+					"time": 2.3917,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_13": {
+				"minecraft:timer": {
+					"time": 2.5167,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_14": {
+				"minecraft:timer": {
+					"time": 2.6,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_15": {
+				"minecraft:timer": {
+					"time": 2.6833,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			},
+			"mf:height_16": {
+				"minecraft:timer": {
+					"time": 2.7667,
+					"looping": true,
+					"time_down_event": {
+						"event": "mf:end_timer"
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:type_family":{
+				"family":[ "inanimate"]
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:damage_sensor": { "triggers": [ { "cause": "all", "deals_damage": "no" } ] },
+			"minecraft:health": {
+				"value": 1,
+				"max": 1,
+				"min": 1
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:mob_effect_immunity": {
+				"mob_effects": [
+					"invisibility", "absorption", "bad_omen", "blindness", "conduit_power", "darkness", "fatal_poison", "poison"
+				]
+			},
+			"minecraft:renders_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:body_rotation_blocked": {}
+		},
+		"events": {
+			"mf:end_timer": {},
+			"mf:height_3": { "add": { "component_groups": [ "mf:height_3" ] } },
+			"mf:height_4": { "add": { "component_groups": [ "mf:height_4" ] } },
+			"mf:height_5": { "add": { "component_groups": [ "mf:height_5" ] } },
+			"mf:height_6": { "add": { "component_groups": [ "mf:height_6" ] } },
+			"mf:height_7": { "add": { "component_groups": [ "mf:height_7" ] } },
+			"mf:height_8": { "add": { "component_groups": [ "mf:height_8" ] } },
+			"mf:height_9": { "add": { "component_groups": [ "mf:height_9" ] } },
+			"mf:height_10": { "add": { "component_groups": [ "mf:height_10" ] } },
+			"mf:height_11": { "add": { "component_groups": [ "mf:height_11" ] } },
+			"mf:height_12": { "add": { "component_groups": [ "mf:height_12" ] } },
+			"mf:height_13": { "add": { "component_groups": [ "mf:height_13" ] } },
+			"mf:height_14": { "add": { "component_groups": [ "mf:height_14" ] } },
+			"mf:height_15": { "add": { "component_groups": [ "mf:height_15" ] } },
+			"mf:height_16": { "add": { "component_groups": [ "mf:height_16" ] } },
+			"medieval:despawn": {"add": {"component_groups": ["medieval:despawn"]}}
+		}
+	}
+}

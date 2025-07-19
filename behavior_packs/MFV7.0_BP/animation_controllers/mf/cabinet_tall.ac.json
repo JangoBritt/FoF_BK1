@@ -1,0 +1,55 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.mf.control_item_top": {
+			"initial_state": "none",
+			"states": {
+				"none": {
+					"transitions": [
+						{ "potion": "q.is_item_name_any('slot.inventory', 56, 'minecraft:potion')" },
+						{ "book": "q.is_item_name_any('slot.inventory', 56, 'minecraft:book')" }
+					],
+					"on_entry": [ "@s mf:item_top_remove" ],
+					"on_exit": [ "@s mf:random_top" ]
+				},
+				"potion": {
+					"transitions": [
+						{ "none": "!q.is_item_name_any('slot.inventory', 56, 'minecraft:potion')" }
+					],
+					"on_entry": [ "@s mf:item_top_potion", "/playsound block.itemframe.add_item @a ~~~ 1" ]
+				},
+				"book": {
+					"transitions": [
+						{ "none": "!q.is_item_name_any('slot.inventory', 56, 'minecraft:book')" }
+					],
+					"on_entry": [ "@s mf:item_top_book", "/playsound block.itemframe.add_item @a ~~~ 1" ]
+				}
+			}
+		},
+		"controller.animation.mf.control_item_bottom": {
+			"initial_state": "none",
+			"states": {
+				"none": {
+					"transitions": [
+						{ "potion": "q.is_item_name_any('slot.inventory', 57, 'minecraft:potion')" },
+						{ "book": "q.is_item_name_any('slot.inventory', 57, 'minecraft:book')" }
+					],
+					"on_entry": [ "@s mf:item_bottom_remove" ],
+					"on_exit": [ "@s mf:random_bottom" ]
+				},
+				"potion": {
+					"transitions": [
+						{ "none": "!q.is_item_name_any('slot.inventory', 57, 'minecraft:potion')" }
+					],
+					"on_entry": [ "@s mf:item_bottom_potion", "/playsound block.itemframe.add_item @a ~~~ 1" ]
+				},
+				"book": {
+					"transitions": [
+						{ "none": "!q.is_item_name_any('slot.inventory', 57, 'minecraft:book')" }
+					],
+					"on_entry": [ "@s mf:item_bottom_book", "/playsound block.itemframe.add_item @a ~~~ 1" ]
+				}
+			}
+		}
+	}
+}

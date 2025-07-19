@@ -1,0 +1,103 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:barrel_cont",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false,
+			"properties": {
+				"mf:item": {
+					"type": "int",
+					"client_sync": true,
+					"default": 0,
+					"range": [ 0, 17 ]
+				}
+			}
+		},
+		"component_groups": {
+			"mf:despawn": { "minecraft:instant_despawn": {} }
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:type_family": { "family": [ "inanimate", "medieval_container", "medieval_return_inv" ] },
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:custom_hit_test": { "hitboxes": [
+				{
+					"width": 1,
+					"height": 0.4,
+					"pivot": [0, 0.5, 0]
+				}
+			] },
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": { "triggers": [
+				{
+					"cause": "all",
+					"deals_damage": "no"
+				}
+			] },
+			"minecraft:health": {
+				"min": 1,
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:inventory": {
+				"container_type": "inventory",
+				"can_be_siphoned_from": true,
+				"inventory_size": 27
+			},
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{ "block": { "name": "minecraft:air" }, "entered_block_event": { "event": "mf:despawn", "target": "self" } }
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:persistent": {},
+			"minecraft:fire_immune": {},
+			"minecraft:renders_when_invisible": {},
+			"minecraft:body_rotation_blocked": {},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"queue_command": { "command": [ "effect @s invisibility infinite 0 true" ] }
+			},
+			"mf:despawn": { "queue_command": { "command": ["scriptevent medieval:drop_inventory"] } },
+			"mf:remove_item": { "set_property": { "mf:item": 0 } },
+			"minecraft:apple": { "set_property": { "mf:item": 1 } },
+			"minecraft:beetroot": { "set_property": { "mf:item": 2 } },
+			"minecraft:carrot": { "set_property": { "mf:item": 3 } },
+			"minecraft:potato": { "set_property": { "mf:item": 4 } },
+			"minecraft:wheat": { "set_property": { "mf:item": 5 } },
+			"minecraft:bamboo": { "set_property": { "mf:item": 6 } },
+			"minecraft:cod": { "set_property": { "mf:item": 7 } },
+			"minecraft:salmon": { "set_property": { "mf:item": 8 } },
+			"minecraft:golden_apple": { "set_property": { "mf:item": 9 } },
+			"minecraft:golden_carrot": { "set_property": { "mf:item": 10 } },
+			"minecraft:water_bucket": { "set_property": { "mf:item": 11 } },
+			"minecraft:arrow": { "set_property": { "mf:item": 12 } },
+			"minecraft:diamond": { "set_property": { "mf:item": 13 } },
+			"minecraft:emerald": { "set_property": { "mf:item": 14 } },
+			"minecraft:iron_ingot": { "set_property": { "mf:item": 15 } },
+			"minecraft:gold_ingot": { "set_property": { "mf:item": 16 } },
+			"minecraft:copper_ingot": { "set_property": { "mf:item": 17 } }
+		}
+	}
+}

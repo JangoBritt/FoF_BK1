@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:oak_chandelier"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"C#C",
+			"#S#",
+			"C#C"
+		],
+		"key": {
+			"#": { "item": "minecraft:candle" },
+			"C": { "item": "minecraft:chain" },
+			"S": { "item": "minecraft:stripped_oak_log" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:oak_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:oak_chandelier",
+			"count": 2
+		}
+	}
+}

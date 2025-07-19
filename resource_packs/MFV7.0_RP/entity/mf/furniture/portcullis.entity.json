@@ -1,0 +1,70 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:portcullis",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/medieval/blocks/other_blocks/portcullis"
+			}, 
+			"geometry": {
+				"default":"geometry.mf.portcullis"
+			},
+			"animations": {
+				"height_3": "animation.mf.portcullis.open3",
+				"height_4": "animation.mf.portcullis.open4",
+				"height_5": "animation.mf.portcullis.open5",
+				"height_6": "animation.mf.portcullis.open6",
+				"height_7": "animation.mf.portcullis.open7",
+				"height_8": "animation.mf.portcullis.open8",
+				"height_9": "animation.mf.portcullis.open9",
+				"height_10": "animation.mf.portcullis.open10",
+				"height_11": "animation.mf.portcullis.open11",
+				"height_12": "animation.mf.portcullis.open12",
+				"height_13": "animation.mf.portcullis.open13",
+				"height_14": "animation.mf.portcullis.open14",
+				"height_15": "animation.mf.portcullis.open15",
+				"height_16": "animation.mf.portcullis.open16"
+			},
+			"sound_effects": {
+				"sound3": "mf.portcullis_h3",
+				"sound4": "mf.portcullis_h4",
+				"sound5": "mf.portcullis_h5",
+				"sound6": "mf.portcullis_h6",
+				"sound7": "mf.portcullis_h7",
+				"sound8": "mf.portcullis_h8",
+				"sound9": "mf.portcullis_h9",
+				"sound10": "mf.portcullis_h10",
+				"sound11": "mf.portcullis_h11",
+				"sound12": "mf.portcullis_h12",
+				"sound13": "mf.portcullis_h13",
+				"sound14": "mf.portcullis_h14",
+				"sound15": "mf.portcullis_h15",
+				"sound16": "mf.portcullis_h16"
+			},
+			"scripts": {
+				"animate": [
+					{ "height_3": "q.property('mf:open_size') == 3" },
+					{ "height_4": "q.property('mf:open_size') == 4" },
+					{ "height_5": "q.property('mf:open_size') == 5" },
+					{ "height_6": "q.property('mf:open_size') == 6" },
+					{ "height_7": "q.property('mf:open_size') == 7" },
+					{ "height_8": "q.property('mf:open_size') == 8" },
+					{ "height_9": "q.property('mf:open_size') == 9" },
+					{ "height_10": "q.property('mf:open_size') == 10" },
+					{ "height_11": "q.property('mf:open_size') == 11" },
+					{ "height_12": "q.property('mf:open_size') == 12" },
+					{ "height_13": "q.property('mf:open_size') == 13" },
+					{ "height_14": "q.property('mf:open_size') == 14" },
+					{ "height_15": "q.property('mf:open_size') == 15" },
+					{ "height_16": "q.property('mf:open_size') == 16" }
+				]
+			},
+			"render_controllers": [
+				"controller.render.mf.portcullis"
+			]
+		}
+	}
+}

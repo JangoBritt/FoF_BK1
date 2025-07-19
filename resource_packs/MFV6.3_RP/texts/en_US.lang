@@ -952,6 +952,7 @@ tile.medieval:mangrove_bucket.name=Mangrove Wood Bucket
 tile.medieval:oak_bucket.name=Oak Wood Bucket
 tile.medieval:spruce_bucket.name=Spruce Wood Bucket
 tile.medieval:warped_bucket.name=Warped Wood Bucket
+tile.medieval:pale_oak_bowl0.name=Pale Oak Bowl
 tile.medieval:acacia_bowl0.name=Acacia Bowl
 tile.medieval:birch_bowl0.name=Birch Bowl
 tile.medieval:crimson_bowl0.name=Crimson Bowl
@@ -1177,6 +1178,7 @@ tile.medieval:wood_oak_table_2.name=Oak Wood Table
 tile.medieval:wood_spruce_table_2.name=Spruce Wood Table
 tile.medieval:wood_warped_table_2.name=Warped Wood Table
 
+tile.medieval:pale_oak_toilet.name=Pale Oak Wood Toilet
 tile.medieval:acacia_toilet.name=Acacia Wood Toilet
 tile.medieval:birch_toilet.name=Birch Wood Toilet
 tile.medieval:crimson_toilet.name=Crimson Wood Toilet
@@ -1492,6 +1494,7 @@ tile.medieval:stripped_bamboo_mslab.name=Stripped Bamboo Small Slab
 tile.medieval:bamboo_wooden_stairs.name=Bamboo Stairs
 
 ## WILL BE REMOVED
+tile.medieval:stripped_pale_oak_tv.name=Stripped Pale Oak TV
 tile.medieval:stripped_acacia_tv.name=Stripped Acacia TV
 tile.medieval:stripped_birch_tv.name=Stripped Birch TV
 tile.medieval:stripped_crimson_tv.name=Stripped Crimson TV
@@ -1502,6 +1505,7 @@ tile.medieval:stripped_oak_tv.name=Stripped Oak TV
 tile.medieval:stripped_spruce_tv.name=Stripped Spruce TV
 tile.medieval:stripped_warped_tv.name=Stripped Warped TV
 tile.medieval:stripped_cherry_tv.name=Stripped Cherry TV
+tile.medieval:wood_pale_oak_tv.name=Pale Oak TV
 tile.medieval:wood_acacia_tv.name=Acacia TV
 tile.medieval:wood_birch_tv.name=Birch TV
 tile.medieval:wood_crimson_tv.name=Crimson TV
@@ -1557,16 +1561,7 @@ item.medieval:spruce_streetlight_0_item=Spruce Streetlight
 item.medieval:stripped_bamboo_streetlight_0_item=Stripped Bamboo Streetlight
 item.medieval:warped_streetlight_0_item=Warped Streetlight
 
-item.medieval:chariot_acacia_0_item=Acacia Wood Cart
-item.medieval:chariot_birch_0_item=Birch Wood Cart
-item.medieval:chariot_crimson_0_item=Crimson Wood Cart
-item.medieval:chariot_dark_oak_0_item=Dark Oak Wood Cart
-item.medieval:chariot_jungle_0_item=Jungle Wood Cart
-item.medieval:chariot_cherry_0_item=Cherry Wood Cart
-item.medieval:chariot_mangrove_0_item=Mangrove Wood Cart
-item.medieval:chariot_oak_0_item=Oak Wood Cart
-item.medieval:chariot_spruce_0_item=Spruce Wood Cart
-item.medieval:chariot_warped_0_item=Warped Wood Cart
+item.medieval:chariot_oak_0_item=Oak Hand Cart
 
 action.interact.remove_chariot=Remove Cart
 action.interact.add_chariot=Add Cart
@@ -1702,6 +1697,7 @@ tile.medieval:iron_chain_0.name=Iron Chain
 tile.medieval:gold_chain_0.name=Gold Chain
 tile.medieval:netherite_chain_0.name=Netherite Chain
 
+tile.medieval:pale_oak_mailbox_0.name=Pale Oak Mailbox
 tile.medieval:acacia_mailbox_0.name=Acacia Mailbox
 tile.medieval:birch_mailbox_0.name=Birch Mailbox
 tile.medieval:cherry_mailbox_0.name=Cherry Mailbox
@@ -1752,7 +1748,6 @@ tile.medieval:stacked_oak_log.name=Stacked Oak Logs
 tile.medieval:stacked_spruce_log.name=Stacked Spruce Logs
 tile.medieval:stacked_warped_log.name=Stacked Warped Logs
 
-item.medieval:scarecrow_item=Scarecrow
 item.medieval:beer_mug_empty_item=Empty Beer Mug
 item.medieval:wine_bottle_item=Wine Bottle
 item.medieval:beer_mug_fill_item=Filled Beer Mug

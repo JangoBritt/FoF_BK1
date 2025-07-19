@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:jungle_easel"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			" # ",
+			"S#S",
+			"SSS"
+		],
+		"key": {
+			"#": { "item": "minecraft:stripped_jungle_log" },
+			"S": { "item": "medieval:stripped_jungle_post" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:jungle_easel",
+			"count": 2
+		}
+	}
+}

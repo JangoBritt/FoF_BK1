@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cherry_cupboard"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"BBB",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": { "item": "minecraft:cherry_planks" },
+			"B": { "item": "medieval:stripped_cherry_mslab" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:cherry_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:cherry_cupboard",
+			"count": 1
+		}
+	}
+}

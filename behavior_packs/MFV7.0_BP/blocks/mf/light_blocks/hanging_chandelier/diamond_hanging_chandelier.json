@@ -1,0 +1,53 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:diamond_hanging_chandelier",
+			"menu_category": {
+				"category": "items",
+				"group": "medFur:hangingChandelier"
+			},
+			"states": {
+				"medieval:facing_direction": [ 0, 1 ]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('medieval:facing_direction') == 1","components": {
+				"minecraft:geometry": "geometry.mf.candleholder_5",
+				"minecraft:collision_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 9, 16 ] },
+				"minecraft:selection_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 16, 16 ] },
+				"minecraft:material_instances": {
+					"candle": {"texture": "mf:candle_normal","render_method": "alpha_test","ambient_occlusion": false},
+					"*": {"texture": "mf:candleholder_diamond_5","render_method": "alpha_test","ambient_occlusion": false},
+					"fire_candle": {"texture": "mf:fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}
+			}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.mf.hanging_chandelier",
+			"minecraft:material_instances": {
+				"*": {"texture": "mf:hanging_chandelier_diamond","render_method": "alpha_test","ambient_occlusion": false},
+				"candle": {"texture": "mf:candle_normal","render_method": "alpha_test","ambient_occlusion": false},
+				"fire_candle": {"texture": "mf:fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}
+			},
+			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up","down"]}]},
+			"minecraft:collision_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 16, 16 ] },
+			"minecraft:selection_box": { "origin": [ -8, 0, -8 ], "size": [ 16, 16, 16 ] },
+			"minecraft:light_emission": 15,
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "popped"
+			} ] },
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0 },
+			"minecraft:custom_components": [ "mf:hanging_chandelier" ],
+			"minecraft:map_color": "#2ce0d8"
+		}
+	}
+}

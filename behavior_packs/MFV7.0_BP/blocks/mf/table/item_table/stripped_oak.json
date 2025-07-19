@@ -1,0 +1,108 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stripped_oak_table_2",
+			"menu_category": {
+				"category": "items",
+				"group": "medFur:itemTable"
+			},
+			"traits": {
+				"minecraft:placement_direction": { "enabled_states": [ "minecraft:cardinal_direction" ], "y_rotation_offset": 180 }
+			},
+			"states": {
+				"medieval:state": [ 0, 1, 2, 3 ],
+				"medieval:item": [ 0, 1, 2, 3, 4, 5, 6 ]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [ 0, 0, 0 ] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [ 0, 180, 0 ] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [ 0, 90, 0 ] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [ 0, -90, 0 ] }}},
+			{"condition": "q.block_state('medieval:item') == 1","components": {
+				"minecraft:material_instances": {
+					"*": {"texture": "mf:stripped_oak","render_method": "opaque"},
+					"planks": {"texture": "mf:oak_planks","render_method": "opaque"},
+					"apple": {"texture": "mf:apple","render_method": "opaque"}
+				}
+			}},
+			{"condition": "q.block_state('medieval:item') == 2","components": {
+				"minecraft:material_instances": {
+					"*": {"texture": "mf:stripped_oak","render_method": "opaque"},
+					"planks": {"texture": "mf:oak_planks","render_method": "opaque"},
+					"apple": {"texture": "mf:golden_apple","render_method": "opaque"}
+				}
+			}},
+			{"condition": "q.block_state('medieval:item') == 3","components": {
+				"minecraft:material_instances": {
+					"*": {"texture": "mf:stripped_oak","render_method": "opaque"},
+					"planks": {"texture": "mf:oak_planks","render_method": "opaque"},
+					"item": {"texture": "mf:bamboo_item","render_method": "opaque"}
+				}
+			}},
+			{"condition": "q.block_state('medieval:item') == 4","components": {
+				"minecraft:material_instances": {
+					"*": {"texture": "mf:stripped_oak","render_method": "alpha_test"},
+					"planks": {"texture": "mf:oak_planks","render_method": "alpha_test"},
+					"item_bottle": {"texture": "mf:honey_bottle","render_method": "alpha_test"}
+				}
+			}},
+			{"condition": "q.block_state('medieval:item') == 5","components": {
+				"minecraft:material_instances": {
+					"*": {"texture": "mf:stripped_oak","render_method": "alpha_test"},
+					"planks": {"texture": "mf:oak_planks","render_method": "alpha_test"},
+					"item_bottle": {"texture": "mf:bottle_water","render_method": "alpha_test"}
+				}
+			}},
+			{"condition": "q.block_state('medieval:item') == 6","components": {
+				"minecraft:material_instances": {
+					"*": {"texture": "mf:stripped_oak","render_method": "opaque"},
+					"planks": {"texture": "mf:oak_planks","render_method": "opaque"},
+					"book": {"texture": "mf:book_brown","render_method": "opaque"}
+				}
+			}}
+		],
+		"components": {
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mf.item_table",
+				"bone_visibility": {
+					"left": "q.block_state('medieval:state') == 0 || q.block_state('medieval:state') == 1",
+					"right": "q.block_state('medieval:state') == 0 || q.block_state('medieval:state') == 2",
+					"center0": "q.block_state('medieval:state') == 0",
+					"center1": "q.block_state('medieval:state') == 1",
+					"center2": "q.block_state('medieval:state') == 2",
+					"center3": "q.block_state('medieval:state') == 3",
+					"apple": "q.block_state('medieval:item') == 1 || q.block_state('medieval:item') == 2",
+					"apple2": "(q.block_state('medieval:item') == 1 || q.block_state('medieval:item') == 2) && (q.block_state('medieval:state') == 1 || q.block_state('medieval:state') == 3)",
+					"bamboo": "q.block_state('medieval:item') == 3",
+					"bottle": "q.block_state('medieval:item') == 4 || q.block_state('medieval:item') == 5",
+					"bottle2": "(q.block_state('medieval:item') == 4 || q.block_state('medieval:item') == 5) && (q.block_state('medieval:state') == 1 || q.block_state('medieval:state') == 3)",
+					"book": "q.block_state('medieval:item') == 6"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {"texture": "mf:stripped_oak","render_method": "opaque"},
+				"planks": {"texture": "mf:oak_planks","render_method": "opaque"}
+			},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0,
+			"minecraft:liquid_detection": { "detection_rules": [ {
+				"can_contain_liquid": true,
+				"liquid_type": "water",
+				"on_liquid_touches": "blocking"
+			} ] },
+			"minecraft:redstone_conductivity": {
+				"allows_wire_to_step_down": false,
+				"redstone_conductor": false
+			},
+			"minecraft:flammable": { "catch_chance_modifier": 5, "destroy_chance_modifier": 5 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 3.0 },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 3.0 },
+			"minecraft:custom_components": ["mf:update_sided_blocks", "mf:item_table"],
+			"minecraft:map_color": "#ab8b3f"
+		}
+	}
+}

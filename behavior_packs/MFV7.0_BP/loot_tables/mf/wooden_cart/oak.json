@@ -1,0 +1,15 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "medieval:wooden_cart_oak",
+					"weight": 1
+				}
+			]
+		}
+	]
+}
+

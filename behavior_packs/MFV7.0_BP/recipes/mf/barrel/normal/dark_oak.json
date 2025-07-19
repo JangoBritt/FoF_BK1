@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:darkoak_barrel"
+		},
+		"tags": [
+			"medieval:workbench"
+		],
+		"pattern": [
+			"#A#",
+			"#C#",
+			"#A#"
+		],
+		"key": {
+			"#": { "item": "minecraft:dark_oak_planks" },
+			"A": { "item": "minecraft:dark_oak_slab" },
+			"C": { "item": "minecraft:frame" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:darkoak_book" },
+			{ "item": "medieval:workbench" }
+		],
+		"result": {
+			"item": "medieval:darkoak_barrel",
+			"count": 1
+		}
+	}
+}

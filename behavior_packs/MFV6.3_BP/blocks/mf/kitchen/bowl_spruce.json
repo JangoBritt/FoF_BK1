@@ -247,7 +247,7 @@
 			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
 			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
 			"minecraft:custom_components": ["mf:bowl"],
-			"minecraft:map_color": "#91662a"
+			"minecraft:map_color": "#f0efd3"
 		}
 	}
 }

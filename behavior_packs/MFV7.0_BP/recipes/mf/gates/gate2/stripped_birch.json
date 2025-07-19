@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:stripped_birch_gate1"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:stripped_birch_log" } ],
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "minecraft:stripped_birch_log" } ],
+		"result": {
+			"item": "medieval:stripped_birch_gate1",
+			"count": 1
+		}
+	}
+}
