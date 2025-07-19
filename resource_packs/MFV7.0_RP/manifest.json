@@ -4,7 +4,7 @@
         "description": "Medieval Furniture V7.0.0 [BETA] Resource Pack",
         "name": "Medieval Furniture V7.0.0 [BETA] Resource Pack",
         "uuid": "a09917a4-8add-43a6-a9ee-06b2ae33eac1",
-		"version": [ 7, 0, 0 ],
+		"version": [ 7, 0, 1 ],
 		"min_engine_version": [ 1, 21, 70 ]
     },
     "modules": [
@@ -12,13 +12,13 @@
             "description": "resources",
             "type": "resources",
             "uuid": "02ff80dc-9e5a-4233-bccb-f5a3364c539d",
-            "version": [ 7, 0, 0 ]
+            "version": [ 7, 0, 1 ]
         }
     ],
 	"dependencies": [
 		{
 			"uuid": "2b7fc11f-2f1c-43d6-89cd-01c6b6921057",
-			"version": [ 7, 0, 0 ]
+			"version": [ 7, 0, 1 ]
 		}
 	],
 	"metadata": {
