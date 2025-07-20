@@ -114,7 +114,6 @@
 		"record_blank": {"textures": "textures/items/record_blank"},
 
 		"ravager_milk_bucket": {"textures": "textures/items/ravager_milk_bucket"},
-		"ravager_milk_mug_item": {"textures": "textures/items/ravager_milk_mug_item"},
 
 		
 		"coaster_gold_brew": { "textures": "textures/items/coaster_gold_brew" },

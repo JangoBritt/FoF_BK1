@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:bamboo_helmet_stand"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"A",
+			"B",
+			"C"
+		],
+		"key": {
+			"A": { "item": "minecraft:bamboo_mosaic" },
+			"B": { "item": "medieval:stripped_bamboo_post" },
+			"C": { "item": "medieval:stripped_bamboo_mslab" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:bamboo_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:bamboo_helmet_stand",
+			"count": 1
+		}
+	}
+}

@@ -17,12 +17,12 @@
 				"item": "minecraft:paper"
 			},
 			"B": {
-				"item": "fables_misc:ravager_milk_mug_item"
+				"item": "fables_misc:ravager_milk_mug"
 			}
 		},
 		"unlock": [
 			{
-				"item": "fables_misc:ravager_milk_mug_item"
+				"item": "fables_misc:ravager_milk_mug"
 			}
 		],
 		"result": [

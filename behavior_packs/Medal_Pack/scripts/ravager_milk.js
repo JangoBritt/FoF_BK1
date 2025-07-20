@@ -5,7 +5,7 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
     onConsume: eventData => {
       const player = eventData.source;
       const itemUsed = eventData.itemStack;
-      if (itemUsed.typeId === "fables_misc:ravager_milk_mug_item") {
+      if (itemUsed.typeId === "fables_misc:ravager_milk_mug") {
         player.addEffect("strength", 12000, { amplifier: 1, showParticles: true });
         player.addEffect("speed", 12000, { amplifier: 1, showParticles: true });
         player.addEffect("haste", 12000, { amplifier: 1, showParticles: true });

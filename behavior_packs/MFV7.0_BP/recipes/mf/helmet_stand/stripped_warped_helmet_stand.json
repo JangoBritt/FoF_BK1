@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:warped_helmet_stand"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"A",
+			"B",
+			"C"
+		],
+		"key": {
+			"A": { "item": "minecraft:stripped_warped_wood" },
+			"B": { "item": "medieval:stripped_warped_post" },
+			"C": { "item": "medieval:warped_stem_mslab" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:warped_helmet_stand",
+			"count": 1
+		}
+	}
+}
