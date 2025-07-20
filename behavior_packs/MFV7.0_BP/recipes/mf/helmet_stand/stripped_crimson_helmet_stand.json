@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:crimson_helmet_stand"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"A",
+			"B",
+			"C"
+		],
+		"key": {
+			"A": { "item": "minecraft:stripped_crimson_wood" },
+			"B": { "item": "medieval:stripped_crimson_post" },
+			"C": { "item": "medieval:crimson_stem_mslab" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:crimson_helmet_stand",
+			"count": 1
+		}
+	}
+}

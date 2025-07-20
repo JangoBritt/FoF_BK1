@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:birch_helmet_stand"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"A",
+			"B",
+			"C"
+		],
+		"key": {
+			"A": { "item": "minecraft:stripped_birch_wood" },
+			"B": { "item": "medieval:stripped_birch_post" },
+			"C": { "item": "medieval:birch_wood_mslab" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:birch_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:birch_helmet_stand",
+			"count": 1
+		}
+	}
+}

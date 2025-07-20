@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:portcullis_block"
+		},
+		"tags": [
+			"medieval:workbench"
+		],
+		"pattern": [
+			" A ",
+			"AAA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": {
+			"item": "medieval:portcullis_block",
+			"count": 3
+		}
+	}
+}

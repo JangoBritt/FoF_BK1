@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:mangrove_helmet_stand"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"A",
+			"B",
+			"C"
+		],
+		"key": {
+			"A": { "item": "minecraft:stripped_mangrove_wood" },
+			"B": { "item": "medieval:stripped_mangrove_post" },
+			"C": { "item": "medieval:mangrove_wood_mslab" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:mangrove_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:mangrove_helmet_stand",
+			"count": 1
+		}
+	}
+}

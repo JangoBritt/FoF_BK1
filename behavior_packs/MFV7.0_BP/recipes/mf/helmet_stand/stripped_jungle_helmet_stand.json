@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:jungle_helmet_stand"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"A",
+			"B",
+			"C"
+		],
+		"key": {
+			"A": { "item": "minecraft:stripped_jungle_wood" },
+			"B": { "item": "medieval:stripped_jungle_post" },
+			"C": { "item": "medieval:jungle_wood_mslab" }
+		},
+		"unlock": [
+			{ "item": "fables_misc:jungle_book" }, { "item": "medieval:workbench" } ],
+		"result": {
+			"item": "medieval:jungle_helmet_stand",
+			"count": 1
+		}
+	}
+}

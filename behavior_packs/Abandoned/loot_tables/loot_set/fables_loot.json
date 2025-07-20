@@ -136,6 +136,12 @@
             {"type": "item","weight": 50,"name": "farmersdelight:half_tatami_mat","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "farmersdelight:canvas","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "farmersdelight:canvas_rug","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "fables_misc:minimag","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "fables_misc:ravager_milk_mug","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "medieval:beer_mug_empty","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "medieval:beer_mug_fill","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "medieval:wine_bottle","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "medieval:bottle","functions": [{"function": "set_count","count": 1}]},
 
             //paintings
             {"type": "item","weight": 25,"name": "fables_painting:painting_clarity0","functions": [{"function": "set_count","count": 1}]},
