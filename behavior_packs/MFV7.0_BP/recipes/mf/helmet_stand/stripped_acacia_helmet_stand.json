@@ -2,7 +2,7 @@
 	"format_version": "1.21.60",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "medieval:acacia_helmet_stand"
+			"identifier": "medieval:helmet_stand_acacia"
 		},
 		"tags": [ "medieval:workbench" ],
 		"pattern": [
@@ -18,7 +18,7 @@
 		"unlock": [
 			{ "item": "fables_misc:acacia_book" }, { "item": "medieval:workbench" } ],
 		"result": {
-			"item": "medieval:acacia_helmet_stand",
+			"item": "medieval:helmet_stand_acacia",
 			"count": 1
 		}
 	}

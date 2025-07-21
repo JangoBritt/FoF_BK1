@@ -2,7 +2,7 @@
 	"format_version": "1.21.60",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "medieval:spruce_helmet_stand"
+			"identifier": "medieval:helmet_stand_spruce"
 		},
 		"tags": [ "medieval:workbench" ],
 		"pattern": [
@@ -18,7 +18,7 @@
 		"unlock": [
 			{ "item": "fables_misc:spruce_book" }, { "item": "medieval:workbench" } ],
 		"result": {
-			"item": "medieval:spruce_helmet_stand",
+			"item": "medieval:helmet_stand_spruce",
 			"count": 1
 		}
 	}
