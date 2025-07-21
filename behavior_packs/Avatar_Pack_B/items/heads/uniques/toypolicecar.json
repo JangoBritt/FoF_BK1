@@ -8,7 +8,12 @@
             "minecraft:icon": "toypolicecar_item", 
 			"minecraft:entity_placer": {
 				"entity": "fables_avatars:toypolicecar"
-			}
+			},
+			"minecraft:tags": {
+                "tags": [
+                    "fables_avatars:police"
+                ]
+            }
 		}
 	}
 }

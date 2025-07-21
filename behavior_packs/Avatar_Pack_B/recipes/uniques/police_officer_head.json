@@ -13,7 +13,7 @@
 		],
 		"key": {
 			"X": {
-				"item": "fables_avatars:toypolicecar_item"
+				"tag": "fables_avatars:police"
 			},
 			"#": {
 				"item": "minecraft:skull",
@@ -21,7 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "fables_avatars:toypolicecar_item"}
+			{"tag": "fables_avatars:police"}
 		],
 		"result": [
 			{
