@@ -11,7 +11,7 @@
 			"C"
 		],
 		"key": {
-			"A": { "item": "minecraft:stripped_warped_wood" },
+			"A": { "item": "minecraft:stripped_warped_hyphae" },
 			"B": { "item": "medieval:stripped_warped_post" },
 			"C": { "item": "medieval:warped_stem_mslab" }
 		},
