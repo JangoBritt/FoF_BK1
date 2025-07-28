@@ -23,7 +23,7 @@
 			},
             "minecraft:icon": "jangoeye_item",
 			"minecraft:wearable": {
-				"protection": 3,
+				"protection": 4,
 				"slot": "slot.armor.head"
 			},
 			"minecraft:creative_category": {

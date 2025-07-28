@@ -140,7 +140,7 @@ fables:itemGroup.name.concrete_stairs=Concrete Stairs
 
 item.fables_avatars:diving_helmet_mask=Diving Helmet
 item.fables_avatars:mining_helmet=Mining Helmet
-
+item.fables_misc:captain_atlas=Captain Atlas's Hat
 
 tile.fables_misc:ravager_milk_mug.name=Mug of Ravager Milk
 

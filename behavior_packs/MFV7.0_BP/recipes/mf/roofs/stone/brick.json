@@ -2,13 +2,13 @@
 	"format_version": "1.21.60",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "medieval:brick_mslab"
+			"identifier": "medieval:brick_block_mslab"
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:brick_block" } ],
 		"unlock": [ { "item": "minecraft:brick_block" } ],
 		"result": {
-			"item": "medieval:brick_mslab",
+			"item": "medieval:brick_block_mslab",
 			"count": 5
 		}
 	}

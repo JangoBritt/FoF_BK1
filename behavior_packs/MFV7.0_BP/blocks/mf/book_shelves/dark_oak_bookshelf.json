@@ -16,10 +16,10 @@
 			}
 		},
 		"permutations": [
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,0,0]},"tag:m.dark_oak_bookshelf_0_north":{}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0]},"tag:m.dark_oak_bookshelf_0_south":{}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,90,0]},"tag:m.dark_oak_bookshelf_0_west":{}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,270,0]},"tag:m.dark_oak_bookshelf_0_east":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,0,0]},"tag:m.darkoak_bookshelf_0_north":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0]},"tag:m.darkoak_bookshelf_0_south":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,90,0]},"tag:m.darkoak_bookshelf_0_west":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,270,0]},"tag:m.darkoak_bookshelf_0_east":{}}},
 			{"condition": "q.block_state('medieval:items') == 1","components": {
 				"minecraft:geometry": {
 					"identifier": "geometry.mf.bookshelf_0_book_0",
@@ -131,7 +131,7 @@
 				}
 			},
 			"minecraft:material_instances": {
-				"*": {"texture": "mf:dark_oak_bookshelf_0","render_method": "alpha_test"},
+				"*": {"texture": "mf:darkoak_bookshelf_0","render_method": "alpha_test"},
 				"book": {"texture": "mf:book_brown","render_method": "alpha_test"},
 				"potion": {"texture": "mf:potion_bookshelf","render_method": "alpha_test"},
 				"potion_1": {"texture": "mf:potion_bookshelf_1","render_method": "alpha_test"},

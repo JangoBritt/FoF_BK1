@@ -2,7 +2,7 @@
 	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
-			"identifier": "medieval:brick_mslab",
+			"identifier": "medieval:brick_block_mslab",
 			"menu_category": {
 				"category": "construction",
 				"group": "medFur:smallSlabs"

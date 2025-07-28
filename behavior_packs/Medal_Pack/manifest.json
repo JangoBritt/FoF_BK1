@@ -8,14 +8,14 @@
 		"description": "Pack By §6Fables of Folly§r | Misc. Stuff Pack | Check the README for details | Visit §9www.fables-of-folly.com§r",
 		"name": "§aMisc. Pack§r v6.1 [B]",
 		"uuid": "d9560f08-233c-4c1c-9a72-3f5b6ace7d32",
-		"version": [ 6, 1, 14 ],
+		"version": [ 6, 1, 15 ],
 		"min_engine_version": [ 1, 21, 60 ]
 	},
 	"modules": [
 		{
 			"type": "data",
 			"uuid": "a001730f-f08b-4cb2-a8ef-780c73f44c69",
-			"version": [ 6, 1, 14 ]
+			"version": [ 6, 1, 15 ]
 		},
 		{
 			"type": "script",
@@ -28,7 +28,7 @@
 	"dependencies": [
 		{
 			"uuid": "3a71bf5a-e4fc-4cc1-aece-dcd17980a3d9",
-			"version": [ 6, 1, 4 ]
+			"version": [ 6, 1, 15 ]
 		},
 		{
 			"module_name": "@minecraft/server",

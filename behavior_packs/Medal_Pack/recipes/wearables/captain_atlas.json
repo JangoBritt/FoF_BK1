@@ -1,0 +1,39 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fables_misc:captain_atlas"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "LDL",
+      "DAD",
+      "SLS"
+    ],
+    "key": {
+      "A": {
+        "item": "fables_avatars:atlaskes_head_item"
+      },
+      "S": {
+        "item": "minecraft:string"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "unlock": [
+      {
+        "item": "fables_misc:captain_atlas"
+      }
+    ],
+    "result": {
+      "item": "fables_misc:captain_atlas",
+      "count": 1
+    }
+  }
+}
