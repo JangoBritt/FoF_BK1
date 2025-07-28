@@ -2,7 +2,7 @@
 	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
-			"identifier": "medieval:mossy_cobblestone_wall",
+			"identifier": "medieval:mossy_cobblestone_wall_0",
 			"menu_category": {
 				"category": "construction",
 				"group": "medFur:walls"

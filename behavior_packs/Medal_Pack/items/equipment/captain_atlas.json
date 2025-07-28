@@ -2,7 +2,7 @@
 	"format_version":"1.21.0",
   "minecraft:item": {
     "description": {
-      "identifier": "fables_misc:goldglass",
+      "identifier": "fables_misc:captain_atlas",
       "menu_category": {
 				"category": "equipment",
 				"group": "minecraft:itemGroup.name.helmet"
@@ -11,7 +11,7 @@
     "components": {
       "minecraft:icon": {
 				"textures": {
-					"default": "snowier_goldglass"
+					"default": "captain_atlas"
 				}
 			},
       "minecraft:creative_category": {
@@ -78,7 +78,7 @@
           {
             "items": [
               "minecraft:diamond",
-              "fables_misc:goldglass"
+              "fables_misc:captain_atlas"
             ],
             "repair_amount": 10
           }
