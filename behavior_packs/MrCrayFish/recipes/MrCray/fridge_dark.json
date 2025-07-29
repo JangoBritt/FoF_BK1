@@ -5,7 +5,7 @@
 			"identifier": "mr:fridge_dark"
 		},
 		"tags": [
-			"workbench"
+			"medieval:workbench"
 		],
 		"pattern": [
 			"#I#",

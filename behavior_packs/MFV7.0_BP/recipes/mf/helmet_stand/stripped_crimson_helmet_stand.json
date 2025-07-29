@@ -13,7 +13,7 @@
 		"key": {
 			"A": { "item": "minecraft:stripped_crimson_hyphae" },
 			"B": { "item": "medieval:stripped_crimson_post" },
-			"C": { "item": "medieval:crimson_stem_mslab" }
+			"C": { "item": "medieval:crimson_wood_mslab" }
 		},
 		"unlock": [
 			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],

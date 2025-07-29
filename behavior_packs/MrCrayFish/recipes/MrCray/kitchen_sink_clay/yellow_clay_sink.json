@@ -5,7 +5,7 @@
 			"identifier": "mr:yellow_clay_sink_mr"
 		},
 		"tags": [
-			"workbench"
+			"medieval:workbench"
 		],
 		"pattern": [
 			"#I#",

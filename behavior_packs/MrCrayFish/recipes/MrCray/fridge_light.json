@@ -5,7 +5,7 @@
 			"identifier": "mr:fridge_light"
 		},
 		"tags": [
-			"workbench"
+			"medieval:workbench"
 		],
 		"pattern": [
 			"#I#",
