@@ -2,13 +2,13 @@
 	"format_version": "1.21.60",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "medieval:mossy_cobblestone_wall_0"
+			"identifier": "medieval:cobblestone_mossy_walls"
 		},
 		"tags": [ "stonecutter" ],
 		"ingredients": [ { "item": "minecraft:mossy_cobblestone" } ],
 		"unlock": [ { "item": "minecraft:mossy_cobblestone" } ],
 		"result": {
-			"item": "medieval:mossy_cobblestone_wall_0",
+			"item": "medieval:cobblestone_mossy_walls",
 			"count": 5
 		}
 	}
