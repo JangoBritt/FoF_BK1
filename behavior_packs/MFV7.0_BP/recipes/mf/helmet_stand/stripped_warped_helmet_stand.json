@@ -13,7 +13,7 @@
 		"key": {
 			"A": { "item": "minecraft:stripped_warped_hyphae" },
 			"B": { "item": "medieval:stripped_warped_post" },
-			"C": { "item": "medieval:warped_stem_mslab" }
+			"C": { "item": "medieval:warped_wood_mslab" }
 		},
 		"unlock": [
 			{ "item": "fables_misc:nether_book" }, { "item": "medieval:workbench" } ],
