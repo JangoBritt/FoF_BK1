@@ -149,59 +149,59 @@ world.beforeEvents.worldInitialize.subscribe((e) => {
 // 		e.dimension.spawnItem(new ItemStack("minecraft:cookie", quantity), block.center());
 // 	}
 // });
-function UpdateBlockConnection(block) {
-	const states = block.permutation.getAllStates();
-	let prefix = "";
-	if (!block.typeId.includes("fence") && !block.typeId.includes("hedge") && !block.typeId.includes("bars_0")) return;
-	for (const stateName in states) {
-		if (stateName.includes(":n") || stateName.includes(":s") || stateName.includes(":w") || stateName.includes(":e")) {
-			prefix = stateName.split(":")[0];
-			break;
-		}
-	}
-	if (!prefix) return;
-	for (const direction in directions) {
-		const offset = directions[direction];
-		const adjacentBlock = block.offset(offset);
-		const shouldConnect = shouldBlockConnect(adjacentBlock);
-		const stateName = `${prefix}:${direction[0]}`;
+// function UpdateBlockConnection(block) {
+// 	const states = block.permutation.getAllStates();
+// 	let prefix = "";
+// 	if (!block.typeId.includes("fence") && !block.typeId.includes("hedge") && !block.typeId.includes("bars_0")) return;
+// 	for (const stateName in states) {
+// 		if (stateName.includes(":n") || stateName.includes(":s") || stateName.includes(":w") || stateName.includes(":e")) {
+// 			prefix = stateName.split(":")[0];
+// 			break;
+// 		}
+// 	}
+// 	if (!prefix) return;
+// 	for (const direction in directions) {
+// 		const offset = directions[direction];
+// 		const adjacentBlock = block.offset(offset);
+// 		const shouldConnect = shouldBlockConnect(adjacentBlock);
+// 		const stateName = `${prefix}:${direction[0]}`;
 
-		if (stateName in states) {
-			block.setPermutation(block.permutation.withState(stateName, shouldConnect ? 1 : 0));
-		}
-	}
-}
-function updateAdjacentBlocksIfNeeded(block) {
-	try {
-		for (const direction in directions) {
-			const offset = directions[direction];
-			const adjacentBlock = block.offset(offset);
-			UpdateBlockConnection(adjacentBlock);
-		}
-	} catch (error) {}
-}
-world.afterEvents.playerPlaceBlock.subscribe((e) => {
-	const { block } = e;
-	updateAdjacentBlocksIfNeeded(block);
-});
-world.afterEvents.playerBreakBlock.subscribe((e) => {
-	const { block } = e;
-	updateAdjacentBlocksIfNeeded(block);
-});
-world.afterEvents.blockExplode.subscribe((e) => {
-	const { block } = e;
-	updateAdjacentBlocksIfNeeded(block);
-});
-class MfBlockConnection {
-	onPlace(e) {
-		const { block } = e;
-		UpdateBlockConnection(block);
-		updateAdjacentBlocksIfNeeded(block);
-	}
-}
-function shouldBlockConnect(block) {
-	return block.hasTag("is_solid") || block.hasTag("block_conection") ||
-		(solidBlocks.some(connect => block.typeId.includes(connect)) &&
-		!blockException.some(exception => block.typeId.includes(exception)) &&
-		block.typeId.includes("minecraft:"));
-}
+// 		if (stateName in states) {
+// 			block.setPermutation(block.permutation.withState(stateName, shouldConnect ? 1 : 0));
+// 		}
+// 	}
+// }
+// function updateAdjacentBlocksIfNeeded(block) {
+// 	try {
+// 		for (const direction in directions) {
+// 			const offset = directions[direction];
+// 			const adjacentBlock = block.offset(offset);
+// 			UpdateBlockConnection(adjacentBlock);
+// 		}
+// 	} catch (error) {}
+// }
+// world.afterEvents.playerPlaceBlock.subscribe((e) => {
+// 	const { block } = e;
+// 	updateAdjacentBlocksIfNeeded(block);
+// });
+// world.afterEvents.playerBreakBlock.subscribe((e) => {
+// 	const { block } = e;
+// 	updateAdjacentBlocksIfNeeded(block);
+// });
+// world.afterEvents.blockExplode.subscribe((e) => {
+// 	const { block } = e;
+// 	updateAdjacentBlocksIfNeeded(block);
+// });
+// class MfBlockConnection {
+// 	onPlace(e) {
+// 		const { block } = e;
+// 		UpdateBlockConnection(block);
+// 		updateAdjacentBlocksIfNeeded(block);
+// 	}
+// }
+// function shouldBlockConnect(block) {
+// 	return block.hasTag("is_solid") || block.hasTag("block_conection") ||
+// 		(solidBlocks.some(connect => block.typeId.includes(connect)) &&
+// 		!blockException.some(exception => block.typeId.includes(exception)) &&
+// 		block.typeId.includes("minecraft:"));
+// }
