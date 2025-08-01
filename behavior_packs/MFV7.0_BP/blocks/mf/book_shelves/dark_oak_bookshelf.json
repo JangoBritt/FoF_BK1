@@ -131,7 +131,7 @@
 				}
 			},
 			"minecraft:material_instances": {
-				"*": {"texture": "mf:darkoak_bookshelf_0","render_method": "alpha_test"},
+				"*": {"texture": "mf:dark_oak_bookshelf_0","render_method": "alpha_test"},
 				"book": {"texture": "mf:book_brown","render_method": "alpha_test"},
 				"potion": {"texture": "mf:potion_bookshelf","render_method": "alpha_test"},
 				"potion_1": {"texture": "mf:potion_bookshelf_1","render_method": "alpha_test"},
