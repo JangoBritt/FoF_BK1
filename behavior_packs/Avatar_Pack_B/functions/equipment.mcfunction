@@ -13,4 +13,4 @@ execute as @a[hasitem={item=fables_avatars:mining_helmet,location=slot.armor.hea
 
 execute as @a at @s run fill  ~-16 ~-10 ~-16 ~16 ~10 ~16 air replace light_block_9
 execute as @a at @s run fill  ~-16 ~-10 ~-16 ~16 ~10 ~16 air replace light_block_15
-execute as @a[hasitem={item=fables_avatars:mining_helmet,location=slot.armor.head}] at @s run fill  ~ ~1 ~ ~ ~1 ~ light_block_15 replace air
+execute as @a[hasitem={item=fables_avatars:mining_helmet,location=slot.armor.head}] unless entity @s[hasitem={item=firework_rocket,location=slot.weapon.mainhand}] at @s run fill  ~ ~1 ~ ~ ~1 ~ light_block_15 replace air
