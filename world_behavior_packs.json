@@ -55,10 +55,10 @@
 	},
 		
 
-	{
-		"pack_id" : "3a36b38b-3e54-4cb4-b99d-139e1c275901",  //Mailboxes
-		"version" : [ 1, 2, 2 ]
-	},
+	// {
+	// 	"pack_id" : "3a36b38b-3e54-4cb4-b99d-139e1c275901",  //Mailboxes
+	// 	"version" : [ 1, 2, 2 ]
+	// },
 	{
 		"pack_id" : "95cc40f0-999b-49b8-8311-c8aaaa887ed6", //MrCrayFish Furniture
 		"version" : [ 1, 2, 82 ]
