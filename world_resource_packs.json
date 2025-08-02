@@ -1,11 +1,6 @@
 
 [
 	{
-		"pack_id" : "883172a3-6049-4c62-8d26-fc17395b1095", //Alycia's Avancements
-		"version" : [ 2, 3, 0 ]
-	},
-	
-	{
 		"pack_id" : "98836a6c-fe16-60f4-87a4-5afb6439bd9f", //Farmers' Delight
 		"version" : [ 3, 2, 1 ]
 	},
@@ -58,10 +53,10 @@
 		"version" : [ 6, 4, 4 ]
 	},
 	
-	{
-		"pack_id" : "9a4bc60d-9e2e-4638-b93b-9b354bb6c64b", //Mailboxes
-		"version" : [ 1, 2, 3	 ]
-	},
+	// {
+	// 	"pack_id" : "9a4bc60d-9e2e-4638-b93b-9b354bb6c64b", //Mailboxes
+	// 	"version" : [ 1, 2, 3	 ]
+	// },
 	
 	{
 		"pack_id" : "43120e01-773d-4667-a1cd-fb5d6fb84543", //Fables Glass Pack
