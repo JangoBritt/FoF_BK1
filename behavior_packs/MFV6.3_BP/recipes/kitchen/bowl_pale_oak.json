@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "medieval:pale_oak_bowl0"
 		},
-		"tags": [ "workbench" ],
+		"tags": [ "medieval:workbench" ],
 		"pattern": [
 			"ABA",
 			" A "

@@ -5,7 +5,7 @@
       "identifier": "nicothekid:craft_x_jack_o_soul_lantern"
     },
     "priority": 1,
-    "tags": [ "workbench" ],
+    "tags": [ "medieval:workbench" ],
     "pattern": [
       "P",
       "T"

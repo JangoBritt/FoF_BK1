@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "fables_misc:prismarine_wall_0"
 		},
-		"tags": [ "workbench" ],
+		"tags": [ "medieval:workbench" ],
 		"pattern": [
 			"#",
 			"#",

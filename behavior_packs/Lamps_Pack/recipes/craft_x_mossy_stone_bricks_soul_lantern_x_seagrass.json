@@ -5,7 +5,7 @@
       "identifier": "nicothekid:craft_x_mossy_stone_bricks_soul_lantern_x_seagrass"
     },
     "priority": 4,
-    "tags": [ "workbench" ],
+    "tags": [ "medieval:workbench" ],
     "pattern": [
       "LS",
       "S "

@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "medieval:warped_bowl0"
 		},
-		"tags": [ "workbench" ],
+		"tags": [ "medieval:workbench" ],
 		"pattern": [
 			"ABA",
 			" A "
