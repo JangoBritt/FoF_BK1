@@ -1,5 +1,5 @@
 /**
- * TPS (Ticks Per Second) @version 1.1.0 - BedrockBridge Plugin
+ * TPS (Ticks Per Second) @version 1.1.1 - BedrockBridge Plugin
  * 
  * This bridge-addon adds a useful command to check TPS.
  * 
@@ -150,8 +150,10 @@ let last_report = system.currentTick;
 function report(){
     const current = system.currentTick
     if (discord_report_enabled && bridgeDirect.ready && current - last_report > discord_delay){
+        const players = world.getAllPlayers()
+        if (players.length>0) {  // if no player is online, no notification is sent
         const message = `A TPS drop has been detected on your server!\n\n- TPS: \`${Math.round(counters[types.tps])}\`\n- Entities: \`${counters[types.players] + counters[types.items] + counters[types.mobs]}\`\n- Players: ` + 
-                        world.getAllPlayers().map(player => `\`${player.name}\` (${player.dimension.getEntities({ maxDistance: 64, location: player.location }).length})`).join(", ")
+                players.map(player => `\`${player.name}\` (${player.dimension.getEntities({ maxDistance: 64, location: player.location }).length})`).join(", ")
         bridgeDirect.sendEmbed({
             title: "TPS Drop",
             description: message,
@@ -159,6 +161,7 @@ function report(){
         })
 
         last_report = current;
+        }        
     }
 }
 
