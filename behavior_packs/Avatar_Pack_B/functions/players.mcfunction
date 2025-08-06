@@ -19,3 +19,5 @@ give @s[name="StarryRose1362"] fables_avatars:starryrose_head_item
 give @s[name="FiremanKing 316"] fables_avatars:firemanking_316_head_item
 give @s[name="MrsDelFuego"] fables_avatars:mrsdelfuego_head_item
 give @s[name="Tamalin44"] fables_avatars:tamalin44_head_item
+
+give @s[name="GarthCP"] fables_avatars:garthcp_head_item

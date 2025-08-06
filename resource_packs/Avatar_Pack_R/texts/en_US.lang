@@ -568,3 +568,10 @@ entity.fables_avatars:citizen1_head.name=Citizen 1's Head
 item.fables_avatars:citizen1_avatar_item=Citizen 1's  Avatar
 item.fables_avatars:citizen1_head_item=Citizen 1's  Head
 item.fables_avatars:citizen1_mask=Citizen 1's  Mask
+
+action.hint.exit.fables_avatars:garthcp_head=Jump to Exit
+entity.fables_avatars:garthcp_avatar.name=GarthCP's Avatar
+entity.fables_avatars:garthcp_head.name=GarthCP's Head
+item.fables_avatars:garthcp_avatar_item=GarthCP's  Avatar
+item.fables_avatars:garthcp_head_item=GarthCP's  Head
+item.fables_avatars:garthcp_mask=GarthCP's  Mask
