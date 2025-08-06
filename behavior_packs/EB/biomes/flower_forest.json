@@ -3,7 +3,7 @@
 	"format_version": "1.13.0",
 	"minecraft:biome": {
 		"description": {
-			"identifier": "flower_forest"
+			"identifier": "minecraft:flower_forest"
 		},
 		"components": {
 			"minecraft:climate": {

@@ -3,7 +3,7 @@
 	"format_version": "1.13.0",
 	"minecraft:biome": {
 		"description": {
-			"identifier": "jungle"
+			"identifier": "minecraft:jungle"
 		},
 		"components": {
 			"minecraft:climate": {

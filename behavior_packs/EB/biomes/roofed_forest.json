@@ -3,7 +3,7 @@
 	"format_version": "1.13.0",
 	"minecraft:biome": {
 		"description": {
-			"identifier": "roofed_forest"
+			"identifier": "minecraft:roofed_forest"
 		},
 		"components": {
 			"minecraft:climate": {
