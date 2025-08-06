@@ -5,7 +5,7 @@
       "identifier": "nicothekid:craft_x_amethyst_lamp"
     },
     "priority": 1,
-    "tags": [ "workbench" ],
+    "tags": [ "medieval:workbench" ],
     "pattern": [
       " A ",
       "ABA",

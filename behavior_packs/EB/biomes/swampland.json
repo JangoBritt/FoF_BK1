@@ -3,7 +3,7 @@
 	"format_version": "1.13.0",
 	"minecraft:biome": {
 		"description": {
-			"identifier": "swampland"
+			"identifier": "minecraft:swampland"
 		},
 		"components": {
 			"minecraft:climate": {
@@ -17,13 +17,16 @@
 			"minecraft:overworld_height": {
 				"noise_type": "swamp"
 			},
-			"minecraft:surface_parameters": {
-				"sea_floor_depth": 3,
-				"sea_floor_material": "minecraft:gravel",
-				"foundation_material": "minecraft:stone",
-				"mid_material": "minecraft:dirt",
-				"top_material": "minecraft:grass",
-				"sea_material": "minecraft:water"
+			"minecraft:surface_builder": {
+				"builder": {
+					"type": "minecraft:overworld",
+					"sea_floor_depth": 3,
+					"sea_floor_material": "minecraft:gravel",
+					"foundation_material": "minecraft:stone",
+					"mid_material": "minecraft:dirt",
+					"top_material": "minecraft:grass",
+					"sea_material": "minecraft:water"
+				}
 			},
 			"minecraft:surface_material_adjustments": {
 				"adjustments": [
@@ -67,7 +70,7 @@
 				]
 			},
 			"minecraft:overworld_generation_rules": {
-				"mutate_transformation": "swampland_mutated",
+				"mutate_transformation": "minecraft:swampland_mutated",
 				"generate_for_climates": [
 					[
 						"medium",

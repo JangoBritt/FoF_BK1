@@ -4,6 +4,111 @@
 		"$new_container_title|default": "$container_title",
 		"text": "$new_container_title"
 	},
+	"inventory_9_container_panel": {
+		"type": "panel",
+		"size": ["100%",102],
+		"offset": [0,11],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{"chest_label@chest.chest_label": {}},
+			{
+				"scrolling_panel@common.container_scroll_panel": {
+					"offset": [0, -25],
+					"size": [166,20],
+					"$scrolling_content|default": "chest.custom_container_grid"
+				}
+			}
+		]
+	},
+	"inventory_9_root_panel@small_root_panel": {
+		"size": [190,150],
+		"$chest_panel": "chest.inventory_9_container_panel",
+		"$backg|default": "common.dialog_background_opaque"
+	},
+	//--------------------------------------------------------------------------//
+	//----------------------------------18 SLOTS--------------------------------//
+	"inventory_18_container_panel": {
+		"type": "panel",
+		"size": ["100%",102],
+		"offset": [0,11],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{"chest_label@chest.chest_label": {}},
+			{
+				"scrolling_panel@common.container_scroll_panel": {
+					"offset": [0, -18],
+					"size": [166,38],
+					"$scrolling_content|default": "chest.custom_container_grid"
+				}
+			}
+		]
+	},
+	"inventory_18_root_panel@small_root_panel": {
+		"size": [190,165],
+		"$chest_panel": "chest.inventory_18_container_panel",
+		"$backg|default": "common.dialog_background_opaque"
+	},
+	//--------------------------------------------------------------------------//
+	//----------------------------------27 SLOTS--------------------------------//
+	"inventory_27_container_panel": {
+		"type": "panel",
+		"size": ["100%",102],
+		"offset": [0,11],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{"chest_label@chest.chest_label": {}},
+			{
+				"scrolling_panel@common.container_scroll_panel": {
+					"offset": [0, -11],
+					"size": [166,56],
+					"$scrolling_content|default": "chest.custom_container_grid"
+				}
+			}
+		]
+	},
+	"inventory_27_root_panel@small_root_panel": {
+		"size": [190,180],
+		"$chest_panel": "chest.inventory_27_container_panel",
+		"$backg|default": "common.dialog_background_opaque"
+	},
+	//--------------------------------------------------------------------------//
+	//----------------------------------54 SLOTS--------------------------------//
+	"inventory_54_container_panel": {
+		"type": "panel",
+		"size": ["100%",102],
+		"offset": [0,11],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{"chest_label@chest.chest_label": {}},
+			{
+				"scrolling_panel@common.container_scroll_panel": {
+					"offset": [0, 20],
+					"size": [167,111],
+					"$scrolling_content|default": "chest.custom_container_grid"
+				}
+			}
+		]
+	},
+	"inventory_54_root_panel@small_root_panel": {
+		"size": [190,240],
+		"$chest_panel": "chest.inventory_54_container_panel",
+		"$backg|default": "common.dialog_background_opaque"
+	},
+
+	//--------------------------------------------------------------------------//
+	"custom_container_grid@common.container_grid": {
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"layer": 3,
+		"grid_item_template": "@common.container_item",
+		"collection_name": "container_items",
+		"$item_collection_name": "container_items"
+	},
+	
 	//--------------------------------------------------------------------------//
 	"small_chest_grid": {
 		"type": "grid",
