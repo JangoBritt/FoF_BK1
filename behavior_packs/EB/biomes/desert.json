@@ -29,8 +29,8 @@
 				}
 			},
 			"minecraft:overworld_generation_rules": {
-				"hills_transformation": "desert_hills",
-				"mutate_transformation": "desert_mutated",
+				"hills_transformation": "minecraft:desert_hills",
+				"mutate_transformation": "minecraft:desert_mutated",
 				"generate_for_climates": [
 					[
 						"warm",

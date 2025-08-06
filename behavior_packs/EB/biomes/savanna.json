@@ -29,8 +29,8 @@
 				}
 			},
 			"minecraft:overworld_generation_rules": {
-				"hills_transformation": "savanna_plateau",
-				"mutate_transformation": "savanna_mutated",
+				"hills_transformation": "minecraft:savanna_plateau",
+				"mutate_transformation": "minecraft:savanna_mutated",
 				"generate_for_climates": [
 					[
 						"warm",

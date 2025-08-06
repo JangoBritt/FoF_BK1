@@ -70,7 +70,7 @@
 				]
 			},
 			"minecraft:overworld_generation_rules": {
-				"mutate_transformation": "swampland_mutated",
+				"mutate_transformation": "minecraft:swampland_mutated",
 				"generate_for_climates": [
 					[
 						"medium",

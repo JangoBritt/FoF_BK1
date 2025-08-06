@@ -55,8 +55,8 @@
 				]
 			},
 			"minecraft:overworld_generation_rules": {
-				"hills_transformation": "roofed_forest_mutated",
-				"mutate_transformation": "roofed_forest_mutated",
+				"hills_transformation": "minecraft:roofed_forest_mutated",
+				"mutate_transformation": "minecraft:roofed_forest_mutated",
 				"generate_for_climates": [
 					[
 						"medium",

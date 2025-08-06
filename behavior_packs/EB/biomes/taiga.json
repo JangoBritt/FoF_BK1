@@ -46,7 +46,7 @@
 					]
 				],
 				"shore_transformation": [
-					"stone_beach"
+					"minecraft:stone_beach"
 				]
 			},
 			"minecraft:surface_material_adjustments": {

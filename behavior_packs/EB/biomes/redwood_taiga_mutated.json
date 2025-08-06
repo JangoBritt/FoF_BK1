@@ -33,7 +33,7 @@
 					]
 				],
 				"hills_transformation": [
-					"redwood_taiga_hills_mutated"
+					"minecraft:redwood_taiga_hills_mutated"
 				]
 			},
 			"minecraft:overworld_height": {

@@ -43,10 +43,10 @@
 					]
 				],
 				"hills_transformation": [
-					"forest_hills"
+					"minecraft:forest_hills"
 				],
 				"mutate_transformation": [
-					"forest_hills"
+					"minecraft:forest_hills"
 				]
 			},
 			"minecraft:surface_material_adjustments": {

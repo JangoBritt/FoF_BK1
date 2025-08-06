@@ -29,8 +29,8 @@
 				}
 			},
 			"minecraft:overworld_generation_rules": {
-				"hills_transformation": "jungle_hills",
-				"mutate_transformation": "jungle_mutated",
+				"hills_transformation": "minecraft:jungle_hills",
+				"mutate_transformation": "minecraft:jungle_mutated",
 				"generate_for_climates": [
 					[
 						"medium",
