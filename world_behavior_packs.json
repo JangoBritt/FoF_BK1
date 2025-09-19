@@ -98,7 +98,7 @@
 	},
 	{
 		"pack_id" : "10001000-1223-1111-1111-a000a000a000", //Lamps & Lanterns
-		"version" : [ 1, 9, 10 ]
+		"version" : [ 1, 9, 11 ]
 	},
 
 
@@ -109,12 +109,12 @@
 	
 	{
 		"pack_id" : "d9560f08-233c-4c1c-9a72-3f5b6ace7d32", //FoF Medals
-		"version" : [ 6, 1, 15 ]
+		"version" : [ 6, 1, 16 ]
 	},
 	
 	{
 		"pack_id" : "25f31836-beb8-4f79-85f1-b3377e01ff07", //FoF Golems
-		"version" : [ 6, 1, 1 ]
+		"version" : [ 6, 1, 2 ]
 	},
 	
 	{

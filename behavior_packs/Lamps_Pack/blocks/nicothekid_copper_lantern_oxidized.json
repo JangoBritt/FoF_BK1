@@ -14,7 +14,7 @@
 			}
     },
     "components": {
-      "minecraft:display_name": "Oxidized Copper Lantern",
+      //"minecraft:display_name": "Oxidized Large Copper Lantern",
       "minecraft:material_instances": {
         "*": {
           "texture": "nicothekid_copper_lantern_oxidized",
