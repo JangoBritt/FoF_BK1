@@ -84,17 +84,17 @@
 	
 	{
 		"pack_id" : "20002000-1223-2222-2222-b000b000b000", //Lamps & Lanterns
-		"version" : [ 1, 9, 10 ]
+		"version" : [ 1, 9, 11 ]
 	},
 	
 	{
 		"pack_id" : "3a0fc7bb-4703-47fb-935f-bd6a1d9cac09", //Fables Golems Pack
-		"version" : [ 6, 1, 1 ]
+		"version" : [ 6, 1, 2 ]
 	},
 	
 	{
 		"pack_id" : "3a71bf5a-e4fc-4cc1-aece-dcd17980a3d9", //Fables Medals Pack
-		"version" : [ 6, 1, 15 ]
+		"version" : [ 6, 1, 16 ]
 	},
 	
 	{

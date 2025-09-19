@@ -31,7 +31,7 @@ function arrowheadUtil(entity, oldItemStack, slot, container) {
 //检查热源  自定义热源可以使用farmersdelight:heat_source的tag进行定义
 function heatCheck(block) {
     const blockBelow = block.below();
-    if (heatSources.includes(blockBelow?.typeId) || blockBelow?.hasTag('farmersdelight:heat_source') || blockBelow?.hasTag('m.stove_on')) //FoF
+    if (heatSources.includes(blockBelow?.typeId) || blockBelow?.hasTag('farmersdelight:heat_source') || blockBelow?.hasTag('medieval:stove_on')) //FoF
         return true;
     if (heatConductors.includes(blockBelow?.typeId) || blockBelow?.hasTag('farmersdelight:heat_conductors')) {
         const blockBelow2 = block.below(2);
