@@ -1453,15 +1453,15 @@ tile.medieval:pot_1.name=Pot #1
 tile.medieval:pot_2.name=Pot
 tile.medieval:pot_3.name=Pot #2
 
-tile.medieval:copper_bars_0.name=Copper Bars
-tile.medieval:diamond_bars_0.name=Diamond Bars
-tile.medieval:emerald_bars_0.name=Emerald Bars
-tile.medieval:exposed_copper_bars_0.name=Exposed Copper Bars
-tile.medieval:gold_bars_0.name=Gold Bars
-tile.medieval:iron_bars_0.name=Iron Bars
-tile.medieval:netherite_bars_0.name=Netherite Bars
-tile.medieval:oxidized_copper_bars_0.name=Oxidized Copper Bars
-tile.medieval:weathered_copper_bars_0.name=Weathered Copper Bars
+tile.medieval:copper_bars_0.name=Large Copper Bars
+tile.medieval:diamond_bars_0.name=Large Diamond Bars
+tile.medieval:emerald_bars_0.name=Large Emerald Bars
+tile.medieval:exposed_copper_bars_0.name=Exposed Large Copper Bars
+tile.medieval:gold_bars_0.name=Large Gold Bars
+tile.medieval:iron_bars_0.name=Large Iron Bars
+tile.medieval:netherite_bars_0.name=Large Netherite Bars
+tile.medieval:oxidized_copper_bars_0.name=Oxidized Large Copper Bars
+tile.medieval:weathered_copper_bars_0.name=Weathered Large Copper Bars
 tile.medieval:copper_chandelier.name=Copper Chandelier
 tile.medieval:diamond_chandelier.name=Diamond Chandelier
 tile.medieval:emerald_chandelier.name=Emerald Chandelier
@@ -1862,11 +1862,11 @@ tile.medieval:iron_candleholder.name=Iron Candleholder
 tile.medieval:gold_candleholder.name=Gold Candleholder
 tile.medieval:netherite_candleholder.name=Netherite Candleholder
 
-tile.medieval:diamond_chain_0.name=Diamond Chain
-tile.medieval:emerald_chain_0.name=Emerald Chain
-tile.medieval:iron_chain_0.name=Iron Chain
-tile.medieval:gold_chain_0.name=Gold Chain
-tile.medieval:netherite_chain_0.name=Netherite Chain
+tile.medieval:diamond_chain_0.name=Large Diamond Chain
+tile.medieval:emerald_chain_0.name=Large Emerald Chain
+tile.medieval:iron_chain_0.name=Large Iron Chain
+tile.medieval:gold_chain_0.name=Large Gold Chain
+tile.medieval:netherite_chain_0.name=Large Netherite Chain
 
 tile.medieval:stacked_acacia_log.name=Stacked Acacia Logs
 tile.medieval:stacked_birch_log.name=Stacked Birch Logs
@@ -1943,7 +1943,7 @@ tile.medieval:red_pot_3.name=Red Pot #2
 tile.medieval:white_pot_3.name=White Pot #2
 tile.medieval:yellow_pot_3.name=Yellow Pot #2
 tile.medieval:copper_candleholder.name=Copper Candleholder
-tile.medieval:copper_chain_0.name=Copper Chain
+tile.medieval:copper_chain_0.name=Large Copper Chain
 
 tile.medieval:stove.name=Stove
 ##### WOODEN CART
