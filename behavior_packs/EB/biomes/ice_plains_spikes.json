@@ -1,6 +1,6 @@
 //bridge-file-version: #62
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:ice_plains_spikes"
@@ -69,13 +69,17 @@
 					}
 				]
 			},
-			"frozen": {},
-			"monster": {},
-			"overworld": {},
-			"mutated": {},
-			"ice_plains": {},
-			"frozen_forest": {},
-			"animal": {}
+			"minecraft:tags": {
+				"tags": [
+					"frozen",
+					"monster",
+					"overworld",
+					"mutated",
+					"ice_plains",
+					"frozen_forest",
+					"animal"
+				]
+			}
 		}
 	}
 }

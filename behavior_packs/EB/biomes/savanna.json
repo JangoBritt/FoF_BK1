@@ -1,6 +1,6 @@
 //bridge-file-version: #58
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:savanna"
@@ -38,15 +38,19 @@
 					]
 				]
 			},
-			"animal": {},
-			"monster": {},
-			"overworld": {},
-			"savanna": {},
-			"spawn_ferns": {},
-			"spawn_grass": {},
-			"spawn_dead_bushes": {},
-			"double_grass": {},
-			"lots_of_grass": {}
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"monster",
+					"overworld",
+					"savanna",
+					"spawn_ferns",
+					"spawn_grass",
+					"spawn_dead_bushes",
+					"double_grass",
+					"lots_of_grass"
+				]
+			}
 		}
 	}
 }

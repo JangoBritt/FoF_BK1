@@ -1,6 +1,6 @@
 //bridge-file-version: #61
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:desert"
@@ -64,13 +64,17 @@
 					}
 				]
 			},
-			"desert": {},
-			"monster": {},
-			"overworld": {},
-			"lush_desert": {},
-			"dune": {},
-			"spawn_dead_bushes": {},
-			"spawn_tall_cactus": {}
+			"minecraft:tags": {
+				"tags": [
+					"desert",
+					"monster",
+					"overworld",
+					"lush_desert",
+					"dune",
+					"spawn_dead_bushes",
+					"spawn_tall_cactus"
+				]
+			}
 		}
 	}
 }

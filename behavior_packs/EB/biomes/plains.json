@@ -1,6 +1,6 @@
 //bridge-file-version: #57
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:plains"
@@ -62,16 +62,20 @@
 				"target_weirdness": 0,
 				"weight": 0.4
 			},
-			"animal": {},
-			"monster": {},
-			"overworld": {},
-			"prairie": {},
-			"spawn_flowers": {},
-			"spawn_horses": {},
-			"lots_of_grass": {},
-			"spawn_sweet_berries": {},
-			"lots_of_double_grass": {},
-			"plains": {}
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"monster",
+					"overworld",
+					"prairie",
+					"spawn_flowers",
+					"spawn_horses",
+					"lots_of_grass",
+					"spawn_sweet_berries",
+					"lots_of_double_grass",
+					"plains"
+				]
+			}
 		}
 	}
 }

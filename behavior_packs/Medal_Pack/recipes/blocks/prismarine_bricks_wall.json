@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fables_misc:prismarine_bricks_wall_0"
+		},
+		"tags": [ "medieval:workbench" ],
+		"pattern": [
+			"#",
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:prismarine",
+				"data": 2
+		}
+    },
+		"unlock": [
+			{"item": "minecraft:prismarine_bricks"}
+		],
+    "result": {
+			"item": "fables_misc:prismarine_bricks_wall_0",
+			"count": 12
+		}
+	}
+}

@@ -1,6 +1,6 @@
 //bridge-file-version: #89
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:jungle"
@@ -72,16 +72,20 @@
 					}
 				]
 			},
-			"animal": {},
-			"monster": {},
-			"overworld": {},
-			"rare": {},
-			"ferns": {},
-			"jungle": {},
-			"lots_of_bamboo": {},
-			"spawn_boulders": {},
-			"lots_of_tinder_mushrooms": {},
-			"lots_of_double_grass": {}
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"monster",
+					"overworld",
+					"rare",
+					"ferns",
+					"jungle",
+					"lots_of_bamboo",
+					"spawn_boulders",
+					"lots_of_tinder_mushrooms",
+					"lots_of_double_grass"
+				]
+			}
 		}
 	}
 }

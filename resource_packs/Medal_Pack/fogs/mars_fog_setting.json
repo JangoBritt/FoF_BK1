@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.100",
+  "format_version": "1.19.50",
   "minecraft:fog_settings": {
     "description": {
       "identifier": "fof_mars:fog_mars"
@@ -12,15 +12,15 @@
         "render_distance_type": "fixed"
       },
       "water": {
-        "fog_start": 0.0,
-        "fog_end": 15.0,
-        "fog_color": "#9c4b2e",
+        "fog_start": 1000.0,
+        "fog_end": 2000.0,
+        "fog_color": "#ffffff",
         "render_distance_type": "fixed",
         "transition_fog": {
           "init_fog": {
-            "fog_start": 0.0,
-            "fog_end": 0.01,
-            "fog_color": "#9c4b2e",
+            "fog_start": 1000.0,
+            "fog_end": 2000.0,
+            "fog_color": "#ffffff",
             "render_distance_type": "fixed"
           },
           "min_percent": 0.25,
@@ -34,6 +34,29 @@
         "fog_end": 96.0,
         "fog_color": "#9c4b2e",
         "render_distance_type": "fixed"
+      }
+    },
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.015,
+          "zero_density_height": 300.0,
+          "max_density_height": 50.0
+        },
+        "water": {
+          "max_density": 0.0,
+          "uniform": true
+        }
+      },
+      "media_coefficients": {
+        "air": {
+          "scattering": [0.06, 0.03, 0.02],
+          "absorption": [0.2, 0.1, 0.08]
+        },
+        "water": {
+          "scattering": [0.0, 0.0, 0.0],
+          "absorption": [0.0, 0.0, 0.0]
+        }
       }
     }
   }

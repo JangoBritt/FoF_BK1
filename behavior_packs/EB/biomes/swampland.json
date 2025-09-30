@@ -1,6 +1,6 @@
 //bridge-file-version: #114
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:swampland"
@@ -78,12 +78,16 @@
 					]
 				]
 			},
-			"animal": {},
-			"bog": {},
-			"overworld": {},
-			"spawn_cattails": {},
-			"spawn_fireflies": {},
-			"swamp": {}
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"bog",
+					"overworld",
+					"spawn_cattails",
+					"spawn_fireflies",
+					"swamp"
+				]
+			}
 		}
 	}
 }

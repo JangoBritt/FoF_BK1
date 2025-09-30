@@ -1,6 +1,6 @@
 //bridge-file-version: #2
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:cherry_grove"
@@ -26,14 +26,18 @@
 					"enabled": false
 				}
 			},
-			"animal": {},
-			"mountains": {},
-			"monster": {},
-			"overworld": {},
-			"cherry_grove": {},
-			"bee_habitat": {},
-			"spawn_flowers": {},
-			"spawn_bamboo": {}
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"mountains",
+					"monster",
+					"overworld",
+					"cherry_grove",
+					"bee_habitat",
+					"spawn_flowers",
+					"spawn_bamboo"
+				]
+			}
 		}
 	}
 }

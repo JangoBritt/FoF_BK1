@@ -1,5 +1,5 @@
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:stony_peaks"
@@ -7,8 +7,8 @@
 		"components": {
 			"minecraft:climate": {
 				"downfall": 0.3,
-				"temperature": 1,
-				"ash": 0.1
+        		"snow_accumulation": [ 0.0, 0.125 ],
+				"temperature": 1
 			},
 			"minecraft:mountain_parameters": {
 				"steep_material_adjustment": {
@@ -57,10 +57,14 @@
 					}
 				]
 			},
-			"mountains": {},
-			"monster": {},
-			"overworld": {},
-			"spawn_sulfur": {}
+			"minecraft:tags": {
+				"tags": [
+					"mountains",
+					"monster",
+					"overworld",
+					"spawn_sulfur"
+				]
+			}
 		}
 	}
 }
