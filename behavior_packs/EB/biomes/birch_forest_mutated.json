@@ -1,5 +1,5 @@
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:birch_forest_mutated"
@@ -42,21 +42,25 @@
 					]
 				]
 			},
-			"animal": {},
-			"monster": {},
-			"overworld": {},
-			"bee_habitat": {},
-			"spawn_deer": {},
-			"aspen": {},
-			"spawn_grass": {},
-			"tons_of_flowers": {},
-			"spawn_raccoons": {},
-			"double_grass": {},
-			"spawn_black_bears": {},
-			"spawn_grizzly_bears": {},
-			"spawn_ferns": {},
-			"spawn_few_tinder_mushrooms": {},
-			"spawn_dandelions": {}
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"monster",
+					"overworld",
+					"bee_habitat",
+					"spawn_deer",
+					"aspen",
+					"spawn_grass",
+					"tons_of_flowers",
+					"spawn_raccoons",
+					"double_grass",
+					"spawn_black_bears",
+					"spawn_grizzly_bears",
+					"spawn_ferns",
+					"spawn_few_tinder_mushrooms",
+					"spawn_dandelions"
+				]
+			}
 		}
 	}
 }

@@ -1,6 +1,6 @@
 //bridge-file-version: #19
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:beach"
@@ -17,7 +17,6 @@
 			"minecraft:overworld_height": {
 				"noise_type": "beach"
 			},
-
 			"minecraft:surface_builder": {
 				"builder": {
 					"type": "minecraft:overworld",
@@ -43,11 +42,15 @@
 					}
 				]
 			},
-			"monster": {},
-			"overworld": {},
-			"warm": {},
-			"tropical": {},
-			"beach": {}
+			"minecraft:tags": {
+				"tags": [
+					"monster",
+					"overworld",
+					"warm",
+					"tropical",
+					"beach"
+				]
+			}
 		}
 	}
 }

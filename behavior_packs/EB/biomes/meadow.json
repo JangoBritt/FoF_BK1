@@ -1,6 +1,6 @@
 //bridge-file-version: #5
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:meadow"
@@ -62,12 +62,16 @@
 					]
 				]
 			},
-			"animal": {},
-			"monster": {},
-			"overworld": {},
-			"spawn_raccoons": {},
-			"spawn_deer": {},
-			"spawn_dead_bushes": {}
+			"minecraft:tags": {
+  				"tags": [
+					"animal",
+					"monster",
+					"overworld",
+					"spawn_raccoons",
+					"spawn_deer",
+					"spawn_dead_bushes"
+				]
+			}
 		}
 	}
 }

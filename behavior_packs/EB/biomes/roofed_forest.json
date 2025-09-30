@@ -1,6 +1,6 @@
 //bridge-file-version: #92
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:roofed_forest"
@@ -64,21 +64,25 @@
 					]
 				]
 			},
-			"animal": {},
-			"monster": {},
-			"overworld": {},
-			"mystic_forest": {},
-			"spawn_ferns": {},
-			"lots_of_grass": {},
-			"spawn_oak_bushes": {},
-			"spawn_flowers": {},
-			"spawn_boulders": {},
-			"spawn_spore_blossoms": {},
-			"spawn_fireflies": {},
-			"spawn_raccoons": {},
-			"spawn_deer": {},
-			"spawn_black_bears": {},
-			"spawn_grizzly_bears": {}
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"monster",
+					"overworld",
+					"mystic_forest",
+					"spawn_ferns",
+					"lots_of_grass",
+					"spawn_oak_bushes",
+					"spawn_flowers",
+					"spawn_boulders",
+					"spawn_spore_blossoms",
+					"spawn_fireflies",
+					"spawn_raccoons",
+					"spawn_deer",
+					"spawn_black_bears",
+					"spawn_grizzly_bears"
+				]
+			}
 		}
 	}
 }

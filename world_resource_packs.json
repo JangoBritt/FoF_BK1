@@ -129,6 +129,10 @@
 		"version": [ 4, 0, 2 ]
 	},
 	{
+		"pack_id": "00ade240-7979-614f-d904-508bcfcfd270", //Peepss Backpacks
+		"version": [ 2, 0, 0 ]
+	},
+	{
 		"pack_id": "d6cbef3b-9999-4c7d-a8f8-3b8b3fe03ee1", //Gauntlets
 		"version": [1, 0, 0]
 	}//,

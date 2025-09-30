@@ -1,6 +1,6 @@
 //bridge-file-version: #41
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:birch_forest"
@@ -36,19 +36,23 @@
 			"minecraft:overworld_height": {
 				"noise_type": "default"
 			},
-			"animal": {},
-			"monster": {},
-			"overworld": {},
-			"pendula": {},
-			"spawn_raccoons": {},
-			"spawn_deer": {},
-			"lots_of_grass": {},
-			"bee_habitat": {},
-			"spawn_flowers": {},
-			"tons_of_flowers": {},
-			"birch": {},
-			"flower_forest": {},
-			"spawn_daisy_petals": {}
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"monster",
+					"overworld",
+					"pendula",
+					"spawn_raccoons",
+					"spawn_deer",
+					"lots_of_grass",
+					"bee_habitat",
+					"spawn_flowers",
+					"tons_of_flowers",
+					"birch",
+					"flower_forest",
+					"spawn_daisy_petals"
+				]
+			}
 		}
 	}
 }

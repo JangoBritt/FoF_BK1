@@ -1,6 +1,6 @@
 //bridge-file-version: #26
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:flower_forest"
@@ -43,13 +43,17 @@
 					]
 				]
 			},
-			"animal": {},
-			"monster": {},
-			"overworld": {},
-			"bee_habitat": {},
-			"lavender_grove": {},
-			"double_grass": {},
-			"spawn_horses": {}
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"monster",
+					"overworld",
+					"bee_habitat",
+					"lavender_grove",
+					"double_grass",
+					"spawn_horses"
+				]
+			}
 		}
 	}
 }

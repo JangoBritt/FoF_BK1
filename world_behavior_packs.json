@@ -51,7 +51,7 @@
 	{
 		// REQUIRES BETA Manifest updates
 		"pack_id" : "b17755d2-3cc0-424b-89dd-558fc98513f5", //Bedrock Bridge
-		"version" : [ 1, 6, 8 ]
+		"version" : [ 1, 6, 9 ]
 	},
 		
 
@@ -110,6 +110,10 @@
 	{
 		"pack_id" : "d9560f08-233c-4c1c-9a72-3f5b6ace7d32", //FoF Medals
 		"version" : [ 6, 1, 16 ]
+	},
+	{
+		"pack_id": "5f674de1-5d30-c8e0-3652-1a85e744abd7", //Peepss Backpacks
+		"version": [ 2, 0, 0 ]
 	},
 	
 	{

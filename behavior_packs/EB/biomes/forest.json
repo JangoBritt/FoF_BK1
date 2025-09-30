@@ -1,6 +1,6 @@
 //bridge-file-version: #85
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:forest"
@@ -68,21 +68,25 @@
 					}
 				]
 			},
-			"animal": {},
-			"monster": {},
-			"overworld": {},
-			"deciduous": {},
-			"spawn_ferns": {},
-			"spawn_grass": {},
-			"spawn_oak_bushes": {},
-			"spawn_flowers": {},
-			"spawn_raccoons": {},
-			"spawn_deer": {},
-			"spawn_black_bears": {},
-			"spawn_grizzly_bears": {},
-			"tons_of_flowers": {},
-			"double_grass": {},
-			"forest": {}
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"monster",
+					"overworld",
+					"deciduous",
+					"spawn_ferns",
+					"spawn_grass",
+					"spawn_oak_bushes",
+					"spawn_flowers",
+					"spawn_raccoons",
+					"spawn_deer",
+					"spawn_black_bears",
+					"spawn_grizzly_bears",
+					"tons_of_flowers",
+					"double_grass",
+					"forest"
+				]
+			}
 		}
 	}
 }

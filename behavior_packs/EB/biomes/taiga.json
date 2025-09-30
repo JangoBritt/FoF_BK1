@@ -1,6 +1,6 @@
 //bridge-file-version: #94
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:taiga"
@@ -68,24 +68,28 @@
 					}
 				]
 			},
-			"animal": {},
-			"monster": {},
-			"overworld": {},
-			"spawn_ferns": {},
-			"lots_of_grass": {},
-			"spawn_small_mushrooms": {},
-			"coniferous": {},
-			"spawn_black_bears": {},
-			"spawn_grizzly_bears": {},
-			"spawn_hunter_cabin": {},
-			"spawn_raccoons": {},
-			"spawn_deer": {},
-			"spawn_sweet_berries": {},
-			"spawn_dead_bushes": {},
-			"spawn_boulders": {},
-			"taiga": {},
-			"spawn_violets": {},
-			"double_grass": {}
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"monster",
+					"overworld",
+					"spawn_ferns",
+					"lots_of_grass",
+					"spawn_small_mushrooms",
+					"coniferous",
+					"spawn_black_bears",
+					"spawn_grizzly_bears",
+					"spawn_hunter_cabin",
+					"spawn_raccoons",
+					"spawn_deer",
+					"spawn_sweet_berries",
+					"spawn_dead_bushes",
+					"spawn_boulders",
+					"taiga",
+					"spawn_violets",
+					"double_grass"
+				]
+			}
 		}
 	}
 }

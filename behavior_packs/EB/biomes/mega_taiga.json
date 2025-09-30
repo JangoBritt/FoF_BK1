@@ -1,6 +1,6 @@
 //bridge-file-version: #44
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.110",
 	"minecraft:biome": {
 		"description": {
 			"identifier": "minecraft:mega_taiga"
@@ -62,14 +62,18 @@
 					}
 				]
 			},
-			"animal": {},
-			"monster": {},
-			"overworld": {},
-			"maple_woods": {},
-			"spawn_raccoons": {},
-			"spawn_deer": {},
-			"spawn_violets": {},
-			"taiga": {}
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"monster",
+					"overworld",
+					"maple_woods",
+					"spawn_raccoons",
+					"spawn_deer",
+					"spawn_violets",
+					"taiga"
+				]
+			}
 		}
 	}
 }

@@ -9,19 +9,19 @@
         "element": {
           "element_type": "minecraft:single_pool_element",
           "location": "goblin_village/road_n",
-          "processors": "korbon:clear_area"
+          "processors": "korbon:clear_area",
+          "projection": "terrain_matching"
         },
-        "weight": 1,
-        "projection": "terrain_matching"        
+        "weight": 1
       },
       {
         "element": {
           "element_type": "minecraft:single_pool_element",
           "location": "goblin_village/road_cross1",
-          "processors": "korbon:clear_area"
+          "processors": "korbon:clear_area",
+          "projection": "terrain_matching"
         },
-        "weight": 5,
-        "projection": "terrain_matching"        
+        "weight": 5
       }
     ]
   }
