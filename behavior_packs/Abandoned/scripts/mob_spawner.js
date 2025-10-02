@@ -4,13 +4,13 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
   initEvent.blockComponentRegistry.registerCustomComponent("nicothekid:spawner_allay_on_random_tick", {
     onRandomTick: eventData => {
       eventData.block.setPermutation(BlockPermutation.resolve("minecraft:air"));
-      eventData.block.dimension.spawnEntity("fables_golem:copper_golem", { x: eventData.block.location.x + 0.5, y: eventData.block.location.y, z: eventData.block.location.z + 0.5 });
+      eventData.block.dimension.spawnEntity("minecraft:copper_golem", { x: eventData.block.location.x + 0.5, y: eventData.block.location.y, z: eventData.block.location.z + 0.5 });
     }
   });
   initEvent.blockComponentRegistry.registerCustomComponent("nicothekid:spawner_allay_on_tick", {
     onTick: eventData => {
       eventData.block.setPermutation(BlockPermutation.resolve("minecraft:air"));
-      eventData.block.dimension.spawnEntity("fables_golem:copper_golem", { x: eventData.block.location.x + 0.5, y: eventData.block.location.y, z: eventData.block.location.z + 0.5 });
+      eventData.block.dimension.spawnEntity("minecraft:copper_golem", { x: eventData.block.location.x + 0.5, y: eventData.block.location.y, z: eventData.block.location.z + 0.5 });
     }
   });
   initEvent.blockComponentRegistry.registerCustomComponent("nicothekid:spawner_blaze_on_random_tick", {
