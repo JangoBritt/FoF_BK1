@@ -10,6 +10,9 @@
         		"snow_accumulation": [ 0.0, 0.125 ],
 				"temperature": 1
 			},
+			"minecraft:precipitation": {
+				"ash": 1
+			},
 			"minecraft:mountain_parameters": {
 				"steep_material_adjustment": {
 					"material": "minecraft:blackstone",
