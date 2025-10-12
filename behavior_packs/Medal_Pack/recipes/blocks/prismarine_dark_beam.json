@@ -1,28 +1,15 @@
 {
-	"format_version": "1.16.100",
-	"minecraft:recipe_shaped": {
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
 		"description": {
 			"identifier": "fables_misc:prismarine_dark_beam"
 		},
-		"tags": [
-			"stonecutter"
-		],
-		"pattern": [
-			"###",
-			"#  "
-		],
-		"key": {
-			"#": {
-				"item": "minecraft:prismarine",
-				"data": 1
-		}
-    },
-		"unlock": [
-			{"item": "minecraft:prismarine"}
-		],
-    "result": {
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:dark_prismarine" } ],
+		"unlock": [ { "item": "minecraft:dark_prismarine" } ],
+		"result": {
 			"item": "fables_misc:prismarine_dark_beam",
-			"count": 6
+			"count": 2
 		}
 	}
 }
