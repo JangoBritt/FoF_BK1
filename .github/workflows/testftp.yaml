@@ -25,6 +25,7 @@ jobs:
           pass: ${{ secrets.TESTFTP_PASSWORD }}
           # lftp settings
           onlyNewer: true
+          restoreMTime: false
           settings: 'sftp:auto-confirm=yes'
           # Mirror command options
           localDir: '.'
