@@ -19,17 +19,17 @@ jobs:
         uses: pressidium/lftp-mirror-action@v1
         with:
           # SFTP credentials
-          host: ${{ secrets.TESTFTP_SERVER }}
-          port: ${{ secrets.TESTFTP_PORT }}
-          user: ${{ secrets.TESTFTP_USERNAME }}
+          host: ${{ vars.TESTFTP_SERVER }}
+          port: ${{ vars.TESTFTP_PORT }}
+          user: ${{ vars.TESTFTP_USERNAME }}
           pass: ${{ secrets.TESTFTP_PASSWORD }}
           # lftp settings
+          parallel: 10
           onlyNewer: true
-          restoreMTime: false
           settings: 'sftp:auto-confirm=yes'
           # Mirror command options
           localDir: '.'
           remoteDir: '/worlds/Fables_Flat'
           reverse: true
           ignoreFile: '.lftp_ignore'
-          options: 'delete'
+          options: '--verbose'
