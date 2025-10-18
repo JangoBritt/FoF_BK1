@@ -1,1 +1,0 @@
-execute as @a[tag=!HotTourist,tag=NetherWastes,tag=CrimsonForest,tag=WarpedForest,tag=SoulsandValley,tag=BasaltDeltas] run function adv/hot_tourist_destinations/grant
