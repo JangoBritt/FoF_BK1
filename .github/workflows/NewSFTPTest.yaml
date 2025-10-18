@@ -10,11 +10,11 @@ on:
       sync:
         description: "File synchronization"
         required: true
-        default: "delta"
+        default: "full"
 
 jobs:
   deploy-master:
-    name: "master branch"
+    name: "pre-release branch"
     if: ${{ github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
     timeout-minutes: 600
