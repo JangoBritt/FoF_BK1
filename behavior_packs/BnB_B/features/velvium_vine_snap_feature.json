@@ -1,0 +1,25 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:growing_plant_feature": {
+        "description": {
+            "identifier": "wypnt_bab:velvium_vine_snap_feature"
+        },
+        "height_distribution": [
+            [{"range_min": 2, "range_max": 6}, 4]
+        ],
+        "growth_direction": "UP",
+        "body_blocks": [
+        [
+            {
+              "name": "wypnt_bab:velvium_vine",
+              "states": { "wypnt_bab:bottom": true }
+            },
+            1]
+        ],
+        "head_blocks": [
+            ["wypnt_bab:velvium_vine", 3],
+            ["wypnt_bab:velvium_vine_bulb", 1]
+        ],
+        "allow_water": true
+    }
+}

@@ -24,16 +24,24 @@
 					"render_method": "blend"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/cherry_blossom_leaves_drops.json",
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 1
 			},
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 0.3
 			},
-			"minecraft:custom_components": [
-				"pog:cherryleavesDecay"
-			],
+			"wypnt_bab:leaf_decay": {},
+			"minecraft:tick": {
+				"looping": true,
+				"interval_range": [
+					100,
+					150
+				]
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"tag:minecraft:is_hoe_item_destructible": {},
+			"tag:wypnt_bab:custom_leaves": {},
+			
 			"minecraft:light_dampening": 10,
 			"minecraft:flammable": {
 				"destroy_chance_modifier": 20,

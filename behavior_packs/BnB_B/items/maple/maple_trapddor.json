@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:maple_trapdoor",
+			"menu_category": {
+				"category": "construction",
+				"group": "minecraft:itemGroup.name.trapdoor"
+			}
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "wypnt_bab:maple_trapdoor",
+				"replace_block_item": true
+			},
+			"minecraft:fuel": {
+				"duration": 15
+			},
+			"minecraft:display_name": {
+				"value": "tile.wypnt_bab:maple_trapdoor.name"
+			}
+		}
+	}
+}

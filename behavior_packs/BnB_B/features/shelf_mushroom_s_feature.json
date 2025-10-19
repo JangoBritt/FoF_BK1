@@ -1,0 +1,26 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "wypnt_bab:shelf_mushroom_s_feature"
+		},
+		"places_block": {
+      "name": "wypnt_bab:shelf_mushrooms",
+      "states": {
+        "wypnt_bab:natural_rotation": "south"
+      }
+    },
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			"minecraft:air"
+		],
+		"may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 1,
+      "north": [
+        { "tags": "query.any_tag('log')" }
+        ]
+    }
+	}
+}

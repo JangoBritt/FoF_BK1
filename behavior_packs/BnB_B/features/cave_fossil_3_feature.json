@@ -1,0 +1,21 @@
+//bridge-file-version: #20
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "wypnt_bab:cave_fossil_3_feature"
+		},
+		"structure_name": "mystructure:cave_fossil_3",
+		"adjustment_radius": 8,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"block_intersection": {
+				"block_whitelist": [
+					"wypnt_bab:lichen_carpet",
+					"minecraft:air"
+				]
+			}
+		}
+	}
+}

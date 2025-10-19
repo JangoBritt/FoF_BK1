@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wypnt_bab:baobab_slab"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "wypnt_bab:baobab_planks"
+            }
+        },
+        "result": [
+			{
+				"item": "wypnt_bab:baobab_slab",
+				"count": 6
+			}
+		],
+        "unlock": [
+			{
+			  "item": "wypnt_bab:baobab_planks"
+			}
+		  ]
+    }
+}

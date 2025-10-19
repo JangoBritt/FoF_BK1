@@ -1,0 +1,20 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "wypnt_bab:shroomtree_big_1_feature"
+		},
+		"structure_name": "mystructure:shroomtree_big_1",
+		"adjustment_radius": 8,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"block_intersection": {
+				"block_whitelist": [
+					"minecraft:air",
+					"wypnt_bab:voidmire_grass"
+				]
+			}
+		}
+	}
+}

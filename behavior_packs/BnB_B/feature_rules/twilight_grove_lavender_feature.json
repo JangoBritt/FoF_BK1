@@ -1,0 +1,43 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "wypnt_bab:twilight_grove_lavender_feature",
+			"places_feature": "wypnt_bab:scatter_lavender_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "twilight_grove"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "math.random(3,13)",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					"query.heightmap(variable.worldx, variable.worldz) * 2"
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

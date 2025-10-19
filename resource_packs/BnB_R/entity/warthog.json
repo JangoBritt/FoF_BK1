@@ -1,0 +1,57 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "wypnt_bab:warthog",
+			"materials": {
+				"default": "hoglin"
+			},
+			"textures": {
+				"default": "textures/coreblockstudios/biomesandbeyond/entity/warthog/warthog",
+				"saddled": "textures/coreblockstudios/biomesandbeyond/entity/warthog/warthog_saddled"
+			},
+			"geometry": {
+				"default": "geometry.wypnt_bab.warthog"
+			},
+			"spawn_egg": {
+				"texture": "wypnt_bab:warthog_spawn_egg"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos_right_side = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+					"variable.tcos_left_side = -variable.tcos_right_side;",
+					"variable.attack_head_rot =  Math.sin(variable.attack_time * 180.0) * -37.3;"
+				],
+				"animate": [
+					"look_at_target_controller",
+					"walk_controller",
+					"attack_controller",
+					"hoglin_baby_scaling_controller"
+				]
+			},
+			"animations": {
+				"walk": "animation.wypnt_bab.warthog.walk",
+				"look_at_target": "animation.hoglin.look_at_target",
+				"attack": "animation.hoglin.attack",
+				"hoglin_baby_scaling": "animation.hoglin.baby_scaling",
+				"idle": "animation.wypnt_bab.warthog.tail_idle",
+				"bob": "animation.wypnt_bab.warthog.bob",
+				"dig": "animation.wypnt_bab.warthog.digging",
+				"search": "animation.wypnt_bab.warthog.search",
+				"eat": "animation.wypnt_bab.warthog.eat",
+				"look_at_target_controller": "controller.animation.hoglin.look_at_target",
+				"walk_controller": "controller.animation.wypnt_bab.warthog.move",
+				"attack_controller": "controller.animation.hoglin.attack",
+				"hoglin_baby_scaling_controller": "controller.animation.hoglin.baby_scaling"
+			},
+			"render_controllers": [
+				"controller.render.wypnt_bab.warthog"
+			],
+			"sound_effects": {
+				"digging": "place.dirt_with_roots",
+				"sniffing": "mob.sniffer.searching"
+			},
+			"enable_attachables": true
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:velvium_grass_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:velvium_grass_0_feature",
+				1
+			],
+			[
+				"wypnt_bab:velvium_grass_1_feature",
+				2
+			], 
+			[
+				"wypnt_bab:velvium_grass_2_feature",
+				1
+			]
+		]
+	}
+}

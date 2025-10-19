@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "wypnt_bab:raccoon",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"raccoon": "textures/coreblockstudios/biomesandbeyond/entity/raccoon/raccoon",
+				"raccoon_tamed": "textures/coreblockstudios/biomesandbeyond/entity/raccoon/raccoon_tamed",
+				"raccoon_tophat": "textures/coreblockstudios/biomesandbeyond/entity/raccoon/raccoon_tamed_tophat"
+			},
+			"geometry": {
+				"default": "geometry.wypnt_bab.raccoon"
+			},
+			"scripts": {
+				"animate": [
+					"walk_controller"
+				]
+			},
+			"animations": {
+				"walk": "animation.wypnt_bab.raccoon.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.wypnt_bab.raccoon.baby_transform",
+				"sleep": "animation.wypnt_bab.raccoon.sleep",
+				"sit": "animation.wypnt_bab.raccoon.sit",
+				"beg": "animation.wypnt_bab.raccoon.beg",
+				"eat": "animation.wypnt_bab.raccoon.eat",
+				"run": "animation.wypnt_bab.raccoon.run",
+				"bob": "animation.wypnt_bab.raccoon.bob",
+				"baby_beg": "animation.wypnt_bab.raccoon.baby_beg",
+				"baby_eat": "animation.wypnt_bab.raccoon.baby_eat",
+				"steal": "animation.wypnt_bab.raccoon.steal",
+				"walk_controller": "controller.animation.wypnt_bab.raccoon.move"
+			},
+			"render_controllers": [
+				"controller.render.wypnt_bab.raccoon",
+				"controller.render.wypnt_bab.raccoon_hat"
+			],
+			"spawn_egg": {
+				"texture": "wypnt_bab:raccoon_spawn_egg"
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.wypnt_bab.grizzly_bear": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"query.is_angry ? Texture.angry : Texture.default"
+			]
+		}
+	}
+}

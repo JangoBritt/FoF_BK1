@@ -1,0 +1,29 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:depraved_wart_block",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#eef6b4",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:depraved_wart_block",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/depraved_wart_block_drops.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 5
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"tag:minecraft:is_hoe_item_destructible": {}
+		}
+	}
+}

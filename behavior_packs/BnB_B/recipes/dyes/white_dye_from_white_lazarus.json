@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "wypnt_bab:white_dye_from_white_lazarus"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": 1,
+		"ingredients": [
+			{
+				"item": "wypnt_bab:white_lazarus"
+			}
+		],
+		"result": {
+			"item": "minecraft:dye",
+			"data": 19
+		},
+		"unlock": [
+			{
+			  "item": "wypnt_bab:white_lazarus"
+			}
+		  ]
+	}
+}

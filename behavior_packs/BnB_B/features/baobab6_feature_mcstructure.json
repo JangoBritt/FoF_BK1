@@ -1,0 +1,43 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "wypnt_bab:baobab6_feature_mcstructure"
+		},
+		"structure_name": "mystructure:baobab_tree_6",
+		"adjustment_radius": 0,
+		"facing_direction": "south",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+				"block_whitelist": [
+					{
+						"name": "minecraft:air"
+					},
+					{
+						"name": "wypnt_bab:baobab_sapling"
+					},
+					{
+						"name": "minecraft:tallgrass"
+					},
+					{
+						"name": "minecraft:double_plant"
+					},
+					{
+						"name": "minecraft:leaves"
+					},
+					{
+						"name": "minecraft:leaves2"
+					},
+					{
+						"name": "minecraft:red_flower"
+					},
+					{
+						"name": "minecraft:red_flower"
+					}
+				]
+			}
+		}
+	}
+}

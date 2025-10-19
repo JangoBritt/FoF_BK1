@@ -1,0 +1,15 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "wypnt_bab:decayed_island_feature"
+		},
+		"early_out": "first_failure",
+		"features": [
+			"wypnt_bab:scatter_decayed_island_feature",
+			"wypnt_bab:scatter_rotveil_grass_feature",
+			"wypnt_bab:scatter_rotwarts_feature",
+			"wypnt_bab:scatter_obs_pillar_island_feature"
+		]
+	}
+}

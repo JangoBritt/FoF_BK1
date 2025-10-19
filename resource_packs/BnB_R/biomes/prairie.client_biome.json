@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "wypnt_bab:prairie"
+    },
+    "components": {      
+      "minecraft:foliage_appearance": {
+        "color": "#6ca854"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#9cc26a"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#44AFF5"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "wypnt_bab:default_music"
+      }  
+    }
+  }
+}

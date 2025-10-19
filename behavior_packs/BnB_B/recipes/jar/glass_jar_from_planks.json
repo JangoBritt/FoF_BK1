@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "wypnt_bab:glass_jar_from_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"tag": "minecraft:planks"
+			},
+			"B": {
+				"item": "minecraft:glass"
+			}
+		},
+		"result": {
+			"item": "wypnt_bab:glass_jar",
+			"count": 1
+		},
+		"unlock": [
+			{
+			  "item": "minecraft:glass"
+			},
+			{
+			  "tag": "minecraft:planks"
+			}
+		  ],
+		"priority": 2
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "wypnt_bab:bog_swamp"
+    },
+    "components": {
+      "minecraft:grass_appearance": {
+        "color": "#6A7039"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#6A7039"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#5d753d",
+        "surface_opacity": 0.95
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "minecraft:fog_swampland"
+      },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "minecraft:swampland_atmospherics"
+      }  
+    }
+  }
+}

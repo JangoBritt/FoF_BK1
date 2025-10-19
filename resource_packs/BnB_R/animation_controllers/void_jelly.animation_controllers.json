@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wypnt_bab.void_jelly.move": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"move": "query.modified_move_speed"
+						},
+						{
+							"idle": "query.is_alive"
+						}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}

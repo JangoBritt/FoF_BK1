@@ -1,0 +1,279 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "wypnt_bab:skeleman",
+			"spawn_category": "monster",
+            "is_spawnable": true,
+            "is_summonable": true
+		},
+		"component_groups": {
+			"wypnt_bab:skeleman_calm": {
+				"minecraft:on_target_acquired": {
+					"event": "minecraft:become_angry",
+					"target": "self"
+				},
+				"minecraft:movement": {
+					"value": 0.3
+				},
+				"minecraft:movement_sound_distance_offset": 
+				{
+					"value": 0.3
+				}
+			},
+			"wypnt_bab:skeleman_angry": {
+				"minecraft:angry": {
+					"duration": 25,
+					"calm_event": {
+						"event": "minecraft:on_calm",
+						"target": "self"
+					}
+				},
+				"minecraft:movement": {
+					"value": 0.45
+				},
+				"minecraft:movement_sound_distance_offset": 
+				{
+					"value": 0.45
+				},
+				"minecraft:behavior.melee_box_attack": {
+					"priority": 2
+				}
+			},
+			"minecraft:riding": {
+        "minecraft:environment_sensor": {
+          "triggers": {
+            "filters": {
+              "test": "is_riding", "subject": "self", "operator": "==", "value": false
+            },
+            "event": "minecraft:stopped_riding"
+          }
+        }
+      },
+      "minecraft:not_riding": {
+        "minecraft:environment_sensor": {
+          "triggers": {
+            "filters": {
+              "test": "is_riding", "subject": "self", "operator": "==", "value": true
+            },
+            "event": "minecraft:started_riding"
+          }
+        },
+        "minecraft:teleport": {
+				"random_teleports": true,
+				"max_random_teleport_time": 30,
+				"random_teleport_cube": [8, 12, 8],
+				"target_distance": 8,
+				"target_teleport_chance": 0.01,
+				"light_teleport_chance": 0.01
+			}
+      }
+		},
+		"components": {
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? 5 : 0"
+			},
+			"minecraft:type_family": {
+				"family": ["enderman", "monster", "undead", "skeleton", "mob"]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:nameable": {},
+			"minecraft:loot": {
+				"table": "loot_tables/coreblockstudios/biomesandbeyond/entities/skeleman.json"
+			},
+			"minecraft:health": {
+				"value": 30,
+				"max": 30
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:attack": {
+				"damage": 7
+			},
+			"minecraft:follow_range": {
+				"value": 32,
+				"max": 32
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 2.9
+			},
+			"minecraft:teleport": {
+				"random_teleports": true,
+				"max_random_teleport_time": 30,
+				"random_teleport_cube": [4, 12, 4],
+				"target_distance": 8,
+				"target_teleport_chance": 0.01,
+				"light_teleport_chance": 0.01
+			},
+			"minecraft:despawn": {
+            "despawn_from_distance": {},
+            "filters": {
+          "all_of": [
+            { "test": "is_difficulty", "operator": "==", "value": "peaceful" }
+          ]
+        }
+             },
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 5,
+				"must_see": false,
+				"attack_interval": 5,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "endermite"
+						},
+						"max_dist": 64
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 64
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "villager"
+						},
+						"max_dist": 64
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "wandering_trader"
+						},
+						"max_dist": 64
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "iron_golem"
+						},
+						"max_dist": 64
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "snow_golem"
+						},
+						"max_dist": 64
+					}
+				]
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": false,
+				"avoid_water": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 7,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 8,
+				"look_distance": 8,
+				"probability": 8
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 8
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 3
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			   "minecraft:variable_max_auto_step": {
+        "base_value": 1.0625, // 1 block + 1 pixel
+        "jump_prevented_value": 0.5625 // 0.5 blocks + 1 pixel
+      },
+			"minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"max_optimized_distance": 80,
+					"max_dropped_ticks": 10,
+					"use_motion_prediction_hints": true
+				}
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"remove": {},
+				"add": {
+					"component_groups": ["wypnt_bab:skeleman_calm",  "minecraft:not_riding"]
+				}
+			},
+			"minecraft:become_angry": {
+				"remove": {
+					"component_groups": ["wypnt_bab:skeleman_calm"]
+				},
+				"add": {
+					"component_groups": ["wypnt_bab:skeleman_angry"]
+				}
+			},
+			"minecraft:on_calm": {
+				"remove": {
+					"component_groups": ["wypnt_bab:skeleman_angry"]
+				},
+				"add": {
+					"component_groups": ["wypnt_bab:skeleman_calm"]
+				}
+			},
+			"minecraft:stopped_riding": {
+        "add": {
+          "component_groups": [
+            "minecraft:not_riding"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:riding"
+          ]
+        }
+      },
+      "minecraft:started_riding": {
+        "add": {
+          "component_groups": [
+            "minecraft:riding"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:not_riding"
+          ]
+        }
+      }
+		}
+	}
+}

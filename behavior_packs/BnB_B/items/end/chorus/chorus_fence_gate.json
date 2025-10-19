@@ -1,0 +1,25 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wypnt_bab:chorus_fence_gate",
+            "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.fenceGate"
+      }
+        }, 
+        "components": {
+            "minecraft:fuel": {
+            "duration": 15
+              },
+              "minecraft:display_name": {
+                "value": "tile.wypnt_bab:chorus_fence_gate.name"
+            },
+
+            "minecraft:block_placer":{
+                "block": "wypnt_bab:chorus_fence_gate",
+                "replace_block_item": true
+            }
+        }
+    }
+}

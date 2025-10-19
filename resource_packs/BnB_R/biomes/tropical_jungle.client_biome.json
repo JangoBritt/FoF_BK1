@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "wypnt_bab:tropical_jungle"
+    },
+    "components": {
+      "minecraft:water_appearance": {
+        "surface_color": "#3f7a58",
+        "surface_opacity":0.75
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "minecraft:fog_jungle"
+      } 
+    }
+  }
+}
+

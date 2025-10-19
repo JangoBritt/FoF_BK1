@@ -100,18 +100,13 @@ export class Knife {
                 spawnLoot('farmersdelight/straw_from_tallgrass', block.dimension, block.location);
             }
             //Fables
-            else if (blockTypeId == "minecraft:short_grass" || blockTypeId == "minecraft:fern" || blockTypeId == "minecraft:short_dry_grass" || blockTypeId == "korbon:dune_grass") {
+            else if (blockTypeId == "minecraft:short_grass" || blockTypeId == "minecraft:fern" || blockTypeId == "minecraft:short_dry_grass") {
                 spawnLoot('farmersdelight/straw_from_grass', block.dimension, block.location);
             }
             else if (blockTypeId == "minecraft:wheat")  {
                 const age = permutation.getState('growth');
                 if (age == 7)
                     spawnLoot('farmersdelight/straw', block.dimension, block.location);
-            }
-
-            //Fables
-            else if (blockTypeId == "korbon:wild_wheat") {
-                spawnLoot('farmersdelight/straw', block.dimension, block.location);
             }
 
             else if (blockTypeId == "farmersdelight:rice_block_upper") {

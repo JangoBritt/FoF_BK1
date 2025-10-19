@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:brittlebush",
+			"menu_category": {
+				"category": "nature",
+				"group": "minecraft:itemGroup.name.flower"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": "wypnt_bab:brittlebush",
+			"minecraft:display_name": {
+				"value": "tile.wypnt_bab:brittlebush.name"
+			},
+			"minecraft:block_placer": {
+				"block": "wypnt_bab:brittlebush",
+				"replace_block_item": true
+			}
+		}
+	}
+}

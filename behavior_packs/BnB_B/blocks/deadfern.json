@@ -1,0 +1,133 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:deadfern",
+			"states": {
+				"wypnt_bab:top": [
+					false,
+					true
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "!q.block_state('wypnt_bab:top')",
+				"components": {
+					"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:deadfern_bottom",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							{
+                    "tags": "q.any_tag('dirt', 'sand')"
+                }
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/deadfern_no_shears.json"
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:top')",
+				"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:deadfern_top",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:movable": {
+        "movement_type": "immovable"
+      },
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"wypnt_bab:deadfern"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/empty.json"
+				}
+			}
+			],
+		"components": {
+			"wypnt_bab:double_block": {
+        "upside_down": false, // if the block is upside down, like glow berries 
+        "states": { // states
+            "wypnt_bab:top": true
+        }
+    },
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:collision_box": false,
+			"minecraft:map_color": "#144d12",
+			"minecraft:flammable": {
+				"burn_odds": 15,
+				"flame_odds": 15
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			 "tag:wypnt_bab:flowers": {},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:deadfern_top",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			},
+			"tag:minecraft:is_shears_item_destructible": {},
+ 	    "wypnt_bab:prevent_place_with_liquid_above": {},
+ 	    "wypnt_bab:mining_require_item": { "tag": "minecraft:is_shears" }
+		}
+	}
+}

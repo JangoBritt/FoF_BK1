@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "redwood_log",
+		"metalness_emissive_roughness": "redwood_log_mer"
+	}
+}

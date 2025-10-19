@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wypnt_bab:end_conditions/rotveil_wastes_pit_place"
+		},
+		"places_feature": "wypnt_bab:scatter_void_pit_feature",
+		"iterations": "t.end_biome == 3",
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

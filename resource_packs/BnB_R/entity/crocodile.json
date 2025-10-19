@@ -1,0 +1,52 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "wypnt_bab:crocodile",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/coreblockstudios/biomesandbeyond/entity/crocodile"
+			},
+			"geometry": {
+				"default": "geometry.wypnt_bab.crocodile"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"enable_attachables": true,
+			"spawn_egg": {
+				"texture": "wypnt_bab:crocodile_spawn_egg"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+				],
+				"animate": [
+					"move_controller",
+					"attack_controller",
+					"baby_controller"
+				]
+			},
+			"sound_effects": {
+				"attack": "mob.wypnt_bab.crocodile_attack"
+			},			
+			"animations": {
+				"move": "animation.wypnt_bab.crocodile.walk",
+				"idle": "animation.wypnt_bab.crocodile.idle",
+				"bob": "animation.wypnt_bab.crocodile.bob",
+				"crocodile_attack": "animation.wypnt_bab.crocodile.attack",
+				"crocodile_swim": "animation.wypnt_bab.crocodile.swim",
+				"look_at_target": "animation.common.look_at_target",
+				"crocodile_bite": "animation.wypnt_bab.crocodile.bite",
+				"eat": "animation.wypnt_bab.crocodile.eat",
+				"baby_big_head": "animation.wypnt_bab.crocodile.baby",
+				"digging":"animation.wypnt_bab.crocodile.digging",
+				"move_controller": "controller.animation.wypnt_bab.crocodile.move",
+				"attack_controller": "controller.animation.wypnt_bab.crocodile.attack",
+				"baby_controller": "controller.animation.wypnt_bab.crocodile.baby"				
+			}
+		}
+	}
+}

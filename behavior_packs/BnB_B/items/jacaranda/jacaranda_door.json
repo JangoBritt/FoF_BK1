@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:jacaranda_door",
+			"menu_category": {
+				"category": "construction",
+				"group": "minecraft:itemGroup.name.door"
+			}
+		},
+		"components": {
+			"minecraft:icon": "wypnt_bab:jacaranda_door",
+			"minecraft:block_placer": {
+				"block": "wypnt_bab:jacaranda_door",
+				"replace_block_item": true
+			},
+			"minecraft:fuel": {
+				"duration": 10
+			},
+			"minecraft:display_name": {
+				"value": "tile.wypnt_bab:jacaranda_door.name"
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wypnt_bab:end_biomes/column_placer"
+			//places a column for each column of blocks in the chunk
+		},
+		"places_feature": "wypnt_bab:end_biomes/determinant",
+		"iterations": 256,
+		"x": {
+			"distribution": "fixed_grid",
+			"extent": [
+				0,
+				15
+			]
+		},
+		"z": {
+			"distribution": "fixed_grid",
+			"extent": [
+				0,
+				15
+			]
+		},
+		"y": 0
+	}
+}

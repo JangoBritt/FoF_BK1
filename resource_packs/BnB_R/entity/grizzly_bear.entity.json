@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "wypnt_bab:grizzly_bear",
+			"materials": {
+				"default": "polar_bear"
+			},
+			"textures": {
+				"default": "textures/coreblockstudios/biomesandbeyond/entity/bears/grizzly_bear",
+				"angry": "textures/coreblockstudios/biomesandbeyond/entity/bears/grizzly_bear_angry"				
+			},
+			"geometry": {
+				"default": "geometry.wypnt_bab.bear_bg"
+			},
+			"scripts": {
+				"scale": "(1.2)",
+				"animate": [
+					"move_contoller",
+					"baby_contoller"
+				]
+			},
+			"animations": {
+				"walk": "animation.quadruped.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.wypnt_bab.bear.baby_transform",
+				"attack": "animation.wypnt_bab.bear.attack",
+				"bob": "animation.wypnt_bab.bear.bob",
+				"move": "animation.wypnt_bab.bear.walk",
+				"idle": "animation.wypnt_bab.bear.idle",
+				"run": "animation.wypnt_bab.bear.run",
+				"move_contoller": "controller.animation.wypnt_bab.bear.move",
+				"baby_contoller": "controller.animation.wypnt_bab.bear.baby"
+			},
+			"render_controllers": [
+				"controller.render.wypnt_bab.grizzly_bear"
+			],
+			"spawn_egg": {
+				"texture": "wypnt_bab:grizzly_spawn_egg"
+			}
+		}
+	}
+}

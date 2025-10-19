@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "depraved_vine_flower",
+		"metalness_emissive_roughness": "depraved_vine_flower_mer"
+	}
+}

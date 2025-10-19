@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wypnt_bab:maple_wood_stripped"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~", 
+            "~~"
+        ],
+        "key": {
+            "~": {
+                "item": "wypnt_bab:stripped_maple_log"
+            }
+        },
+        "result": [
+			{
+				"item": "wypnt_bab:stripped_maple_wood",
+				"count": 3
+			}
+		],
+        "unlock": [
+			{
+			  "item": "wypnt_bab:maple_planks"
+			}
+		  ]
+    }
+}

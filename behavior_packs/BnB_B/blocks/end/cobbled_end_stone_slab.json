@@ -1,0 +1,132 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:cobbled_end_stone_slab",
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:vertical_half"
+					]
+				}
+			},
+			"states": {
+				"wypnt_bab:double": [
+					false,
+					true
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('wypnt_bab:double')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'top' && !q.block_state('wypnt_bab:double')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:double')",
+				"components": {
+					"minecraft:geometry": "minecraft:geometry.full_block",
+						"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/double_cobbled_end_stone_slab.json",
+						"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": false,
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
+			}
+				}
+			}
+		],
+		"components": {
+			"minecraft:map_color": "#eef6b4",
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/cobbled_end_stone_slab.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 45 //45 because 9x5 is 45
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3 
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.wypnt_bab.slab",
+				"bone_visibility": {
+					"bottom_slab": "q.block_state('minecraft:vertical_half') == 'bottom'",
+					"top_slab": "q.block_state('minecraft:vertical_half') == 'top'"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:cobbled_end_stone",
+					"render_method": "opaque"
+				}
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:wypnt_bab:slab": {},
+			"tag:wypnt_bab:stone_slab": {},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
+			}
+		}
+	}
+}

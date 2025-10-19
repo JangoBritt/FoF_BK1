@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "wypnt_bab:puffling",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"puffling_0": "textures/coreblockstudios/biomesandbeyond/entity/puffling/puffling0",
+				"puffling_1": "textures/coreblockstudios/biomesandbeyond/entity/puffling/puffling1",
+				"puffling_2": "textures/coreblockstudios/biomesandbeyond/entity/puffling/puffling2",
+				"puffling_3": "textures/coreblockstudios/biomesandbeyond/entity/puffling/puffling3",
+				"puffling_4": "textures/coreblockstudios/biomesandbeyond/entity/puffling/puffling4",
+				"puffling_5": "textures/coreblockstudios/biomesandbeyond/entity/puffling/puffling5"			
+			},
+			"geometry": {
+				"default": "geometry.wypnt_bab.puffling"
+			},
+			"scripts": {
+				"animate": [
+					"walk_controller",
+					"shoot_controller"
+				]
+			},
+			"animations": {
+				"walk": "animation.wypnt_bab.puffling.walk",
+				"bob": "animation.wypnt_bab.puffling.bob",
+				"walk_arms_setup": "animation.wypnt_bab.puffling.walk_arm_setup",
+				"shoot": "animation.wypnt_bab.puffling.shoot",
+				"fall": "animation.wypnt_bab.puffling.falling",
+				"riding": "animation.wypnt_bab.puffling.riding",
+				"walk_controller": "controller.animation.puffling.walk",
+				"shoot_controller": "controller.animation.puffling.shoot"
+			},
+			"render_controllers": ["controller.render.wypnt_bab.puffling"],
+			"spawn_egg": {
+				"texture": "wypnt_bab:puffling_spawn_egg"
+			}
+		}
+	}
+}

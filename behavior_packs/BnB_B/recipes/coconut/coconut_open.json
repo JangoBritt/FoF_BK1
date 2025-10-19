@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "wypnt_bab:coconut_open"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "wypnt_bab:coconut"
+			}
+		],
+		"result": {
+			"item": "wypnt_bab:coconut_open",
+			"count": 1
+		},
+		"unlock": [
+			{
+			  "item": "wypnt_bab:coconut"
+			}
+		  ]
+	}
+}

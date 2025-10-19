@@ -1,0 +1,32 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wypnt_bab:scatter_lazarus_fields_flowers_feature"
+		},
+		"iterations": "math.random(12,32)",
+		"x": {
+			"distribution": "gaussian",
+			"extent": [
+				-12,
+				12
+			]
+		},
+		"y": {
+			"distribution": "gaussian",
+			"extent": [
+				-4,
+				4
+			]
+		},
+		"z": {
+			"distribution": "gaussian",
+			"extent": [
+				-12,
+				12
+			]
+		},
+		"coordinate_eval_order": "zyx",
+		"places_feature": "wypnt_bab:select_lazarus_flower_feature"
+	}
+}

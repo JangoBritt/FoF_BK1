@@ -1,0 +1,27 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:tungsten_block"
+		},
+		"components": {
+			"minecraft:map_color": "#f3f7bc",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:tungsten_block",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/tungsten_block.json",
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:minecraft:iron_tier_destructible": {}
+		}
+	}
+}

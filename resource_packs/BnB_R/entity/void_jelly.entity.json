@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "wypnt_bab:void_jelly",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/coreblockstudios/biomesandbeyond/entity/void_jelly"
+			},
+			"geometry": {
+				"default": "geometry.wypnt_bab.void_jelly"
+			},
+			"spawn_egg": {
+				"texture": "wypnt_bab:voidjelly_spawn_egg"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller",
+					"idle_controller"
+				]
+			},
+			"animations": {
+				"move": "animation.wypnt_bab.void_jelly.move",
+				"idle": "animation.wypnt_bab.void_jelly.idle",
+				"move_controller": "controller.animation.wypnt_bab.void_jelly.move",
+				"idle_controller": "controller.animation.wypnt_bab.void_jelly.move"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"particle_effects": {
+				"swim": "wypnt_bab:void_jelly"
+			}
+		}
+	}
+}

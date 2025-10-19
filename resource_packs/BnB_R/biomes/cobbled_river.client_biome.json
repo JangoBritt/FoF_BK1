@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "wypnt_bab:cobbled_river"
+    },
+    "components": {
+      "minecraft:water_appearance": {
+        "surface_color": "#5eaeeb"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "wypnt_bab:default_music"
+      }     
+    }
+  }
+}

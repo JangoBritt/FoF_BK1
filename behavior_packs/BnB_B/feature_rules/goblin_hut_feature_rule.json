@@ -1,0 +1,57 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "wypnt_bab:goblin_hut_feature_rule",
+			"places_feature": "wypnt_bab:goblin_hut_place_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "ocean"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "river"
+						},
+						{
+							"any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "mystic_forest"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 256,
+			"scatter_chance": 0.98,
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"coordinate_eval_order": "xzy",
+			"x": {
+				"distribution": "fixed_grid",
+				"extent": [
+					0,
+					15
+				]
+			},
+			"z": {
+				"distribution": "fixed_grid",
+				"extent": [
+					0,
+					15
+				]
+			}
+		}
+	}
+}

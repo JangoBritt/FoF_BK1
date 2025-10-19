@@ -1,0 +1,32 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wypnt_bab:scatter_toadstool_red_feature"
+		},
+		"iterations": 25,
+		"x": {
+			"distribution": "gaussian",
+			"extent": [
+				-4,
+				4
+			]
+		},
+		"y": {
+			"distribution": "gaussian",
+			"extent": [
+				-4,
+				4
+			]
+		},
+		"z": {
+			"distribution": "gaussian",
+			"extent": [
+				-4,
+				4
+			]
+		},
+		"coordinate_eval_order": "zyx",
+		"places_feature": "wypnt_bab:toadstool_red_feature"
+	}
+}

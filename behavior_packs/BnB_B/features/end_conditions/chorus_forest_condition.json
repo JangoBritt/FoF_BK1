@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wypnt_bab:end_conditions/chorus_forest_condition"
+		},
+		"places_feature": "wypnt_bab:void_turf_feature",
+		"iterations": "t.end_biome == 0",
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

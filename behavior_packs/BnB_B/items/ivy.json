@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:ivy",
+			"menu_category": {
+				"category": "nature",
+				"group": "minecraft:itemGroup.name.flower"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:block_placer": {
+				"block": "wypnt_bab:ivy",
+				"replace_block_item": true
+			},
+			"minecraft:display_name": {
+				"value": "tile.wypnt_bab:ivy.name"
+			},
+			"minecraft:icon": "wypnt_bab:ivy"
+		}
+	}
+}

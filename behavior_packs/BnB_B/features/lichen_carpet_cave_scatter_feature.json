@@ -1,0 +1,19 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wypnt_bab:lichen_carpet_cave_scatter_feature"
+		},
+		"x": 0,
+		"z": 0,
+		"y": {
+			"distribution": "fixed_grid",
+			"extent": [
+				0,
+				"t.height - 1"
+			]
+		},
+		"places_feature": "wypnt_bab:select_forsaken_ground_feature",
+		"iterations": "t.height = 63; return t.height * (query.noise(v.worldx / 2048, v.worldz / 2048) + 0.125 * query.noise(v.worldx / 512, v.worldz / 512) + 0.015625 * query.noise(v.worldx / 128, v.worldz / 128) > 0.4);"
+	}
+}

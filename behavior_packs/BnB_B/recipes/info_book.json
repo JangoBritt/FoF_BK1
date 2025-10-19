@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "wypnt_bab:info_book"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:dirt"
+			},
+			{
+				"item": "minecraft:oak_sapling"
+			}
+		],
+		"result": {
+			"item": "wypnt_bab:info_book",
+			"count": 1
+		},
+		"unlock": [
+			{
+			  "item": "minecraft:dirt"
+			}
+		  ]
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wypnt_bab:cobbled_end_stone_slab",
+            "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.slab"
+      }
+        }, 
+        "components": {
+          "minecraft:tags": {
+        "tags": [
+      "wypnt_bab:slab"
+        ]
+      },
+              "minecraft:display_name": {
+                "value": "tile.wypnt_bab:cobbled_end_stone_slab.name"
+            },
+
+            "minecraft:block_placer":{
+                "block": "wypnt_bab:cobbled_end_stone_slab",
+                "replace_block_item": true
+            }
+        }
+    }
+}

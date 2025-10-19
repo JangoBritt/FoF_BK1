@@ -1,0 +1,143 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:rotveil_grass",
+			"states": {
+				"wypnt_bab:length": [
+					0,
+					1,
+					2
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('wypnt_bab:length') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:rotveil_grass0",
+							"render_method": "alpha_test_single_sided",
+							"face_dimming": false
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('wypnt_bab:length') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:rotveil_grass1",
+							"render_method": "alpha_test_single_sided",
+							"face_dimming": false
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('wypnt_bab:length') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:rotveil_grass2",
+							"render_method": "alpha_test_single_sided",
+							"face_dimming": false
+						}
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "minecraft:random_offset": {
+             "x": {
+                "range": {
+                   "min": -4,
+                   "max": 4
+                },
+                "steps": 16
+             },
+             "y": {
+                "range": {
+                   "min": 0,
+                   "max": 0
+                },
+                "steps": 16
+             },
+             "z": {
+                "range": {
+                   "min": -4,
+                   "max": 4
+                },
+                "steps": 16
+             }
+          },
+			"wypnt_bab:mining_require_item": { "tag": "minecraft:is_shears" },
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					11,
+					8
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:rotveil_grass0",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false
+				}
+			},
+			"minecraft:collision_box": false,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							{
+                    "tags": "q.any_tag('dirt')"
+                },
+							"minecraft:end_stone",
+							"wypnt_bab:void_turf",
+							"wypnt_bab:rotveil",
+							"wypnt_bab:velvium",
+							"wypnt_bab:ultisol"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "broken"
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"tag:minecraft:is_shears_item_destructible": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:map_color": "#144d12",
+			"minecraft:light_dampening": 0,
+			"minecraft:replaceable": {},
+			 "wypnt_bab:prevent_place_with_liquid_above": {}
+		}
+	}
+}

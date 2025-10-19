@@ -1,0 +1,33 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wypnt_bab:venison",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.rawFood"
+			}
+        },
+        "components": {
+            "minecraft:use_animation": "eat",
+            "minecraft:icon": "wypnt_bab:venison_raw",
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation_modifier": 0.2
+            },
+            "minecraft:display_name": {
+                "value": "item.wypnt_bab:venison.name"
+            },
+            "minecraft:tags": {
+				"tags": [
+					"minecraft:is_food",
+                    "minecraft:is_meat"
+				]
+			},
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.35
+            }
+        }
+    }
+}

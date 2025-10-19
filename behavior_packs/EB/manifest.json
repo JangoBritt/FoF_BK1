@@ -3,14 +3,14 @@
 	"header": {
 		"name": "§7[v1.7.63] §bExpansive Biomes §r- §2BP§r",
 		"description": "Adds more biomes to the game for you to explore! §f| §eby iKorbon§r",
-		"version": [ 1, 0, 39 ],
+		"version": [ 1, 0, 41 ],
 		"min_engine_version": [ 1, 21, 70 ],
 		"uuid": "8d5c35a9-f06b-4642-8b7a-49a296f070d9"
 	},
 	"modules": [
 		{
 			"type": "data",
-			"version": [ 1, 0, 39 ],
+			"version": [ 1, 0, 41 ],
 			"uuid": "403693ab-cbd8-4d50-a014-e9e91f5f601a"
 		},
 		{

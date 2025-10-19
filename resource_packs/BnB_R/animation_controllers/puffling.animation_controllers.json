@@ -1,0 +1,82 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wypnt_bab.puffling.walk": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"walk": "query.modified_move_speed"
+						},
+						{
+							"walk_arms_setup": "query.modified_move_speed"
+						},
+						{
+							"bob": "query.is_alive"
+						},
+						{
+							"fall": "!query.is_on_ground&&!query.is_riding"
+						}
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"riding": "query.is_riding"
+						},
+						{
+							"shoot": "query.is_charged&&q.has_target"
+						}
+					]
+				},
+				"riding": {
+					"animations": [
+						"riding"
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"default": "!query.is_riding"
+						}
+					]
+				},
+				"shoot": {
+					"animations": [
+						"shoot",
+						{
+							"walk": "query.modified_move_speed"
+						}
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished&&!query.is_charged"
+						}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		},
+		"controller.animation.wypnt_bab.puffling.shoot": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"shoot": " v.attack_time&&q.has_target"
+						}
+					],
+					"blend_transition": 0.05
+				},
+				"shoot": {
+					"animations": [
+						"shoot"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.05
+				}
+			}
+		}
+	}
+}

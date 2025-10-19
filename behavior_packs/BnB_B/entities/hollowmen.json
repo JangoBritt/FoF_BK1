@@ -1,0 +1,378 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "wypnt_bab:hollowmen",
+			"spawn_category": "monster",
+            "is_spawnable": true,
+            "is_summonable": true
+		},
+		"component_groups": {
+			"wypnt_bab:hollowmen_calm": {
+				"minecraft:on_target_acquired": {
+					"event": "minecraft:become_angry",
+					"target": "self"
+				},
+				"minecraft:movement": {
+					"value": 0.2
+				},
+				"minecraft:movement_sound_distance_offset": {
+					"value": 0.43
+				}
+			},
+			"wypnt_bab:hollowmen_angry": {
+				"minecraft:angry": {
+					"duration": 25,
+					"broadcast_anger": false,
+					"angry_sound": "mad",
+					"sound_interval": [
+						3,
+						5
+					],
+					"calm_event": {
+						"event": "minecraft:on_calm",
+						"target": "self"
+					}
+				},
+				"minecraft:movement_sound_distance_offset": {
+					"value": 0.4
+				}
+			},
+			"minecraft:riding": {
+        "minecraft:environment_sensor": {
+          "triggers": {
+            "filters": {
+              "test": "is_riding", "subject": "self", "operator": "==", "value": false
+            },
+            "event": "minecraft:stopped_riding"
+          }
+        }
+      },
+      "minecraft:not_riding": {
+        "minecraft:environment_sensor": {
+          "triggers": {
+            "filters": {
+              "test": "is_riding", "subject": "self", "operator": "==", "value": true
+            },
+            "event": "minecraft:started_riding"
+          }
+        },
+        "minecraft:teleport": {
+				"random_teleports": true,
+				"max_random_teleport_time": 3,
+				"random_teleport_cube": [7, 32, 7],
+				"target_distance": 16,
+				"target_teleport_chance": 0.001,
+				"light_teleport_chance": 0.001
+			}
+      },
+			"wypnt_bab:hollowmen_main": {
+				"minecraft:health": {
+					"value": 38,
+					"max": 38
+				},
+				"minecraft:is_shaking": {},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "actor_health",
+											"subject": "self",
+											"operator": "<=",
+											"value": 10
+										},
+										{
+											"test": "has_damage",
+											"subject": "self",
+											"value": "attack"
+										}
+									]
+								},
+								"event": "wypnt_bab:hollowmen_maybe_duplicate"
+							},
+							"deals_damage": "no"
+						}
+					]
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 0,
+					"must_see": true,
+					"entity_types": [
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							},
+							"max_dist": 10
+						}
+					]
+				},
+				"minecraft:attack": {
+					"damage": 6,
+					"effect_name": "poison",
+					"effect_duration": 5
+				},
+				"minecraft:behavior.melee_box_attack": {
+					"priority": 2,
+					"speed_multiplier": 1.2
+				}
+			},
+			"wypnt_bab:hollowmen_duplicate": {
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:is_shaking": {},
+				"minecraft:movement_sound_distance_offset": {
+					"value": 0.5
+				},
+				"minecraft:teleport": {
+					"random_teleports": true,
+					"max_random_teleport_time": 3,
+					"random_teleport_cube": [7, 4, 7],
+					"target_distance": 16,
+					"target_teleport_chance": 0.001,
+					"light_teleport_chance": 0.001
+				},
+				   "minecraft:variable_max_auto_step": {
+        "base_value": 1.0625, // 1 block + 1 pixel
+        "jump_prevented_value": 0.5625 // 0.5 blocks + 1 pixel
+                 },
+				"minecraft:type_family": {
+					"family": [
+						"wypnt_bab:hollowmen_duplicate"
+					]
+				},
+				"minecraft:movement": {
+					"value": 0.2
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 2,
+					"speed_multiplier": 1.2
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 0,
+					"must_see": true,
+					"entity_types": [
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							},
+							"max_dist": 64
+						}
+					]
+				},
+				"minecraft:angry": {
+					"duration": 60,
+					"broadcast_anger": true,
+					"broadcast_targets": [
+						"wypnt_bab:hollowmen_duplicate"
+					],
+					"broadcast_range": 6,
+					"angry_sound": "mad",
+					"sound_interval": [
+						3,
+						5
+					],
+					"calm_event": {
+						"event": "minecraft:on_calm",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 6,
+					"effect_name": "poison",
+					"effect_duration": 5
+				}
+			}
+		},
+		"components": {
+			"minecraft:is_hidden_when_invisible": { },
+      "minecraft:renders_when_invisible": { },
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? 5 : 0"
+			},
+			"minecraft:teleport": {
+				"random_teleports": true,
+				"max_random_teleport_time": 3,
+				"random_teleport_cube": [7, 32, 7],
+				"target_distance": 16,
+				"target_teleport_chance": 0.001,
+				"light_teleport_chance": 0.001
+			},
+			"minecraft:despawn": {
+            "filters": {
+          "all_of": [
+            { "test": "is_difficulty", "operator": "==", "value": "peaceful" }
+          ]
+        }
+             },
+			"minecraft:type_family": {
+				"family": [
+					"enderman",
+					"monster",
+					"mob"
+				]
+			},
+			"minecraft:variable_max_auto_step": {
+				"base_value": 1.0625,
+				"jump_prevented_value": 0.5625
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:nameable": {},
+			"minecraft:loot": {
+				"table": "loot_tables/coreblockstudios/biomesandbeyond/entities/enderman.json"
+			},
+			"minecraft:follow_range": {
+				"value": 32,
+				"max": 32
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 2.9
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": false,
+				"avoid_water": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 7,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 8,
+				"look_distance": 8,
+				"probability": 8
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 8
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 3
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"remove": {},
+				"add": {
+					"component_groups": [
+						"wypnt_bab:hollowmen_calm",
+						"wypnt_bab:hollowmen_main", 
+						"minecraft:not_riding"
+					]
+				}
+			},
+			"minecraft:become_angry": {
+				"remove": {
+					"component_groups": [
+						"wypnt_bab:hollowmen_calm"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"wypnt_bab:hollowmen_angry"
+					]
+				}
+			},
+			"minecraft:on_calm": {
+				"remove": {
+					"component_groups": [
+						"wypnt_bab:hollowmen_angry"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"wypnt_bab:hollowmen_calm"
+					]
+				}
+			},
+			"minecraft:stopped_riding": {
+        "add": {
+          "component_groups": [
+            "minecraft:not_riding"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:riding"
+          ]
+        }
+      },
+      "minecraft:started_riding": {
+        "add": {
+          "component_groups": [
+            "minecraft:riding"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:not_riding"
+          ]
+        }
+      },
+			"wypnt_bab:hollowmen_become_duplicate": {
+				"add": {
+					"component_groups": [
+						"wypnt_bab:hollowmen_duplicate"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"wypnt_bab:hollowmen_main"
+					]
+				},
+				"trigger": "minecraft:become_angry"
+			},
+			"wypnt_bab:hollowmen_maybe_duplicate": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "has_component",
+							"subject": "self",
+							"value": "minecraft:health"
+						}
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": "summon wypnt_bab:hollowmen ~1.5 ~0.3 ~1.5 facing @p wypnt_bab:hollowmen_become_duplicate"
+								}
+							},
+							{
+								"queue_command": {
+									"command": "summon wypnt_bab:hollowmen ~ ~0.3 ~1.5 facing @p wypnt_bab:hollowmen_become_duplicate"
+								}
+							},
+							{
+								"queue_command": {
+									"command": "kill @s"
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

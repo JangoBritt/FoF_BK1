@@ -1,0 +1,252 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:chorus_fence_gate",
+			"menu_category": {
+				"category": "construction",
+				"group": "minecraft:itemGroup.name.fenceGate"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			},
+			"states": {
+				"wypnt_bab:open": [
+					false,
+					true
+				],
+				"wypnt_bab:in_wall_bit": [
+					false,
+					true
+				],
+				"wypnt_bab:invisible": [
+					false,
+					true
+				],
+				"wypnt_bab:direction": [
+					false,
+					true
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						],
+						"translation": [0, 0.285, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						],
+						"translation": [0, 0.285, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-180,
+							0
+						],
+						"translation": [0, 0.285, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						],
+						"translation": [0, 0.285, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:direction')",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						],
+						"translation": [0, 0.285, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:open')",
+				"components": {
+					"minecraft:collision_box": false
+				}
+			},
+			{
+				"condition": "!q.block_state('wypnt_bab:invisible')",
+				"components": {
+						"wypnt_bab:chorus_fence_gate_on_interact":{},
+						"wypnt_bab:chorus_fence_gate_on_tick":{},
+						"wypnt_bab:chorus_fence_gate_on_player_placed":{},
+						"wypnt_bab:chorus_fence_gate_on_player_destroy":{}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:invisible') && !q.block_state('wypnt_bab:open')",
+				"components": {
+					"minecraft:selection_box": false,
+					"minecraft:collision_box": {
+						"origin": [
+							-2,
+							0,
+							-8
+						],
+						"size": [
+							4,
+							8,
+							16
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.wypnt_bab.fence_gate",
+						"bone_visibility": {
+							"fence_gate_closed": false,
+							"fence_gate_open": false,
+							"fence_gate_open_inverted": false,
+							"post": false,
+							"fence_gate_closed_wall": false,
+							"fence_gate_open_wall": false,
+							"fence_gate_open_inverted_wall": false,
+							"post_wall": false
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:invisible') && q.block_state('wypnt_bab:open')",
+				"components": {
+					"minecraft:selection_box": false,
+					"minecraft:collision_box": false,
+					"minecraft:geometry": {
+						"identifier": "geometry.wypnt_bab.fence_gate",
+						"bone_visibility": {
+							"fence_gate_closed": false,
+							"fence_gate_open": false,
+							"fence_gate_open_inverted": false,
+							"post": false,
+							"fence_gate_closed_wall": false,
+							"fence_gate_open_wall": false,
+							"fence_gate_open_inverted_wall": false,
+							"post_wall": false
+						}
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:item_visual": {
+				"geometry": "geometry.wypnt_bab.fence_gate_visual",
+				"material_instances": {
+					"*": {
+					"texture": "wypnt_bab:chorus_planks",
+					"render_method": "alpha_test_single_sided"
+				}
+				}
+				},
+			"minecraft:geometry": {
+				"identifier": "geometry.wypnt_bab.fence_gate",
+				"bone_visibility": {
+					"fence_gate_closed": "!q.block_state('wypnt_bab:open') && !q.block_state('wypnt_bab:in_wall_bit')",
+					"fence_gate_open": "q.block_state('wypnt_bab:open') && (q.block_state('minecraft:cardinal_direction') == 'south' || q.block_state('minecraft:cardinal_direction') == 'west') && !q.block_state('wypnt_bab:in_wall_bit')",
+					"fence_gate_open_inverted": "q.block_state('wypnt_bab:open') && (q.block_state('minecraft:cardinal_direction') == 'north' || q.block_state('minecraft:cardinal_direction') == 'east') && !q.block_state('wypnt_bab:in_wall_bit')",
+					"post": "!q.block_state('wypnt_bab:in_wall_bit')",
+					"fence_gate_closed_wall": "!q.block_state('wypnt_bab:open') && q.block_state('wypnt_bab:in_wall_bit')",
+					"fence_gate_open_wall": "q.block_state('wypnt_bab:open') && (q.block_state('minecraft:cardinal_direction') == 'south' || q.block_state('minecraft:cardinal_direction') == 'west') && q.block_state('wypnt_bab:in_wall_bit')",
+					"fence_gate_open_inverted_wall": "q.block_state('wypnt_bab:open') && (q.block_state('minecraft:cardinal_direction') == 'north' || q.block_state('minecraft:cardinal_direction') == 'east') && q.block_state('wypnt_bab:in_wall_bit')",
+					"post_wall": "q.block_state('wypnt_bab:in_wall_bit')"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-2,
+					0,
+					-8
+				],
+				"size": [
+					4,
+					16,
+					16
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-2,
+					0,
+					-8
+				],
+				"size": [
+					4,
+					16,
+					16
+				]
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
+			},
+			"minecraft:tick": {
+				"interval_range": [
+					3,
+					3
+				]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 15 //15 because 3x5 is 15, and the resistance of the vanilla version is 3 
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:chorus_planks",
+					"render_method": "alpha_test_single_sided"
+				}
+			},
+			"tag:fence_gate": {},
+			"tag:one_way_collidable": {},
+			"tag:minecraft:is_axe_item_destructible": {},
+								"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
+			}
+		}
+	}
+}

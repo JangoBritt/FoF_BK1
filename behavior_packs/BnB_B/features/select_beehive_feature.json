@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "wypnt_bab:select_beehive_feature"
+    },
+    "features": [
+      [ "wypnt_bab:beehive_esw_order_feature", 1 ],
+      [ "wypnt_bab:beehive_swe_order_feature", 1 ],
+      [ "wypnt_bab:beehive_wes_order_feature", 1 ]
+    ]
+  }
+}

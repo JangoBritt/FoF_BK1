@@ -1,0 +1,35 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "wypnt_bab:standing_torch"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:torch"
+			},
+			"B": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{
+			  "item": "minecraft:torch"
+			}
+		  ],
+		"result": {
+			"item": "wypnt_bab:standing_torch",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

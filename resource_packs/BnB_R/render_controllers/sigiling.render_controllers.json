@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.wypnt_bab.sigiling": {
+			"arrays": {
+        "materials": {
+          "Array.materials": [ "Material.default", "Material.invisible" ]
+        }
+      },
+			"textures": ["query.is_invisible ? Texture.invisible : Texture.default"],
+			"materials": [ { "*": "Array.materials[query.is_invisible]" } ],
+			"geometry": "Geometry.default",
+			"uv_anim": {
+				"offset": [
+					0,
+					"math.mod(math.floor(query.life_time * 10),10) / 10"
+				],
+				"scale": [
+					1,
+					"1 / 10"
+				]
+			}
+		}
+	}
+}

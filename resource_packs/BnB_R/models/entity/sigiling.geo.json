@@ -1,0 +1,100 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.wypnt_bab.sigiling",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 13, 0],
+					"reset": true,
+					"cubes": [
+						{"origin": [-6, 13, -3], "size": [12, 21, 6], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 30, -4],
+					"cubes": [
+						{"origin": [-4, 28, -8], "size": [8, 8, 8], "uv": [36, 0]}
+					]
+				},
+				{
+					"name": "hat",
+					"parent": "head",
+					"pivot": [0, 30, -4],
+					"reset": true,
+					"cubes": [
+						{"origin": [-4, 27.5, -8], "size": [8, 8, 8], "inflate": -0.5, "uv": [44, 16]},
+						{"origin": [-3, 29, -4], "size": [6, 6, 3], "uv": [-3, 67]}
+					]
+				},
+				{
+					"name": "rightArm",
+					"parent": "body",
+					"pivot": [-7, 32, 0],
+					"reset": true,
+					"cubes": [
+						{"origin": [-11, 4, -3], "size": [5, 30, 6], "uv": [0, 27]}
+					]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm",
+					"pivot": [-10, 11, 1]
+				},
+				{
+					"name": "tendrils2",
+					"parent": "rightArm",
+					"pivot": [-9, 32, -0.5],
+					"cubes": [
+						{"origin": [-15, 4, 0], "size": [4, 33, 0], "uv": [120, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "leftArm",
+					"parent": "body",
+					"pivot": [7, 32, 0],
+					"reset": true,
+					"mirror": true,
+					"cubes": [
+						{"origin": [6, 4, -3], "size": [5, 30, 6], "uv": [22, 27], "mirror": false}
+					]
+				},
+				{
+					"name": "tendrils3",
+					"parent": "leftArm",
+					"pivot": [9, 32, -0.5],
+					"cubes": [
+						{"origin": [11, 4, 0], "size": [4, 33, 0], "uv": [120, 0]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"pivot": [-3, 13, 0],
+					"reset": true,
+					"cubes": [
+						{"origin": [-6.3, 0, -2], "size": [6, 13, 5], "uv": [44, 32]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"pivot": [3.3, 13, 0],
+					"reset": true,
+					"mirror": true,
+					"cubes": [
+						{"origin": [0.3, 0, -2], "size": [6, 13, 5], "uv": [44, 50], "mirror": false}
+					]
+				}
+			]
+		}
+	]
+}

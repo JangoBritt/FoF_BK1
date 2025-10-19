@@ -1,0 +1,69 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:tungsten_hoe",
+			"menu_category": {
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.hoe"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:durability": {
+				"max_durability": 1758,
+				"damage_chance": {
+					"min": 10,
+					"max": 50
+				}
+			},
+			"minecraft:damage": 5,
+			"minecraft:fire_resistant": {},
+			"minecraft:icon": "wypnt_bab:tungsten_hoe",
+			"minecraft:enchantable": {
+				"slot": "hoe",
+				"value": 11
+			},
+			"minecraft:display_name": {
+				"value": "item.wypnt_bab:tungsten_hoe.name"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('minecraft:is_hoe_item_destructible')"
+						},
+						"speed": 7
+					}
+				]
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:allow_off_hand": true,
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"wypnt_bab:tungsten_ingot"
+						],
+						"repair_amount": "q.max_durability * 0.25"
+					},
+					{
+						"items": [
+							"wypnt_bab:tungsten_hoe"
+						],
+						"repair_amount": "c.other -> q.remaining_durability + 0.12 * c.other -> q.max_durability"
+					}
+				]
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_hoe",
+				    "minecraft:diamond_tier",
+				    "minecraft:is_tool",
+					"wypnt_bab:tungsten_tier"
+				]
+			}
+		}
+	}
+}

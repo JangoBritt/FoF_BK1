@@ -1,0 +1,71 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:sulfur_bag",
+			"menu_category": {
+				"category": "construction"
+			},
+		"traits": {
+			"minecraft:placement_direction": {
+				"enabled_states": ["minecraft:facing_direction"]
+			}
+		}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'north' ",
+				"components": {
+					"minecraft:transformation": {"rotation": [0, 180, 0]}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'south' ",
+				"components": {
+					"minecraft:transformation": {"rotation": [0, 0, 0]}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'east' ",
+				"components": {
+					"minecraft:transformation": {"rotation": [0, 90, 0]}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'west' ",
+				"components": {
+					"minecraft:transformation": {"rotation": [0, 270, 0]}
+				}
+			}
+		],
+		"components": {
+			"minecraft:map_color": "#f3f7bc",
+			"minecraft:material_instances": {
+				"north": {
+					"texture": "wypnt_bab:sulfur_bag_front",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "wypnt_bab:sulfur_bag_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "wypnt_bab:sulfur_bag_bottom",
+					"render_method": "opaque"
+				},
+				"*": {
+					"texture": "wypnt_bab:sulfur_bag_side",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 2.5
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.5
+			},
+			"tag:minecraft:is_hoe_item_destructible": {}
+		}
+	}
+}

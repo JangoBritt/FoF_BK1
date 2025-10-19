@@ -15,16 +15,16 @@
 		],
 		"key": {
 			"#": {
-				"item": "korbon:baobab_slab"
+				"item": "wypnt_bab:baobab_slab"
 			}
 		},
 		"unlock": [
 			{
-				"item": "korbon:baobab_slab"
+				"item": "wypnt_bab:baobab_slab"
 			}
 		],
 		"result": {
-			"item": "korbon:baobab_planks",
+			"item": "wypnt_bab:baobab_planks",
 			"count": 1
 		}
 	}

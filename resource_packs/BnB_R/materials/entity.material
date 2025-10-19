@@ -1,0 +1,18 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "voidcaller:entity_emissive_alpha": {
+      "+defines": [ "USE_UV_ANIM", "BLEND" ]
+    },
+    "voidcaller_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_UV_ANIM", "BLEND", "USE_ONLY_EMISSIVE" ]
+    },
+    "nautiling:entity_alphatest": {
+            "+defines": [
+                "USE_UV_ANIM",
+                "ALPHA_TEST"
+            ]
+        }
+  }
+}

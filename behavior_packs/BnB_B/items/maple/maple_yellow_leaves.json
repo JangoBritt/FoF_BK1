@@ -1,0 +1,30 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wypnt_bab:maple_yellow_leaves",
+            "menu_category": {
+				"category": "nature",
+				"group": "minecraft:itemGroup.name.leaves"
+			}
+        }, 
+        "components": {
+        	"minecraft:tags": {
+        "tags": [
+      "wypnt_bab:custom_leaves"
+        ]
+      },
+      "minecraft:display_name": {
+                "value": "tile.wypnt_bab:maple_yellow_leaves.name"
+            },
+            "minecraft:compostable":{
+            	"composting_chance": 30
+            },
+
+            "minecraft:block_placer":{
+                "block": "wypnt_bab:maple_yellow_leaves",
+                "replace_block_item": true
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wypnt_bab:jacaranda_fence_gate"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "#~#", 
+            "#~#"
+        ],
+        "key": {
+            "~": {
+                "item": "wypnt_bab:jacaranda_planks"
+            },
+            "#": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": [
+			{
+				"item": "wypnt_bab:jacaranda_fence_gate",
+				"count": 1
+			}
+		],
+        "unlock": [
+            {
+              "item": "wypnt_bab:jacaranda_planks"
+            }
+          ]
+    }
+}

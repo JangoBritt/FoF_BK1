@@ -1,0 +1,173 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:crocodile_egg",
+            "states": {
+                "wypnt_bab:cracked_state": [
+					"no_cracks",
+					"cracked",
+					"max_cracked"
+                ]
+            },
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/crocodile_egg.json",
+			"wypnt_bab:crocodile_egg": {},
+            "minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+            "minecraft:random_offset": {
+                    "x": {
+                    "range": {
+                    "min": -4,
+                    "max": 4
+                    },
+                    "steps": 16
+                },
+                "y": {
+                    "range": {
+                    "min": 0,
+                    "max": 0
+                    },
+                    "steps": 16
+                },
+                "z": {
+                    "range": {
+                    "min": -4,
+                    "max": 4
+                    },
+                    "steps": 16
+                }
+            },           
+			"minecraft:collision_box": {
+				"origin": [-2, 0, -2],
+				"size": [4, 5, 4]
+			},
+			"minecraft:selection_box": {
+				"origin": [-2, 0, -2],
+				"size": [4, 5, 4]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.5
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 2.5
+			},
+			"minecraft:geometry": "geometry.wypnt_bab.crocodile_egg",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:crocodile_egg",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('wypnt_bab:cracked_state') == 'no_cracks'",
+					"components": {
+						"minecraft:tick": {
+							"looping": true,
+							"interval_range": [
+								16000,
+								22000
+							]
+						},
+						"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:crocodile_egg",
+							"render_method": "opaque"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:cracked_state') == 'cracked'",
+					"components": {
+						"minecraft:tick": {
+							"looping": true,
+							"interval_range": [
+								40,
+								60
+							]
+						},
+						"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:crocodile_egg_cracked",
+							"render_method": "opaque"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:cracked_state') == 'max_cracked'",
+					"components": {
+						"minecraft:tick": {
+							"looping": true,
+							"interval_range": [
+								40,
+								60
+							]
+						},
+						"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:crocodile_egg_max_cracked",
+							"render_method": "opaque"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			}
+		]
+	}
+}

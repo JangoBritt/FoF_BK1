@@ -1,0 +1,132 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:mullein",
+		"states": {
+				"wypnt_bab:top": [
+					false,
+					true
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "!q.block_state('wypnt_bab:top')",
+				"components": {
+					"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:mullein_bottom",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							{
+                    "tags": "q.any_tag('dirt', 'sand')"
+                }
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/mullein.json"
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:top')",
+				"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:mullein_top",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:movable": {
+        "movement_type": "immovable"
+      },
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"wypnt_bab:mullein"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/empty.json"
+				}
+			}
+			],
+		"components": {
+			"wypnt_bab:double_block": {
+        "upside_down": false, // if the block is upside down, like the glow berries 
+        "states": { // states
+            "wypnt_bab:top": true
+        }
+    },
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:mullein_bottom",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:collision_box": false,
+			"minecraft:map_color": "#144d12",
+				"wypnt_bab:flowerSpread":{},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 60,
+				"destroy_chance_modifier": 100
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			},
+			"tag:wypnt_bab:flowers": {},
+			"wypnt_bab:prevent_place_with_liquid_above": {}
+		}
+	}
+}

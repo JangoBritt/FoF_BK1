@@ -1,0 +1,72 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wypnt_bab.deer.walk": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"bob": "query.is_alive"
+						},
+						{
+							"idle": "query.is_alive&&!query.is_moving"
+						},
+						{
+							"walk": "query.modified_move_speed"
+						},
+						{
+							"look_at_target": "query.is_alive"
+						}
+					],
+					"transitions": [
+						{
+							"graze": "query.is_grazing"
+						},
+						{
+							"sprint": "query.is_avoiding_mobs&&query.is_moving"
+						}
+					],
+					"blend_transition": 0.45
+				},
+				"graze": {
+					"animations": [
+						"grazing"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_grazing"
+						}
+					],
+					"blend_transition": 0.1
+				},
+				"sprint": {
+					"animations": [
+						{
+							"run": "query.modified_move_speed"
+						}
+					],
+					"transitions": [
+						{
+							"default": "!query.is_avoiding_mobs&&!query.is_moving"
+						}
+					],
+					"blend_transition": 0.45
+				}
+			}
+		},
+		"controller.animation.wypnt_bab.deer.baby_transform": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"baby_transform": "query.is_baby"
+						}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}

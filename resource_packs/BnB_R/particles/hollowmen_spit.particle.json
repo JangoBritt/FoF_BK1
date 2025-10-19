@@ -1,0 +1,71 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "wypnt_bab:hollowmen_spit",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/coreblockstudios/biomesandbeyond/particles/void_jelly"
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 100
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_shape_box": {
+				"half_dimensions": [0.2, 0.1, 0.2],
+				"direction": [0, 0, "math.random(-0.1,-1)"]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "math.random(0.01,0.5)"
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": 1,
+				"rotation_rate": 1
+			},
+			"minecraft:particle_initial_speed": "math.random(1,3)",
+			"minecraft:particle_motion_dynamic": {
+				"linear_acceleration": [0, -10, 0],
+				"linear_drag_coefficient": 0.2
+			},
+			"minecraft:particle_motion_parametric": {
+				"rotation": 5
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": [0.03, 0.03],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 128,
+					"flipbook": {
+						"base_UV": ["Math.floor(v.particle_random_3 * 2) * 8", "Math.floor(v.particle_random_4 * 2) * 8"],
+						"size_UV": [8, 8],
+						"step_UV": [0, 16],
+						"frames_per_second": 12,
+						"max_frame": 8,
+						"stretch_to_lifetime": true
+					}
+				}
+			},
+			"minecraft:particle_motion_collision": {
+				"collision_drag": 0.2,
+				"coefficient_of_restitution": 0.6,
+				"collision_radius": 0.2,
+				"expire_on_contact": true
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.0": "#000B8045",
+						"0.5": "#FF0B8045",
+						"0.68": "#000B8045"
+					}
+				}
+			}
+		}
+	}
+}

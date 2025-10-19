@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "wypnt_bab:brown_mushrooms_from_tinder_mushrooms"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "wypnt_bab:shelf_mushrooms"
+			}
+		},
+		"result": {
+			"item": "minecraft:brown_mushroom",
+			"count": 3
+		},
+		"unlock": [
+			{
+			  "item": "wypnt_bab:shelf_mushrooms"
+			}
+		  ]
+	}
+}

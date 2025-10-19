@@ -1,0 +1,57 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:tree_feature": {
+		"description": {
+			"identifier": "wypnt_bab:cobbled_endstone_rock_feature"
+		},
+		"trunk": {
+			"trunk_height": 1,
+			"trunk_block": {
+				"name": "wypnt_bab:cobbled_end_stone"
+			}
+		},
+		"canopy": {
+			"canopy_offset": {
+				"min": -1,
+				"max": 0
+			},
+			"leaf_block": {
+				"name": "wypnt_bab:cobbled_end_stone"
+			},
+			"min_width": 1,
+			"canopy_slope": {
+				"rise": 1,
+				"run": 1
+			},
+			"variation_chance": {
+				"numerator": 2,
+				"denominator": 2
+			}
+		},
+		"base_block": [
+			"minecraft:end_stone"
+		],
+		"may_grow_on": [
+			"wypnt_bab:void_turf",
+			"wypnt_bab:velvium"
+		],
+		"may_replace": [
+			"minecraft:water",
+			"minecraft:air",
+			"wypnt_bab:void_turf_grass",
+			"wypnt_bab:void_turf",
+			"wypnt_bab:velvium",
+			"wypnt_bab:velvium_grass",
+			"wypnt_bab:rotveil",
+			"wypnt_bab:rotveil_grass"						
+		],
+		"may_grow_through": [
+			"wypnt_bab:void_turf_grass",
+			"wypnt_bab:void_turf",
+			"wypnt_bab:velvium",
+			"wypnt_bab:velvium_grass",
+			"wypnt_bab:rotveil",
+			"wypnt_bab:rotveil_grass"			
+		]
+	}
+}

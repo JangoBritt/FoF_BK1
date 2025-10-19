@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "wypnt_bab:redwood_forest"
+    },
+    "components": {
+      "minecraft:water_appearance": {
+        "surface_color": "#1E97F2"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#7dad5d"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "redwood_taiga_mutated"
+      }
+    }
+  }
+}

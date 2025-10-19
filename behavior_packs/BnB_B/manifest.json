@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+        "description": "pack.description",
+		"uuid": "2c8c6968-36bd-f892-3f26-cf1284d177c3",
+		"version": [0, 9, 0],
+		"min_engine_version": [1, 21, 90]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "218e5516-16fa-4bd9-460b-7758a75c3a58",
+			"type": "data"
+		},
+		{
+			"type": "script",
+			"uuid": "20db6292-772e-4bae-9584-89bb7cc4b847",
+			"version": [1, 0, 1],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "2114d0f4-b381-4c2b-9066-8253301b9030",
+			"version": [0, 9, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	],
+		"metadata": {
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.0"],
+			"blockbench_entity_wizard": ["1.7.0"],
+			"blockbench_block_wizard": ["1.4.1"]
+		}
+	}
+}

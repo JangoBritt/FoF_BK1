@@ -1,0 +1,30 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wypnt_bab:chorus_planks",
+            "menu_category": {
+				"category": "construction",
+				"group": "minecraft:itemGroup.name.planks"
+			}
+        }, 
+        "components": {
+          "minecraft:tags": {
+        "tags": [
+      "minecraft:planks"
+        ]
+      },
+            "minecraft:fuel": {
+            "duration": 15
+              },
+              "minecraft:display_name": {
+                "value": "tile.wypnt_bab:chorus_planks.name"
+            },
+
+            "minecraft:block_placer":{
+                "block": "wypnt_bab:chorus_planks",
+                "replace_block_item": true
+            }
+        }
+    }
+}

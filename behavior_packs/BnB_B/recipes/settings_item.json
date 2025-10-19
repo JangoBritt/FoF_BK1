@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "wypnt_bab:settings_item"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:stick"
+			},
+			{
+				"item": "minecraft:cobblestone"
+			}
+		],
+		"result": {
+			"item": "wypnt_bab:personal_settings",
+			"count": 1
+		},
+		"unlock": [
+			{
+			  "item": "minecraft:stick"
+			}
+		  ]
+	}
+}

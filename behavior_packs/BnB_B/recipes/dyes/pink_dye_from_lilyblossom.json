@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "wypnt_bab:pink_dye_from_lilyblossom"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "group": "pink_dye",
+    "ingredients": [
+      {
+        "item": "wypnt_bab:lily_blossom"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "wypnt_bab:lily_blossom"
+      }
+    ],
+    "result": {
+      "item": "minecraft:pink_dye"
+    }
+  }
+}

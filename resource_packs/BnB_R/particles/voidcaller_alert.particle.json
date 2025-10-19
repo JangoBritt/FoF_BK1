@@ -1,0 +1,53 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "wypnt_bab:voidcaller_alert",
+			"basic_render_parameters": {
+				"material": "particles_blend",
+				"texture": "textures/coreblockstudios/biomesandbeyond/particles/voidcaller_alert"
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 4,
+				"max_particles": 10
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 4
+			},
+			"minecraft:emitter_shape_point": {
+				"direction": [0, 0.5, -1]
+			},
+			"minecraft:particle_initialization": {
+				"per_render_expression": "variable.size = 0.85 * math.clamp(variable.particle_age / variable.particle_lifetime * 0.75, 0.0, 1.0);"
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 1.5
+			},
+			"minecraft:particle_initial_speed": 1.4,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["variable.size", "variable.size"],
+				"facing_camera_mode": "lookat_xyz",
+				"uv": {
+					"texture_width": 4,
+					"texture_height": 4,
+					"uv": [0, 0],
+					"uv_size": [4, 4]
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.0": "#00FFFFFF",
+						"0.23": "#FF828282",
+						"0.85": "#FFFFFFFF",
+						"1.0": "#00FFFFFF"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "void_blossom_bush_bottom",
+		"metalness_emissive_roughness": "void_blossom_bush_bottom_mer",
+		"heightmap": "void_blossom_bush_bottom_height"
+	}
+}

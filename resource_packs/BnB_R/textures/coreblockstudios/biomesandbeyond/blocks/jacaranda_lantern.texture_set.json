@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "jacaranda_lantern",
+		"metalness_emissive_roughness": "jacaranda_lantern_mer"
+	}
+}

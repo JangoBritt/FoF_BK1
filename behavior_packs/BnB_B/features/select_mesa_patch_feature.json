@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:select_mesa_patch_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:coarse_dirt_scatter_feature",
+				1
+			],
+			[
+				"wypnt_bab:mesa_grass_patch_with_dirt_feature",
+				1
+			]
+		]
+	}
+}

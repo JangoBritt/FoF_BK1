@@ -1,0 +1,1 @@
+execute as @a if entity @e[type=!wypnt_bab:weather_detect,r=128] run fog @a[r=128] remove sandstorm

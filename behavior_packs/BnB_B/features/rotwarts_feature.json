@@ -1,0 +1,22 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:rotwarts_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:rotwarts_0_feature",
+				1
+			],
+			[
+				"wypnt_bab:rotwarts_1_feature",
+				2
+			], 
+			[
+				"wypnt_bab:rotwarts_2_feature",
+				1
+			]
+		]
+	}
+}

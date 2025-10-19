@@ -1,0 +1,247 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "wypnt_bab:weather_detect",
+			"spawn_category": "misc",
+			"is_spawnable": false,
+			"is_summonable": true
+		},
+		"component_groups": {
+			"wypnt_bab:weather_detect": {
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "desert"
+									},
+									{
+										"test": "weather",
+										"operator": "equals",
+										"value": "thunderstorm"
+									}
+								]
+							},
+							"event": "wypnt_bab:weather_sandstorm"
+						},
+						{
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "frozen"
+									},
+									{
+										"test": "weather",
+										"operator": "equals",
+										"value": "thunderstorm"
+									}
+								]
+							},
+							"event": "wypnt_bab:weather_blizzard"
+						},
+						{
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "cold"
+									},
+									{
+										"test": "weather",
+										"operator": "equals",
+										"value": "thunderstorm"
+									}
+								]
+							},
+							"event": "wypnt_bab:weather_blizzard"
+						},
+						{
+							"filters": {
+								"all_of": [
+									{
+										"test": "weather",
+										"operator": "==",
+										"value": "clear"
+									}
+								]
+							},
+							"event": "wypnt_bab:weather_despawn"
+						}
+					]
+				}
+			},
+			"wypnt_bab:weather_timer": {
+				"minecraft:timer": {
+					"looping": true,
+					"time": [
+						6,
+						6
+					],
+					"time_down_event": {
+						"event": "minecraft:entity_spawned"
+					}
+				}
+			},
+			"wypnt_bab:weather_despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.22,
+				"height": 0.22
+			},
+			"minecraft:buoyant": {
+				"apply_gravity": false,
+				"liquid_blocks": [
+					"minecraft:flowing_water",
+					"minecraft:water"
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 0
+					}
+				]
+			},
+			"minecraft:jump.static": {},
+			"minecraft:type_family": {
+				"family": [
+					"weather"
+				]
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": "no"
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"add": {
+							"component_groups": [
+								"wypnt_bab:weather_detect"
+							]
+						},
+						"weight": 1
+					},
+					{
+						"add": {
+							"component_groups": [
+								"wypnt_bab:weather_despawn"
+							]
+						}
+					}
+				]
+			},
+			"wypnt_bab:weather_sandstorm": {
+				"trigger": "wypnt_bab:weather_sandstorm_effect",
+				"remove": {
+					"component_groups": [
+						"wypnt_bab:weather_detect"
+					]
+				}
+			},
+			"wypnt_bab:weather_sandstorm_effect": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "execute as @a[tag=storms_enabled,r=64] run particle wypnt_bab:sandstorm ~~~"
+						}
+					},
+					{
+						"queue_command": {
+							"command": "execute as @a[tag=storms_enabled,r=64] run particle wypnt_bab:sandstorm_dust ~~~"
+						}
+					},
+					{
+						"queue_command": {
+							"command": "execute as @a[tag=storms_enabled,r=64] run playsound sandstorm.ambient @s"
+						},
+						"trigger": "wypnt_bab:weather_random_despawn"
+					}
+				]
+			},
+			"wypnt_bab:weather_despawn": {
+				"add": {
+					"component_groups": [
+						"wypnt_bab:weather_despawn"
+					]
+				}
+			},
+			"wypnt_bab:weather_random_despawn": {
+				"randomize": [
+					{
+						"add": {
+							"component_groups": [
+								"wypnt_bab:weather_timer"
+							]
+						},
+						"weight": 2
+					},
+					{
+						"add": {
+							"component_groups": [
+								"wypnt_bab:weather_despawn"
+							]
+						},
+						"weight": 1
+					}
+				]
+			},
+			"wypnt_bab:weather_blizzard": {
+				"trigger": "wypnt_bab:weather_blizzard_effect",
+				"remove": {
+					"component_groups": [
+						"wypnt_bab:weather_detect"
+					]
+				}
+			},
+			"wypnt_bab:weather_blizzard_effect": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "execute as @a[tag=storms_enabled,r=64] run particle wypnt_bab:snowstorm_fog ~~~"
+						}
+					},
+					{
+						"queue_command": {
+							"command": "execute as @a[tag=storms_enabled,r=64] run playsound sandstorm.ambient @s"
+						},
+						"trigger": "wypnt_bab:weather_random_despawn"
+					}
+				]
+			}
+		}
+	}
+}

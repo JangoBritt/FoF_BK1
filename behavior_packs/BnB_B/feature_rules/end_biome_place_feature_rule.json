@@ -1,0 +1,35 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "wypnt_bab:end_biome_place_feature_rule",
+            "places_feature": "wypnt_bab:end_biomes/end_block_picker"
+        },
+        "conditions": {
+            "placement_pass": "before_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "the_end"
+						}
+					]
+				}
+			]
+		},
+        "distribution": {
+            "iterations": 256,
+            "x": {
+                "distribution": "fixed_grid",
+                "extent": [ 0, 15 ]
+            },
+            "z": {
+                "distribution": "fixed_grid",
+                "extent": [ 0, 15 ]
+            },
+            "y": "t.x = v.worldx / 125.0; t.z = v.worldz / 125.0; t.rn = math.abs(q.noise(0.48 * t.x + 3171.3, 0.48 * t.z + 2401.7) * 0.26 + q.noise(0.052 * t.x - 1283.5, 0.052 * t.z - 1283.5)); t.o = q.noise(v.worldz / 12.7, v.worldx / 12.7); t.px = t.x / 2.02 + t.o * 0.027 + t.rn; t.pz = t.z / 2.02 + t.o * 0.027 + t.rn; t.c1 = 0.0; t.n1 = 998.7; t.n2 = 998.7; t.i = 0; loop(9, { t.p1x = math.mod(t.i, 1); t.p1z = math.floor(t.i / 1); t.p2x = math.floor(t.px) + t.p1x; t.p2z = math.floor(t.pz) + t.p1z; t.rx = 0; t.rz = 0; t.p3x = math.mod(t.p2x * 0.1043, 1); t.p3y = math.mod(t.p2z * 0.1028, 1); t.p3z = math.mod(t.p2x * 0.0981, 1); t.p3d = t.p3x * (t.p3y + 33.37) + t.p3y * (t.p3z + 33.37) + t.p3z * (t.p3x + 33.37); t.p3x = t.p3x + t.p3d; t.p3y = t.p3y + t.p3d; t.p3z = t.p3z + t.p3d; t.rx = math.mod((t.p3x + t.p3y) * t.p3z, 1); t.rz = math.mod((t.p3x + t.p3z) * t.p3y, 1); t.d4x = t.p2x + t.rx - t.px; t.d4z = t.p2z + t.rz - t.pz; t.d2 = t.d4x * t.d4x + t.d4z * t.d4z; (t.d2 < t.n1) ? { t.n2 = t.n1; t.n1 = t.d2; t.c1 = t.rx; } : { (t.d2 < t.n2) ? { t.n2 = t.d2; }; }; t.i = t.i + 1; }); t.end_biome = math.floor(t.c1 * 6.2); return (math.abs(v.worldx) > 202 || math.abs(v.worldz) > 202) ? q.heightmap(v.worldx, v.worldz) - 1 : -1;"
+        }
+    }
+}

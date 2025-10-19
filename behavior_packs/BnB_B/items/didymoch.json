@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:didymoch",
+			"menu_category": {
+				"category": "nature",
+				"group": "minecraft:itemGroup.name.flower"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": "wypnt_bab:didymoch",
+			"minecraft:display_name": {
+				"value": "tile.wypnt_bab:didymoch.name"
+			},
+			"minecraft:block_placer": {
+				"block": "wypnt_bab:didymoch",
+				"replace_block_item": true
+			}
+		}
+	}
+}

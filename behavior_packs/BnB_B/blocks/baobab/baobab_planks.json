@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:baobab_planks"
+		},
+		"components": {
+			"minecraft:light_dampening": 4,
+			"minecraft:map_color": "#9C7DC4",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 15 //15 because 3x5 is 15, and the resistance of the vanilla version is 3 
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2// because vanilla is 2
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
+			},
+			"tag:minecraft:is_axe_item_destructible": {}
+		}
+	}
+}

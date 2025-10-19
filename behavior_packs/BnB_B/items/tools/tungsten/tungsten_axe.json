@@ -1,0 +1,69 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:tungsten_axe",
+			"menu_category": {
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.axe"
+			}
+		},
+		"components": {
+			"minecraft:hand_equipped": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:mining_speed": 7,
+			"minecraft:durability": {
+				"max_durability": 1758,
+				"damage_chance": {
+					"min": 10,
+					"max": 50
+				}
+			},
+			"minecraft:fire_resistant": {},
+			"minecraft:enchantable": {
+				"value": 11,
+				"slot": "axe"
+			},
+			"minecraft:damage": 6,
+			"minecraft:display_name": {
+				"value": "item.wypnt_bab:tungsten_axe.name"
+			},
+			"minecraft:icon": "wypnt_bab:tungsten_axe",
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('minecraft:is_axe_item_destructible')"
+						},
+						"speed": 7
+					}
+				]
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"wypnt_bab:tungsten_ingot"
+						],
+						"repair_amount": "q.max_durability * 0.25"
+					},
+					{
+						"items": [
+							"wypnt_bab:tungsten_axe"
+						],
+						"repair_amount": "c.other -> q.remaining_durability + 0.12 * c.other -> q.max_durability"
+					}
+				]
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_axe",
+					"minecraft:diamond_tier",
+				    "minecraft:is_tool",
+					"wypnt_bab:tungsten_tier"
+				]
+			}
+		}
+	}
+}

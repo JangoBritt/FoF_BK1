@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "wypnt_bab:aloe_vera_leaf"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "wypnt_bab:aloe_vera"
+			}
+		],
+		"result": {
+			"item": "wypnt_bab:aloe_vera_leaf",
+			"count": 3
+		},
+		"unlock": [
+			{
+			  "item": "wypnt_bab:aloe_vera"
+			}
+		  ]
+	}
+}

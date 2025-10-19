@@ -1,0 +1,58 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "wypnt_bab:dweller",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_underground": {},
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "minecraft:weight": {
+          "default": 100
+        },
+        "minecraft:herd": {
+          "min_size": 2,
+          "max_size": 3
+        },
+		"minecraft:height_filter": {
+			"min": -63,
+			"max": 0
+		},
+        "minecraft:biome_filter": {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forsaken_depths"
+            },
+						{
+							"all_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "monster"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "deep_dark"
+								}
+							]
+						}
+          			]
+        		}
+      		}
+    	]
+  	}
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "wypnt_bab:end_stone_furnace"
+        },
+        "input": "wypnt_bab:cobbled_end_stone",
+        "output": "minecraft:end_stone",
+        "unlock": [
+          {
+            "item": "wypnt_bab:cobbled_end_stone"
+          }
+        ],
+        "tags": [
+            "furnace"
+        ]
+    }
+}

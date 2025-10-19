@@ -1,0 +1,53 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "wypnt_bab:lurker",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/coreblockstudios/biomesandbeyond/entity/lurker"
+			},
+			"geometry": {
+				"default": "geometry.wypnt_bab.lurker"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+				],
+				"animate": [
+					"look_at_target_contoller",
+					"walk_contoller",
+					"idle_contoller",
+					"chase_contoller"
+				]
+			},
+			"animations": {
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+				"look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+				"look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+				"walk": "animation.wypnt_bab.lurker.walk",
+				"idle": "animation.wypnt_bab.lurker.bob",
+				"chase": "animation.wypnt_bab.lurker.chase",
+				"no_target": "animation.wypnt_bab.lurker.idle_no_target",
+				"look_at_target_contoller": "controller.animation.humanoid.look_at_target",
+				"walk_contoller": "controller.animation.wypnt_bab.lurker.walk",
+				"idle_contoller": "controller.animation.wypnt_bab.lurker.idle",
+				"chase_contoller": "controller.animation.wypnt_bab.lurker.chase"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"enable_attachables": true,
+			"spawn_egg": {
+				"texture": "wypnt_bab:lurker_spawn_egg"
+			},
+			"sound_effects": {
+				"cry": "mob.wypnt_bab.lurker.cry",
+				"cry2": "mob.wypnt_bab.lurker.cry2",
+				"cry3": "mob.wypnt_bab.lurker.cry3"
+			}
+		}
+	}
+}

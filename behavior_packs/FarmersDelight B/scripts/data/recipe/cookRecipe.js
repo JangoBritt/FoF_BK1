@@ -13,10 +13,9 @@ const vanillaItemList = [
     "minecraft:salmon",
     //Fables
     "nicothekid:rat_raw",
-    //Expansive Biomes
-    "korbon:crocodile_meat_raw",
-    "korbon:frog_leg_raw",
-    "korbon:venison_raw",
+    //Biomes & Beyond
+    "wypnt_bab:crocodile_meat",
+    "wypnt_bab:venison",
     //better_on_bedrock
     "better_on_bedrock:beef_patty_raw",
     "better_on_bedrock:raw_deer_meat",

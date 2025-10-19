@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "wypnt_bab:stonecutter_redwood_log_stripped"
+    },
+    "tags": [ "stonecutter" ],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "wypnt_bab:redwood_log"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "wypnt_bab:redwood_log"
+      }
+    ],
+    "result": {
+      "item": "wypnt_bab:stripped_redwood_log",
+      "count": 1
+    }
+  }
+}

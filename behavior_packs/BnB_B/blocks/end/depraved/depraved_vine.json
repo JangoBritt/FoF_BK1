@@ -1,0 +1,153 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:depraved_vine",
+			"states": {
+				"wypnt_bab:body": [
+					false,
+					true
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "!q.block_state('wypnt_bab:body')",
+				"components": {
+					"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:depraved_vine_head",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"down"
+						],
+						"block_filter": [
+							"minecraft:oak_leaves",
+							"minecraft:spruce_leaves",
+							"minecraft:birch_leaves",
+							"minecraft:jungle_leaves",
+							"minecraft:acacia_leaves",
+							"minecraft:dark_oak_leaves",
+							"minecraft:mangrove_leaves",
+							"minecraft:cherry_leaves",
+							"minecraft:pale_oak_leaves",
+							{
+                    "tags": "q.any_tag('wypnt_bab:custom_leaves')"
+                },
+							"wypnt_bab:depraved_vine",
+							"wypnt_bab:depraved_wart_block"
+						]
+					},
+										{
+						"allowed_faces": [
+							"down"
+						],
+                        "block_filter": [
+                            {
+                                "tags": "query.any_tag('minecraft:is_pickaxe_item_destructible') || query.any_tag('minecraft:is_shovel_item_destructible') || query.any_tag('minecraft:is_axe_item_destructible') || query.any_tag('minecraft:is_hoe_item_destructible') || query.any_tag('minecraft:is_shears_item_destructible') || query.any_tag('minecraft:is_sword_item_destructible')"
+                            }
+                        ]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/depraved_vine.json"
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:body')",
+				"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:depraved_vine_body",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"down"
+						],
+						"block_filter": [
+							"minecraft:oak_leaves",
+							"minecraft:spruce_leaves",
+							"minecraft:birch_leaves",
+							"minecraft:jungle_leaves",
+							"minecraft:acacia_leaves",
+							"minecraft:dark_oak_leaves",
+							"minecraft:mangrove_leaves",
+							"minecraft:cherry_leaves",
+							"minecraft:pale_oak_leaves",
+							{
+                    "tags": "q.any_tag('wypnt_bab:custom_leaves')"
+                },
+							"wypnt_bab:depraved_vine",
+							"wypnt_bab:depraved_wart_block"
+						]
+					},
+					{
+						"allowed_faces": [
+							"down"
+						],
+                        "block_filter": [
+                            {
+                                "tags": "query.any_tag('minecraft:is_pickaxe_item_destructible') || query.any_tag('minecraft:is_shovel_item_destructible') || query.any_tag('minecraft:is_axe_item_destructible') || query.any_tag('minecraft:is_hoe_item_destructible') || query.any_tag('minecraft:is_shears_item_destructible') || query.any_tag('minecraft:is_sword_item_destructible')"
+                            }
+                        ]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/depraved_vine.json"
+				}
+			}
+			],
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			
+			"minecraft:collision_box": false,
+			"minecraft:map_color": "#673A08",
+			"minecraft:flammable": {
+				"burn_odds": 15,
+				"flame_odds": 15
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			},
+						"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			}
+		}
+	}
+}

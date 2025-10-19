@@ -1,0 +1,19 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:lichen_carpet_cave_place_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:lichen_carpet_cave_scatter_feature",
+				2
+			],
+			[
+				"wypnt_bab:forsaken_depths_tree_scatter_feature",
+				1
+			]
+			
+		]
+	}
+}

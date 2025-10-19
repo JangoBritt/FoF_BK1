@@ -1,0 +1,39 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:strata",
+			"menu_category": {
+				"category": "nature",
+				"group": "wypnt_bab:itemGroup.name.strata"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#f3f7bc",
+			"minecraft:material_instances": {
+				"up": {
+					"texture": "wypnt_bab:strata_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "wypnt_bab:strata_top",
+					"render_method": "opaque"
+				},
+				"*": {
+					"texture": "wypnt_bab:strata",
+					"render_method": "opaque",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				}
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 4
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.8
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

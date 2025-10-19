@@ -1,0 +1,26 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:daisy_petals_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:daisy_petals1_feature",
+				1
+			],
+			[
+				"wypnt_bab:daisy_petals2_feature",
+				1
+			],
+			[
+				"wypnt_bab:daisy_petals3_feature",
+				1
+			],
+			[
+				"wypnt_bab:daisy_petals4_feature",
+				1
+			]
+		]
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "wypnt_bab:forsaken_oak_leaves",
+		"menu_category": {
+		  "category": "nature",
+		  "group": "minecraft:itemGroup.name.leaves"
+		},
+		"states": {
+		  "wypnt_bab:playerPlaced": [false, true]
+		}
+	  },
+	  "components": {
+		"minecraft:destructible_by_explosion": {
+		  "explosion_resistance": 1
+		},
+		"minecraft:geometry": {
+			"identifier": "geometry.wypnt_bab.leaf_block",
+			"culling": "wypnt_bab:full_block",
+			"culling_layer": "minecraft:culling_layer.leaves"
+		},
+		"minecraft:movable": {
+        "movement_type": "popped"
+      },
+		"minecraft:destructible_by_mining": {
+		  "seconds_to_destroy": 0.2
+		},
+		"minecraft:collision_box": {
+		  "origin": [-8, 0, -8],
+		  "size": [16, 16, 16]
+		},
+		"minecraft:selection_box": {
+		  "origin": [-8, 0, -8],
+		  "size": [16, 16, 16]
+		},
+		"minecraft:map_color": "#204223",
+		"minecraft:light_dampening": 10,
+		"minecraft:material_instances": {
+			"*": {
+				"texture": "wypnt_bab:forsaken_oak_leaves",
+				"ambient_occlusion": true,
+				"render_method": "alpha_test_to_opaque"
+			},
+			"up": {
+					"texture": "wypnt_bab:forsaken_oak_leaves",
+					"ambient_occlusion": true,
+					"isotropic": true,
+					"render_method": "alpha_test_to_opaque"
+				},
+				"down": {
+					"texture": "wypnt_bab:forsaken_oak_leaves",
+					"ambient_occlusion": true,
+					"isotropic": true,
+					"render_method": "alpha_test_to_opaque"
+				}
+		},
+		"minecraft:flammable": {
+				"catch_chance_modifier": 30,
+				"destroy_chance_modifier": 60
+			},
+			"wypnt_bab:leaf_decay":{},
+		"minecraft:tick": {
+		  "interval_range": [100,120]
+		},
+		"minecraft:loot": "loot_tables/empty.json",
+		"tag:minecraft:is_hoe_item_destructible": {},
+		"tag:wypnt_bab:custom_leaves": {},
+		"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
+			}
+	  }
+	}
+  }
+  

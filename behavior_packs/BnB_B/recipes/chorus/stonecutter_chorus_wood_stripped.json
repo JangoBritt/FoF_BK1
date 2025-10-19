@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "wypnt_bab:stonecutter_chorus_wood_stripped"
+    },
+    "tags": [ "stonecutter" ],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "wypnt_bab:chorus_wood"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "wypnt_bab:chorus_wood"
+      }
+    ],
+    "result": {
+      "item": "wypnt_bab:stripped_chorus_wood",
+      "count": 1
+    }
+  }
+}

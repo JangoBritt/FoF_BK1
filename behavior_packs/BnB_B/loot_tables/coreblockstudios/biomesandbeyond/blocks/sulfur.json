@@ -1,0 +1,112 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "minecraft:match_tool_filter_all": [ "minecraft:is_pickaxe" ],
+                    "minecraft:match_tool_filter_any": [ "minecraft:iron_tier", "minecraft:diamond_tier", "minecraft:netherite_tier" ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wypnt_bab:sulfur"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "minecraft:match_tool_filter_all": [ "minecraft:is_pickaxe" ],
+                    "minecraft:match_tool_filter_any": [ "minecraft:iron_tier", "minecraft:diamond_tier", "minecraft:netherite_tier" ],
+                    "enchantments": [  
+                        {  
+                            "enchantment": "fortune",  
+                            "levels": {
+                                "range_min": 1,
+                                "range_max": 1
+                            }  
+                        }  
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wypnt_bab:sulfur",
+                    "functions": [{
+                        "function": "set_count",
+                        "count": {
+                            "min": 1,
+                            "max": 2
+                    }}]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "minecraft:match_tool_filter_all": [ "minecraft:is_pickaxe" ],
+                    "minecraft:match_tool_filter_any": [ "minecraft:iron_tier", "minecraft:diamond_tier", "minecraft:netherite_tier" ],
+                    "enchantments": [  
+                        {  
+                            "enchantment": "fortune",  
+                            "levels": {
+                                "range_min": 2,
+                                "range_max": 2
+                            }  
+                        }  
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wypnt_bab:sulfur",
+                    "functions": [{
+                        "function": "set_count",
+                        "count": {
+                            "min": 1,
+                            "max": 3
+                    }}]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "minecraft:match_tool_filter_all": [ "minecraft:is_pickaxe" ],
+                    "minecraft:match_tool_filter_any": [ "minecraft:iron_tier", "minecraft:diamond_tier", "minecraft:netherite_tier" ],
+                    "enchantments": [  
+                        {  
+                            "enchantment": "fortune",  
+                            "levels": {
+                                "range_min": 3
+                            }  
+                        }  
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wypnt_bab:sulfur",
+                    "functions": [{
+                        "function": "set_count",
+                        "count": {
+                            "min": 1,
+                            "max": 4
+                    }}]
+                }
+            ]
+        }
+    ]
+}

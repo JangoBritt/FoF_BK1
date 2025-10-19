@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:select_forsaken_ground_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:whispering_willow_feature",
+				1
+			],
+			[
+				"wypnt_bab:lichen_carpet_cave_deepslate_feature",
+				5
+			]
+		]
+	}
+}

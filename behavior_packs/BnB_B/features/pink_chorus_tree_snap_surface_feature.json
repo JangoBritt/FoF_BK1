@@ -1,0 +1,18 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:snap_to_surface_feature": {
+        "description": {
+            "identifier": "wypnt_bab:pink_chorus_tree_snap_surface_feature"
+        },
+        "feature_to_snap": "wypnt_bab:popped_chorus_tree_feature",
+        "surface": "floor",
+        "vertical_search_range": 3,
+        "allow_air_placement": true,
+        "allow_underwater_placement": true,
+        "allowed_surface_blocks": [
+            {
+                "name": "wypnt_bab:velvium"
+            }
+        ]
+    }
+}

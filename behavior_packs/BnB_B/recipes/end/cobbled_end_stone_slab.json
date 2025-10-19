@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wypnt_bab:cobbled_end_stone_slab"
+        },
+        "key": {
+            "#": {
+                "item": "wypnt_bab:cobbled_end_stone"
+            }
+        },
+        "pattern": [
+            "###"
+        ],
+        "priority": 1,
+        "result": {
+            "count": 6,
+            "item": "wypnt_bab:cobbled_end_stone_slab"
+        },
+		"unlock": [
+			{
+				"item": "wypnt_bab:cobbled_end_stone"
+			}
+		],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

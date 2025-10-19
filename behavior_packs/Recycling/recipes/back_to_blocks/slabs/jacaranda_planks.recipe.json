@@ -15,16 +15,16 @@
 		],
 		"key": {
 			"#": {
-				"item": "korbon:jacaranda_slab"
+				"item": "wypnt_bab:jacaranda_slab"
 			}
 		},
 		"unlock": [
 			{
-				"item": "korbon:jacaranda_slab"
+				"item": "wypnt_bab:jacaranda_slab"
 			}
 		],
 		"result": {
-			"item": "korbon:jacaranda_planks",
+			"item": "wypnt_bab:jacaranda_planks",
 			"count": 1
 		}
 	}

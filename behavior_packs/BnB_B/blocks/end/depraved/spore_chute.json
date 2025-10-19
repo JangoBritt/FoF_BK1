@@ -1,0 +1,64 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:spore_chute"
+		},
+		"components": {
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					11,
+					8
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:spore_chute",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false
+				}
+			},
+			"minecraft:collision_box": false,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							{
+                    "tags": "q.any_tag('dirt')"
+                },
+							"wypnt_bab:voidmire"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/spore_chute.json",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:map_color": "#144d12",
+			"minecraft:light_dampening": 0
+		}
+	}
+}

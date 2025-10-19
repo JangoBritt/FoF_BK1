@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:windswept_sand",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#f3f7bc",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:windswept_sand",
+					"render_method": "opaque",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				}
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 2.5
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.5
+			},
+			"tag:minecraft:is_shovel_item_destructible": {},
+			"tag:sand":{}
+		}
+	}
+}

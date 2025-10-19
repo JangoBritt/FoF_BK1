@@ -1,0 +1,48 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "wypnt_bab:redwood_tree_3_feature_mcstructure"
+		},
+		"structure_name": "mystructure:redwood_tree_3",
+		"adjustment_radius": 0,
+		"facing_direction": "south",
+		"constraints": {
+			"grounded": {},
+			"block_intersection": {
+				"block_whitelist": [
+					"minecraft:air",
+					"minecraft:leaves",
+					"minecraft:leaves2",					
+					"minecraft:oak_leaves",
+					"minecraft:birch_leaves",
+					"minecraft:spruce_leaves",
+					"minecraft:jungle_leaves",
+					"minecraft:acacia_leaves",
+					"minecraft:dark_oak_leaves",
+					"minecraft:azalea_leaves",
+					"minecraft:grass_block",
+					"minecraft:grass",	
+					"minecraft:fern",
+					"wypnt_bab:deadfern",			
+					"minecraft:dirt",
+					"minecraft:podzol",	
+					"minecraft:coarse_dirt",
+					"minecraft:gravel",
+					"minecraft:stone",
+					"minecraft:cobblestone",
+					"minecraft:mossy_cobblestone",														
+					"minecraft:spruce_log",
+					"minecraft:oak_log",
+					"minecraft:birch_log",
+					"minecraft:jungle_log",
+					"minecraft:acacia_log",
+					"minecraft:dark_oak_log",
+					"wypnt_bab:redwood_log",
+					"wypnt_bab:redwood_leaves",
+					"wypnt_bab:redwood_sapling"
+				]
+			}
+		}
+	}
+}

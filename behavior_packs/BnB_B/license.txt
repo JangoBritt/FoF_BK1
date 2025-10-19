@@ -1,0 +1,38 @@
+Biomes & Beyond License Agreement
+
+Last Updated: [3/25/2025]
+
+Allowed Use
+
+You are free to:
+    •    Play: Use Biomes & Beyond solely for personal, non-commercial gameplay within Minecraft.
+
+Conditions and Restrictions
+
+Under the following terms:
+    •    Attribution: You must give appropriate credit to the author (iKorbon) when using or referring to the Addon.
+    •    No Commercial Use: You may not use the Addon or any part of it for commercial purposes.
+    •    No Modifications: You may not modify, adapt, or build upon the Addon, unless for personal use only.
+    •    No Redistribution:
+    •    You may not share, distribute, or upload Biomes & Beyond, whether for commercial or non-commercial purposes, without explicit permission from the author.
+    •    This includes sharing modified or unmodified copies, or bundling it with other software or addons.
+
+Permission Requests
+
+If you wish to redistribute, modify, or otherwise use Biomes & Beyond outside these terms, you must first obtain permission.
+
+Compliance with Mojang EULA
+
+This Addon operates in compliance with Mojang’s Minecraft End User License Agreement (EULA). Users must also adhere to Mojang’s terms.
+
+Termination of License
+
+This license is automatically terminated if you violate any of its terms. Upon termination, you must immediately cease all use of Biomes & Beyond and delete any copies you possess.
+
+Disclaimer of Warranty
+
+Biomes & Beyond is provided “as is,” without warranty of any kind. The author is not responsible for any issues arising from its use.
+
+Contact Information
+
+For inquiries, permissions, or other concerns, please contact iKorbon via Discord.

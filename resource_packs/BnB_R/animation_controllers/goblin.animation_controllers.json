@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wypnt_bab.goblin.idle": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"idle": "query.is_alive"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.wypnt_bab.goblin.move": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"walk": "query.modified_move_speed"
+						}
+					]
+				}
+			}
+		}
+	}
+}

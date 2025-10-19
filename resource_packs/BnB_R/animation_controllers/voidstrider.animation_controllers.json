@@ -1,0 +1,111 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wypnt_bab.voidstrider.walk": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"bob": "query.is_alive"
+						},
+						{
+							"walk": "query.modified_move_speed"
+						},
+						{
+							"look_at_target": "query.is_alive"
+						}
+					],
+					"transitions": [
+						{
+							"glide": "!query.is_on_ground"
+						},
+						{
+							"run": "query.has_rider"
+						}					
+					],
+					"blend_transition": 0.5
+				},
+				"run": {
+					"animations": [
+						{
+							"bob": "query.is_alive"
+						},
+						{
+							"run": "query.modified_move_speed"
+						},
+						{
+							"look_at_target": "query.is_alive"
+						}
+					],
+					"transitions": [
+						{
+							"default": "!query.has_rider"
+						},
+						{
+							"glide": "!query.is_on_ground"
+						}
+					],
+					"blend_transition": 0.5
+				},
+				"glide": {
+					"animations": [
+						"glide",
+						"wing_flap",
+						{
+							"bob": "query.is_alive"
+						},
+						{
+							"look_at_target": "query.is_alive"
+						}											
+					],
+					"transitions": [
+						{
+							"default": "query.is_on_ground&&!query.has_rider"
+						},
+						{
+							"run": "query.is_on_ground&&query.has_rider"
+						}
+					],
+					"blend_transition": 0.25
+				}
+			}
+		},
+		"controller.animation.wypnt_bab.voidstrider.attack": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"attack": "query.is_delayed_attacking"
+						}
+					],
+					"blend_transition": 0.05
+				},
+				"attack": {
+					"animations": [
+						"attack"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.05
+				}
+			}
+		},
+		"controller.animation.wypnt_bab.voidstrider.baby_transform": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"baby_transform": "query.is_baby"
+						}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}

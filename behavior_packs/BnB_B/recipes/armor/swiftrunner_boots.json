@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "wypnt_bab:swiftrunner_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"Z Z",
+			"W W"
+		],
+		"key": {
+			"X": {
+				"item": "wypnt_bab:dweller_flesh"
+			},
+			"Z": {
+				"item": "minecraft:bone"
+			},
+			"W": {
+				"item": "wypnt_bab:lurker_foot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "wypnt_bab:lurker_foot"
+			}
+		],
+		"result": {
+			"item": "wypnt_bab:swiftrunner_boots",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wypnt_bab.skeleman.walk": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"walk": "query.modified_move_speed"
+						}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		},
+		"controller.animation.wypnt_bab.voidcaller.attack": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"attack": "variable.attack_time > 0.1"
+						}
+					],
+					"blend_transition": 0.05
+				},
+				"attack": {
+					"animations": [
+						"attack"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.05
+				}
+			}
+		}
+	}
+}

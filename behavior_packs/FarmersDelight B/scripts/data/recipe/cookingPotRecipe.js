@@ -107,8 +107,8 @@ export const vanillaCookingPotRecipe = {
                 [
                     { "item": "minecraft:porkchop" },
                     { "item": "better_on_bedrock:beef_patty_raw" },
-                    { "item": "korbon:venison_raw" },
-                    { "item": "korbon:crocodile_meat_raw" },
+                    { "item": "wypnt_bab:venison" },
+                    { "item": "wypnt_bab:crocodile_meat" },
                     { "item": "nicothekid:rat_raw" },
                     { "item": "minecraft:beef" },
                     { "item": "minecraft:chicken" },
@@ -722,8 +722,8 @@ export const vanillaCookingPotRecipe = {
                         "item": "minecraft:mutton"
                     },
                     { "item": "better_on_bedrock:raw_mutton_chops" },
-                    { "item": "korbon:venison_raw" },
-                    { "item": "korbon:crocodile_meat_raw" },
+                    { "item": "wypnt_bab:venison" },
+                    { "item": "wypnt_bab:crocodile_meat" },
                     { "item": "nicothekid:rat_raw" }
                 ]
             ],

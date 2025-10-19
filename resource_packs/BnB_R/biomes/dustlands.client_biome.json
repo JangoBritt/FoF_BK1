@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "wypnt_bab:dustlands"
+    },
+    "components": {    
+      "minecraft:water_appearance": {
+        "surface_color": "#44AFF5"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#949458"
+      }
+    }
+  }
+}

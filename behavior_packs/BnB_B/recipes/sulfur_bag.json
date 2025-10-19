@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "wypnt_bab:sulfur_bag"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "wypnt_bab:sulfur"
+      }
+    },
+	"unlock": [
+      {
+        "item": "wypnt_bab:sulfur"
+      }
+    ],
+    "result": {
+      "item": "wypnt_bab:sulfur_bag"
+    }
+  }
+}

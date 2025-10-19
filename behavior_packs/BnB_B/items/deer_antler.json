@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:deer_antler",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 16,
+			"minecraft:icon": {
+				"texture": "wypnt_bab:deer_antler"
+			},
+			"minecraft:display_name": {
+				"value": "item.wypnt_bab:deer_antler.name"
+			}
+		}
+	}
+}

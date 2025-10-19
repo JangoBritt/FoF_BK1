@@ -25,6 +25,6 @@ export const BLOCK_DROPS = {
    'minecraft:quartz_ore': 'minecraft:quartz',
    'korbon:vibranium_ore' : 'korbon:vibranium',
    'korbon:vibranium_ore_deepslate' : 'korbon:vibranium',
-   'korbon:sulfur_ore' : 'korbon:sulfur',
-   'korbon:sulfur_ore_deepslate' : 'korbon:sulfur'
+   'wypnt_bab:sulfur_ore' : 'wypnt_bab:sulfur',
+   'wypnt_bab:sulfur_ore_deepslate' : 'wypnt_bab:sulfur'
 };

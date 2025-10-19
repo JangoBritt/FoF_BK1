@@ -1,0 +1,61 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:fog_settings": {
+		"description": {
+			"identifier": "wypnt_bab:rotveil_fog"
+		},
+		"distance": {
+			"air": {
+				"fog_start": 8,
+				"fog_end": 128,
+				"fog_color": "#19131C",
+				"render_distance_type": "fixed"
+			},
+			"water": {
+				"fog_start": 0,
+				"fog_end": 15,
+				"fog_color": "#19131C",
+				"render_distance_type": "fixed"
+			}
+		},
+				"volumetric": {
+			"density": {
+				"water": {
+					"max_density": 0.001,
+					"uniform": true
+				},
+				"air": {
+					"max_density": 0.15,
+					"uniform": true
+					
+				}
+			},
+			"media_coefficients": {
+				"water": {
+					"scattering": [
+						0.055,
+						0.055,
+						0.055
+					],
+					"absorption": [
+						0.0015,
+						0.0015,
+						0.0015
+					]
+				},
+				"air": {
+					"scattering": [
+						0.0015,
+						0.0015,
+						0.0015
+					],
+					"absorption": [
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			}
+		}
+	}
+}

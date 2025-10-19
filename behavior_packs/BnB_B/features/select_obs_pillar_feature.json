@@ -1,0 +1,26 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:select_obs_pillar_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:obs_pillar_1_feature_mcstructure",
+				1
+			],
+			[
+				"wypnt_bab:obs_pillar_2_feature_mcstructure",
+				1
+			],
+						[
+				"wypnt_bab:obs_pillar_3_feature_mcstructure",
+				1
+			],
+			[
+				"wypnt_bab:obs_pillar_4_feature_mcstructure",
+				1
+			]
+		]
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.8.0",
+	"geometry.wypnt_bab.spectre": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 7,
+		"visible_bounds_offset": [0, -0.5, 0],
+		"bones": [
+			{
+				"name": "waist",
+				"pivot": [0, 12, 0],
+				"locators": {
+					"particle1": [0, 19, 0]
+				}
+			},
+			{
+				"name": "body",
+				"parent": "waist",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [-8, 10, -2], "size": [4, 14, 4], "uv": [48, 46]},
+					{"origin": [4, 10, -2], "size": [4, 14, 4], "uv": [48, 46]},
+					{"origin": [-4, 11, -2], "size": [8, 13, 4], "uv": [40, 29]}
+				]
+			},
+			{
+				"name": "head",
+				"parent": "body",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [-4, 24, -4.1], "size": [8, 8, 8], "uv": [0, 0]},
+					{"origin": [-4.5, 23.5, -4.5], "size": [9, 9, 8.5], "uv": [0, 47]}
+				]
+			},
+			{
+				"name": "rightArm",
+				"parent": "body",
+				"pivot": [-5, 22, 0]
+			},
+			{
+				"name": "rightItem",
+				"parent": "rightArm",
+				"pivot": [-6, 15, 1]
+			},
+			{
+				"name": "leftArm",
+				"parent": "body",
+				"pivot": [5, 22, 0],
+				"mirror": true
+			},
+			{
+				"name": "leftItem",
+				"parent": "leftArm",
+				"pivot": [6, 15, 1]
+			},
+			{
+				"name": "rightLeg",
+				"parent": "body",
+				"pivot": [-1.9, 12, 0]
+			},
+			{
+				"name": "leftLeg",
+				"parent": "body",
+				"pivot": [1.9, 12, 0],
+				"mirror": true
+			}
+		]
+	}
+}

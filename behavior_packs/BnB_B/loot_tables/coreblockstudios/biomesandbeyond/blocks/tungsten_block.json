@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+                {
+                    "condition": "match_tool",
+                    "minecraft:match_tool_filter_all": [ "minecraft:is_pickaxe" ],
+                    "minecraft:match_tool_filter_any": [ "minecraft:diamond_tier", "minecraft:netherite_tier" ]
+                }
+            ],
+			"entries": [
+				{
+					"type": "item",
+					"name": "wypnt_bab:tungsten_block",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

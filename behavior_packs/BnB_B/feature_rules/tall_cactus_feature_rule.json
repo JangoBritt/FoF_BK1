@@ -1,0 +1,57 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "wypnt_bab:tall_cactus_feature_rule",
+			"places_feature": "wypnt_bab:cacti_snap_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "ocean"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "river"
+						},
+						{
+							"any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "windswept_desert"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "mesa"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "math.Random(32, 45)",
+            "x": {
+                "distribution": "uniform",
+                "extent": [-4, 4]
+            },
+            "y": {
+                "distribution": "uniform",
+                "extent": [60, 200]
+            },
+            "z": {
+                "distribution": "uniform",
+                "extent": [-4, 4]
+            }
+        }
+	}
+}

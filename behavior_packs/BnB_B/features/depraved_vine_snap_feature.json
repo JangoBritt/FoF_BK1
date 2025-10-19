@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:snap_to_surface_feature": {
+        "description": {
+            "identifier": "wypnt_bab:depraved_vine_snap_feature"
+        },
+        "feature_to_snap": "wypnt_bab:depraved_vine_feature",
+        "surface": "ceiling",
+        "vertical_search_range": 12,
+        "allow_air_placement": true,
+        "allow_underwater_placement": false,
+        "allowed_surface_blocks": [
+            {
+                "name": "wypnt_bab:depraved_wart_block"
+            },
+            {
+                "name": "wypnt_bab:depraved_stem"
+            }
+        ]
+    }
+}

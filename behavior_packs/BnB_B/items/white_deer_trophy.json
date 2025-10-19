@@ -1,0 +1,21 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:white_deer_trophy",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:rarity": "epic",
+			"minecraft:display_name": {
+				"value": "tile.wypnt_bab:white_deer_trophy.name"
+			},
+			"minecraft:block_placer": {
+				"block": "wypnt_bab:white_deer_trophy",
+				"replace_block_item": true
+			}
+		}
+	}
+}

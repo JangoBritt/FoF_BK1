@@ -1,0 +1,60 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "wypnt_bab:shroom_cave_trees_feature_rule",
+			"places_feature": "wypnt_bab:shroom_cave_tree_scatter_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_underground_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "deep_dark"
+						},
+						{
+							"any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "shroom_caves"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "mushroom_island"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"y": -55,
+			"coordinate_eval_order": "xyz",
+			"scatter_chance": {
+				"numerator": 1,
+				"denominator": 3
+			},
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

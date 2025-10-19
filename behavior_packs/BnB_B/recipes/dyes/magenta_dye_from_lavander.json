@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "wypnt_bab:magenta_dye_from_lavander"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": 1,
+		"ingredients": [
+			{
+				"item": "wypnt_bab:lavender_flower"
+			}
+		],
+		"result": {
+			"item": "minecraft:magenta_dye"
+		},
+		"unlock": [
+			{
+			  "item": "wypnt_bab:lavender_flower"
+			}
+		  ]
+	}
+}
