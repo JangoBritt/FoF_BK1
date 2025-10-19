@@ -1,4 +1,4 @@
-name: New Test SFTP Deploy
+name: New Test SFTP Deploy2
 
 on:
   push:
