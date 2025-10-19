@@ -1,0 +1,214 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:weathered_copper_lantern",
+      "menu_category": {
+				"category": "items",
+				"group": "nicothekid:itemGroup.name.copper_lanterns"
+			},
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [ "minecraft:block_face" ]
+        }
+			}
+    },
+    "components": {
+      "minecraft:display_name": "%tile.nicothekid.weathered_copper_lantern.name",
+      "minecraft:geometry": {
+        "identifier": "geometry.block.nicothekid_copper_lantern",
+        "bone_visibility": {
+          "main": true,
+          "side_extension": "query.block_state('minecraft:block_face') == 'north' || query.block_state('minecraft:block_face') == 'east' || query.block_state('minecraft:block_face') == 'south' || query.block_state('minecraft:block_face') == 'west'",
+          "top_extension": "query.block_state('minecraft:block_face') == 'down'"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_weathered_copper_lantern",
+          "render_method": "alpha_test",
+          "tint_method": "none",
+          "ambient_occlusion": false,
+					"face_dimming": true,
+					"isotropic": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.block.nicothekid_copper_lantern",
+          "bone_visibility": {
+            "main": true,
+            "side_extension": false,
+            "top_extension": false
+          }
+        },
+        "material_instances": {
+          "*": {
+            "texture": "nicothekid_weathered_copper_lantern",
+            "render_method": "alpha_test",
+            "tint_method": "none",
+            "ambient_occlusion": false,
+            "face_dimming": true,
+            "isotropic": false
+          }
+        }
+      },
+      "minecraft:destruction_particles": {
+        "texture": "nicothekid_weathered_copper_lantern",
+        "tint_method": "none"
+      },
+      "minecraft:map_color": {
+        "tint_method": "none",
+        "color": "#c47630"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "on_liquid_touches": "blocking",
+            "stops_liquid_flowing_out_from_direction": [
+              "up", "down", "north", "south", "east", "west"
+            ]
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "origin": [ -6, 0, -6 ],
+        "size": [ 12, 12, 12 ]
+      },
+      "minecraft:selection_box": {
+        "origin": [ -6, 0, -6 ],
+        "size": [ 12, 12, 12 ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 11,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2.5
+      },
+      "minecraft:redstone_conductivity": {
+        "allows_wire_to_step_down": false,
+        "redstone_conductor": false
+      },
+      "minecraft:transformation": {
+        "rotation": [ 0, 0, 0 ]
+      },
+      "minecraft:custom_components": [
+        "nicothekid:copper_lantern_oxidization",
+        "nicothekid:copper_lantern_waxing"
+      ],
+      "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_weathered_copper_lantern.json",
+      "tag:nicothekid:weathered_copper_lantern": {},
+      "tag:nicothekid:copper_lantern": {},
+      "tag:nicothekid:custom_lantern": {},
+      "tag:nicothekid:pickaxe_diggable": {},
+      "tag:nicothekid:blocks": {},
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "tag:stone": {},
+      "tag:metal": {}
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 16, 12 ]
+          },
+          "minecraft:selection_box": {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 16, 12 ]
+          },
+          "minecraft:transformation": {
+            "rotation": [ 0, 0, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'up'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 12, 12 ]
+          },
+          "minecraft:selection_box": {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 12, 12 ]
+          },
+          "minecraft:transformation": {
+            "rotation": [ 0, 0, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'north'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 15, 14 ]
+          },
+          "minecraft:selection_box": {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 15, 14 ]
+          },
+          "minecraft:transformation": {
+            "rotation": [ 0, 0, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'west'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 15, 14 ]
+          },
+          "minecraft:selection_box": {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 15, 14 ]
+          },
+          "minecraft:transformation": {
+            "rotation": [ 0, 90, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'south'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 15, 14 ]
+          },
+          "minecraft:selection_box": {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 15, 14 ]
+          },
+          "minecraft:transformation": {
+            "rotation": [ 0, 180, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'east'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 15, 14 ]
+          },
+          "minecraft:selection_box": {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 15, 14 ]
+          },
+          "minecraft:transformation": {
+            "rotation": [ 0, -90, 0 ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_oak_wood_lantern_x_log_x_charcoal"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "group": "oak_wood_lantern",
+    "assume_symmetry": true,
+    "pattern": [
+      "GCG",
+      " W "
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:oak_log"
+      },
+      "G": {
+        "item": "minecraft:glass_pane"
+      },
+      "C": {
+        "item": "minecraft:charcoal"
+      }
+    },
+    "result": {
+      "item": "nicothekid:oak_wood_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:oak_log"
+      }
+    ]
+  }
+}

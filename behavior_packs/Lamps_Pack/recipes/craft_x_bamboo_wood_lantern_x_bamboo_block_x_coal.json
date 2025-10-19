@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_bamboo_wood_lantern_x_bamboo_block_x_coal"
+    },
+    "priority": 2,
+    "tags": [ "crafting_table" ],
+    "group": "bamboo_wood_lantern",
+    "assume_symmetry": true,
+    "pattern": [
+      "GCG",
+      " W "
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:bamboo_block"
+      },
+      "G": {
+        "item": "minecraft:glass_pane"
+      },
+      "C": {
+        "item": "minecraft:coal"
+      }
+    },
+    "result": {
+      "item": "nicothekid:bamboo_wood_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:bamboo_block"
+      }
+    ]
+  }
+}

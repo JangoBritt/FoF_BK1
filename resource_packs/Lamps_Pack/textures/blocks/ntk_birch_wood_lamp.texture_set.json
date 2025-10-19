@@ -1,0 +1,8 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "ntk_birch_wood_lamp",
+    "metalness_emissive_roughness": "ntk_birch_wood_lamp_mer",
+    "heightmap": "ntk_birch_wood_lamp_normal"
+  }
+}

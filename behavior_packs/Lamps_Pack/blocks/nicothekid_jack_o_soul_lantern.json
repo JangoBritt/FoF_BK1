@@ -1,31 +1,69 @@
 {
-  "format_version": "1.21.0",
+  "format_version": "1.21.80",
   "minecraft:block": {
     "description": {
       "identifier": "nicothekid:jack_o_soul_lantern",
       "menu_category": {
 				"category": "items",
-				"group": "items"
+				"group": "minecraft:items"
 			},
 			"traits": {
         "minecraft:placement_direction": {
           "enabled_states": [ "minecraft:cardinal_direction" ],
-          "y_rotation_offset": 0
+          "y_rotation_offset": 180
         }
 			}
     },
     "components": {
-      "minecraft:display_name": "Jack o'Soul Lantern",
+      "minecraft:display_name": "%tile.nicothekid.jack_o_soul_lantern.name",
+      "minecraft:geometry": {
+        "identifier": "geometry.block.nicothekid_cube"
+      },
       "minecraft:material_instances": {
         "*": {
           "texture": "nicothekid_jack_o_soul_lantern",
           "render_method": "opaque",
+          "tint_method": "none",
           "ambient_occlusion": true,
-					"face_dimming": false
+					"face_dimming": false,
+					"isotropic": false
         }
       },
-      "minecraft:geometry": "geometry.block.nicothekid_cube",
-      "minecraft:map_color": "#cd9260",
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.block.nicothekid_cube"
+        },
+        "material_instances": {
+          "*": {
+            "texture": "nicothekid_jack_o_soul_lantern",
+            "render_method": "opaque",
+            "tint_method": "none",
+            "ambient_occlusion": true,
+            "face_dimming": false,
+            "isotropic": false
+          }
+        }
+      },
+      "minecraft:destruction_particles": {
+        "texture": "nicothekid_jack_o_soul_lantern",
+        "tint_method": "none"
+      },
+      "minecraft:map_color": {
+        "tint_method": "none",
+        "color": "#cd9260"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": false,
+            "liquid_type": "water",
+            "on_liquid_touches": "blocking",
+            "stops_liquid_flowing_out_from_direction": [
+              "up", "down", "north", "south", "east", "west"
+            ]
+          }
+        ]
+      },
       "minecraft:collision_box": {
         "origin": [ -8, 0, -8 ],
         "size": [ 16, 16, 16 ]
@@ -42,18 +80,23 @@
         "explosion_resistance": 5.0
       },
       "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.3
+        "seconds_to_destroy": 1.0
+      },
+      "minecraft:redstone_conductivity": {
+        "allows_wire_to_step_down": true,
+        "redstone_conductor": false
       },
       "minecraft:transformation": {
-        "rotation": [ 0, 180, 0 ]
+        "rotation": [ 0, 0, 0 ]
       },
       "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_jack_o_soul_lantern.json",
-      "tag:jack_o_soul_lantern": {},
-      "tag:custom_lantern": {},
-      "tag:custom_soul_lantern": {},
-      "tag:axe_diggable": {},
-      "tag:solid_block": {},
-      "tag:nicothekid_blocks": {},
+      "tag:nicothekid:jack_o_soul_lantern": {},
+      "tag:nicothekid:custom_lantern": {},
+      "tag:nicothekid:custom_soul_lantern": {},
+      "tag:nicothekid:axe_diggable": {},
+      "tag:nicothekid:full_block": {},
+      "tag:nicothekid:blocks": {},
+      "tag:minecraft:is_axe_item_destructible": {},
       "tag:wood": {},
       "tag:pumpkin": {}
     },

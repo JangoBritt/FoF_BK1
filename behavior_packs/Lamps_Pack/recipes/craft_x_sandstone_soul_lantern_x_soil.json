@@ -1,11 +1,13 @@
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.40",
   "minecraft:recipe_shaped": {
     "description": {
       "identifier": "nicothekid:craft_x_sandstone_soul_lantern_x_soil"
     },
     "priority": 1,
-    "tags": [ "medieval:workbench" ],
+    "tags": [ "crafting_table" ],
+    "group": "sandstone_soul_lantern",
+    "assume_symmetry": true,
     "pattern": [
       " S ",
       "COC",
@@ -13,8 +15,7 @@
     ],
     "key": {
       "S": {
-        "item": "minecraft:sandstone",
-        "data": 0
+        "item": "minecraft:sandstone"
       },
       "O": {
         "item": "minecraft:soul_soil"
@@ -29,8 +30,7 @@
     },
     "unlock": [
       {
-        "item": "minecraft:sandstone",
-        "data": 0
+        "item": "minecraft:sandstone"
       }
     ]
   }

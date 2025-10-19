@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_waxed_weathered_copper_lantern_x_waxed_weathered_copper_x_coal"
+    },
+    "priority": 2,
+    "tags": [ "crafting_table" ],
+    "group": "waxed_weathered_copper_lantern",
+    "assume_symmetry": true,
+    "pattern": [
+      " A ",
+      "CBC",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:waxed_weathered_copper"
+      },
+      "B": {
+        "item": "minecraft:coal"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "result": {
+      "item": "nicothekid:waxed_weathered_copper_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:waxed_weathered_copper"
+      }
+    ]
+  }
+}

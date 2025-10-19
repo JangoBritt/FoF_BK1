@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_mossy_stone_brick_lantern_x_moss_carpet"
+    },
+    "priority": 3,
+    "tags": [ "crafting_table" ],
+    "group": "mossy_stone_brick_lantern",
+    "assume_symmetry": true,
+    "pattern": [
+      "LM",
+      "M "
+    ],
+    "key": {
+      "L": {
+        "item": "nicothekid:stone_brick_lantern"
+      },
+      "M": {
+        "item": "minecraft:moss_carpet"
+      }
+    },
+    "result": {
+      "item": "nicothekid:mossy_stone_brick_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "nicothekid:stone_brick_lantern"
+      }
+    ]
+  }
+}

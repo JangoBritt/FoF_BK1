@@ -1,0 +1,8 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "ntk_wood_lantern_mer",
+    "metalness_emissive_roughness": "ntk_wood_lantern_mer",
+    "heightmap": "ntk_wood_lantern_normal"
+  }
+}

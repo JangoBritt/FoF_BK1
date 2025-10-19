@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_tuff_brick_lantern_x_charcoal"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "group": "tuff_brick_lantern",
+    "assume_symmetry": true,
+    "pattern": [
+      " S ",
+      "COC",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:tuff_bricks"
+      },
+      "O": {
+        "item": "minecraft:charcoal"
+      },
+      "C": {
+        "item": "minecraft:clay_ball"
+      }
+    },
+    "result": {
+      "item": "nicothekid:tuff_brick_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:tuff_bricks"
+      }
+    ]
+  }
+}

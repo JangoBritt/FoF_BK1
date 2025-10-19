@@ -1,11 +1,13 @@
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.40",
   "minecraft:recipe_shaped": {
     "description": {
       "identifier": "nicothekid:craft_x_amethyst_lamp"
     },
     "priority": 1,
-    "tags": [ "medieval:workbench" ],
+    "tags": [ "crafting_table" ],
+    "group": "amethyst_lamp",
+    "assume_symmetry": true,
     "pattern": [
       " A ",
       "ABA",
