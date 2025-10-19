@@ -27,7 +27,7 @@ jobs:
           verifyCertificate: false
           parallel: 5
           restoreMTime: false
-          onlyNewer: true
+          onlyNewer: false
           settings: 'sftp:auto-confirm=yes'
           # Mirror command options
           localDir: '.'
