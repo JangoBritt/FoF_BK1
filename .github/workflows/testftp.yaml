@@ -28,7 +28,7 @@ jobs:
           parallel: 5
           restoreMTime: false
           onlyNewer: false
-          settings: 'sftp:auto-confirm=yes'
+          settings: 'sftp:auto-confirm=yes;net:reconnect-interval-base=1;net:max-retries=1'
           # Mirror command options
           localDir: '.'
           remoteDir: '/worlds/Fables_Flat'
