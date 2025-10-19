@@ -24,7 +24,8 @@ jobs:
           user: ${{ vars.TESTFTP_USERNAME }}
           pass: ${{ secrets.TESTFTP_PASSWORD }}
           # lftp settings
-          parallel: 10
+          verifyCertificate: false
+          parallel: 5
           restoreMTime: false
           onlyNewer: true
           settings: 'sftp:auto-confirm=yes'
