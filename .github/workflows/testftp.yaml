@@ -6,7 +6,7 @@ on:
 jobs:
   deploy:
     name: Deploy
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     if: github.event_name == 'push'
     timeout-minutes: 600 
     steps:
@@ -25,6 +25,7 @@ jobs:
           pass: ${{ secrets.TESTFTP_PASSWORD }}
           # lftp settings
           parallel: 10
+          restoreMTime: false
           onlyNewer: true
           settings: 'sftp:auto-confirm=yes'
           # Mirror command options
