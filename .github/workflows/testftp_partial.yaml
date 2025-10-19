@@ -6,7 +6,7 @@ on:
 jobs:
   deploy:
     name: Deploy
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     if: github.event_name == 'push'
     timeout-minutes: 600 
     steps:
@@ -28,8 +28,8 @@ jobs:
           onlyNewer: true
           settings: 'sftp:auto-confirm=yes'
           # Mirror command options
-          localDir: '.'
-          remoteDir: '/worlds/Fables_Flat'
+          localDir: './resource_packs'
+          remoteDir: '/worlds/Fables_Flat/resource_packs'
           reverse: true
           ignoreFile: '.lftp_ignore'
           options: 'delete'

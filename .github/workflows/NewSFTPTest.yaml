@@ -1,0 +1,34 @@
+name: New Test Server via SFTP
+
+on:
+  push:
+    branches:
+      - Pre-Release
+  # Enables manually triggering of Workflow with file synchronization option
+  workflow_dispatch:
+    inputs:
+      sync:
+        description: "File synchronization"
+        required: true
+        default: "full"
+
+jobs:
+  deploy-master:
+    name: "pre-release branch"
+    if: ${{ github.ref == 'refs/heads/master' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 600
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: "Deploy"
+        uses: milanmk/actions-file-deployer@master
+        with:
+          remote-protocol: "sftp"
+          remote-host: ${{ vars.TESTFTP_SERVER }}
+          remote-port: ${{ vars.TESTFTP_PORT }}
+          remote-user: ${{ vars.TESTFTP_USERNAME }}
+          ssh-private-key: ${{ secrets.TESTFTP_PASSWORD }}
+          remote-path: "/worlds/Fables_Flat"
