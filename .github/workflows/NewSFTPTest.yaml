@@ -24,6 +24,6 @@ jobs:
           remote-user: ${{ vars.TESTFTP_USERNAME }}
           remote-password: ${{ secrets.TESTFTP_PASSWORD }}
           remote-path: "/worlds/Fables_Flat"
-          sync: "delta"
+          sync: "full"
           sync-delta-excludes: ".lftp_ignore"
           debug: true
