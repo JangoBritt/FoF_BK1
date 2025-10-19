@@ -1,28 +1,15 @@
 {
-	"format_version": "1.16.100",
-	"minecraft:recipe_shaped": {
+	"format_version": "1.21.60",
+	"minecraft:recipe_shapeless": {
 		"description": {
 			"identifier": "fables_misc:prismarine_bricks_beam"
 		},
-		"tags": [
-			"stonecutter"
-		],
-		"pattern": [
-			"###",
-			"#  "
-		],
-		"key": {
-			"#": {
-				"item": "minecraft:prismarine",
-				"data": 2
-		}
-    },
-		"unlock": [
-			{"item": "minecraft:prismarine"}
-		],
-    "result": {
+		"tags": [ "stonecutter" ],
+		"ingredients": [ { "item": "minecraft:prismarine_bricks" } ],
+		"unlock": [ { "item": "minecraft:prismarine_bricks" } ],
+		"result": {
 			"item": "fables_misc:prismarine_bricks_beam",
-			"count": 6
+			"count": 2
 		}
 	}
 }

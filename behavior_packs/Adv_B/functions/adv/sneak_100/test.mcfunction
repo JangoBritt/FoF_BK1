@@ -1,1 +1,0 @@
-execute as @s[tag=!Sneak100] if entity @e[type=warden,r=16] run function adv/sneak_100/grant
