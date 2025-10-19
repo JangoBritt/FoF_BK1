@@ -25,7 +25,7 @@ jobs:
           pass: ${{ secrets.TESTFTP_PASSWORD }}
           # lftp settings
           verifyCertificate: false
-          parallel: 0
+          parallel: 2
           restoreMTime: false
           onlyNewer: true
           settings: 'sftp:auto-confirm=yes'
