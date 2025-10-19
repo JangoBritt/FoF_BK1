@@ -25,10 +25,10 @@ jobs:
           pass: ${{ secrets.TESTFTP_PASSWORD }}
           # lftp settings
           verifyCertificate: false
-          parallel: 5
+          parallel: 0
           restoreMTime: false
-          onlyNewer: false
-          settings: 'sftp:auto-confirm=yes; net:reconnect-interval-base=1; net:max-retries=1'
+          onlyNewer: true
+          settings: 'sftp:auto-confirm=yes'
           # Mirror command options
           localDir: '.'
           remoteDir: '/worlds/Fables_Flat'
