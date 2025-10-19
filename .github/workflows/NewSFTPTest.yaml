@@ -26,3 +26,4 @@ jobs:
           remote-path: "/worlds/Fables_Flat"
           sync: "delta"
           sync-delta-excludes: ".lftp_ignore"
+          debug: true
