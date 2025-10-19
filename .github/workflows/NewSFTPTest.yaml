@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0  # Required for delta sync to compare commits
 
-      - name: Deploy via SFTP
+      - name: "Deploy via SFTP"
         uses: milanmk/actions-file-deployer@master
         with:
           remote-protocol: "sftp"
@@ -23,6 +23,6 @@ jobs:
           remote-port: ${{ vars.TESTFTP_PORT }}
           remote-user: ${{ vars.TESTFTP_USERNAME }}
           remote-password: ${{ secrets.TESTFTP_PASSWORD }}
-          remote-path: "/worlds/Fables_Flat""
+          remote-path: "/worlds/Fables_Flat"
           sync: "delta"
           sync-delta-excludes: ".lftp_ignore"
