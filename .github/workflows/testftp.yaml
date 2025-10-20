@@ -34,4 +34,4 @@ jobs:
           remoteDir: '/worlds/Fables_Flat'
           reverse: true
           ignoreFile: '.lftp_ignore'
-          options: 'delete'
+          options: 'verbose'
