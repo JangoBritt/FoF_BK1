@@ -24,10 +24,8 @@ jobs:
           user: ${{ vars.TESTFTP_USERNAME }}
           pass: ${{ secrets.TESTFTP_PASSWORD }}
           # lftp settings
-          verifyCertificate: true
-          parallel: 1
-          restoreMTime: false
-          onlyNewer: false
+          parallel: 10
+          onlyNewer: true
           settings: 'sftp:auto-confirm=yes'
           # Mirror command options
           localDir: '.'
