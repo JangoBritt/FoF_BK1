@@ -24,7 +24,7 @@ jobs:
           user: ${{ vars.TESTFTP_USERNAME }}
           pass: ${{ secrets.TESTFTP_PASSWORD }}
           # lftp settings
-          parallel: 5
+          parallel: 6
           onlyNewer: true
           settings: 'sftp:auto-confirm=yes'
           # Mirror command options
