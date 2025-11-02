@@ -73,7 +73,6 @@
 						"minecraft:carrot",
 						"minecraft:potato",
 						"minecraft:brown_mushroom",
-						"korbon:glowshroom_item",
 						"minecraft:golden_carrot",
 						"beetroot"
 					],
@@ -195,7 +194,6 @@
 						"minecraft:carrot",
 						"minecraft:potato",
 						"minecraft:brown_mushroom",
-						"korbon:glowshroom_item",
 						"minecraft:golden_carrot",
 						"beetroot"
 					]
@@ -478,7 +476,6 @@
 					"minecraft:carrot",
 					"minecraft:potato",
 					"minecraft:brown_mushroom",
-					"korbon:glowshroom_item",
 					"minecraft:golden_carrot",
 					"carrotOnAStick",
 					"beetroot"
@@ -521,12 +518,6 @@
 					},
 					{
 						"item": "minecraft:carrot",
-						"want_amount": 1,
-						"surplus_amount": 1,
-						"priority": 0
-					},
-					{
-						"item": "korbon:glowshroom_item",
 						"want_amount": 1,
 						"surplus_amount": 1,
 						"priority": 0

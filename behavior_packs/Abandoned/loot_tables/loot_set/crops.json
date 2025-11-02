@@ -209,7 +209,13 @@
         {"type": "item","weight": 100,"name": "farmersdelight:rice","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 100,"name": "farmersdelight:straw","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 200,"name": "farmersdelight:tomato_seeds","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 100,"name": "farmersdelight:tomato","functions": [{"function": "set_count","count": 1}]}
+        {"type": "item","weight": 100,"name": "farmersdelight:tomato","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 100,"name": "wypnt_bab:banana","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 100,"name": "wypnt_bab:banana_seeds","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 100,"name": "wypnt_bab:barley","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 100,"name": "wypnt_bab:barley_bundle","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 100,"name": "wypnt_bab:barley_seeds","functions": [{"function": "set_count","count": 1}]}
+
         
       ]
     }

@@ -47,7 +47,18 @@
               "count": 1
             }
           ]
-        }
+        },
+        {"type": "item","weight": 15,"name": "wypnt_bab:enderium_axe","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 15,"name": "wypnt_bab:enderium_boots","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 15,"name": "wypnt_bab:enderium_chestplate","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 15,"name": "wypnt_bab:enderium_helmet","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 15,"name": "wypnt_bab:enderium_hoe","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 15,"name": "wypnt_bab:enderium_ingot","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 15,"name": "wypnt_bab:enderium_leggings","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 15,"name": "wypnt_bab:enderium_pickaxe","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 15,"name": "wypnt_bab:enderium_shovel","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 15,"name": "wypnt_bab:enderium_sword","functions": [{"function": "set_count","count": 1}]}
+
       ]
     }
   ]

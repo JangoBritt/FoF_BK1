@@ -22,7 +22,7 @@
 			"minecraft:damage": 5,
 			"minecraft:fire_resistant": {},
 			"minecraft:enchantable": {
-				"value": 11,
+				"value": 15,
 				"slot": "pickaxe"
 			},
 			"minecraft:digger": {

@@ -21,7 +21,7 @@
 			},
 			"minecraft:enchantable": {
 				"slot": "armor_head",
-				"value": 11
+				"value": 15
 			},
 			"minecraft:durability": {
 				"max_durability": 1779,

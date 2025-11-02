@@ -1,6 +1,6 @@
 {
+  "format_version": "1.13.0",
   "minecraft:entity": {
-    "format_version": "1.13.0",
     "description": {
       "identifier": "entity:grave_inventory",
       "is_summonable": true,

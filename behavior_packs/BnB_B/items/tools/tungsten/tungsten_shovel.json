@@ -36,7 +36,7 @@
 				"value": "item.wypnt_bab:tungsten_shovel.name"
 			},
 			"minecraft:enchantable": {
-				"value": 11,
+				"value": 15,
 				"slot": "shovel"
 			},
 			"minecraft:icon": "wypnt_bab:tungsten_shovel",

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "FoF:o2pack_white"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "RCC",
+      "RIC",
+      "WQC"
+    ],
+    "key": {
+      "R": {
+        "item": "minecraft:resin_clump"
+      },
+      "I": {
+        "item": "minecraft:copper_block"
+      },
+      "C": {
+        "item": "farmersdelight:canvas"
+      },
+      "W": {
+        "item": "minecraft:white_dye"
+      },
+      "Q": {
+        "item": "minecraft:quartz"
+      }
+    },
+    "unlock": [
+      {
+        "item": "fables_misc:space_book"
+      }
+    ],
+    "result": {
+      "item": "FoF:o2pack_white",
+      "count": 1
+    }
+  }
+}

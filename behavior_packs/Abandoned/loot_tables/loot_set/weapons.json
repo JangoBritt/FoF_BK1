@@ -560,7 +560,8 @@
         {"type": "item","weight": 75,"name": "farmersdelight:golden_knife","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 50,"name": "farmersdelight:iron_knife","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 25,"name": "korbon:stinger_knife","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "korbon:bola","functions": [{"function": "set_count","count": 1}]}
+        {"type": "item","weight": 25,"name": "korbon:bola","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 100,"name": "wypnt_bab:gold_khopesh","functions": [{"function": "set_count","count": 1}]}
       
       ]
     }

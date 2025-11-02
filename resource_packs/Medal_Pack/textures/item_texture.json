@@ -122,8 +122,8 @@
 		"minimag": { "textures": "textures/items/minimag" },
 
 		"mining_helmet_item": {"textures": "textures/items/mining_helmet_item"},
-		"captain_atlas": { "textures": [ "textures/items/hats/captain_atlas" ] }
+		"captain_atlas": { "textures": [ "textures/items/hats/captain_atlas" ] },
 
-		
+		"o2pack_white": { "textures": "textures/items/o2pack_white.png"}
 	}
 }

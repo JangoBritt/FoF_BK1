@@ -21,7 +21,7 @@
 			},
 			"minecraft:fire_resistant": {},
 			"minecraft:enchantable": {
-				"value": 11,
+				"value": 15,
 				"slot": "axe"
 			},
 			"minecraft:damage": 6,

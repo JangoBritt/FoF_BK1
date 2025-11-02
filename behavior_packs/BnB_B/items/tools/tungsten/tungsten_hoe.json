@@ -22,7 +22,7 @@
 			"minecraft:icon": "wypnt_bab:tungsten_hoe",
 			"minecraft:enchantable": {
 				"slot": "hoe",
-				"value": 11
+				"value": 15
 			},
 			"minecraft:display_name": {
 				"value": "item.wypnt_bab:tungsten_hoe.name"

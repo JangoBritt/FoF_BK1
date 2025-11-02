@@ -72,7 +72,9 @@
               "count": 1
             }
           ]
-        }
+        },
+        {"type": "item","weight": 25,"name": "nicothekid:piglin_fire_staff","functions": [{"function": "set_count","count": 1}]}
+
       ]
     }
   ]
