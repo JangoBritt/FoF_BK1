@@ -57,7 +57,7 @@
         { "old_identifier": "korbon:jacaranda_trapdoor", "new_identifier": "wypnt_bab:jacaranda_trapdoor", "old_state_values": {}, "new_state_values": {} },
         { "old_identifier": "korbon:jacaranda_wood", "new_identifier": "wypnt_bab:jacaranda_wood", "old_state_values": {}, "new_state_values": {} },
         { "old_identifier": "korbon:jungfern_bottom", "new_identifier": "wypnt_bab:jungfern", "old_state_values": {}, "new_state_values": {"wypnt_bab:top": false} },
-        { "old_identifier": "korbon:jungfern_top", "new_identifier": "wypnt_bab:jungfern", "old_state_values": {}, "new_state_values": {"wypnt_bab:top": false} },
+        { "old_identifier": "korbon:jungfern_top", "new_identifier": "wypnt_bab:jungfern", "old_state_values": {}, "new_state_values": {"wypnt_bab:top": true} },
         { "old_identifier": "korbon:lavender_flower", "new_identifier": "wypnt_bab:lavender_flower", "old_state_values": {}, "new_state_values": {} },
         { "old_identifier": "korbon:lichen_carpet", "new_identifier": "wypnt_bab:lichen_carpet", "old_state_values": {}, "new_state_values": {} },
         { "old_identifier": "korbon:lichen_hanging", "new_identifier": "wypnt_bab:lichen_hanging", "old_state_values": {}, "new_state_values": {} },
