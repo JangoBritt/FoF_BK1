@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Wands"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #121",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #121§r\n§lHats§r\n§8ITEMS§r\n \n•Farmer Hat\n•Fisherman Hat\n•Fletcher Hat\n•Shepherd Hat\n•Librarian Hat\n•Witch Hat",
+                
+                "§lFarmer Hat§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lWearable on§r: Head\n•§lDurability§r: 64\n•§lArmor Protection§r: 1\n•§lKnockback Resistance§r: 0.0\n•§lEnchantable§r: NO",
+                "•§lRepairable§r: Wheat, Farmer's Hat.\n•§lTradable with§r: Farmer Villager\n•Equipping this can repel any nearby bird-type mobs.",
+                
+                "§lFisherman Hat§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lWearable on§r: Head\n•§lDurability§r: 64\n•§lArmor Protection§r: 1\n•§lKnockback Resistance§r: 0.0\n•§lEnchantable§r: NO",
+                "•§lRepairable§r: Leather, Fisherman Hat.",
+                
+                "§lFletcher Hat§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lWearable on§r: Head\n•§lDurability§r: 64\n•§lArmor Protection§r: 1\n•§lKnockback Resistance§r: 0.0\n•§lEnchantable§r: NO",
+                "•§lRepairable§r: Leather, Fletcher Hat.",
+                
+                "§lShepherd Hat§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lWearable on§r: Head\n•§lDurability§r: 64\n•§lArmor Protection§r: 1\n•§lKnockback Resistance§r: 0.0\n•§lEnchantable§r: NO",
+                "•§lRepairable§r: Leather, Shepherd Hat.",
+                
+                "§lLibrarian Hat§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lWearable on§r: Head\n•§lDurability§r: 64\n•§lArmor Protection§r: 1\n•§lKnockback Resistance§r: 0.0\n•§lEnchantable§r: NO",
+                "•§lRepairable§r: Book, Librarian Hat.",
+                
+                "§lWitch Hat§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 1\n•§lWearable on§r: Head\n•§lDurability§r: 64\n•§lArmor Protection§r: 2\n•§lKnockback Resistance§r: 0.0\n•§lEnchantable§r: NO",
+                "•§lRepairable§r: Black Carpet, Witch Hat."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

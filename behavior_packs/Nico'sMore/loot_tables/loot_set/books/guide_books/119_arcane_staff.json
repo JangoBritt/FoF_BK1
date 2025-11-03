@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Arcane Staff"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #119",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #119§r\n§lArcane Staff§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lCraftable on§r: Artifacture Table\n•§lStackable§r: 1\n•§lDurability§r: 144\n•§lMelee Damage§r: 4\n•§lMelee Effect§r: Magical Scourge I,",
+                "Spirit Piercer.\n•§lShoot§r: Arcane Magic Missile\n•§lProjectile Hit Damage§r: 8\n•§lProjectile Area Damage§r: 3 in 3-block radius.\n•§lProjectile Effect§r: Magical Scourge I, Spirit Piercer.\n•§lCooldown§r: 1.5 §o§8(sec)§r",
+                "•§lEnchantable§r: YES\n•§lRepairable with§r: Arcane Staff"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Glow Bird"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #70",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #70§r\n§lGlow Bird§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Small bird, Animal, Aerial.\n•§lSpawns in§r: Crystal Cave, Mosshroom Cave, Mushroom Cave.\n•§lHealth§r: 16 §o(Wild)§r |",
+                "22 §o(Tamed)§r\n•§lWalk speed§r: 0.23\n•§lFly speed§r: 0.35\n•§lImmune to§r: Fall Damage\n•§lBreathes in§r: Air\n•§lTempted by§r: Any type of Seeds, Berries, Berry Cookies.\n•§lHealed by§r: Any type of Seeds, Berries, Berry Cookies.",
+                "•§lBreeds with§r: Any type of Seeds, Berries.\n•§lEgg laying§r: 1-3 Glow Bird Eggs §o(Wild)§r | 2-4 Glow Bird Eggs §o(Tamed)§r\n•§lAging by§r: Any type of Seeds, Berries, Berry Cookies.\n•§lTamed by§r: Berry Cookies.",
+                "•§lPossible drops§r: Blue Feather, XP Orbs.\n•§lAvoids§r §o(Wild)§r: Players, Deopard, Fox, Ocelot, Monsters.\n•Wild Glow Bird can randomly sit.\n•Tamed Glow Bird can be sat down.\n•Adult Glow Bird can spawn or produce a §lBlue Feather§r",
+                "every 10 to 15 minutes when wild or every 5 to 10 minutes when tamed.\n•They can slowly regenerate their health when they sit or sleep.\n•Wild Glow Bird can pick up the food that tempts them and eat it.",
+                
+                "§lDescription§r:\n \n§‘The Glow Bird is a charming and gentle cave-dwelling avian creature, found fluttering through the crystal-lit and fungal depths of Minecraft's underground biomes. Known for its soft, radiant glow and peaceful nature, this small",
+                "§‘bird not only avoids predators but can be tamed with sweet treats like Berry Cookies. Once tamed, it becomes a loyal companion, laying more Glow Bird Eggs and producing shimmering Blue Feathers over time. Its ability to fly, sit, and self-heal when",
+                "resting makes it a delightful and soothing presence in any underground base.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

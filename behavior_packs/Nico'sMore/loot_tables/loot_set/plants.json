@@ -213,7 +213,7 @@
           ]
         },
         {
-          "weight": 5,
+          "weight": 1,
           "type": "item",
           "name": "minecraft:torchflower",
           "functions": [
@@ -224,9 +224,9 @@
           ]
         },
         {
-          "weight": 5,
+          "weight": 1,
           "type": "item",
-          "name": "minecraft:pitcher_crop",
+          "name": "minecraft:pitcher_plant",
           "functions": [
             {
               "function": "set_count",
@@ -301,7 +301,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:cactus_flower",
           "functions": [
@@ -334,7 +334,7 @@
           ]
         },
         {
-          "weight": 100,
+          "weight": 90,
           "type": "item",
           "name": "minecraft:spruce_sapling",
           "functions": [
@@ -356,7 +356,7 @@
           ]
         },
         {
-          "weight": 100,
+          "weight": 80,
           "type": "item",
           "name": "minecraft:jungle_sapling",
           "functions": [
@@ -367,7 +367,7 @@
           ]
         },
         {
-          "weight": 100,
+          "weight": 80,
           "type": "item",
           "name": "minecraft:acacia_sapling",
           "functions": [
@@ -378,7 +378,7 @@
           ]
         },
         {
-          "weight": 100,
+          "weight": 80,
           "type": "item",
           "name": "minecraft:dark_oak_sapling",
           "functions": [
@@ -389,7 +389,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:mangrove_propagule",
           "functions": [
@@ -400,7 +400,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:cherry_sapling",
           "functions": [
@@ -411,7 +411,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:azalea",
           "functions": [
@@ -422,7 +422,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:flowering_azalea",
           "functions": [
@@ -433,7 +433,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:pale_oak_sapling",
           "functions": [
@@ -466,7 +466,7 @@
           ]
         },
         {
-          "weight": 50,
+          "weight": 15,
           "type": "item",
           "name": "minecraft:bamboo",
           "functions": [
@@ -521,7 +521,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:firefly_bush",
           "functions": [
@@ -565,7 +565,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 25,
           "type": "item",
           "name": "minecraft:leaf_litter",
           "functions": [
@@ -609,7 +609,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:sea_pickle",
           "functions": [
@@ -653,7 +653,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 50,
           "type": "item",
           "name": "minecraft:vine",
           "functions": [

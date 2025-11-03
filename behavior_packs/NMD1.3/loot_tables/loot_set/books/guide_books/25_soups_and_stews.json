@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Soups & Stews"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #25",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #25§r\n§lSoups & Stews§r\n§8ITEMS§r\n \n•Soup\n•Carrot Soup\n•Potato Soup\n•Pumpkin Stew\n•Pea Stew\n•Seagrass Stew\n•Cactus Stew\n•Glow Lichen Stew\n•Chorus Stew",
+                "•Crimson Stew\n•Warped Stew\n•Mosshroom Stew",
+                
+                "§lSoup§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lEatable§r: YES\n•§lFood nutrition§r: 2\n•§lRemove status effect§r: Hunger Effect",
+                
+                "§lCarrot Soup§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lEatable§r: YES\n•§lFood nutrition§r: 5\n•§lRemove status effect§r: Hunger Effect, Nausea Effect.",
+                
+                "§lPotato Soup§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lEatable§r: YES\n•§lFood nutrition§r: 3\n•§lRemove status effect§r: Hunger Effect, Nausea Effect.",
+                
+                "§lPumpkin Stew§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lEatable§r: YES\n•§lFood nutrition§r: 4",
+                
+                "§lPea Stew§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lEatable§r: YES\n•§lFood nutrition§r: 2\n•§lAdd status effect§r: Nausea §o(0:10) §8[10% chance]§r.",
+                
+                "§lSeagrass Stew§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lEatable§r: YES\n•§lFood nutrition§r: 2\n•§lAdd status effect§r: Nausea §o(0:15) §8[25% chance]§r.",
+                
+                "§lCactus Stew§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lEatable§r: YES\n•§lFood nutrition§r: 2\n•§lAdd status effect§r: Nausea §o(0:15) §8[50% chance]§r.",
+                
+                "§lGlow Lichen Stew§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lEatable§r: YES\n•§lFood nutrition§r: 2\n•§lAdd status effect§r: Night Vision §o(0:25)§r, Mining Fatigue §o(0:20)§r.",
+                
+                "§lChorus Stew§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lEatable§r: YES\n•§lFood nutrition§r: 7",
+                
+                "§lCrimson Stew§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lEatable§r: YES\n•§lFood nutrition§r: 3\n•§lAdd status effect§r: Nausea §o(0:15) §8[25% chance]§r,",
+                "Poison §o(0:10) §8[5% chance]§r.§’",
+                
+                "§lWarped Stew§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lEatable§r: YES\n•§lFood nutrition§r: 3\n•§lAdd status effect§r: Nausea §o(0:15) §8[25% chance]§r,",
+                "Poison §o(0:10) §8[5% chance]§r.§’",
+                
+                "§lMosshroom Stew§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Crafting Table\n•§lStackable§r: 16\n•§lEatable§r: YES\n•§lFood nutrition§r: 3\n•§lAdd status effect§r: Regeneration §o(0:15)§r, Mining Fatigue §o(0:15)§r."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

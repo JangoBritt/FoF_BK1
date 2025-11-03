@@ -1,0 +1,135 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "construction",
+        "groups": [
+          /*{ // Mob Spawner Blocks:
+            "group_identifier": {
+              "icon": "nicothekid:spawner_blaze",
+              "name": "nicothekid:itemGroup.name.mob_spawner_blocks"
+            },
+            "items": [
+              "nicothekid:spawner_blaze",
+              "nicothekid:spawner_brute_zombie",
+              "nicothekid:spawner_cobbled_deepslate_golem",
+              "nicothekid:spawner_cursed_rat",
+              "nicothekid:spawner_elder_golem",
+              "nicothekid:spawner_hoglin",
+              "nicothekid:spawner_pig",
+              "nicothekid:spawner_piglin",
+              "nicothekid:spawner_piglin_brute",
+              "nicothekid:spawner_piglin_chief",
+              "nicothekid:spawner_rat",
+              "nicothekid:spawner_rat_curserer",
+              "nicothekid:spawner_skeleton",
+              "nicothekid:spawner_wither_skeleton",
+              "nicothekid:spawner_zoglin",
+              "nicothekid:spawner_zombified_piglin"
+            ]
+          },*/
+          {
+            "items": [
+              "nicothekid:block_of_rotten_brute_flesh"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "equipment",
+        "groups": [
+          { // Cooked Food
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.cookedFood"
+            },
+            "items": [
+              "nicothekid:rat_cooked"
+            ]
+          },
+          { // Staffs:
+            "group_identifier": {
+              "icon": "nicothekid:curserer_staff",
+              "name": "nicothekid:itemGroup.name.staffs"
+            },
+            "items": [
+              "nicothekid:curserer_staff",
+              "nicothekid:piglin_fire_staff"
+            ]
+          },
+          { // Magic Books
+            "group_identifier": {
+              "icon": "nicothekid:book_of_curses",
+              "name": "nicothekid:itemGroup.name.magic_books"
+            },
+            "items": [
+              "nicothekid:book_of_curses"
+            ]
+          },
+          {
+            "items": [
+              "nicothekid:potion_of_brute",
+              "nicothekid:piglin_war_hammer"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          { // Trophies:
+            "group_identifier": {
+              "icon": "nicothekid:stone_brute_zombie_trophy",
+              "name": "nicothekid:itemGroup.name.trophies"
+            },
+            "items": [
+              "nicothekid:stone_brute_zombie_trophy",
+              "nicothekid:stone_rat_curserer_trophy",
+              "nicothekid:stone_elder_golem_trophy",
+              "nicothekid:stone_piglin_chief_trophy",
+              "nicothekid:copper_brute_zombie_trophy",
+              "nicothekid:copper_rat_curserer_trophy",
+              "nicothekid:copper_elder_golem_trophy",
+              "nicothekid:copper_piglin_chief_trophy",
+              "nicothekid:iron_brute_zombie_trophy",
+              "nicothekid:iron_rat_curserer_trophy",
+              "nicothekid:iron_elder_golem_trophy",
+              "nicothekid:iron_piglin_chief_trophy",
+              "nicothekid:golden_brute_zombie_trophy",
+              "nicothekid:golden_rat_curserer_trophy",
+              "nicothekid:golden_elder_golem_trophy",
+              "nicothekid:golden_piglin_chief_trophy",
+              "nicothekid:diamond_brute_zombie_trophy",
+              "nicothekid:diamond_rat_curserer_trophy",
+              "nicothekid:diamond_elder_golem_trophy",
+              "nicothekid:diamond_piglin_chief_trophy"
+            ]
+          },
+          {
+            "items": [
+              "nicothekid:cursed_eye"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "nature",
+        "groups": [
+          { // Raw Food
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.rawFood"
+            },
+            "items": [
+              "nicothekid:rat_raw"
+            ]
+          },
+          {
+            "items": [
+              "nicothekid:rotten_brute_flesh"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

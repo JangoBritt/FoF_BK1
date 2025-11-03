@@ -1,4 +1,4 @@
-﻿$folderPath = "C:\Users\adam\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds\FoF_Bk1\behavior_packs\BnB_B\items"
+﻿$folderPath = "C:\Users\adam\AppData\Roaming\Minecraft Bedrock\Users\17393249361999269861\games\com.mojang\minecraftWorlds\FoF_Bk1\behavior_packs\Nico'sMore\items"
 
 function Remove-Comments {
     param([string]$text)

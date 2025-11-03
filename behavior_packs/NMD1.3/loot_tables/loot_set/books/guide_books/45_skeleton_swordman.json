@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Skeleton Swordman"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #45",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #45§r\n§lSkeleton Swordman§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Skeleton, Undead, Monster.\n•§lSpawns in§r: All overworld surfaces, Underground.\n•§lHealth§r: 20",
+                "•§lWalk speed§r: 0.25\n•§lBreathes in§r: Air, Water.\n•§lPossible drops§r: Bone, Iron Powder, XP Orbs.\n•§lAvoids§r: Cave Wolf, Creepers, Wolf.\n•§lAggressive toward§r: Players, Iron Golem, Snow Golem, Villagers, Player's aggressive",
+                "tamed mobs.\n•§lEquipped weapon§r: Iron Sword\n•§lEquipped armor§r: Iron Armor\n•§lMelee attack damage§r: 3\n•Can burn in daylight.\n•Can pick up weapons and equip it.\n•Can pick up armor and equip it.",
+                "§lDescription§r:\n \n§‘Clad in iron and wielding deadly blades, the Skeleton Swordman is a formidable remnant of ancient battlefield legions."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

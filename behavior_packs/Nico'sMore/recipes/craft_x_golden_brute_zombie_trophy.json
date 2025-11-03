@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "nicothekid:craft_x_golden_brute_zombie_trophy"
+      "identifier": "ntk:craft_x_golden_brute_zombie_trophy"
     },
     "priority": 1,
     "tags": [ "crafting_table" ],
@@ -14,19 +14,19 @@
     ],
     "key": {
       "T": {
-        "item": "nicothekid:iron_brute_zombie_trophy"
+        "item": "ntk:iron_brute_zombie_trophy"
       },
       "G": {
         "item": "minecraft:gold_block"
       }
     },
     "result": {
-      "item": "nicothekid:golden_brute_zombie_trophy",
+      "item": "ntk:golden_brute_zombie_trophy",
       "count": 1
     },
     "unlock": [
       {
-        "item": "nicothekid:iron_brute_zombie_trophy"
+        "item": "ntk:iron_brute_zombie_trophy"
       },
       {
         "item": "minecraft:gold_block"

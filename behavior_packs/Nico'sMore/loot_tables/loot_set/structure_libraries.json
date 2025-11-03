@@ -64,7 +64,7 @@
           ]
         },
         {
-          "weight": 5,
+          "weight": 3,
           "type": "item",
           "name": "minecraft:name_tag",
           "functions": [

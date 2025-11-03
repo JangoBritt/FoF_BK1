@@ -15,7 +15,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 15,
           "type": "item",
           "name": "minecraft:ender_eye",
           "functions": [
@@ -39,7 +39,7 @@
         {
           "weight": 75,
           "type": "item",
-          "name": "minecraft: feather",
+          "name": "minecraft:feather",
           "functions": [
             {
               "function": "set_count",
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "weight": 50,
+          "weight": 25,
           "type": "item",
           "name": "minecraft:phantom_membrane",
           "functions": [
@@ -73,7 +73,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:shulker_shell",
           "functions": [

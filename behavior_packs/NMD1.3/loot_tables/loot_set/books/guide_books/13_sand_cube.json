@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Sand Cube"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #13",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #13§r\n§lSand Cube§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Cube, Earth-elemental, Magical, Monster.\n•§lSpawn in§r: Desert.\n•§lHealth§r: 8-16\n•§lWalk speed§r: 0.25",
+                "•§lBreathes in§r: Air, Water.\n•§lPossible drops§r: Sand, XP Orbs.\n•§lAggressive toward§r: Players, Iron Golem, Snow Golem.\n•§lMelee attack damage§r: 3",
+                
+                "§lDescription§r:\n \n§‘Sand Cubes dart across dunes faster than their muddier or icier cousins. Though fragile in form, they strike with abrasive force, wearing down foes with every hit. Found only in the arid heat of deserts, they crumble into.",
+                "sand and dust when defeate§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

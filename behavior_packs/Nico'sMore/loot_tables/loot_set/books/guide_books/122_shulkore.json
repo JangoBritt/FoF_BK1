@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Shulkore"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #122",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #122§r\n§lShulkore§r\n§8MOB§r\n \n•§lRarity§r: Uncommon\n•§lBehavior§r: Hostile\n•§lMob type§r: Shulker, Monster, Aerial, Boss.\n•§lSpawns in§r: Shulkore Dungeon\n•§lHealth§r: 300\n•§lKnockback resistance§r: 0.3",
+                "•§lFly speed§r: 0.2\n•§lBreathes in§r: Air\n•§lPossible drops§r: Stone Shulkore Trophy, Shulker Shell, XP Orbs.\n•§lAggressive toward§r: Players, Iron Golem, Snow Golem, Player's aggressive tamed mobs.\n•§lRange attack§r: Shulkore Missile",
+                "•§lProjectile hit damage§r: 8\n•§lProjectile effect§r: Levitation, Blindness, Slowness, Weakness.\n•Can inflict 2 damage to players that comes near it when its lid is open.\n•Can slowly regenerate their health when its lid is closed."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

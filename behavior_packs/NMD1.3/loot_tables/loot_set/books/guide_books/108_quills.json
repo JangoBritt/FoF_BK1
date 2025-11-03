@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Quills"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #1078",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #108§r\n§lQuills§r\n§8ITEMS§r\n \n•Arcane Quill\n•Gale Quill\n•Earthen Quill\n•Lush Quill\n•Wild Quill\n•Ominous Quill\n•Void Quill\n•Radiant Quill\n•Ember Quill\n•Soul Quill",
+                
+                "§lArcane Quill§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lTrade by§r: Scrollwright\n•§lCraftable on§r: Crafting Table, Artifacture Table.\n•§lStackable§r: 64\n•§lUsed to craft§r: Magic Spells Table, Scroll of Regeneration,",
+                "Scroll of Protection, Scroll of Strength.§’",
+                
+                "§lGale Quill§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lTrade by§r: Scrollwright\n•§lCraftable on§r: Crafting Table, Artifacture Table.\n•§lStackable§r: 64\n•§lUsed to craft§r: Scroll of Invisibility, Scroll of Poison Cloud,",
+                "Scroll of Field Levitation.§’",
+                
+                "§lEarthen Quill§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lTrade by§r: Scrollwright\n•§lCraftable on§r: Crafting Table, Artifacture Table.\n•§lStackable§r: 64\n•§lUsed to craft§r: Summoning Scroll of Iron Golem,",
+                "Summoning Scroll of Snow Golem, Summoning Scroll of Cobblestone Golem, Summoning Scroll of Mossy Cobblestone Golem, Summoning Scroll of Cobbled Deepslate Golem, Summoning Scroll of Deepslate Golem.§’",
+                
+                "§lLush Quill§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lTrade by§r: Scrollwright\n•§lCraftable on§r: Crafting Table, Artifacture Table.\n•§lStackable§r: 64\n•§lUsed to craft§r: Scroll of Flourishing\n•Can be used to duplicate",
+                "the §lBook of Curses§r by interacting with §lFlying Book§r.§’",
+                
+                "§lWild Quill§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lTrade by§r: Scrollwright\n•§lCraftable on§r: Crafting Table, Artifacture Table.\n•§lStackable§r: 64\n•§lUsed to craft§r: Scroll of Acceleration, Scroll of Resurgence,",
+                "Scroll of Berserk, Scroll of Weaving Webs.§’",
+                
+                "§lOminous Quill§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lTrade by§r: Scrollwright\n•§lCraftable on§r: Crafting Table, Artifacture Table.\n•§lStackable§r: 64\n•§lUsed to craft§r: Scroll of Slowness, Scroll of Lethargy.",
+                "•Can be used to duplicate the §lBook of Curses§r by interacting with §lFlying Book§r.§’",
+                
+                "§lVoid Quill§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lTrade by§r: Scrollwright\n•§lCraftable on§r: Crafting Table, Artifacture Table.\n•§lStackable§r: 64\n•§lUsed to craft§r: Scroll of Displacement, Scroll of Converging,",
+                "Scroll of Hoarding.§’",
+                
+                "§lRadiant Quill§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lTrade by§r: Scrollwright\n•§lCraftable on§r: Crafting Table, Artifacture Table.\n•§lStackable§r: 64\n•§lUsed to craft§r: Scroll of Cleansing, Scroll of Purification.",
+                
+                "§lEmber Quill§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lTrade by§r: Scrollwright\n•§lCraftable on§r: Crafting Table, Artifacture Table.\n•§lStackable§r: 64\n•§lUsed to craft§r: Scroll of Fire Protection, Scroll of Flame Burst,",
+                "Scroll of Fire Blast.§’",
+                
+                "§lSoul Quill§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lTrade by§r: Scrollwright\n•§lCraftable on§r: Crafting Table, Artifacture Table.\n•§lStackable§r: 64\n•§lUsed to craft§r: Summoning Scroll of Slime, Summoning Scroll of Skeleton,",
+                "Summoning Scroll of Wither Skeleton, Summoning Scroll of Mossy Skeleton.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

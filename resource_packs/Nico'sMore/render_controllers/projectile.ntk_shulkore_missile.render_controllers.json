@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.projectile.ntk_shulkore_missile": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+				"array.skins[query.variant]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.variant_0_projectile_shulkore_missile",
+						"Texture.variant_1_projectile_shulkore_missile",
+						"Texture.variant_2_projectile_shulkore_missile",
+						"Texture.variant_3_projectile_shulkore_missile",
+						"Texture.variant_4_projectile_shulkore_missile"
+					]
+				}
+			}
+    }
+  }
+}

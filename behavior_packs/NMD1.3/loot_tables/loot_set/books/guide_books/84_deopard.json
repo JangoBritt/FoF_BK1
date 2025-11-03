@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Deopard"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #84",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #82§r\n§lDeopard§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMedium mammal, Animal.\n•§lSpawns in§r: Overgrown Jungle\n•§lHealth§r: 16 §o(Wild)§r | 30 §o(Tamed)§r\n•§lWalk speed§r: 0.3",
+                "•§lImmune to§r: Fall Damage.\n•§lBreathes in§r: Air\n•§lTempted by§r: Chicken, Rabbit, Rat, Squirrel.\n•§lHealed by§r: Chicken, Rabbit, Rat, Squirrel.\n•§lBreeds with§r: Raw Chicken, Raw Rabbit, Raw Rat, Raw Squirrel.",
+                "•§lAging by§r: Chicken, Rabbit, Rat, Squirrel.\n•§lTamed by§r: Cooked Chicken, Cooked Rabbit, Cooked Rat, Cooked Squirrel.\n•§lPossible drops§r: Deopard Fur, XP Orbs.\n•§lAvoids§r §o(Wild)§r: Players, Illagers, Monsters.",
+                "•§lAggressive toward§r §o(Wild)§r: Chicken, Small mammals, Small birds, Medium birds.\n•§lAggressive toward§r §o(Tamed)§r: Owner's attackers, Owner's targets.\n•§lMelee attack damage§r: 2-3\n•Wild Deopard can randomly sit.",
+                "•Tamed Deopard can be sat down.\n•They can randomly spawn a §lDeopard Fur§r.\n•They can slowly regenerate their health when they sit or sleep.\n•Wild Deopard can pick up the food that tempts them and eat it.\n•Wild Deopard carrying food will",
+                "temporarily stop being aggressive towards the mobs they are aggressive with.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

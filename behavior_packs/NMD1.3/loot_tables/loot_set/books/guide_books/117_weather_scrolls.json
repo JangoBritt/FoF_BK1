@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Weather Scrolls"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #117",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #117§r\n§lWeather Scrolls§r\n§8ITEMS§r\n \n•Scroll of Clear Sky\n•Scroll of Rain\n•Scroll of Thunderstorm",
+                
+                "§lScroll of Clear Sky§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lTrade by§r: Scrollwright\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lDispensable§r: NO\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lCast Result§r: Automatically changes the weather to clear.",
+                
+                "§lScroll of Rain§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lTrade by§r: Scrollwright\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lDispensable§r: NO\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lCast Result§r: Automatically changes the weather to rain.",
+                
+                "§lScroll of Thunderstorm§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lTrade by§r: Scrollwright\n•§lCraftable§r: NO\n•§lStackable§r: 64\n•§lDispensable§r: NO\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands",
+                "•§lCast Result§r: Automatically changes the weather to a thunderstorm."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

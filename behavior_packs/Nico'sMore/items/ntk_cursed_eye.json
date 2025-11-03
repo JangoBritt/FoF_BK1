@@ -1,0 +1,54 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ntk:cursed_eye",
+      "menu_category": {
+        "category": "items",
+        "group": "minecraft:items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+				"value": "%item.ntk.cursed_eye.name"
+			},
+			"minecraft:rarity": "common",
+      "minecraft:icon": {
+				"textures": {
+          "default": "ntk_cursed_eye"  
+				}
+			},
+			"minecraft:hand_equipped": {
+        "value": false
+			},
+			"minecraft:allow_off_hand": {
+        "value": false
+			},
+			"minecraft:can_destroy_in_creative": {
+        "value": true
+			},
+			"minecraft:glint": {
+        "value": false
+			},
+			"minecraft:liquid_clipped": {
+        "value": false
+			},
+			"minecraft:should_despawn": {
+        "value": true
+			},
+			"minecraft:stacked_by_data": {
+        "value": true
+			},
+			"minecraft:max_stack_size": {
+        "value": 64
+			},
+			"minecraft:tags": {
+        "tags": [
+          "ntk:cursed_eye",
+          "ntk:miscellaneous_item",
+          "ntk:items"
+        ]
+      }
+    }
+  }
+}

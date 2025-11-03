@@ -1,7 +1,7 @@
 {
   "entity_sounds": {
     "entities": {
-      "nicothekid:brute_zombie": {
+      "ntk:brute_zombie": {
         "events": {
           "ambient": {
             "sound": "mob.husk.ambient",
@@ -27,7 +27,7 @@
         "pitch": [ 0.80, 1.20 ],
         "volume": 1.2
       },
-      "nicothekid:cobbled_deepslate_golem": {
+      "ntk:cobbled_deepslate_golem": {
         "events": {
           "ambient": {
             "sound": "mob.polarbear.idle",
@@ -53,7 +53,7 @@
         "pitch": [ 0.80, 1.20 ],
         "volume": 1.0
       },
-      "nicothekid:cursed_rat": {
+      "ntk:cursed_rat": {
         "events": {
           "ambient": {
             "sound": "mob.rabbit.idle",
@@ -74,7 +74,7 @@
         "pitch": [ 0.80, 1.20 ],
         "volume": 0.80
       },
-      "nicothekid:elder_golem": {
+      "ntk:elder_golem": {
         "events": {
           "ambient": {
             "sound": "block.grindstone.use",
@@ -105,7 +105,7 @@
         "pitch": [ 0.80, 1.20 ],
         "volume": 1.2
       },
-      "nicothekid:ground_spikes": {
+      "ntk:ground_spikes": {
         "events": {
           "ambient": {
             "sound": "step.deepslate",
@@ -131,7 +131,7 @@
         "pitch": [ 0.80, 1.20 ],
         "volume": 0.80
       },
-      "nicothekid:piglin_chief": {
+      "ntk:piglin_chief": {
         "events": {
           "admire": {
             "sound": "mob.piglin.admiring_item",
@@ -187,7 +187,7 @@
         "pitch": [ 0.80, 1.20 ],
         "volume": 1.0
       },
-      "nicothekid:rat": {
+      "ntk:rat": {
         "events": {
           "ambient": {
             "sound": "mob.rabbit.idle",
@@ -208,7 +208,7 @@
         "pitch": [ 0.80, 1.20 ],
         "volume": 0.8
       },
-      "nicothekid:rat_curserer": {
+      "ntk:rat_curserer": {
         "events": {
           "ambient": {
             "sound": "mob.hoglin.ambient",
@@ -259,7 +259,43 @@
         "pitch": [ 0.80, 1.20 ],
         "volume": 0.8
       },
-      "nicothekid:projectile_rat_curserer_missile": {
+      "ntk:shulkore": {
+        "events": {
+          "ambient": {
+            "sound": "mob.shulker.ambient",
+            "pitch": [ 0.80, 1.20 ],
+            "volume": 1.0
+          },
+          "death": {
+            "sound": "mob.shulker.death",
+            "pitch": [ 0.80, 1.20 ],
+            "volume": 1.0
+          },
+          "hurt": {
+            "sound": "mob.shulker.hurt",
+            "pitch": [ 0.80, 1.20 ],
+            "volume": 1.0
+          },
+          "shoot": {
+            "sound": "mob.shulker.shoot",
+            "pitch": [ 0.80, 1.20 ],
+            "volume": 1.0
+          },
+          "shulker.close": {
+            "sound": "mob.shulker.close",
+            "pitch": [ 0.80, 1.20 ],
+            "volume": 1.0
+          },
+          "shulker.open": {
+            "sound": "mob.shulker.open",
+            "pitch": [ 0.80, 1.20 ],
+            "volume": 1.0
+          }
+        },
+        "pitch": [ 0.80, 1.20 ],
+        "volume": 1.2
+      },
+      "ntk:projectile_rat_curserer_missile": {
         "events": {
           "ambient": "",
           "death": "",

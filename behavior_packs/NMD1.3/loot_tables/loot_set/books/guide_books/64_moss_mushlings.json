@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Moss Mushlings"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #64",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #64§r\n§lMoss Mushlings§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Mushling, Myconid, Nature-elemental, Magical.\n•§lSpawns in§r: Mosshroom Cave\n•§lHealth§r: 12 §o(Wild)§r",
+                "22 §o(Tamed)§r\n•§lWalk speed§r: 0.25\n•§lBreathes in§r: Air\n•§lTempted by§r: Azalea, Flowering Azalea.\n•§lHealed by§r: Azalea, Flowering Azalea.\n•§lBreed with§r: Azalea\n•§lAging by§r: Azalea, Flowering Azalea.",
+                "•§lTamed by§r: Flowering Azalea\n•§lPossible drops§r: Mosshroom Fungus, XP Orbs.\n•They can release a §lPoison Effect§r around themselves after being hit.\n•They can sleep during the day.\n•Wild Mushling can randomly sit.",
+                "•Tamed Mushling can be sat down.\n•Tamed Moss Mushling can randomly spawn a §lMosshroom Fungus§r.\n•They can slowly regenerate their health when they sit or sleep.",
+                
+                "§lDescription§r:\n§‘The Moss Mushling is a gentle, mushroom-like creature that thrives in the tranquil depths of the Mosshroom Caves. With a body infused with nature magic, it prefers peace but will emit a poisonous burst when harmed.",
+                "§‘Tamed with a Flowering Azalea, this sleepy little being becomes a loyal companion that can occasionally produce rare Mosshroom Fungus. Whether resting to heal or dozing in the daylight, the Moss Mushling brings a calm, mystical charm to the cavernous",
+                "world beneath.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

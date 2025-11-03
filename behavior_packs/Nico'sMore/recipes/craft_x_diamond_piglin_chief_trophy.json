@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "nicothekid:craft_x_diamond_piglin_chief_trophy"
+      "identifier": "ntk:craft_x_diamond_piglin_chief_trophy"
     },
     "priority": 1,
     "tags": [ "crafting_table" ],
@@ -14,19 +14,19 @@
     ],
     "key": {
       "T": {
-        "item": "nicothekid:golden_piglin_chief_trophy"
+        "item": "ntk:golden_piglin_chief_trophy"
       },
       "D": {
         "item": "minecraft:diamond_block"
       }
     },
     "result": {
-      "item": "nicothekid:diamond_piglin_chief_trophy",
+      "item": "ntk:diamond_piglin_chief_trophy",
       "count": 1
     },
     "unlock": [
       {
-        "item": "nicothekid:golden_piglin_chief_trophy"
+        "item": "ntk:golden_piglin_chief_trophy"
       },
       {
         "item": "minecraft:diamond_block"

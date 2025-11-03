@@ -1,115 +1,137 @@
 {
   "format_version": "1.21.40",
-  "nicothekid:spawner_blaze": {
+// Abandoned & Ruin Structures:
+  "ntk:spawner_blaze": {
     "sound": "stone"
   },
-  "nicothekid:spawner_hoglin": {
+  "ntk:spawner_hoglin": {
     "sound": "stone"
   },
-  "nicothekid:spawner_pig": {
+  "ntk:spawner_pig": {
     "sound": "stone"
   },
-  "nicothekid:spawner_piglin": {
+  "ntk:spawner_piglin": {
     "sound": "stone"
   },
-  "nicothekid:spawner_piglin_brute": {
+  "ntk:spawner_piglin_brute": {
     "sound": "stone"
   },
-  "nicothekid:spawner_skeleton": {
+  "ntk:spawner_shulker": {
     "sound": "stone"
   },
-  "nicothekid:spawner_wither_skeleton": {
+  "ntk:spawner_skeleton": {
     "sound": "stone"
   },
-  "nicothekid:spawner_zoglin": {
+  "ntk:spawner_wither_skeleton": {
     "sound": "stone"
   },
-  "nicothekid:spawner_zombified_piglin": {
+  "ntk:spawner_zoglin": {
     "sound": "stone"
   },
-  
-  "nicothekid:block_of_rotten_brute_flesh": {
+  "ntk:spawner_zombified_piglin": {
+    "sound": "stone"
+  },
+// Nico's More Dungeon:
+  "ntk:block_of_rotten_brute_flesh": {
     "sound": "netherrack"
   },
-  "nicothekid:copper_brute_zombie_trophy": {
+  "ntk:copper_brute_zombie_trophy": {
     "sound": "copper"
   },
-  "nicothekid:copper_elder_golem_trophy": {
+  "ntk:copper_elder_golem_trophy": {
     "sound": "copper"
   },
-  "nicothekid:copper_piglin_chief_trophy": {
+  "ntk:copper_piglin_chief_trophy": {
     "sound": "copper"
   },
-  "nicothekid:copper_rat_curserer_trophy": {
+  "ntk:copper_rat_curserer_trophy": {
     "sound": "copper"
   },
-  "nicothekid:diamond_brute_zombie_trophy": {
+  "ntk:copper_shulkore_trophy": {
+    "sound": "copper"
+  },
+  "ntk:diamond_brute_zombie_trophy": {
     "sound": "metal"
   },
-  "nicothekid:diamond_elder_golem_trophy": {
+  "ntk:diamond_elder_golem_trophy": {
     "sound": "metal"
   },
-  "nicothekid:diamond_piglin_chief_trophy": {
+  "ntk:diamond_piglin_chief_trophy": {
     "sound": "metal"
   },
-  "nicothekid:diamond_rat_curserer_trophy": {
+  "ntk:diamond_rat_curserer_trophy": {
     "sound": "metal"
   },
-  "nicothekid:golden_brute_zombie_trophy": {
+  "ntk:diamond_shulkore_trophy": {
     "sound": "metal"
   },
-  "nicothekid:golden_elder_golem_trophy": {
+  "ntk:golden_brute_zombie_trophy": {
     "sound": "metal"
   },
-  "nicothekid:golden_piglin_chief_trophy": {
+  "ntk:golden_elder_golem_trophy": {
     "sound": "metal"
   },
-  "nicothekid:golden_rat_curserer_trophy": {
+  "ntk:golden_piglin_chief_trophy": {
     "sound": "metal"
   },
-  "nicothekid:iron_brute_zombie_trophy": {
+  "ntk:golden_rat_curserer_trophy": {
+    "sound": "metal"
+  },
+  "ntk:golden_shulkore_trophy": {
+    "sound": "metal"
+  },
+  "ntk:iron_brute_zombie_trophy": {
     "sound": "iron"
   },
-  "nicothekid:iron_elder_golem_trophy": {
+  "ntk:iron_elder_golem_trophy": {
     "sound": "iron"
   },
-  "nicothekid:iron_piglin_chief_trophy": {
+  "ntk:iron_piglin_chief_trophy": {
     "sound": "iron"
   },
-  "nicothekid:iron_rat_curserer_trophy": {
+  "ntk:iron_rat_curserer_trophy": {
     "sound": "iron"
   },
-  "nicothekid:spawner_brute_zombie": {
+  "ntk:iron_shulkore_trophy": {
+    "sound": "iron"
+  },
+  "ntk:spawner_brute_zombie": {
     "sound": "stone"
   },
-  "nicothekid:spawner_cobbled_deepslate_golem": {
+  "ntk:spawner_cobbled_deepslate_golem": {
     "sound": "stone"
   },
-  "nicothekid:spawner_cursed_rat": {
+  "ntk:spawner_cursed_rat": {
     "sound": "stone"
   },
-  "nicothekid:spawner_elder_golem": {
+  "ntk:spawner_elder_golem": {
     "sound": "stone"
   },
-  "nicothekid:spawner_piglin_chief": {
+  "ntk:spawner_piglin_chief": {
     "sound": "stone"
   },
-  "nicothekid:spawner_rat": {
+  "ntk:spawner_rat": {
     "sound": "stone"
   },
-  "nicothekid:spawner_rat_curserer": {
+  "ntk:spawner_rat_curserer": {
     "sound": "stone"
   },
-  "nicothekid:stone_brute_zombie_trophy": {
+  "ntk:spawner_shulkore": {
     "sound": "stone"
   },
-  "nicothekid:stone_elder_golem_trophy": {
+  "ntk:stone_brute_zombie_trophy": {
     "sound": "stone"
   },
-  "nicothekid:stone_piglin_chief_trophy": {
+  "ntk:stone_elder_golem_trophy": {
     "sound": "stone"
   },
-  "nicothekid:stone_rat_curserer_trophy": {
+  "ntk:stone_piglin_chief_trophy": {
+    "sound": "stone"
+  },
+  "ntk:stone_rat_curserer_trophy": {
+    "sound": "stone"
+  },
+  "ntk:stone_shulkore_trophy": {
     "sound": "stone"
   }
 }

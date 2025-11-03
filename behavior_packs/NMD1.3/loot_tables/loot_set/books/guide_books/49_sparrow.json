@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Sparrow"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #49",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #49§r\n§lSparrow§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Small bird, Animal, Aerial.\n•§lSpawns in§r: Plains, Forest, Flower Forest, Birch Forest, Dark Forest, Pale Garden,",
+                "Windswept Forest, Taiga, Snowy Taiga, Jungle, Cherry Grove, Meadow, Savanna.\n•§lHealth§r: 6\n•§lWalk speed§r: 0.21\n•§lFly speed§r: 0.35\n•§lImmune to§r: Fall Damage\n•§lBreathes in§r: Air\n•§lTempted by§r: Any type of Seeds.",
+                "•§lHealed by§r: Any type of Seeds.\n•§lBreeds with§r: Any type of Seeds.\n•§lEgg laying§r: 1-4 Sparrow Eggs.\n•§lAging by§r: Any type of Seeds.\n•§lPossible drops§r: Brown Feather, XP Orbs.\n•§lAvoids§r: Players, Cave Wolf, Deopard,",
+                "Monsters.\n•Adult Sparrow can spawn or produce a §lBrown Feather§r every 5 to 15 minutes.",
+                
+                "§lDescription§r:\n \n§‘The Sparrow is a small, passive bird commonly found gliding through the skies of various biomes, from lush forests to snowy taigas. These gentle creatures are drawn to seeds, which can be used to tame, heal, or breed them.",
+                "Immune to fall damage and quick on the wing, Sparrows instinctively avoid players and predators. Adult Sparrows occasionally drop rare Brown Feathers, making them a charming yet valuable part of the wild.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

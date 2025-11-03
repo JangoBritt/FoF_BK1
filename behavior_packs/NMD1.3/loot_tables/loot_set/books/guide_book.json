@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/36_pearls_and_eyes.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/71_rat_curserer.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/72_brute_zombie.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/73_elder_golem.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/74_rat.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/75_cursed_rat.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/76_cobbled_deepslate_golem.json"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/77_curserer_staff.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/92_piglin_chief.json"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/93_piglin_fire_staff.json"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/94_piglin_war_hammer.json"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/118_equipment_effects.json"
+        }
+      ]
+    }
+  ]
+}

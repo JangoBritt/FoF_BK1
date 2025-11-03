@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.entity.ntk_shulkore.movement": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+				  "blend_transition": 0.2,
+					"transitions": [
+					  {
+							"open": "query.variant == 1"
+						}
+					]
+				},
+				"open": {
+					"animations": [ "open" ],
+				  "blend_transition": 0.2,
+				  "particle_effects": [
+						{
+							"effect": "shulkore_particle",
+							"locator": "particle"
+						}
+					],
+					"transitions": [
+						{
+							"default": "query.variant == 0"
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Flying Book"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #19",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #19§r\n§lFlying Book§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMob type§r: Construct, Object, Magical, Aerial.\n•§lSummon by§r: Book Curserer\n•§lHealth§r: 8\n•§lFly speed§r: 0.1",
+                "•§lBreathes in§r: Air\n•§lTempted by§r: Book and Quill\n•§lPossible drops§r: Book, XP Orbs.\n•§lMelee attack damage§r: 1\n•Can be sealed by using a Sealing Bookmark.\n•Can duplicate a magic books by interacting with quills.",
+                "•Can duplicate a magic books by interacting with quills.\n•Can be cursed by the Book Curserer.",
+                
+                "§lDescription§r:\n \n§‘Flying Books flutter through the air with quiet curiosity — or quiet menace, depending on their enchantments. Though small and fragile, they carry strange magical properties and can even replicate magical tomes when",
+                "near enchanted quills. Best not to leave your library unattended.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

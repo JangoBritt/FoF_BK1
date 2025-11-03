@@ -2,8 +2,8 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "nicothekid:structure_x_zombie_dungeon",
-      "places_feature": "nicothekid:nmd/structure_x_zombie_dungeon_x_04_x_sequence"
+      "identifier": "ntk:structure_x_zombie_dungeon",
+      "places_feature": "ntk:nmd/structure_x_zombie_dungeon_x_04_x_sequence"
     },
     "conditions": {
       "placement_pass": "before_surface_pass",
@@ -85,7 +85,7 @@
     },
     "distribution": {
       "iterations": 1.0,
-      "scatter_chance": 0.09,
+      "scatter_chance": 0.07,
       "x": 0,
       "y": "query.heightmap(variable.worldx, variable.worldz) + -8",
       "z": 0

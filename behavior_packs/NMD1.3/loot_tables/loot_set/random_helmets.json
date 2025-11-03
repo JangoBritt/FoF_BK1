@@ -1,0 +1,122 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 50,
+          "type": "item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.50,
+                "max": 1.0
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.75
+            },
+            {
+              "function": "random_dye"
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:chainmail_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.10,
+                "max": 0.50
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.50
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.05,
+                "max": 0.40
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.40
+            }
+          ]
+        },
+        {
+          "weight": 75,
+          "type": "item",
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.50,
+                "max": 1.0
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.75
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.01,
+                "max": 0.15
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

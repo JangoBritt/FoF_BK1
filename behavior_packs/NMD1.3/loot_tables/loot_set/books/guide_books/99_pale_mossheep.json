@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Pale Mossheep"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #99",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #99§r\n§lPale Mossheep§r\n§8MOB§r\n \n•§lRarity§r: Uncommon\n•§lBehavior§r: Passive\n•§lMob type§r: Medium mammal, Nature-elemental, Animal.\n•§lSpawns in§r: Pale Garden\n•§lHealth§r: 8\n•§lWalk speed§r: 0.25",
+                "•§lBreathes in§r: Air\n•§lTempted by§r: Mossy Willow Sapling\n•§lBred by§r: Mossy Willow Sapling\n•§lAged by§r: Mossy Willow Sapling\n•§lPossible drops§r: Pale Moss Block, Raw Mutton, XP Orbs.\n•Mossed Adult Pale Mossheep can produce",
+                "a §lPale Moss Block§r, when interacted with using Shears.\n•Can eat a Moss Block, Moss Carpet, Pale Moss Block, Pale Moss Carpet, and Moss Sprouts beneath them, and it will restore their sheared moss on their body."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

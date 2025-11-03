@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "ntk_copper_rat_curserer_trophy",
+		"metalness_emissive_roughness": "ntk_copper_rat_curserer_trophy_mer",
+		"heightmap": "ntk_rat_curserer_trophy_height"
+	}
+}

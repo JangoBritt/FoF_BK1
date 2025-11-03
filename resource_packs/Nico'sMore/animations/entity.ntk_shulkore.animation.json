@@ -1,0 +1,72 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+	  "animation.entity.ntk_shulkore.look_at_target": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [
+					  "query.target_x_rotation - this",
+					  "query.target_y_rotation - this",
+					  0.0
+					]
+				}
+			}
+		},
+		"animation.entity.ntk_shulkore.open": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, 4.05, 0],
+						"2.0": [0, 4.05, 0]
+					}
+				},
+				"shell_bottom_back_left": {
+					"position": [4, -4, 4]
+				},
+				"shell_bottom_back_right": {
+					"position": [-4, -4, 4]
+				},
+				"shell_bottom_front_left": {
+					"position": [4, -4, -4]
+				},
+				"shell_bottom_front_right": {
+					"position": [-4, -4, -4]
+				},
+				"shell_top_back_left": {
+					"position": [4, 4, 4]
+				},
+				"shell_top_back_right": {
+					"position": [-4, 4, 4]
+				},
+				"shell_top_front_left": {
+					"position": [4, 4, -4]
+				},
+				"shell_top_front_right": {
+					"position": [-4, 4, -4]
+				},
+				"core": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [180, 180, 180],
+						"1.0": [360, 360, 360],
+						"1.5": [180, 180, 180],
+						"2.0": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1.5, 1.5, 1.5],
+						"1.0": [1, 1, 1],
+						"1.5": [1.5, 1.5, 1.5],
+						"2.0": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

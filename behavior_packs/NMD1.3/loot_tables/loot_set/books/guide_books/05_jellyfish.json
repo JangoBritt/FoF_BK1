@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Jellyfish"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #5",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #5§r\n§lJellyfish§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Animal, Aquatic\n•§lSpawns in§r: All oceans.\n•§lHealth§r: 10\n•§lSwim speed§r: 0.1\n•§lBreathes in§r: Water",
+                "§lPossible drops§r: Jellyfish Slime, XP Orbs.\n•Can inflict 1-2 damage to all mobs that come near it.\n•Can be captured using a Water Bucket.",
+                "§lDescription§r:\n§‘Graceful and fragile, Jellyfish drift lazily through the oceans, their translucent bodies pulsing with life. Though peaceful, their stinging tendrils can lightly harm any creature that strays too close. These delicate beings can be",
+                "collected safely with a water bucket, making them a shimmering. Upon defeat, they leave behind Jellyfish Slime, a strange, gelatinous material prized for its rare properties.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

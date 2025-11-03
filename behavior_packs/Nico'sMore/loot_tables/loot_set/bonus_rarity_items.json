@@ -9,27 +9,27 @@
           "name": "loot_tables/loot_set/books/guide_book.json"
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "loot_table",
           "name": "loot_tables/loot_set/random_armor_trims.json"
         },
         {
-          "weight": 50,
+          "weight": 5,
           "type": "loot_table",
           "name": "loot_tables/loot_set/random_enchanted_books.json"
         },
         {
-          "weight": 5,
+          "weight": 1,
           "type": "loot_table",
           "name": "loot_tables/loot_set/random_music_dics.json"
         },
         {
-          "weight": 50,
+          "weight": 10,
           "type": "loot_table",
           "name": "loot_tables/loot_set/random_pottery_sherds.json"
         },
         {
-          "weight": 50,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:diamond",
           "functions": [
@@ -40,7 +40,7 @@
           ]
         },
         {
-          "weight": 50,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:emerald",
           "functions": [
@@ -51,7 +51,7 @@
           ]
         },
         {
-          "weight": 50,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:experience_bottle",
           "functions": [
@@ -62,7 +62,7 @@
           ]
         },
         {
-          "weight": 50,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:golden_apple",
           "functions": [
@@ -95,7 +95,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 1,
           "type": "item",
           "name": "minecraft:trident",
           "functions": [

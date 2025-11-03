@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Wood Corpse"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #52",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #52§r\n§lWood Corpse§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Treant, Nature-elemental, Magical, Monster.\n•§lSpawns in§r: Corrupted Forest.\n•§lHealth§r: 28\n•§lWalk speed§r: 0.25",
+                "•§lBreathes in§r: Air, Water.\n•§lPossible drops§r: Corrupted Oak Log, Corrupted Oak Sapling, Stick, Bone, XP Orbs.\n•§lAggressive toward§r: Players, Iron Golem, Snow Golem, Player's aggressive tamed mobs.\n•§lMelee attack damage§r: 7-8",
+                
+                "§lDescription§r:\n \n§‘Corpse Wood is a twisted, hostile treant that haunts the depths of the Corrupted Forest. Once a guardian of nature, it now roams in decay, striking intruders with powerful, root-like limbs. With a gnarled body and eerie presence,",
+                "it attacks players, golems, and tamed beasts alike. Its remains yield corrupted wood, bones, and other grim tokens of the forest’s curse—a reminder that even nature can rot and rise again.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

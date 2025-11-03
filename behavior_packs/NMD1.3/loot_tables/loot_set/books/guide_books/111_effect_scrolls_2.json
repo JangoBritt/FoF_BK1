@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Effect Scrolls 2"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #111",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #111§r\n§lEffect Scrolls 2§r\n§8ITEMS§r\n \n•Scroll of Strength I\n•Scroll of Strength II\n•Scroll of Strength III\n•Scroll of Slowness I\n•Scroll of Slowness II\n•Scroll of Slowness III",
+                "•Scroll of Poison Cloud I\n•Scroll of Poison Cloud II\n•Scroll of Poison Cloud III\n•Scroll of Field Levitation I\n•Scroll of Field Levitation II\n•Scroll of Field Levitation III\n•Scroll of Resurgence I\n•Scroll of Resurgence II",
+                "•Scroll of Resurgence III\n•Scroll of Berserk I\n•Scroll of Berserk II\n•Scroll of Berserk III\n•Scroll of Lethargy I\n•Scroll of Lethargy II\n•Scroll of Lethargy III",
+                
+                "§lScroll of Strength I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Strength II (6:00) to all non-monster-type mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Strength II",
+                
+                "§lScroll of Strength II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Strength II (8:00) to all non-monster-type mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Strength III",
+                
+                "§lScroll of Strength III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Strength III (10:00) to all non-monster-type mobs within a 12-block radius.",
+                
+                "§lScroll of Slowness I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Slowness I (2:00) on all mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Slowness II",
+                
+                "§lScroll of Slowness II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Slowness II (4:00) on all mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Slowness III",
+                
+                "§lScroll of Slowness III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Slowness III (6:00) on all mobs within a 12-block radius.",
+                
+                "§lScroll of Poison Cloud I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Poison I (1:00) on all mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Poison Cloud II",
+                
+                "§lScroll of Poison Cloud II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Poison II (1:30) on all mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Poison Cloud III",
+                
+                "§lScroll of Poison Cloud III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Poison III (2:00) on all mobs within a 12-block radius.",
+                
+                "§lScroll of Field Levitation I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Levitation (0:30) on all mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Field Levitation II",
+                
+                "§lScroll of Field Levitation II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Levitation (1:00) on all mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Field Levitation III",
+                
+                "§lScroll of Field Levitation III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Levitation (1:30) on all mobs within a 12-block radius.",
+                
+                "§lScroll of Resurgence I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Instant Health II and restores 16 food nutrition to all non-monster-type mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Resurgence II",
+                
+                "§lScroll of Resurgence II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Instant Health IV and restores 24 food nutrition to all non-monster-type mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Resurgence III",
+                
+                "§lScroll of Resurgence III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Instant Health VIII and restores 32 food nutrition to all non-monster-type mobs within a 12-block radius.",
+                
+                "§lScroll of Berserk I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Strength III (6:00) and Resistance II (6:00) while reducing food saturation to 0 for all non-monster-type mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Berserk II",
+                
+                "§lScroll of Berserk II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Strength III (8:00) and Resistance II (8:00) while reducing food saturation to 0 for all non-monster-type mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Berserk III",
+                
+                "§lScroll of Berserk III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Strength III (10:00) and Resistance II (10:00) while reducing food saturation to 0 for all non-monster-type mobs within a 12-block radius.",
+                
+                "§lScroll of Lethargy I§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Slowness (2:00), Weakness (2:00), and Mining Fatigue (2:00) on all mobs within a 4-block radius.\n•§lUsed to craft§r: Scroll of Lethargy II",
+                
+                "§lScroll of Lethargy II§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Slowness II (4:00), Weakness II (4:00), and Mining Fatigue II (4:00) on all mobs within an 8-block radius.\n•§lUsed to craft§r: Scroll of Lethargy III",
+                
+                "§lScroll of Lethargy III§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Magic Spells Table\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand equippable§r: YES\n•§lCastable with§r: Wands\n•§lImpact Hit Damage§r: 2",
+                "•§lImpact Area Damage§r: 0\n•§lImpact Effect§r: Slowness III (6:00), Weakness III (6:00), and Mining Fatigue III (6:00) on all mobs within a 12-block radius."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "nicothekid:craft_x_block_of_rotten_brute_flesh"
+      "identifier": "ntk:craft_x_block_of_rotten_brute_flesh"
     },
     "priority": 1,
     "tags": [ "crafting_table" ],
@@ -15,16 +15,16 @@
     ],
     "key": {
       "R": {
-        "item": "nicothekid:rotten_brute_flesh"
+        "item": "ntk:rotten_brute_flesh"
       }
     },
     "result": {
-      "item": "nicothekid:block_of_rotten_brute_flesh",
+      "item": "ntk:block_of_rotten_brute_flesh",
       "count": 1
     },
     "unlock": [
       {
-        "item": "nicothekid:rotten_brute_flesh"
+        "item": "ntk:rotten_brute_flesh"
       }
     ]
   }

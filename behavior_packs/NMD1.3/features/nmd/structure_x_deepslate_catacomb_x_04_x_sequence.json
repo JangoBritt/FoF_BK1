@@ -1,0 +1,12 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:sequence_feature": {
+    "description": {
+      "identifier": "nicothekid:nmd/structure_x_deepslate_catacomb_x_04_x_sequence"
+    },
+    "features": [
+      "nicothekid:nmd/structure_x_deepslate_catacomb_x_01_x_structure",
+      "nicothekid:nmd/structure_x_deepslate_catacomb_x_03_x_scatter"
+    ]
+  }
+}

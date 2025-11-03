@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Enchanted Flying Book"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #21",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #21§r\n§lEnchanted Flying Book§r\n§8MOB§r\n \n•§lRarity§r: §pUncommon§r\n•§lBehavior§r: Neutral\n•§lMob type§r: Construct, Object, Magical, Aerial.\n•§lSummon by§r: Book Curserer.\n•§lHealth§r: 16",
+                "•§lFly speed§r: 0.12\n•§lBreathes in§r: Air\n•§lTempted by§r: Book and Quill\n•§lPossible drops§r: Random Enchanted Book, XP Orbs.\n•§rMelee attack damage§r: 2\n•Can be sealed by using a Sealing Bookmark.",
+                "•Can be transformed into Curse Enchantment Book by using a Cursed Eye.",
+                
+                "§lDescription§r:\n \n§‘Enchanted Flying Books carry powerful spells within their pages. Often summoned by Book Curserers, they are living tomes of knowledge — unpredictable and rare, but highly sought for the enchanted secrets they hold."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

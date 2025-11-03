@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Snow Cube"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #12",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #12§r\n§lSnow Cube§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Cube, Ice-elemental, Mystical, Magical, Monster.\n•§lSpawns in§r: Snowy Plains, Ice Spikes, Snowy Taiga, Grove, Snowy Slopes,",
+                "Jagged Peaks, Frozen Peaks, Snowy Beach.\n•§lHealth§r: 8-16\n•§lWalk speed§r: 0.15\n•§lImmune to§r: Freezing\n•§lBreathes in§r: Air, Snow.\n•§lPossible drops§r: Snowball & XP Orbs.\n•§lAggressive toward§r: Players, Iron Golem, Snow Golem.",
+                "•§lMelee attack damage§r: 3\n•§lMelee effect§r: Slowness §o(0:10)§r\n•Takes damage when in contact with water.",
+                
+                "§lDescription§r:\n§‘Snow Cubes roam icy landscapes with chilling intent. Though sluggish, each hit from their frozen bodies inflicts slowness, making escape treacherous. Immune to the cold but vulnerable to water, these frosty foes melt quickly",
+                "outside their frigid domains. When defeated, they crumble into snowballs.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

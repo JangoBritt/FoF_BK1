@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Scarecrow"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #14",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #14§r\n§lScarecrow§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Cursed, Construct, Object, Magical, Monster.\n•§lSpawns in§r: Plains, Forest, Flower Forest, Birch Forest, Dark Forest,",
+                "Pale Garden, Taiga, Jungle, Swamp, Cherry Grove, Meadow, Corrupted Forest.\n•§lHealth§r: 20\n•§lWalk speed§r: 0.25\n•§lBreathes in§r: Air, Water.\n•§lPossible drops§r: Wheat, Stick, XP Orbs.\n•§lAvoids§r §o(Cursed)§r: Any mob wielding",
+                "the Curserer Staff.\n•§lAggressive toward§r §o(Cursed)§r: Players, Corrupted Raven, Iron Golem, Raven, Snow Golem, Traders, Player's aggressive tamed mobs.\n•§lAggressive toward§r §o(Uncursed)§r: Wild Raven, Corrupted Raven, Cursed Rat, Rabbit,",
+                "Wild Rat, Wild Squirrel.\n•§lEquipped weapon§r: Random Hoe\n•§lMelee attack damage§r: 2\n•Can sleep during the day.\n•Can be interacted with Shears to remove the Carved Pumpkin.\n•Can be interacted with Farmer's Hat to equip it.",
+                "•Can be uncursed using a §lCursed Eye§r in your mainhand and §lBook of Curses§r in your offhand.\n•Can slowly regenerate their health when they sit or sleep.",
+                
+                "§lDescription§r:\n \n§‘Possessed by twisted magic, Scarecrows roam farmlands and forests by night, wielding rusted hoes with eerie purpose. Born from cursed effigies, they attack anything they perceive as a threat to their territory — from players",
+                "to wildlife. By day, they often return to a dormant, slumbering state. Though fearsome, they can be uncursed through a powerful ritual, revealing a more protective, if still unsettling, spirit beneath the straw.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

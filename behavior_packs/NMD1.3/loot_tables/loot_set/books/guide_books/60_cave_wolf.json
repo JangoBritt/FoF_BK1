@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Cave Wolf"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #60",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #60§r\n§lCave Wolf§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMob type§r: Large mammal, Animal.\n•§lSpawns in§r: All underground.\n•§lHealth§r: 16 §o(Wild)§r | 32 §o(Tamed)§r",
+                "•§lWalk speed§r: 0.3 | 0.23 §o(Ridden)§r\n•§lBreathes in§r: Air\n•§lTempted by§r: Bone, Any meat-type food except fish meats.\n•§lHealed by§r: Any meat-type food except fish meats.\n•§lBred by§r: Any meat-type food except fish meats.",
+                "•§lAged by§r: Any meat-type food except fish meats.\n•§lTamed by§r: Bone\n•§lPossible drops§r: Fang, Leather, XP Orbs.\n•§lAvoids§r §o(Wild)§r: Creeper, Clurve, Sculk Walker, Warden.\n•§lAggressive toward§r §o(Wild)§r: Chicken, Fox,",
+                "Rabbit, Medium mammals, Small mammals, Skeleton.\n•§lAggressive toward§r §o(Tamed)§r: Monsters, Owner's attackers, Owner's targets.\n•§lMelee attack damage§r: 4-5 §o(Wild)§r | 5-6 §o(Tamed)§r\n•Wild Cave Wolf can randomly sit.",
+                "•Tamed Cave Wolf can be sat down.\n•Tamed Cave Wolf can be ridden using a saddle.\n•They can slowly regenerate their health when they sit or sleep.\n•Cave Wolf can detect enemies without seeing them, unlike other mobs that can only detect enemies once",
+                "they are visible on their views.\n•Wild Cave Wolf can pick up the food that tempts them and eat it.\n•Wild Cave Wolf carrying food will temporarily stop being aggressive towards the mobs they are aggressive with.",
+                
+                "§lDescription§r:\n \n§‘The Cave Wolf is a powerful underground predator, known for its sharp instincts and deep loyalty when tamed. Found lurking in the depths, this neutral beast can be tamed with bones and fed any meat—except fish.",
+                "§‘Once domesticated, it becomes a fierce companion, attacking threats and even serving as a rideable mount. Unique among wolves, it senses enemies through walls and calms momentarily when carrying food. Whether wild or tamed, the Cave Wolf is a",
+                "formidable presence in the dark, echoing with primal strength and unwavering vigilance.§’"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

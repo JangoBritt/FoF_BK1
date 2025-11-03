@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "The Guide Books"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #1",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "    §7Guide Book #1§r\n \n§lThe Guide Books§r\n \nThe guide books are written books that can be randomly found on any structure's chests, barrels, or chiseled bookshelves, and they can sometimes be dropped by certain mobs upon their deaths.",
+                "There are many types of guide books that you can possibly find, and each of these books contains necessary information about a block, item, mobs, or even a secret information.\n \nThis book is just an example.",
+                "Try finding more guide books; they will help you gain more guide about the Forsaken Odyssey."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

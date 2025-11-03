@@ -3,7 +3,7 @@ import { fireElementalTypeFamily, instantDiggableBlocks } from "../../ntk_listin
 import { damageItemDurability, shootProjectile } from "../../ntk_functions.js";
 
 world.beforeEvents.worldInitialize.subscribe(initEvent => {
-  initEvent.itemComponentRegistry.registerCustomComponent("nicothekid:piglin_fire_staff_on_hit_entity", {
+  initEvent.itemComponentRegistry.registerCustomComponent("ntk:piglin_fire_staff_on_hit_entity", {
     onHitEntity: eventData => {
       const damager = eventData.attackingEntity;
       const target = eventData.hitEntity;
@@ -12,7 +12,7 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
       const { x, y, z } = target.location;
       const damagerEquippable = damager.getComponent("equippable");
       
-      if (itemUsed.typeId === "nicothekid:piglin_fire_staff") {
+      if (itemUsed.typeId === "ntk:piglin_fire_staff") {
         if (target.matches({ excludeFamilies: [ "spirit" ] })) {
           // Fire Aspect:
           if (!target.matches({ excludeFamilies: fireElementalTypeFamily })) {
@@ -32,7 +32,7 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
       else return;
     }
   });
-  initEvent.itemComponentRegistry.registerCustomComponent("nicothekid:piglin_fire_staff_on_mine_block", {
+  initEvent.itemComponentRegistry.registerCustomComponent("ntk:piglin_fire_staff_on_mine_block", {
     onMineBlock: eventData => {
       const player = eventData.source;
       const itemUsed = eventData.itemStack;
@@ -40,8 +40,8 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
       const blockPermutation = eventData.minedBlockPermutation;
       const playerEquippable = player.getComponent("equippable");
       
-      if (itemUsed.typeId === "nicothekid:piglin_fire_staff") {
-        if (!instantDiggableBlocks.includes(blockPermutation.type.id) && !blockPermutation.hasTag("nicothekid:instant_diggable")) {
+      if (itemUsed.typeId === "ntk:piglin_fire_staff") {
+        if (!instantDiggableBlocks.includes(blockPermutation.type.id) && !blockPermutation.hasTag("ntk:instant_diggable")) {
           damageItemDurability(player, itemUsed, 2, "Mainhand");
         }
         else return;
@@ -49,22 +49,22 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
       else return;
     }
   });
-  initEvent.itemComponentRegistry.registerCustomComponent("nicothekid:piglin_fire_staff_on_use", {
+  initEvent.itemComponentRegistry.registerCustomComponent("ntk:piglin_fire_staff_on_use", {
     onUse: eventData => {
       const player = eventData.source;
       const itemUsed = eventData.itemStack;
       const playerEquippable = player.getComponent("equippable");
       
-      if (itemUsed.typeId === "nicothekid:piglin_fire_staff") {
+      if (itemUsed.typeId === "ntk:piglin_fire_staff") {
         const cooldown = itemUsed.getComponent("cooldown").getCooldownTicksRemaining(player);
         if (!player.isSneaking) {
-          if (cooldown == 23) {
-            shootProjectile("nicothekid:projectile_fire_spike_magic_missile", player, "mob.ghast.fireball", 2.0);
+          if (cooldown == 15) {
+            shootProjectile("ntk:projectile_fire_spike_magic_missile", player, "mob.ghast.fireball", 2.0);
             damageItemDurability(player, itemUsed, 1, "Mainhand");
           }
         }
         else {
-          if (cooldown == 23) {
+          if (cooldown == 15) {
             system.runTimeout(() => {
               player.startItemCooldown("piglin_fire_staff", 0 );
               return;

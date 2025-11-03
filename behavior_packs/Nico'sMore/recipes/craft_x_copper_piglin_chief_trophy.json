@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "nicothekid:craft_x_copper_piglin_chief_trophy"
+      "identifier": "ntk:craft_x_copper_piglin_chief_trophy"
     },
     "priority": 1,
     "tags": [ "crafting_table" ],
@@ -14,19 +14,19 @@
     ],
     "key": {
       "T": {
-        "item": "nicothekid:stone_piglin_chief_trophy"
+        "item": "ntk:stone_piglin_chief_trophy"
       },
       "C": {
         "item": "minecraft:copper_block"
       }
     },
     "result": {
-      "item": "nicothekid:copper_piglin_chief_trophy",
+      "item": "ntk:copper_piglin_chief_trophy",
       "count": 1
     },
     "unlock": [
       {
-        "item": "nicothekid:stone_piglin_chief_trophy"
+        "item": "ntk:stone_piglin_chief_trophy"
       },
       {
         "item": "minecraft:copper_block"

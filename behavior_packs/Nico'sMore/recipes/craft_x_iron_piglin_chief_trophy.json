@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "nicothekid:craft_x_iron_piglin_chief_trophy"
+      "identifier": "ntk:craft_x_iron_piglin_chief_trophy"
     },
     "priority": 1,
     "tags": [ "crafting_table" ],
@@ -14,19 +14,19 @@
     ],
     "key": {
       "T": {
-        "item": "nicothekid:copper_piglin_chief_trophy"
+        "item": "ntk:copper_piglin_chief_trophy"
       },
       "I": {
         "item": "minecraft:iron_block"
       }
     },
     "result": {
-      "item": "nicothekid:iron_piglin_chief_trophy",
+      "item": "ntk:iron_piglin_chief_trophy",
       "count": 1
     },
     "unlock": [
       {
-        "item": "nicothekid:copper_piglin_chief_trophy"
+        "item": "ntk:copper_piglin_chief_trophy"
       },
       {
         "item": "minecraft:iron_block"

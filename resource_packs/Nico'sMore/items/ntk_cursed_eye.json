@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ntk:cursed_eye",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": "ntk_cursed_eye",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

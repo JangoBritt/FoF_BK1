@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 5,
+          "weight": 10,
           "type": "loot_table",
           "name": "loot_tables/loot_set/random_corals.json"
         },
@@ -42,7 +42,7 @@
           ]
         },
         {
-          "weight": 5,
+          "weight": 1,
           "type": "item",
           "name": "minecraft:turtle_scute",
           "functions": [
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "weight": 35,
+          "weight": 50,
           "type": "item",
           "name": "minecraft:tropical_fish",
           "functions": [
@@ -108,7 +108,7 @@
           ]
         },
         {
-          "weight": 35,
+          "weight": 50,
           "type": "item",
           "name": "minecraft:pufferfish",
           "functions": [

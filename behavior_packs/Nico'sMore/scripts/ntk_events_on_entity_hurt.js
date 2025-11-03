@@ -38,11 +38,11 @@ world.afterEvents.entityHurt.subscribe(eventData => {
     // Hitting fire-elemental-type mobs with bare hands causes damage to the attacker:
     const fireElemental = [
       "minecraft:blaze",
-      "nicothekid:fire_bird",
-      "nicothekid:magma_golem",
-      "nicothekid:nether_wisp",
-      "nicothekid:nether_soul_wisp",
-      "nicothekid:soul_fire_bird"
+      "ntk:fire_bird",
+      "ntk:magma_golem",
+      "ntk:nether_wisp",
+      "ntk:nether_soul_wisp",
+      "ntk:soul_fire_bird"
     ];
     if (fireElemental.includes(target.typeId)) {
       if (!damagerHealth || damager.getEffect("fire_resistance")) return;

@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Giant Moa"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #41",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #41§r\n§lGiant Moa§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMob type§r: Large bird, Animal.\n•§lSpawns in§r: Forest, Jungle, Overgrown Jungle.\n•§lHealth§r: 20 §o(Adult)§r | 30 §o(Tamed)§r",
+                "•§lWalk speed§r: 0.3\n•§lBreathes in§r: Air\n•§lTempted by§r: Berries, Berry Pies.\n•§lHealed by§r: Berries, Berry Pies.\n•§lBreeds with§r: Sweet Berry Pie\n•§lEgg laying§r: 1 Moa Egg.\n•§lAging by§r: Berries, Berry Pies.",
+                "•§lTamed by§r: Glow Berry Pie\n•§lPossible drops§r: Raw Moa, Brown Feather, XP Orbs.\n•§lAggressive toward§r: Endermite, Silverfish, Small arthropods.\n•§lMelee attack damage§r: 2-4 §o(Adult)§r | 1 §o(Baby)§r\n•They can sleep during",
+                "the night.\n•Tamed Giant Moa can be ridden using a saddle.\n•Tamed Giant Moa can be equipped with a chest, providing 16 inventory slots.\n•They can slowly regenerate their health when they sit or sleep.\n•Wild Giant Moa can pick up foods that",
+                "tempts them and eat it.\n•Wild Giant Moa carrying food will temporarily stop being aggressive towards the mobs they are aggressive with.",
+                "§lDescription§r:\n \n§‘The Giant Moa is a docile yet formidable bird, prized for its strength, speed, and surprising intelligence. Though peaceful, it won't hesitate to stomp out smaller pests like Silverfish or Endermites."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

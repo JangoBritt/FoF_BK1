@@ -15,7 +15,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 15,
           "type": "item",
           "name": "minecraft:cocoa_beans",
           "functions": [
@@ -59,7 +59,7 @@
           ]
         },
         {
-          "weight": 5,
+          "weight": 1,
           "type": "item",
           "name": "minecraft:torchflower_seeds",
           "functions": [
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "weight": 5,
+          "weight": 1,
           "type": "item",
           "name": "minecraft:pitcher_pod",
           "functions": [
@@ -114,7 +114,7 @@
           ]
         },
         {
-          "weight": 5,
+          "weight": 1,
           "type": "item",
           "name": "minecraft:golden_apple",
           "functions": [
@@ -125,7 +125,7 @@
           ]
         },
         {
-          "weight": 15,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:golden_carrot",
           "functions": [
@@ -191,7 +191,7 @@
           ]
         },
         {
-          "weight": 35,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:glow_berries",
           "functions": [
@@ -202,7 +202,7 @@
           ]
         },
         {
-          "weight": 75,
+          "weight": 50,
           "type": "item",
           "name": "minecraft:sweet_berries",
           "functions": [
@@ -213,7 +213,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:melon_block",
           "functions": [

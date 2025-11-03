@@ -27,12 +27,12 @@
                 
                 "§lWild Dire Bat§r\n§8Uncursed Dire Bat§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMob type§r: Medium mammal, Animal, Aerial.\n•§lSpawn by§r: Uncursing the Dire Rat.\n•§lHealth§r: 14 §o(Wild)§r | 28 §o(Tamed)§r",
                 "•§lFly Speed§r: 0.2\n•§lBreathes in§r: Air\n•§lTempted by§r: Most of the meat-type foods.\n•§lHealed by§r: Most of the meat-type foods.\n•§lBreeds with§r: Most of the meat-type foods.\n•§lAging by§r: Most of the meat-type foods.",
-                "•§lTamed by§r: Cooked Clurve Flesh\n•§lPossible drops§r: Bat Wing, Fang, XP Orbs.\n•§lAggressive toward§r §o(Tamed)§r: Any aerial-monster mobs, Owner's attackers, Owner's targets.\n•§lMelee attack damage§r: 2-3",
+                "•§lTamed by§r: Cooked Clurve Meat\n•§lPossible drops§r: Bat Wing, Fang, XP Orbs.\n•§lAggressive toward§r §o(Tamed)§r: Any aerial-monster mobs, Owner's attackers, Owner's targets.\n•§lMelee attack damage§r: 2-3",
                 "•§lMelee effect§r: Hunger §o(0:12)§r\n•Tamed Dire Bat can be sat down.\n•Wild Dire Bat pick up the food that tempts them and eat it.\n•They can slowly regenerate their health when they sit or sleep.",
                 
                 "§lDescription§r:\n§‘Dire Bats haunt the cavernous depths, striking from the shadows with their fangs and spreading hunger through their bite. Naturally aggressive toward players and golems alike, these cursed creatures only fly away from those",
                 "§‘who wield a Curserer Staff. However, a Dire Bat’s fate is not sealed — with the right ritual, they can be freed from their corruption and returned to their wilder, gentler nature.\n \nWild Dire Bat regains its natural instincts and spirit.",
-                "§‘Neutral in the wild and tempted by meats, these flying creatures can be tamed with Cooked Clurve Flesh, becoming loyal aerial guardians. Even in their freed state, they retain a touch of their past — a bite that brings brief hunger to their foes.",
+                "§‘Neutral in the wild and tempted by meats, these flying creatures can be tamed with Cooked Clurve Meat, becoming loyal aerial guardians. Even in their freed state, they retain a touch of their past — a bite that brings brief hunger to their foes.",
                 "Resting Wild Dire Bats slowly mend their wounds§’"
               ]
             }

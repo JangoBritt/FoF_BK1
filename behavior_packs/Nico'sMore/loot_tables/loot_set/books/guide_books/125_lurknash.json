@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Lurknash"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #125",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #125§r\n§lLurknash§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Hostile\n•§lMob type§r: Medium mammal, Animal, Monster.\n•§lSpawns in§r: End Islands.\n•§lHealth§r: 20 §o(Wild)§r | 32 §o(Tamed)§r",
+                "•§lWalk speed§r: 3.0\n•§lBreathes in§r: Air\n•§lTempted by§r: Any meat-type food except fish meats.\n•§lHealed by§r: Any meat-type food except fish meats.\n•§lBreeds with§r: Any meat-type food except fish meats.\n•§lAging by§r: Any meat-",
+                "-type food except fish meats.\n•§lTamed by§r: Cooked Moa\n•§lPossible drops§r: Raw Lurknash Meat, & XP Orbs.\n•§lAvoids§r §o(Wild)§r: Ender Dragon\n•§lAggressive toward§r §o(Wild)§r: Players, Small animals, & Villagers.",
+                "•§lAggressive toward§r §o(Tamed)§r: Owner's attackers, Owner's targets.\n•§lMelee attack damage§r: 4-5 §o(Wild)§r | 5-6 §o(Tamed)§r\n•Wild Lurknash can randomly sit.\n•Tamed Lurknash can be sat down.\n•Can slowly regenerate their health",
+                "when they sit or sleep.\n•Can pick up the food that tempts them and eat it.\n•Carrying food will temporarily stop being aggressive towards the mobs they are aggressive with; they will avoid them instead.\n•Can broadcast its enemies",
+                "§‘to all other nearby Lurknash."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

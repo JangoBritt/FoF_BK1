@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Selvander"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #83",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #83§r\n§lSelvander§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMob type§r: Medium amphibian, Animal.\n•§lSpawns in§r: Overgrown Jungle\n•§lHealth§r: 15 §o(Wild)§r | 28 §o(Tamed)§r",
+                "•§lWalk speed§r: 0.22\n•§lBreathes in§r: Air, Water.\n•§lTempted by§r: Cod, Pufferfish, Salmon, Tropical Fish.\n•§lHealed by§r: Cod, Pufferfish, Salmon, Tropical Fish.\n•§lBreeds with§r: Cod, Pufferfish, Salmon.\n•§lAging by§r: Cod,",
+                "Pufferfish, Salmon, Tropical Fish.\n•§lTamed by§r: Tropical Fish\n•§lPossible drops§r: Amphibian Gills, XP Orbs.\n•§lAggressive toward§r §o(Wild)§r: Cod, Pufferfish, Salmon, Squid, Tadpole, Tropical Fish, Small Fishes.",
+                "•§lAggressive toward§r §o(Tamed)§r: Owner's attackers, Owner's targets.\n•§lMelee attack damage§r: 2\n•Wild Selvander can randomly sit.\n•Tamed Selvander can be sat down.\n•They can slowly regenerate their health when they sit or sleep.",
+                "•Wild Selvander can pick up the food that tempts them and eat it.\n•Wild Selvender carrying food will temporarily stop being aggressive towards the mobs they are aggressive with."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
