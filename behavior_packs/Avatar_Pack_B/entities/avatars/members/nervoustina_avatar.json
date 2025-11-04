@@ -2,7 +2,7 @@
     "format_version": "1.16.0",
     "minecraft:entity": {
         "description": {
-            "identifier": "fables_avatars:cragola_avatar",
+            "identifier": "fables_avatars:nervoustina_avatar",
             "is_spawnable": false,
             "is_summonable": true,
             "is_experimental": false
@@ -1509,7 +1509,7 @@
                 ]
             },
             "minecraft:loot": {
-                "table": "loot_tables/avatars/members/cragola_avatar.json"
+                "table": "loot_tables/avatars/members/nervoustina_avatar.json"
             },
             "minecraft:type_family": {
                 "family": [

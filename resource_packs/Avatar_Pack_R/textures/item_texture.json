@@ -679,6 +679,12 @@
                                                   },
                          "citizen1_head_item":  {
                                                     "textures":  "textures/avatars/specials/citizen1/player_head_item"
-                                                }
+                                                },
+                         "nervoustina_avatar_item":  {
+                                                         "textures":  "textures/avatars/members/nervoustina/avatar_item"
+                                                     },
+                         "nervoustina_head_item":  {
+                                                       "textures":  "textures/avatars/members/nervoustina/player_head_item"
+                                                   }
                      }
 }

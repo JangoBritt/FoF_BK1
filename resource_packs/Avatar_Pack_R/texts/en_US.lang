@@ -575,3 +575,10 @@ entity.fables_avatars:garthcp_head.name=GarthCP's Head
 item.fables_avatars:garthcp_avatar_item=GarthCP's  Avatar
 item.fables_avatars:garthcp_head_item=GarthCP's  Head
 item.fables_avatars:garthcp_mask=GarthCP's  Mask
+
+action.hint.exit.fables_avatars:nervoustina_head=Jump to Exit
+entity.fables_avatars:nervoustina_avatar.name=NervousTina's Avatar
+entity.fables_avatars:nervoustina_head.name=NervousTina's Head
+item.fables_avatars:nervoustina_avatar_item=NervousTina's  Avatar
+item.fables_avatars:nervoustina_head_item=NervousTina's  Head
+item.fables_avatars:nervoustina_mask=NervousTina's  Mask
