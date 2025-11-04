@@ -24,26 +24,26 @@
     "components": {
       "minecraft:material_instances": {
         "*": {
-          "texture": "leather_pile_side",
+          "texture": "fables_misc:leather_pile_side",
           "render_method": "opaque",
           "ambient_occlusion": true,
 					"face_dimming": true
         },
         "up": {
-          "texture": "leather_pile_up",
+          "texture": "fables_misc:leather_pile_up",
           "render_method": "opaque",
           "ambient_occlusion": true,
 					"face_dimming": true
         },
         "down": {
-          "texture": "leather_pile_up",
+          "texture": "fables_misc:leather_pile_up",
           "render_method": "opaque",
           "ambient_occlusion": true,
 					"face_dimming": true
         }
       },
       "minecraft:geometry": {
-        "identifier": "geometry.block"
+        "identifier": "minecraft:geometry.full_block"
       },
       "minecraft:map_color": "#a16632",
       "minecraft:collision_box": {

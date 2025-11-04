@@ -10,7 +10,7 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "vibranium_crystal_block"
+                    "texture": "fables_misc:vibranium_crystal_block"
                 }
             },
             "minecraft:destructible_by_mining": {
@@ -19,7 +19,9 @@
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 3
             },
-            "minecraft:geometry": "geometry.block",
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
             "minecraft:loot": "loot_tables/vibranium_crystal_block.json"
         }
     }
