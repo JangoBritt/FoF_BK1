@@ -16,6 +16,9 @@
 			"minecraft:display_name": {
 				"value": "tile.wypnt_bab:velvium_vine_bulb.name"
 			},
+			"minecraft:compostable": {
+				"composting_chance": 30
+			},
 			"minecraft:block_placer": {
 				"block": "wypnt_bab:velvium_vine_bulb",
 				"replace_block_item": true

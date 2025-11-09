@@ -16,6 +16,9 @@
 			"minecraft:display_name": {
 				"value": "tile.wypnt_bab:bluebell.name"
 			},
+			"minecraft:compostable": {
+				"composting_chance": 65
+			},
 			"minecraft:block_placer": {
 				"block": "wypnt_bab:bluebell",
 				"replace_block_item": true

@@ -19,11 +19,11 @@
           "max": "hard"
         },
         "minecraft:weight": {
-          "default": 100
+          "default": 25
         },
         "minecraft:herd": {
-          "min_size": 2,
-          "max_size": 3
+          "min_size": 1,
+          "max_size": 2
         },
 		"minecraft:height_filter": {
 			"min": -63,

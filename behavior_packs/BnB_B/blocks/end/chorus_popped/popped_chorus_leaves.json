@@ -51,7 +51,7 @@
 					150
 				]
 			},
-			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/chorus_leaves_popped_drops.json",
 			"tag:minecraft:is_shears_item_destructible": {},
 			"tag:minecraft:is_hoe_item_destructible": {},
 			"tag:minecraft:is_sword_item_destructible": {},

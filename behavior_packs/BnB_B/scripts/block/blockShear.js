@@ -12,7 +12,8 @@ const blockLootTables = {
     "wypnt_bab:fir_leaves": '"coreblockstudios/biomesandbeyond/blocks/fir_leaves_sheared"',
     "wypnt_bab:forsaken_oak_leaves": '"coreblockstudios/biomesandbeyond/blocks/forsaken_oak_leaves_sheared"',
     "wypnt_bab:chorus_leaves": '"coreblockstudios/biomesandbeyond/blocks/chorus_leaves_sheared"',
-    "wypnt_bab:popped_chorus_leaves": '"coreblockstudios/biomesandbeyond/blocks/chorus_leaves_popped_sheared"'
+    "wypnt_bab:popped_chorus_leaves": '"coreblockstudios/biomesandbeyond/blocks/chorus_leaves_popped_sheared"',
+    "korbon:cherry_blossom_leaves": '"blocks/cherry_blossom_leaves"'
 };
 
 // Special blocks like barley with different loot for normal and sheared

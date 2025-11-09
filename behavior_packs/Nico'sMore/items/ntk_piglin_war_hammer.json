@@ -1,83 +1,111 @@
 {
-  "format_version": "1.21.60",
-  "minecraft:item": {
-    "description": {
-      "identifier": "ntk:piglin_war_hammer",
-      "menu_category": {
-        "category": "equipment",
-        "group": "minecraft:equipment"
-      }
-    },
-    "components": {
-      "minecraft:display_name": {
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ntk:piglin_war_hammer",
+			"menu_category": {
+				"category": "equipment",
+				"group": "minecraft:equipment"
+			}
+		},
+		"components": {
+			"minecraft:display_name": {
 				"value": "%item.ntk.piglin_war_hammer.name\n§7%effect.earth_bane III§r"
 			},
 			"minecraft:rarity": "rare",
-      "minecraft:icon": {
+			"minecraft:icon": {
 				"textures": {
-          "default": "ntk_piglin_war_hammer"  
+					"default": "ntk_piglin_war_hammer"
 				}
 			},
 			"minecraft:hand_equipped": {
-        "value": true
+				"value": true
 			},
 			"minecraft:allow_off_hand": {
-        "value": false
+				"value": false
 			},
 			"minecraft:can_destroy_in_creative": {
-        "value": true
+				"value": true
 			},
 			"minecraft:glint": {
-        "value": false
+				"value": false
 			},
 			"minecraft:liquid_clipped": {
-        "value": false
+				"value": false
 			},
 			"minecraft:should_despawn": {
-        "value": true
+				"value": true
 			},
 			"minecraft:stacked_by_data": {
-        "value": true
+				"value": true
 			},
 			"minecraft:max_stack_size": {
-        "value": 1
+				"value": 1
 			},
-      "minecraft:durability": {
-				"max_durability": 256,
+		"minecraft:durability": {
+				"max_durability": 3250,
 				"damage_chance": {
-					"min": 99,
-					"max": 100
+					"min": 5,
+					"max": 10
 				}
 			},
 			"minecraft:damage": {
-			  "value": 20
+				"value": 20
 			},
+			"minecraft:mining_speed": 12,
 			"minecraft:enchantable": {
-				"slot": "elytra",
+				"slot": "pickaxe",
 				"value": 30
 			},
 			"minecraft:repairable": {
 				"repair_items": [
-				  {
-						"items": [ "ntk:piglin_war_hammer" ],
+					{
+						"items": [
+							"ntk:piglin_war_hammer"
+						],
 						"repair_amount": "query.remaining_durability"
 					}
 				]
 			},
 			"minecraft:custom_components": [
-        "ntk:piglin_war_hammer_on_hit_entity",
-        "ntk:piglin_war_hammer_on_mine_block"
-      ],
+				"ntk:piglin_war_hammer_on_hit_entity"
+			],
+			"tag:minecraft:is_pickaxe": {},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('minecraft:is_pickaxe_item_destructible')"
+						},
+						"speed": 9
+					},
+					{
+						"speed": 9,
+						"block": {
+							"tags": "query.any_tag('stone')"
+						}
+					},
+					{
+						"speed": 9,
+						"block": {
+							"tags": "query.any_tag('metal')"
+						}
+					}
+				]
+			},
+			
 			"minecraft:tags": {
-        "tags": [
-          "ntk:piglin_war_hammer",
-          "ntk:war_hammer",
-          "ntk:hammer",
-          "ntk:melee_weapon",
-          "ntk:earth_bane",
-          "ntk:items"
-        ]
-      }
-    }
-  }
+				"tags": [
+					"ntk:piglin_war_hammer",
+					"ntk:war_hammer",
+					"ntk:hammer",
+					"ntk:melee_weapon",
+					"ntk:earth_bane",
+					"ntk:items",
+		  			"minecraft:is_tool"
+				]
+			}
+		}
+	}
 }

@@ -16,6 +16,9 @@
 			"minecraft:display_name": {
 				"value": "tile.wypnt_bab:duckweed.name"
 			},
+			"minecraft:compostable": {
+				"composting_chance": 65
+			},
 			"minecraft:liquid_clipped": true,
 			"minecraft:block_placer": {
 				"block": "wypnt_bab:duckweed",

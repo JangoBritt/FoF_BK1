@@ -48,6 +48,13 @@
             }
           ]
         },
+        {"type": "item","weight": 50,"name": "nicothekid:end_stone_brick_lantern","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 50,"name": "nicothekid:end_stone_brick_soul_lantern","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 50,"name": "nicothekid:end_stone_lantern","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 50,"name": "nicothekid:end_stone_soul_lantern","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 50,"name": "nicothekid:purpur_lantern","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 50,"name": "nicothekid:purpur_soul_lantern","functions": [{"function": "set_count","count": 1}]},
+
         {"type": "item","weight": 100,"name": "wypnt_bab:chorus_ivy","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 100,"name": "wypnt_bab:chorus_sapling","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 100,"name": "wypnt_bab:cooked_striding","functions": [{"function": "set_count","count": 1}]},
@@ -63,6 +70,7 @@
         {"type": "item","weight": 100,"name": "wypnt_bab:void_blossom_bush","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 100,"name": "wypnt_bab:void_shard","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 100,"name": "wypnt_bab:void_turf_grass","functions": [{"function": "set_count","count": 1}]},
+        
         {"type": "item","weight": 100,"name": "wypnt_bab:voidmire_grass","functions": [{"function": "set_count","count": 1}]}
 
 

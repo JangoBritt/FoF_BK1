@@ -69,7 +69,7 @@
 						}
 					]
 				},
-		"minecraft:loot": "loot_tables/empty.json",
+		"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/redwood_leaves_drops.json",
 		"tag:wypnt_bab:custom_leaves": {},
 		"tag:minecraft:is_hoe_item_destructible": {}
 	  }

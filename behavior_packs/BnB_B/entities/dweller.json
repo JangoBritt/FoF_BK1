@@ -78,47 +78,6 @@
 						}
 					]
 				}
-			},
-			"wypnt_bab:dweller_break_block": {
-				"minecraft:break_blocks": {
-					"breakable_blocks": [
-						"minecraft:torch",
-						"minecraft:soul_torch",
-						"minecraft:copper_torch"
-					]
-				},
-				"minecraft:timer": {
-					"looping": false,
-					"time": 4,
-					"time_down_event": {
-						"event": "wypnt_bab:dweller_reset_avoid"
-					}
-				}
-			},
-			"wypnt_bab:dweller_find_block": {
-				"minecraft:behavior.move_to_block": {
-					"priority": 2,
-					"stay_duration": 1,
-					"search_range": 30,
-					"search_height": 6,
-					"target_selection_method": "nearest",
-					"on_reach": {
-						"event": "wypnt_bab:dweller_break_blocks"
-					},
-					"target_blocks": [
-						"minecraft:torch",
-						"minecraft:soul_torch",
-						"minecraft:copper_torch"
-					],
-					"speed_multiplier": 1.2
-				},
-				"minecraft:timer": {
-					"looping": false,
-					"time": 5,
-					"time_down_event": {
-						"event": "wypnt_bab:dweller_reset_avoid"
-					}
-				}
 			}
 		},
 		"components": {
@@ -142,11 +101,11 @@
 				"value": 0.21
 			},
 			"minecraft:navigation.walk": {
-				"is_amphibious": true,
+				"is_amphibious": false,
 				"avoid_sun": true,
 				"avoid_water": true,
-				"can_pass_doors": true,
-                "can_break_doors": true
+				"can_pass_doors": false,
+                "can_break_doors": false
 			},
 			"minecraft:movement.basic": {},
 			"minecraft:jump.static": {},
@@ -243,17 +202,8 @@
 			"minecraft:scale": {
 				"value": 1.05
 			},
-			"minecraft:annotation.break_door": {
-  "break_time": 30,
-  "min_difficulty": "hard"
-},
 			"minecraft:knockback_resistance": {
 				"value": 0.65
-			},
-			"minecraft:annotation.open_door": {},
-			"minecraft:behavior.open_door": {
-				"priority": 6,
-				"close_door_after": true
 			},
 			"minecraft:behavior.restrict_open_door": {
 				"priority": 5
@@ -317,42 +267,6 @@
 				"add": {
 					"component_groups": [
 						"wypnt_bab:dweller_calm"
-					]
-				}
-			},
-			"wypnt_bab:dweller_flee_over": {
-				"remove": {
-					"component_groups": [
-						"wypnt_bab:dweller_avoid_blocks"
-					]
-				},
-				"add": {
-					"component_groups": [
-						"wypnt_bab:dweller_find_block"
-					]
-				}
-			},
-			"wypnt_bab:dweller_break_blocks": {
-				"remove": {
-					"component_groups": [
-						"wypnt_bab:dweller_find_block"
-					]
-				},
-				"add": {
-					"component_groups": [
-						"wypnt_bab:dweller_break_block"
-					]
-				}
-			},
-			"wypnt_bab:dweller_reset_avoid": {
-				"remove": {
-					"component_groups": [
-						"wypnt_bab:dweller_break_block"
-					]
-				},
-				"add": {
-					"component_groups": [
-						"wypnt_bab:dweller_avoid_blocks"
 					]
 				}
 			}

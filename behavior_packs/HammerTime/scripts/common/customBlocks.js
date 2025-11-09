@@ -20,6 +20,7 @@ export const THIRD_PARTY_BREAKABLE_BLOCKS = [
 'wypnt_bab:rotveil_grass',
 'wypnt_bab:velvium',
 'wypnt_bab:void_turf',
-'wypnt_bab:voidmire'
-
+'wypnt_bab:voidmire',
+'wypnt_bab:deepslate_tungsten_ore',
+'wypnt_bab:tungsten_ore'
 ];

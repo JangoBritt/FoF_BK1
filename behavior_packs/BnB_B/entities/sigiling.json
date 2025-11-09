@@ -66,7 +66,6 @@
 					"attack_radius": 9,
 					"speed_multiplier": 1
 				},
-
 				"minecraft:shooter": {
 					"def": "wypnt_bab:sigiling_shot"
 				},
@@ -86,35 +85,45 @@
 					"priority": 3
 				}
 			},
-				"minecraft:riding": {
-        "minecraft:environment_sensor": {
-          "triggers": {
-            "filters": {
-              "test": "is_riding", "subject": "self", "operator": "==", "value": false
-            },
-            "event": "minecraft:stopped_riding"
-          }
-        }
-      },
-      "minecraft:not_riding": {
-        "minecraft:environment_sensor": {
-          "triggers": {
-            "filters": {
-              "test": "is_riding", "subject": "self", "operator": "==", "value": true
-            },
-            "event": "minecraft:started_riding"
-          }
-        },
-        "minecraft:teleport": {
-        	"random_teleports": true,
-        	"max_random_teleport_time": 30,
-        	"random_teleport_cube": [ 8, 6, 8 ],
-				"target_distance": 8,
-				"target_teleport_chance": 0.01,
-				"light_teleport_chance": 0.05,
-				"min_random_teleport_time": 10
+			"minecraft:riding": {
+				"minecraft:environment_sensor": {
+					"triggers": {
+						"filters": {
+							"test": "is_riding",
+							"subject": "self",
+							"operator": "==",
+							"value": false
+						},
+						"event": "minecraft:stopped_riding"
+					}
+				}
+			},
+			"minecraft:not_riding": {
+				"minecraft:environment_sensor": {
+					"triggers": {
+						"filters": {
+							"test": "is_riding",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"event": "minecraft:started_riding"
+					}
+				},
+				"minecraft:teleport": {
+					"random_teleports": true,
+					"max_random_teleport_time": 30,
+					"random_teleport_cube": [
+						8,
+						6,
+						8
+					],
+					"target_distance": 8,
+					"target_teleport_chance": 0.01,
+					"light_teleport_chance": 0.05,
+					"min_random_teleport_time": 10
+				}
 			}
-      }
 		},
 		"components": {
 			"minecraft:is_hidden_when_invisible": {},
@@ -123,7 +132,13 @@
 				"on_death": "query.last_hit_by_player ? 5 : 0"
 			},
 			"minecraft:type_family": {
-				"family": [ "enderman", "monster", "mob", "sigiling", "enderling" ]
+				"family": [
+					"enderman",
+					"monster",
+					"mob",
+					"sigiling",
+					"enderling"
+				]
 			},
 			"minecraft:breathable": {
 				"total_supply": 15,
@@ -173,21 +188,16 @@
 				"find_players_only": true,
 				"min_looked_at_duration": 3.25,
 				"filters": {
-          "test": "has_equipment",
-          "domain": "head",
-          "subject": "other",
-          "operator": "not",
-          "value": "carved_pumpkin"
-        }
+					"test": "has_equipment",
+					"domain": "head",
+					"subject": "other",
+					"operator": "not",
+					"value": "carved_pumpkin"
+				}
 			},
 			"minecraft:despawn": {
-            "despawn_from_distance": {},
-            "filters": {
-          "all_of": [
-            { "test": "is_difficulty", "operator": "==", "value": "peaceful" }
-          ]
-        }
-             },
+				"despawn_from_distance": {}
+			},
 			"minecraft:behavior.nearest_attackable_target": {
 				"priority": 1,
 				"must_see": true,
@@ -199,7 +209,7 @@
 							"subject": "other",
 							"value": "endermite"
 						},
-						"max_dist": 64
+						"max_dist": 24
 					}
 				]
 			},
@@ -252,9 +262,9 @@
 				"is_pushable_by_piston": true
 			},
 			"minecraft:variable_max_auto_step": {
-            "base_value": 1.0625, // 1 block + 1 pixel
-            "jump_prevented_value": 0.5625 // 0.5 blocks + 1 pixel
-            },
+				"base_value": 1.0625, // 1 block + 1 pixel
+				"jump_prevented_value": 0.5625 // 0.5 blocks + 1 pixel
+			},
 			"minecraft:conditional_bandwidth_optimization": {
 				"default_values": {
 					"max_optimized_distance": 80.0,
@@ -311,30 +321,30 @@
 					]
 				}
 			},
-			 "minecraft:stopped_riding": {
-        "add": {
-          "component_groups": [
-            "minecraft:not_riding"
-          ]
-        },
-        "remove": {
-          "component_groups": [
-            "minecraft:riding"
-          ]
-        }
-      },
-      "minecraft:started_riding": {
-        "add": {
-          "component_groups": [
-            "minecraft:riding"
-          ]
-        },
-        "remove": {
-          "component_groups": [
-            "minecraft:not_riding"
-          ]
-        }
-      }
+			"minecraft:stopped_riding": {
+				"add": {
+					"component_groups": [
+						"minecraft:not_riding"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:riding"
+					]
+				}
+			},
+			"minecraft:started_riding": {
+				"add": {
+					"component_groups": [
+						"minecraft:riding"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:not_riding"
+					]
+				}
+			}
 		}
 	}
 }

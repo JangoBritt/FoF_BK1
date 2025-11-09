@@ -14,6 +14,9 @@
 				"block": "wypnt_bab:chorus_ivy",
 				"replace_block_item": true
 			},
+			"minecraft:compostable": {
+				"composting_chance": 65
+			},
 			"minecraft:display_name": {
 				"value": "tile.wypnt_bab:chorus_ivy.name"
 			},

@@ -16,6 +16,9 @@
 			"minecraft:display_name": {
 				"value": "tile.wypnt_bab:lily_blossom.name"
 			},
+			"minecraft:compostable": {
+				"composting_chance": 65
+			},
 			"minecraft:liquid_clipped": true,
 			"minecraft:block_placer": {
 				"block": "wypnt_bab:lily_blossom",

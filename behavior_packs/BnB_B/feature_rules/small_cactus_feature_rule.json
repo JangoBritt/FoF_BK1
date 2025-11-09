@@ -16,11 +16,6 @@
 									"test": "has_biome_tag",
 									"operator": "==",
 									"value": "windswept_desert"
-								},
-								{
-									"test": "has_biome_tag",
-									"operator": "==",
-									"value": "mesa"
 								}
 							]
 						}

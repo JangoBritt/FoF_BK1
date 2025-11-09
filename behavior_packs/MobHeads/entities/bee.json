@@ -50,13 +50,18 @@
             "minecraft:wildflowers",
             "minecraft:cactus_flower",
 
-            //Expansive Biomes
-            "korbon:bluebell",
-            "korbon:buttercup",
-            "korbon:violet_flower",
-            "korbon:lavender_flower",
-            "korbon:small_cactus",
-            "korbon:daisy_petals"
+            //Biomes & Beyond
+            "wypnt_bab:bluebell",
+            "wypnt_bab:violet_flower",
+            "wypnt_bab:lavender_flower",
+            "wypnt_bab:small_cactus",
+            "wypnt_bab:daisy_petals",
+            "wypnt_bab:bunchflower",
+            "wypnt_bab:lily_blossom",
+            "wypnt_bab:mullein",
+            "wypnt_bab:white_lazarus",
+            "wypnt_bab:wisteria",
+            "wypnt_bab:lazarus"
           ],
           "grow_up": {
             "event": "minecraft:ageable_grow_up",
@@ -114,14 +119,19 @@
             "minecraft:pink_petals",
             "minecraft:wildflowers",
             "minecraft:cactus_flower",
-
-            //Expansive Biomes
-            "korbon:bluebell",
-            "korbon:buttercup",
-            "korbon:violet_flower",
-            "korbon:lavender_flower",
-            "korbon:small_cactus",
-            "korbon:daisy_petals"
+            
+            //Biomes & Beyond
+            "wypnt_bab:bluebell",
+            "wypnt_bab:violet_flower",
+            "wypnt_bab:lavender_flower",
+            "wypnt_bab:small_cactus",
+            "wypnt_bab:daisy_petals",
+            "wypnt_bab:bunchflower",
+            "wypnt_bab:lily_blossom",
+            "wypnt_bab:mullein",
+            "wypnt_bab:white_lazarus",
+            "wypnt_bab:wisteria",
+            "wypnt_bab:lazarus"
           ]
         },
         "minecraft:loot": {
@@ -294,13 +304,19 @@
             "minecraft:wildflowers",
             "minecraft:cactus_flower",
 
-            //Expansive Biomes
-            "korbon:bluebell",
-            "korbon:buttercup",
-            "korbon:violet_flower",
-            "korbon:lavender_flower",
-            "korbon:small_cactus",
-            "korbon:daisy_petals"
+
+            //Biomes & Beyond
+            "wypnt_bab:bluebell",
+            "wypnt_bab:violet_flower",
+            "wypnt_bab:lavender_flower",
+            "wypnt_bab:small_cactus",
+            "wypnt_bab:daisy_petals",
+            "wypnt_bab:bunchflower",
+            "wypnt_bab:lily_blossom",
+            "wypnt_bab:mullein",
+            "wypnt_bab:white_lazarus",
+            "wypnt_bab:wisteria",
+            "wypnt_bab:lazarus"
           ],
           "on_stay_completed": [
             {
@@ -593,13 +609,19 @@
           "minecraft:wildflowers",
           "minecraft:cactus_flower",
 
-          //Expansive Biomes
-          "korbon:bluebell",
-          "korbon:buttercup",
-          "korbon:violet_flower",
-          "korbon:lavender_flower",
-          "korbon:small_cactus",
-          "korbon:daisy_petals"
+
+            //Biomes & Beyond
+            "wypnt_bab:bluebell",
+            "wypnt_bab:violet_flower",
+            "wypnt_bab:lavender_flower",
+            "wypnt_bab:small_cactus",
+            "wypnt_bab:daisy_petals",
+            "wypnt_bab:bunchflower",
+            "wypnt_bab:lily_blossom",
+            "wypnt_bab:mullein",
+            "wypnt_bab:white_lazarus",
+            "wypnt_bab:wisteria",
+            "wypnt_bab:lazarus"
         ]
       },
       "minecraft:behavior.move_towards_home_restriction": {

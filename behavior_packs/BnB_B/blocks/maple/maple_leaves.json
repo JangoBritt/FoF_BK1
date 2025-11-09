@@ -70,7 +70,7 @@
 					150
 				]
 			},
-			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/maple_leaves_drops.json",
 			"tag:minecraft:is_hoe_item_destructible": {},
 		"tag:wypnt_bab:custom_leaves": {},
 									"minecraft:liquid_detection": {

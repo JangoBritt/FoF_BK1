@@ -14,6 +14,9 @@
 			"minecraft:display_name": {
 				"value": "tile.wypnt_bab:violet_flower.name"
 			},
+			"minecraft:compostable": {
+				"composting_chance": 30
+			},
 			"minecraft:block_placer": {
 				"block": "wypnt_bab:violet_flower",
 				"replace_block_item": true

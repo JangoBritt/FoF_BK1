@@ -4,8 +4,8 @@
 		"description": {
 			"identifier": "wypnt_bab:hollowmen",
 			"spawn_category": "monster",
-            "is_spawnable": true,
-            "is_summonable": true
+			"is_spawnable": true,
+			"is_summonable": true
 		},
 		"component_groups": {
 			"wypnt_bab:hollowmen_calm": {
@@ -39,33 +39,43 @@
 				}
 			},
 			"minecraft:riding": {
-        "minecraft:environment_sensor": {
-          "triggers": {
-            "filters": {
-              "test": "is_riding", "subject": "self", "operator": "==", "value": false
-            },
-            "event": "minecraft:stopped_riding"
-          }
-        }
-      },
-      "minecraft:not_riding": {
-        "minecraft:environment_sensor": {
-          "triggers": {
-            "filters": {
-              "test": "is_riding", "subject": "self", "operator": "==", "value": true
-            },
-            "event": "minecraft:started_riding"
-          }
-        },
-        "minecraft:teleport": {
-				"random_teleports": true,
-				"max_random_teleport_time": 3,
-				"random_teleport_cube": [7, 32, 7],
-				"target_distance": 16,
-				"target_teleport_chance": 0.001,
-				"light_teleport_chance": 0.001
-			}
-      },
+				"minecraft:environment_sensor": {
+					"triggers": {
+						"filters": {
+							"test": "is_riding",
+							"subject": "self",
+							"operator": "==",
+							"value": false
+						},
+						"event": "minecraft:stopped_riding"
+					}
+				}
+			},
+			"minecraft:not_riding": {
+				"minecraft:environment_sensor": {
+					"triggers": {
+						"filters": {
+							"test": "is_riding",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"event": "minecraft:started_riding"
+					}
+				},
+				"minecraft:teleport": {
+					"random_teleports": true,
+					"max_random_teleport_time": 3,
+					"random_teleport_cube": [
+						7,
+						32,
+						7
+					],
+					"target_distance": 16,
+					"target_teleport_chance": 0.001,
+					"light_teleport_chance": 0.001
+				}
+			},
 			"wypnt_bab:hollowmen_main": {
 				"minecraft:health": {
 					"value": 38,
@@ -133,15 +143,19 @@
 				"minecraft:teleport": {
 					"random_teleports": true,
 					"max_random_teleport_time": 3,
-					"random_teleport_cube": [7, 4, 7],
+					"random_teleport_cube": [
+						7,
+						4,
+						7
+					],
 					"target_distance": 16,
 					"target_teleport_chance": 0.001,
 					"light_teleport_chance": 0.001
 				},
-				   "minecraft:variable_max_auto_step": {
-        "base_value": 1.0625, // 1 block + 1 pixel
-        "jump_prevented_value": 0.5625 // 0.5 blocks + 1 pixel
-                 },
+				"minecraft:variable_max_auto_step": {
+					"base_value": 1.0625, // 1 block + 1 pixel
+					"jump_prevented_value": 0.5625 // 0.5 blocks + 1 pixel
+				},
 				"minecraft:type_family": {
 					"family": [
 						"wypnt_bab:hollowmen_duplicate"
@@ -193,26 +207,26 @@
 			}
 		},
 		"components": {
-			"minecraft:is_hidden_when_invisible": { },
-      "minecraft:renders_when_invisible": { },
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:renders_when_invisible": {},
 			"minecraft:experience_reward": {
 				"on_death": "query.last_hit_by_player ? 5 : 0"
 			},
 			"minecraft:teleport": {
 				"random_teleports": true,
 				"max_random_teleport_time": 3,
-				"random_teleport_cube": [7, 32, 7],
+				"random_teleport_cube": [
+					7,
+					32,
+					7
+				],
 				"target_distance": 16,
 				"target_teleport_chance": 0.001,
 				"light_teleport_chance": 0.001
 			},
 			"minecraft:despawn": {
-            "filters": {
-          "all_of": [
-            { "test": "is_difficulty", "operator": "==", "value": "peaceful" }
-          ]
-        }
-             },
+				"despawn_from_distance": {}
+			},
 			"minecraft:type_family": {
 				"family": [
 					"enderman",
@@ -277,7 +291,7 @@
 				"add": {
 					"component_groups": [
 						"wypnt_bab:hollowmen_calm",
-						"wypnt_bab:hollowmen_main", 
+						"wypnt_bab:hollowmen_main",
 						"minecraft:not_riding"
 					]
 				}
@@ -307,29 +321,29 @@
 				}
 			},
 			"minecraft:stopped_riding": {
-        "add": {
-          "component_groups": [
-            "minecraft:not_riding"
-          ]
-        },
-        "remove": {
-          "component_groups": [
-            "minecraft:riding"
-          ]
-        }
-      },
-      "minecraft:started_riding": {
-        "add": {
-          "component_groups": [
-            "minecraft:riding"
-          ]
-        },
-        "remove": {
-          "component_groups": [
-            "minecraft:not_riding"
-          ]
-        }
-      },
+				"add": {
+					"component_groups": [
+						"minecraft:not_riding"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:riding"
+					]
+				}
+			},
+			"minecraft:started_riding": {
+				"add": {
+					"component_groups": [
+						"minecraft:riding"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:not_riding"
+					]
+				}
+			},
 			"wypnt_bab:hollowmen_become_duplicate": {
 				"add": {
 					"component_groups": [
