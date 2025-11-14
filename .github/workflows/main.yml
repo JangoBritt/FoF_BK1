@@ -8,6 +8,7 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
+    timeout-minutes: 120 
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -23,6 +24,7 @@ jobs:
           user: ${{ vars.FTP_USERNAME }}
           pass: ${{ secrets.FTP_PASSWORD }}
           # lftp settings
+          parallel: 6
           onlyNewer: true
           settings: 'sftp:auto-confirm=yes'
           # Mirror command options
