@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.30",
 	"minecraft:item": {
 		"description": {
 			"identifier": "fables_avatars:astronaut_mask",
@@ -21,13 +21,27 @@
 					"max": 100
 				}
 			},
-            "minecraft:icon": "astronaut_item",
+			"minecraft:icon": {
+				"textures": {
+					"default": "astronaut_item",
+					"dyed": "astronaut_item"
+				}
+			},
 			"minecraft:wearable": {
-				"protection": 3,
+				"protection": 4,
 				"slot": "slot.armor.head"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.mask"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_armor",
+					"minecraft:trimmable_armors"
+				]
+			},
+			"minecraft:dyeable": {
+  				"default_color":  "#ffffff"
 			},
 			"minecraft:repairable": {
 				"repair_items": [

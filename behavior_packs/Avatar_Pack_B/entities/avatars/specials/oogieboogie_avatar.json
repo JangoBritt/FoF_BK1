@@ -1470,7 +1470,7 @@
                 "value": 0
             },
             "minecraft:leashable": {
-                "can_be_leashed": true,
+
                 "can_be_stolen": false,
                 "can_be_cut": true,
                 "hard_distance": 6,

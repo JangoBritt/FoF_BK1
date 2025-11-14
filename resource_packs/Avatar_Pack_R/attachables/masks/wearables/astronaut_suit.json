@@ -1,14 +1,34 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.20.60",
 	"minecraft:attachable": {
 		"description": {
 			"identifier": "fables_avatars:astronaut_suit",
 			"materials": {
-				"default": "armor",
-				"enchanted": "armor_enchanted"
+				"default": "entity_alphatest_change_color",
+				"dyed": "entity_alphatest_change_color",
+				"enchanted": "entity_alphatest_change_color"
 			},
 			"textures": {
-				"default": "textures/avatars/wearables/astronaut/astronaut_suit",
+				"default": "textures/avatars/wearables/astronaut/astronaut_suit_dyed",
+				"dyed": "textures/avatars/wearables/astronaut/astronaut_suit_dyed",
+				"bolt_trim": "textures/avatars/wearables/astronaut/trims/bolt",
+				"coast_trim": "textures/avatars/wearables/astronaut/trims/coast",
+				"dune_trim": "textures/avatars/wearables/astronaut/trims/dune",
+				"eye_trim": "textures/avatars/wearables/astronaut/trims/eye",
+				"flow_trim": "textures/avatars/wearables/astronaut/trims/flow",
+				"host_trim": "textures/avatars/wearables/astronaut/trims/host",
+				"raiser_trim": "textures/avatars/wearables/astronaut/trims/raiser",
+				"rib_trim": "textures/avatars/wearables/astronaut/trims/rib",
+				"sentry_trim": "textures/avatars/wearables/astronaut/trims/sentry",
+				"shaper_trim": "textures/avatars/wearables/astronaut/trims/shaper",
+				"silence_trim": "textures/avatars/wearables/astronaut/trims/silence",
+				"snout_trim": "textures/avatars/wearables/astronaut/trims/snout",
+				"spire_trim": "textures/avatars/wearables/astronaut/trims/spire",
+				"tide_trim": "textures/avatars/wearables/astronaut/trims/tide",
+				"vex_trim": "textures/avatars/wearables/astronaut/trims/vex",
+				"ward_trim": "textures/avatars/wearables/astronaut/trims/ward",
+				"wayfinder_trim": "textures/avatars/wearables/astronaut/trims/wayfinder",
+				"wild_trim": "textures/avatars/wearables/astronaut/trims/wild",
 				"enchanted": "textures/misc/enchanted_item_glint"
 			},
 			"geometry": {
@@ -16,7 +36,9 @@
 				"default": "geometry.villager_robe"
 			},
 			"scripts": {
-				"parent_setup": "variable.helmet_layer_visible = 0.0;"
+				"pre_animation": [
+					"variable.is_dyed = query.armor_color_slot(1, 0) != 1.0 || query.armor_color_slot(1, 1) != 1.0 || query.armor_color_slot(1, 2) != 1.0;"
+				]
 			},
 			"render_controllers": [
 				"controller.render.armor"

@@ -426,6 +426,8 @@
     "textures/avatars/uniques/zeroghostdog/player_head_item",
     "textures/avatars/uniques/zeroghostdog/skin1",
     "textures/avatars/wearables/astronaut/astronaut_suit",
+    "textures/avatars/wearables/astronaut/astronaut_suit_dyed",
+    "textures/avatars/wearables/astronaut/astronaut_suit_silence",
     "textures/avatars/wearables/astronaut/astronaut_suit_item",
     "textures/avatars/wearables/astronaut/player_head_item",
     "textures/avatars/wearables/astronaut/skin1",
@@ -541,5 +543,15 @@
     "textures/avatars/members/nervoustina/skin1",
     "textures/avatars/members/nervoustina/avatar_item",
     "textures/avatars/members/nervoustina/skin2",
-    "textures/avatars/members/nervoustina/skin3"
+    "textures/avatars/members/nervoustina/skin3",
+    "textures/avatars/members/kreacher/player_head_item",
+    "textures/avatars/members/kreacher/skin1",
+    "textures/avatars/members/kreacher/avatar_item",
+    "textures/avatars/members/kreacher/skin2",
+    "textures/avatars/members/kreacher/skin3",
+    "textures/avatars/members/stesko/player_head_item",
+    "textures/avatars/members/stesko/skin1",
+    "textures/avatars/members/stesko/avatar_item",
+    "textures/avatars/members/stesko/skin2",
+    "textures/avatars/members/stesko/skin3"
 ]

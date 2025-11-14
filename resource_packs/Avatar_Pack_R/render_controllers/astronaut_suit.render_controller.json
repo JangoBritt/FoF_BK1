@@ -1,0 +1,17 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.astronaut_suit": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "variable.is_dyed ? Material.dyed : Material.default"
+                }
+            ],
+            "textures": [
+                "variable.is_dyed ? Texture.dyed : Texture.default",
+                "variable.has_trim ? variable.trim_path : Texture.default"
+            ]
+        }
+    }
+}
