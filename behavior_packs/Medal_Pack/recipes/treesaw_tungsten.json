@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fables_misc:treesaw_tungsten_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"CCC",
+			"ABA",
+			"DDD"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:handsaw"
+			},
+			"B": {
+				"item": "minecraft:netherite_ingot"
+			},
+			"C": {
+				"item": "wypnt_bab:tungsten_ingot"
+			},
+			"D": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"unlock": [
+			{
+				"item": "fables_misc:treesaw_book"
+			}
+		],
+		"result": {
+			"item": "fables_misc:treesaw",
+			"count": 1
+		}
+	}
+}
