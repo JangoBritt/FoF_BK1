@@ -2,7 +2,7 @@
     "format_version": "1.16.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "wypnt_bab:baobab_stairs"
+            "identifier": "wypnt_bab:maple_stairs"
         },
         "tags": ["crafting_table"],
         "pattern": [
@@ -12,12 +12,12 @@
         ],
         "key": {
             "~": {
-                "item": "wypnt_bab:baobab_planks"
+                "item": "wypnt_bab:maple_planks"
             }
         },
         "result": [
 			{
-				"item": "wypnt_bab:baobab_stairs",
+				"item": "wypnt_bab:maple_stairs",
 				"count": 4
 			}
 		]

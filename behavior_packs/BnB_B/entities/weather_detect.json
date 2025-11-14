@@ -34,6 +34,23 @@
 									{
 										"test": "has_biome_tag",
 										"operator": "==",
+										"value": "mesa"
+									},
+									{
+										"test": "weather",
+										"operator": "equals",
+										"value": "thunderstorm"
+									}
+								]
+							},
+							"event": "wypnt_bab:weather_sandstorm"
+						},
+						{
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
 										"value": "frozen"
 									},
 									{

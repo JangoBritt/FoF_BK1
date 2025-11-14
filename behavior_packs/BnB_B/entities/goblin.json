@@ -273,6 +273,11 @@
 					"component_groups": [
 						"wypnt_bab:goblin_can_trade"
 					]
+				},
+				"remove": {
+					"component_groups": [
+						"wypnt_bab:goblin_hostile"
+					]
 				}
 			}
 		}

@@ -63,9 +63,9 @@ let lastApplied = {};
 system.runInterval(() => {
     const now = Date.now();
     targetPlayers.forEach(player => {
-        if (!lastApplied[player.id] || now - lastApplied[player.id] >= 2000) { // Every 2 seconds
+        if (!lastApplied[player.id] || now - lastApplied[player.id] >= 200) { // Every 2 seconds
             try {
-                player.addEffect("fire_resistance", toTicks(6), { amplifier: 0 }); // Fire Resistance (6s)
+                player.addEffect("fire_resistance", toTicks(6), { amplifier: 0, showParticles: false }); // Fire Resistance (6s)
                 lastApplied[player.id] = now;
             } catch (error) {
                 console.warn(`Failed to apply fire resistance to ${player.name}: ${error}`);
@@ -73,9 +73,9 @@ system.runInterval(() => {
         }
     });
     targetPlayersSwift.forEach(player => {
-        if (!lastApplied[player.id] || now - lastApplied[player.id] >= 2000) { // Every 2 seconds
+        if (!lastApplied[player.id] || now - lastApplied[player.id] >= 200) { // Every 2 seconds
             try {
-                player.addEffect("speed", toTicks(12), { amplifier: 0 }); // Speed (12s)
+                player.addEffect("speed", toTicks(12), { amplifier: 0, showParticles: false  }); // Speed (12s)
                 lastApplied[player.id] = now;
             } catch (error) {
                 console.warn(`Failed to apply speed to ${player.name}: ${error}`);

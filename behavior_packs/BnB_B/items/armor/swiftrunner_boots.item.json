@@ -21,7 +21,7 @@
 			},
 			"minecraft:enchantable": {
 				"slot": "armor_feet",
-				"value": 9
+				"value": 30
 			},
 			"minecraft:durability": {
 				"max_durability": 55,

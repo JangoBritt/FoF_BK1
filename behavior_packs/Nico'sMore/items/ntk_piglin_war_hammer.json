@@ -103,7 +103,10 @@
 					"ntk:melee_weapon",
 					"ntk:earth_bane",
 					"ntk:items",
-		  			"minecraft:is_tool"
+		  			"minecraft:is_tool",
+					"minecraft:is_pickaxe",
+					"minecraft:netherite_tier",
+					"wypnt_bab:tungsten_tier"
 				]
 			}
 		}
