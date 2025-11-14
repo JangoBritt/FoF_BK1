@@ -1,0 +1,89 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "wypnt_bab:beehive_feature"
+    },
+    "places_block": {
+      "name": "minecraft:bee_nest",
+      "states": {
+        "direction": 0
+      }
+    },
+    "enforce_survivability_rules": true,
+    "enforce_placement_rules": true,
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 2,
+      "top": [
+        {
+          "name": "minecraft:oak_leaves"
+        },
+        {
+          "name": "minecraft:birch_leaves"
+        },
+        {
+          "name": "minecraft:mangrove_leaves"
+        },
+        {
+          "name": "minecraft:cherry_leaves"
+        },
+        {
+        "tags": "query.any_tag('wypnt_bab:custom_leaves')"
+        }
+      ],
+      "west": [
+        {
+          "name": "minecraft:oak_log"
+        },
+        {
+          "name": "minecraft:birch_log"
+        },
+        {
+          "name": "minecraft:mangrove_roots"
+        },
+        {
+          "name": "minecraft:cherry_log"
+        },
+        {
+        "tags": "query.any_tag('log')"
+        }
+      ],
+      "north": [
+        {
+          "name": "minecraft:oak_log"
+        },
+        {
+          "name": "minecraft:birch_log"
+        },
+        {
+          "name": "minecraft:mangrove_roots"
+        },
+        {
+          "name": "minecraft:cherry_log"
+        },
+        {
+        "tags": "query.any_tag('log')"
+        }
+      ],
+      "east": [
+        {
+          "name": "minecraft:oak_log"
+        },
+        {
+          "name": "minecraft:birch_log"
+        },
+        {
+          "name": "minecraft:mangrove_roots"
+        },
+        {
+          "name": "minecraft:cherry_log"
+        },
+        {
+        "tags": "query.any_tag('log')"
+        }
+      ],
+      "south": "minecraft:air"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+	{
+		"flipbook_texture": "textures/coreblockstudios/biomesandbeyond/blocks/glass_jar_firefly",
+		"atlas_tile": "wypnt_bab:glass_jar_firefly",
+		"ticks_per_frame": 4,
+		"blend_frames": true
+	},
+	{
+		"flipbook_texture": "textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_lantern",
+		"atlas_tile": "wypnt_bab:jacaranda_lantern",
+		"ticks_per_frame": 8,
+		"blend_frames": true
+	},
+	{
+		"flipbook_texture": "textures/coreblockstudios/biomesandbeyond/blocks/void_fulgurite",
+		"atlas_tile": "wypnt_bab:void_fulgurite",
+		"ticks_per_frame": 2,
+		"blend_frames": true
+	}
+]

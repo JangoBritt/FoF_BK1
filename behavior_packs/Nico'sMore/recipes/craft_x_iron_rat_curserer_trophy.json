@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "nicothekid:craft_x_iron_rat_curserer_trophy"
+      "identifier": "ntk:craft_x_iron_rat_curserer_trophy"
     },
     "priority": 1,
     "tags": [ "crafting_table" ],
@@ -14,19 +14,19 @@
     ],
     "key": {
       "T": {
-        "item": "nicothekid:copper_rat_curserer_trophy"
+        "item": "ntk:copper_rat_curserer_trophy"
       },
       "I": {
         "item": "minecraft:iron_block"
       }
     },
     "result": {
-      "item": "nicothekid:iron_rat_curserer_trophy",
+      "item": "ntk:iron_rat_curserer_trophy",
       "count": 1
     },
     "unlock": [
       {
-        "item": "nicothekid:copper_rat_curserer_trophy"
+        "item": "ntk:copper_rat_curserer_trophy"
       },
       {
         "item": "minecraft:iron_block"

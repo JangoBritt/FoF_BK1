@@ -1,0 +1,118 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:coconut_sapling",
+			"states": {
+                "wypnt_bab:stage": {
+                    "values": { "min": 0, "max": 1 }
+                }
+            }
+		},
+		"components": {
+			"minecraft:tick": {
+				"looping": true,
+				"interval_range": [
+					1100,
+					1600
+				]
+			},
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "minecraft:random_offset": {
+             "x": {
+                "range": {
+                   "min": -4,
+                   "max": 4
+                },
+                "steps": 16
+             },
+             "y": {
+                "range": {
+                   "min": 0,
+                   "max": 0
+                },
+                "steps": 16
+             },
+             "z": {
+                "range": {
+                   "min": -4,
+                   "max": 4
+                },
+                "steps": 16
+             }
+          },
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					12,
+					12
+				]
+			},
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:coconut_sapling",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": true
+				}
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							{
+                    "tags": "q.any_tag('dirt')"
+                },
+                {
+                    "tags": "q.any_tag('sand')"
+                }
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:map_color": "#BEA71B",
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/coconut_sapling.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"wypnt_bab:sapling": {
+    "structures": [
+      "wypnt_bab:palm_tree_1_feature",
+      "wypnt_bab:palm_tree_2_feature",
+      "wypnt_bab:palm_tree_3_feature"
+    ],
+    "structure_offsets": [
+      [-5, 0, -4],
+      [-4, 0, -4],
+      [-5, 0, -7]
+    ]
+  },
+					"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"wypnt_bab:prevent_place_with_liquid_above": {}
+		}
+	}
+}

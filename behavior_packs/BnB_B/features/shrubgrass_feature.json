@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "wypnt_bab:shrubgrass_feature"
+		},
+		"places_block": {
+			"name": "wypnt_bab:shrub_grass"
+		},
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			"minecraft:air",
+			"minecraft:tallgrass",
+			"minecraft:fern"		
+		]
+	}
+}

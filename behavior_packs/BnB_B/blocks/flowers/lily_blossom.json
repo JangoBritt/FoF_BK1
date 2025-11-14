@@ -1,0 +1,95 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:lily_blossom"
+		},
+		"components": {
+			"minecraft:collision_box": false,
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "minecraft:random_offset": {
+             "x": {
+                "range": {
+                   "min": -4,
+                   "max": 4
+                },
+                "steps": 16
+             },
+             "y": {
+                "range": {
+                   "min": 0,
+                   "max": 0
+                },
+                "steps": 16
+             },
+             "z": {
+                "range": {
+                   "min": -4,
+                   "max": 4
+                },
+                "steps": 16
+             }
+          },
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 30,
+				"destroy_chance_modifier": 100
+			},
+			"minecraft:geometry": "geometry.wypnt_bab.lily_blossom",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:lily_blossom",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": true
+				}
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:map_color": "#144d12",
+			"minecraft:selection_box": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					10,
+					9
+				]
+			},
+				"wypnt_bab:flowerSpread":{},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:water"						
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/lily_blossom.json",
+ "tag:wypnt_bab:flowers": {},
+  			"wypnt_bab:prevent_place_with_liquid_above": {}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+   "wypnt_bab:pasture" : {
+      "event_name" : "biomes_and_beyond.serene_sounds",
+      "max_delay" : 60,
+      "min_delay" : 30
+   },
+   "wypnt_bab:default_music" : {
+      "event_name" : "biomes_and_beyond.serene_sounds",
+      "max_delay" : 60,
+      "min_delay" : 30
+   }
+}

@@ -1,0 +1,580 @@
+v0.1.0-beta
+
+- Initial release
+
+v0.2.0
+
+Blocks:
+- Added Maple Woodset
+- Added Sulfur Ore
+- Added Deepslate Sulfur Ore
+- Added Beach Grass
+- Water Reeds will now spawn with 3 possible lengths
+
+Mobs/Entities:
+- Added Warthog
+
+Items:
+- Added Sulfur
+
+Structures:
+- Added Cave Camp
+- Added Piglin Outpost
+
+Achievements:
+- Added new achievement "Glow Getter"
+  - Obtained by acquiring a Firefly Jar for the first time
+- Achievement "Oh, Deer" now unlockable by obtaining a Deer Trophy instead of defeating a Deer
+
+Bugs/Fixes:
+- Achievement "Croc-Cuisine" now only plays once
+
+v0.3.0
+
+Biomes:
+- Added Shroom Caverns
+- Added Forsaken Depths
+
+Blocks:
+- Added Mullein Flower
+- Added Lichen Carpet
+- Added Hanging Lichen
+- Added Whispering Willows
+- Added Forsaken Oak Woodset
+- Updated texture of Violets
+- Updated texture of Clovers
+- updated texture of Small Cactus
+- Slightly updated texture of Maple Door
+- Reeds, Cattails, and Jungferns can now be bonemealed
+
+Mobs/Entities:
+- Added Dweller
+- Added Lurker
+- Added Spectre
+- Added Goblin
+- Deer now look at players less often and from a shorter distance
+
+Structures:
+- Added Goblin Hut
+- Trial Tower spawn rate increased
+
+Generation:
+- Quicksand spawn rate decreased (1/10 -> 1/20)
+
+Items:
+- Added Dweller Flesh
+- Added Lurker's Foot
+
+Bugs/Fixes:
+- Jacaranda Leaf Pile now shows the correct name
+- Swamps have the correct water color
+- Lavender can now be mined instantly
+
+v0.4.0
+
+Biomes:
+- added Chorus Forest
+- Decreased minimum tree density in Aspen Forest to allow for more clearings
+
+Entities/Mobs:
+- Added Voidcaller
+- Added Voidjelly
+- Raccoons will search chests and take any food items
+- Raccoons that are wild will only be afraid of carved pumpkins
+- Raccoons are deterred by Carved Pumpkins more often
+- Increased Raccoon avoid block search radius (8 -> 14)
+
+Blocks:
+- Renamed Toadstool to Red Toadstool
+- Added Brown Toadstool
+- Added Sulfur Bag (credit to JangoBritt)
+- Added Cobbled End Stone
+- Added Void Turf
+- Added Void Blossom
+- Added Void Turf Grass
+- Added Chorus Woodset
+- Added Chorus Ivy
+- Added Tungsten Ore
+- Added Deepslate Tungsten Ore
+     - In the overworld, rarely spawns between levels 80 to 384, spawns more frequently between levels -4 to -64, and is most commonly found in The End
+- Added Cobbled End Stone
+- Updated texture of Red Toadstool
+- Updated texture of Fir Log (..again)
+- Increased the sink speed of Quicksand
+- Logs can be stripped using an axe
+     - Doesn't have the stripping animation
+
+Items:
+- Added Tungsten Armor
+     - Slightly more durability compared to diamond armor
+     - Slightly less enchantable compared to diamond armor
+     - Applies the same amount of protection as diamond armor
+     - When a full set is worn, players will receive resistance every 25 seconds
+- Added Tungsten Tools
+     - Slightly more durability compared to diamond tools
+     - Slightly less enchantable compared to diamond tools
+     - Slightly slower mining speed compared to diamond tools
+     - Same amount of attack damage as diamond tools
+- Added Tungsten Ingot
+- Added Raw Tungsten
+- Khopesh has a 50% to apply instant damage to any non-monster mob when used by players
+- Khopesh durability increased (60->350)
+- Khopesh durability damage chance increased (min10 -> min25, max50 -> maxe65)
+
+Structures:
+- Added Ruined Altar
+
+Generation:
+- Brown Toadstools will generate in patches with Red Toadstools
+
+Recipes:
+- Sulfur can be crafted into Sulfur Bags by combining 9 sulfur
+- Red Mushrooms can be crafted from Red Toadstools
+
+Misc:
+- Added a personal settings item that is given to players on their first join
+     - Currently this can be used to turn off End biome fog
+- Added a global settings item that is given to players using /function global_settings
+     - Currently this can be used to turn off biome weather effects and falling leaves
+     - This item should only be used by operators
+
+
+v0.5.0
+
+Biomes:
+- Added Velvium Expanse
+- Lowered the minimum tree density in Chorus Forest
+- Lowered the minimum tree density in Mystic Forest
+
+Entities/Mobs:
+- Added Sigiling
+- Improved bob animation for Voidcaller
+- Lowered spawn rate of Voidcallers (weight = 20->10)
+- Voidjellies now vary in size
+- Lowered min_random_teleport_time for Voidcallers (5->8)
+- Lowered target distance for Voidcallers (32->24)
+- Increased spawn rate of deer (weight = 6->10)
+
+Tools:
+- Khopesh damage reduced (7->6)
+
+Structures:
+- Lowered the spawn rate of Trial Towers
+
+Blocks:
+- Added Velvium Vine
+- Added Velvium Vine Bulb
+- Added Velvium
+- Added Velvium Grass
+- Added Popped Chorus Leaves
+- Added Puffshrooms
+- Chorus Leaves now drop the correct loot
+- Reeds can now be placed on sand and Quicksand
+- Cattails can now be placed on Quicksand
+
+Particles:
+- Ambient particles such as custom falling leaves are now played client-side
+
+Misc:
+- Renamed the Falling Leaves toggle to Ambient Particles in the global settings
+- Moved Ambient Particles from global settings to personal settings
+
+
+v0.6.0-beta
+
+Biomes:
+- Added Depraved Wetlands
+- Increased grass in Chorus Forest
+
+Blocks:
+- Added Voidmire
+- Added Voidmire Grass
+- Added Depraved Wart Block
+- Added Depraved Stem
+- Added Depraved Tendril Vine
+- Added Depraved Tendril Blossom
+- Added Chiseled End Stone
+- Added Cobbled End Stone to creative menu
+- Puffshrooms now launch and give slow falling to players and mobs when fell on with pre-determined heights depending on the cluster growth state
+     - 0 = 1 block
+     - 1 = 2 blocks
+     - 2 = 4 blocks
+     - 3 = 8 blocks
+	-Dropped items are not affected by slowfalling, allowing them to keep bouncing
+
+Entities/Mobs:
+- Added Puffling
+- Changed Firefly texture to better match vanilla fireflies
+
+Structures:
+- Lowered spawn rate of Trial Tower
+
+Bugs/Fixes:
+- Velvium Vine Bulb geometry now correctly aligns with the rest of the vine
+- Velvium Vine Bulb texture z-fighting fixed
+- Fixed destruction particles appearing as dirt for several blocks
+- Raw Tungsten will now correctly smelt in furnaces
+- Mobs once again sink in Quicksand
+- Fixed Jacaranda Door top half texture
+
+v0.7.0-beta
+
+Biomes:
+- Added Tropical Rainforest
+- Changed water color for Jungles
+
+Entities/Mobs:
+- Added Chimpanzee
+- Added Hollowed
+- Lowered Sigiling damage (14 -> 10)
+
+Items:
+- Added Quick Wiki Book
+     - This will be given to players on their first join
+     - Can be crafted using a dirt block and an oak sapling
+     - Useful to get quick and simple info regarding the basics of the add-on
+
+Blocks:
+- Added Hollowed Logs
+- Added Spore Chutes
+- Added Depraved Shroom
+     - Can be grown into a huge shroomtree
+- Added Popped Chorus Sapling
+- Updated texture of Fir Log
+- Updated geometry of Ivy blocks
+- Void Turf will now occasionally emit particles
+- Depraved Wart Blocks can be mined with both an axe, and a pickaxe
+- Depraved Wart Blocks now drop Depraved Shrooms when mined
+     - To obtain the blocks, players must use a silk touch tool
+- Depraved, Void Turf, and Velvium grasses can be waterlogged
+- Ivy can be placed on more logs
+
+Generation:
+- Lowered amount of Coralroot that spawn in a single patch
+- Lowered spawn rate of Quicksand
+- Lowered amount of Quicksand in a single patch
+- Fallen Hallowed trees can be found in certain biomes, like forests
+
+Bugs/Fixes:
+- Fixed particle content log errors when teleporting to unloaded chunks
+- Popped Chorus Leaves drop the correct loot
+
+Recipes:
+- Dweller Flesh can now be used in a furnace to obtain leather
+- Depraved Wart Blocks can be crafted using 4 Depraved Shrooms
+
+Misc:
+- Added a new creative category specifically for Hollowed Logs
+- Added an in-game quick wiki that will display important information about the add-on's main features
+
+
+v0.8.0-beta
+
+Biomes:
+- Added Coconut Palms to beaches
+     - This excludes cold and stony beaches
+
+Blocks:
+- Added Coconut
+     - Can be thrown
+- Added Coconut Palm Sapling
+     - Can only be crafted
+
+Food:
+- Added Split Coconut
+
+Entities/Mobs:
+- Chimps now spawn in jungles and Tropical Rainforests
+
+Bugs/Fixes:
+- Fixed Beach Grass destruction particles from having the incorrect texture
+
+v0.8.10
+
+Entities/Mobs:
+- Increased Warthog movement speed when attacking
+
+Bugs/Fixes:
+- Fixed End fog persisting even after leaving the dimension
+
+Misc:
+- Added Chimp to the in-game wiki
+- Added sounds to the wiki when clicking a button
+
+
+v0.8.20 (requires "Custom Biomes" experimental toggle!)
+
+Biomes:
+- Added support for custom biomes
+- Added Rotveil Wastes
+     - dangerous End biome featuring obsidian spires, sinkholes, decaying islands, and constant strikes of void lightning
+     - decayed endermen spawn here
+
+Blocks:
+- Added Tungsten Block
+- Added Rotveil
+- Added Rotveil Grass
+- Added Void Fulgurite
+     - can be found rarely when lightning strikes crying obsidian while in the end
+     - placing a lightning rod will attract lightning, but will be consumed if a fulgurite is spawned
+     - drops void shards when mined with a diamond pickaxe or better
+
+- Added biome colormap to Shrubgrass, Clovers, Ivy, and Fir Leaves
+- Reeds can be placed on gravel
+- Custom leaves will now render as opaque when in the distance
+- Added block culling to custom leaves
+- Added pbr textures for a certain blocks (more pbr support coming in future updates)
+- Updated texture of Redwood Log
+
+Items:
+- Added Enderium Toolset
+     - slightly more durable than netherite
+     - same mining speed as netherite
+     - slightly more damage than netherite
+     - slightly more enchantable than netherite
+- Added Enderium Ingot
+     - crafted by combining 2 void shards and 1 tungsten ingot
+- Added Void Shard
+- Axes now lose durability when stripping logs
+- Shovels now lose durability when pathing 
+
+Armor:
+- Added Enderium Armorset
+     - slightly more durable than netherite
+     - same protection as netherite
+     - slightly more enchantable than netherite
+     - when a full set is worn, the player will receive a "Call of the Void" effect
+          - gives regeneration 3 for 5 seconds once health is 3 hearts or lower
+          - effect has a cooldown of 30 seconds
+
+Entities/Mobs
+- Added Decayed Enderman
+- Added pbr textures for emissive mobs
+
+Bugs/Fixes:
+- Fallen Chorus trees will no longer contain a dirt block underneath
+- Fixed unbreaking not working on custom items
+- Fixed a bug when stacking fences that caused the fence to place incorrectly
+
+Misc:
+- Removed most fogs 
+- Updated for 1.21.80
+
+
+v0.8.30 (requires "Custom Biomes" experimental toggle!)
+
+Biomes:
+- Added Pasture
+
+Blocks:
+- Added Wild Barley
+- Added Barley
+
+Entities/Mobs:
+- Added Voidstrider
+
+Items:
+- Added Barley Seeds
+
+Music:
+- Added the new "Serene Fields" soundtrack
+  - This has a chance to play while in Prairies and Pastures
+
+Bugs/Fixes:
+- Ivy, Shelf Mushrooms, and Chorus Ivy should no longer be placed on incorrect blocks
+
+
+v0.8.40 (requires "Custom Biomes" experimental toggle!)
+
+Blocks:
+- Blocks can now be picked up with the pick block option
+- Custom grass can be replaced with other blocks just like vanilla grass
+- Fences do not change appearance quickly when placed
+- Fence gates no longer break falling blocks when closed
+- Slabs now behave like vanilla
+- Wooden blocks can be used as fuel in a furnace
+- Some plants blocks including saplings can be used to fill a composter
+- Double doors and plants can no longer be placed in inappropriate 1-block spaces
+- Plants cannot be placed on blocks containing liquid
+
+Entities/Mobs:
+- It is now possible to use a shear on the voidstrider and warthog with saddle to remove it, like vanilla
+- It is now possible to leash mobs to custom mobs
+
+Items:
+- All tools and weapons now lose durability, like vanilla
+- Updated texture of spawn eggs for custom mobs
+
+Misc:
+- Updated for 1.21.90
+- All blocks and items have had their ID changed internally
+  - Already placed blocks need to be broken and placed again for the id to be updated
+
+Bugs/Fixes:
+- Small plants do not replace blocks when bone mealed
+- Open button no longer appears on mobile devices when standing near some custom mobs
+- Clovers, daisy_petals and puffshroom Now they drop your item in the corresponding quantity 
+
+v0.8.50 (requires "Custom Biomes" experimental toggle!)
+
+Biomes:
+- Added White Lazarus to Lazarus Fields
+
+Blocks:
+- Added White Lazarus
+- Updated texture of brittlebright
+- Added pbr textures to quicksand, strata and brittlebright
+
+Entities/Mobs:
+- Voidstriders now drop striding on death
+
+Food:
+- Added Raw Striding
+- Added Cooked Striding
+
+Bugs/Fixes:
+- Fixed several block textures
+- Fixed coconut and split coconut textures
+- Fixed bug with redwood door having invalid texture
+- Doors now break completely when breaking from the top
+- Redwood biome now generates redwood trees as intended
+
+v0.8.51 (requires "Custom Biomes" experimental toggle!)
+
+Items:
+- Updated texture of tungsten armor and enderium armor
+- Updated texture of enderium ingot and tools
+
+Bugs/Fixes:
+- Ominous trial spawners in the trial tower now drop an ominous key instead of a regular trial key
+- Slabs don't become double when they shouldn't
+- Popped chorus leaves now decay on naturally generated trees and saplings when breaking all logs within a 5 block radius of the leaves
+- End tree saplings can now be planted on end grass blocks
+
+v0.8.52 (requires "Custom Biomes" experimental toggle!)
+
+Bugs/Fixes:
+- Fixed custom armor textures when applying trims
+- Added pbr textures for custom armor
+
+Recipes:
+- Added recipe to craft settings item
+
+v0.8.60 (requires "Custom Biomes" experimental toggle!)
+
+Blocks:
+- Added piston compatibility
+- Several plants now move randomly on the placed block
+- Many blocks have had their explosion resistance and break time adjusted
+- Cobbled End Stone and Chiseled End Stone will now only drop with a Pickaxe instead of any tool and hand
+- Tungsten Block and Ore now only drops with Iron Pickaxe or higher
+- Custom leaves now become opaque again with distance instead of disappearing
+
+Items:
+- Armor, weapons, and tools can now be repaired on an anvil with their corresponding material or an item of the same type correctly.
+
+Bugs/Fixes:
+- Double plants can now not be placed in water
+- Reeds and cattail can now be placed in water and are not broken by water
+
+Misc:
+- Updated for 1.21.100
+- The biomes_and_beyond namespace now appears in the /locate biome command
+- Added support for Mexican Spanish language and Spanish from Spain
+
+v0.8.61 (requires "Custom Biomes" experimental toggle!)
+
+Biomes:
+- Added Dustlands
+
+Entities/Mobs
+- Added nautilus mob
+- Crocodiles now eat meat items, are breedable, don't take damage from sweet berry bush and cactus, also have a small change to grow big and an even smaller change to grow bigger
+- Refreshed crocodile animations and sounds
+
+Blocks:
+- Updated texture for strata
+- Removed overgrown strata
+- Added standing torch
+- Added crocodile egg
+
+Items:
+- Gold khopesh can now be repaired with a gold ingot
+- Added swiftrunner boots
+
+Bugs/Fixes:
+- Lightning now generates normally in the End and in the rotveil biome, which previously did not work.
+- Fixed wiki book showing coconut wrong texture
+
+Mics:
+- Added support for Brazilian  Portuguese language
+- Changed entities texture files path for improved compatibility
+- Changed blocks texture files path for improved compatibility
+- Changed items texture files path for improved compatibility
+
+v0.9.0
+
+Biomes:
+- Added new biomes: Clover Field, Cobbled River, Twilight Grove
+- Added Banana Tree feature to jungle and tropical jungle biomes
+- Forsaken Depths and shroom caves can now be located by /locate biome
+- Added tropical beach and windswept desert biomes
+
+Entity:
+- Raccoon no longer equips armor
+- Raccoon now picks up and eats any food item tagged minecraft:is_food that is in its mouth
+- Void caller, sigiling and hollowmen now has visible eyes when invisibly affected
+- Mobs that teleport now does not teleport when inside a minecart or boat
+- Deer now can eat short and tall dry grass
+- Dweller now runs away from copper torch and copper lamp and jacaranda lamp and standing torch
+- Dweller now breaks copper torch
+- Mummy now pick up copper armor and tools
+- Lowered some gobling sounds to match vanilla experience
+- Chimp now also eats banana instead of just apple
+- Raw food is now dropped as cooked when a custom entity dies from fire
+- Renamed nautilus mob to nautiling
+
+Blocks:
+- Added Banana block and banana tree sapling
+- Jacaranda lantern now has its positioning equal to vanilla lantern 
+- Custom logs and custom woods can now be turned into their stripped variant when using a copper axe or any axe from other addons
+- Custom ore XP now generates with any pickaxe that can mine the ore
+- Added cobbled end stone slab
+- Added cobbled strata slab and strata brick slab
+- All lightning rods are now valid at the end
+- Saplings now take longer to grow and are affected by the random tick
+- Baobab sapling and redwood sapling need to be in a 2x2 formation to grow like dark oak
+- Fir sapling also growns in 2x2 formate for mega fir tree
+- Jacaranda Leaves now produce more leaf particles
+- Fixed custom leaf block culling
+
+Items:
+- Tungsten items and enderium items are now immune to fire and lava, like netherite
+- Added Banana and Banana Seeds
+- Coconut open and aloe vera leaf can now be composted
+
+Recipes:
+- Changed the jacaranda lantern recipe to require 2 iron nuggets
+- It is now possible to refine custom ores in the furnace and blast furnace
+- Cobbled end stone can now be refined in a furnace to obtain end stone
+- Cobbled end stone and cobbled end stone slab is now required to make chiseled end stone
+- Cobbled strata, strata bricks, strata brick slab and cobbled strata slab is now required to make chiseled strata bricks
+- Cobbled end stone and cobbled strata can be used to craft stone tools
+- Custom small flowers now craft suspicious stew
+
+Bugs/Fixes:
+- Deer trophy antlers are no longer invisible when viewed from the front, or when held in the player's hand
+- Void caller now correctly becomes angry when looking at the symbol on its body or eyes
+- Nautilus bucket taken from creative now spawns random nautilus
+- Using the bucket in mob quality other than the nautilus is now not picked up by the bucket and turned into a nautilus bucket
+- Nautilus bucket is now no longer used when interacting with an interactable block
+- Nautilus bucket now uses the correct sounds for picking up and dropping mobs
+- Water generated by the nautilus bucket now does not replace blocks and is positioned correctly
+- Fixed crocodile digging animation not playing correctly
+- Fixed issue causing game crash wenever crocodile places a crocodile egg
+- Jacaranda lantern now correctly connects to the chain and copper chain
+ 
+Misc: 
+- Updated for 1.21.110
+- The experimental "Custom Biomes" option is no longer necessary
+- Changed many blocks, entities and items texture ID's to improve compatibility with other add-ons

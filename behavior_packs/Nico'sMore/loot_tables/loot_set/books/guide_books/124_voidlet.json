@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Voidlet"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #124",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #124§r\n§lVoidlet§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Ender\n•§lSpawns in§r: End Islands\n•§lHealth§r: 12 §o(Wild)§r | 24 §o(Tamed)§r\n•§lWalk speed§r: 0.26",
+                "•§lBreathes in§r: Air\n•§lTempted by§r: Chorus Fruit, & Chorus Jelly.\n•§lHealed by§r: Chorus Fruit, & Chorus Jelly.\n•§lTamed by§r: Chorus Jelly\n•§lPossible drops§r: XP Orbs.\n•§lAvoids§r §o(Wild)§r: Players",
+                "•§lAvoids§r §o(Tamed)§r: Monsters.\n•Wild Voidlet can randomly sit.\n•Tamed Voidlet can be sat down.\n•Can slowly regenerate their health when they sit or sleep."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

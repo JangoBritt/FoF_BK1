@@ -1,0 +1,67 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:velvium_vine_bulb"
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:velvium_vine_bulb",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "geometry.wypnt_bab.velvium_vine_bulb",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"wypnt_bab:velvium_vine"
+						]
+					}
+				]
+			},
+			"minecraft:collision_box": false,
+			"minecraft:light_emission": 12,
+			"minecraft:flammable": {
+				"catch_chance_modifier": 60,
+				"destroy_chance_modifier": 100
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			},
+						"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"wypnt_bab:prevent_place_with_liquid_above": {}
+		}
+	}
+}

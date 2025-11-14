@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "wypnt_bab:baobab_savanna"
+    },
+    "components": {
+      "minecraft:water_appearance": {
+        "surface_color": "#2C8B9C"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#e3be6d"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#c7b75d"
+      },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "minecraft:hot_atmospherics"
+      }       
+    }
+  }
+}

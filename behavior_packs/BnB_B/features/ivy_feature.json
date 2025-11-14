@@ -1,0 +1,14 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "wypnt_bab:ivy_feature"
+		},
+		"features": [
+			"wypnt_bab:ivy_scatter_s_feature",
+			"wypnt_bab:ivy_scatter_n_feature",
+			"wypnt_bab:ivy_scatter_w_feature",
+			"wypnt_bab:ivy_scatter_e_feature"
+		]
+	}
+}

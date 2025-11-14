@@ -1,0 +1,601 @@
+{
+	"format_version": [1, 1, 0],
+	"wypnt_bab:shelf_mushrooms": {
+		"sound": "grass"
+	},
+	"wypnt_bab:ivy": {
+		"sound": "grass"
+	},
+	"wypnt_bab:daisy_petals": {
+		"sound": "pink_petals"
+	},
+	"wypnt_bab:bluebell": {
+		"sound": "grass"
+	},
+	"wypnt_bab:violet_flower": {
+		"sound": "grass"
+	},
+	"wypnt_bab:aspen_leaves": {
+		"sound": "grass"
+	},
+	"wypnt_bab:aspen_leaf_pile": {
+		"sound": "grass"
+	},
+	"wypnt_bab:aspen_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:autumn_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:windswept_sand": {
+		"sound": "sand"
+	},
+	"wypnt_bab:brittlebush": {
+		"sound": "grass"
+	},
+	"wypnt_bab:small_cactus": {
+		"sound": "grass"
+	},
+	"wypnt_bab:deadfern": {
+		"sound": "deadbush"
+	},
+	"wypnt_bab:aloe_vera": {
+		"sound": "grass"
+	},
+	"wypnt_bab:bunchflower": {
+		"sound": "grass"
+	},
+	"wypnt_bab:red_toadstool": {
+		"sound": "grass"
+	},
+	"wypnt_bab:coralroot": {
+		"sound": "grass"
+	},
+	"wypnt_bab:stripped_fir_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:stripped_fir_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:fir_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:fir_leaves": {
+		"sound": "grass"
+	},
+	"wypnt_bab:fir_planks": {
+		"sound": "wood",
+		"textures": "wypnt_bab:fir_planks"
+	},
+	"wypnt_bab:fir_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:fir_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:fir_fence": {
+		"sound": "wood"
+	},
+	"wypnt_bab:fir_fence_gate": {
+		"sound": "wood"
+	},
+	"wypnt_bab:fir_door": {
+		"sound": "wood"
+	},
+	"wypnt_bab:fir_trapdoor": {
+		"sound": "wood"
+	},
+	"wypnt_bab:fir_slab": {
+		"sound": "wood"
+	},
+	"wypnt_bab:jacaranda_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:jacaranda_leaves": {
+		"sound": "grass"
+	},
+	"wypnt_bab:jacaranda_planks": {
+		"sound": "wood",
+		"textures": "wypnt_bab:jacaranda_planks"
+	},
+	"wypnt_bab:jacaranda_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:jacaranda_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:jacaranda_fence": {
+		"sound": "wood"
+	},
+	"wypnt_bab:jacaranda_fence_gate": {
+		"sound": "wood"
+	},
+	"wypnt_bab:jacaranda_leaf_pile": {
+		"sound": "grass"
+	},
+	"wypnt_bab:jacaranda_door": {
+		"sound": "wood"
+	},
+	"wypnt_bab:jacaranda_trapdoor": {
+		"sound": "wood"
+	},
+	"wypnt_bab:jacaranda_slab": {
+		"sound": "wood"
+	},
+	"wypnt_bab:stripped_jacaranda_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:stripped_jacaranda_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:wisteria": {
+		"sound": "vines"
+	},
+	"wypnt_bab:lazarus": {
+		"sound": "grass"
+	},
+	"wypnt_bab:shrub_grass": {
+		"sound": "grass"
+	},
+	"wypnt_bab:stripped_redwood_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:stripped_redwood_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:redwood_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:redwood_leaves": {
+		"sound": "grass"
+	},
+	"wypnt_bab:redwood_planks": {
+		"sound": "wood",
+		"textures": "wypnt_bab:redwood_planks"
+	},
+	"wypnt_bab:redwood_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:redwood_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:redwood_fence": {
+		"sound": "wood"
+	},
+	"wypnt_bab:redwood_fence_gate": {
+		"sound": "wood"
+	},
+	"wypnt_bab:redwood_door": {
+		"sound": "wood"
+	},
+	"wypnt_bab:redwood_trapdoor": {
+		"sound": "wood"
+	},
+	"wypnt_bab:redwood_slab": {
+		"sound": "wood"
+	},
+	"wypnt_bab:duckweed": {
+		"sound": "frog_spawn"
+	},
+	"wypnt_bab:lily_blossom": {
+		"sound": "grass"
+	},
+	"wypnt_bab:cattail": {
+		"sound": "grass"
+	},
+	"wypnt_bab:autumn_leaves": {
+		"sound": "grass"
+	},
+	"wypnt_bab:autumn_leaf_pile": {
+		"sound": "grass"
+	},
+	"wypnt_bab:baobab_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:baobab_leaves": {
+		"sound": "grass"
+	},
+	"wypnt_bab:baobab_planks": {
+		"sound": "wood",
+		"textures": "wypnt_bab:baobab_planks"
+	},
+	"wypnt_bab:baobab_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:baobab_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:baobab_fence": {
+		"sound": "wood"
+	},
+	"wypnt_bab:baobab_fence_gate": {
+		"sound": "wood"
+	},
+	"wypnt_bab:baobab_door": {
+		"sound": "wood"
+	},
+	"wypnt_bab:baobab_trapdoor": {
+		"sound": "wood"
+	},
+	"wypnt_bab:baobab_slab": {
+		"sound": "wood"
+	},
+	"wypnt_bab:reeds": {
+		"sound": "grass"
+	},
+	"wypnt_bab:lavender_flower": {
+		"sound": "grass"
+	},
+	"wypnt_bab:clovers": {
+		"sound": "pink_petals"
+	},
+	"wypnt_bab:strata": {
+		"sound": "dripstone_block"
+	},
+	"wypnt_bab:cobbled_strata": {
+		"sound": "packed_mud"
+	},
+	"wypnt_bab:cobbled_strata_slab": {
+		"sound": "packed_mud"
+	},
+	"wypnt_bab:strata_bricks": {
+		"sound": "packed_mud"
+	},
+	"wypnt_bab:strata_brick_slab": {
+		"sound": "packed_mud"
+	},
+	"wypnt_bab:chiseled_strata_bricks": {
+		"sound": "packed_mud"
+	},
+	"wypnt_bab:ultisol": {
+		"sound": "dirt_with_roots"
+	},
+	"wypnt_bab:didymoch": {
+		"sound": "grass"
+	},
+	"wypnt_bab:jungfern": {
+		"sound": "grass"
+	},
+	"wypnt_bab:maple_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:yellow_maple_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:maple_leaves": {
+		"sound": "grass"
+	},
+	"wypnt_bab:maple_yellow_leaves": {
+		"sound": "grass"
+	},
+	"wypnt_bab:quicksand": {
+		"sound": "sand"
+	},
+	"wypnt_bab:glass_jar": {
+		"sound": "glass"
+	},
+	"wypnt_bab:glass_jar_firefly": {
+		"sound": "glass"
+	},
+	"wypnt_bab:jacaranda_lantern": {
+		"sound": "lantern"
+	},
+	"wypnt_bab:brittlebright": {
+		"sound": "roots"
+	},
+	"wypnt_bab:deer_trophy": {
+		"sound": "wood"
+	},
+	"wypnt_bab:white_deer_trophy": {
+		"sound": "wood"
+	},
+	"wypnt_bab:stripped_maple_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:stripped_maple_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:maple_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:maple_planks": {
+		"sound": "wood",
+		"textures": "wypnt_bab:maple_planks"
+	},
+	"wypnt_bab:maple_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:maple_fence": {
+		"sound": "wood"
+	},
+	"wypnt_bab:maple_fence_gate": {
+		"sound": "wood"
+	},
+	"wypnt_bab:maple_door": {
+		"sound": "wood"
+	},
+	"wypnt_bab:maple_trapdoor": {
+		"sound": "wood"
+	},
+	"wypnt_bab:maple_slab": {
+		"sound": "wood"
+	},
+	"wypnt_bab:sulfur_ore": {
+		"sound": "stone"
+	},
+	"wypnt_bab:deepslate_sulfur_ore": {
+		"sound": "deepslate"
+	},
+	"wypnt_bab:beach_grass": {
+		"sound": "grass"
+	},
+	"wypnt_bab:mullein": {
+		"sound": "grass"
+	},
+	"wypnt_bab:lichen_carpet": {
+		"sound": "moss_carpet"
+	},
+	"wypnt_bab:lichen_hanging": {
+		"sound": "moss_carpet"
+	},
+	"wypnt_bab:forsaken_oak_planks": {
+		"textures": "wypnt_bab:forsaken_oak_planks",
+		"sound": "wood"
+	},
+	"wypnt_bab:forsaken_oak_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:forsaken_oak_leaves": {
+		"sound": "grass"
+	},
+	"wypnt_bab:stripped_forsaken_oak_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:stripped_forsaken_oak_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:forsaken_oak_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:forsaken_oak_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:forsaken_oak_fence": {
+		"sound": "wood"
+	},
+	"wypnt_bab:forsaken_oak_fence_gate": {
+		"sound": "wood"
+	},
+	"wypnt_bab:forsaken_oak_door": {
+		"sound": "wood"
+	},
+	"wypnt_bab:forsaken_oak_trapdoor": {
+		"sound": "wood"
+	},
+	"wypnt_bab:forsaken_oak_slab": {
+		"sound": "wood"
+	},
+	"wypnt_bab:brown_toadstool": {
+		"sound": "grass"
+	},
+	"wypnt_bab:void_turf": {
+		"textures": {
+			"down": "end_stone",
+			"side": "wypnt_bab:void_turf_side",
+			"up": "wypnt_bab:void_turf_top"
+		},
+		"sound": "grass"
+	},
+	"wypnt_bab:chorus_leaves": {
+		"sound": "grass"
+	},
+	"wypnt_bab:chorus_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:stripped_chorus_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:stripped_chorus_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:chorus_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:chorus_planks": {
+		"sound": "wood",
+		"textures": "wypnt_bab:chorus_planks"
+	},
+	"wypnt_bab:chorus_wood": {
+		"sound": "wood"
+	},
+	"wypnt_bab:chorus_fence": {
+		"sound": "wood"
+	},
+	"wypnt_bab:chorus_fence_gate": {
+		"sound": "wood"
+	},
+	"wypnt_bab:chorus_door": {
+		"sound": "wood"
+	},
+	"wypnt_bab:chorus_trapdoor": {
+		"sound": "wood"
+	},
+	"wypnt_bab:chorus_slab": {
+		"sound": "wood"
+	},
+	"wypnt_bab:void_turf_grass": {
+		"sound": "grass"
+	},
+	"wypnt_bab:void_blossom": {
+		"sound": "grass"
+	},
+	"wypnt_bab:sulfur_bag": {
+		"sound": "sand"
+	},
+	"wypnt_bab:void_blossom_bush": {
+		"sound": "grass"
+	},
+	"wypnt_bab:tungsten_ore": {
+		"sound": "stone"
+	},
+	"wypnt_bab:deepslate_tungsten_ore": {
+		"sound": "deepslate"
+	},
+	"wypnt_bab:end_stone_tungsten_ore": {
+		"sound": "stone"
+	},
+	"wypnt_bab:cobbled_end_stone": {
+		"sound": "stone"
+	},
+	"wypnt_bab:cobbled_end_stone_slab": {
+		"sound": "stone"
+	},
+	"wypnt_bab:velvium": {
+		"textures": {
+			"down": "end_stone",
+			"side": "wypnt_bab:velvium_side",
+			"up": "wypnt_bab:velvium_top"
+		},
+		"sound": "grass"
+	},
+	"wypnt_bab:velvium_vine": {
+		"sound": "weeping_vines"
+	},
+	"wypnt_bab:velvium_vine_bulb": {
+		"sound": "weeping_vines"
+	},
+	"wypnt_bab:velvium_grass": {
+		"sound": "grass"
+	},
+	"wypnt_bab:popped_chorus_leaves": {
+		"sound": "grass"
+	},
+	"wypnt_bab:puffshroom": {
+		"sound": "grass"
+	},
+	"wypnt_bab:chiseled_end_stone": {
+		"sound": "stone",
+		"textures": "wypnt_bab:chiseled_end_stone"
+	},
+	"wypnt_bab:voidmire": {
+		"textures": {
+			"down": "end_stone",
+			"side": "wypnt_bab:voidmire_side",
+			"up": "wypnt_bab:voidmire_top"
+		},
+		"sound": "grass"
+	},
+	"wypnt_bab:voidmire_grass": {
+		"sound": "glow_lichen"
+	},
+	"wypnt_bab:depraved_stem": {
+		"sound": "stem"
+	},
+	"wypnt_bab:depraved_wart_block": {
+		"sound": "wood"
+	},
+	"wypnt_bab:depraved_vine": {
+		"sound": "weeping_vines"
+	},
+	"wypnt_bab:depraved_vine_flower": {
+		"sound": "weeping_vines"
+	},
+	"wypnt_bab:hollow_oak_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_spruce_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_birch_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_jungle_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_acacia_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_dark_oak_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_mangrove_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_cherry_log": {
+		"sound": "cherry_wood"
+	},
+	"wypnt_bab:hollow_pale_oak_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_jacaranda_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_baobab_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_redwood_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_maple_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_chorus_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_forsaken_oak_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:hollow_fir_log": {
+		"sound": "wood"
+	},
+	"wypnt_bab:spore_chute": {
+		"sound": "nether_sprouts"
+	},
+	"wypnt_bab:depraved_shroom": {
+		"sound": "nether_sprouts"
+	},
+	"wypnt_bab:popped_chorus_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:coconut": {
+		"sound": "wood"
+	},
+	"wypnt_bab:coconut_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:rotveil": {
+		"textures": {
+			"down": "end_stone",
+			"side": "wypnt_bab:rotveil_side",
+			"up": "wypnt_bab:rotveil_top"
+		},
+		"sound": "grass"
+	},
+	"wypnt_bab:rotveil_grass": {
+		"sound": "grass"
+	},
+	"wypnt_bab:tungsten_block": {
+		"sound": "metal"
+	},
+	"wypnt_bab:barley": {
+		"sound": "grass"
+	},
+	"wypnt_bab:barley_seeds": {
+		"sound": "grass"
+	},
+	"wypnt_bab:whispering_willow": {
+		"sound": "nether_sprouts"
+	},
+	"wypnt_bab:white_lazarus": {
+		"sound": "grass"
+	},
+	"wypnt_bab:banana_sapling": {
+		"sound": "grass"
+	},
+	"wypnt_bab:banana_block": {
+		"sound": "vines"
+	},
+	"wypnt_bab:crocodile_egg": {
+		"sound": "turtle_egg"
+		}
+}

@@ -1,0 +1,60 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:glass_jar"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.wypnt_bab.glass_jar",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:glass_jar",
+					"render_method": "blend",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					8,
+					6
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					8,
+					6
+				]
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.3
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1.5
+			},
+			"minecraft:light_dampening": 0,
+			    "minecraft:liquid_detection": {
+		"detection_rules": [
+					{
+			"can_contain_liquid": true,
+		"liquid_type": "water",
+		"on_liquid_touches": "no_reaction"
+					}
+				]
+			}
+		}
+	}
+}

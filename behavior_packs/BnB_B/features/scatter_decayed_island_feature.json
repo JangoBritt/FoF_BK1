@@ -1,0 +1,32 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wypnt_bab:scatter_decayed_island_feature"
+		},
+		"iterations": "math.random(1,3)",
+		"x": {
+			"distribution": "gaussian",
+			"extent": [
+				-8,
+				8
+			]
+		},
+		"y": {
+			"distribution": "gaussian",
+			"extent": [
+				-8,
+				8
+			]
+		},
+		"z": {
+			"distribution": "gaussian",
+			"extent": [
+				-8,
+				8
+			]
+		},
+		"coordinate_eval_order": "zyx",
+		"places_feature": "wypnt_bab:select_decayed_island_feature"
+	}
+}

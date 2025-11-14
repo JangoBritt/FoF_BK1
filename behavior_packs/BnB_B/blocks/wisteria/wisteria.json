@@ -1,0 +1,154 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:wisteria",
+		"states": {
+				"wypnt_bab:body": [
+					false,
+					true
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "!q.block_state('wypnt_bab:body')",
+				"components": {
+					"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:wisteria_head",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"down"
+						],
+						"block_filter": [
+							"minecraft:mangrove_leaves",
+							"minecraft:cherry_leaves",
+							"minecraft:pale_oak_leaves",
+							"wypnt_bab:jacaranda_leaves",
+							"wypnt_bab:fir_leaves",
+							"wypnt_bab:aspen_leaves",
+							"wypnt_bab:wisteria"
+						]
+					},
+										{
+						"allowed_faces": [
+							"down"
+						],
+                        "block_filter": [
+                            {
+                                "tags": "query.any_tag('minecraft:is_pickaxe_item_destructible') || query.any_tag('minecraft:is_shovel_item_destructible') || query.any_tag('minecraft:is_axe_item_destructible') || query.any_tag('minecraft:is_hoe_item_destructible') || query.any_tag('minecraft:is_shears_item_destructible') || query.any_tag('minecraft:is_sword_item_destructible')"
+                            }
+                        ]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/wisteria.json"
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:body')",
+				"minecraft:movable": {
+        "movement_type": "immovable"
+      },
+				"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:wisteria_body",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"down"
+						],
+						"block_filter": [
+							"minecraft:mangrove_leaves",
+							"minecraft:cherry_leaves",
+							"minecraft:pale_oak_leaves",
+							"wypnt_bab:jacaranda_leaves",
+							"wypnt_bab:fir_leaves",
+							"wypnt_bab:aspen_leaves",
+							"wypnt_bab:wisteria"
+						]
+					},
+					{
+						"allowed_faces": [
+							"down"
+						],
+                        "block_filter": [
+                            {
+                                "tags": "query.any_tag('minecraft:is_pickaxe_item_destructible') || query.any_tag('minecraft:is_shovel_item_destructible') || query.any_tag('minecraft:is_axe_item_destructible') || query.any_tag('minecraft:is_hoe_item_destructible') || query.any_tag('minecraft:is_shears_item_destructible') || query.any_tag('minecraft:is_sword_item_destructible')"
+                            }
+                        ]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/wisteria.json"
+				}
+			}
+			],
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:wisteria_head",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:collision_box": false,
+			"minecraft:map_color": "#673A08",
+			"minecraft:flammable": {
+				"burn_odds": 15,
+				"flame_odds": 15
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			},
+						"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"wypnt_bab:prevent_place_with_liquid_above": {}
+		}
+	}
+}

@@ -1,0 +1,383 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"wypnt_bab:voidstrider": {
+				"events": {
+					"breathe": {
+						"pitch": 0.5,
+						"sound": "mob.horse.breathe",
+						"volume": 0.7
+					},
+					"jump": {
+						"pitch": 0.5,
+						"sound": "mob.horse.jump",
+						"volume": 0.4
+					},
+					"land": {
+						"pitch": 0.5,
+						"sound": "mob.horse.land",
+						"volume": 0.4
+					},
+					"step": {
+						"sound": "mob.cow.step",
+						"volume": 0.75,
+						"pitch": 0.7
+					},
+					"ambient": {
+						"sound": "mob.wypnt_bab.voidstrider.say",
+						"volume": 0.7,
+						"pitch": 0.5
+					},
+					"death": {
+						"sound": "mob.endermen.death",
+						"volume": 0.2,
+						"pitch": 0.5
+					},
+					"hurt": {
+						"sound": "mob.horse.hit",
+						"volume": 0.3,
+						"pitch": 0.5
+					},
+					"unsaddle": "mob.unsaddle"
+				}
+			},			
+			"wypnt_bab:skeleman": {
+				"events": {
+					"ambient": "mob.endermen.idle",
+					"death": "mob.endermen.death",
+					"hurt": "mob.endermen.hit",
+					"mad": "mob.endermen.scream",
+					"step": "mob.skeleton.step",
+					"stare": {
+						"pitch": 1,
+						"sound": "mob.endermen.stare",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"wypnt_bab:hollowmen": {
+				"events": {
+					"ambient": "mob.endermen.idle",
+					"death": "mob.endermen.death",
+					"hurt": "mob.endermen.hit",
+					"mad": "mob.endermen.scream",
+					"step": "mob.zombie.step",
+					"stare": {
+						"pitch": 1,
+						"sound": "mob.endermen.stare",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 0.9],
+				"volume": 1
+			},
+			"wypnt_bab:sigiling": {
+				"events": {
+					"ambient": "mob.endermen.idle",
+					"death": "mob.endermen.death",
+					"hurt": "mob.endermen.hit",
+					"mad": "mob.endermen.scream",
+					"step": {
+						"sound": "mob.strider.step",
+						"pitch": 0.8,
+						"volume": 1
+					},
+					"stare": {
+						"pitch": 1,
+						"sound": "mob.endermen.stare",
+						"volume": 1
+					}
+				},
+				"pitch": [0.5, 0.8],
+				"volume": 1
+			},
+			"wypnt_bab:voidcaller": {
+				"events": {
+					"ambient": "mob.endermen.idle",
+					"death": "mob.endermen.death",
+					"hurt": "mob.endermen.hit",
+					"mad": "mob.endermen.scream",
+					"step": "mob.zombie.step",
+					"stare": {
+						"pitch": 1,
+						"sound": "mob.endermen.stare",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"wypnt_bab:deer": {
+				"events": {
+					"death": {
+						"sound": "mob.wypnt_bab.deer.death"
+					},
+					"hurt": {
+						"sound": "mob.wypnt_bab.deer.hurt"
+					},
+					"ambient": "mob.wypnt_bab.deer.say",
+					"step": "mob.horse.soft",
+					"ambient.baby": "mob.wypnt_bab.deer_baby.say"
+				},
+				"volume": 0.43,
+				"pitch": [0.8, 1]
+			},
+			"wypnt_bab:grizzly_bear": {
+				"volume": 1,
+				"pitch": [0.8, 1],
+				"events": {
+					"ambient": "mob.wypnt_bab.grizzly_bear.idle",
+					"ambient.baby": "mob.wypnt_bab.grizzly_bear_baby.idle",
+					"hurt": {
+						"sound": "mob.wypnt_bab.grizzly_bear.hurt",
+						"volume": 0.7
+					},
+					"death": "mob.wypnt_bab.grizzly_bear.death",
+					"step": {
+						"sound": "mob.polarbear.step",
+						"volume": 4
+					},
+					"warn": {
+						"sound": "mob.wypnt_bab.grizzly_bear.warning",
+						"volume": 1.2,
+						"pitch": 1
+					},
+					"attack": {
+						"sound": "mob.wypnt_bab.grizzly_bear.hurt",
+						"volume": 0.7
+					}
+				}
+			},
+			"wypnt_bab:mummy": {
+				"events": {
+					"ambient": "mob.husk.ambient",
+					"death": "mob.husk.death",
+					"hurt": "mob.husk.hurt",
+					"step": "mob.husk.step"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"wypnt_bab:crocodile": {
+				"events": {
+					"death": {
+						"sound": "mob.wypnt_bab.crocodile.death"
+					},
+					"ambient": {
+						"sound": "mob.wypnt_bab.crocodile.say"
+					},
+					"hurt": {
+						"sound": "mob.wypnt_bab.crocodile.hurt"
+					},
+					"attack": {
+						"sound": "mob.wypnt_bab.crocodile_bite"
+					}
+				},
+				"volume": 0.5,
+				"pitch": [0.8, 1.2]
+			},
+			"wypnt_bab:warthog": {
+				"events": {
+					"ambient": "mob.hoglin.ambient",
+					"angry": "mob.hoglin.angry",
+					"attack": "mob.hoglin.attack",
+					"death": "mob.hoglin.death",
+					"hurt": "mob.hoglin.hurt",
+					"retreat": "mob.hoglin.retreat",
+					"unsaddle": "mob.unsaddle",
+					"step": {
+						"pitch": 1.7,
+						"sound": "mob.hoglin.step",
+						"volume": 0.75
+					}
+				},
+				"pitch": [1.6, 1.9],
+				"volume": 1
+			},
+			"wypnt_bab:raccoon": {
+				"events": {
+					"death": {
+						"sound": "mob.wypnt_bab.raccoon.death"
+					},
+					"hurt": {
+						"sound": "mob.wypnt_bab.raccoon.hurt"
+					},
+					"ambient": {
+						"sound": "mob.wypnt_bab.raccoon.say"
+					},
+					"mad": {
+						"sound": "mob.wypnt_bab.raccoon.mad"
+					},
+					"sleep": {
+						"sound": "mob.fox.sleep"
+					},
+					"eat": {
+						"sound": "mob.fox.eat"
+					}
+				},
+				"volume": 0.1,
+				"pitch": [0.8, 1]
+			},
+			"wypnt_bab:goblin": {
+				"events": {
+					"death": {
+						"sound": "mob.wypnt_bab.goblin.death",
+						"volume": 0.5
+					},
+					"ambient": {
+						"sound": "mob.wypnt_bab.goblin.say",
+						"volume": 0.5
+					},
+					"hurt": {
+						"sound": "mob.wypnt_bab.goblin.hurt",
+						"volume": 0.5
+					},
+					"mad": {
+						"sound": "mob.wypnt_bab.goblin.angry",
+						"volume": 0.5
+					},
+					"step": {
+						"sound": "mob.piglin.step",
+						"volume": 0.5,
+						"pitch": 2
+					}
+				},
+				"pitch": [0.6, 0.8],
+				"volume": 1
+			},
+			"wypnt_bab:dweller": {
+				"events": {
+					"step": {
+						"sound": "mob.zombie.step",
+						"pitch": 1.3
+					},
+					"mad": "mob.wypnt_bab.dweller.angry",
+					"death": {
+						"sound": "mob.wypnt_bab.dweller.death",
+						"volume": 0.6
+					},
+					"retreat": {
+						"sound": "mob.wypnt_bab.dweller.scared",
+						"pitch": [0.8, 1]
+					},
+					"hurt": {
+						"sound": "mob.wypnt_bab.dweller.scared",
+						"pitch": [0.7, 0.8],
+						"volume": 0.75
+					}
+				},
+				"pitch": [0.8, 1],
+				"volume": 1
+			},
+			"wypnt_bab:lurker": {
+				"events": {
+					"step": {
+						"sound": "mob.zombie.step",
+						"pitch": 1.3
+					},
+					"mad": "mob.dweller.angry",
+					"death": {
+						"sound": "mob.dweller.death",
+						"volume": 0.6
+					},
+					"retreat": {
+						"sound": "mob.dweller.scared",
+						"pitch": [0.8, 1]
+					},
+					"hurt": {
+						"sound": "mob.dweller.scared",
+						"pitch": [0.7, 0.8],
+						"volume": 0.75
+					}
+				},
+				"pitch": [0.65, 0.9],
+				"volume": 1
+			},
+			"wypnt_bab:puffling": {
+				"events": {
+					"ambient": {
+						"sound": "mob.wypnt_bab.puffling.ambient",
+						"volume": 0.35,
+						"pitch": [0.55, 1]
+					},
+					"death": {
+						"sound": "mob.wypnt_bab.puffling.ambient",
+						"volume": 0.5,
+						"pitch": [0.55, 1]
+					},
+					"hurt": {
+						"sound": "mob.wypnt_bab.puffling.ambient",
+						"volume": 0.5,
+						"pitch": [0.55, 1]
+					},
+					"step": {
+						"sound": "mob.wolf.step",
+						"volume": 0.4,
+						"pitch": 1.3
+					}
+				}
+			},
+			"wypnt_bab:chimp": {
+				"events": {
+					"ambient": {
+						"sound": "mob.wypnt_bab.chimp.say"
+					},
+					"hurt": {
+						"sound": "mob.wypnt_bab.chimp.hurt",
+						"volume": 1
+					},
+					"death": {
+						"sound": "mob.wypnt_bab.chimp.death"
+					},
+					"mad": {
+						"sound": "mob.wypnt_bab.chimp.angry",
+						"volume": 0.53
+					}
+				},
+				"pitch": [0.73, 1.2],
+				"volume": 0.4
+			}
+		}
+	},
+	"individual_named_sounds": {
+		"sounds": {
+			"ambient.breeze": {
+				"pitch": [0.85, 1.2],
+				"sound": "ambient.breeze",
+				"volume": 0.125
+			},
+			"ambient.swamp": {
+				"pitch": [0.9, 1.2],
+				"sound": "ambient.swamp",
+				"volume": 0.125
+			},
+			"ambient.birds": {
+				"pitch": [0.9, 1.2],
+				"sound": "ambient.birds",
+				"volume": 0.125
+			},
+			"ambient.chirping": {
+				"pitch": [0.9, 1.2],
+				"sound": "ambient.chirping",
+				"volume": 0.225
+			},
+			"ambient.river": {
+				"pitch": [0.9, 1.2],
+				"sound": "ambient.river",
+				"volume": 0.225
+			},
+			"ambient.field": {
+				"pitch": [0.9, 1.2],
+				"sound": "ambient.field",
+				"volume": 0.225
+			},
+			"music.steady_stride": {
+				"pitch": [0.9, 1.2],
+				"sound": "music.steady_stride",
+				"volume": 0.225
+			}
+		}
+	}
+}

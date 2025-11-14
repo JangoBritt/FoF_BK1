@@ -15,16 +15,16 @@
 		],
 		"key": {
 			"#": {
-				"item": "korbon:baobab_stairs"
+				"item": "wypnt_bab:baobab_stairs"
 			}
 		},
 		"unlock": [
 			{
-				"item": "korbon:baobab_stairs"
+				"item": "wypnt_bab:baobab_stairs"
 			}
 		],
 		"result": {
-			"item": "korbon:baobab_planks",
+			"item": "wypnt_bab:baobab_planks",
 			"count": 3
 		}
 	}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wypnt_bab:forsaken_oak_wood_stripped"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~", 
+            "~~"
+        ],
+        "key": {
+            "~": {
+                "item": "wypnt_bab:stripped_forsaken_oak_log"
+            }
+        },
+        "result": [
+			{
+				"item": "wypnt_bab:stripped_forsaken_oak_wood",
+				"count": 3
+			}
+		],
+        "unlock": [
+			{
+			  "item": "wypnt_bab:forsaken_oak_planks"
+			}
+		  ]
+    }
+}

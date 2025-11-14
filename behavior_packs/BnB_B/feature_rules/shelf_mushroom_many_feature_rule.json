@@ -1,0 +1,71 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "wypnt_bab:shelf_mushroom_many_feature_rule",
+			"places_feature": "wypnt_bab:shelf_mushroom_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "birch"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "pale_garden"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "swamp"
+						},
+						{
+							"all_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "taiga"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "mutated"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 16,
+			"x": {
+				"distribution": "gaussian",
+				"extent": [
+					0,
+					1
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					50,
+					255
+				]
+			},
+			"z": {
+				"distribution": "gaussian",
+				"extent": [
+					0,
+					1
+				]
+			}
+		}
+	}
+}

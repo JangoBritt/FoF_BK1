@@ -15,16 +15,16 @@
 		],
 		"key": {
 			"#": {
-				"item": "korbon:redwood_stairs"
+				"item": "wypnt_bab:redwood_stairs"
 			}
 		},
 		"unlock": [
 			{
-				"item": "korbon:redwood_stairs"
+				"item": "wypnt_bab:redwood_stairs"
 			}
 		],
 		"result": {
-			"item": "korbon:redwood_planks",
+			"item": "wypnt_bab:redwood_planks",
 			"count": 3
 		}
 	}

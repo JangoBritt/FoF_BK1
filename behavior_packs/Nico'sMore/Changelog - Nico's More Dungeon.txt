@@ -1,66 +1,41 @@
-Nico's More Dungeon
+Nico's More Dungeon:
 
-[Version: 1.3.40]
+[Version: 1.5]
 NOTE:
-• The add-on will now only work with Minecraft versions 1.21.70 and higher.
+- If you’re updating from an older version, this add-on will not work properly in existing worlds.
 
           "General"
-• Updated for compatibility with Minecraft version 1.21.71.
-• Rearranged the custom items in creative inventory by adding them in new item groups.
+- Changed file identifiers.
+- Shortened several file names.
+- Added PBR texture support for all the custom blocks.
+- Added language support for Spanish and Japanese.
+- Revamped the structure chest and barrel loot tables, reducing the chances of some uncommon items.
 
-          "New Additional"
-BLOCKS:
-• Added the Boss Trophies.
-  - Types and qualities of trophies:
-    - Brute Zombie Trophies: Stone, Copper, Iron, Golden, Diamond
-    - Rat Curserer Trophies: Stone, Copper, Iron, Golden, Diamond
-    - Elder Golem Trophies: Stone, Copper, Iron, Golden, Diamond
-    - Piglin Chief Trophies: Stone, Copper, Iron, Golden, Diamond
-  - Stone Boss Trophies are dropped by their respective bosses upon defeat.
-  - Higher-quality trophies can be crafted by combining lower-quality ones.
-
-ITEMS:
-• Added the Potion of Brute, which can be obtained by brewing Rotten Brute Flesh in a Water Bottle. Consuming it grants 10 minutes of Strength II and 2 minutes of Speed I.
-
-WEAPON EFFECTS:
-• Magical Scourge: Weapons with this effect deal an extra 2 damage against magical-type mobs.
-• Spirit Piercer: Weapons with this effect can damage spirit-type mobs with physical immunity.
-• Earth Bane: Weapons with this effect deal an extra 2 damage against earth-elemental-type mobs.
-
-          "Fixes & Changes"
 MOBS:
-• Bosses will now always drop a Stone Trophy upon defeat.
-• Rat Curserer:
-  - Rat Curserer will now take 2.0× damage from any Magic Missile.
-• Elder Golem:
-  - It will now take less damage from lava.
-• Piglin Chief:
-  - Fixed the avoidance behavior toward the Soul Fire Bird and Nether Soul Wisp.
-  - It will no longer sit down in boats.
-• Rat: 
-  - Wild rats now have an increased success rate of destroying crops.
-• Giant Rat & Cursed Rat:
-  - Tamed giant rat health value has increased.
-  - Wild Giant Rats and Cursed Rats can now also pick up and eat Rotten Brute Flesh.
-  - Wild Giant Rats and Cursed Rats now have an increased success rate of destroying crops.
-  
+- Leashable mobs can now properly be leashed to other mobs.
+- Rat Curserer:
+  - Reduced the cooldown of projectile missiles on ranged attack.
+- Elder Golem:
+  - Increased the damage dealt by ground spikes and made it capable of attacking other villager-type mobs.
+- Piglin Chief:
+  - Reduced the cooldown of projectile missiles on ranged attack.
+- Shulkore:
+  - Increased the damage dealt by its projectiles.
+  - Increased the regeneration effect level when its box lids are closed.
+- Cobbled Deepslate Golem:
+  - Can now be leashed.
+
 ITEMS:
-• Fixed a bug where custom tools and weapons would take durability damage after digging certain instant-diggable blocks, such as Eyeblossom and Hanging Pale Moss.
-• Magic Staffs:
-  - Magic staff's magic missiles will now have a impact particles.
-  - Magic staffs will now only take 2 durability damage when using them to break a block or as a melee weapon.
-  - Magic staffs will no longer shoot projectiles when the user is crouching.
-  - Curserer Staff: 
-    - It now has a weapon effect called Magical Scourge & Spirit Piercer.
-    - Curse Magic Missiles now deal area damage in a 3-block radius, inflicting 3 damage or 4 damage if the Book of Curses is equipped.
-    - Durability value has increased to 128.
-    - Cooldown duration has been reduced.
+- Curserer Staff:
+  - Increased durability from 128 to 256.
+  - Reduced cooldown from 1.5 to 1.2.
+  - Increased projectile velocity.
+- Piglin Fire Staff:
+  - Reduced projectile damage from 7 to 6.
+  - Reduced cooldown from 1.2 to 0.8.
+  - Increased durability from 192 to 288.
+  - Increased projectile velocity.
+- Written Guide Books have been updated:
+  - Curserer Staff
   - Piglin Fire Staff
-    - Fire Spike Magic Missiles now deal splash damage in a 1-block radius, inflicting 2 damage.
-    - Cooldown duration has been reduced.
-    - Projectile range has increased.
-• Piglin War Hammer:
-  - The Piglin Sledge Hammer is now renamed to Piglin War Hammer.
-  - It now has a weapon effect called Earth Bane at level 3.
-  - Improved hit sound effects; the sound only plays when the user does not have the Weakness effect.
-  - Increased the level of the applied Weakness effect.
+  - Shulkore

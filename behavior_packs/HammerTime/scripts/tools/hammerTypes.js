@@ -11,7 +11,7 @@ import { COPPER_BLOCKS } from "../common/copperBlocks";
 
 export const HAMMER_BLOCK_TYPES = {
 
-   'nicothekid:piglin_war_hammer': [
+   'ntk:piglin_war_hammer': [
       ...HAMMER_COMMON_BREAKABLE_BLOCKS,
       ...THIRD_PARTY_BREAKABLE_BLOCKS,
       ...COPPER_BLOCKS,

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "wypnt_bab:red_dye_from_coralroot"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "red_dye",
+    "ingredients": [
+      {
+        "item": "wypnt_bab:coralroot"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "wypnt_bab:coralroot"
+      }
+    ],
+    "result": {
+      "item": "minecraft:dye",
+      "data": 1
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Levitation Staff"
+            },
+            {
+              "function": "set_book_contents",
+              "title": "Guide Book #123",
+              "author": "Forsaken Odyssey",
+              "pages": [
+                "        §7Guide Book #123§r\n§lLevitation Staff§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lCraftable on§r: Artifacture Table\n•§lStackable§r: 1\n•§lDurability§r: 384\n•§lMelee Damage§r: 4\n•§lMelee Effect§r: Levitation I (0:10)",
+                "•§lActivation Effect§r: Levitation I (0:20) & Slow Falling (1:00) to all mob in 6-block radius.\n•§lCooldown§r: 4 §o§8(sec)§r\n•§lEnchantable§r: YES\n•§lRepairable with§r: Levitation Staff"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

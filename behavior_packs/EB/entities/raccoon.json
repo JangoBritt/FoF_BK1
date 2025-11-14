@@ -361,12 +361,6 @@
 						"cooked_rabbit",
 						"glow_berries",
 						"minecraft:sweet_berries",
-						"korbon:crocodile_meat_raw",
-						"korbon:crocodile_meat_cooked",
-						"korbon:frog_leg_raw",
-						"korbon:frog_leg_cooked",
-						"korbon:cherry",
-						"korbon:coconut_open",
 						"minecraft:bread"
 					]
 				},
@@ -884,46 +878,6 @@
 					},
 					{
 						"item": "minecraft:suspicious_stew",
-						"priority": 0,
-						"max_amount": 1
-					},
-					{
-						"item": "korbon:coconut",
-						"priority": 0,
-						"max_amount": 1
-					},
-					{
-						"item": "korbon:coconut_open",
-						"priority": 0,
-						"max_amount": 1
-					},
-					{
-						"item": "korbon:crocodile_meat_cooked",
-						"priority": 0,
-						"max_amount": 1
-					},
-					{
-						"item": "korbon:crocodile_meat_raw",
-						"priority": 0,
-						"max_amount": 1
-					},
-					{
-						"item": "korbon:frog_leg_cooked",
-						"priority": 0,
-						"max_amount": 1
-					},
-					{
-						"item": "korbon:frog_leg_raw",
-						"priority": 0,
-						"max_amount": 1
-					},
-					{
-						"item": "korbon:syrup_bottle",
-						"priority": 0,
-						"max_amount": 1
-					},
-					{
-						"item": "korbon:cherry",
 						"priority": 0,
 						"max_amount": 1
 					}

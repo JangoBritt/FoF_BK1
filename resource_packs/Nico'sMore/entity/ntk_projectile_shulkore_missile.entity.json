@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ntk:projectile_shulkore_missile",
+      "render_controllers": [
+        "controller.render.projectile.ntk_shulkore_missile"
+      ],
+      "geometry": {
+        "default": "geometry.projectile.ntk_shulkore_missile"
+      },
+      "materials": {
+        "default": "projectile_shulkore_missile"
+      },
+      "textures": {
+        "variant_0_projectile_shulkore_missile": "textures/projectiles/ntk_shulkore_blindness_missile",
+        "variant_1_projectile_shulkore_missile": "textures/projectiles/ntk_shulkore_levitation_missile",
+        "variant_2_projectile_shulkore_missile": "textures/projectiles/ntk_shulkore_mining_fatigue_missile",
+        "variant_3_projectile_shulkore_missile": "textures/projectiles/ntk_shulkore_slowness_missile",
+        "variant_4_projectile_shulkore_missile": "textures/projectiles/ntk_shulkore_weakness_missile"
+      },
+      "particle_effects": {
+				"shulkore_missile_particle": "ntk:shulkore_missile_particle"
+			},
+      "animations": {
+        "controller_travelling": "controller.animation.projectile.ntk_shulkore_missile.travelling",
+        "scaling": "animation.projectile.ntk_shulkore_missile.scaling",
+        "travelling": "animation.projectile.ntk_shulkore_missile.travelling"
+      },
+      "scripts": {
+        "animate": [
+          "controller_travelling",
+          "scaling"
+        ]
+      }
+    }
+  }
+}

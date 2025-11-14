@@ -1,0 +1,87 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "wypnt_bab:reeds_feature_rule",
+            "places_feature": "wypnt_bab:scatter_reeds_feature"
+        },
+        "conditions": {
+            "placement_pass": "final_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "swamp"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "river"
+                        }
+                    ]
+                },
+                {
+					"none_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "frozen"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "cold"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "ice"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "ice_plains"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "ice_plains_spikes"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "cold_taiga"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "cold_beach"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "frozen_peaks"
+						}
+					]
+				}
+            ]
+        },
+        "distribution": {
+            "iterations": 1,
+            "x": {
+                "distribution": "uniform",
+                "extent": [-4, 4]
+            },
+            "y": {
+                "distribution": "uniform",
+                "extent": [62, 64]
+            },
+            "z": {
+                "distribution": "uniform",
+                "extent": [-4, 4]
+            }
+        }
+    }
+}

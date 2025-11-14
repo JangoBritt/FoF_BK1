@@ -1,0 +1,31 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wypnt_bab:forsaken_depths_tree_scatter_feature"
+		},
+		"x": {
+			"distribution": "gaussian",
+			"extent": [
+				-8,
+				8
+			]
+		},
+		"y": {
+			"distribution": "fixed_grid",
+			"extent": [
+				0,
+				"t.height - 1"
+			]
+		},
+		"z": {
+			"distribution": "gaussian",
+			"extent": [
+				-8,
+				8
+			]
+		},
+		"places_feature": "wypnt_bab:forsaken_depths_tree_with_decorations_feature",
+		"iterations": "t.height = 63; return t.height * (query.noise(v.worldx / 2048, v.worldz / 2048) + 0.125 * query.noise(v.worldx / 512, v.worldz / 512) + 0.015625 * query.noise(v.worldx / 128, v.worldz / 128) > 0.4);"
+	}
+}

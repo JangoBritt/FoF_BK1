@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.wypnt_bab.puffling": {
+			"arrays": {
+				"textures": {
+					"Array.base": [
+						"Texture.puffling_0",
+						"Texture.puffling_1",
+						"Texture.puffling_2",
+						"Texture.puffling_3",
+						"Texture.puffling_4",
+						"Texture.puffling_5"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.base[query.variant]"
+			]
+		}
+	}
+}

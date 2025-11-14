@@ -166,4 +166,79 @@ export function detectNearbyEntities(origin, dimension, radius) {
   return false;
 }
       
-      
+export function randomTeleport(entity, dimension, range) {
+  function randomRange(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  const mobLocation = entity.location;
+  let teleportation = false;
+  let minRangeX = mobLocation.x - range;
+  let maxRangeX = mobLocation.x + range;
+  let minRangeY = Math.max(mobLocation.y - range, -62);
+  let maxRangeY = Math.min(mobLocation.y + range, 319);
+  let minRangeZ = mobLocation.z - range;
+  let maxRangeZ = mobLocation.z + range;
+  let validBlock = null;
+  const attempts = (range * range * range);
+  const isSafeAirOrWater = (block) => {
+    return block.isAir || ["minecraft:water", "minecraft:flowing_water"].includes(block.typeId);
+  };
+  const isSolidGround = (block) => {
+    return (
+      !block.isAir &&
+      !["minecraft:water", "minecraft:flowing_water", "minecraft:lava", "minecraft:flowing_lava"].includes(block.typeId)
+    );
+  };
+  const teleportWithEffects = (entity, location) => {
+    entity.teleport(location);
+    entity.dimension.playSound("mob.endermen.portal", location, { pitch: 1.0, volume: 1.0 });
+    entity.dimension.spawnParticle("ntk:teleportation_magic_particle", location);
+  };
+  for (let i = 0; i < attempts; i++) {
+    let randomX = randomRange(minRangeX, maxRangeX);
+    let randomY = randomRange(minRangeY, maxRangeY);
+    let randomZ = randomRange(minRangeZ, maxRangeZ);
+    let block = entity.dimension.getBlock({ x: randomX, y: randomY, z: randomZ });
+    let blockBelow = block?.below();
+    if (block && blockBelow && isSafeAirOrWater(block) && isSolidGround(blockBelow)) {
+      validBlock = block;
+      break;
+    }
+  }
+  if (validBlock) {
+    teleportWithEffects(entity, validBlock.bottomCenter());
+    return;
+  }
+  let loopCondition = system.runInterval(() => {
+    let startBlock = entity.dimension.getBlock({ x: mobLocation.x, y: mobLocation.y, z: mobLocation.z });
+    if (startBlock) {
+      let queue = [startBlock];
+      let visited = new Set();
+      visited.add(`${startBlock.x},${startBlock.y},${startBlock.z}`);
+      while (queue.length > 0) {
+        let currentBlock = queue.shift();
+        let belowBlock = currentBlock.below();
+        if (
+          (currentBlock.isAir || ["minecraft:water", "minecraft:flowing_water"].includes(currentBlock.typeId)) &&
+          currentBlock.y > -64 &&
+          belowBlock &&
+          isSolidGround(belowBlock)
+        ) {
+          teleportWithEffects(entity, currentBlock.bottomCenter());
+          system.clearRun(loopCondition);
+          return;
+        }
+        let neighbors = [currentBlock.above(), currentBlock.below()];
+        for (let next of neighbors) {
+          if (!next) continue;
+          let key = `${next.x},${next.y},${next.z}`;
+          if (!visited.has(key) && next.y > -64) {
+            visited.add(key);
+            queue.push(next);
+          }
+        }
+      }
+    }
+    system.clearRun(loopCondition);
+  }, 1);
+}

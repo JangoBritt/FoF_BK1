@@ -1,11 +1,11 @@
 {
-  "format_version": "1.21.50",
+  "format_version": "1.21.80",
   "minecraft:block": {
     "description": {
       "identifier": "nicothekid:resin_brick_soul_lantern",
       "menu_category": {
 				"category": "items",
-				"group": "itemGroup.name.candles"
+				"group": "nicothekid:itemGroup.name.stone_soul_lanterns"
 			},
       "traits": {
         "minecraft:placement_position": {
@@ -28,11 +28,53 @@
         "*": {
           "texture": "nicothekid_resin_brick_soul_lantern",
           "render_method": "alpha_test",
+          "tint_method": "none",
           "ambient_occlusion": false,
-					"face_dimming": true
+					"face_dimming": true,
+					"isotropic": false
         }
       },
-      "minecraft:map_color": "#5d5d52",
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.block.nicothekid_stone_lantern",
+          "bone_visibility": {
+            "main": true,
+            "bottom_extension": false,
+            "side_extension": false,
+            "top_extension": false
+          }
+        },
+        "material_instances": {
+          "*": {
+            "texture": "nicothekid_resin_brick_soul_lantern",
+            "render_method": "alpha_test",
+            "tint_method": "none",
+            "ambient_occlusion": false,
+            "face_dimming": true,
+            "isotropic": false
+          }
+        }
+      },
+      "minecraft:destruction_particles": {
+        "texture": "nicothekid_resin_brick_soul_lantern",
+        "tint_method": "none"
+      },
+      "minecraft:map_color": {
+        "tint_method": "none",
+        "color": "#5d5d52"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "on_liquid_touches": "blocking",
+            "stops_liquid_flowing_out_from_direction": [
+              "up", "down", "north", "south", "east", "west"
+            ]
+          }
+        ]
+      },
       "minecraft:collision_box": {
         "origin": [ -7, 0, -7 ],
         "size": [ 14, 14, 14 ]
@@ -59,12 +101,12 @@
         "rotation": [ 0, 0, 0 ]
       },
       "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_resin_brick_soul_lantern.json",
-      "tag:resin_brick_soul_lantern": {},
-      "tag:custom_stone_lantern": {},
-      "tag:custom_lantern": {},
-      "tag:custom_soul_lantern": {},
-      "tag:pickaxe_diggable": {},
-      "tag:nicothekid_blocks": {},
+      "tag:nicothekid:resin_brick_soul_lantern": {},
+      "tag:nicothekid:custom_stone_lantern": {},
+      "tag:nicothekid:custom_lantern": {},
+      "tag:nicothekid:custom_soul_lantern": {},
+      "tag:nicothekid:pickaxe_diggable": {},
+      "tag:nicothekid:blocks": {},
       "tag:minecraft:is_pickaxe_item_destructible": {},
       "tag:stone": {}
     },

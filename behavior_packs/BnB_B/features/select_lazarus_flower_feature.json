@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:select_lazarus_flower_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:lazarus_feature",
+				2
+			],
+			[
+				"wypnt_bab:lazarus_white_feature",
+				1
+			]
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "wypnt_bab:furnace_custom_leaves"
+    },
+
+    "unlock": [
+      {
+        "tag": "wypnt_bab:custom_leaves"
+      }
+    ],
+    "tags": [ "furnace" ],
+    "input": {
+      "tag": "wypnt_bab:custom_leaves"
+    },
+    "output": "minecraft:leaf_litter"
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:chiseled_end_stone",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#eef6b4",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 45
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/chiseled_end_stone.json",
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

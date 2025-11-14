@@ -38,8 +38,8 @@
         {"type": "item","weight": 25,"name": "fables_misc:spruce_book","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 25,"name": "fables_misc:nether_book","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 25,"name": "fables_misc:space_book","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "adv:book_of_advancements","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "mb:guidebook_mailboxes","functions": [{"function": "set_count","count": 1}]}
+        {"type": "item","weight": 100,"name": "wypnt_bab:info_book","functions": [{"function": "set_count","count": 1}]}
+
       ]
     },
     {

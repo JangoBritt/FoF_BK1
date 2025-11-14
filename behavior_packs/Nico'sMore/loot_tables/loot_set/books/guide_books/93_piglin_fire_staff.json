@@ -21,8 +21,8 @@
               "title": "Guide Book #93",
               "author": "Forsaken Odyssey",
               "pages": [
-                "        §7Guide Book #93§r\n§lPiglin Fire Staff§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lDropped by§r: Piglin Chief\n•§lCraftable§r: NO\n•§lStackable§r: 1\n•§lDurability§r: 192\n•§lMelee Damage§r: 6\n•§lMelee Effect§r: Fire Aspect I",
-                "•§lShoot§r: Fire Spike Magic Missile\n•§lProjectile Hit Damage§r: 7\n•§lProjectile Area Damage§r: 2 in 1-block radius.\n•§lProjectile Effect§r: Flame\n•§lCooldown§r: 1.2 §o§8(sec)§r\n•§lEnchantable§r: YES",
+                "        §7Guide Book #93§r\n§lPiglin Fire Staff§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lDropped by§r: Piglin Chief\n•§lCraftable§r: NO\n•§lStackable§r: 1\n•§lDurability§r: 288\n•§lMelee Damage§r: 6\n•§lMelee Effect§r: Fire Aspect I",
+                "•§lShoot§r: Fire Spike Magic Missile\n•§lProjectile Hit Damage§r: 6\n•§lProjectile Area Damage§r: 2 in 1-block radius.\n•§lProjectile Effect§r: Flame\n•§lCooldown§r: 0.8 §o§8(sec)§r\n•§lEnchantable§r: YES",
                 "•§lRepairable with§r: Piglin Fire Staff"
               ]
             }

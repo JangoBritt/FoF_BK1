@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "wypnt_bab:baobab_door"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~",
+			"~~",
+			"~~"
+		],
+		"key": {
+			"~": {
+				"item": "wypnt_bab:baobab_planks"
+			}
+		},
+		"result": [
+			{
+				"item": "wypnt_bab:baobab_door",
+				"count": 3
+			}
+		],
+		"unlock": [
+			{
+			  "item": "wypnt_bab:baobab_planks"
+			}
+		  ]
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "wypnt_bab:bread_from_barley"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "wypnt_bab:barley_bundle"
+      }
+    },
+	"unlock": [
+      {
+        "item": "wypnt_bab:barley_bundle"
+      }
+    ],
+    "result": {
+      "item": "minecraft:bread"
+    }
+  }
+}

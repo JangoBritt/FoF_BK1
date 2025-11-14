@@ -1,0 +1,53 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "wypnt_bab:palm_tree_feature_rule",
+			"places_feature": "wypnt_bab:palm_tree_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "ocean"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "river"
+						},
+						{
+							"any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "tropical_beach"
+								}
+							]
+						}
+					]
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "stone"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "cold"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "math.random(4, 14)",
+			"x": 0,
+			"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+			"z": 0
+		}
+	}
+}

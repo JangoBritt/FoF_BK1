@@ -1,0 +1,44 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "wypnt_bab:deer",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"deer": "textures/coreblockstudios/biomesandbeyond/entity/deer/deer",
+				"deer_doe": "textures/coreblockstudios/biomesandbeyond/entity/deer/deer_doe",
+				"deer_fawn": "textures/coreblockstudios/biomesandbeyond/entity/deer/deer_fawn",
+				"deer_white": "textures/coreblockstudios/biomesandbeyond/entity/deer/deer_white"				
+			},
+			"geometry": {
+				"default": "geometry.wypnt_bab.deer"
+			},
+			"scripts": {
+				"animate": [
+					"walk_controller",
+					"baby_transform_controller"		
+				]
+			},
+			"animations": {
+				"walk": "animation.wypnt_bab.deer.walk_new",
+				"bob": "animation.wypnt_bab.deer.bob",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.wypnt_bab.deer.baby_transform",
+				"idle": "animation.wypnt_bab.deer.idle",
+				"grazing": "animation.wypnt_bab.deer.grazing",
+				"run": "animation.wypnt_bab.deer.run",
+				"walk_controller": "controller.animation.wypnt_bab.deer.walk",
+				"baby_transform_controller": "controller.animation.wypnt_bab.deer.baby_transform"				
+			},
+			"render_controllers": [
+			    { "controller.render.wypnt_bab.deer": "!q.property('wypnt_bab:deer_antler')" },
+				{ "controller.render.wypnt_bab.deer_antler": "q.property('wypnt_bab:deer_antler')" }
+			],
+			"spawn_egg": {
+				"texture": "wypnt_bab:deer_spawn_egg"
+			}
+		}
+	}
+}

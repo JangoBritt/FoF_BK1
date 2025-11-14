@@ -3,7 +3,7 @@ import { magicalTypeFamily, spiritTypeFamily, instantDiggableBlocks } from "../.
 import { damageItemDurability, shootProjectile } from "../../ntk_functions.js";
 
 world.beforeEvents.worldInitialize.subscribe(initEvent => {
-  initEvent.itemComponentRegistry.registerCustomComponent("nicothekid:curserer_staff_on_hit_entity", {
+  initEvent.itemComponentRegistry.registerCustomComponent("ntk:curserer_staff_on_hit_entity", {
     onHitEntity: eventData => {
       const damager = eventData.attackingEntity;
       const target = eventData.hitEntity;
@@ -13,17 +13,17 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
       const damagerEquippable = damager.getComponent("equippable");
       const offhandItem = damagerEquippable.getEquipment("Offhand");
       
-      if (itemUsed.typeId === "nicothekid:curserer_staff") {
+      if (itemUsed.typeId === "ntk:curserer_staff") {
         // Spirit Piercer:
-        //  Magical Scourge:
+        // Magical Scourge:
         if (!target.matches({ excludeFamilies: magicalTypeFamily })) {
           const targetHealth = target.getComponent("minecraft:health");
           const currentHealth = targetHealth.currentValue;
           let damageEffect = 0;
-          if (offhandItem === undefined || offhandItem.typeId !== "nicothekid:book_of_curses") {
+          if (offhandItem === undefined || offhandItem.typeId !== "ntk:book_of_curses") {
             damageEffect = 2; // Level I
           }
-          else if (offhandItem.typeId === "nicothekid:book_of_curses") {
+          else if (offhandItem.typeId === "ntk:book_of_curses") {
             damageEffect = 4; // Level II
           }
           let expectedHealth = currentHealth - damageEffect;
@@ -31,10 +31,10 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
         }
         // Durabilty Damage:
         let damageAmount = 0;
-        if (offhandItem === undefined || offhandItem.typeId !== "nicothekid:book_of_curses") {
+        if (offhandItem === undefined || offhandItem.typeId !== "ntk:book_of_curses") {
           damageAmount = 2;
         }
-        else if (offhandItem.typeId === "nicothekid:book_of_curses") {
+        else if (offhandItem.typeId === "ntk:book_of_curses") {
           damageAmount = 1;
         }
         damageItemDurability(damager, itemUsed, damageAmount, "Mainhand");
@@ -42,7 +42,7 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
       else return;
     }
   });
-  initEvent.itemComponentRegistry.registerCustomComponent("nicothekid:curserer_staff_on_mine_block", {
+  initEvent.itemComponentRegistry.registerCustomComponent("ntk:curserer_staff_on_mine_block", {
     onMineBlock: eventData => {
       const player = eventData.source;
       const itemUsed = eventData.itemStack;
@@ -50,17 +50,17 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
       const blockPermutation = eventData.minedBlockPermutation;
       const playerEquippable = player.getComponent("equippable");
       
-      if (itemUsed.typeId === "nicothekid:curserer_staff") {
+      if (itemUsed.typeId === "ntk:curserer_staff") {
         const offhandItem = playerEquippable.getEquipment("Offhand");
         let damageAmount = 0;
-        if (offhandItem === undefined || offhandItem.typeId !== "nicothekid:book_of_curses") {
+        if (offhandItem === undefined || offhandItem.typeId !== "ntk:book_of_curses") {
           damageAmount = 2;
         }
-        else if (offhandItem.typeId === "nicothekid:book_of_curses") {
+        else if (offhandItem.typeId === "ntk:book_of_curses") {
           damageAmount = 1;
         }
         
-        if (!instantDiggableBlocks.includes(blockPermutation.type.id) && !blockPermutation.hasTag("nicothekid:instant_diggable")) {
+        if (!instantDiggableBlocks.includes(blockPermutation.type.id) && !blockPermutation.hasTag("ntk:instant_diggable")) {
           damageItemDurability(player, itemUsed, damageAmount, "Mainhand");
         }
         else return;
@@ -68,31 +68,31 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
       else return;
     }
   });
-  initEvent.itemComponentRegistry.registerCustomComponent("nicothekid:curserer_staff_on_use", {
+  initEvent.itemComponentRegistry.registerCustomComponent("ntk:curserer_staff_on_use", {
     onUse: eventData => {
       const player = eventData.source;
       const itemUsed = eventData.itemStack;
       const playerEquippable = player.getComponent("equippable");
       
-      if (itemUsed.typeId === "nicothekid:curserer_staff") {
+      if (itemUsed.typeId === "ntk:curserer_staff") {
         const cooldown = itemUsed.getComponent("cooldown").getCooldownTicksRemaining(player);
         const offhandItem = playerEquippable.getEquipment("Offhand");
         if (!player.isSneaking) {
-          if (offhandItem === undefined || offhandItem.typeId !== "nicothekid:book_of_curses") {
-            if (cooldown == 29) {
-              shootProjectile("nicothekid:projectile_curse_magic_missile", player, "ominous_item_spawner.spawn_item_begin", 1.0);
+          if (offhandItem === undefined || offhandItem.typeId !== "ntk:book_of_curses") {
+            if (cooldown == 23) {
+              shootProjectile("ntk:projectile_curse_magic_missile", player, "ominous_item_spawner.spawn_item_begin", 1.0);
               damageItemDurability(player, itemUsed, 1, "Mainhand");
             }
           }
-          else if (offhandItem.typeId === "nicothekid:book_of_curses") {
-            if (cooldown == 29) {
-              shootProjectile("nicothekid:projectile_curse_magic_missile", player, "ominous_item_spawner.spawn_item_begin", 1.0);
+          else if (offhandItem.typeId === "ntk:book_of_curses") {
+            if (cooldown == 23) {
+              shootProjectile("ntk:projectile_curse_magic_missile_2", player, "ominous_item_spawner.spawn_item_begin", 1.0);
               damageItemDurability(player, itemUsed, 1, "Mainhand");
             }
           }
         }
         else {
-          if (cooldown == 29) {
+          if (cooldown == 23) {
             system.runTimeout(() => {
               player.startItemCooldown("curserer_staff", 0 );
               return;

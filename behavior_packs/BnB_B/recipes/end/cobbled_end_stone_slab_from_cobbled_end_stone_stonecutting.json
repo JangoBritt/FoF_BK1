@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "wypnt_bab:cobbled_end_stone_slab_from_cobbled_end_stone_stonecutting"
+        },
+        "ingredients": [
+            {
+                "item": "wypnt_bab:cobbled_end_stone"
+            }
+        ],
+        "priority": 0,
+        "result": {
+            "count": 2,
+            "data": 0,
+            "item": "wypnt_bab:cobbled_end_stone_slab"
+        },
+        "unlock": [
+          {
+             "item": "wypnt_bab:cobbled_end_stone"
+          }
+        ],
+        "tags": [
+            "stonecutter"
+        ]
+    }
+}

@@ -1,0 +1,520 @@
+pack.name=Biomes & Beyond [BETA] - Recursos
+pack.description=Una expansión para tu mundo que agrega nuevos biomas, bloques, criaturas y más! [v0.9.0-beta] | por iKorbon & CoreBlock Studios!
+
+##################################################
+##  Bloques
+##################################################
+
+tile.wypnt_bab:shelf_mushrooms.name=Hongo políporo
+tile.wypnt_bab:ivy.name=Hedera
+tile.wypnt_bab:daisy_petals.name=Pétalos de margarita
+tile.wypnt_bab:bluebell.name=Jacinto de Los Bosques
+tile.wypnt_bab:violet_flower.name=Violeta
+tile.wypnt_bab:aspen_leaves.name=Hojas de álamo
+tile.wypnt_bab:aspen_leaf_pile.name=Pila de hojas de álamo
+tile.wypnt_bab:aspen_sapling.name=Brote de álamo
+tile.wypnt_bab:windswept_sand.name=Arena barrida
+tile.wypnt_bab:brittlebush.name=Flor del rocío
+tile.wypnt_bab:small_cactus.name=Cactus pequeño
+tile.wypnt_bab:deadfern.name=Helecho muerto
+tile.wypnt_bab:aloe_vera.name=Sábila
+tile.wypnt_bab:bunchflower.name=Trillium blancas
+tile.wypnt_bab:red_toadstool.name=Amanita roja
+tile.wypnt_bab:brown_toadstool.name=Amanita marrón
+tile.wypnt_bab:fir_planks.name=Tablones de oyamel
+tile.wypnt_bab:fir_leaves.name=Hojas de oyamel
+tile.wypnt_bab:fir_log.name=Tronco de oyamel
+tile.wypnt_bab:fir_sapling.name=Brote de oyamel
+tile.wypnt_bab:stripped_fir_log.name=Tronco de oyamel pelado
+tile.wypnt_bab:fir_wood.name=Madera de oyamel
+tile.wypnt_bab:stripped_fir_wood.name=Madera de oyamel pelada
+tile.wypnt_bab:fir_fence.name=Valla de oyamel
+tile.wypnt_bab:fir_fence_inventory.name=Valla de oyamel
+tile.wypnt_bab:fir_fence_gate.name=Puerta de valla de oyamel
+tile.wypnt_bab:fir_door.name=Puerta de oyamel
+tile.wypnt_bab:fir_trapdoor.name=Escotilla de oyamel
+tile.wypnt_bab:fir_slab.name=Losa de oyamel
+tile.wypnt_bab:jacaranda_log.name=Tronco de jacaranda
+tile.wypnt_bab:jacaranda_leaves.name=Hojas de jacaranda
+tile.wypnt_bab:jacaranda_leaf_pile.name=Pila de hojas de jacaranda
+tile.wypnt_bab:jacaranda_planks.name=Tablones de jacaranda
+tile.wypnt_bab:jacaranda_sapling.name=Brote de jacaranda
+tile.wypnt_bab:stripped_jacaranda_log.name=Tronco de jacaranda pelado
+tile.wypnt_bab:jacaranda_wood.name=Madera de jacaranda
+tile.wypnt_bab:stripped_jacaranda_wood.name=Madera de jacaranda pelada
+tile.wypnt_bab:jacaranda_fence.name=Valla de jacaranda 
+tile.wypnt_bab:jacaranda_fence_inventory.name=Valla de jacaranda
+tile.wypnt_bab:jacaranda_fence_gate.name=Puerta de valla de jacaranda
+tile.wypnt_bab:jacaranda_door.name=Puerta de jacaranda
+tile.wypnt_bab:jacaranda_trapdoor.name=Escotilla de jacaranda
+tile.wypnt_bab:jacaranda_slab.name=Losa de jacaranda
+tile.wypnt_bab:wisteria.name=Racimos de glicina
+tile.wypnt_bab:lavender_flower.name=Lavandas
+tile.wypnt_bab:lazarus.name=Flor campana de lázaro
+tile.wypnt_bab:shrub_grass.name=Arbusto de pasto
+tile.wypnt_bab:redwood_planks.name=Tablones de secuoya
+tile.wypnt_bab:redwood_sapling.name=Brote de secuoya
+tile.wypnt_bab:stripped_redwood_log.name=Tronco de secuoya pelado
+tile.wypnt_bab:redwood_wood.name=Madera de secuoya
+tile.wypnt_bab:redwood_log.name=Tronco de secuoya
+tile.wypnt_bab:stripped_redwood_wood.name=Madera de secuoya pelada
+tile.wypnt_bab:redwood_fence.name=Valla de secuoya
+tile.wypnt_bab:redwood_fence_inventory.name=Valla de secuoya
+tile.wypnt_bab:redwood_fence_gate.name=Puerta de valla de secuoya
+tile.wypnt_bab:redwood_door.name=Puerta de secuoya
+tile.wypnt_bab:redwood_trapdoor.name=Escotilla de secuoya
+tile.wypnt_bab:redwood_slab.name=Losa de secuolla
+tile.wypnt_bab:redwood_leaves.name=Hojas de secuolla
+tile.wypnt_bab:duckweed.name=Lentejas de agua
+tile.wypnt_bab:lily_blossom.name=Azucena
+tile.wypnt_bab:cattail.name=Tule
+tile.wypnt_bab:autumn_leaves.name=Hojas de roble otoñal
+tile.wypnt_bab:autumn_leaf_pile.name=Pila de hojas de roble otoñal
+tile.wypnt_bab:autumn_sapling.name=Brote de roble otoñal
+tile.wypnt_bab:baobab_planks.name=Tablones de baobab
+tile.wypnt_bab:baobab_sapling.name=Borte de babab
+tile.wypnt_bab:stripped_baobab_log.name=Tronco de baobab pelado
+tile.wypnt_bab:baobab_wood.name=Madera de baobab
+tile.wypnt_bab:baobab_log.name=Tronco de baobab
+tile.wypnt_bab:stripped_baobab_wood.name=Madera de baobab pelada
+tile.wypnt_bab:baobab_fence.name=Valla e baobab
+tile.wypnt_bab:baobab_fence_gate.name=Puerta de valla de baobab
+tile.wypnt_bab:baobab_door.name=Puerta de baobab
+tile.wypnt_bab:baobab_trapdoor.name=Escotilla de baobab
+tile.wypnt_bab:baobab_slab.name=Losa de baobab
+tile.wypnt_bab:baobab_leaves.name=Hojas de baobab
+tile.wypnt_bab:reeds.name=Carrizo
+tile.wypnt_bab:clovers.name=Tréboles
+tile.wypnt_bab:strata.name=Estrato
+tile.wypnt_bab:cobbled_strata.name=Adoquín de estrato
+tile.wypnt_bab:strata_bricks.name=Ladrillos de estrato
+tile.wypnt_bab:chiseled_strata_bricks.name=Ladrillos de estrato cincelados
+tile.wypnt_bab:ultisol.name=Ultisol
+tile.wypnt_bab:didymoch.name=Helecho rojo amazónico
+tile.wypnt_bab:jungfern.name=Helecho tropical
+tile.wypnt_bab:maple_sapling.name=Brote de maple
+tile.wypnt_bab:yellow_maple_sapling.name=Brote de maple amarillo
+tile.wypnt_bab:maple_leaves.name=Hojas de maple
+tile.wypnt_bab:maple_yellow_leaves.name=Hojas de maple amarillo
+tile.wypnt_bab:maple_planks.name=Tablones de maple
+tile.wypnt_bab:maple_log.name=Tronco de maple
+tile.wypnt_bab:stripped_maple_log.name=Tronco de maple pelado
+tile.wypnt_bab:maple_wood.name=Madera de maple
+tile.wypnt_bab:stripped_maple_wood.name=Madera de maple pelada
+tile.wypnt_bab:maple_fence.name=Valla de maple
+tile.wypnt_bab:maple_fence_inventory.name=Valla de maple
+tile.wypnt_bab:maple_fence_gate.name=Puerta de valla de maple
+tile.wypnt_bab:maple_door.name=Puerta de maple
+tile.wypnt_bab:maple_trapdoor.name=Escotilla de maple
+tile.wypnt_bab:maple_slab.name=Losa de maple
+tile.wypnt_bab:quicksand.name=Arenas movedizas
+tile.wypnt_bab:coralroot.name=Raíz coral
+tile.wypnt_bab:glass_jar.name=Frasco
+tile.wypnt_bab:glass_jar_firefly.name=Frasco con luciérnaga
+tile.wypnt_bab:jacaranda_lantern.name=Linterna de jacaranda
+tile.wypnt_bab:brittlebright.name=Rocío luminoso
+tile.wypnt_bab:deer_trophy.name=Trofeo de venado
+tile.wypnt_bab:white_deer_trophy.name=Trofeo de venado blanco
+tile.wypnt_bab:sulfur_ore.name=Mineral de sulfuro
+tile.wypnt_bab:deepslate_sulfur_ore.name=Mineral de sulfuro de pizarra abismal
+tile.wypnt_bab:beach_grass.name=Hierva de playa
+tile.wypnt_bab:mullein.name=Gordolobo
+tile.wypnt_bab:lichen_carpet.name=Alfombra de liquen
+tile.wypnt_bab:lichen_hanging.name=Liquen colgante
+tile.wypnt_bab:whispering_willow.name=Flores murmurantes
+tile.wypnt_bab:forsaken_oak_log.name=Tronco de roble olvidado
+tile.wypnt_bab:forsaken_oak_planks.name=Tablones de roble olvidado
+tile.wypnt_bab:forsaken_oak_leaves.name=Hojas de roble olvidado
+tile.wypnt_bab:forsaken_oak_sapling.name=Brote de roble olvidado
+tile.wypnt_bab:stripped_forsaken_oak_log.name=Tronco de roble olvidado pelado
+tile.wypnt_bab:forsaken_oak_wood.name=Madera de roble olvidado
+tile.wypnt_bab:stripped_forsaken_oak_wood.name=Madera de roble olvidado pelada
+tile.wypnt_bab:forsaken_oak_fence.name=Valla de roble olvidado
+tile.wypnt_bab:forsaken_oak_fence_inventory.name=Valla de roble olvidado
+tile.wypnt_bab:forsaken_oak_fence_gate.name=Puerta de valla de roble olvidado
+tile.wypnt_bab:forsaken_oak_door.name=Puerta de roble olvidado
+tile.wypnt_bab:forsaken_oak_trapdoor.name=Escotilla de roble olvidado
+tile.wypnt_bab:forsaken_oak_slab.name=Losa de roble olvidado
+tile.wypnt_bab:sulfur_bag.name=Bolsa de sulfuro
+tile.wypnt_bab:void_turf.name=Musgo del vacío
+tile.wypnt_bab:chorus_log.name=Tronco coral
+tile.wypnt_bab:chorus_planks.name=Tablones corales
+tile.wypnt_bab:chorus_leaves.name=Hojas corales
+tile.wypnt_bab:chorus_sapling.name=Brote coral
+tile.wypnt_bab:stripped_chorus_log.name=Tronco coral pelado
+tile.wypnt_bab:chorus_wood.name=Madera coral
+tile.wypnt_bab:stripped_chorus_wood.name=Madera coral pelada
+tile.wypnt_bab:chorus_fence.name=Valla coral
+tile.wypnt_bab:chorus_fence_inventory.name=Valla coral
+tile.wypnt_bab:chorus_fence_gate.name=Puerta de valla coral
+tile.wypnt_bab:chorus_door.name=Puerta coral
+tile.wypnt_bab:chorus_trapdoor.name=Escotilla coral
+tile.wypnt_bab:chorus_slab.name=Losa coral
+tile.wypnt_bab:void_blossom.name=Capullo del vacío
+tile.wypnt_bab:void_blossom_bush.name=Arbusto de capullos del vacío
+tile.wypnt_bab:void_turf_grass.name=Hierva del vacío
+tile.wypnt_bab:tungsten_ore.name=Mineral de tungsteno
+tile.wypnt_bab:deepslate_tungsten_ore.name=Mineral de tungsteno de pizarra abismal
+tile.wypnt_bab:end_stone_tungsten_ore.name=Mineral de tungsteno de piedra de End
+tile.wypnt_bab:cobbled_end_stone.name=Piedra de End adoquinada
+tile.wypnt_bab:chorus_ivy.name=Hedera coral
+tile.wypnt_bab:velvium.name=Musgo aterciopelado
+tile.wypnt_bab:velvium_vine.name=Enredadera aterciopelada
+tile.wypnt_bab:velvium_vine_bulb.name=Capullo de enredadera aterciopelada
+tile.wypnt_bab:velvium_grass.name=Hierva aterciopelada
+tile.wypnt_bab:popped_chorus_leaves.name=Hojas coral magenta
+tile.wypnt_bab:puffshroom.name=Hongo resoplador
+tile.wypnt_bab:chiseled_end_stone.name=Piedra de End cincelada
+tile.wypnt_bab:voidmire.name=Cieno vacuo
+tile.wypnt_bab:voidmire_grass.name=Hierva de ciénaga del vacío
+tile.wypnt_bab:depraved_wart_block.name=Bloque de verruga térvida
+tile.wypnt_bab:depraved_stem.name=Tallo térvido
+tile.wypnt_bab:depraved_vine.name=Enredadera de zarcillo térvido
+tile.wypnt_bab:depraved_vine_flower.name=Capullo de zarcillo térvido
+tile.wypnt_bab:hollow_pale_oak_log.name=Tronco de roble pálido hueco
+tile.wypnt_bab:hollow_fir_log.name=Tronco de oyamel hueco 
+tile.wypnt_bab:hollow_jacaranda_log.name=Tronco de jacaranda hueco
+tile.wypnt_bab:hollow_redwood_log.name=Tronco de secuoya hueco 
+tile.wypnt_bab:hollow_baobab_log.name=Tronco de baobab hueco
+tile.wypnt_bab:hollow_maple_log.name=Tronco de maple hueco
+tile.wypnt_bab:hollow_forsaken_oak_log.name=tronco de roble olvidado hueco
+tile.wypnt_bab:hollow_chorus_log.name=Tronco coral hueco
+tile.wypnt_bab:hollow_oak_log.name=Tronco de roble hueco
+tile.wypnt_bab:hollow_spruce_log.name=Tronco de abeto hueco
+tile.wypnt_bab:hollow_birch_log.name=Tronco de abedul hueco
+tile.wypnt_bab:hollow_jungle_log.name=Tronco de jungla hueco
+tile.wypnt_bab:hollow_acacia_log.name=Tronco de acacia hueco
+tile.wypnt_bab:hollow_dark_oak_log.name=Tronco de roble oscuro hueco
+tile.wypnt_bab:hollow_mangrove_log.name=Tronco de manglar hueco
+tile.wypnt_bab:hollow_cherry_log.name=Tronco de cerezo hueco
+tile.wypnt_bab:spore_chute.name=Tubulares de esporas
+tile.wypnt_bab:popped_chorus_sapling.name=Brote de coral magenta
+tile.wypnt_bab:depraved_shroom.name=Hongo térvido
+tile.wypnt_bab:coconut.name=Coco
+tile.wypnt_bab:coconut_sapling.name=Brote de palmera de coco
+tile.wypnt_bab:tungsten_block.name=Bloque de tungsteno
+tile.wypnt_bab:rotveil.name=Yermovelo
+tile.wypnt_bab:rotveil_grass.name=Hierva umbrófaga
+tile.wypnt_bab:rotwarts.name=Verrugas umbrófagas
+tile.wypnt_bab:barley.name=Cebada silvestre
+tile.wypnt_bab:white_lazarus.name=Flor campana de lázaro blanca
+tile.wypnt_bab:crocodile_egg.name=Crocodile Egg
+tile.wypnt_bab:standing_torch.name=Poste de antorcha
+tile.wypnt_bab:banana_block_empty.name=Bloque de plátanos vacío
+tile.wypnt_bab:banana_block.name=Bloque de plátanos
+tile.wypnt_bab:banana_block_inmature.name=Bloque de plátanos inmaduros
+tile.wypnt_bab:banana_sapling_item.name=Brote de platanero
+tile.wypnt_bab:cobbled_end_stone_slab.name=Cobbled End Stone Slab
+tile.wypnt_bab:cobbled_strata_slab.name=Cobbled Strata Slab
+tile.wypnt_bab:strata_brick_slab.name=Strata Brick Slab
+
+##################################################
+##  Entidades
+##################################################
+
+entity.wypnt_bab:firefly.name=Luciérnaga
+entity.wypnt_bab:deer.name=Venado
+entity.wypnt_bab:crocodile.name=Cocodrilo
+entity.wypnt_bab:grizzly_bear.name=Oso grizzly
+entity.wypnt_bab:mummy.name=Momia
+entity.wypnt_bab:raccoon.name=Mapache
+entity.wypnt_bab:warthog.name=Jabalí
+entity.wypnt_bab:nautiling.name=Nautiling
+entity.wypnt_bab:goblin.name=Duende
+entity.wypnt_bab:dweller.name=Morador
+entity.wypnt_bab:lurker.name=Merodeador
+entity.wypnt_bab:spectre.name=Espectro
+entity.wypnt_bab:void_jelly.name=Medusa Vacua
+entity.wypnt_bab:voidcaller.name=Vacuohablante
+entity.wypnt_bab:sigiling.name=Sigilumen
+entity.wypnt_bab:puffling.name=Puffling
+entity.wypnt_bab:chimp.name=Chimpancé
+entity.wypnt_bab:hollowmen.name=Enderman corrupto
+entity.wypnt_bab:skeleman.name=Enderman esqueleto
+entity.wypnt_bab:voidstrider.name=Caminante del vacío
+entity.wypnt_bab:coconut.name=Coco
+entity.wypnt_bab:sigiling_shot.name=Sigilumen Shot
+entity.wypnt_bab:puffling_wind_charge.name=carga ventosa
+entity.wypnt_bab:tumbleweed.name=Tumbleweed
+entity.wypnt_bab:weather_detect.name=Weather Detect
+
+##################################################
+##  Huevos de Spawn
+##################################################
+
+item.spawn_egg.entity.wypnt_bab:firefly.name=Huevo generador de luciérnaga
+item.spawn_egg.entity.wypnt_bab:deer.name=Huevo generador de venado
+item.spawn_egg.entity.wypnt_bab:crocodile.name=Huevo generador de cocodrilo
+item.spawn_egg.entity.wypnt_bab:mummy.name=Huevo generador de momia
+item.spawn_egg.entity.wypnt_bab:grizzly_bear.name=Huevo generador de oso grizzly
+item.spawn_egg.entity.wypnt_bab:raccoon.name=Huevo generador de mapache
+item.spawn_egg.entity.wypnt_bab:warthog.name=Huevo generador de jabalí
+item.spawn_egg.entity.wypnt_bab:nautiling.name=Huevo generador de nautiling
+item.spawn_egg.entity.wypnt_bab:goblin.name=Huevo generador de duende
+item.spawn_egg.entity.wypnt_bab:dweller.name=Huevo generador de morador
+item.spawn_egg.entity.wypnt_bab:lurker.name=Huevo generador de merodeador
+item.spawn_egg.entity.wypnt_bab:spectre.name=Huevo generador de espectro
+item.spawn_egg.entity.wypnt_bab:void_jelly.name=Huevo generador de medusa vacua
+item.spawn_egg.entity.wypnt_bab:voidcaller.name=Huevo generador de vacuohablante
+item.spawn_egg.entity.wypnt_bab:sigiling.name=Huevo generador de sigilumen
+item.spawn_egg.entity.wypnt_bab:puffling.name=Huevo generador de puffling
+item.spawn_egg.entity.wypnt_bab:chimp.name=Huevo generador de chimpancé
+item.spawn_egg.entity.wypnt_bab:hollowmen.name=Huevo generador de enderman corrupto
+item.spawn_egg.entity.wypnt_bab:skeleman.name=Huevo generador de enderman esqueleto
+item.spawn_egg.entity.wypnt_bab:voidstrider.name=Huevo generador de caminante del vacío
+
+##################################################
+##  Objetos
+##################################################
+
+item.wypnt_bab:banana.name=Plátano
+item.wypnt_bab:banana_seeds.name=Semillas de plátano
+item.wypnt_bab:aloe_vera_leaf.name=Hoja de sábila
+item.wypnt_bab:deer_hide.name=Piel de venado
+item.wypnt_bab:deer_antler.name=Astas de venado
+item.wypnt_bab:venison.name=Carne de venado cruda
+item.wypnt_bab:cooked_venison.name=Venado cocinado
+item.wypnt_bab:crocodile_meat.name=Carne de cocodrilo cruda
+item.wypnt_bab:cooked_crocodile_meat.name=Carne de cocodrilo cocinada
+item.wypnt_bab:coconut_open.name=Coco partido
+item.wypnt_bab:didymoch_item.name=Helecho rojo amazónico
+item.wypnt_bab:grizzly_pelt.name=Piel de oso grizzly
+item.wypnt_bab:sulfur.name=Sulfuro
+item.wypnt_bab:mullein_item.name=Gordolobo
+item.wypnt_bab:lurker_foot.name=Pie de merodeador
+item.wypnt_bab:dweller_flesh.name=Carne de morador
+item.wypnt_bab:raw_tungsten.name=Tungsteno crudo
+item.wypnt_bab:tungsten_ingot.name=Lingote de tungsteno
+item.wypnt_bab:enderium_ingot.name=Lingote de enderium
+item.wypnt_bab:void_shard.name=Fragmento del vacío
+item.wypnt_bab:barley_bundle.name=Cebada
+item.wypnt_bab:barley_seeds.name=Semillas de cebada
+item.wypnt_bab:striding.name=Costillas de caminante crudas
+item.wypnt_bab:cooked_striding.name=Costillas de caminante cocinadas
+item.wypnt_bab:nautiling_bucket.name=Cubeta de nautiling
+
+item.wypnt_bab:info_book.name=§3Biomes & Beyond§r\n§7Guía Rápida§r
+
+item.wypnt_bab:personal_settings.name=§3Biomes & Beyond§r\n§7Configuración Personal§r
+item.wypnt_bab:global_settings.name=§3Biomes & Beyond§r\n§7Configuración Global§r
+
+item.wypnt_bab:swiftrunner_boots.name=Botas de velocista
+item.wypnt_bab:tungsten_helmet.name=Casco de tungsteno
+item.wypnt_bab:tungsten_chestplate.name=Coraza de tungsteno
+item.wypnt_bab:tungsten_leggings.name=Mallas de tungsteno
+item.wypnt_bab:tungsten_boots.name=Botas de tungsteno
+item.wypnt_bab:enderium_helmet.name=Casco de enderium
+item.wypnt_bab:enderium_chestplate.name=Coraza de enderium
+item.wypnt_bab:enderium_leggings.name=Mallas de enderium
+item.wypnt_bab:enderium_boots.name=Botas de enderium
+
+item.wypnt_bab:khopesh.name=Khopesh
+item.wypnt_bab:tungsten_sword.name=Espada de tungsteno
+item.wypnt_bab:enderium_sword=Espada de enderium
+
+item.wypnt_bab:tungsten_pickaxe.name=Pico de tungsteno
+item.wypnt_bab:tungsten_axe.name=Acha de tungsteno
+item.wypnt_bab:tungsten_shovel.name=Pala de tungsteno
+item.wypnt_bab:tungsten_hoe.name=Azadón de tungsteno
+item.wypnt_bab:enderium_pickaxe=Pico de enderium
+item.wypnt_bab:enderium_axe.name=Acha de enderium
+item.wypnt_bab:enderium_shovel.name=Pala de enderium
+item.wypnt_bab:enderium_hoe.name=Azadón de enderium
+
+
+wypnt_bab:itemGroup.name.leaf_piles=Pilas de hojas
+wypnt_bab:itemGroup.name.strata=Estrato
+wypnt_bab:itemGroup.name.hollow_log=Troncos huecos
+
+
+action.interact.catch=Enfrascar!
+action.hint.exit.wypnt_bab:warthog=Presiona Acechar para desmontar
+action.interact.ride.wypnt_bab:voidstrider=Ride
+action.hint.exit.wypnt_bab:voidstrider=Presiona Acechar para desmontar
+
+welcome.wypnt_bab:update.text=[§3Biomes & Beyond§r] actualizado de §7v%s§r a §7v%s§r!
+welcome.wypnt_bab:downgrade_warn.text=[§3Biomes & Beyond§r] fue desactualizado de §7v%s§r a §7v%s§r! por favor actualiza a la versión más reciente. Usar esta versión después de haber usado una versión posterior podría causar problemas en este mundo.
+welcome.wypnt_bab:first_join.text=§e¡Bienvenido a §bBiomes §7& §bBeyond!§r\n§7Por ahora el complemento continúa en desarrollo, así que algunas características podrían no funcionar como se espera y se podrían encontrar algunos errores. Este complemento podría recibir actualizaciones frecuentemente durante su desarrollo. ¡Gracias por jugar y que te diviertas!
+
+
+toast.biomes_beyond.grizzly_bear.name=§eNecesidades Oseznas§r\n¡Derrotaste a un oso grizzly!
+toast.biomes_beyond.lurker.name=§eEcos de la Humanidad§r\nDerrotaste a un merodeador..
+toast.biomes_beyond.croc.name=§eCroc-Cuisine§r\nCocinaste y comiste un cocodrilo.
+toast.biomes_beyond.leather.name=§ePeor es nada..§r\nUna armadura completa de cuero... Hurra...
+toast.biomes_beyond.jar.name=§e¡Hola, bebé de luz!§r\nConseguiste una luciérnaga en un frasco.
+toast.biomes_beyond.tungsten.name=§eInframundita de los Tontos§r\nObtuviste un lingote de tungsteno.
+toast.biomes_beyond.bola.name=Bolas
+
+
+ui.biomes_beyond.gsetings.title.name=Biomes & Beyond Configuración Global
+ui.biomes_beyond.gsetings.blizard_sandstorm.name=Tormentas de arena y ventiscas
+ui.biomes_beyond.gsetings.storm.on=§aEfectos de tormentas habilitados.
+ui.biomes_beyond.gsetings.storm.off=§cEfectos de tormentas deshabilitados.
+
+ui.biomes_beyond.psetings.title.name=Biomes & Beyond Configuración Personal
+ui.biomes_beyond.psetings.particle.name=Partículas Ambientales §7§o(solo personalizado)§r
+ui.biomes_beyond.psetings.end_fog.name=Niebla del bioma de End
+
+##################################################
+##  Wiki Libro
+##################################################
+
+ui.biomes_beyond.wiki.title=B&B Guía Rápida (Incompleta)
+ui.biomes_beyond.wiki.mobs.name=Criaturas
+ui.biomes_beyond.wiki.items.name=Objetos
+ui.biomes_beyond.wiki.tools.name=Herramietas y Equipo
+ui.biomes_beyond.wiki.biomes.name=Biomas
+ui.biomes_beyond.wiki.structures.name=Estructuras
+ui.biomes_beyond.wiki.ores.name=Minerales
+ui.biomes_beyond.wiki.more.name=Más
+ui.biomes_beyond.wiki.other_categ.name=Otras Categorías
+ui.biomes_beyond.wiki.close.name=Cerrar
+ui.biomes_beyond.wiki.back.name=Atrás
+
+##################################################
+##  Wiki Biomas
+##################################################
+
+ui.biomes_beyond.wiki.back_biomes.name=Regresar a Biomas
+ui.biomes_beyond.wiki.aspen_forest.name=Bosque de Álamos
+ui.biomes_beyond.wiki.lavender_fields.name=Páramo de Lavandas
+ui.biomes_beyond.wiki.autumn_woods.name=Arboleda Otoñal
+ui.biomes_beyond.wiki.badlands.name=Páramos
+ui.biomes_beyond.wiki.prairie.name=Pradera
+ui.biomes_beyond.wiki.savanna.name=Sabana
+ui.biomes_beyond.wiki.deciduous_forest.name=Bosque Caducifolio
+ui.biomes_beyond.wiki.pendula_birch_forest.name=Bosque de Abedules Llorones
+ui.biomes_beyond.wiki.boggy_swamplands.name=Pantanos Fangosos
+ui.biomes_beyond.wiki.pale_garden.name=Jardín Pálido
+ui.biomes_beyond.wiki.forsaken_depths.name=Oscuridad Profunda
+ui.biomes_beyond.wiki.chorus_forest.name=Bosque Coral
+ui.biomes_beyond.wiki.velvium_expanses.name=Llanuras Aterciopeladas
+ui.biomes_beyond.wiki.depraved_wetlands.name=Humedales Térvidos
+
+ui.biomes_beyond.wiki.aspen_forest.description=Un bosque lleno de altos abedules amarillos, flores sivestres y arbustos.\n\n\n
+ui.biomes_beyond.wiki.lavender_fields.description=Un bioma llano y sereno lleno de jacarandas moradas, glicinas y flores de lavanda.\n\n\n
+ui.biomes_beyond.wiki.autumn_woods.description=Bioma siempre otoñal lleno de maples rojos y amarillos, robles naranjas y calabazas.\n\n\n
+ui.biomes_beyond.wiki.badlands.description=Bioma cálido y seco con formaciones rocosas rojas, cactus, vegetación dispersa y robles secos salpicando el paisaje.\n\n\n
+ui.biomes_beyond.wiki.prairie.description=Bioma mayoritariamente llano con pasto alto, tréboles y algunos robles.\n\n\n
+ui.biomes_beyond.wiki.savanna.description=Bioma cálido y seco con estrato, pasto alto, acacias y baobabs.\n\n\n
+ui.biomes_beyond.wiki.deciduous_forest.description=Un bosque espeso lleno de robles de varios tamaños, flores y demás vegetación.\n\n\n
+ui.biomes_beyond.wiki.pendula_birch_forest.description=Bosque lleno de altos abedules blancos, abejas, pétalos de margarita y arbustos.\n\n\n
+ui.biomes_beyond.wiki.boggy_swamplands.description=Bioma húmedo y fangoso de aguas oscuras, árboles altos y varias plantas.\n\n\n
+ui.biomes_beyond.wiki.pale_garden.description=El bosque pálido ha sido ligeramente transformado con árboles más altos, más arbustos y una densa niebla pálida.\n\n\n
+ui.biomes_beyond.wiki.forsaken_depths.description=Un oscuro y misterioso bioma con fósiles, robles olvidados, líquenes colgantes, alfombras de liquen, y flores murmurantes.\n\n\n
+ui.biomes_beyond.wiki.chorus_forest.description=Un bioma del End lleno de árboles corales, capullos del vacío, arbustos de capullos del vacío, y una única, viváz, pero solitaria atmósfera.\n\n\n
+ui.biomes_beyond.wiki.velvium_expanses.description=Un bioma vibrante y colorido de árboles aterciopelados, enredaderas aterciopeladas y peñascos de roca del End adoquinada.\n\n\n
+ui.biomes_beyond.wiki.depraved_wetlands.description=Bioma húmedo y pantanoso de árboles-hongo gigantes y vegetación térvida.\n\n\n
+
+##################################################
+##  Wiki Mobs
+##################################################
+
+ui.biomes_beyond.wiki.back_mobs.name=Regresar a Criaturas
+ui.biomes_beyond.wiki.deer.name=Venado
+ui.biomes_beyond.wiki.grizzly_bear.name=Oso Grizzly
+ui.biomes_beyond.wiki.raccoon.name=Mapache
+ui.biomes_beyond.wiki.crocodile.name=Cocodrilo
+ui.biomes_beyond.wiki.mummy.name=Momia
+ui.biomes_beyond.wiki.warthog.name=Javalí
+ui.biomes_beyond.wiki.nautiling.name=Nautiling
+ui.biomes_beyond.wiki.dweller.name=Morador
+ui.biomes_beyond.wiki.lurker.name=Merodeador
+ui.biomes_beyond.wiki.spectre.name=Espectro
+ui.biomes_beyond.wiki.voidcaller.name=Vacuohablante
+ui.biomes_beyond.wiki.sigiling.name=Sigilumen
+ui.biomes_beyond.wiki.hollowed.name=Enderman Corrupto
+ui.biomes_beyond.wiki.puffling.name=Puffling
+ui.biomes_beyond.wiki.chimp.name=Cimpancé
+
+ui.biomes_beyond.wiki.deer.description=Criaturas pasivas que evitarán jugadores, aldeanos y saqueadores. Soltarán su carne, astas y piel. Hay una rara posibilidad de que suelten un trofeo al matarlos.\n\nPuedes criarlos usando zanahorias. También podrías encontrar un raro venado blanco y tener una rarísima oportunidad de obtener un SUPER raro trofeo de venado blanco… uff. ¡Muchas rarezas!\n\n\n
+ui.biomes_beyond.wiki.grizzly_bear.description=Criatura neutral que atacará a los jugadores que lo provoquen o se acerquen demasiado. Pueden ser criados usando un panal, pero es peligroso.\n\nSueltan piel de oso grizzly al matarlos.\n\n\n
+ui.biomes_beyond.wiki.raccoon.description=Criaturas adorables y neutrales que atacarán a los jugadores si son provocados. Evitan a los jugadores, son nocturnos y duermen durante el día al igual que los zorros.\n\nComen cultivos y recogen objetos si son comida apetitosa. Las calabazas talladas los asustan así que esa es una buena forma de evitar que se coman tus cultivos.\n\nPara domarlos, asecha y dales pan.\n\n\n
+ui.biomes_beyond.wiki.crocodile.description=Se encuentran principalmente en el agua donde son más rápidos y atacarán a la mayoría de las criaturas.\n\nSi los matas soltarán su carne. Pueden ser criados pero es peligroso.\n\nAlgunos pueden crecer más de lo normal. ¡Ten cuidado si llegas a encontrar un cocodrilo gigante!\n\n\n
+ui.biomes_beyond.wiki.mummy.description=Un cadáver antiquísimo de civilizaciones pasadas cubierto en tela inmunda.\n\nSuelta papel, oro y carne podrida al morir.\n\n\n
+ui.biomes_beyond.wiki.warthog.description=Los jabalíes con criaturas pasivas de la sabana que atacan jugadores únicamente si son provocados.\n\nPuedes ensillar y montar un jabalí usando una caña con zanahoria al igual que un cerdo. Ocasionalmente los verás escarbar en búsqueda de comida y a veces desenterrar otros objetos en el proceso.\n\nCuando encuentran comida, se la comen. Estas criaturas tienen cierto parecido con los hoglins y se transformarán en uno si permanecen en el inframundo por demasiado tiempo.\n\n\n
+ui.biomes_beyond.wiki.nautiling.description=Raramente encontrados en aguas oceánicas profundas y cálidas. Conocidos por sus hermosas conchas.\n\nPuedes capturarlos usando una cubeta con agua.
+ui.biomes_beyond.wiki.dweller.description=Los moradores son misteriosos monstruos habitantes de las cuevas de las profundidades.\n\nHabitan las cuevas profundas, apareciendo entre la capa -63 y la 8. Aunque su vista es deficiente, lo compensan con un agudo sentido del olfato y un oído muy desarrollado. De forma periódica buscan jugadores en un radio de 24 bloques y los atacan desde 6 bloques de distancia.\n\nSi el jugador corre fuera de este rango sin ser atacado. El morador lo perderá de vista temporalmente. Los moradores aborrecen fuego, hacer antorchas, postes de antorcha, fogatas y linternas es un repelente efectivo.\n\nPueden destruir antorchas pero no pueden destruir postes de antorcha, fogatas ni linternas. Su origen es un misterio pero se cree que alguna vez fueron aventureros perdidos hace mucho tiempo, sin encontrar el camino de retorno fuera de las intrincadas cuevas. Consumidos por el tiempo y la oscuridad, mutaron y perdieron toda noción de lo que alguna vez fueron.\n\n\n
+ui.biomes_beyond.wiki.lurker.description=Los merodeadores con criaturas hostiles recientemente añadidas de las profundidades.\n\nSe les conoce por su chillido de caza, el cual puede ser escuchado desde lejos. Generalmente evitan el conflicto pero son hostiles para quien se acerque demasiado. Cuando son atacados causan ceguera y huyen, seguido de chillar.\n\nSimilar a los moradores, la oscuridad ha ennegrecido su vista, así que dependen de su oído y olfato. Se cree que lloran porque conservan tenues recuerdos de su antiguo ser, y les desagrada la presencia de jugadores cerca.\n\n\n
+ui.biomes_beyond.wiki.spectre.description=Los espectros son criaturas hostiles de las profundidades.\n\nEstán rodeados de una densa niebla negra y tienen brillantes ojos blanquecinos que resplandecen en la oscuridad. Desaparecerán y a veces incluso atacarán si se les mira o si un jugador se acerca demasiado.\n\nSe cree que estos seres fantasmales son almas perdidas, corruptas y atrapadas en las profundidades del mundo.\n\n\n
+ui.biomes_beyond.wiki.voidcaller.description=Los vacuohablantes son variantes de los enderman que observan a los jugadores de lejos, esperando a que un jugador mire al sello brillante en su pecho, o a sus ojos.\n\nUna vez que un jugador ha enfurecido a un vacuohablante éste comenzará a un alarido que provocará el ataque de otra gente del End a la redonda.\n\n\n
+ui.biomes_beyond.wiki.sigiling.description=Los sigilumen son otra variante de los enderman, puede disparar proyectiles de su boca cuando está enfurecido.\n\nHarán todo lo posible para evitar los ataques de los jugadores permaneciendo a la ofensiva. Son significativamente más lentos que otra gente del End pero lo compensan con su gran daño y una gran resistencia.\n\n\n
+ui.biomes_beyond.wiki.hollowed.description=Estos seres corruptos se encuentran en los humedales térvidos y se vuelven hostiles si un jugador se acerca demasiado sin importar si usa una calabaza tallada. Son notoriamente más débiles y lentos que los enderman comunes.\n\nSi lo matan se partirá en dos y cada duplicado tendrá la mitad de su resistencia original.\n\nSu capacidad de teletransportación no es la más fantástica, sólo pueden teletransportarse 7 bloques horizontalmente.\n\n\n
+ui.biomes_beyond.wiki.puffling.description=Los pufflings son criaturas pasivas nativas de las llanuras aterciopeladas.\n\nTienden a evitar a los jugadores a menos que se acerquen sigilosamente. Para criar pufflings debes alimentarlos con cargas ventosas mientras acechas. Una vez que un puffling bebé nace este será amistoso con el jugador y puede posarse sobre sus hombros, concediendo ocasionalmente ráfagas de caída lenta.\n\nSin embargo, si son provocados, los pufflings se harán hostiles y atacarán escupiendo cargas ventosas a sus objetivos. Los pufflings atacarán esqueletos y zombies tan sólo verlos.\n\n\n
+ui.biomes_beyond.wiki.chimp.description=Los chimpancés se encuentran en las selvas y son animales neutrales que sólo atacarán si son provocados. Recogen y comen comida e incluso colectan la mayoría de los objetos. Si lo que recogen son armas o armaduras las equiparán e utilizarán, así que ten cuidado de no perder tu equipamiento cerca de ellos ya que no te lo devolverán voluntariamente. Puedes alimentarlos con manzanas para su crianza.\n\n\n
+
+##################################################
+##  Wiki objetos
+##################################################
+
+ui.biomes_beyond.wiki.back_items.name=Regresara objetos
+ui.biomes_beyond.wiki.deer_antler.name=Astas de Venado
+ui.biomes_beyond.wiki.deer_hide.name=Piel de Venado
+ui.biomes_beyond.wiki.dweller_flesh.name=Carne de Morador
+ui.biomes_beyond.wiki.aloe_vera.name=Hoja de Sábila
+ui.biomes_beyond.wiki.coconut.name=Coco
+ui.biomes_beyond.wiki.banana.name=Plátano
+ui.biomes_beyond.wiki.banana_seeds.name=Semillas de Plátano
+ui.biomes_beyond.wiki.grizzly_pelt.name=Piel de Oso Grizzly
+ui.biomes_beyond.wiki.lurker_foot.name=Pie de Merodeador    
+ui.biomes_beyond.wiki.swiftrunner_boots.name=Botas de Velocista
+ui.biomes_beyond.wiki.sulfur.name=Sulfuro
+ui.biomes_beyond.wiki.raw_tungsten.name=Tungsteno Crudo
+ui.biomes_beyond.wiki.tungsten_ingot.name=Lingote de Tungsteno
+
+ui.biomes_beyond.wiki.deer_antler.description=Soltado por un venado. (Será comerciable en una actualización futura.)
+ui.biomes_beyond.wiki.deer_hide.description=Soltado por un venado. (Será comerciable en una actualización futura.)
+ui.biomes_beyond.wiki.dweller_flesh.description=Soltado por un morador, se puede usar en un horno para conseguir piel.
+ui.biomes_beyond.wiki.aloe_vera.description=Se consigue al cortar una planta de sábila. Cómetela, es saludable.
+ui.biomes_beyond.wiki.coconut.description=Se consigue al minar cocos de las palmeras. Se puede partir en dos en cualquier crafteador para comértelo, o puede ser lanzado.\n\nLos cocos se pueden usar para crear brotes de palmeras de coco que pueden ser plantadas para cultivar más palmeras de coco.
+ui.biomes_beyond.wiki.banana.description=Frutos que crecen en bloques de los Plataneros, los cuales se encuentran rara vez en los biomas de jungla. ¡Muy nutritivos!
+ui.biomes_beyond.wiki.banana_seeds.description=A veces caen de los Bloques de Plátanos, úsalos para crear Brotes de Platanero que puedes plantar para crecer más Plataneros.
+ui.biomes_beyond.wiki.grizzly_pelt.description=Conseguida de un oso grizzly. (Será comerciable en una actualización futura.)
+ui.biomes_beyond.wiki.lurker_foot.description=Rara vez soltada por merodeadores, úsalo para crear las botas de velocista.
+ui.biomes_beyond.wiki.swiftrunner_boots.description=Equipo especial creado con pies de merodeador y carne de morador. ¡Úsalo para obtener velocidad!
+ui.biomes_beyond.wiki.sulfur.description=Soltado de un mineral de sulfuro. Puede ser usado para crear pólvora, como forma de combustible o para crear una bolsa de sulfuro.
+ui.biomes_beyond.wiki.raw_tungsten.description=Soltado de un mineral de tungsteno. Se puede derretir en un horno para crear lingotes de tungsteno.
+ui.biomes_beyond.wiki.tungsten_ingot.description=Obtenido de derretir tungsteno crudo en un horno.
+
+##################################################  
+##  Wiki herramientas
+##################################################
+
+ui.biomes_beyond.wiki.back_tools.name=Regresar a Herramientas y Equipamiento
+ui.biomes_beyond.wiki.khopesh.name=Khopesh
+ui.biomes_beyond.wiki.tungsten.name=Herramientas de Tungsteno y Equipamiento
+
+ui.biomes_beyond.wiki.khopesh.description=Una antigua espada olvidada desde una civilización pasada.\n\n-Causa 6 de daño\n-Tiene una durabilidad de 350\n-Tiene una posibilidad de infringir daño instantáneo\n-Soltado rara vez por una momia\n\n
+ui.biomes_beyond.wiki.tungsten.description=-Ligeramente más duradera que las herramientas de diamante ( 1758 )\n-Ligeramente menos encantable que las herramientas de diamante (9)\n-Velocidad de minado ligeramente más lenta que las herramientas de diamante\n-Misma cantidad de daño de ataque que las herramientas de diamante\n\n
+
+##################################################
+##  Wiki Estructuras
+##################################################
+
+ui.biomes_beyond.wiki.back_structures.name=Regresar a Estructuras
+ui.biomes_beyond.wiki.trial_tower.name=Torre de Desafíos
+ui.biomes_beyond.wiki.goblin_hut.name=Cabaña de Duende
+ui.biomes_beyond.wiki.ruined_altars.name=Altares en Ruinas
+
+ui.biomes_beyond.wiki.trial_tower.description=Una alta torre que contiene varios generadores para pelear y obtener el botín de la cima.\n\nSe genera en: Bosques, bosques de abedules llorones, bosques oscuros encantados, praderas, desiertos, mesetas, bosques caducifolios\n\n\n
+ui.biomes_beyond.wiki.goblin_hut.description=Las casas de los duendes, se generan en pequeñas comunas.\n\nPuedes encontralas dentro de los bosques oscuros encantados.\n\n\n
+ui.biomes_beyond.wiki.ruined_altars.description=Altares antiguos abandonados que servían propósitos desconocidos. Ahora dilapidados y olvidados por el tiempo.\n\nPuedes encontrarlos en: Bosques, taigas y bosques oscuros encantados.\n\n\n
+
+##################################################
+##  Wiki Minerales
+##################################################
+
+ui.biomes_beyond.wiki.back_ores.name=Regresar a Minerales
+ui.biomes_beyond.wiki.sulfur_ore.name=Mineral de Sulfuro
+ui.biomes_beyond.wiki.tungsten_ore.name=Mineral de Tungsteno
+
+ui.biomes_beyond.wiki.sulfur_ore.description=Mineral encontrado comúnmente en el mundo exterior. Puede ser derretido para crear sulfuro, el cual se puede usar para crear pólvora o como fuente de combustible.
+ui.biomes_beyond.wiki.tungsten_ore.description=Mineral raro encontrado en cualquier sitio del mundo exterior y en el End con una distribución triangular. Dentro de los niveles del 16 al -64 en el mundo exterior y en los niveles inferiores de las islas del End.\n\nDerretirlo produce lingotes de tungsteno que pueden ser usados para crear herramientas y armaduras muy durables.
+
+##################################################
+##  Wiki Créditos
+##################################################
+
+ui.biomes_beyond.wiki.credits.name=Créditos
+
+ui.biomes_beyond.wiki.credits.description=Creado y Desarrollado por iKorbon.\nTraducción al español por Arístides Carballo\n\n\nCon agradecimiento a:\nCooperCan\ngeertop\nPoggy\nKiaoga\nY a ti, %s. ¡Gracias por jugar, y diviertete!\n\n

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.fallingleaves": {
+			"loop": true,
+			"animation_length": 1,
+			"particle_effects": {
+				"0.0": [
+					{ "effect": "wypnt_bab:flowing_water_detect" },
+					{ "effect": "wypnt_bab:fir_detect" },
+					{ "effect": "wypnt_bab:brittlebright_detect" },
+					{ "effect": "wypnt_bab:autumn_detect" },
+					{ "effect": "wypnt_bab:aspen_detect" },
+					{ "effect": "wypnt_bab:forsaken_oak_detect" },
+					{ "effect": "wypnt_bab:jacaranda_detect" },
+					{ "effect": "wypnt_bab:jacaranda_lantern_detect" },
+					{ "effect": "wypnt_bab:lichen_detect" },
+					{ "effect": "wypnt_bab:maple_detect" }
+				]
+			}
+		}
+	}
+}

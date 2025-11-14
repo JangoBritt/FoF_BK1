@@ -1,0 +1,51 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:duckweed"
+		},
+		"components": {
+			"minecraft:map_color": "#B87D04",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:duckweed",
+					"render_method": "alpha_test_single_sided"
+				}
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/duckweed.json",
+			"minecraft:geometry": "geometry.wypnt_bab.flat_block",
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					1,
+					16
+				]
+			},
+			"minecraft:collision_box": false,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:water"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:light_dampening": 0
+		}
+	}
+}

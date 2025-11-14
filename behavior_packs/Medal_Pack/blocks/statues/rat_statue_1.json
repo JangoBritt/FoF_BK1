@@ -30,7 +30,7 @@
 			"minecraft:geometry": "geometry.rat_statue",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "rat_statue_1",
+					"texture": "fables_misc:rat_statue_1",
 					"render_method": "alpha_test",
 					"ambient_occlusion": false,
 					"face_dimming": false

@@ -1,0 +1,307 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "wypnt_bab:spectre",
+			"spawn_category": "monster",
+			"is_spawnable": true,
+			"is_summonable": true
+		},
+		"component_groups": {
+			"wypnt_bab:spectre_despawn": {
+				"minecraft:instant_despawn": {}
+			},
+			"wypnt_bab:spectre_sink": {
+				"minecraft:behavior.emerge": {
+					"duration": 0.64,
+					"on_done": {
+						"target": "self",
+						"event": "wypnt_bab:spectre_despawn"
+					}
+				}
+			},
+			"wypnt_bab:spectre_hostile": {
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 2,
+					"must_see": false,
+					"reselect_targets": true,
+					"within_radius": 16,
+					"entity_types": [
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "null"
+									}
+								]
+							},
+							"max_dist": 16
+						}
+					]
+				},
+				"minecraft:behavior.melee_box_attack": {
+					"priority": 3,
+					"on_attack": {
+						"event": "wypnt_bab:spectre_lights_out_attack"
+					},
+					"melee_fov": 360,
+					"speed_multiplier": 2.8
+				},
+				"minecraft:entity_sensor": {
+					"find_players_only": true,
+					"subsensors": [
+                    {
+					"event": "wypnt_bab:spectre_jump_to_effect",
+					"minimum_count": 1,
+					"range": [1, 1]
+					}
+					]
+				}
+			},
+			"wypnt_bab:player_sensor": {
+				"minecraft:entity_sensor": {
+					"find_players_only": true,
+					"subsensors": [
+                    {
+					"event": "wypnt_bab:spectre_sink",
+					"minimum_count": 1,
+					"range": [8, 8]
+					}
+					]
+				}
+			},
+			"wypnt_bab:player_sensor_hostile": {
+				"minecraft:entity_sensor": {
+					"find_players_only": true,
+					"subsensors": [
+                    {
+					"event": "wypnt_bab:spectre_sink",
+					"minimum_count": 1,
+					"range": [1, 1]
+					}
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"undead",
+					"monster",
+					"mob"
+				]
+			},
+			"minecraft:equip_item": {},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_walk": true,
+				"can_break_doors": true
+			},
+			"minecraft:annotation.break_door": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": true,
+				"breathes_water": true
+			},
+			"minecraft:attack": {
+				"damage": 3,
+				"effect_name": "instant_damage",
+				"effect_duration": 1
+			},
+			"minecraft:environment_sensor": {
+				"triggers": {
+					"filters": {
+						"test": "is_underwater",
+						"operator": "==",
+						"value": true
+					},
+					"event": "minecraft:start_transforming"
+				}
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 8,
+				"look_distance": 128,
+				"probability": 100
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 9
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:movement": {
+				"value": 0.23
+			},
+			"minecraft:looked_at": {
+				"search_radius": 128,
+				"set_target": "never",
+				"find_players_only": true,
+				"looked_at_event": {
+					"event": "wypnt_bab:spectre_looked_at",
+					"target": "self"
+				}
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+				{
+						"cause": "all",
+						"deals_damage": "no"
+						}
+				]
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 20,
+				"speed_multiplier": 0.68
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					60,
+					120
+				],
+				"time_down_event": {
+					"event": "wypnt_bab:spectre_despawn",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"wypnt_bab:spectre_despawn": {
+				"add": {
+					"component_groups": [
+						"wypnt_bab:spectre_despawn"
+					]
+				}
+			},
+			"wypnt_bab:spectre_sink": {
+				"remove": {
+					"component_groups": [
+						"wypnt_bab:spectre_hostile"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"wypnt_bab:spectre_sink"
+					]
+				}
+			},
+			"wypnt_bab:spectre_hostile": {
+				"add": {
+					"component_groups": [
+						"wypnt_bab:spectre_hostile"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"wypnt_bab:player_sensor"
+					]
+				},
+				"queue_command": {
+					"command": "tp @s @p"
+				}
+			},
+			"wypnt_bab:spectre_looked_at": {
+				"randomize": [
+					{
+						"weight": 3,
+						"trigger": "wypnt_bab:spectre_sink"
+					},
+					{
+						"weight": 1,
+						"trigger": "wypnt_bab:spectre_hostile"
+					}
+				]
+			},
+			"wypnt_bab:spectre_jump_to_effect": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "effect @a[r=3] slowness 15 3 true"
+						}
+					},
+					{
+						"queue_command": {
+							"command": "effect @a[r=3] weakness 35 0 true"
+						}
+					},
+					{
+						"queue_command": {
+							"command": "effect @a[r=3] instant_damage 1 0 true"
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"wypnt_bab:player_sensor_hostile"
+							]
+						}
+					}
+				]
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"wypnt_bab:player_sensor"
+					]
+				}
+			},
+			"wypnt_bab:spectre_lights_out_attack": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "playsound mob.spectre.attack @a[r=8] ~~~ 0.63"
+						}
+					},
+					{
+						"queue_command": {
+							"command": "fill ~-12 ~-12 ~-12 ~12 ~12 ~12 air replace torch"
+						}
+					},
+					{
+						"trigger": "wypnt_bab:spectre_sink"
+					}
+				]
+			}
+		}
+	}
+}

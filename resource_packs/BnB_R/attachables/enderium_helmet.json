@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "wypnt_bab:enderium_helmet",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/coreblockstudios/biomesandbeyond/entity/attachable/enderium_helmet",
+				"enchanted": "textures/misc/enchanted_actor_glint"
+			},
+			"geometry": {
+				"default": "geometry.wypnt_bab.enderium_helmet"
+			},
+			"scripts": {
+				"parent_setup": "variable.helmet_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

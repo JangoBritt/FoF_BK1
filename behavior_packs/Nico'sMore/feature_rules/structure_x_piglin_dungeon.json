@@ -2,8 +2,8 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "nicothekid:structure_x_piglin_dungeon",
-      "places_feature": "nicothekid:nmd/structure_x_piglin_dungeon_x_04_x_sequence"
+      "identifier": "ntk:structure_x_piglin_dungeon",
+      "places_feature": "ntk:nmd/structure_x_piglin_dungeon_x_04_x_sequence"
     },
     "conditions": {
       "placement_pass": "before_underground_pass",

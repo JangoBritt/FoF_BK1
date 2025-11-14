@@ -1,0 +1,69 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:enderium_shovel",
+			"menu_category": {
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.shovel"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:mining_speed": 9,
+			"minecraft:damage": 5,
+			"minecraft:fire_resistant": {},
+			"minecraft:durability": {
+				"max_durability": 2125,
+				"damage_chance": {
+					"min": 10,
+					"max": 50
+				}
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('minecraft:is_shovel_item_destructible')"
+						},
+						"speed": 9
+					}
+				]
+			},
+			"minecraft:display_name": {
+				"value": "item.wypnt_bab:enderium_shovel.name"
+			},
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "shovel"
+			},
+			"minecraft:icon": "wypnt_bab:enderium_shovel",
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"wypnt_bab:enderium_ingot"
+						],
+						"repair_amount": "q.max_durability * 0.25"
+					},
+					{
+						"items": [
+							"wypnt_bab:enderium_shovel"
+						],
+						"repair_amount": "c.other -> q.remaining_durability + 0.12 * c.other -> q.max_durability"
+					}
+				]
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_shovel",
+				    "minecraft:netherite_tier",
+				    "minecraft:is_tool",
+					"wypnt_bab:enderium_tier"
+				]
+			}
+		}
+	}
+}

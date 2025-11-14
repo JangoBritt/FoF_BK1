@@ -27,5 +27,3 @@ jobs:
           sync: "delta"
           sync-delta-excludes: ".lftp_ignore"
           debug: true
-          mirror-preserve-permissions: false
-          mirror-set-permissions: false

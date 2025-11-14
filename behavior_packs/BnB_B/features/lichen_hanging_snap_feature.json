@@ -1,0 +1,12 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:snap_to_surface_feature": {
+		"description": {
+			"identifier": "wypnt_bab:lichen_hanging_snap_feature"
+		},
+		"feature_to_snap": "wypnt_bab:lichen_hanging_feature",
+		"vertical_search_range": 14,
+		"surface": "ceiling"
+	}
+}

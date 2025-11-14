@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ntk:shulkore",
+      "spawn_egg": {
+        "base_color": "#676797",
+        "overlay_color": "#545477"
+      },
+      "render_controllers": [
+        "controller.render.entity.ntk_shulkore"
+      ],
+      "geometry": {
+        "default": "geometry.entity.ntk_shulkore"
+      },
+      "materials": {
+        "default": "ntk_shulkore"
+      },
+      "textures": {
+        "variant_0_shulkore": "textures/entity/ntk_shulkore"
+      },
+      "particle_effects": {
+        "shulkore_particle": "ntk:shulkore_particle"
+      },
+      "animations": {
+        "controller_movement": "controller.animation.entity.ntk_shulkore.movement",
+        "look_at_target": "animation.entity.ntk_shulkore.look_at_target",
+        "open": "animation.entity.ntk_shulkore.open"
+      },
+      "scripts": {
+				"animate": [
+				  "controller_movement",
+				  "look_at_target"
+				]
+			}
+    }
+  }
+}

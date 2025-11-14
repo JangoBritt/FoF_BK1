@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wypnt_bab:jacaranda_stairs"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~ ",
+            "~~ ",
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "wypnt_bab:jacaranda_planks"
+            }
+        },
+        "result": [
+			{
+				"item": "wypnt_bab:jacaranda_stairs",
+				"count": 4
+			}
+		]
+    }
+}

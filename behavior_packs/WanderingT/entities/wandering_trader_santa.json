@@ -56,8 +56,8 @@
           {
             "min_wait_time": 0,
             "max_wait_time": 0,
-            "spawn_entity": "korbon:deer",
-            "spawn_event": "minecraft:spawn_adult",
+            "spawn_entity": "wypnt_bob:deer",
+            "spawn_event": "wypnt_bab:deer_with_antler",
             "single_use": true,
             "num_to_spawn": 2,
             "should_leash": true

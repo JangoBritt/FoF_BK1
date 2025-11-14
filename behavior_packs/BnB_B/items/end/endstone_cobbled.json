@@ -1,0 +1,29 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:cobbled_end_stone",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:tags": {
+        "tags": [
+          "minecraft:stone_crafting_materials",
+          "minecraft:stone_tool_materials"
+        ]
+      },
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:max_stack_size": 64,
+			"minecraft:display_name": {
+				"value": "tile.wypnt_bab:cobbled_end_stone.name"
+			},
+			"minecraft:block_placer": {
+				"block": "wypnt_bab:cobbled_end_stone",
+				"replace_block_item": true
+			}
+		}
+	}
+}

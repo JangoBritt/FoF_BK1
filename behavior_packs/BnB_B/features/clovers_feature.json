@@ -1,0 +1,26 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:clovers_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:clovers1_feature",
+				1
+			],
+			[
+				"wypnt_bab:clovers2_feature",
+				1
+			],
+			[
+				"wypnt_bab:clovers3_feature",
+				1
+			],
+			[
+				"wypnt_bab:clovers4_feature",
+				1
+			]
+		]
+	}
+}

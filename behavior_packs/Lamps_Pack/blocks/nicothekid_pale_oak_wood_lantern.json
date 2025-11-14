@@ -1,11 +1,11 @@
 {
-  "format_version": "1.21.50",
+  "format_version": "1.21.80",
   "minecraft:block": {
     "description": {
       "identifier": "nicothekid:pale_oak_wood_lantern",
       "menu_category": {
 				"category": "items",
-				"group": "itemGroup.name.candles"
+				"group": "nicothekid:itemGroup.name.wood_lanterns"
 			},
       "traits": {
         "minecraft:placement_position": {
@@ -16,7 +16,7 @@
     "components": {
       "minecraft:display_name": "%tile.nicothekid.pale_oak_wood_lantern.name",
       "minecraft:geometry": {
-        "identifier": "geometry.block.nicothekid_wooden_lantern",
+        "identifier": "geometry.block.nicothekid_wood_lantern",
         "bone_visibility": {
           "main": true,
           "side_extension": "query.block_state('minecraft:block_face') == 'north' || query.block_state('minecraft:block_face') == 'east' || query.block_state('minecraft:block_face') == 'south' || query.block_state('minecraft:block_face') == 'west'",
@@ -27,11 +27,52 @@
         "*": {
           "texture": "nicothekid_pale_oak_wood_lantern_down",
           "render_method": "blend",
+          "tint_method": "none",
           "ambient_occlusion": false,
-					"face_dimming": false
+					"face_dimming": false,
+					"isotropic": false
         }
       },
-      "minecraft:map_color": "#5a482c",
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.block.nicothekid_wood_lantern",
+          "bone_visibility": {
+            "main": true,
+            "side_extension": false,
+            "top_extension": false
+          }
+        },
+        "material_instances": {
+          "*": {
+            "texture": "nicothekid_pale_oak_wood_lantern_down",
+            "render_method": "blend",
+            "tint_method": "none",
+            "ambient_occlusion": false,
+            "face_dimming": false,
+            "isotropic": false
+          }
+        }
+      },
+      "minecraft:destruction_particles": {
+        "texture": "nicothekid_pale_oak_wood_lantern_down",
+        "tint_method": "none"
+      },
+      "minecraft:map_color": {
+        "tint_method": "none",
+        "color": "#5E5350"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "on_liquid_touches": "blocking",
+            "stops_liquid_flowing_out_from_direction": [
+              "up", "down", "north", "south", "east", "west"
+            ]
+          }
+        ]
+      },
       "minecraft:collision_box": {
         "origin": [ -6, 0, -6 ],
         "size": [ 12, 15, 12 ]
@@ -61,11 +102,11 @@
         "rotation": [ 0, 0, 0 ]
       },
       "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_pale_oak_wood_lantern.json",
-      "tag:pale_oak_wood_lantern": {},
-      "tag:custom_wood_lantern": {},
-      "tag:custom_lantern": {},
-      "tag:axe_diggable": {},
-      "tag:nicothekid_blocks": {},
+      "tag:nicothekid:pale_oak_wood_lantern": {},
+      "tag:nicothekid:custom_wood_lantern": {},
+      "tag:nicothekid:custom_lantern": {},
+      "tag:nicothekid:axe_diggable": {},
+      "tag:nicothekid:blocks": {},
       "tag:minecraft:is_axe_item_destructible": {},
       "tag:wood": {}
     },
@@ -77,8 +118,10 @@
             "*": {
               "texture": "nicothekid_pale_oak_wood_lantern_down",
               "render_method": "blend",
+              "tint_method": "none",
               "ambient_occlusion": false,
-              "face_dimming": false
+              "face_dimming": false,
+              "isotropic": false
             }
           },
           "minecraft:collision_box": {
@@ -101,8 +144,10 @@
             "*": {
               "texture": "nicothekid_pale_oak_wood_lantern_down",
               "render_method": "blend",
+              "tint_method": "none",
               "ambient_occlusion": false,
-              "face_dimming": false
+              "face_dimming": false,
+              "isotropic": false
             }
           },
           "minecraft:collision_box": {
@@ -125,8 +170,10 @@
             "*": {
               "texture": "nicothekid_pale_oak_wood_lantern_side",
               "render_method": "blend",
+              "tint_method": "none",
               "ambient_occlusion": false,
-              "face_dimming": false
+              "face_dimming": false,
+              "isotropic": false
             }
           },
           "minecraft:collision_box": {
@@ -149,8 +196,10 @@
             "*": {
               "texture": "nicothekid_pale_oak_wood_lantern_side",
               "render_method": "blend",
+              "tint_method": "none",
               "ambient_occlusion": false,
-              "face_dimming": false
+              "face_dimming": false,
+              "isotropic": false
             }
           },
           "minecraft:collision_box": {
@@ -173,8 +222,10 @@
             "*": {
               "texture": "nicothekid_pale_oak_wood_lantern_side",
               "render_method": "blend",
+              "tint_method": "none",
               "ambient_occlusion": false,
-              "face_dimming": false
+              "face_dimming": false,
+              "isotropic": false
             }
           },
           "minecraft:collision_box": {
@@ -197,8 +248,10 @@
             "*": {
               "texture": "nicothekid_pale_oak_wood_lantern_side",
               "render_method": "blend",
+              "tint_method": "none",
               "ambient_occlusion": false,
-              "face_dimming": false
+              "face_dimming": false,
+              "isotropic": false
             }
           },
           "minecraft:collision_box": {

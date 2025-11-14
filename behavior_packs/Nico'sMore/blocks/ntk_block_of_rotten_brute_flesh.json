@@ -1,0 +1,99 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "ntk:block_of_rotten_brute_flesh",
+      "menu_category": {
+				"category": "construction",
+        "group": "minecraft:construction"
+			}
+    },
+    "components": {
+      "minecraft:display_name": "%tile.ntk.block_of_rotten_brute_flesh.name",
+      "minecraft:geometry": {
+        "identifier": "geometry.block.ntk_unit_cube"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "ntk_block_of_rotten_brute_flesh",
+          "render_method": "opaque",
+          "tint_method": "none",
+          "ambient_occlusion": true,
+					"face_dimming": true,
+					"isotropic": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.block.ntk_unit_cube"
+        },
+        "material_instances": {
+          "*": {
+            "texture": "ntk_block_of_rotten_brute_flesh",
+            "render_method": "opaque",
+            "tint_method": "none",
+            "ambient_occlusion": true,
+            "face_dimming": true,
+            "isotropic": false
+          }
+        }
+      },
+      "minecraft:destruction_particles": {
+        "texture": "ntk_block_of_rotten_brute_flesh",
+        "tint_method": "none"
+      },
+      "minecraft:map_color": {
+        "tint_method": "none",
+        "color": "#877A3A"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": false,
+            "liquid_type": "water",
+            "on_liquid_touches": "blocking",
+            "stops_liquid_flowing_out_from_direction": [
+              "up", "down", "north", "south", "east", "west"
+            ]
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:selection_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:light_dampening": 15,
+      "minecraft:light_emission": 0,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 15.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.6
+      },
+      "minecraft:redstone_conductivity": {
+        "allows_wire_to_step_down": true,
+        "redstone_conductor": false
+      },
+      "minecraft:transformation": {
+        "rotation": [ 0, 0, 0 ]
+      },
+      "minecraft:loot": "loot_tables/nmd/blocks/ntk_block_of_rotten_brute_flesh.json",
+      "tag:ntk:block_of_rotten_brute_flesh": {},
+      "tag:ntk:custom_compacted_block": {},
+      "tag:ntk:shovel_diggable": {},
+      "tag:ntk:solid_block": {},
+      "tag:ntk:blocks": {},
+      "tag:minecraft:is_shovel_item_destructible": {},
+      "tag:dirt": {}
+    }
+  }
+}

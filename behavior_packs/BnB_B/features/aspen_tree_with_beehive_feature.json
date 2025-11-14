@@ -1,0 +1,13 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "wypnt_bab:aspen_tree_with_beehive_feature"
+		},
+		"early_out": "none",
+		"features": [
+			"wypnt_bab:aspen_tree_feature",
+			"wypnt_bab:beehive_search_feature"
+		]
+	}
+}

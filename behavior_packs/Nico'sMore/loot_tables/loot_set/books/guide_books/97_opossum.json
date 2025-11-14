@@ -22,11 +22,11 @@
               "author": "Forsaken Odyssey",
               "pages": [
                 "        §7Guide Book #97§r\n§lOpossum§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Neutral\n•§lMob type§r: Small mammal, Animal.\n•§lSpawns in§r: Forest, Flower Forest, Birch Forest, Dark Forest, Pale Garden, Taiga, Swamp, Cherry Grove,",
-                "Savanna surfaces.\n•§lHealth§r: 14 §o(Wild)§r | 28 §o(Tamed)§r\n•§lWalk speed§r: 0.23\n•§lBreathes in§r: Air\n•§lTempted by§r: Berries, Spider Eyes, Arthropod Flesh, Rotten Flesh.\n•§lHealed by§r: Berries, Spider Eyes, Arthropod Flesh,",
-                "Rotten Flesh.\n•§lBreeds with§r: Fermented Spider Eye, Raw Arthropod Flesh.\n•§lAging by§r: Berries, Spider Eyes, Arthropod Flesh, Rotten Flesh.\n•§lTamed by§r: Cooked Arthropod Flesh.\n•§lPossible drops§r: Rotten Flesh, XP Orbs.",
-                "•§lAvoids§r §o(Wild)§r: Cave Wolf, Deopard, Ocelot, Wolf.\n•§lAvoids§r §o(Tamed)§r: Monsters\n•§lAggressive toward§r: Crystalmite, Endermite, Nethermite, Silverfish.\n•Baby Opossum will search for a wild adult opossum to ride them.",
-                "•Opossum will play dead if their health reach lower than 8.\n•Wild Opossum can randomly sit.\n•Tamed Opossum can be sat down.\n•They can slowly regenerate their health when they sit or sleep.\n•Wild Opossum can pick up the food that tempts them and",
-                "eat it.\n•Carrying food will temporarily stop being aggressive towards the mobs they are aggressive with."
+                "Savanna surfaces.\n•§lHealth§r: 14 §o(Wild)§r | 28 §o(Tamed)§r\n•§lWalk speed§r: 0.23\n•§lBreathes in§r: Air\n•§lTempted by§r: Berries, Spider Eyes, Arthropod Meat, Rotten Flesh.\n•§lHealed by§r: Berries, Spider Eyes, Arthropod Meat,",
+                "Rotten Flesh.\n•§lBreeds with§r: Fermented Spider Eye, Raw Arthropod Meat.\n•§lAging by§r: Berries, Spider Eyes, Arthropod Meat, Rotten Flesh.\n•§lTamed by§r: Cooked Arthropod Meat.\n•§lPossible drops§r: Rotten Flesh, XP Orbs.",
+                "•§lAvoids§r §o(Wild)§r: Cave Wolf, Deopard, Ocelot, Wolf.\n•§lAvoids§r §o(Tamed)§r: Monsters\n•§lAggressive toward§r: Small Arthropods.\n•Baby Opossum will search for a wild adult opossum to ride them.\n•Opossum will play dead if their",
+                "health reach lower than 8.\n•Wild Opossum can randomly sit.\n•Tamed Opossum can be sat down.\n•They can slowly regenerate their health when they sit or sleep.\n•Wild Opossum can pick up the food that tempts them and eat it.",
+                "•Carrying food will temporarily stop being aggressive towards the mobs they are aggressive with."
               ]
             }
           ]

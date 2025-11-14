@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_jungle_wood_lantern_x_wood_x_coal"
+    },
+    "priority": 2,
+    "tags": [ "crafting_table" ],
+    "group": "jungle_wood_lantern",
+    "assume_symmetry": true,
+    "pattern": [
+      "GCG",
+      " W "
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:jungle_wood"
+      },
+      "G": {
+        "item": "minecraft:glass_pane"
+      },
+      "C": {
+        "item": "minecraft:coal"
+      }
+    },
+    "result": {
+      "item": "nicothekid:jungle_wood_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:jungle_wood"
+      }
+    ]
+  }
+}

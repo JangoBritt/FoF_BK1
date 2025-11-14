@@ -1,0 +1,791 @@
+{
+	"resource_pack_name": "biomes_and_beyond",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"wypnt_bab:oak_hollow_log": {
+			"textures": "textures/blocks/log_oak"
+		},
+		"wypnt_bab:oak_hollow_log_top": {
+			"textures": "textures/blocks/log_oak_top"
+		},
+		"wypnt_bab:oak_hollow_log_inside": {
+			"textures": "textures/blocks/stripped_oak_log"
+		},
+		"wypnt_bab:spruce_hollow_log_top": {
+			"textures": "textures/blocks/log_spruce_top"
+		},
+		"wypnt_bab:spruce_hollow_log_inside": {
+			"textures": "textures/blocks/stripped_spruce_log"
+		},
+		"wypnt_bab:spruce_hollow_log": {
+			"textures": "textures/blocks/log_spruce"
+		},
+		"wypnt_bab:acacia_hollow_log_top": {
+			"textures": "textures/blocks/log_acacia_top"
+		},
+		"wypnt_bab:acacia_hollow_log_inside": {
+			"textures": "textures/blocks/stripped_acacia_log"
+		},
+		"wypnt_bab:acacia_hollow_log": {
+			"textures": "textures/blocks/log_acacia"
+		},
+		"wypnt_bab:birch_hollow_log_top": {
+			"textures": "textures/blocks/log_birch_top"
+		},
+		"wypnt_bab:birch_hollow_log_inside": {
+			"textures": "textures/blocks/stripped_birch_log"
+		},
+		"wypnt_bab:birch_hollow_log": {
+			"textures": "textures/blocks/log_birch"
+		},
+		"wypnt_bab:cherry_hollow_log_top": {
+			"textures": "textures/blocks/cherry_log_top"
+		},
+		"wypnt_bab:cherry_hollow_log_inside": {
+			"textures": "textures/blocks/stripped_cherry_log_side"
+		},
+		"wypnt_bab:cherry_hollow_log": {
+			"textures": "textures/blocks/cherry_log_side"
+		},
+		"wypnt_bab:dark_oak_hollow_log_top": {
+			"textures": "textures/blocks/log_big_oak_top"
+		},
+		"wypnt_bab:dark_oak_hollow_log_inside": {
+			"textures": "textures/blocks/stripped_dark_oak_log"
+		},
+		"wypnt_bab:dark_oak_hollow_log": {
+			"textures": "textures/blocks/log_big_oak"
+		},
+		"wypnt_bab:jungle_hollow_log_top": {
+			"textures": "textures/blocks/log_jungle_top"
+		},
+		"wypnt_bab:jungle_hollow_log_inside": {
+			"textures": "textures/blocks/stripped_jungle_log"
+		},
+		"wypnt_bab:jungle_hollow_log": {
+			"textures": "textures/blocks/log_jungle"
+		},
+		"wypnt_bab:mangrove_hollow_log_top": {
+			"textures": "textures/blocks/mangrove_log_top"
+		},
+		"wypnt_bab:mangrove_hollow_log_inside": {
+			"textures": "textures/blocks/stripped_mangrove_log_side"
+		},
+		"wypnt_bab:mangrove_hollow_log": {
+			"textures": "textures/blocks/mangrove_log_side"
+		},
+		"wypnt_bab:pale_oak_hollow_log_top": {
+			"textures": "textures/blocks/pale_oak_log_top"
+		},
+		"wypnt_bab:pale_oak_hollow_log_inside": {
+			"textures": "textures/blocks/stripped_pale_oak_log_side"
+		},
+		"wypnt_bab:pale_oak_hollow_log": {
+			"textures": "textures/blocks/pale_oak_log_side"
+		},
+		"wypnt_bab:baobab_hollow_log_top": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/baobab_log_top"
+		},
+		"wypnt_bab:baobab_hollow_log_inside": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/baobab_stripped_log"
+		},
+		"wypnt_bab:baobab_hollow_log": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/baobab_log"
+		},
+		"wypnt_bab:chorus_hollow_log_top": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/chorus_log_top"
+		},
+		"wypnt_bab:chorus_hollow_log_inside": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/stripped_chorus_log"
+		},
+		"wypnt_bab:chorus_hollow_log": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/chorus_log"
+		},
+		"wypnt_bab:fir_hollow_log_top": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/fir_log_top"
+		},
+		"wypnt_bab:fir_hollow_log_inside": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/fir_stripped_log"
+		},
+		"wypnt_bab:fir_hollow_log": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/fir_log"
+		},
+		"wypnt_bab:forsaken_oak_hollow_log_top": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/forsaken_log_top"
+		},
+		"wypnt_bab:forsaken_oak_hollow_log_inside": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/forsaken_oak_stripped_log"
+		},
+		"wypnt_bab:forsaken_oak_hollow_log": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/forsaken_log"
+		},
+		"wypnt_bab:jacaranda_hollow_log_top": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_log_top"
+		},
+		"wypnt_bab:jacaranda_hollow_log_inside": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_stripped_log"
+		},
+		"wypnt_bab:jacaranda_hollow_log": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_log"
+		},
+		"wypnt_bab:maple_hollow_log_top": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/maple_log_top"
+		},
+		"wypnt_bab:maple_hollow_log_inside": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/maple_stripped_log"
+		},
+		"wypnt_bab:maple_hollow_log": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/maple_log"
+		},
+		"wypnt_bab:redwood_hollow_log_top": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/redwood_log_top"
+		},
+		"wypnt_bab:redwood_hollow_log_inside": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/redwood_stripped_log"
+		},
+		"wypnt_bab:redwood_hollow_log": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/redwood_log"
+		},
+		"wypnt_bab:shelf_mushroom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/shelf_mushroom"]
+		},
+		"wypnt_bab:ivy": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/ivy"]
+		},
+		"wypnt_bab:daisy_petals_stem": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/daisy_petals_stem"
+		},
+		"wypnt_bab:daisy_petals": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/daisy_petals", "textures/coreblockstudios/biomesandbeyond/blocks/daisy_petals"]
+		},
+		"wypnt_bab:bluebell": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/bluebell"]
+		},
+		"wypnt_bab:violet_flower": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/violet_flower"]
+		},
+		"wypnt_bab:aspen_leaves": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/aspen_leaves"]
+		},
+		"wypnt_bab:aspen_leaf_pile": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/aspen_leaf_pile"]
+		},
+		"wypnt_bab:aspen_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/aspen_sapling"]
+		},
+		"wypnt_bab:windswept_sand": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/windswept_sand"]
+		},
+		"wypnt_bab:brittlebush": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/brittlebush"]
+		},
+		"wypnt_bab:small_cactus": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/small_cactus"]
+		},
+		"wypnt_bab:deadfern_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/deadfern_top"]
+		},
+		"wypnt_bab:deadfern_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/deadfern_bottom"]
+		},
+		"wypnt_bab:aloe_vera": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/aloe_vera"]
+		},
+		"wypnt_bab:bunchflower": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/bunchflower"]
+		},
+		"wypnt_bab:red_toadstool": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/toadstool_red"]
+		},
+		"wypnt_bab:coralroot": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/coralroot"]
+		},
+		"wypnt_bab:fir_log": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/fir_log"]
+		},
+		"wypnt_bab:fir_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/fir_log_top"]
+		},
+		"wypnt_bab:fir_leaves": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/fir_leaves"]
+		},
+		"wypnt_bab:fir_leaves_carried": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/fir_leaves_carried"]
+		},		
+		"wypnt_bab:fir_planks": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/fir_planks"]
+		},
+		"wypnt_bab:fir_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/fir_sapling"]
+		},
+		"wypnt_bab:fir_stripped_log": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/fir_stripped_log"]
+		},
+		"wypnt_bab:fir_stripped_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/fir_stripped_log_top"]
+		},
+		"wypnt_bab:fir_door_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/fir_door_top"]
+		},
+		"wypnt_bab:fir_door_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/fir_door_bottom"]
+		},
+		"wypnt_bab:fir_trapdoor": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/fir_trapdoor"]
+		},
+		"wypnt_bab:jacaranda_log": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_log"]
+		},
+		"wypnt_bab:jacaranda_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_log_top"]
+		},
+		"wypnt_bab:jacaranda_leaves": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_leaves"]
+		},
+		"wypnt_bab:jacaranda_planks": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_planks"]
+		},
+		"wypnt_bab:jacaranda_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_sapling"]
+		},
+		"wypnt_bab:jacaranda_stripped_log": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_stripped_log"]
+		},
+		"wypnt_bab:jacaranda_stripped_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_stripped_log_top"]
+		},
+		"wypnt_bab:wypnt_bab:jacaranda_door_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_door_top"]
+		},
+		"wypnt_bab:jacaranda_door_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_door_bottom"]
+		},
+		"wypnt_bab:jacaranda_trapdoor": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_trapdoor"]
+		},
+		"wypnt_bab:jacaranda_leaf_pile": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_leaf_pile"]
+		},
+		"wypnt_bab:wisteria_body": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/wisteria_body"]
+		},
+		"wypnt_bab:wisteria_head": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/wisteria_head"]
+		},
+		"wypnt_bab:lavender_flower": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/lavender_flower"]
+		},
+		"wypnt_bab:lazarus": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/lazarus"]
+		},
+		"wypnt_bab:shrub_grass": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/shrubgrass"]
+		},
+		"wypnt_bab:redwood_log": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/redwood_log"]
+		},
+		"wypnt_bab:redwood_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/redwood_log_top"]
+		},
+		"wypnt_bab:redwood_leaves": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/redwood_leaves"]
+		},
+		"wypnt_bab:redwood_planks": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/redwood_planks"]
+		},
+		"wypnt_bab:redwood_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/redwood_sapling"]
+		},
+		"wypnt_bab:redwood_stripped_log": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/redwood_stripped_log"]
+		},
+		"wypnt_bab:redwood_stripped_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/redwood_stripped_log_top"]
+		},
+		"wypnt_bab:redwood_door_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/redwood_door_top"]
+		},
+		"wypnt_bab:redwood_door_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/redwood_door_bottom"]
+		},
+		"wypnt_bab:redwood_trapdoor": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/redwood_trapdoor"]
+		},
+		"wypnt_bab:duckweed": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/duckweed"]
+		},
+		"wypnt_bab:lily_blossom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/lilyblossom"]
+		},
+		"wypnt_bab:cattail_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/cattail_bottom"]
+		},
+		"wypnt_bab:cattail_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/cattail_top"]
+		},
+		"wypnt_bab:autumn_leaves": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/autumn_oak"]
+		},
+		"wypnt_bab:autumn_leaf_pile": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/autumn_leaf_pile"]
+		},
+		"wypnt_bab:autumn_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/autumn_sapling"]
+		},
+		"wypnt_bab:baobab_log_side": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/baobab_log"]
+		},
+		"wypnt_bab:baobab_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/baobab_log_top"]
+		},
+		"wypnt_bab:baobab_leaves": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/baobab_leaves"]
+		},
+		"wypnt_bab:baobab_planks": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/baobab_planks"]
+		},
+		"wypnt_bab:baobab_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/baobab_sapling"]
+		},
+		"wypnt_bab:stripped_baobab_log_side": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/baobab_stripped_log"]
+		},
+		"wypnt_bab:stripped_baobab_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/baobab_stripped_log_top"]
+		},
+		"wypnt_bab:baobab_door_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/baobab_door_top"]
+		},
+		"wypnt_bab:baobab_door_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/baobab_door_bottom"]
+		},
+		"wypnt_bab:baobab_trapdoor": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/baobab_trapdoor"]
+		},
+		"wypnt_bab:water_reeds0": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/water_reeds0"]
+		},
+		"wypnt_bab:water_reeds1": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/water_reeds1"]
+		},
+		"wypnt_bab:water_reeds2": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/water_reeds2"]
+		},
+		"wypnt_bab:clovers_stem": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/clovers_stem"
+		},
+		"wypnt_bab:clovers": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/clovers"]
+		},
+		"wypnt_bab:strata": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/strata"]
+		},
+		"wypnt_bab:strata_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/strata_top"]
+		},
+		"wypnt_bab:cobbled_strata": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/cobbled_strata"]
+		},
+		"wypnt_bab:strata_bricks": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/strata_bricks"]
+		},
+		"wypnt_bab:ultisol": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/ultisol"]
+		},
+		"wypnt_bab:didymoch": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/didymoch"]
+		},
+		"wypnt_bab:jungfern_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jungfern_top"]
+		},
+		"wypnt_bab:jungfern_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jungfern_bottom"]
+		},
+		"wypnt_bab:maple_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/maple_sapling"]
+		},
+		"wypnt_bab:maple_leaves": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/maple_leaves"]
+		},
+		"wypnt_bab:maple_yellow_leaves": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/maple_yellow_leaves"]
+		},
+		"wypnt_bab:yellow_maple_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/yellow_maple_sapling"]
+		},
+		"wypnt_bab:quicksand": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/quicksand"]
+		},
+		"wypnt_bab:chiseled_strata_bricks": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/strata_bricks_chiseled"]
+		},
+		"wypnt_bab:glass_jar": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/glass_jar"]
+		},
+		"wypnt_bab:glass_jar_firefly": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/glass_jar_firefly"]
+		},
+		"wypnt_bab:jacaranda_lantern": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_lantern"]
+		},
+		"wypnt_bab:brittlebright": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/brittlebright"]
+		},
+		"wypnt_bab:deer_trophy": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/deer_trophy"]
+		},
+		"wypnt_bab:white_deer_trophy": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/white_deer_trophy"]
+		},
+		"wypnt_bab:maple_log": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/maple_log"]
+		},
+		"wypnt_bab:maple_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/maple_log_top"]
+		},
+		"wypnt_bab:maple_planks": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/maple_planks"]
+		},
+		"wypnt_bab:maple_stripped_log": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/maple_stripped_log"]
+		},
+		"wypnt_bab:maple_stripped_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/maple_stripped_log_top"]
+		},
+		"wypnt_bab:maple_door_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/maple_door_top"]
+		},
+		"wypnt_bab:maple_door_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/maple_door_bottom"]
+		},
+		"wypnt_bab:maple_trapdoor": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/maple_trapdoor"]
+		},
+		"wypnt_bab:sulfur_ore": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/sulfur_ore"]
+		},
+		"wypnt_bab:deepslate_sulfur_ore": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/sulfur_ore_deepslate"]
+		},
+		"wypnt_bab:beach_grass0": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/beach_grass0"]
+		},
+		"wypnt_bab:beach_grass1": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/beach_grass1"]
+		},
+		"wypnt_bab:beach_grass2": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/beach_grass2"]
+		},
+		"wypnt_bab:mullein_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/mullein_top"]
+		},
+		"wypnt_bab:mullein_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/mullein_bottom"]
+		},
+		"wypnt_bab:lichen_carpet": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/lichen_carpet"]
+		},
+		"wypnt_bab:lichen_hanging": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/lichen_hanging"]
+		},
+		"wypnt_bab:whispering_willow": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/whispering_willow_off"]
+		},
+		"wypnt_bab:whispering_willow_active": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/whispering_willow_active"]
+		},
+		"wypnt_bab:forsaken_oak_log": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/forsaken_log"]
+		},
+		"wypnt_bab:forsaken_oak_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/forsaken_log_top"]
+		},
+		"wypnt_bab:forsaken_oak_planks": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/forsaken_planks"]
+		},
+		"wypnt_bab:forsaken_oak_leaves": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/forsaken_oak_leaves"]
+		},
+		"wypnt_bab:forsaken_oak_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/forsaken_oak_sapling"]
+		},
+		"wypnt_bab:forsaken_oak_stripped_log": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/forsaken_oak_stripped_log"]
+		},
+		"wypnt_bab:forsaken_oak_stripped_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/forsaken_oak_stripped_log_top"]
+		},
+		"wypnt_bab:forsaken_oak_door_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/forsaken_oak_door_top"]
+		},
+		"wypnt_bab:forsaken_oak_door_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/forsaken_oak_door_bottom"]
+		},
+		"wypnt_bab:forsaken_oak_trapdoor": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/forsaken_oak_trapdoor"]
+		},
+		"wypnt_bab:brown_toadstool": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/toadstool_brown"]
+		},
+		"wypnt_bab:void_turf_side": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/void_turf_side"]
+		},
+		"wypnt_bab:void_turf_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/void_turf_top"]
+		},
+		"wypnt_bab:chorus_leaves": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/chorus_leaves"]
+		},
+		"wypnt_bab:chorus_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/chorus_log_top"]
+		},
+		"wypnt_bab:chorus_log": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/chorus_log"]
+		},
+		"wypnt_bab:chorus_planks": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/chorus_planks"]
+		},
+		"wypnt_bab:chorus_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/chorus_sapling"]
+		},
+		"wypnt_bab:chorus_stripped_log": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/stripped_chorus_log"]
+		},
+		"wypnt_bab:chorus_stripped_log_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/stripped_chorus_log_top"]
+		},
+		"wypnt_bab:chorus_door_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/chorus_door_top"]
+		},
+		"wypnt_bab:chorus_door_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/chorus_door_bottom"]
+		},
+		"wypnt_bab:chorus_trapdoor": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/chorus_trapdoor"]
+		},
+		"wypnt_bab:void_grass0": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/void_turf_grass0"]
+		},
+		"wypnt_bab:void_grass1": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/void_turf_grass1"]
+		},
+		"wypnt_bab:void_grass2": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/void_turf_grass2"]
+		},
+		"wypnt_bab:void_blossom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/void_blossom"]
+		},
+		"wypnt_bab:sulfur_bag_side": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/bag_side"]
+		},
+		"wypnt_bab:sulfur_bag_front": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/bag_front"]
+		},
+		"wypnt_bab:sulfur_bag_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/bag_sulfur"]
+		},
+		"wypnt_bab:sulfur_bag_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/bag_bottom"]
+		},
+		"wypnt_bab:void_blossom_bush_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/void_blossom_bush_top"]
+		},
+		"wypnt_bab:void_blossom_bush_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/void_blossom_bush_bottom"]
+		},
+		"wypnt_bab:tungsten_ore": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/tungsten_ore"]
+		},
+		"wypnt_bab:deepslate_tungsten_ore": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/tungsten_ore_deepslate"]
+		},
+		"wypnt_bab:end_stone_tungsten_ore": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/tungsten_ore_endstone"]
+		},
+		"wypnt_bab:cobbled_end_stone": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/cobbled_endstone"]
+		},
+		"wypnt_bab:chorus_ivy": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/chorus_ivy"]
+		},
+		"wypnt_bab:velvium_side": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/velvium_side"]
+		},
+		"wypnt_bab:velvium_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/velvium_top"]
+		},
+		"wypnt_bab:velvium_vine_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/velvium_vine_top"]
+		},
+		"wypnt_bab:velvium_vine_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/velvium_vine_bottom"]
+		},
+		"wypnt_bab:velvium_vine_bulb": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/velvium_vine_bulb"]
+		},
+		"wypnt_bab:velvium_grass0": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/velvium_grass0"]
+		},
+		"wypnt_bab:velvium_grass1": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/velvium_grass1"]
+		},
+		"wypnt_bab:velvium_grass2": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/velvium_grass2"]
+		},
+		"wypnt_bab:popped_chorus_leaves": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/chorus_leaves_popped"]
+		},
+		"wypnt_bab:puffshroom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/puffshroom"]
+		},
+		"wypnt_bab:chiseled_end_stone": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/end_stone_chiseled"]
+		},
+		"wypnt_bab:voidmire_side": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/voidmire_side"]
+		},
+		"wypnt_bab:voidmire_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/voidmire_top"]
+		},
+		"wypnt_bab:voidmire_grass0": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/voidmire_grass0"]
+		},
+		"wypnt_bab:voidmire_grass1": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/voidmire_grass1"]
+		},
+		"wypnt_bab:voidmire_grass2": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/voidmire_grass2"]
+		},
+		"wypnt_bab:depraved_wart_block": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/depraved_wart_block"]
+		},
+		"wypnt_bab:depraved_stem": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/depraved_stem"]
+		},
+		"wypnt_bab:depraved_vine_body": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/depraved_vine_body"]
+		},
+		"wypnt_bab:depraved_vine_head": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/depraved_vine_head"]
+		},
+		"wypnt_bab:depraved_vine_flower": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/depraved_vine_flower"]
+		},
+		"wypnt_bab:spore_chute": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/spore_chute"]
+		},
+		"wypnt_bab:depraved_shroom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/depraved_shroom"]
+		},
+		"wypnt_bab:popped_chorus": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/popped_chorus_sapling"]
+		},
+		"wypnt_bab:coconut": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/coconut"]
+		},
+		"wypnt_bab:coconut_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/coconut_sapling"]
+		},
+		"wypnt_bab:rotveil_grass0": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/rotveil_grass0"]
+		},
+		"wypnt_bab:rotveil_grass1": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/rotveil_grass1"]
+		},
+		"wypnt_bab:rotveil_grass2": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/rotveil_grass2"]
+		},
+		"wypnt_bab:rotveil_side": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/rotveil_side"]
+		},
+		"wypnt_bab:rotveil_top": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/rotveil_top"]
+		},
+		"wypnt_bab:tungsten_block": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/tungsten_block"]
+		},
+		"wypnt_bab:void_fulgurite": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/void_fulgurite"]
+		},
+		"wypnt_bab:rotwarts0": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/rotwarts0"]
+		},
+		"wypnt_bab:rotwarts1": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/rotwarts1"]
+		},
+		"wypnt_bab:rotwarts2": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/rotwarts2"]
+		},
+		"wypnt_bab:barley_bottom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/wild_barley_bottom"]
+		},
+		"wypnt_bab:barley_top0": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/wild_barley_top0"]
+		},
+		"wypnt_bab:barley_top1": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/wild_barley_top1"]
+		},		
+		"wypnt_bab:barley_top2": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/wild_barley_top2"]
+		},
+		"wypnt_bab:barley_crop_0": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/barley_stage0"
+		},
+		"wypnt_bab:barley_crop_1": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/barley_stage1"
+		},
+		"wypnt_bab:barley_crop_2": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/barley_stage2"
+		},
+		"wypnt_bab:barley_crop_3": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/barley_stage3"
+		},
+		"wypnt_bab:barley_crop_4": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/barley_stage4"
+		},
+		"wypnt_bab:barley_crop_5": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/blocks/barley_stage5"
+		},
+		"wypnt_bab:lazarus_white": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/lazarus_white"]
+		},
+		"wypnt_bab:standing_torch_bottom": {
+			"textures":["textures/coreblockstudios/biomesandbeyond/blocks/standing_torch_bottom"]
+		},
+		"wypnt_bab:standing_torch_top": {
+			"textures":["textures/coreblockstudios/biomesandbeyond/blocks/standing_torch_top"]
+		},
+		"wypnt_bab:crocodile_egg": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/crocodile_egg"]
+		},
+		"wypnt_bab:crocodile_egg_cracked": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/crocodile_egg_cracked1"]
+		},
+		"wypnt_bab:crocodile_egg_max_cracked": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/crocodile_egg_cracked2"]
+		},
+		"wypnt_bab:volcanic_stone": {
+			"textures": ["textures/blocks/netherrack"]
+			},
+		"wypnt_bab:banana_block_0": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/banana_block_0"]
+		},
+		"wypnt_bab:banana_block_1": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/banana_block_1"]
+		},
+		"wypnt_bab:banana_block_2": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/banana_block_2"]
+		},
+		"wypnt_bab:banana_block_3": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/banana_block_3"]
+		},
+		"wypnt_bab:banana_block": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/banana_block.png"]
+		},
+		"wypnt_bab:banana_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/banana_sapling"]
+		}
+	}
+}

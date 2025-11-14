@@ -1,0 +1,32 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wypnt_bab:ivy_scatter_n_feature"
+		},
+		"iterations": 90,
+		"x": {
+			"distribution": "gaussian",
+			"extent": [
+				-4,
+				4
+			]
+		},
+		"y": {
+			"distribution": "gaussian",
+			"extent": [
+				-4,
+				4
+			]
+		},
+		"z": {
+			"distribution": "gaussian",
+			"extent": [
+				-4,
+				4
+			]
+		},
+		"coordinate_eval_order": "zyx",
+		"places_feature": "wypnt_bab:ivy_n_feature"
+	}
+}

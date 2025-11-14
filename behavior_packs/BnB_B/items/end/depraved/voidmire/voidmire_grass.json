@@ -1,0 +1,28 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:voidmire_grass",
+			"menu_category": {
+				"category": "nature",
+				"group": "minecraft:itemGroup.name.grass"
+			}
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": "wypnt_bab:voidmire_grass",
+			"minecraft:display_name": {
+				"value": "tile.wypnt_bab:voidmire_grass.name"
+			},
+			"minecraft:compostable":{
+            	"composting_chance": 30
+            },
+			"minecraft:block_placer": {
+				"block": "wypnt_bab:voidmire_grass",
+				"replace_block_item": true
+			}
+		}
+	}
+}

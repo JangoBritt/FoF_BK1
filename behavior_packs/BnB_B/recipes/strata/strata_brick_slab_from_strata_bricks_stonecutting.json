@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "wypnt_bab:strata_brick_slab_from_strata_bricks_stonecutting"
+        },
+        "ingredients": [
+            {
+                "data": 0,
+                "item": "wypnt_bab:strata_bricks"
+            }
+        ],
+        "priority": 0,
+        "result": {
+            "count": 2,
+            "data": 0,
+            "item": "wypnt_bab:strata_brick_slab"
+        },
+        "unlock": [
+          {
+            "data": 0,
+            "item": "wypnt_bab:strata_bricks"
+          }
+        ],
+        "tags": [
+            "stonecutter"
+        ]
+    }
+}

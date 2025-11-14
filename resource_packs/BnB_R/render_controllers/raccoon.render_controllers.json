@@ -1,0 +1,19 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.wypnt_bab.raccoon": {
+			"geometry": "Geometry.default",
+			"materials": [ { "*": "Material.default" } ],
+			"textures": ["query.is_tamed ? Texture.raccoon_tamed : Texture.raccoon"]
+		},
+	"controller.render.wypnt_bab.raccoon_hat": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.raccoon_tophat" ],
+      "part_visibility": [
+        { "*": "false" },
+        { "hat": "query.property('wypnt_bab:has_hat')" }
+      ]
+    }
+  }
+}

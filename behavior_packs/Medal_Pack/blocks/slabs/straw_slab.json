@@ -19,7 +19,7 @@
       },
       "minecraft:material_instances": {
         "*": {
-            "texture": "straw_bale_loose",
+            "texture": "fables_misc:straw_bale_loose",
             "render_method": "opaque",
             "ambient_occlusion": true,
             "face_dimming": true
@@ -43,7 +43,7 @@
         },
         "material_instances": {
             "*": {
-                "texture": "straw_bale_loose",
+                "texture": "fables_misc:straw_bale_loose",
                 "render_method": "opaque",
                 "ambient_occlusion": true,
                 "face_dimming": true

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_warped_hyphae_lantern_x_stem_x_coal"
+    },
+    "priority": 2,
+    "tags": [ "crafting_table" ],
+    "group": "warped_hyphae_lantern",
+    "assume_symmetry": true,
+    "pattern": [
+      "GCG",
+      " W "
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:warped_stem"
+      },
+      "G": {
+        "item": "minecraft:glass_pane"
+      },
+      "C": {
+        "item": "minecraft:coal"
+      }
+    },
+    "result": {
+      "item": "nicothekid:warped_hyphae_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:warped_stem"
+      }
+    ]
+  }
+}

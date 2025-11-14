@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+	  "description": {
+	  "identifier": "wypnt_bab:white_dye_from_bunchflower"
+	  },
+  
+	  
+	  "tags": [ "crafting_table" ],
+	  "group": "white_dye",
+	  "ingredients": [
+		{
+		  "item": "wypnt_bab:bunchflower"
+		}
+	  ],
+	  "unlock": [
+		{
+		  "item": "wypnt_bab:bunchflower"
+		}
+	  ],
+	  "result": {
+		"item": "minecraft:dye",
+		"data": 19
+	  }
+	}
+  }
+  

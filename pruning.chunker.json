@@ -1,0 +1,87 @@
+{
+    "configs": [
+        {
+            "include": true,
+            "regions": [
+                {
+                    "minChunkX": -62,
+                    "minChunkZ": -20,
+                    "maxChunkX": 39,
+                    "maxChunkZ": 54
+                },
+                {
+                    "minChunkX": -64,
+                    "minChunkZ": -167,
+                    "maxChunkX": 9,
+                    "maxChunkZ": -31
+                },
+                {
+                    "minChunkX": -436,
+                    "minChunkZ": -238,
+                    "maxChunkX": -403,
+                    "maxChunkZ": -193
+                },
+                {
+                    "minChunkX": -288,
+                    "minChunkZ": 192,
+                    "maxChunkX": -255,
+                    "maxChunkZ": 219
+                },
+                {
+                    "minChunkX": -134,
+                    "minChunkZ": 205,
+                    "maxChunkX": -117,
+                    "maxChunkZ": 220
+                },
+                {
+                    "minChunkX": 3,
+                    "minChunkZ": 128,
+                    "maxChunkX": 33,
+                    "maxChunkZ": 155
+                },
+                {
+                    "minChunkX": 477,
+                    "minChunkZ": 851,
+                    "maxChunkX": 521,
+                    "maxChunkZ": 904
+                },
+                {
+                    "minChunkX": -197,
+                    "minChunkZ": 20,
+                    "maxChunkX": -197,
+                    "maxChunkZ": 20
+                },
+                {
+                    "minChunkX": -222,
+                    "minChunkZ": 178,
+                    "maxChunkX": -220,
+                    "maxChunkZ": 181
+                },
+                {
+                    "minChunkX": -174,
+                    "minChunkZ": 66,
+                    "maxChunkX": -171,
+                    "maxChunkZ": 69
+                }
+            ]
+        },
+        null,
+        {
+            "include": true,
+            "regions": [
+                {
+                    "minChunkX": -10,
+                    "minChunkZ": -10,
+                    "maxChunkX": 10,
+                    "maxChunkZ": 10
+                },
+                {
+                    "minChunkX": 18,
+                    "minChunkZ": -55,
+                    "maxChunkX": 45,
+                    "maxChunkZ": -11
+                }
+            ]
+        }
+    ]
+}

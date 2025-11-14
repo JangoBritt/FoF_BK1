@@ -1,0 +1,11 @@
+{
+	"format_version": "1.8.0",
+	"geometry.wypnt_bab.tungsten_leggings:geometry.humanoid.armor2": {
+    "bones": [
+      { "name": "head", "reset": true },
+      { "name": "hat", "reset": true },
+      { "name": "rightArm", "reset": true },
+      { "name": "leftArm", "reset": true }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "wypnt_bab:tungsten_boots",
+			"render_controllers": ["controller.render.armor"],
+			"materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted"
+      },
+			"textures": {
+				"default": "textures/coreblockstudios/biomesandbeyond/entity/attachable/tungsten_boots",
+				"enchanted": "textures/misc/enchanted_actor_glint"
+			},
+			"geometry": {
+				"default": "geometry.wypnt_bab.tungsten_boots"
+			},
+      "scripts": {
+        "parent_setup": "variable.boot_layer_visible = 0.0;"
+      }
+		}
+	}
+}

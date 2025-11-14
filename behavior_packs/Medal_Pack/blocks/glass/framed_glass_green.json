@@ -18,7 +18,7 @@
         }
       },
       "minecraft:geometry": {
-        "identifier": "geometry.block"
+        "identifier": "minecraft:geometry.full_block"
       },
       "minecraft:map_color": "#a16632",
       "minecraft:collision_box": {

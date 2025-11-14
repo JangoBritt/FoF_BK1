@@ -1,0 +1,275 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:redwood_door",
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			},
+			"states": {
+				"wypnt_bab:open_bit": [
+					false,
+					true
+				],
+				"wypnt_bab:upper_block_bit": [
+					false,
+					true
+				],
+				"wypnt_bab:door_hinge_bit": [
+					false,
+					true
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							270,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:open_bit') && !q.block_state('wypnt_bab:door_hinge_bit')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							5,
+							0,
+							-8
+						],
+						"size": [
+							3,
+							16,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							5,
+							0,
+							-8
+						],
+						"size": [
+							3,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:open_bit') && q.block_state('wypnt_bab:door_hinge_bit')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							3,
+							16,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							3,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('wypnt_bab:upper_block_bit')",
+				"components": {
+						"wypnt_bab:redwood_on_place":{},
+						"wypnt_bab:redwood_on_interact":{},
+						"wypnt_bab:redwood_on_tick":{},
+						"minecraft:geometry": {
+				"identifier": "geometry.wypnt_bab.door",
+				"bone_visibility": {
+					"door_open": "q.block_state('wypnt_bab:open_bit') && !q.block_state('wypnt_bab:door_hinge_bit')",
+					"door_closed": "!q.block_state('wypnt_bab:open_bit') && !q.block_state('wypnt_bab:door_hinge_bit')",
+					"door_open_flipped": "q.block_state('wypnt_bab:open_bit') && q.block_state('wypnt_bab:door_hinge_bit')",
+					"door_closed_flipped": "!q.block_state('wypnt_bab:open_bit') && q.block_state('wypnt_bab:door_hinge_bit')"
+				}
+			},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:redwood_door_bottom",
+							"render_method": "opaque"
+						}
+					},
+					"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/redwood_door.json"
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:upper_block_bit')",
+				"components": {
+						"wypnt_bab:redwood_on_interact":{},
+						"wypnt_bab:redwood_on_tick":{},
+						"minecraft:movable": {
+        "movement_type": "immovable"
+      },
+					"minecraft:placement_filter": {
+						"conditions": [
+							{
+								"block_filter": [
+									"wypnt_bab:redwood_door"
+								],
+								"allowed_faces": [
+									"up"
+								]
+							}
+						]
+					},
+					"minecraft:loot": "loot_tables/empty.json",
+					"minecraft:geometry": {
+				"identifier": "geometry.wypnt_bab.door",
+				"bone_visibility": {
+					"door_open": "q.block_state('wypnt_bab:open_bit') && !q.block_state('wypnt_bab:door_hinge_bit')",
+					"door_closed": "!q.block_state('wypnt_bab:open_bit') && !q.block_state('wypnt_bab:door_hinge_bit')",
+					"door_open_flipped": "q.block_state('wypnt_bab:open_bit') && q.block_state('wypnt_bab:door_hinge_bit')",
+					"door_closed_flipped": "!q.block_state('wypnt_bab:open_bit') && q.block_state('wypnt_bab:door_hinge_bit')"
+				}
+			},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:redwood_door_top",
+							"render_method": "opaque"
+						}
+					}
+				}
+			}
+		],
+		"components": {
+				"wypnt_bab:redwood_on_interact":{},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					5
+				],
+				"size": [
+					16,
+					16,
+					3
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					5
+				],
+				"size": [
+					16,
+					16,
+					3
+				]
+			},
+			"minecraft:tick": {
+				"interval_range": [
+					3,
+					3
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 15 //15 because 3x5 is 15, and the resistance of the vanilla version is 3 
+			},
+			
+			"minecraft:destruction_particles": {
+    "texture": "wypnt_bab:redwood_door_top:redwood_door_top"
+},
+"minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "minecraft:redstone_conductivity": {
+				"redstone_conductor": true
+			},
+			
+			"minecraft:geometry": {
+				"identifier": "geometry.wypnt_bab.door",
+				"bone_visibility": {
+					"door_open": "q.block_state('wypnt_bab:open_bit') && !q.block_state('wypnt_bab:door_hinge_bit')",
+					"door_closed": "!q.block_state('wypnt_bab:open_bit') && !q.block_state('wypnt_bab:door_hinge_bit')",
+					"door_open_flipped": "q.block_state('wypnt_bab:open_bit') && q.block_state('wypnt_bab:door_hinge_bit')",
+					"door_closed_flipped": "!q.block_state('wypnt_bab:open_bit') && q.block_state('wypnt_bab:door_hinge_bit')"
+				}
+			},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:redwood_door_top",
+							"render_method": "opaque"
+						}
+					},
+			"minecraft:liquid_detection": {
+			"detection_rules": [
+			{
+			"can_contain_liquid": true,
+			"liquid_type": "water",
+			"on_liquid_touches": "no_reaction"
+			          }
+				]
+			},
+			"tag:minecraft:is_axe_item_destructible": {},
+			"tag:one_way_collidable": {}
+		}
+	}
+}

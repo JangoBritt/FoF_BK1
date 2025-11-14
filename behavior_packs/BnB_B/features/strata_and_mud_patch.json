@@ -1,0 +1,13 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "wypnt_bab:strata_and_mud_patch"
+		},
+		"early_out": "none",
+		"features": [
+			"wypnt_bab:strata_scatter_feature",
+			"wypnt_bab:strata_mud_scatter_feature"
+		]
+	}
+}

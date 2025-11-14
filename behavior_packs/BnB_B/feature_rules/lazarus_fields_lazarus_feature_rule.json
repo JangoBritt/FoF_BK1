@@ -1,0 +1,41 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "wypnt_bab:lazarus_fields_lazarus_feature_rule",
+			"places_feature": "wypnt_bab:scatter_lazarus_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "lazarus_fields"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "math.random_integer(32, 64)",
+			"scatter_chance": {
+				"numerator": 1,
+				"denominator": 2
+			},
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					-9,
+					8
+				]
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					-8,
+					8
+				]
+			}
+		}
+	}
+}

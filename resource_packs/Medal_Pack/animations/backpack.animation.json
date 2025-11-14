@@ -1,0 +1,47 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+
+
+
+		"animation.o2pack.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [85.61972, -60.90658, -215.78387],
+					"position": [9, 18, -5]
+				},
+				"o2pack": {
+					"rotation": [0, 20, 0],
+					"position": [-1, 2, -9]
+				}
+			}
+		},
+		"animation.o2pack.back_attach": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, 14, -2.5]
+				},
+				"o2pack": {
+					"position": [0, 0, 2]
+				}
+			}
+		},
+		"animation.o2pack.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [25, 0, 0],
+					"position": [0.5, 14, -2.5],
+					"scale": 0.85
+				},
+				"o2pack": {
+					"position": [-0.5, 0, 2]
+				}
+			}
+		}
+
+
+	}
+}

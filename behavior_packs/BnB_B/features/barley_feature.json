@@ -1,0 +1,42 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:growing_plant_feature": {
+        "description": {
+            "identifier": "wypnt_bab:barley_feature"
+        },
+        "height_distribution": [
+            [{"range_min": 2, "range_max": 2}, 2]
+        ],
+        "growth_direction": "UP",
+        "body_blocks": [
+            ["wypnt_bab:barley", 1]
+        ],
+        "head_blocks": [
+          [
+            {
+              "name": "wypnt_bab:barley",
+              "states": { "wypnt_bab:length": 0,
+              "wypnt_bab:top": true}
+            },
+            1
+          ],
+            [
+                {
+                "name": "wypnt_bab:barley",
+                "states": { "wypnt_bab:length": 1,
+              "wypnt_bab:top": true}
+                },
+                2
+            ],
+            [
+                {
+                "name": "wypnt_bab:barley",
+                "states": { "wypnt_bab:length": 2,
+              "wypnt_bab:top": true}
+                },
+                1
+            ]            
+        ],
+        "allow_water": false
+    }
+}

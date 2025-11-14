@@ -1,0 +1,398 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:ivy",
+        "traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:block_face"
+					]
+				}
+				},
+				"states": {
+      "wypnt_bab:natural_rotation": [
+                    "false",
+                    "north",
+                    "south",
+                    "east",
+                    "west"
+                ]
+            },
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('wypnt_bab:natural_rotation') == 'north'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							2],
+						"size": [
+							16,
+							16,
+							6
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.wypnt_bab.ivy",
+						"bone_visibility": {
+							"north": "true",
+							"south": "false",
+							"east": "false",
+							"west": "false"
+						}
+					},
+					"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"north"
+						],
+						"block_filter": [
+							"minecraft:oak_wood",
+							"minecraft:cherry_log",
+							"minecraft:mangrove_log",
+							"minecraft:pale_oak_log",
+							"wypnt_bab:fir_log",
+							"wypnt_bab:redwood_log",
+							"wypnt_bab:jacaranda_log"													
+						]
+					},
+										{
+						"allowed_faces": [
+							"north"
+						],
+                        "block_filter": [
+                            {
+                                "tags": "q.any_tag('!one_way_collidable', 'not_feature_replaceable', 'log')"
+                            }
+                        ]
+					}
+				]
+			}
+				}
+			},
+			{
+				"condition": "query.block_state('wypnt_bab:natural_rotation') == 'south'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							6
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.wypnt_bab.ivy",
+						"bone_visibility": {
+							"north": "false",
+							"south": "true",
+							"east": "false",
+							"west": "false"
+						}
+					},
+					"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"south"
+						],
+						"block_filter": [
+							"minecraft:oak_wood",
+							"minecraft:cherry_log",
+							"minecraft:mangrove_log",
+							"minecraft:pale_oak_log",
+							"wypnt_bab:fir_log",
+							"wypnt_bab:redwood_log",
+							"wypnt_bab:jacaranda_log"													
+						]
+					},
+										{
+						"allowed_faces": [
+							"south"
+						],
+                        "block_filter": [
+                            {
+                                "tags": "q.any_tag('!one_way_collidable', 'not_feature_replaceable', 'log')"
+                            }
+                        ]
+					}
+				]
+			}
+				}
+			},
+			{
+				"condition": "query.block_state('wypnt_bab:natural_rotation') == 'east'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							2,
+							0,
+							-8
+						],
+						"size": [
+							6,
+							16,
+							16
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.wypnt_bab.ivy",
+						"bone_visibility": {
+							"north": "false",
+							"south": "false",
+							"east": "true",
+							"west": "false"
+						}
+					},
+					"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"east"
+						],
+						"block_filter": [
+							"minecraft:oak_wood",
+							"minecraft:cherry_log",
+							"minecraft:mangrove_log",
+							"minecraft:pale_oak_log",
+							"wypnt_bab:fir_log",
+							"wypnt_bab:redwood_log",
+							"wypnt_bab:jacaranda_log"													
+						]
+					},
+										{
+						"allowed_faces": [
+							"east"
+						],
+                        "block_filter": [
+                            {
+                                "tags": "q.any_tag('!one_way_collidable', 'not_feature_replaceable', 'log')"
+                            }
+                        ]
+					}
+				]
+			}
+				}
+			},
+			{
+				"condition": "query.block_state('wypnt_bab:natural_rotation') == 'west'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							6,
+							16,
+							16
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.wypnt_bab.ivy",
+						"bone_visibility": {
+							"north": "false",
+							"south": "false",
+							"east": "false",
+							"west": "true"
+						}
+					},
+					"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"west"
+						],
+						"block_filter": [
+							"minecraft:oak_wood",
+							"minecraft:cherry_log",
+							"minecraft:mangrove_log",
+							"minecraft:pale_oak_log",
+							"wypnt_bab:fir_log",
+							"wypnt_bab:redwood_log",
+							"wypnt_bab:jacaranda_log"													
+						]
+					},
+										{
+						"allowed_faces": [
+							"west"
+						],
+                        "block_filter": [
+                            {
+                                "tags": "q.any_tag('!one_way_collidable', 'not_feature_replaceable', 'log')"
+                            }
+                        ]
+					}
+				]
+			}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'north'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							2
+						],
+						"size": [
+							16,
+							16,
+							6
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.wypnt_bab.ivy",
+						"bone_visibility": {
+							"north": "true",
+							"south": "false",
+							"east": "false",
+							"west": "false"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'south'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							6
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.wypnt_bab.ivy",
+						"bone_visibility": {
+							"north": "false",
+							"south": "true",
+							"east": "false",
+							"west": "false"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'east'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							2,
+							0,
+							-8
+						],
+						"size": [
+							6,
+							16,
+							16
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.wypnt_bab.ivy",
+						"bone_visibility": {
+							"north": "false",
+							"south": "false",
+							"east": "true",
+							"west": "false"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'west'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							6,
+							16,
+							16
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.wypnt_bab.ivy",
+						"bone_visibility": {
+							"north": "false",
+							"south": "false",
+							"east": "false",
+							"west": "true"
+						}
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:ivy",
+					"render_method": "alpha_test_single_sided",
+					"ambient_occlusion": false,
+					"face_dimming": true,
+					"tint_method": "default_foliage"
+				}
+			},
+			"minecraft:collision_box": false,
+			"minecraft:geometry": "geometry.wypnt_bab.ivy",
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+			"minecraft:map_color": "#B5947D",
+			"minecraft:placement_filter": {
+            "conditions": [
+            {
+            "allowed_faces": ["side"], // Must be placed on the side of any of the following blocks
+            "block_filter": [
+                "minecraft:tinted_glass",
+                "minecraft:stained_glass",
+                "minecraft:glass",
+                "minecraft:hard_stained_glass",
+                {
+                	"tags": "query.any_tag( 'minecraft:is_pickaxe_item_destructible', 'minecraft:is_shovel_item_destructible', 'minecraft:is_axe_item_destructible', 'minecraft:is_hoe_item_destructible', 'minecraft:is_sword_item_destructible', 'minecraft:is_shears_item_destructible') && !query.any_tag('minecraft:crop', 'one_way_collidable', 'plant')"
+                }
+            ]
+        }
+    ]
+             },
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/ivy.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+						"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"wypnt_bab:prevent_place_with_liquid_above": {}
+		}
+	}
+}

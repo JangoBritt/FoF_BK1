@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wypnt_bab:end_conditions/depraved_wetlands_condition"
+		},
+		"places_feature": "wypnt_bab:voidmire_feature",
+		"iterations": "t.end_biome == 2",
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

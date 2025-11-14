@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:depraved_stem",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#eef6b4",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:depraved_stem",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 10
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:minecraft:is_axe_item_destructible": {},
+			"tag:log": {}
+		}
+	}
+}

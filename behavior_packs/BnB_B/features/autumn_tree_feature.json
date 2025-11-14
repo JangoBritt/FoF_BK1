@@ -1,0 +1,30 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:autumn_tree_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:autumn_tree_big_feature",
+				3
+			],
+			[
+				"wypnt_bab:deciduous_oak_tree_feature",
+				2
+			],
+			[
+				"minecraft:oak_tree_with_vines_feature",
+				2
+			],
+			[
+				"wypnt_bab:select_maple_tree_feature",
+				2
+			],
+			[
+				"wypnt_bab:yellow_maple_tree_feature",
+				1
+			]
+		]
+	}
+}

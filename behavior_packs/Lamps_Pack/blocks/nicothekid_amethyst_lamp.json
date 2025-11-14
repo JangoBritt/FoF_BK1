@@ -1,27 +1,63 @@
 {
-  "format_version": "1.21.0",
+  "format_version": "1.21.80",
   "minecraft:block": {
     "description": {
       "identifier": "nicothekid:amethyst_lamp",
       "menu_category": {
 				"category": "items",
-				"group": "items"
+				"group": "minecraft:items"
 			}
     },
     "components": {
-      "minecraft:display_name": "Amethyst Lamp",
+      "minecraft:display_name": "%tile.nicothekid.amethyst_lamp.name",
+      "minecraft:geometry": {
+        "identifier": "geometry.block.nicothekid_unit_cube"
+      },
       "minecraft:material_instances": {
         "*": {
           "texture": "nicothekid_amethyst_lamp",
           "render_method": "opaque",
+          "tint_method": "none",
           "ambient_occlusion": true,
-					"face_dimming": false
+					"face_dimming": false,
+					"isotropic": false
         }
       },
-      "minecraft:geometry": {
-        "identifier": "geometry.block.nicothekid_unit_cube"
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.block.nicothekid_unit_cube"
+        },
+        "material_instances": {
+          "*": {
+            "texture": "nicothekid_amethyst_lamp",
+            "render_method": "opaque",
+            "tint_method": "none",
+            "ambient_occlusion": true,
+            "face_dimming": false,
+            "isotropic": false
+          }
+        }
       },
-      "minecraft:map_color": "#a659d1",
+      "minecraft:destruction_particles": {
+        "texture": "nicothekid_amethyst_lamp",
+        "tint_method": "none"
+      },
+      "minecraft:map_color": {
+        "tint_method": "none",
+        "color": "#a659d1"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": false,
+            "liquid_type": "water",
+            "on_liquid_touches": "blocking",
+            "stops_liquid_flowing_out_from_direction": [
+              "up", "down", "north", "south", "east", "west"
+            ]
+          }
+        ]
+      },
       "minecraft:collision_box": {
         "origin": [ -8, 0, -8 ],
         "size": [ 16, 16, 16 ]
@@ -35,19 +71,26 @@
       "minecraft:friction": 0.4,
       "minecraft:flammable": false,
       "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 25.0
+        "explosion_resistance": 10.0
       },
       "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.4
+        "seconds_to_destroy": 1.5
       },
+      "minecraft:redstone_conductivity": {
+        "allows_wire_to_step_down": true,
+        "redstone_conductor": false
+      },
+      "minecraft:transformation": {
+			  "rotation": [ 0, 0, 0 ]
+			},
       "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_amethyst_lamp.json",
-      "tag:amethyst_lamp": {},
-      "tag:custom_stone_lamp": {},
-      "tag:custom_lamp": {},
-      "tag:pickaxe_diggable": {},
-      "tag:solid_block": {},
-      "tag:nicothekid_blocks": {},
-      "tag:stone": {}
+      "tag:nicothekid:amethyst_lamp": {},
+      "tag:nicothekid:custom_stone_lamp": {},
+      "tag:nicothekid:custom_lamp": {},
+      "tag:nicothekid:pickaxe_diggable": {},
+      "tag:nicothekid:full_block": {},
+      "tag:nicothekid:blocks": {},
+      "tag:minecraft:is_pickaxe_item_destructible": {}
     }
   }
 }

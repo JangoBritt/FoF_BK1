@@ -1,0 +1,36 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wypnt_bab:scatter_goblin_hut_feature"
+		},
+		"coordinate_eval_order": "xzy",
+		"iterations": 1,
+		"places_feature": "wypnt_bab:select_goblin_structure_feature",
+		"x": {
+			"distribution": "jittered_grid",
+			"step_size": 14,
+			"grid_offset": 8,
+			"extent": [
+				0,
+				16
+			]
+		},
+		"z": {
+			"distribution": "jittered_grid",
+			"step_size": 14,
+			"grid_offset": 8,
+			"extent": [
+				0,
+				16
+			]
+		},
+		"y": {
+			"distribution": "gaussian",
+			"extent": [
+				-4,
+				4
+			]
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+		  "identifier": "wypnt_bab:end_biomes/end_block_picker"
+		},
+		"features": [
+			"wypnt_bab:end_conditions/chorus_forest_condition",
+			"wypnt_bab:end_conditions/velvium_expanse_condition",
+			"wypnt_bab:end_conditions/depraved_wetlands_condition",
+			"wypnt_bab:end_conditions/rotveil_wastes_condition"			
+		],
+		"early_out": "first_success"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:select_strata_patch_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:strata_and_mud_patch",
+				1
+			],
+			[
+				"wypnt_bab:strata_and_dirt_patch",
+				1
+			]
+		]
+	}
+}

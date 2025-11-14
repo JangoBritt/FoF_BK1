@@ -567,7 +567,7 @@
         },
         {"type": "item","weight": 75,"name": "farmersdelight:skillet_block","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 75,"name": "farmersdelight:cooking_pot","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "korbon:standing_torch_item","functions": [{"function": "set_count","count": 1}]}
+        {"type": "item","weight": 25,"name": "wypnt_bab:standing_torch","functions": [{"function": "set_count","count": 1}]}
 
       ]
     }

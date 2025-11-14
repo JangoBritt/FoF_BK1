@@ -1,0 +1,134 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:fir_fence",
+			"states": {
+				"wypnt_bab:north": [
+					false,
+					true
+				],
+				"wypnt_bab:south": [
+					false,
+					true
+				],
+				"wypnt_bab:east": [
+					false,
+					true
+				],
+				"wypnt_bab:west": [
+					false,
+					true
+				],
+				"wypnt_bab:on_placed": [
+					false,
+					true
+				]
+			},
+			"menu_category": {
+				"category": "construction",
+				"group": "minecraft:itemGroup.name.fence"
+			}
+		},
+		"components": {
+			"minecraft:item_visual": {
+				"geometry": "geometry.wypnt_bab.fence_inventory",
+				"material_instances": {
+					"*": {
+					"texture": "wypnt_bab:fir_planks",
+					"render_method": "opaque"
+				}
+				}
+				},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2 // because vanilla is 2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 15 //15 because 3x5 is 15, and the resistance of the vanilla version is 3 
+			},
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:collision_box": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					16,
+					12
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-2,
+					0,
+					-2
+				],
+				"size": [
+					4,
+					12,
+					4
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:fir_planks",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.wypnt_bab.bab_fence",
+				"bone_visibility": {
+					"preview": false,
+					"fence": "query.block_state('wypnt_bab:on_placed') == true",
+					"north": "query.block_state('wypnt_bab:north') == true",
+					"south": "query.block_state('wypnt_bab:south') == true",
+					"east": "query.block_state('wypnt_bab:east') == true",
+					"west": "query.block_state('wypnt_bab:west') == true"
+				}
+			},
+			"minecraft:transformation": {
+				"translation": [
+					0,
+					0.255,
+					0
+				]
+			},
+			"tag:wypnt_bab:fence": {},
+			"tag:wood": {},
+				"wypnt_bab:fence_place":{},
+									"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('wypnt_bab:on_placed') == true",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.wypnt_bab.bab_fence",
+						"bone_visibility": {
+							"north": "query.block_state('wypnt_bab:north')",
+							"south": "query.block_state('wypnt_bab:south')",
+							"east": "query.block_state('wypnt_bab:east')",
+							"west": "query.block_state('wypnt_bab:west')",
+							"preview": false,
+							"fence": true
+						}
+					}
+				}
+			}
+		]
+	}
+}

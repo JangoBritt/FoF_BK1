@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "ntk_stone_elder_golem_trophy",
+		"metalness_emissive_roughness": "ntk_stone_elder_golem_trophy_mer",
+		"heightmap": "ntk_elder_golem_trophy_height"
+	}
+}

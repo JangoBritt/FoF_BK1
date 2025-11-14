@@ -1,0 +1,12 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "wypnt_bab:aspen_tree_with_beehive_random_feature"
+    },
+    "features": [
+      [ "wypnt_bab:aspen_tree_feature", 1 ],
+      [ "wypnt_bab:aspen_tree_with_beehive_feature", 1 ]
+    ]
+  }
+}

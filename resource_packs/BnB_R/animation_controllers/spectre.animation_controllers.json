@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wypnt_bab.spectre": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"idle": "query.is_alive",
+							"hover": "query.is_alive"
+						}
+					],
+					"transitions": [
+						{
+							"sink": "query.is_emerging"
+						}
+					]
+				},
+				"sink": {
+					"animations": [
+						"sink"
+					]
+				}
+			}
+		},
+		"controller.animation.wypnt_bab.spectre.sink": {
+			"states": {
+				"default": {}
+			}
+		}
+	}
+}

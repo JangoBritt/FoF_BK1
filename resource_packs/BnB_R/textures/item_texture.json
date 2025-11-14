@@ -1,0 +1,433 @@
+{
+	"texture_data": {
+		"wypnt_bab:enderium_ingot": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/enderium_ingot.png"
+		},
+		"wypnt_bab:enderium_hoe": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/enderium_hoe.png"
+		},
+		"wypnt_bab:enderium_shovel": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/enderium_shovel.png"
+		},
+		"wypnt_bab:enderium_axe": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/enderium_axe.png"
+		},
+		"wypnt_bab:enderium_pickaxe": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/enderium_pickaxe.png"
+		},
+		"wypnt_bab:enderium_sword": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/enderium_sword.png"
+		},
+		"wypnt_bab:enderium_boots": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/enderium_boots.png"
+		},
+		"wypnt_bab:enderium_leggings": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/enderium_leggings.png"
+		},
+		"wypnt_bab:enderium_chestplate": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/enderium_chestplate.png"
+		},
+		"wypnt_bab:enderium_helmet": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/enderium_helmet.png"
+		},
+		"wypnt_bab:tungsten_boots": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/tungsten_boots.png"
+		},
+		"wypnt_bab:tungsten_leggings": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/tungsten_leggings.png"
+		},
+		"wypnt_bab:tungsten_chestplate": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/tungsten_chestplate.png"
+		},
+		"wypnt_bab:tungsten_helmet": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/tungsten_helmet.png"
+		},
+		"wypnt_bab:shelf_mushrooms": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/shelf_mushrooms"]
+		},
+		"wypnt_bab:ivy": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/ivy"]
+		},
+		"wypnt_bab:daisy_petals": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/daisy_petals"]
+		},
+		"wypnt_bab:bluebell": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/bluebell"]
+		},
+		"wypnt_bab:violet_flower": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/violet_flower"]
+		},
+		"wypnt_bab:aspen_sapling_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/aspen_sapling"]
+		},
+		"wypnt_bab:brittlebush": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/brittlebush"]
+		},
+		"wypnt_bab:small_cactus": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/small_cactus"]
+		},
+		"wypnt_bab:deadfern": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/deadfern_top"]
+		},
+		"wypnt_bab:aloe_vera": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/aloe_vera"]
+		},
+		"wypnt_bab:aloe_vera_leaf": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/aloe"]
+		},
+		"wypnt_bab:bunchflower": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/bunchflower"]
+		},
+		"wypnt_bab:red_toadstool": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/toadstool_red"]
+		},
+		"wypnt_bab:coralroot": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/coralroot"]
+		},
+		"wypnt_bab:fir_sapling_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/fir_sapling"]
+		},
+		"wypnt_bab:fir_door": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/fir_door"]
+		},
+		"wypnt_bab:jacaranda_door": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/jacaranda_door"]
+		},
+		"wypnt_bab:jacaranda_sapling_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jacaranda_sapling"]
+		},
+		"wypnt_bab:autumn_sapling_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/autumn_sapling"]
+		},
+		"wypnt_bab:wisteria": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/wisteria_head"]
+		},
+		"wypnt_bab:lavender_flower": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/lavender_flower"]
+		},
+		"wypnt_bab:lazarus": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/lazarus"]
+		},
+		"wypnt_bab:shrub_grass": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/shrubgrass"]
+		},
+		"wypnt_bab:redwood_door": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/redwood_door"]
+		},
+		"wypnt_bab:redwood_sapling_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/redwood_sapling"]
+		},
+		"wypnt_bab:duckweed": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/duckweed"]
+		},
+		"wypnt_bab:lily_blossom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/lily_blossom"]
+		},
+		"wypnt_bab:cattail": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/cattail_top"]
+		},
+		"wypnt_bab:baobab_door": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/baobab_door"]
+		},
+		"wypnt_bab:baobab_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/baobab_sapling"]
+		},
+		"wypnt_bab:reeds": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/water_reeds"]
+		},
+		"wypnt_bab:clovers": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/clovers"]
+		},
+		"wypnt_bab:deer_hide": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/deer_hide"]
+		},
+		"wypnt_bab:venison_raw": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/venison_raw"]
+		},
+		"wypnt_bab:venison_cooked": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/venison_cooked"]
+		},
+		"wypnt_bab:deer_antler": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/deer_antler"]
+		},
+		"wypnt_bab:didymoch": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/didymoch"]
+		},
+		"wypnt_bab:jungfern": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/jungfern_top"]
+		},
+		"wypnt_bab:maple_door_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/maple_door"]
+		},
+		"wypnt_bab:maple_sapling_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/maple_sapling"]
+		},
+		"wypnt_bab:yellow_maple_sapling_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/yellow_maple_sapling"]
+		},
+		"wypnt_bab:grizzly_pelt": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/grizzly_pelt"]
+		},
+		"wypnt_bab:glass_jar_firefly": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/glass_jar_firefly"]
+		},
+		"wypnt_bab:glass_jar": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/glass_jar"]
+		},
+		"wypnt_bab:jacaranda_lantern_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/jacaranda_lantern"]
+		},
+		"wypnt_bab:gold_khopesh": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/khopesh"]
+		},
+		"wypnt_bab:crocodile_meat_raw": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/crocodile_meat_raw"]
+		},
+		"wypnt_bab:crocodile_meat_cooked": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/crocodile_meat_cooked"]
+		},
+		"wypnt_bab:brittlebright": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/brittlebright"]
+		},
+		"wypnt_bab:sulfur": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/sulfur"]
+		},
+		"wypnt_bab:beach_grass": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/beach_grass0"]
+		},
+		"wypnt_bab:mullein": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/mullein_top"]
+		},
+		"wypnt_bab:whispering_willow": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/whispering_willow_off"]
+		},
+		"wypnt_bab:lichen_hanging": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/lichen_hanging"]
+		},
+		"wypnt_bab:lichen_carpet": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/lichen_carpet"]
+		},
+		"wypnt_bab:dweller_flesh": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/dweller_flesh"]
+		},
+		"wypnt_bab:lurker_foot": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/lurker_foot"]
+		},
+		"wypnt_bab:forsaken_oak_door": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/forsaken_oak_door"]
+		},
+		"wypnt_bab:forsaken_oak_sapling_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/forsaken_oak_sapling"]
+		},
+		"wypnt_bab:brown_toadstool": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/toadstool_brown"]
+		},
+		"wypnt_bab:void_blossom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/void_blossom"]
+		},
+		"wypnt_bab:chorus_door_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/chorus_door"]
+		},
+		"wypnt_bab:chorus_sapling_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/chorus_sapling"]
+		},
+		"wypnt_bab:void_blossom_bush": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/void_blossom_bush_top"]
+		},
+		"wypnt_bab:void_turf_grass": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/void_turf_grass0"]
+		},
+		"wypnt_bab:tungsten_ingot": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/tungsten_ingot"]
+		},
+		"wypnt_bab:raw_tungsten": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/tungsten_raw"]
+		},
+		"wypnt_bab:tungsten_pickaxe": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/tungsten_pickaxe"]
+		},
+		"wypnt_bab:tungsten_axe": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/tungsten_axe"]
+		},
+		"wypnt_bab:tungsten_sword": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/tungsten_sword"]
+		},
+		"wypnt_bab:tungsten_shovel": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/tungsten_shovel"]
+		},
+		"wypnt_bab:tungsten_hoe": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/tungsten_hoe"]
+		},
+		"wypnt_bab:personal_settings": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/gear_icon_grey"]
+		},
+		"wypnt_bab:global_settings": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/gear_icon_admin"]
+		},
+		"wypnt_bab:chorus_ivy": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/chorus_ivy"]
+		},
+		"wypnt_bab:velvium_vine": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/velvium_vine_top"]
+		},
+		"wypnt_bab:velvium_vine_bulb": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/velvium_vine_bulb"]
+		},
+		"wypnt_bab:velvium_grass": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/velvium_grass0"]
+		},
+		"wypnt_bab:puffshroom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/puffshroom"]
+		},
+		"wypnt_bab:voidmire_grass": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/voidmire_grass0"]
+		},
+		"wypnt_bab:depraved_vine": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/depraved_vine_head"]
+		},
+		"wypnt_bab:depraved_vine_flower": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/depraved_vine_flower"]
+		},
+		"wypnt_bab:info_book": {
+			"textures": ["textures/items/book_portfolio"]
+		},
+		"wypnt_bab:spore_chute": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/spore_chute"]
+		},
+		"wypnt_bab:depraved_shroom": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/depraved_shroom"]
+		},
+		"wypnt_bab:popped_chorus_sapling": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/popped_chorus_sapling"]
+		},
+		"wypnt_bab:coconut": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/coconut"]
+		},
+		"wypnt_bab:coconut_open": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/coconut_open"]
+		},
+		"wypnt_bab:coconut_sapling_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/coconut_sapling"]
+		},
+		"wypnt_bab:rotveil_grass": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/rotveil_grass0"]
+		},
+		"wypnt_bab:rotwarts_item": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/rotwarts0"]
+		},
+		"wypnt_bab:void_shard": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/void_shard"]
+		},
+		"wypnt_bab:barley": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/wild_barley_top2"]
+		},
+		"wypnt_bab:barley_bundle": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/barley"]
+		},
+		"wypnt_bab:barley_seeds": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/barley_seeds.png"
+		},
+		"wypnt_bab:chimp_spawn_egg": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/spawn_egg_chimp.png"
+		},
+		"wypnt_bab:decayed_spawn_egg": {
+			"textures": "textures/coreblockstudios/biomesandbeyond/items/spawn_egg_decayed.png"
+		},		
+        "wypnt_bab:crocodile_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_crocodile"]
+        },
+        "wypnt_bab:deer_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_deer"]
+        },
+        "wypnt_bab:dweller_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_dweller"]
+        },
+        "wypnt_bab:firefly_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_firefly"]
+        },
+        "wypnt_bab:goblin_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_goblin"]
+        },
+        "wypnt_bab:grizzly_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_grizzly"]
+        },
+        "wypnt_bab:hollowmen_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_hollowed"]
+        },
+        "wypnt_bab:lurker_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_lurker"]
+        },
+        "wypnt_bab:mummy_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_mummy"]
+        },
+        "wypnt_bab:puffling_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_puffling"]
+        },
+        "wypnt_bab:raccoon_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_raccoon"]
+        },
+        "wypnt_bab:sigiling_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_sigiling"]
+        },
+        "wypnt_bab:skeleman_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_decayed"]
+        },
+        "wypnt_bab:spectre_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_spectre"]
+        },
+        "wypnt_bab:voidjelly_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_voidjelly"]
+        },
+        "wypnt_bab:voidcaller_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_voidcaller"]
+        },
+        "wypnt_bab:voidstrider_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_voidstrider"]
+        },
+        "wypnt_bab:warthog_spawn_egg": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_warthog"]
+        },
+		"wypnt_bab:nautiling_spawn_egg": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/spawn_egg_nautiling"]
+		},
+        "wypnt_bab:striding_raw": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/striding_raw"]
+        },
+        "wypnt_bab:striding_cooked": {
+            "textures": ["textures/coreblockstudios/biomesandbeyond/items/striding_cooked"]
+        },
+		"wypnt_bab:lazarus_white": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/blocks/lazarus_white"]
+		},
+		"wypnt_bab:standing_torch": {
+			"textures":["textures/coreblockstudios/biomesandbeyond/items/standing_torch"]
+		},
+		"wypnt_bab:swiftrunner_boots": {
+			"textures":["textures/coreblockstudios/biomesandbeyond/items/swiftrunner_boots"]
+		},
+		"wypnt_bab:crocodile_egg": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/crocodile_egg"]
+		},
+		"wypnt_bab:nautiling_bucket": {
+			"textures": ["textures/coreblockstudios/biomesandbeyond/items/nautiling_bucket"]
+		},
+		"wypnt_bab:banana": {
+			"textures": [
+				"textures/coreblockstudios/biomesandbeyond/items/banana"
+			]
+		},
+		"wypnt_bab:banana_seeds": {
+			"textures": [
+				"textures/coreblockstudios/biomesandbeyond/items/banana_seeds"
+			]
+		},
+		"wypnt_bab:banana_sapling": {
+			"textures": [
+				"textures/coreblockstudios/biomesandbeyond/items/banana_sapling"
+			]
+		} 
+
+	},
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items"
+}

@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "wypnt_bab:furnace_venison"
+		},
+		"tags": [
+			"furnace",
+			"smoker",
+			"campfire",
+			"soul_campfire"
+		],
+		"input": "wypnt_bab:venison",
+		"output": "wypnt_bab:cooked_venison"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:select_birch_forest_trees_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:pendula_birch_tree_feature",
+				3
+			],
+			[
+				"minecraft:select_birch_tree_with_leaf_litter_feature",
+				1
+			]
+		]
+	}
+}

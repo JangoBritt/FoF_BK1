@@ -38,7 +38,7 @@
 					"allowed_faces": ["up"]
 				}]
 			},
-			"minecraft:material_instances": {"*": {"texture": "ravager_milk_mug","render_method": "alpha_test","ambient_occlusion": false}},
+			"minecraft:material_instances": {"*": {"texture": "fables_misc:ravager_milk_mug","render_method": "alpha_test","ambient_occlusion": false}},
 			"minecraft:collision_box": {"origin": [-3,0.0,-3],"size": [9,8,6]},
 			"minecraft:selection_box": {"origin": [-3,0.0,-3],"size": [9,8,6]},
 			"minecraft:light_dampening": 0,

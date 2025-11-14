@@ -1,0 +1,123 @@
+{
+    "format_version": "1.21.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "wypnt_bab:jacaranda_lantern",
+              "states": {
+            "wypnt_bab:hanging": [ "none", "false", "true" ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('wypnt_bab:hanging') == 'false'",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-3, 0, -3],
+                        "size": [6, 10, 6]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [-3, 0, -3],
+                        "size": [6, 10, 6]
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [{
+                        "allowed_faces": ["up"],
+                        "block_filter": ["minecraft:tinted_glass",
+                "minecraft:stained_glass",
+                "minecraft:glass",
+                "minecraft:hard_stained_glass", {"tags": "query.any_tag('minecraft:is_pickaxe_item_destructible') || query.any_tag('minecraft:is_shovel_item_destructible') || query.any_tag('minecraft:is_axe_item_destructible') || query.any_tag('minecraft:is_hoe_item_destructible') || query.any_tag('minecraft:is_shears_item_destructible') || query.any_tag('minecraft:is_sword_item_destructible')"}]
+                    }]}
+                }
+            },
+            {
+                "condition": "query.block_state('wypnt_bab:hanging') == 'true'",
+                "components": {
+                    "minecraft:selection_box": {
+                      "origin": [-3, 2, -3],
+                      "size": [6, 9, 6]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [-3, 2, -3],
+                        "size": [6, 9, 6]
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [{
+                        "allowed_faces": ["down"],
+                        "block_filter": ["minecraft:tinted_glass",
+                "minecraft:stained_glass",
+                "minecraft:glass",
+                "minecraft:hard_stained_glass",{"tags": "query.any_tag('minecraft:is_pickaxe_item_destructible') || query.any_tag('minecraft:is_shovel_item_destructible') || query.any_tag('minecraft:is_axe_item_destructible') || query.any_tag('minecraft:is_hoe_item_destructible') || query.any_tag('minecraft:is_shears_item_destructible') || query.any_tag('minecraft:is_sword_item_destructible')"}]
+                    }]}
+                }
+            }
+        ],
+        "components": {
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 3.5
+            },
+            "minecraft:geometry": {
+				"identifier": "geometry.wypnt_bab.jacaranda_lantern",
+				"bone_visibility": {
+					"lantern_floor": "query.block_state('wypnt_bab:hanging') == 'false'",
+					"lantern_hanging": "query.block_state('wypnt_bab:hanging') == 'true'"
+				}
+			},
+            "minecraft:light_emission": 15,
+            "minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/jacaranda_lantern.json",
+            "minecraft:light_dampening": 0,
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "block_filter": [
+                        "minecraft:tinted_glass",
+                "minecraft:stained_glass",
+                "minecraft:glass",
+                "minecraft:hard_stained_glass",
+                            {
+                                "tags": "query.any_tag('minecraft:is_pickaxe_item_destructible') || query.any_tag('minecraft:is_shovel_item_destructible') || query.any_tag('minecraft:is_axe_item_destructible') || query.any_tag('minecraft:is_hoe_item_destructible') || query.any_tag('minecraft:is_shears_item_destructible') || query.any_tag('minecraft:is_sword_item_destructible')"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "wypnt_bab:jacaranda_lantern",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:transformation": {
+                "rotation": [
+                    0,
+                    90,
+                    0
+                ]
+            },
+             "wypnt_bab:hanging_placement": {},
+            "minecraft:collision_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 15, 16]
+            },
+            "minecraft:selection_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 15, 16 ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 17.5
+            },
+            						"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
+			}
+        }
+    }
+}

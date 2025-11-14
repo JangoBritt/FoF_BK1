@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:snap_to_surface_feature": {
+        "description": {
+            "identifier": "wypnt_bab:wisteria_snap_feature"
+        },
+        "feature_to_snap": "wypnt_bab:wisteria_vine_feature",
+        "surface": "ceiling",
+        "vertical_search_range": 12,
+        "allow_air_placement": true,
+        "allow_underwater_placement": false,
+        "allowed_surface_blocks": [
+            {
+                "name": "minecraft:leaves"
+            },
+            {
+                "name": "minecraft:cherry_leaves"
+            },
+            {
+                "name": "minecraft:azalea_leaves"
+            },
+            {
+                "name": "wypnt_bab:jacaranda_leaves"
+            }
+        ]
+    }
+}

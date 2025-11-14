@@ -146,3 +146,17 @@ tile.fables_misc:ravager_milk_mug.name=Mug of Ravager Milk
 
 action.hint.exit.ravager=Jump to Exit
 action.interact.deny=You are not the Master of this Beast
+
+item.FoF:o2pack_white=Astronaut's Oxygen pack
+
+##################################################
+## Biomes & Beyond Additions
+##################################################
+
+tile.wypnt_bab:strata_brick_stairs=Strata Brick Stairs
+tile.wypnt_bab:baobab_stairs=Baobab Stairs
+tile.wypnt_bab:redwood_stairs=Redwood Stairs
+tile.wypnt_bab:jacaranda_stairs=Jacaranda Stairs
+tile.wypnt_bab:forsaken_oak_stairs=Forsaken Oak Stairs
+tile.wypnt_bab:chorus_stairs=Chorus Stairs
+tile.wypnt_bab:maple_stairs=Maple Stairs

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:select_ruined_shrine_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:ruined_shrine1_feature_mcstructure",
+				8
+			],
+			[
+				"wypnt_bab:ruined_shrine2_feature_mcstructure",
+				8
+			]
+		]
+	}
+}

@@ -1,0 +1,101 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "wypnt_bab:beach_grass_feature",
+			"places_feature": "wypnt_bab:scatter_beach_grass_feature"
+		},
+		"conditions": {
+			"placement_pass": "final_pass",
+			"minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "tropical_beach"
+                        },
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "beach"
+						}
+                    ]
+                },
+				{
+					"none_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "frozen"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "mutated"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "cold"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "ice"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "ice_plains"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "ice_plains_spikes"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "cold_taiga"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "cold_beach"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "frozen_peaks"
+						}
+					]
+				}
+            ]
+		},
+		"distribution": {
+			"iterations": "math.random(4, 32)",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					"query.heightmap(variable.worldx, variable.worldz) * 2"
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

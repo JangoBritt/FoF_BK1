@@ -1,0 +1,68 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:brown_toadstool"
+		},
+		"components": {
+			"minecraft:collision_box": false,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:brown_toadstool",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:map_color": "#144d12",
+			"minecraft:selection_box": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					10,
+					9
+				]
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							{
+                    "tags": "q.any_tag('dirt')"
+                }
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/toadstool_brown.json",
+			 			"wypnt_bab:prevent_place_with_liquid_above": {}
+		}
+	}
+}

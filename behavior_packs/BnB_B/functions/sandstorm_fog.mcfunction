@@ -1,0 +1,1 @@
+execute as @e[type=wypnt_bab:weather_detect] at @s run fog @a[r=128] push "wypnt_bab:sandstorm_fog" sandstorm

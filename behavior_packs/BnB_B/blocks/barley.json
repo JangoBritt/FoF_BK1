@@ -1,0 +1,173 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:barley",
+			"states": {
+				"wypnt_bab:top": [
+					false,
+					true
+				],
+				"wypnt_bab:length": [
+					0,
+					1,
+					2
+				]
+			}			
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('wypnt_bab:length') == 0 && !q.block_state('wypnt_bab:top')",
+				"components": {
+					"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:barley_bottom",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": true
+				}
+			},
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							{
+                    "tags": "q.any_tag('dirt', 'sand')"
+                }
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/empty.json"
+				}
+				},
+			{
+				"condition": "query.block_state('wypnt_bab:length') == 0 && q.block_state('wypnt_bab:top')",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:barley_top0",
+							"render_method": "alpha_test_single_sided",
+							"face_dimming": false,
+							"ambient_occlusion": true
+						}
+					},
+					"minecraft:movable": {
+        "movement_type": "immovable"
+      },
+					"minecraft:geometry": "minecraft:geometry.cross"
+				}
+			},
+						{
+				"condition": "query.block_state('wypnt_bab:length') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:barley_top1",
+							"render_method": "alpha_test_single_sided",
+							"face_dimming": false,
+							"ambient_occlusion": true
+						}
+					},
+					"minecraft:movable": {
+        "movement_type": "immovable"
+      },
+					"minecraft:geometry": "minecraft:geometry.cross"
+				}
+			},
+			{
+				"condition": "query.block_state('wypnt_bab:length') ==2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:barley_top2",
+							"render_method": "alpha_test_single_sided",
+							"face_dimming": false,
+							"ambient_occlusion": true
+						}
+					},
+					"minecraft:movable": {
+        "movement_type": "immovable"
+      },
+					"minecraft:geometry": "minecraft:geometry.cross"
+				}
+			}
+		],
+		"components": {
+			"wypnt_bab:double_block": {
+        "states": {
+        	"wypnt_bab:top": true,
+            "wypnt_bab:length": [ 0, 1, 2 ] // If you put multiple values in an array, it will randomly select one at the end, just like Barley
+        }
+    },
+ "tag:minecraft:crop": {},
+ "minecraft:movable": {
+        "movement_type": "popped"
+      },
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:barley_bottom",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": true
+				}
+			},
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"wypnt_bab:barley"
+						]
+					}
+				]
+			},
+			"minecraft:collision_box": false, // Used to avoid collision 
+			"minecraft:map_color": "#144d12",
+			"minecraft:flammable": {
+				"catch_chance_modifier": 60,
+				"destroy_chance_modifier": 100
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			},
+			 			"wypnt_bab:prevent_place_with_liquid_above": {}
+		}
+	}
+}

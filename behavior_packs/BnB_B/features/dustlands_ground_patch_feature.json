@@ -1,0 +1,13 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "wypnt_bab:dustlands_ground_patch_feature"
+		},
+		"early_out": "none",
+		"features": [
+			"wypnt_bab:strata_scatter_feature",
+			"wypnt_bab:coarse_dirt_scatter_feature"
+		]
+	}
+}

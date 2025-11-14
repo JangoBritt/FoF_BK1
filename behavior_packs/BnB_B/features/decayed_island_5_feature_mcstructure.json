@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "wypnt_bab:decayed_island_5_feature_mcstructure"
+		},
+		"structure_name": "mystructure:decayed_island_5",
+		"adjustment_radius": 0,
+		"facing_direction": "random",
+		"constraints": {
+			"block_intersection": {
+				"block_whitelist": [
+					"minecraft:air"
+				]
+			}
+		}
+	}
+}

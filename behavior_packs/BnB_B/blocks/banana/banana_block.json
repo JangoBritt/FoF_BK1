@@ -1,0 +1,180 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:banana_block",
+			"menu_category": {
+				"category": "items"
+			},
+			"states": {
+				"wypnt_bab:growth_fruit": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7
+				]
+			}			
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('wypnt_bab:growth_fruit') == 0",
+				"components": {
+					"minecraft:display_name": "tile.wypnt_bab:banana_block_empty.name",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:banana_block_0",
+							"render_method": "alpha_test"
+						}
+					}			
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:growth_fruit') == 1",
+				"components": {
+					"minecraft:display_name": "tile.wypnt_bab:banana_block_empty.name",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:banana_block_0",
+							"render_method": "alpha_test"
+						}
+					}			
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:growth_fruit') == 2",
+				"components": {
+					"minecraft:display_name": "tile.wypnt_bab:banana_block_empty.name",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:banana_block_1",
+							"render_method": "alpha_test"
+						}
+					}			
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:growth_fruit') == 3",
+				"components": {
+					"minecraft:display_name": "tile.wypnt_bab:banana_block_inmature.name",
+					"minecraft:loot": "loot_tables/empty.json",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:banana_block_1",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:growth_fruit') == 4",
+				"components": {
+					"minecraft:display_name": "tile.wypnt_bab:banana_block_inmature.name",
+					"minecraft:loot": "loot_tables/empty.json",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:banana_block_2",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:growth_fruit') == 5",
+				"components": {
+					"minecraft:display_name": "tile.wypnt_bab:banana_block_inmature.name",
+					"minecraft:loot": "loot_tables/empty.json",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:banana_block_2",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:growth_fruit') == 6",
+				"components": {
+					"minecraft:display_name": "tile.wypnt_bab:banana_block_inmature.name",
+					"minecraft:loot": "loot_tables/empty.json",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:banana_block_3",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wypnt_bab:growth_fruit') == 7",
+				"components": {
+					"minecraft:display_name": "tile.wypnt_bab:banana_block.name",
+					"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/banana_block.json",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wypnt_bab:banana_block",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			}
+		],
+		"components": {
+			"wypnt_bab:banana_block": {},
+			"minecraft:collision_box":false,
+			"minecraft:selection_box": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					16,
+					12
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"down"
+						],
+						"block_filter": [
+							"minecraft:jungle_leaves"
+						]
+					}
+				]
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:light_dampening": 15,
+			"minecraft:light_emission": 0,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:geometry": "geometry.wypnt_bab.banana_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:banana_block",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:map_color": "#7D847D"
+		}
+	}
+}

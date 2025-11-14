@@ -1,0 +1,13 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "wypnt_bab:mesa_grass_patch_with_dirt_feature"
+		},
+		"early_out": "first_failure",
+		"features": [
+			"wypnt_bab:mesa_grass_scatter_feature",
+			"wypnt_bab:coarse_dirt_scatter_feature"
+		]
+	}
+}

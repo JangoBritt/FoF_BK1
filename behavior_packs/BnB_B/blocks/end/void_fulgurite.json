@@ -1,0 +1,71 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:void_fulgurite",
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": false,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:void_fulgurite",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:light_emission": 7,
+			"minecraft:light_dampening": 0,
+			"minecraft:map_color": "#144d12",
+			"minecraft:selection_box": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					10,
+					9
+				]
+			},
+			"wypnt_bab:spawn_ore_xp":{
+				"min_tier": 7 //diamond above
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:minecraft:diamond_tier_destructible": {},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/void_fulgurite.json"
+		}
+	}
+}

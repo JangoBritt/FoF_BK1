@@ -138,6 +138,8 @@
 				]
 			},
 			"animations": {
+				"walk_in_place": "animation.fables_avatars.walk_in_place",
+				"run_in_place": "animation.fables_avatars.run_in_place",
 				"look_at_target_controller": "controller.animation.fables_avatars.look_at_target",
 				"fables_avatars_look_at_target": "animation.fables_avatars.look_at_target",
 				"pose1": "animation.fables_avatars.default",

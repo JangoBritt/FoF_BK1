@@ -1,0 +1,32 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wypnt_bab:scatter_void_blossom_bush_feature"
+		},
+		"iterations": 35,
+		"x": {
+			"distribution": "gaussian",
+			"extent": [
+				-5,
+				5
+			]
+		},
+		"y": {
+			"distribution": "triangle",
+			"extent": [
+				-2,
+				2
+			]
+		},
+		"z": {
+			"distribution": "gaussian",
+			"extent": [
+				-5,
+				5
+			]
+		},
+		"coordinate_eval_order": "zxy",
+		"places_feature": "wypnt_bab:void_blossom_bush_snap_feature"
+	}
+}

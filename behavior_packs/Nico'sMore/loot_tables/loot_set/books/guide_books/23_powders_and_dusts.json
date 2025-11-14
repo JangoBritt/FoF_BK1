@@ -27,35 +27,35 @@
                 "•§lImpact Hit Damage§r: 7\n•§lImpact Area Damage§r: 2 in 2-block radius.\n•§lImpact Effect§r: Magical Scourge I, Spirit Piercer.\n•§lUsed to craft§r: Chocolate Bar, Chocolate Drinks, Lush Quill, Cocoa Beans.",
                 "•Can be used to transform the Spore Pot into a Cocoa Spore Pot.",
                 
-                "§lCharcoal Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Furnance, Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand Equippable§r: YES\n•§lProjectile of§r: Powder Staff",
+                "§lCharcoal Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Furnace, Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand Equippable§r: YES\n•§lProjectile of§r: Powder Staff",
                 "•§lImpact Hit Damage§r: 7\n•§lImpact Area Damage§r: 2 in 2-block radius.\n•§lImpact Effect§r: Magical Scourge I, Spirit Piercer.\n•Used to craft: Bottle of Clouds, Earthen Quill, Charcoal.",
                 "•Can be used to transform the Spore Pot into a Charcoal Spore Pot.",
                 
-                "§lGold Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Skeleton Golden Swordman\n•§lCraftable on§r: Blast Furnance or Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand Equippable§r: YES",
+                "§lGold Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Skeleton Golden Swordman\n•§lCraftable on§r: Blast Furnace or Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand Equippable§r: YES",
                 "•§lProjectile of§r: Powder Staff\n•§lImpact Hit Damage§r: 8\n•§lImpact Area Damage§r: 3 in 2-block radius.\n•§lImpact Effect§r: Magical Scourge I, Spirit Piercer.\n•§lUsed to craft§r: Radiant Quill, Scroll of Purification,",
                 "Scroll of Resurgence, Scroll of Hoarding, Enchanted Dust, Gold Nugget.\n•Can be used to transform the Spore Pot into a Gold Spore Pot.",
                 
-                "§lIron Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Skeleton Swordman\n•§lCraftable on§r: Blast Furnance, Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand Equippable§r: YES",
+                "§lIron Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Skeleton Swordman\n•§lCraftable on§r: Blast Furnace, Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand Equippable§r: YES",
                 "•§lProjectile of§r: Powder Staff\n•§lImpact Hit Damage§r: 8\n•§lImpact Area Damage§r: 3 in 2-block radius.\n•§lImpact Effect§r: Magical Scourge I, Spirit Piercer.\n•§lUsed to craft§r: Scroll of Protection, Scroll of Fire Protection,",
                 "Scroll of Strength, Scroll of Berserk, Enchanted Dust, Iron Nugget, Iron Apple.\n•Can be used to transform the Spore Pot into a Iron Spore Pot.",
                 
-                "§lLapis Lazuli Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Blast Furnance, Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand Equippable§r: YES\n•§lProjectile of§r: Powder Staff",
+                "§lLapis Lazuli Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Blast Furnace, Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand Equippable§r: YES\n•§lProjectile of§r: Powder Staff",
                 "•§lImpact Hit Damage§r: 8\n•§lImpact Area Damage§r: 4 in 2-block radius.\n•§lImpact Effect§r: Magical Scourge I, Spirit Piercer.\n•§lUsed to craft§r: Arcane Quill, Scroll of Invisibility, Scroll of Acceleration, Scroll of Hoarding,",
-                "Enchanted Dust, Lapis Lazuli Apple, Lapis Lazuli.\n•Can be used to transform the Spore Pot into a Lapis Lazuli Spore Pot.",
+                "Enchanted Dust, Lapis Lazuli Apple, Lapis Lazuli, Arcazure Pearl.\n•Can be used to transform the Spore Pot into a Lapis Lazuli Spore Pot.",
                 
-                "§lAmethyst Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Blast Furnance, Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand Equippable§r: YES\n•§lProjectile of§r: Powder Staff",
+                "§lAmethyst Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Blast Furnace, Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand Equippable§r: YES\n•§lProjectile of§r: Powder Staff",
                 "•§lImpact Hit Damage§r: 8\n•§lImpact Area Damage§r: 3 in 2-block radius.\n•§lImpact Effect§r: Magical Scourge I, Spirit Piercer.\n•§lUsed to craft§r: Elytra Scrap, Void Quill, Scroll of Purification, Amethyst Apple, Enchanted Dust,",
                 "Amethyst Shard.\n•Can be used to transform the Spore Pot into a Amethyst Spore Pot.",
                 
-                "§lEmerald Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Cave Dweller, Wandering Collector\n•§lCraftable on§r: Blast Furnance or Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand Equippable§r: YES",
+                "§lEmerald Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lDropped by§r: Cave Dweller, Wandering Collector\n•§lCraftable on§r: Blast Furnace or Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n•§lOffhand Equippable§r: YES",
                 "•§lProjectile of§r: Powder Staff\n•§lImpact Hit Damage§r: 9\n•§lImpact Area Damage§r: 3 in 2-block radius.\n•§lImpact Effect§r: Magical Scourge I, Spirit Piercer.\n•§lUsed to craft§r: Wild Quill, Scroll of Resurgence, Scroll of Hoarding,",
                 "Enchanted Dust, Emerald Apple, Emerald.\n•Can be used to transform the Spore Pot into a Emerald Spore Pot.",
                 
-                "§lDiamond Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Blast Furnance, Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n§lOffhand Equippable§r: YES\n•§lProjectile of§r: Powder Staff",
-                "•§lImpact Hit Damage§r: 12\n•§lImpact Area Damage§r: 6 in 2-block radius.\n•§lImpact Effect§r: Magical Scourge I, Spirit Piercer.\n•§lUsed to craft§r: Scroll of Protection, Scroll of Strength, Scroll of Berserk, Enchanted Dust, Diamond,",
-                "Diamond Apple.\n•Can be used to transform the Spore Pot into a Diamond Spore Pot.",
+                "§lDiamond Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Blast Furnace, Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n§lOffhand Equippable§r: YES\n•§lProjectile of§r: Powder Staff",
+                "•§lImpact Hit Damage§r: 12\n•§lImpact Area Damage§r: 6 in 2-block radius.\n•§lImpact Effect§r: Magical Scourge I, Spirit Piercer.\n•§lUsed to craft§r: Soul Quill, Scroll of Protection, Scroll of Strength, Scroll of Berserk, Enchanted Dust,",
+                "Diamond, Diamond Apple, Arcazure Pearl, Levitation Staff.\n•Can be used to transform the Spore Pot into a Diamond Spore Pot.",
                 
-                "§lNetherite Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Blast Furnance, Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n§lOffhand Equippable§r: YES\n•§lProjectile of§r: Powder Staff",
+                "§lNetherite Powder§r\n§8ITEM§r\n \n•§lRarity§r: Common\n•§lCraftable on§r: Blast Furnace, Artifacture Table.\n•§lStackable§r: 64\n•§lDispensable§r: YES\n§lOffhand Equippable§r: YES\n•§lProjectile of§r: Powder Staff",
                 "•§lImpact Hit Damage§r: 20\n•§lImpact Area Damage§r: 10 in 2-block radius.\n•§lImpact Effect§r: Magical Scourge I, Spirit Piercer.\n•§lUsed to craft§r: Enchanted Dust, Netherite Scrap, Netherite Apple.",
                 "•Can be used to transform the Spore Pot into a Netherite Spore Pot.",
                 

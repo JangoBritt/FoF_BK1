@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:select_shroomtree_big_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:shroomtree_big_1_feature",
+				1
+			],
+			[
+				"wypnt_bab:shroomtree_big_2_feature",
+				1
+			]
+		]
+	}
+}

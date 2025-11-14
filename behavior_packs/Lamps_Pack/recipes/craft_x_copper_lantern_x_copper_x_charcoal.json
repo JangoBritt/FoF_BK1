@@ -1,11 +1,13 @@
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.40",
   "minecraft:recipe_shaped": {
     "description": {
       "identifier": "nicothekid:craft_x_copper_lantern_x_copper_x_charcoal"
     },
     "priority": 3,
-    "tags": [ "medieval:workbench" ],
+    "tags": [ "crafting_table" ],
+    "group": "copper_lantern",
+    "assume_symmetry": true,
     "pattern": [
       " A ",
       "CBC",

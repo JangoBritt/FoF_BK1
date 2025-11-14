@@ -1,0 +1,342 @@
+{
+  "format_version": "1.21.40",
+  "nicothekid:acacia_wood_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:acacia_wood_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:amethyst_lamp": {
+    "sound": "amethyst_block"
+  },
+  "nicothekid:andesite_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:andesite_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:bamboo_wood_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:bamboo_wood_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:basalt_lantern": {
+    "sound": "basalt"
+  },
+  "nicothekid:basalt_soul_lantern": {
+    "sound": "basalt"
+  },
+  "nicothekid:birch_wood_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:birch_wood_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:blackstone_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:blackstone_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:brick_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:brick_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:calcite_lantern": {
+    "sound": "calcite"
+  },
+  "nicothekid:calcite_soul_lantern": {
+    "sound": "calcite"
+  },
+  "nicothekid:cherry_wood_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:cherry_wood_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:cobbled_deepslate_lantern": {
+    "sound": "deepslate"
+  },
+  "nicothekid:cobbled_deepslate_soul_lantern": {
+    "sound": "deepslate"
+  },
+  "nicothekid:cobblestone_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:cobblestone_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:copper_lamp": {
+    "sound": "copper"
+  },
+  "nicothekid:copper_lantern": {
+    "sound": "copper"
+  },
+  "nicothekid:cracked_deepslate_brick_lantern": {
+    "sound": "deepslate_bricks"
+  },
+  "nicothekid:cracked_deepslate_brick_soul_lantern": {
+    "sound": "deepslate_bricks"
+  },
+  "nicothekid:cracked_polished_blackstone_brick_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:cracked_polished_blackstone_brick_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:cracked_stone_brick_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:cracked_stone_brick_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:crimson_hyphae_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:crimson_hyphae_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:dark_oak_wood_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:dark_oak_wood_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:deepslate_brick_lantern": {
+    "sound": "deepslate_bricks"
+  },
+  "nicothekid:deepslate_brick_soul_lantern": {
+    "sound": "deepslate_bricks"
+  },
+  "nicothekid:deepslate_lantern": {
+    "sound": "deepslate"
+  },
+  "nicothekid:deepslate_soul_lantern": {
+    "sound": "deepslate"
+  },
+  "nicothekid:diorite_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:diorite_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:dripstone_lantern": {
+    "sound": "dripstone_block"
+  },
+  "nicothekid:dripstone_soul_lantern": {
+    "sound": "dripstone_block"
+  },
+  "nicothekid:end_stone_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:end_stone_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:end_stone_brick_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:end_stone_brick_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:exposed_copper_lamp": {
+    "sound": "copper"
+  },
+  "nicothekid:exposed_copper_lantern": {
+    "sound": "copper"
+  },
+  "nicothekid:granite_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:granite_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:jack_o_soul_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:jungle_wood_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:jungle_wood_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:mangrove_wood_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:mangrove_wood_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:mossy_cobblestone_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:mossy_cobblestone_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:mossy_stone_brick_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:mossy_stone_brick_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:mud_brick_lantern": {
+    "sound": "mud_bricks"
+  },
+  "nicothekid:mud_brick_soul_lantern": {
+    "sound": "mud_bricks"
+  },
+  "nicothekid:nether_brick_lantern": {
+    "sound": "nether_brick"
+  },
+  "nicothekid:nether_brick_soul_lantern": {
+    "sound": "nether_brick"
+  },
+  "nicothekid:oak_wood_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:oak_wood_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:oxidized_copper_lamp": {
+    "sound": "copper"
+  },
+  "nicothekid:oxidized_copper_lantern": {
+    "sound": "copper"
+  },
+  "nicothekid:packed_mud_lantern": {
+    "sound": "packed_mud"
+  },
+  "nicothekid:packed_mud_soul_lantern": {
+    "sound": "packed_mud"
+  },
+  "nicothekid:pale_oak_wood_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:pale_oak_wood_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:polished_blackstone_brick_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:polished_blackstone_brick_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:purpur_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:purpur_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:quartz_lamp": {
+    "sound": "stone"
+  },
+  "nicothekid:red_nether_brick_lantern": {
+    "sound": "nether_brick"
+  },
+  "nicothekid:red_nether_brick_soul_lantern": {
+    "sound": "nether_brick"
+  },
+  "nicothekid:red_sandstone_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:red_sandstone_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:resin_brick_lantern": {
+    "sound": "resin_brick"
+  },
+  "nicothekid:resin_brick_soul_lantern": {
+    "sound": "resin_brick"
+  },
+  "nicothekid:sandstone_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:sandstone_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:smooth_basalt_lantern": {
+    "sound": "basalt"
+  },
+  "nicothekid:smooth_basalt_soul_lantern": {
+    "sound": "basalt"
+  },
+  "nicothekid:smooth_red_sandstone_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:smooth_red_sandstone_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:smooth_sandstone_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:smooth_sandstone_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:spruce_wood_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:spruce_wood_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:stone_brick_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:stone_brick_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:stone_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:stone_soul_lantern": {
+    "sound": "stone"
+  },
+  "nicothekid:tuff_lantern": {
+    "sound": "tuff"
+  },
+  "nicothekid:tuff_soul_lantern": {
+    "sound": "tuff"
+  },
+  "nicothekid:tuff_brick_lantern": {
+    "sound": "tuff_bricks"
+  },
+  "nicothekid:tuff_brick_soul_lantern": {
+    "sound": "tuff_bricks"
+  },
+  "nicothekid:warped_hyphae_lamp": {
+    "sound": "wood"
+  },
+  "nicothekid:warped_hyphae_lantern": {
+    "sound": "wood"
+  },
+  "nicothekid:waxed_copper_lamp": {
+    "sound": "copper"
+  },
+  "nicothekid:waxed_copper_lantern": {
+    "sound": "copper"
+  },
+  "nicothekid:waxed_exposed_copper_lamp": {
+    "sound": "copper"
+  },
+  "nicothekid:waxed_exposed_copper_lantern": {
+    "sound": "copper"
+  },
+  "nicothekid:waxed_oxidized_copper_lamp": {
+    "sound": "copper"
+  },
+  "nicothekid:waxed_oxidized_copper_lantern": {
+    "sound": "copper"
+  },
+  "nicothekid:waxed_weathered_copper_lamp": {
+    "sound": "copper"
+  },
+  "nicothekid:waxed_weathered_copper_lantern": {
+    "sound": "copper"
+  },
+  "nicothekid:weathered_copper_lamp": {
+    "sound": "copper"
+  },
+  "nicothekid:weathered_copper_lantern": {
+    "sound": "copper"
+  }
+}

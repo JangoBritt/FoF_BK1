@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "wypnt_bab:mystic_forest"
+    },
+    "components": {
+      "minecraft:water_appearance": {
+        "surface_color": "#1ee4f2"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#18b55f"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#149b48"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "wypnt_bab:default_music"
+      } 
+    }
+  }
+}

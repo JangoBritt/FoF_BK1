@@ -1,0 +1,31 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wypnt_bab:baobab_slab",
+            "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.slab"
+      }
+        }, 
+        "components": {
+          "minecraft:tags": {
+        "tags": [
+      "minecraft:wooden_slabs",
+      "wypnt_bab:slab"
+        ]
+      },
+            "minecraft:fuel": {
+            "duration": 15
+              },
+              "minecraft:display_name": {
+                "value": "tile.wypnt_bab:baobab_slab.name"
+            },
+
+            "minecraft:block_placer":{
+                "block": "wypnt_bab:baobab_slab",
+                "replace_block_item": true
+            }
+        }
+    }
+}

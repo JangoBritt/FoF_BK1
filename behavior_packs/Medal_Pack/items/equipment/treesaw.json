@@ -38,9 +38,16 @@
 			"minecraft:digger": {
 				"use_efficiency": true,
 				"destroy_speeds": [
-					{"block": "korbon:jacaranda_log","speed": 8},
-					{"block": "korbon:baobab_log","speed": 8},
-					{"block": "korbon:redwood_log","speed": 8},			
+					{"block": "wypnt_bab:jacaranda_log","speed": 8},
+					{"block": "wypnt_bab:baobab_log","speed": 8},
+					{"block": "wypnt_bab:redwood_log","speed": 8},			
+					{"block": "wypnt_bab:chorus_log","speed": 8},
+					{"block": "wypnt_bab:fir_log","speed": 8},
+					{"block": "wypnt_bab:forsaken_oak_log","speed": 8},
+					{"block": "wypnt_bab:maple_log","speed": 8},
+					{"block": "wypnt_bab:depraved_stem","speed": 8},
+					{"block": "wypnt_bab:depraved_shroom","speed": 8},
+
 
 					{"block": "minecraft:pale_oak_log","speed": 8},
 					

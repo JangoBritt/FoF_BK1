@@ -1,0 +1,145 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "ntk:iron_elder_golem_trophy",
+      "menu_category": {
+				"category": "items",
+				"group": "ntk:itemGroup.name.trophies"
+			},
+			"traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [ "minecraft:cardinal_direction" ],
+          "y_rotation_offset": 180
+        }
+			}
+    },
+    "components": {
+      "minecraft:display_name": "§b%tile.ntk.iron_elder_golem_trophy.name§r",
+      "minecraft:geometry": {
+        "identifier": "geometry.block.ntk_elder_golem_trophy"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "ntk_iron_elder_golem_trophy",
+          "render_method": "alpha_test",
+          "tint_method": "none",
+          "ambient_occlusion": false,
+					"face_dimming": true,
+					"isotropic": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.block.ntk_elder_golem_trophy"
+        },
+        "material_instances": {
+          "*": {
+            "texture": "ntk_iron_elder_golem_trophy",
+            "render_method": "alpha_test",
+            "tint_method": "none",
+            "ambient_occlusion": false,
+            "face_dimming": false,
+            "isotropic": false
+          }
+        }
+      },
+      "minecraft:destruction_particles": {
+        "texture": "ntk_iron_elder_golem_trophy",
+        "tint_method": "none"
+      },
+      "minecraft:map_color": {
+        "tint_method": "none",
+        "color": "#e6e6e6"
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "on_liquid_touches": "no_reaction",
+            "stops_liquid_flowing_out_from_direction": []
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "origin": [ -6, 0, -5 ],
+        "size": [ 12, 16, 10 ]
+      },
+      "minecraft:selection_box": {
+        "origin": [ -6, 0, -5 ],
+        "size": [ 12, 16, 10 ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 75.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:redstone_conductivity": {
+        "allows_wire_to_step_down": false,
+        "redstone_conductor": false
+      },
+      "minecraft:transformation": {
+			  "rotation": [ 0, 180, 0 ]
+			},
+      "minecraft:loot": "loot_tables/nmd/blocks/ntk_iron_elder_golem_trophy.json",
+      "tag:ntk:iron_elder_golem_trophy": {},
+      "tag:ntk:elder_golem_trophy": {},
+      "tag:ntk:iron_trophy": {},
+      "tag:ntk:trophy": {},
+      "tag:ntk:pickaxe_diggable": {},
+      "tag:ntk:blocks": {},
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "tag:stone": {},
+      "tag:metal": {}
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 0, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 90, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 180, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, -90, 0 ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -70,7 +70,7 @@
           ]
         },
         {
-          "weight": 50,
+          "weight": 75,
           "type": "item",
           "name": "minecraft:gold_nugget",
           "functions": [

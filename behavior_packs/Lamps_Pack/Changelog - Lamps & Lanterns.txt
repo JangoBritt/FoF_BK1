@@ -1,14 +1,17 @@
 Lamps & Lanterns
 
-[Version: 1.8.1]
-GENERAL:
-- Updated for compatibility with Minecraft version 1.21.0.
-- Added a subpack for scripting events.
-- Added the recipe unlocking for custom block and custom items.
+[Version: 1.10.0]
+NOTE:
+• The add-on will now only work with Minecraft versions 1.21.80 and higher.
 
-          "On scripting events only!"
-GENERAL:
-- The Holiday Creator Feature toggle will no longer be needed when you use the Scripting Events subpack.
-
-VANILLA FEATURES:
-- Torch and soul torch can now be inserted and removed inside the carved pumpkin by interacting with its face while sneaking. To remove the torch inside, you must have no item in your mainhand.
+          "General"
+• Updated for compatibility with Minecraft version 1.21.80.
+          
+          "New Additional"
+BLOCKS:
+• End Stone Lantern
+• End Stone Soul Lantern
+• End Stone Brick Lantern
+• End Stone Brick Soul Lantern
+• Purpur Lantern
+• Purpur Soul Lantern

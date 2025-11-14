@@ -1,0 +1,124 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wypnt_bab.crocodile.move": {
+			"states": {
+				"default": {
+					"animations": [
+						"look_at_target",
+						{"bob": "query.is_alive"}
+					],
+					"transitions": [
+						{"swimming": "query.is_in_water && !query.is_on_ground"},
+						{"walking": "!query.is_in_water && query.is_on_ground"},
+						{"idle": "!query.is_moving"}
+					],
+					"blend_transition": 0.25
+				},
+				"swimming": {
+					"animations": ["crocodile_swim", "look_at_target"],
+					"transitions": [
+						{"walking": "!query.is_in_water && query.is_on_ground"}
+					],
+					"blend_transition": 0.25
+				},
+				"walking": {
+					"animations": [
+						"look_at_target",
+						{"move": "query.modified_move_speed"}
+					],
+					"transitions": [
+						{"swimming": "query.is_in_water && !query.is_on_ground"},
+						{"idle": "!query.is_moving"},
+						{"digging": "query.is_digging"}
+					],
+					"blend_transition": 0.25
+				},
+				"idle": {
+					"animations": [
+						"look_at_target",
+						"idle",
+						{"bob": "query.is_alive"}
+					],
+					"particle_effects": [
+						{
+							"effect": ""
+						}
+					],
+					"transitions": [
+						{"swimming": "query.is_in_water && !query.is_on_ground"},
+						{"default": "query.is_moving"},
+						{"digging": "query.is_digging || query.is_laying_egg"}
+					],
+					"blend_transition": 0.25
+				},
+				"digging": {
+					"animations": ["look_at_target", "idle", "digging"],
+					"transitions": [
+						{"default": "!query.is_digging && !query.is_laying_egg && !query.is_moving"},
+						{"walking": "!query.is_digging && !query.is_laying_egg && query.is_moving"}
+					],
+					"blend_transition": 0.25
+				}
+			}
+		},
+		"controller.animation.wypnt_bab.crocodile.attack": {
+			"states": {
+				"default": {
+					"animations": ["idle"],
+					"transitions": [
+						{"target": "q.has_target"},
+						{"eat": "q.is_eating"},
+						{"attack": "q.is_delayed_attacking"}
+					],
+					"blend_transition": 0.25
+				},
+				"target": {
+					"animations": ["crocodile_attack"],
+					"transitions": [
+						{"default": "!q.has_target"},
+						{"attack": "q.is_delayed_attacking"}
+					],
+					"blend_transition": 0.25
+				},
+				"attack": {
+					"animations": ["crocodile_bite"],
+					"sound_effects": [
+						{
+							"effect": "attack"
+						}
+					],
+					"transitions": [
+						{"default": "!q.is_delayed_attacking && !q.has_target"},
+						{"target": "q.has_target && !q.is_delayed_attacking"}
+					],
+					"blend_transition": 0.25
+				},
+				"eat": {
+					"animations": ["eat"],
+					"transitions": [
+						{"default": "!q.is_eating"}
+					],
+					"blend_transition": 0.4
+				}
+			}
+		},
+		"controller.animation.wypnt_bab.crocodile.baby": {
+			"states": {
+				"default": {
+					"transitions": [
+						{"baby": "q.is_baby"}
+					],
+					"blend_transition": 0.05
+				},
+				"baby": {
+					"animations": ["baby_big_head"],
+					"transitions": [
+						{"default": "!q.is_baby"}
+					],
+					"blend_transition": 0.05
+				}
+			}
+		}
+	}
+}

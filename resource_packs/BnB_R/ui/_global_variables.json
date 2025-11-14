@@ -1,0 +1,7 @@
+{
+  "$toast_key": "!toast.",
+  // needs be 7 chars & start with "!"
+  "$toast_start_time": 0.5,
+  "$toast_stay_time": 3,
+  "$toast_end_time": 0.5
+}

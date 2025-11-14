@@ -1,15 +1,32 @@
 {
-    "format_version": "1.10.0",
-    "animation_controllers": {
-        "controller.animation.fables_avatars.look_at_target": {
-            "initial_state": "default",
-            "states": {
-                "default": {
-                    "animations": [
-                        "fables_avatars_look_at_target"
-                    ]
-                }
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.fables_avatars.avatar": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "animation.fables_avatars.look_at_target"
+          ],
+          "transitions": [
+            {
+              "run_in_place": "variable.is_running_in_place == 1"
             }
+          ]
+        },
+        "run_in_place": {
+          "animations": [
+            "animation.player.move.arms",
+            "animation.player.move.legs"
+          ],
+          "blend_transition": 0.2,
+          "transitions": [
+            {
+              "default": "variable.is_running_in_place == 0"
+            }
+          ]
         }
+      }
     }
+  }
 }

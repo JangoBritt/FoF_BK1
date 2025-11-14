@@ -1469,6 +1469,21 @@
             "minecraft:movement": {
                 "value": 0
             },
+            "minecraft:leashable": {
+
+                "can_be_stolen": false,
+                "can_be_cut": true,
+                "hard_distance": 6,
+                "max_distance": 10,
+                "on_leash": {
+                    "event": "minecraft:on_leash",
+                    "target": "self"
+                },
+                "on_unleash": {
+                    "event": "minecraft:on_unleash",
+                    "target": "self"
+                }
+            },
             "minecraft:environment_sensor": {
                 "triggers": [
                     {
@@ -1498,7 +1513,8 @@
             },
             "minecraft:type_family": {
                 "family": [
-                    "npc"
+                    "npc",
+                    "avatar"
                 ]
             },
             "minecraft:collision_box": {

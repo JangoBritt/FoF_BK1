@@ -1,0 +1,26 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "wypnt_bab:ivy_n_feature"
+		},
+		"places_block": {
+      "name": "wypnt_bab:ivy",
+      "states": {
+        "wypnt_bab:natural_rotation": "north"
+      }
+    },
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			"minecraft:air"
+		],
+		"may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 1,
+      "south": [
+        { "tags": "query.any_tag('log')" }
+        ]
+    }
+	}
+}

@@ -1,0 +1,103 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:depraved_shroom",
+			"states": {
+                "wypnt_bab:stage": {
+                    "values": { "min": 0, "max": 1 }
+                }
+            }
+		},
+		"components": {
+			"minecraft:tick": {
+				"looping": true,
+				"interval_range": [
+					1100,
+					1600
+				]
+			},
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					12,
+					12
+				]
+			},
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:depraved_shroom",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": true
+				}
+			},
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "minecraft:random_offset": {
+             "x": {
+                "range": {
+                   "min": -4,
+                   "max": 4
+                },
+                "steps": 16
+             },
+             "y": {
+                "range": {
+                   "min": 0,
+                   "max": 0
+                },
+                "steps": 16
+             },
+             "z": {
+                "range": {
+                   "min": -4,
+                   "max": 4
+                },
+                "steps": 16
+             }
+          },
+			"minecraft:light_dampening": 0,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							{
+                    "tags": "q.any_tag('dirt')"
+                },
+							"wypnt_bab:void_turf",
+							"wypnt_bab:velvium",
+							"wypnt_bab:rotveil",
+							"wypnt_bab:voidmire"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:map_color": "#BEA71B",
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/depraved_shroom.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+				"wypnt_bab:sapling": {
+        "name": "depraved",
+        "beehive": false,
+        "remove_sapling": false
+      },
+				 			"wypnt_bab:prevent_place_with_liquid_above": {}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:select_savanna_tree_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:baobab_tree_feature",
+				1
+			],
+			[
+				"minecraft:savanna_tree_feature",
+				1
+			]
+		]
+	}
+}

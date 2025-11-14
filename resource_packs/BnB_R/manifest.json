@@ -1,0 +1,27 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+        "description": "pack.description",
+		"uuid": "2114d0f4-b381-4c2b-9066-8253301b9030",
+		"min_engine_version": [1, 21, 90],
+		"version": [0, 9, 0]
+	},
+	"metadata": {
+		"product_type": "addon",
+		"authors": ["iKorbon", "Coreblock Studios"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.0"],
+			"blockbench_entity_wizard": ["1.7.0"],
+			"blockbench_block_wizard": ["1.4.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "A pack by Coreblock Studios",
+			"type": "resources",
+			"uuid": "ff0b43b4-b714-4b87-95c1-fd90e9caf7c1",
+			"version": [1, 0, 0]
+		}
+	]
+}

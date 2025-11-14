@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "sigiling",
+		"metalness_emissive_roughness": "sigiling_mer"
+	}
+}

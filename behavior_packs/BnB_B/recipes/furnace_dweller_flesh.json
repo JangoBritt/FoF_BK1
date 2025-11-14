@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "wypnt_bab:furnace_dweller_flesh"
+    },
+
+    "unlock": [
+      {
+        "item": "wypnt_bab:dweller_flesh"
+      }
+    ],
+    "tags": ["furnace", "blast_furnace"],
+    "input": "wypnt_bab:dweller_flesh",
+    "output": "minecraft:leather"
+  }
+  
+}

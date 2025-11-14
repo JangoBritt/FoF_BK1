@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wypnt_bab:chiseled_strata_bricks"
+        },
+        "key": {
+            "#": {
+                "item": "wypnt_bab:strata_brick_slab"
+            }
+        },
+        "pattern": [
+            "#",
+            "#"
+        ],
+		"unlock": [
+          {
+            "item": "wypnt_bab:strata_brick_slab"
+          }
+        ],
+        "priority": 1,
+        "result": {
+            "item": "wypnt_bab:chiseled_strata_bricks"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

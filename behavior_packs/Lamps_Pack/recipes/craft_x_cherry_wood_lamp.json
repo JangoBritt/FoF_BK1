@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_cherry_wood_lamp"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "group": "cherry_wood_lamp",
+    "assume_symmetry": true,
+    "pattern": [
+      " A ",
+      "BCB",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:cherry_slab"
+      },
+      "B": {
+        "item": "minecraft:stick"
+      },
+      "C": {
+        "item": "minecraft:torch"
+      }
+    },
+    "result": {
+      "item": "nicothekid:cherry_wood_lamp",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:cherry_slab"
+      }
+    ]
+  }
+}

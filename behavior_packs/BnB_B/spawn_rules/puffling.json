@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "wypnt_bab:puffling",
+			"population_control": "animal"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:weight": {
+					"default": 2
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 2
+				},
+				"minecraft:biome_filter": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "the_end"
+					}
+				],
+				"minecraft:spawns_on_block_filter": [
+					"wypnt_bab:velvium",
+					"wypnt_bab:velvium_grass"					
+				],
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 15
+				}
+			}
+		]
+	}
+}

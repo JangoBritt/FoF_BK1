@@ -1,0 +1,42 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:select_decayed_island_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:decayed_island_1_feature_mcstructure",
+				1
+			],
+			[
+				"wypnt_bab:decayed_island_2_feature_mcstructure",
+				1
+			],
+			[
+				"wypnt_bab:decayed_island_3_feature_mcstructure",
+				1
+			],
+			[
+				"wypnt_bab:decayed_island_4_feature_mcstructure",
+				1
+			],
+			[
+				"wypnt_bab:decayed_island_5_feature_mcstructure",
+				1
+			],
+			[
+				"wypnt_bab:decayed_island_6_feature_mcstructure",
+				1
+			],
+			[
+				"wypnt_bab:decayed_island_7_feature_mcstructure",
+				1
+			],
+			[
+				"wypnt_bab:decayed_island_8_feature_mcstructure",
+				1
+			]
+		]
+	}
+}

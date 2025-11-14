@@ -95,14 +95,10 @@
         {"type": "item","weight": 25,"name": "fof:rat_pelt","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 25,"name": "nicothekid:rat_cooked","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 25,"name": "nicothekid:rat_raw","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "korbon:aloe_vera_item","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "korbon:aloe","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "korbon:black_bear_pelt","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "korbon:cherry","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "korbon:crocodile_meat_cooked","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "korbon:crocodile_meat_raw","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "korbon:grizzly_bear_pelt","functions": [{"function": "set_count","count": 1}]},
-        {"type": "item","weight": 25,"name": "korbon:stinger","functions": [{"function": "set_count","count": 1}]}
+        {"type": "item","weight": 25,"name": "wypnt_bab:aloe_vera","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "wypnt_bab:cooked_crocodile_meat","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "wypnt_bab:crocodile_meat","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 25,"name": "wypnt_bab:grizzly_pelt","functions": [{"function": "set_count","count": 1}]}
       ]
     }
   ]

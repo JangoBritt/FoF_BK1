@@ -3,7 +3,10 @@ Param
     (
     [Parameter(Mandatory=$true,ValueFromPipeline=$true,HelpMessage="Unique Skin File Path:")]
     [System.String]
-    $Skin_File
+    $Skin_File,
+
+    [Parameter(Mandatory=$false)]
+    [bool]$all = $false
     )
  
 Install-Module ImagePlayground -Scope CurrentUser
@@ -12,8 +15,8 @@ Install-Module ImagePlayground -Scope CurrentUser
 
 #$Skin_File = "C:\Users\adam\Downloads\astronaut_V2.png"
 
-$itemImg = Get-Image -FilePath "C:\Users\adam\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds\FoF_Bk1\resource_packs\Avatar_Pack_R\textures\default_steve\player_head_item.png"
-$avatarImg = Get-Image -FilePath "C:\Users\adam\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds\FoF_Bk1\resource_packs\Avatar_Pack_R\textures\default_steve\avatar_item.png"
+$itemImg = Get-Image -FilePath "C:\Users\adam\AppData\Roaming\Minecraft Bedrock\Users\17393249361999269861\games\com.mojang\minecraftWorlds\FoF_Bk1\resource_packs\Avatar_Pack_R\textures\default_steve\player_head_item.png"
+$avatarImg = Get-Image -FilePath "C:\Users\adam\AppData\Roaming\Minecraft Bedrock\Users\17393249361999269861\games\com.mojang\minecraftWorlds\FoF_Bk1\resource_packs\Avatar_Pack_R\textures\default_steve\avatar_item.png"
 
 ####################### No Change Below ######################
 
@@ -30,6 +33,10 @@ catch {
     exit
 }
 Save-Image -Image $Head -FilePath $ScriptPath\skin1.png
+if $all -eq $true {
+    Save-Image -Image $Head -FilePath $ScriptPath\skin2.png
+    Save-Image -Image $Head -FilePath $ScriptPath\skin3.png
+}
 
 $Head.Crop($Rectangle2)
 Save-Image -Image $Head -FilePath $ScriptPath\head.png

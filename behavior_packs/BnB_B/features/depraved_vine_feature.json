@@ -1,0 +1,24 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:growing_plant_feature": {
+        "description": {
+            "identifier": "wypnt_bab:depraved_vine_feature"
+        },
+        "height_distribution": [
+            [{"range_min": 3, "range_max": 12}, 3],
+            [{"range_min": 6, "range_max": 20}, 2],
+            [{"range_min": 12, "range_max": 30}, 1]
+        ],
+        "growth_direction": "DOWN",
+        "body_blocks": [
+            [{ "name": "wypnt_bab:depraved_vine",
+                "states": {"wypnt_bab:body": true}
+                }, 1]
+        ],
+        "head_blocks": [
+            ["wypnt_bab:depraved_vine", 1],
+            ["wypnt_bab:depraved_vine_flower", 1]
+        ],
+        "allow_water": false
+    }
+}

@@ -1,0 +1,55 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "wypnt_bab:lichen_carpet_cave_feature_rule",
+			"places_feature": "wypnt_bab:lichen_carpet_cave_place_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_underground_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "deep_dark"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "lush_caves"
+						},
+						{
+							"any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "forsaken_depths"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 80,
+			"x": {
+				"distribution": "gaussian",
+				"extent": [
+					-8,
+					8
+				]
+			},
+			"z": {
+				"distribution": "gaussian",
+				"extent": [
+					-8,
+					8
+				]
+			},
+			"y": -58
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.wypnt_bab.deer": {
+            "arrays": {
+                "textures": {
+                    "Array.base": [
+                        "Texture.deer_doe",
+                        "Texture.deer_white"
+                    ]
+                }
+            },
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "query.is_baby ? Texture.deer_fawn : Array.base[query.variant]"
+            ]
+        },
+        "controller.render.wypnt_bab.deer_antler": {
+            "arrays": {
+                "textures": {
+                    "Array.base": [
+                        "Texture.deer",
+                        "Texture.deer_white"
+                        ]
+                }
+            },
+            "geometry": "Geometry.default",
+            "materials": [{ "*": "Material.default" }],
+            "textures": ["query.is_baby ? Texture.deer_fawn : Array.base[query.variant]"
+            ]
+            }
+    }
+}

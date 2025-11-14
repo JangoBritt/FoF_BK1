@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "wypnt_bab:firefly",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/coreblockstudios/biomesandbeyond/entity/firefly"
+			},
+			"geometry": {
+				"default": "geometry.wypnt_bab.firefly"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"particle_effects": {
+				"firefly": "wypnt_bab:fireflies"
+			},
+			"animations": {
+				"alive":  "animation.wypnt_bab.firefly.alive"
+			},
+			"scripts": {
+				"animate": [
+					"alive"
+				]
+			},
+			"spawn_egg": {
+				"overlay_color": "#E4FF19",
+				"base_color": "#0A0A0A"
+			}
+		}
+	}
+}

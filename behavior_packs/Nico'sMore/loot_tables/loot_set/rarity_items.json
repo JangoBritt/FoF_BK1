@@ -55,7 +55,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:disc_fragment_5",
           "functions": [
@@ -66,7 +66,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:echo_shard",
           "functions": [
@@ -88,7 +88,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:enchanted_golden_apple",
           "functions": [
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:goat_horn",
           "functions": [
@@ -150,7 +150,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:nautilus_shell",
           "functions": [
@@ -161,7 +161,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:ominous_bottle",
           "functions": [
@@ -205,7 +205,7 @@
           ]
         },
         {
-          "weight": 25,
+          "weight": 10,
           "type": "item",
           "name": "minecraft:trident",
           "functions": [

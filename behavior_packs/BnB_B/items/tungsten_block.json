@@ -1,0 +1,22 @@
+{
+    "format_version": "1.21.110",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wypnt_bab:tungsten_block",
+            "menu_category": {
+				"category": "construction"
+			}
+        }, 
+        "components": {
+              "minecraft:display_name": {
+                "value": "tile.wypnt_bab:tungsten_block.name"
+            },
+            "minecraft:fire_resistant": {},
+
+            "minecraft:block_placer":{
+                "block": "wypnt_bab:tungsten_block",
+                "replace_block_item": true
+            }
+        }
+    }
+}

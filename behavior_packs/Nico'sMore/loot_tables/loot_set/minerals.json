@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 25,
+          "weight": 20,
           "type": "item",
           "name": "minecraft:amethyst_shard",
           "functions": [
@@ -81,7 +81,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 5,
           "type": "item",
           "name": "minecraft:glowstone_dust",
           "functions": [

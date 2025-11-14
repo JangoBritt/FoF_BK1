@@ -1,0 +1,116 @@
+{
+    "namespace": "toast_ui",
+
+    // Elements
+    "toast_panel": {
+        "type": "panel",
+        "size": [ 165, 30 ],
+        "offset": [ -1, 1 ],
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",   
+        "factory": { 
+            "name": "hud_title_text_factory", 
+            "control_ids": { "hud_title_text": "toast_element@toast_ui.toast_element" }
+        }
+    },
+
+    "toast_element": {
+        "type": "image",
+        "size": [ 165, 30 ],
+        "texture": "textures/coreblockstudios/biomesandbeyond/ui/toastBorder",
+        "anims": [ "@toast_ui.toast_anim_start" ],
+        "controls": [
+            { "toast_elements@toast_ui.toast_elements": {} }
+        ],
+        "bindings": [
+            { "binding_name": "#hud_title_text_string" },
+            { 
+                "binding_type": "view", 
+                "source_property_name": "(('%.7s' * #hud_title_text_string) = $toast_key)",
+                "target_property_name": "#visible"
+            }
+        ]
+    },
+
+    "toast_elements": {
+        "type": "stack_panel",
+        "orientation": "horizontal",
+        "size": [ "100%", "100%" ],
+        "controls": [
+            { "img@toast_ui.toast_img": {} },
+            { "txt@toast_ui.toast_txt": {} }
+        ]
+    },
+
+    "toast_img": {
+        "type": "panel",
+        "size": [ 30, 30 ],
+        "anchor_from": "left_middle",
+        "anchor_to": "left_middle",
+        "controls": [{
+            "img": {
+                "type": "image",
+                "size": [ 20, 20 ],
+                "bindings": [
+                    {  "binding_name": "#hud_title_text_string" },
+                    {
+                        "binding_type": "view", 
+                        "source_property_name": "('textures/coreblockstudios/biomesandbeyond/toast/' + (('%.13s' * #hud_title_text_string) - $toast_key))",
+                        "target_property_name": "#texture"
+                    }
+                ]
+            }        
+        }]
+    },
+
+    "toast_txt": {
+        "type": "panel",
+        "size": [ 135, 30 ],
+        "anchor_from": "left_middle",
+        "anchor_to": "left_middle",
+        "controls": [{
+            "txt": {
+                "type": "label",
+                "font_type": "MinecraftTen",
+                "font_size": "medium",
+                "anchor_from": "left_middle",
+                "anchor_to": "left_middle",
+                "text": "#text",
+                "bindings": [
+                    {  "binding_name": "#hud_title_text_string" },
+                    { 
+                        "binding_type": "view", 
+                        "source_property_name": "(#hud_title_text_string - ('%.14s' * #hud_title_text_string))",
+                        "target_property_name": "#text"
+                    }
+                ]
+            }        
+        }]
+    },
+
+
+    // Animations
+    "toast_anim_start": {
+        "anim_type": "offset",
+        "easing": "linear",
+        "from": [ "100%", 0 ],
+        "to": [ 0, 0 ],
+        "duration": "$toast_start_time",
+        "next": "@toast_ui.toast_wait"
+    },
+
+    "toast_wait": {
+        "anim_type": "wait",
+        "duration": "$toast_stay_time",
+        "next": "@toast_ui.toast_anim_end"
+    },
+
+    "toast_anim_end": {
+        "anim_type": "offset",
+        "easing": "linear",
+        "from": [ 0, 0 ],
+        "to": [ "200%", 0 ],
+        "duration": "$toast_end_time",
+        "destroy_at_end": ""
+    }
+}

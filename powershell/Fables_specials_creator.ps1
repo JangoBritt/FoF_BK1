@@ -35,7 +35,7 @@ $BPFolder = "behavior_packs\Avatar_Pack_B" # Sub folder name for Behaviour pack
 $RPFolder = "resource_packs\Avatar_Pack_R" # Sub-folder name for Resource Pack
 
 ####################### No Change Below ######################
-cd "C:\Users\adam\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds\FoF_Bk1"
+cd "C:\Users\adam\AppData\Roaming\Minecraft Bedrock\Users\17393249361999269861\games\com.mojang\minecraftWorlds\FoF_Bk1"
 $ScriptPath = Get-Location
 
 

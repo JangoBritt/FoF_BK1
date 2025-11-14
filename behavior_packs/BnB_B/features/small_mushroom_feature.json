@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:small_mushroom_feature"
+		},
+		"features": [
+			[
+				"minecraft:brown_mushroom_feature",
+				1
+			],
+			[
+				"minecraft:red_mushroom_feature",
+				1
+			]
+		]
+	}
+}

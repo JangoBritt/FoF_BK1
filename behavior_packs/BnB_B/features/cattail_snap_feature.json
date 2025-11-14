@@ -1,0 +1,24 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:growing_plant_feature": {
+        "description": {
+            "identifier": "wypnt_bab:cattail_snap_feature"
+        },
+        "height_distribution": [
+            [{"range_min": 2, "range_max": 2}, 2]
+        ],
+        "growth_direction": "UP",
+        "body_blocks": [
+            ["wypnt_bab:cattail", 1]
+        ],
+        "head_blocks": [
+            [
+            {
+              "name": "wypnt_bab:cattail",
+              "states": { "wypnt_bab:top": true }
+            },
+            1]
+        ],
+        "allow_water": true
+    }
+}

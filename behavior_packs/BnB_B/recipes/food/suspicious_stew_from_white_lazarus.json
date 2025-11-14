@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "wypnt_bab:suspicious_stew_from_white_lazarus"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "item": "minecraft:red_mushroom"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "wypnt_bab:white_lazarus"
+      }
+    ],
+    "unlock": {
+        "context": "None"
+    },
+    "result": {
+      "item": "minecraft:suspicious_stew",
+      "data": 10
+    }
+  }
+}

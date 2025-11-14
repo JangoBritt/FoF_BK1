@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "wypnt_bab:furnace_crocodile"
+		},
+		"tags": [
+			"furnace",
+			"smoker",
+			"campfire",
+			"soul_campfire"
+		],
+		"input": "wypnt_bab:crocodile_meat",
+		"output": "wypnt_bab:cooked_crocodile_meat"
+	}
+}

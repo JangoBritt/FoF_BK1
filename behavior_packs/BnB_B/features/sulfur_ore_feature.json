@@ -1,0 +1,39 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "wypnt_bab:sulfur_ore_feature"
+		},
+		"count": 5,
+		"replace_rules": [
+			{
+				"places_block": "wypnt_bab:sulfur_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:stone"
+					},
+					{
+						"name": "minecraft:andesite"
+					}, 
+					{
+						"name": "minecraft:diorite"
+					},
+					{
+						"name": "minecraft:granite"
+					}
+				]
+			},
+			{
+				"places_block": "wypnt_bab:deepslate_sulfur_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate"
+					},
+					{
+						"name": "minecraft:tuff"
+					}
+				]
+			}
+		]
+	}
+}

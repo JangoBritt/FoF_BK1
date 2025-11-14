@@ -1,39 +1,39 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Lamps & Lanterns (v1.9.11) [Behavior Pack]",
+    "name": "Lamps & Lanterns (v1.10) [Behavior Pack]",
     "description": "Adding more light blocks for your survival game.",
     "uuid": "10001000-1223-1111-1111-a000a000a000",
-    "version": [ 1, 9, 11 ],
-    "min_engine_version": [ 1, 21, 40 ]
+    "version": [ 1, 10, 1 ],
+    "min_engine_version": [ 1, 21, 80 ]
   },
   "metadata": {
-		"authors": [ "NicoTheKid" ],
     "product_type": "addon",
+		"authors": [ "NicoTheKid" ],
 		"url": "https://mcpedl.com/user/dangel/"
 	},
   "modules": [
     {
       "type": "data",
       "uuid": "10001000-1223-1111-1111-100010001000",
-      "version": [ 1, 9, 11 ]
+      "version": [ 1, 10, 1 ]
     },
     {
 			"type": "script",
 			"language": "javascript",
 			"uuid": "10001000-1223-1111-1111-100010001000",
 			"entry": "scripts/main.js",
-			"version": [ 1, 9, 11 ]
+			"version": [ 1, 10, 1 ]
 		}
   ],
   "dependencies": [
     {
       "uuid": "20002000-1223-2222-2222-b000b000b000",
-      "version": [ 1, 9, 11 ]
+      "version": [ 1, 10, 1 ]
     },
     {
 			"module_name": "@minecraft/server",
-			"version": "1.15.0"
+			"version": "1.19.0"
 		}
   ]
 }

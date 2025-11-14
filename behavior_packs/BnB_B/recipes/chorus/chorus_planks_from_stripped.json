@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "wypnt_bab:chorus_planks_from_stripped"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "wypnt_bab:stripped_chorus_log"
+			}
+		],
+		"result": [
+			{
+				"item": "wypnt_bab:chorus_planks",
+				"count": 4
+			}
+		],
+		"unlock": [
+			{
+			  "item": "wypnt_bab:chorus_planks"
+			}
+		  ]
+	}
+}

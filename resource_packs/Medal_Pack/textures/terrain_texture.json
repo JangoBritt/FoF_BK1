@@ -7,49 +7,46 @@
 		"certificate_diamond": {
 			"textures": "textures/certificates/certificate_diamond"
 		},
-		"sulfur_bag_top": {
-			"textures": "textures/blocks/sulfur_bag_top"
-		},
-		"leather_pile_side": {
+		"fables_misc:leather_pile_side": {
 			"textures": "textures/blocks/leather_pile_side"
 		},
-		"leather_pile_up": {
+		"fables_misc:leather_pile_up": {
 			"textures": "textures/blocks/leather_pile_up"
 		},
-		"straw_bale_side": {
+		"fables_misc:straw_bale_side": {
 			"textures": "textures/blocks/straw_bale_side"
 		},
-		"straw_bale_loose": {
+		"fables_misc:straw_bale_loose": {
 			"textures": "textures/blocks/straw_bale_loose"
 		},
-		"straw_bale_up": {
+		"fables_misc:straw_bale_up": {
 			"textures": "textures/blocks/straw_bale_up"
 		},
-		"hay_bale_loose": {
+		"fables_misc:hay_bale_loose": {
 			"textures": "textures/blocks/hay_bale_loose"
 		},
-		"vibranium_crystal_block": {
+		"fables_misc:vibranium_crystal_block": {
 			"textures": "textures/blocks/vibranium_crystal_block"
 		},
-		"vibranium_block": {
+		"fables_misc:vibranium_block": {
 			"textures": "textures/blocks/vibranium_block"
 		},
-		"rat_statue_1": {
+		"fables_misc:rat_statue_1": {
 			"textures": "textures/statues/rat_statue_1"
 		},
-		"rat_statue_c": {
+		"fables_misc:rat_statue_c": {
 			"textures": "textures/statues/rat_statue_c"
 		},
-		"rat_statue_d": {
+		"fables_misc:rat_statue_d": {
 			"textures": "textures/statues/rat_statue_d"
 		},
-		"rat_statue_e": {
+		"fables_misc:rat_statue_e": {
 			"textures": "textures/statues/rat_statue_e"
 		},
-		"rat_statue_g": {
+		"fables_misc:rat_statue_g": {
 			"textures": "textures/statues/rat_statue_g"
 		},
-		"ravager_milk_mug": {
+		"fables_misc:ravager_milk_mug": {
 			"textures": [
 				"textures/blocks/ravager_milk_mug_block"
 			]

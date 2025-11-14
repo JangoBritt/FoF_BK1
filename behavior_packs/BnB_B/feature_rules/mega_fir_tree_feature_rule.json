@@ -1,0 +1,39 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "wypnt_bab:mega_fir_tree_feature_rule",
+			"places_feature": "wypnt_bab:select_mega_fir_tree_feature"
+		},
+		"conditions": {
+			"placement_pass": "underground_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "null"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 0,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [0, 1]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [0, 1]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [0, 1]
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "wypnt_bab:voidstrider",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/coreblockstudios/biomesandbeyond/entity/voidstrider",
+				"saddle": "textures/coreblockstudios/biomesandbeyond/entity/voidstrider_saddled"			
+			},
+			"sound_effects": {
+				"flap": "mob.phantom.flap",
+				"bite": "mob.panda.bite"
+			},			
+			"geometry": {
+				"default": "geometry.wypnt_bab.voidstrider"
+			},
+			"scripts": {
+				"animate": [
+					"walk_controller",
+					"attack_controller",
+					"baby_transform_controller"
+				]
+			},
+			"animations": {
+				"walk": "animation.wypnt_bab.voidstrider.walk",
+				"run": "animation.wypnt_bab.voidstrider.run",
+				"bob": "animation.wypnt_bab.voidstrider.bob",
+				"attack": "animation.wypnt_bab.voidstrider.attack",
+				"glide": "animation.wypnt_bab.voidstrider.glide",
+				"wing_flap": "animation.wypnt_bab.voidstrider.wing_flap",			
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.wypnt_bab.voidstrider.baby_transform",
+				"walk_controller": "controller.animation.wypnt_bab.voidstrider.walk",
+				"attack_controller": "controller.animation.wypnt_bab.voidstrider.attack",
+				"baby_transform_controller": "controller.animation.wypnt_bab.voidstrider.baby_transform"
+			},
+			"render_controllers": [
+				"controller.render.wypnt_bab.voidstrider"
+			],
+			"spawn_egg": {
+				"texture": "wypnt_bab:voidstrider_spawn_egg"
+			}
+		}
+	}
+}

@@ -1,0 +1,98 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wypnt_bab.warthog.move": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"dig": "query.is_digging"
+						},
+						{
+							"search": "query.is_searching"
+						},
+						{
+							"eat": "query.is_eating"
+						}
+					],
+					"animations": [
+						{
+							"walk": "query.modified_move_speed"
+						},
+						{
+							"idle": "query.is_alive"
+						},
+						{
+							"bob": "query.is_alive"
+						}
+					],
+					"blend_transition": 0.1
+				},
+				"dig": {
+					"transitions": [
+						{
+							"default": "!query.is_digging"
+						}
+					],
+					"animations": [
+						{
+							"dig": "query.is_digging"
+						},
+						{
+							"bob": "query.is_alive"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"search": {
+					"transitions": [
+						{
+							"default": "!query.is_searching"
+						},
+						{
+							"eat": "query.is_eating"
+						}
+					],
+					"animations": [
+						{
+							"search": "query.is_searching"
+						},
+						{
+							"walk": "query.modified_move_speed"
+						},
+						{
+							"idle": "query.is_alive"
+						},
+						{
+							"bob": "query.is_alive"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"eat": {
+					"transitions": [
+						{
+							"default": "!query.is_eating"
+						}
+					],
+					"animations": [
+						{
+							"eat": "query.is_eating"
+						},
+						{
+							"walk": "query.modified_move_speed"
+						},
+						{
+							"idle": "query.is_alive"
+						},
+						{
+							"bob": "query.is_alive"
+						}
+					],
+					"blend_transition": 0.2
+				}
+			}
+		}
+	}
+}

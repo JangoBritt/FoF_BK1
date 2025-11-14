@@ -1,0 +1,138 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:lichen_hanging"
+		},
+		"components": {
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wypnt_bab:lichen_hanging",
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [
+					-5,
+					0,
+					-6
+				],
+				"size": [
+					11,
+					16,
+					12
+				]
+			},
+			"tag:minecraft:is_shears_item_destructible": {},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": false,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:light_emission": 2,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:loot": "loot_tables/coreblockstudios/biomesandbeyond/blocks/lichen_hanging.json",
+			"minecraft:light_dampening": 0,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"down"
+						],
+						"block_filter": [
+							"minecraft:deepslate",
+							"minecraft:bone_block",
+							"minecraft:stone",
+							"minecraft:cobblestone",
+							"minecraft:grass_block",
+							"minecraft:dirt",
+							"minecraft:coarse_dirt",
+							"minecraft:podzol",
+							"minecraft:oak_log",
+							"minecraft:spruce_log",
+							"minecraft:birch_log",
+							"minecraft:jungle_log",
+							"minecraft:acacia_log",
+							"minecraft:dark_oak_log",
+							"minecraft:stripped_oak_log",
+							"minecraft:stripped_spruce_log",
+							"minecraft:stripped_birch_log",
+							"minecraft:stripped_jungle_log",
+							"minecraft:stripped_acacia_log",
+							"minecraft:stripped_dark_oak_log",
+							"minecraft:stripped_oak_wood",
+							"minecraft:stripped_spruce_wood",
+							"minecraft:stripped_birch_wood",
+							"minecraft:stripped_jungle_wood",
+							"minecraft:stripped_acacia_wood",
+							"minecraft:stripped_dark_oak_wood",
+							"minecraft:oak_wood",
+							"minecraft:spruce_wood",
+							"minecraft:birch_wood",
+							"minecraft:jungle_wood",
+							"minecraft:acacia_wood",
+							"minecraft:dark_oak_wood",
+							"minecraft:crimson_stem",
+							"minecraft:warped_stem",
+							"minecraft:stripped_crimson_stem",
+							"minecraft:stripped_warped_stem",
+							"minecraft:crimson_hyphae",
+							"minecraft:warped_hyphae",
+							"minecraft:stripped_crimson_hyphae",
+							"minecraft:stripped_warped_hyphae",
+							"wypnt_bab:redwood_log",
+							"wypnt_bab:jacaranda_log",
+							"wypnt_bab:baobab_log",
+							"wypnt_bab:maple_log",
+							"wypnt_bab:forsaken_oak_log",
+							"wypnt_bab:fir_log",
+							"wypnt_bab:stripped_redwood_log",
+							"wypnt_bab:stripped_jacaranda_log",
+							"wypnt_bab:stripped_baobab_log",
+							"wypnt_bab:stripped_maple_log",
+							"wypnt_bab:stripped_forsaken_oak_log",
+							"wypnt_bab:stripped_fir_log",
+							"wypnt_bab:redwood_leaves",
+							"wypnt_bab:jacaranda_leaves",
+							"wypnt_bab:baobab_leaves",
+							"wypnt_bab:aspen_leaves",
+							"wypnt_bab:autumn_leaves",
+							"wypnt_bab:maple_leaves",
+							"wypnt_bab:fir_leaves",
+							"wypnt_bab:lichen_hanging",
+							"wypnt_bab:forsaken_oak_leaves"
+						]
+
+					},
+										{
+						"allowed_faces": [
+							"down"
+						],
+                        "block_filter": [
+                            {
+                                "tags": "query.any_tag('minecraft:is_pickaxe_item_destructible') || query.any_tag('minecraft:is_shovel_item_destructible') || query.any_tag('minecraft:is_axe_item_destructible') || query.any_tag('minecraft:is_hoe_item_destructible') || query.any_tag('minecraft:is_shears_item_destructible') || query.any_tag('minecraft:is_sword_item_destructible')"
+                            }
+                        ]
+					}
+				]
+			},
+			 			"wypnt_bab:prevent_place_with_liquid_above": {}
+		}
+	}
+}

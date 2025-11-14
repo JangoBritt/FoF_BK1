@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "wypnt_bab:maple_planks_from_stripped_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "wypnt_bab:stripped_maple_wood"
+			}
+		],
+		"result": [
+			{
+				"item": "wypnt_bab:maple_planks",
+				"count": 4
+			}
+		],
+		"unlock": [
+			{
+			  "item": "wypnt_bab:maple_planks"
+			}
+		  ]
+	}
+}

@@ -1,0 +1,59 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "nature",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "wypnt_bab:aspen_leaf_pile",
+              "name": "wypnt_bab:itemGroup.name.leaf_piles"
+            },
+            "items": [
+              "wypnt_bab:aspen_leaf_pile",
+              "wypnt_bab:jacaranda_leaf_pile",
+              "wypnt_bab:autumn_leaf_pile"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "wypnt_bab:strata",
+              "name": "wypnt_bab:itemGroup.name.strata"
+            },
+            "items": [
+              "wypnt_bab:strata",
+              "wypnt_bab:cobbled_strata",
+              "wypnt_bab:strata_bricks",
+              "wypnt_bab:chiseled_strata_bricks"            
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "wypnt_bab:hollow_oak_log",
+              "name": "wypnt_bab:itemGroup.name.hollow_log"
+            },
+            "items": [
+                "wypnt_bab:hollow_oak_log",
+                "wypnt_bab:hollow_pale_oak_log",
+                "wypnt_bab:hollow_spruce_log",
+                "wypnt_bab:hollow_birch_log",
+                "wypnt_bab:hollow_jungle_log",
+                "wypnt_bab:hollow_acacia_log",
+                "wypnt_bab:hollow_dark_oak_log",
+                "wypnt_bab:hollow_mangrove_log",
+                "wypnt_bab:hollow_cherry_log",
+                "wypnt_bab:hollow_fir_log",
+                "wypnt_bab:hollow_jacaranda_log",
+                "wypnt_bab:hollow_redwood_log",
+                "wypnt_bab:hollow_baobab_log",
+                "wypnt_bab:hollow_maple_log",
+                "wypnt_bab:hollow_forsaken_oak_log",
+                "wypnt_bab:hollow_chorus_log"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

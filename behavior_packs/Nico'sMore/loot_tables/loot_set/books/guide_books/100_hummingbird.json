@@ -24,7 +24,7 @@
                 "        §7Guide Book #100§r\n§lHummingbird§r\n§8MOB§r\n \n•§lRarity§r: Common\n•§lBehavior§r: Passive\n•§lMob type§r: Small bird, Animal, Aerial.\n•§lSpawns in§r: Plains, Forest, Flower Forest, Birch Forest, Dark Forest, Windswept Forest,",
                 "Jungle, Cherry Grove, Meadow, Savanna, Overgrown Jungle.\n•§lHealth§r: 6\n•§lWalk speed§r: 0.21\n•§lFly speed§r: 0.45\n•§lImmune to§r: Fall Damage\n•§lBreathes in§r: Air\n•§lTempted by§r: Sugar\n•§lHealed by§r: Sugar",
                 "•§lBreeds with§r: Sugar\n•§lEgg laying§r: 1-4 Hummingbird Eggs.\n•§lAging by§r: Sugar\n•§lPossible drops§r: Green Feather, XP Orbs.\n•§lAvoids§r: Players, Monsters, Cave Wolf, Deopard, Ocelot, Wolf.\n•Adult Hummingbird can spawn or produce",
-                "a Green Feather every 5 to 15 minutes.§’"
+                "a Green Feather every 5 to 15 minutes.\n•Can eat nectar from flowers, which grants them the Regeneration effect for 30 seconds."
               ]
             }
           ]

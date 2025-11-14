@@ -1,0 +1,124 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "wypnt_bab:volcanic_peaks"
+		},
+		"components": {
+			"minecraft:climate": {
+				"temperature": 2
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "mountains"
+			},
+			"minecraft:surface_builder": {
+				"builder": {
+					"type": "minecraft:overworld",
+					"sea_floor_depth": 6,
+					"sea_floor_material": "minecraft:blackstone",
+					"foundation_material": "minecraft:deepslate",
+					"mid_material": "minecraft:blackstone",
+					"top_material": "minecraft:smooth_basalt",
+					"sea_material": "minecraft:water"
+				}
+			},
+			"minecraft:replace_biomes": {
+				"replacements": [
+					{
+						"dimension": "minecraft:overworld",
+						"targets": [
+							"minecraft:stony_peaks"
+						],
+						"amount": 0.15,
+						"noise_frequency_scale": 0.4
+					}
+				]
+			},
+			"minecraft:surface_material_adjustments": {
+				"adjustments": [
+					{
+						"materials": {
+							"top_material": "minecraft:smooth_basalt"
+						},
+						"noise_frequency_scale": 0.05,
+						"noise_range": [
+							0,
+							1
+						]
+					},
+					{
+						"materials": {
+							"top_material": "minecraft:magma"
+						},
+						"noise_frequency_scale": 0.15,
+						"noise_range": [
+							0.65,
+							1
+						]
+					},
+					{
+						"materials": {
+							"top_material": "minecraft:gilded_blackstone"
+						},
+						"noise_frequency_scale": 1,
+						"noise_range": [
+							0.8,
+							1
+						]
+					},
+					{
+						"materials": {
+							"mid_material": "minecraft:deepslate"
+						},
+						"noise_frequency_scale": 1,
+						"noise_range": [
+							0,
+							1
+						]
+					},
+					{
+						"materials": {
+							"top_material": "minecraft:basalt"
+						},
+						"noise_frequency_scale": 0.3,
+						"noise_range": [
+							0.4,
+							0.8
+						]
+					},
+					{
+						"materials": {
+							"top_material": "minecraft:tuff"
+						},
+						"noise_frequency_scale": 0.25,
+						"noise_range": [
+							0.2,
+							0.6
+						]
+					},
+					{
+						"materials": {
+							"top_material": "minecraft:gravel"
+						},
+						"noise_frequency_scale": 0.1,
+						"noise_range": [
+							0,
+							0.3
+						]
+					}
+				]
+			},
+			"minecraft:tags": {
+				"tags": [
+					"monster",
+					"no_legacy_worldgen",
+					"overworld",
+					"volcanic_peaks"
+				]
+			},
+			"minecraft:humidity": {
+				"is_humid": true
+			}
+		}
+	}
+}

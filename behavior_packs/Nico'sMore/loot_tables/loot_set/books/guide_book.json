@@ -1,10 +1,21 @@
+// Nico's More Dungeon:
 {
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "weight": 3,
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/00_unknown_guide_books.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/01_guide_books.json"
+        },
+        {
+          "weight": 1,
           "type": "loot_table",
           "name": "loot_tables/loot_set/books/guide_books/36_pearls_and_eyes.json"
         },
@@ -39,7 +50,7 @@
           "name": "loot_tables/loot_set/books/guide_books/76_cobbled_deepslate_golem.json"
         },
         {
-          "weight": 3,
+          "weight": 1,
           "type": "loot_table",
           "name": "loot_tables/loot_set/books/guide_books/77_curserer_staff.json"
         },
@@ -49,19 +60,24 @@
           "name": "loot_tables/loot_set/books/guide_books/92_piglin_chief.json"
         },
         {
-          "weight": 3,
+          "weight": 1,
           "type": "loot_table",
           "name": "loot_tables/loot_set/books/guide_books/93_piglin_fire_staff.json"
         },
         {
-          "weight": 3,
+          "weight": 1,
           "type": "loot_table",
           "name": "loot_tables/loot_set/books/guide_books/94_piglin_war_hammer.json"
         },
         {
-          "weight": 5,
+          "weight": 1,
           "type": "loot_table",
           "name": "loot_tables/loot_set/books/guide_books/118_equipment_effects.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/122_shulkore.json"
         }
       ]
     }

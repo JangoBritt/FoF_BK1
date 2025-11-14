@@ -3,7 +3,7 @@ import { earthElementalTypeFamily, instantDiggableBlocks } from "../../ntk_listi
 import { damageItemDurability, damageItemDurabilityFixer } from "../../ntk_functions.js";
 
 world.beforeEvents.worldInitialize.subscribe(initEvent => {
-  initEvent.itemComponentRegistry.registerCustomComponent("nicothekid:piglin_war_hammer_on_hit_entity", {
+  initEvent.itemComponentRegistry.registerCustomComponent("ntk:piglin_war_hammer_on_hit_entity", {
     onHitEntity: eventData => {
       const damager = eventData.attackingEntity;
       const target = eventData.hitEntity;
@@ -12,7 +12,7 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
       const { x, y, z } = target.location;
       const damagerEquippable = damager.getComponent("equippable");
       
-      if (itemUsed.typeId === "nicothekid:piglin_war_hammer") {
+      if (itemUsed.typeId === "ntk:piglin_war_hammer") {
         if (target.matches({ excludeFamilies: [ "spirit" ] })) {
           // Usaged Effect:
           if (!damager.getEffect("weakness")) {
@@ -35,21 +35,21 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
       else return;
     }
   });
-  // initEvent.itemComponentRegistry.registerCustomComponent("nicothekid:piglin_war_hammer_on_mine_block", {
-  //   onMineBlock: eventData => {
-  //     const player = eventData.source;
-  //     const itemUsed = eventData.itemStack;
-  //     const block = eventData.block;
-  //     const blockPermutation = eventData.minedBlockPermutation;
-  //     const playerEquippable = player.getComponent("equippable");
+  initEvent.itemComponentRegistry.registerCustomComponent("ntk:piglin_war_hammer_on_mine_block", {
+    onMineBlock: eventData => {
+      const player = eventData.source;
+      const itemUsed = eventData.itemStack;
+      const block = eventData.block;
+      const blockPermutation = eventData.minedBlockPermutation;
+      const playerEquippable = player.getComponent("equippable");
       
-  //     if (itemUsed.typeId === "nicothekid:piglin_war_hammer") {
-  //       if (!instantDiggableBlocks.includes(blockPermutation.type.id) && !blockPermutation.hasTag("nicothekid:instant_diggable")) {
-  //         damageItemDurability(player, itemUsed, 1, "Mainhand");
-  //       }
-  //       else return;
-  //     }
-  //     else return;
-  //   }
-  // });
+      if (itemUsed.typeId === "ntk:piglin_war_hammer") {
+        if (!instantDiggableBlocks.includes(blockPermutation.type.id) && !blockPermutation.hasTag("ntk:instant_diggable")) {
+          damageItemDurability(player, itemUsed, 1, "Mainhand");
+        }
+        else return;
+      }
+      else return;
+    }
+  });
 });

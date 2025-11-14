@@ -1,0 +1,26 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:deciduous_select_tree_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:oak_tree_big_feature",
+				1
+			],
+			[
+				"minecraft:select_oak_tree_with_leaf_litter_feature",
+				1
+			],
+			[
+				"wypnt_bab:deciduous_oak_tree_feature",
+				4
+			],
+			[
+				"minecraft:oak_tree_with_vines_feature",
+				1
+			]
+		]
+	}
+}

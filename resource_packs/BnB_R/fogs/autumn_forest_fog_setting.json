@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:fog_settings": {
+		"description": {
+			"identifier": "wypnt_bab:autumn_forest_fog"
+		},
+		"distance": {
+			"air": {
+				"fog_start": 0.92,
+				"fog_end": 1.0,
+				"fog_color": "#ffe4b3",
+				"render_distance_type": "render"
+			},
+			"weather": {
+				"fog_start": 0,
+				"fog_end": 96,
+				"fog_color": "#5e7186",
+				"render_distance_type": "fixed"
+			}
+		}
+	}
+}

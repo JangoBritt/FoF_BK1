@@ -48,7 +48,7 @@
           ]
         },
         {
-          "weight": 15,
+          "weight": 1,
           "type": "item",
           "name": "minecraft:ender_eye",
           "functions": [

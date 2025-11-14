@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "wypnt_bab:yellow_dye_from_mullein"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "yellow_dye",
+    "ingredients": [
+      {
+        "item": "wypnt_bab:mullein"
+      }
+    ],
+	"unlock": [
+      {
+        "item": "wypnt_bab:mullein"
+      }
+    ],
+    "result": {
+      "item": "minecraft:dye",
+      "data": 11,
+      "count": 2
+    }
+  }
+}

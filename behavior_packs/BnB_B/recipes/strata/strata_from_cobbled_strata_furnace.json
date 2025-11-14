@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "wypnt_bab:strata_from_cobbled_strata_furnace"
+        },
+        "input": "wypnt_bab:cobbled_strata",
+        "output": "wypnt_bab:strata",
+        "unlock": [
+          {
+            "item": "wypnt_bab:cobbled_strata"
+          }
+        ],
+        "tags": [
+            "furnace"
+        ]
+    }
+}

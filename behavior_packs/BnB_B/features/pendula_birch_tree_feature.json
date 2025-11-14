@@ -1,0 +1,99 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:tree_feature": {
+		"description": {
+			"identifier": "wypnt_bab:pendula_birch_tree_feature"
+		},
+		"trunk": {
+			"trunk_height": {
+				"range_min": 5,
+				"range_max": 12
+			},
+			"height_modifier": {
+				"range_min": 0,
+				"range_max": 7
+			},
+			"trunk_block": {
+				"name": "minecraft:birch_log"
+			},
+			"trunk_decoration": {
+				"decoration_chance": 0.5,
+				"decoration_block": {
+					"name": "minecraft:birch_log"
+				},
+				"num_steps": 0,
+				"step_direction": "away"
+			}
+		},
+		"canopy": {
+			"canopy_offset": {
+				"min": -3,
+				"max": 0
+			},
+			"variation_chance": [
+				{
+					"numerator": 1,
+					"denominator": 2
+				},
+				{
+					"numerator": 1,
+					"denominator": 2
+				},
+				{
+					"numerator": 1,
+					"denominator": 2
+				},
+				{
+					"numerator": 1,
+					"denominator": 1
+				}
+			],
+			"leaf_block": {
+				"name": "minecraft:birch_leaves"
+			}
+		},
+		// Whatever kind of "dirt" the tree gets planted on, it will be replaced
+    // by an actual Dirt block if it isn't one already.
+		"base_block": [
+			"minecraft:dirt",
+			"minecraft:coarse_dirt"
+		],
+		// Kinds of blocks the tree can be placed on.
+    // We want all kinds of "dirt" blocks: dirt, grass, podzol, mud, etc.
+    "may_grow_on": [
+      {
+        "tags": "query.any_tag('dirt')"
+      }
+    ],
+		"may_replace": [
+      "minecraft:air",
+      "minecraft:snow_layer",
+      // Sadly no tags for vanilla leaves yet
+      "minecraft:acacia_leaves",
+      "minecraft:azalea_leaves",
+      "minecraft:azalea_leaves_flowered",
+      "minecraft:birch_leaves",
+      "minecraft:cherry_leaves",
+      "minecraft:dark_oak_leaves",
+      "minecraft:jungle_leaves",
+      "minecraft:mangrove_leaves",
+      "minecraft:oak_leaves",
+      "minecraft:pale_oak_leaves",
+      "minecraft:spruce_leaves",
+	// Tag to list all custom leaves		
+      {
+        "tags": "query.any_tag('wypnt_bab:custom_leaves')"
+      },
+	// Plants
+      "minecraft:wildflowers",
+      "minecraft:leaf_litter"
+    ],
+		// This is used when checking the volume the tree is going to be placed on.
+    // Dirt around the placement area doesn't block the tree from being created.
+    "may_grow_through": [
+      {
+        "tags": "query.any_tag('dirt')"
+      }
+    ]
+	}
+}

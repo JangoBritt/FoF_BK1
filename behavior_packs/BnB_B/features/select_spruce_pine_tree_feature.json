@@ -1,0 +1,26 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "wypnt_bab:select_spruce_pine_tree_feature"
+		},
+		"features": [
+			[
+				"wypnt_bab:spruce_pine_tree_1_feature",
+				1
+			],
+			[
+				"wypnt_bab:spruce_pine_tree_2_feature",
+				1
+			],
+			[
+				"wypnt_bab:spruce_pine_tree_3_feature",
+				1
+			],
+			[
+				"wypnt_bab:spruce_pine_tree_4_feature",
+				1
+			]
+		]
+	}
+}

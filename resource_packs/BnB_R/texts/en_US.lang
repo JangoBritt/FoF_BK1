@@ -1,0 +1,520 @@
+pack.name=Biomes & Beyond [BETA] - Resource
+pack.description=A world expansion add-on that adds new biomes, blocks, mobs, & more! [v0.9.0-beta] | by iKorbon & CoreBlock Studios!
+
+##################################################
+##  Blocks
+##################################################
+
+tile.wypnt_bab:shelf_mushrooms.name=Shelf Mushrooms
+tile.wypnt_bab:ivy.name=Ivy
+tile.wypnt_bab:daisy_petals.name=Daisy Petals
+tile.wypnt_bab:bluebell.name=Bluebell
+tile.wypnt_bab:violet_flower.name=Violets
+tile.wypnt_bab:aspen_leaves.name=Aspen Leaves
+tile.wypnt_bab:aspen_leaf_pile.name=Aspen Leaf Pile
+tile.wypnt_bab:aspen_sapling.name=Aspen Sapling
+tile.wypnt_bab:windswept_sand.name=Windswept Sand
+tile.wypnt_bab:brittlebush.name=Brittlebush
+tile.wypnt_bab:small_cactus.name=Tiny Cactus
+tile.wypnt_bab:deadfern.name=Deadfern
+tile.wypnt_bab:aloe_vera.name=Aloe Vera
+tile.wypnt_bab:bunchflower.name=Bunchflowers
+tile.wypnt_bab:red_toadstool.name=Red Toadstool
+tile.wypnt_bab:brown_toadstool.name=Brown Toadstool
+tile.wypnt_bab:fir_planks.name=Fir Planks
+tile.wypnt_bab:fir_leaves.name=Fir Leaves
+tile.wypnt_bab:fir_log.name=Fir Log
+tile.wypnt_bab:fir_sapling.name=Fir Sapling
+tile.wypnt_bab:stripped_fir_log.name=Stripped Fir Log
+tile.wypnt_bab:fir_wood.name=Fir Wood
+tile.wypnt_bab:stripped_fir_wood.name=Stripped Fir Wood
+tile.wypnt_bab:fir_fence.name=Fir Fence
+tile.wypnt_bab:fir_fence_inventory.name=Fir Fence
+tile.wypnt_bab:fir_fence_gate.name=Fir Fence Gate
+tile.wypnt_bab:fir_door.name=Fir Door
+tile.wypnt_bab:fir_trapdoor.name=Fir Trap Door
+tile.wypnt_bab:fir_slab.name=Fir Slab
+tile.wypnt_bab:jacaranda_log.name=Jacaranda Log
+tile.wypnt_bab:jacaranda_leaves.name=Jacaranda Leaves
+tile.wypnt_bab:jacaranda_leaf_pile.name=Jacaranda Leaf Pile
+tile.wypnt_bab:jacaranda_planks.name=Jacaranda Planks
+tile.wypnt_bab:jacaranda_sapling.name=Jacaranda Sapling
+tile.wypnt_bab:stripped_jacaranda_log.name=Stripped Jacaranda Log
+tile.wypnt_bab:jacaranda_wood.name=Jacaranda Wood
+tile.wypnt_bab:stripped_jacaranda_wood.name=Stripped Jacaranda Wood
+tile.wypnt_bab:jacaranda_fence.name=Jacaranda Fence
+tile.wypnt_bab:jacaranda_fence_inventory.name=Jacaranda Fence
+tile.wypnt_bab:jacaranda_fence_gate.name=Jacaranda Fence Gate
+tile.wypnt_bab:jacaranda_door.name=Jacaranda Door
+tile.wypnt_bab:jacaranda_trapdoor.name=Jacaranda Trap Door
+tile.wypnt_bab:jacaranda_slab.name=Jacaranda Slab
+tile.wypnt_bab:wisteria.name=Wisteria Vines
+tile.wypnt_bab:lavender_flower.name=Lavender
+tile.wypnt_bab:lazarus.name=Lazarus
+tile.wypnt_bab:shrub_grass.name=Shrub grass
+tile.wypnt_bab:redwood_planks.name=Redwood Planks
+tile.wypnt_bab:redwood_sapling.name=Redwood Sapling
+tile.wypnt_bab:stripped_redwood_log.name=Stripped Redwood Log
+tile.wypnt_bab:redwood_wood.name=Redwood Wood
+tile.wypnt_bab:redwood_log.name=Redwood Log
+tile.wypnt_bab:stripped_redwood_wood.name=Stripped Redwood Wood
+tile.wypnt_bab:redwood_fence.name=Redwood Fence
+tile.wypnt_bab:redwood_fence_inventory.name=Redwood Fence
+tile.wypnt_bab:redwood_fence_gate.name=Redwood Fence Gate
+tile.wypnt_bab:redwood_door.name=Redwood Door
+tile.wypnt_bab:redwood_trapdoor.name=Redwood Trap Door
+tile.wypnt_bab:redwood_slab.name=Redwood Slab
+tile.wypnt_bab:redwood_leaves.name=Redwood Leaves
+tile.wypnt_bab:duckweed.name=Duckweed
+tile.wypnt_bab:lily_blossom.name=Lilyblossom
+tile.wypnt_bab:cattail.name=Cattails
+tile.wypnt_bab:autumn_leaves.name=Autumn Oak Leaves
+tile.wypnt_bab:autumn_leaf_pile.name=Autumn Leaf Pile
+tile.wypnt_bab:autumn_sapling.name=Autumn Sapling
+tile.wypnt_bab:baobab_planks.name=Baobab Planks
+tile.wypnt_bab:baobab_sapling.name=Baobab Sapling
+tile.wypnt_bab:stripped_baobab_log.name=Stripped Baobab Log
+tile.wypnt_bab:baobab_wood.name=Baobab Wood
+tile.wypnt_bab:baobab_log.name=Baobab Log
+tile.wypnt_bab:stripped_baobab_wood.name=Stripped Baobab Wood
+tile.wypnt_bab:baobab_fence.name=Baobab Fence
+tile.wypnt_bab:baobab_fence_gate.name=Baobab Fence Gate
+tile.wypnt_bab:baobab_door.name=Baobab Door
+tile.wypnt_bab:baobab_trapdoor.name=Baobab Trap Door
+tile.wypnt_bab:baobab_slab.name=Baobab Slab
+tile.wypnt_bab:baobab_leaves.name=Baobab Leaves
+tile.wypnt_bab:reeds.name=Reeds
+tile.wypnt_bab:clovers.name=Clovers
+tile.wypnt_bab:strata.name=Strata
+tile.wypnt_bab:cobbled_strata.name=Cobbled Strata
+tile.wypnt_bab:strata_bricks.name=Strata Bricks
+tile.wypnt_bab:chiseled_strata_bricks.name=Chiseled Strata Bricks
+tile.wypnt_bab:ultisol.name=Ultisol
+tile.wypnt_bab:didymoch.name=Didymoch
+tile.wypnt_bab:jungfern.name=Jungfern
+tile.wypnt_bab:maple_sapling.name=Maple Sapling
+tile.wypnt_bab:yellow_maple_sapling.name=Yellow Maple Sapling
+tile.wypnt_bab:maple_leaves.name=Maple Leaves
+tile.wypnt_bab:maple_yellow_leaves.name=Yellow Maple Leaves
+tile.wypnt_bab:maple_planks.name=Maple Planks
+tile.wypnt_bab:maple_log.name=Maple Log
+tile.wypnt_bab:stripped_maple_log.name=Stripped Maple Log
+tile.wypnt_bab:maple_wood.name=Maple Wood
+tile.wypnt_bab:stripped_maple_wood.name=Stripped Maple Wood
+tile.wypnt_bab:maple_fence.name=Maple Fence
+tile.wypnt_bab:maple_fence_inventory.name=Maple Fence
+tile.wypnt_bab:maple_fence_gate.name=Maple Fence Gate
+tile.wypnt_bab:maple_door.name=Maple Door
+tile.wypnt_bab:maple_trapdoor.name=Maple Trap Door
+tile.wypnt_bab:maple_slab.name=Maple Slab
+tile.wypnt_bab:quicksand.name=Quicksand
+tile.wypnt_bab:coralroot.name=Coralroot
+tile.wypnt_bab:glass_jar.name=Glass Jar
+tile.wypnt_bab:glass_jar_firefly.name=Firefly Jar
+tile.wypnt_bab:jacaranda_lantern.name=Jacaranda Lantern
+tile.wypnt_bab:brittlebright.name=Brittlebright
+tile.wypnt_bab:deer_trophy.name=Deer Trophy
+tile.wypnt_bab:white_deer_trophy.name=White Deer Trophy
+tile.wypnt_bab:sulfur_ore.name=Sulfur Ore
+tile.wypnt_bab:deepslate_sulfur_ore.name=Deeplsate Sulfur Ore
+tile.wypnt_bab:beach_grass.name=Beach Grass
+tile.wypnt_bab:mullein.name=Mullein
+tile.wypnt_bab:lichen_carpet.name=Lichen Carpet
+tile.wypnt_bab:lichen_hanging.name=Hanging Lichen
+tile.wypnt_bab:whispering_willow.name=Whispering Willows
+tile.wypnt_bab:forsaken_oak_log.name=Forsaken Oak Log
+tile.wypnt_bab:forsaken_oak_planks.name=Forsaken Oak Planks
+tile.wypnt_bab:forsaken_oak_leaves.name=Forsaken Oak Leaves
+tile.wypnt_bab:forsaken_oak_sapling.name=Forsaken Oak Sapling
+tile.wypnt_bab:stripped_forsaken_oak_log.name=Stripped Forsaken Oak Log
+tile.wypnt_bab:forsaken_oak_wood.name=Forsaken Oak Wood
+tile.wypnt_bab:stripped_forsaken_oak_wood.name=Stripped Forsaken Oak Wood
+tile.wypnt_bab:forsaken_oak_fence.name=Forsaken Oak Fence
+tile.wypnt_bab:forsaken_oak_fence_inventory.name=Forsaken Oak Fence
+tile.wypnt_bab:forsaken_oak_fence_gate.name=Forsaken Oak Fence Gate
+tile.wypnt_bab:forsaken_oak_door.name=Forsaken Oak Door
+tile.wypnt_bab:forsaken_oak_trapdoor.name=Forsaken Oak Trap Door
+tile.wypnt_bab:forsaken_oak_slab.name=Forsaken Oak Slab
+tile.wypnt_bab:sulfur_bag.name=Bag of Sulfur
+tile.wypnt_bab:void_turf.name=Voidturf
+tile.wypnt_bab:chorus_log.name=Chorus Log
+tile.wypnt_bab:chorus_planks.name=Chorus Planks
+tile.wypnt_bab:chorus_leaves.name=Chorus Leaves
+tile.wypnt_bab:chorus_sapling.name=Chorus Sapling
+tile.wypnt_bab:stripped_chorus_log.name=Stripped Chorus Log
+tile.wypnt_bab:chorus_wood.name=Chorus Wood
+tile.wypnt_bab:stripped_chorus_wood.name=Stripped Chorus Wood
+tile.wypnt_bab:chorus_fence.name=Chorus Fence
+tile.wypnt_bab:chorus_fence_inventory.name=Chorus Fence
+tile.wypnt_bab:chorus_fence_gate.name=Chorus Fence Gate
+tile.wypnt_bab:chorus_door.name=Chorus Door
+tile.wypnt_bab:chorus_trapdoor.name=Chorus Trap Door
+tile.wypnt_bab:chorus_slab.name=Chorus Slab
+tile.wypnt_bab:void_blossom.name=Void Blossom
+tile.wypnt_bab:void_blossom_bush.name=Void Blossom Bush
+tile.wypnt_bab:void_turf_grass.name=Voidturf Grass
+tile.wypnt_bab:tungsten_ore.name=Tungsten Ore
+tile.wypnt_bab:deepslate_tungsten_ore.name=Deepslate Tungsten Ore
+tile.wypnt_bab:end_stone_tungsten_ore.name=End Stone Tungsten Ore
+tile.wypnt_bab:cobbled_end_stone.name=Cobbled End Stone
+tile.wypnt_bab:chorus_ivy.name=Popped Chorus Ivy
+tile.wypnt_bab:velvium.name=Velvium
+tile.wypnt_bab:velvium_vine.name=Velvium Vines
+tile.wypnt_bab:velvium_vine_bulb.name=Velvium Vine Bulb
+tile.wypnt_bab:velvium_grass.name=Velvium Grass
+tile.wypnt_bab:popped_chorus_leaves.name=Popped Chorus Leaves
+tile.wypnt_bab:puffshroom.name=Puffshrooms
+tile.wypnt_bab:chiseled_end_stone.name=Chiseled End Stone
+tile.wypnt_bab:voidmire.name=Voidmire
+tile.wypnt_bab:voidmire_grass.name=Voidmire Grass
+tile.wypnt_bab:depraved_wart_block.name=Depraved Wart Block
+tile.wypnt_bab:depraved_stem.name=Depraved Stem
+tile.wypnt_bab:depraved_vine.name=Depraved Tendril Vine
+tile.wypnt_bab:depraved_vine_flower.name=Depraved Tendril Blossom
+tile.wypnt_bab:hollow_oak_log.name=Hollowed Oak Log
+tile.wypnt_bab:hollow_pale_oak_log.name=Hollowed Pale Oak Log
+tile.wypnt_bab:hollow_fir_log.name=Hollowed Fir Log  
+tile.wypnt_bab:hollow_jacaranda_log.name=Hollowed Jacaranda Log
+tile.wypnt_bab:hollow_redwood_log.name=Hollowed Redwood Log 
+tile.wypnt_bab:hollow_baobab_log.name=Hollowed Baobab Log
+tile.wypnt_bab:hollow_maple_log.name=Hollowed Maple Log
+tile.wypnt_bab:hollow_forsaken_oak_log.name=Hollowed Forsaken Oak Log
+tile.wypnt_bab:hollow_chorus_log.name=Hollowed Chorus Log
+tile.wypnt_bab:hollow_spruce_log.name=Hollowed Spruce Log
+tile.wypnt_bab:hollow_birch_log.name=Hollowed Birch Log
+tile.wypnt_bab:hollow_jungle_log.name=Hollowed Jungle Log
+tile.wypnt_bab:hollow_acacia_log.name=Hollowed Acacia Log
+tile.wypnt_bab:hollow_dark_oak_log.name=Hollowed Dark Oak Log
+tile.wypnt_bab:hollow_mangrove_log.name=Hollowed Mangrove Log
+tile.wypnt_bab:cherry_hollow_log.name=Hollowed Cherry Log
+tile.wypnt_bab:spore_chute.name=Spore Chutes
+tile.wypnt_bab:popped_chorus_sapling.name=Popped Chorus Sapling
+tile.wypnt_bab:depraved_shroom.name=Depraved Shroom
+tile.wypnt_bab:coconut.name=Coconut
+tile.wypnt_bab:coconut_sapling.name=Coconut Palm Sapling
+tile.wypnt_bab:tungsten_block.name=Tungsten Block
+tile.wypnt_bab:rotveil.name=Rotveil
+tile.wypnt_bab:rotveil_grass.name=Rotveil Grass
+tile.wypnt_bab:rotwarts.name=Rotwarts
+tile.wypnt_bab:barley.name=Wild Barley
+tile.wypnt_bab:white_lazarus.name=White Lazarus
+tile.wypnt_bab:standing_torch.name=Standing Torch
+tile.wypnt_bab:crocodile_egg.name=Crocodile Egg
+tile.wypnt_bab:banana_block_empty.name=Empty Banana Block
+tile.wypnt_bab:banana_block.name=Banana Block
+tile.wypnt_bab:banana_block_inmature.name=Inmature Banana Block
+tile.wypnt_bab:banana_sapling_item.name=Banana Sapling
+tile.wypnt_bab:cobbled_end_stone_slab.name=Cobbled End Stone Slab
+tile.wypnt_bab:cobbled_strata_slab.name=Cobbled Strata Slab
+tile.wypnt_bab:strata_brick_slab.name=Strata Brick Slab
+
+##################################################
+##  Entities
+##################################################
+
+entity.wypnt_bab:firefly.name=Firefly
+entity.wypnt_bab:deer.name=Deer
+entity.wypnt_bab:crocodile.name=Crocodile
+entity.wypnt_bab:grizzly_bear.name=Grizzly Bear
+entity.wypnt_bab:mummy.name=Mummy
+entity.wypnt_bab:raccoon.name=Raccoon
+entity.wypnt_bab:warthog.name=Warthog
+entity.wypnt_bab:nautiling.name=Nautiling
+entity.wypnt_bab:goblin.name=Goblin
+entity.wypnt_bab:dweller.name=Dweller
+entity.wypnt_bab:lurker.name=Lurker
+entity.wypnt_bab:spectre.name=Spectre
+entity.wypnt_bab:void_jelly.name=Voidjelly
+entity.wypnt_bab:voidcaller.name=Voidcaller
+entity.wypnt_bab:sigiling.name=Sigiling
+entity.wypnt_bab:puffling.name=Puffling
+entity.wypnt_bab:chimp.name=Chimpanzee
+entity.wypnt_bab:hollowmen.name=Hollowed Enderman
+entity.wypnt_bab:skeleman.name=Decayed Enderman
+entity.wypnt_bab:voidstrider.name=Voidstrider
+entity.wypnt_bab:coconut.name=Coconut
+entity.wypnt_bab:sigiling_shot.name=Sigiling Shot
+entity.wypnt_bab:puffling_wind_charge.name=Wind Charge
+entity.wypnt_bab:tumbleweed.name=Tumbleweed
+entity.wypnt_bab:weather_detect.name=Weather Detect
+
+##################################################
+##  Spawn Eggs
+##################################################
+
+item.spawn_egg.entity.wypnt_bab:firefly.name=Firefly Spawn Egg
+item.spawn_egg.entity.wypnt_bab:deer.name=Deer Spawn Egg
+item.spawn_egg.entity.wypnt_bab:crocodile.name=Crocodile Spawn Egg
+item.spawn_egg.entity.wypnt_bab:mummy.name=Mummy Spawn Egg
+item.spawn_egg.entity.wypnt_bab:grizzly_bear.name=Grizzly Bear Spawn Egg
+item.spawn_egg.entity.wypnt_bab:raccoon.name=Raccoon Spawn Egg
+item.spawn_egg.entity.wypnt_bab:warthog.name=Warthog Spawn Egg
+item.spawn_egg.entity.wypnt_bab:nautiling.name=Nautiling Spawn Egg
+item.spawn_egg.entity.wypnt_bab:goblin.name=Goblin Spawn Egg
+item.spawn_egg.entity.wypnt_bab:dweller.name=Dweller Spawn Egg
+item.spawn_egg.entity.wypnt_bab:lurker.name=Lurker Spawn Egg
+item.spawn_egg.entity.wypnt_bab:spectre.name=Spectre Spawn Egg
+item.spawn_egg.entity.wypnt_bab:void_jelly.name=Voidjelly Spawn Egg
+item.spawn_egg.entity.wypnt_bab:voidcaller.name=Voidcaller Spawn Egg
+item.spawn_egg.entity.wypnt_bab:sigiling.name=Sigiling Spawn Egg
+item.spawn_egg.entity.wypnt_bab:puffling.name=Puffling Spawn Egg
+item.spawn_egg.entity.wypnt_bab:chimp.name=Chimpanzee Spawn Egg
+item.spawn_egg.entity.wypnt_bab:hollowmen.name=Hollowed Enderman Spawn Egg
+item.spawn_egg.entity.wypnt_bab:skeleman.name=Decayed Enderman Spawn Egg
+item.spawn_egg.entity.wypnt_bab:voidstrider.name=Voidstrider Spawn Egg
+
+##################################################
+##  Items
+##################################################
+
+item.wypnt_bab:banana.name=Banana
+item.wypnt_bab:banana_seeds.name=Banana Seeds
+item.wypnt_bab:aloe_vera_leaf.name=Aloe Vera Leaf
+item.wypnt_bab:deer_hide.name=Deer Hide
+item.wypnt_bab:deer_antler.name=Deer Antler
+item.wypnt_bab:venison.name=Raw Venison
+item.wypnt_bab:cooked_venison.name=Cooked Venison
+item.wypnt_bab:crocodile_meat.name=Raw Crocodile
+item.wypnt_bab:cooked_crocodile_meat.name=Cooked Crocodile
+item.wypnt_bab:coconut_open.name=Split Coconut
+item.wypnt_bab:didymoch_item.name=Didymoch
+item.wypnt_bab:grizzly_pelt.name=Grizzly Pelt
+item.wypnt_bab:sulfur.name=Sulfur
+item.wypnt_bab:mullein_item.name=Mullein
+item.wypnt_bab:lurker_foot.name=Lurker's Foot
+item.wypnt_bab:dweller_flesh.name=Dweller Flesh
+item.wypnt_bab:raw_tungsten.name=Raw Tungsten
+item.wypnt_bab:tungsten_ingot.name=Tungsten Ingot
+item.wypnt_bab:enderium_ingot.name=Enderium Ingot
+item.wypnt_bab:void_shard.name=Void Shard
+item.wypnt_bab:barley_bundle.name=Barley
+item.wypnt_bab:barley_seeds.name=Barley Seeds
+item.wypnt_bab:striding.name=Raw Striding Ribs
+item.wypnt_bab:cooked_striding.name=Cooked Striding Ribs
+item.wypnt_bab:nautiling_bucket.name=Nautiling bucket
+
+item.wypnt_bab:info_book.name=§3Biomes & Beyond§r\n§7Quick Wiki§r
+
+item.wypnt_bab:personal_settings.name=§3Biomes & Beyond§r\n§7Personal Settings§r
+item.wypnt_bab:global_settings.name=§3Biomes & Beyond§r\n§7Global Settings§r
+
+item.wypnt_bab:swiftrunner_boots.name=Swiftrunner Boots
+item.wypnt_bab:tungsten_helmet.name=Tungsten Helmet
+item.wypnt_bab:tungsten_chestplate.name=Tungsten Chestplate
+item.wypnt_bab:tungsten_leggings.name=Tungsten Leggings
+item.wypnt_bab:tungsten_boots.name=Tungsten Boots
+item.wypnt_bab:enderium_helmet.name=Enderium Helmet
+item.wypnt_bab:enderium_chestplate.name=Enderium Chestplate
+item.wypnt_bab:enderium_leggings.name=Enderium Leggings
+item.wypnt_bab:enderium_boots.name=Enderium Boots
+
+item.wypnt_bab:khopesh.name=Khopesh
+item.wypnt_bab:tungsten_sword.name=Tungsten Sword
+item.wypnt_bab:enderium_sword=Enderium Sword
+
+item.wypnt_bab:tungsten_pickaxe.name=Tungsten Pickaxe
+item.wypnt_bab:tungsten_axe.name=Tungsten Axe
+item.wypnt_bab:tungsten_shovel.name=Tungsten Shovel
+item.wypnt_bab:tungsten_hoe.name=Tungsten Hoe
+item.wypnt_bab:enderium_pickaxe=Enderium Pickaxe
+item.wypnt_bab:enderium_axe.name=Enderium Axe
+item.wypnt_bab:enderium_shovel.name=Enderium Shovel
+item.wypnt_bab:enderium_hoe.name=Enderium Hoe
+
+
+wypnt_bab:itemGroup.name.leaf_piles=Leaf Piles
+wypnt_bab:itemGroup.name.strata=Strata
+wypnt_bab:itemGroup.name.hollow_log=Hollowed Logs
+
+
+action.interact.catch=Catch In Jar!
+action.hint.exit.wypnt_bab:warthog=Crouch to Dismount
+action.interact.ride.wypnt_bab:voidstrider=Ride
+action.hint.exit.wypnt_bab:voidstrider=Crouch to Dismount
+
+welcome.wypnt_bab:update.text=[§3Biomes & Beyond§r] updated from §7v%s§r to §7v%s§r!
+welcome.wypnt_bab:downgrade_warn.text=[§3Biomes & Beyond§r] had a downgrade from §7v%s§r to §7v%s§r! Please update to a newer version. Using this version after using a newer version may cause problems in this world.
+welcome.wypnt_bab:first_join.text=§eWelcome to §bBiomes §7& §bBeyond!§r\n§7Currently, the add-on is still in beta, so some features may not work as intended and bugs may be encountered. The add-on may receive frequent updates while in beta. Thank you for playing, and have fun!
+
+
+toast.biomes_beyond.grizzly_bear.name=§eBear Necessities§r\nDefeated a Grizzly Bear!
+toast.biomes_beyond.lurker.name=§eEchoes of Humanity§r\nDefeated a Lurker..
+toast.biomes_beyond.croc.name=§eCroc-Cuisine§r\nEat cooked crocodile.
+toast.biomes_beyond.leather.name=§eBetter than nothing..§r\nWear full leather armor.
+toast.biomes_beyond.jar.name=§eGlow Getter!§r\nObtained a firefly jar.
+toast.biomes_beyond.tungsten.name=§eFool's Netherite§r\nObtained a tungsten ingot.
+toast.biomes_beyond.bola.name=Howdy Partner
+
+
+ui.biomes_beyond.gsetings.title.name=Biomes & Beyond Global Settings
+ui.biomes_beyond.gsetings.blizard_sandstorm.name=Sandstorms & Blizzards
+ui.biomes_beyond.gsetings.storm.on=§aStorm effects enabled.
+ui.biomes_beyond.gsetings.storm.off=§cStorm effects disabled.
+
+ui.biomes_beyond.psetings.title.name=Biomes & Beyond Personal Settings
+ui.biomes_beyond.psetings.particle.name=Ambient Particles §7§o(custom only)§r
+ui.biomes_beyond.psetings.end_fog.name=End Biome Fog
+
+##################################################
+##  Wiki book
+##################################################
+
+ui.biomes_beyond.wiki.title=B&B Quick Wiki (Incomplete)
+ui.biomes_beyond.wiki.mobs.name=Mobs
+ui.biomes_beyond.wiki.items.name=Items
+ui.biomes_beyond.wiki.tools.name=Tools & Equipment
+ui.biomes_beyond.wiki.biomes.name=Biomes
+ui.biomes_beyond.wiki.structures.name=Structures
+ui.biomes_beyond.wiki.ores.name=Ores
+ui.biomes_beyond.wiki.more.name=More
+ui.biomes_beyond.wiki.other_categ.name=Other Categories
+ui.biomes_beyond.wiki.close.name=Close
+ui.biomes_beyond.wiki.back.name=Back
+
+##################################################
+##  wiki biomes
+##################################################
+
+ui.biomes_beyond.wiki.back_biomes.name=Back to Biomes
+ui.biomes_beyond.wiki.aspen_forest.name=Aspen Forest
+ui.biomes_beyond.wiki.lavender_fields.name=Lavender Fields
+ui.biomes_beyond.wiki.autumn_woods.name=Autumn Woods
+ui.biomes_beyond.wiki.badlands.name=Badlands
+ui.biomes_beyond.wiki.prairie.name=Prairie
+ui.biomes_beyond.wiki.savanna.name=Savanna
+ui.biomes_beyond.wiki.deciduous_forest.name=Deciduous Forest
+ui.biomes_beyond.wiki.pendula_birch_forest.name=Pendula Birch Forest
+ui.biomes_beyond.wiki.boggy_swamplands.name=Boggy Swamplands
+ui.biomes_beyond.wiki.pale_garden.name=Pale Garden
+ui.biomes_beyond.wiki.forsaken_depths.name=Forsaken Depths
+ui.biomes_beyond.wiki.chorus_forest.name=Chorus Forest
+ui.biomes_beyond.wiki.velvium_expanses.name=Velvium Expanses
+ui.biomes_beyond.wiki.depraved_wetlands.name=Depraved Wetlands
+
+ui.biomes_beyond.wiki.aspen_forest.description=A forest filled with tall yellow Aspen trees, wildflowers, and shrubs.\n\n\n
+ui.biomes_beyond.wiki.lavender_fields.description=A flat serene biome filled with purple Jacaranda trees, Wisteria, and Lavender flowers.\n\n\n
+ui.biomes_beyond.wiki.autumn_woods.description=Fall-like biome filled with red and yellow Maple trees, orange oak trees, and pumpkins.\n\n\n
+ui.biomes_beyond.wiki.badlands.description=Hot and dry biome with red rock formations, cacti, and sparse vegetation, with dry oak trees scattering the landscape.\n\n\n
+ui.biomes_beyond.wiki.prairie.description=Mostly flat biome with tall grass, Clovers, and a few oak trees.\n\n\n
+ui.biomes_beyond.wiki.savanna.description=Hot and dry biome with Strata, tall grass, acacia, and Baobab trees.\n\n\n
+ui.biomes_beyond.wiki.deciduous_forest.description=A dense forest filled with oak trees of various sizes, flowers, and other vegetation.\n\n\n
+ui.biomes_beyond.wiki.pendula_birch_forest.description=A forest filled with tall white birch trees, bees, Daisy Petals, and bushes.\n\n\n
+ui.biomes_beyond.wiki.boggy_swamplands.description=A wet and moist biome with dark water, tall grass, and various plants.\n\n\n
+ui.biomes_beyond.wiki.pale_garden.description=The pale garden has recieved a slight makeover, allowing the trees to be taller, added pale bushes, and added a dense pale fog.\n\n\n
+ui.biomes_beyond.wiki.forsaken_depths.description=A dark and eerie biome with fossils, forsaken oak trees, hanging lichen, lichen carpet, and whispering willows.\n\n\n
+ui.biomes_beyond.wiki.chorus_forest.description=An end biome filled with chorus trees, Void Blossoms, Void Blossoms Bushes, and a unique lively, but still lonely atmosphere.\n\n\n
+ui.biomes_beyond.wiki.velvium_expanses.description=A vibrant and colorful biome with Velvium trees, Velvium Vines, and Cobbled End Stone boulders.\n\n\n
+ui.biomes_beyond.wiki.depraved_wetlands.description=Wet, swamp-like biome with giant mushroom trees and depraved vegetation.\n\n\n
+
+##################################################
+##  wiki mobs
+##################################################
+
+ui.biomes_beyond.wiki.back_mobs.name=Back to Mobs
+ui.biomes_beyond.wiki.deer.name=Deer
+ui.biomes_beyond.wiki.grizzly_bear.name=Grizzly Bear
+ui.biomes_beyond.wiki.raccoon.name=Raccoon
+ui.biomes_beyond.wiki.crocodile.name=Crocodile
+ui.biomes_beyond.wiki.mummy.name=Mummy
+ui.biomes_beyond.wiki.warthog.name=Warthog
+ui.biomes_beyond.wiki.nautiling.name=Nautiling
+ui.biomes_beyond.wiki.dweller.name=Dweller
+ui.biomes_beyond.wiki.lurker.name=Lurker
+ui.biomes_beyond.wiki.spectre.name=Spectre
+ui.biomes_beyond.wiki.voidcaller.name=Voidcaller
+ui.biomes_beyond.wiki.sigiling.name=Sigiling
+ui.biomes_beyond.wiki.hollowed.name=Hollowed
+ui.biomes_beyond.wiki.puffling.name=Puffling
+ui.biomes_beyond.wiki.chimp.name=Chimp
+
+ui.biomes_beyond.wiki.deer.description=Passive mobs that will avoid players, villagers, and pillagers. They will drop venison, deer antlers, leather and a rare chance to drop a deer trophy when killed.\n\nThey can be fed carrots to breed. You can also find the rare white deer and have an even rarer chance to obtain the SUPER rare white deer trophy...phew, so many rares!\n\n\n
+ui.biomes_beyond.wiki.grizzly_bear.description=Neutral mob that will attack players if provoked or if a player comes too close. Can be bred using honeycomb, but it's dangerous.\n\nDrops grizzly pelt when killed.\n\n\n
+ui.biomes_beyond.wiki.raccoon.description=Adorable neutral mobs that will attack players if angered. They will avoid players, and are nocturnal and will sleep during the day similar to foxes.\n\nThey will eat crops, and pickup most food items and eat them. They are afraid of carved pumpkins, so they are a good way to prevent raccoons from eating crops.\n\nTo tame raccoons, sneak and feed them bread.\n\n\n
+ui.biomes_beyond.wiki.crocodile.description=Spawns primarily in water, where it is fastest, and will attack most mobs.\n\nDrops Crocodile meat when killed. It can be bred, but it's dangerous.\n\nSometimes it grows bigger than normal. Be careful if you ever find a giant crocodile!\n\n\n
+ui.biomes_beyond.wiki.mummy.description=An ancient corpse from a past civilization wrapped in dirty cloth.\n\nDrops paper, gold and rotten flesh when killed.\n\n\n
+ui.biomes_beyond.wiki.warthog.description=Warthogs are passive creatures found in the Savanna biome, attacking players only when provoked.\n\nPlayers can saddle up a Warthog and ride it using a carrot on a stick, much like riding pigs. Warthogs occasionally dig through nearby blocks in search of food, sometimes unearthing other items in the process.\n\nWhen they find food, they will eat it. These creatures closely resemble the Nether's Hoglins and will transform into Hoglins if they stay in the Nether too long.\n\n\n
+ui.biomes_beyond.wiki.nautiling.description=Rarely, they are found in warm deep oceanic waters. Well known mostly for their beautiful shell.\n\nYou can capture una inside a water bucket.
+ui.biomes_beyond.wiki.dweller.description=Dwellers are mysterious cave-dwelling monsters found within the Forsaken Depths.\n\nThey inhabit deep caves, spawning between levels -63 and 8. Although their eyesight is poor, they compensate with a keen sense of smell and acute hearing. Periodically, they will seek out players within a 24-block radius and attack once within 6 blocks.\n\nIf the player runs outside this range without being hit, the Dwellers temporarily lose sight of them. Dwellers have a strong hatred to fire, making torches, standing torches, campfires, and lanterns effective repellents.\n\nWhile they can destroy torches, they are unable to break standing torches, campfires, and lanterns. Their origin is unknown, but they are believed to be long-lost adventurers who couldn't find their way out of the deep cave systems. Over time, they were slowly overcome by the darkness, leading to mutation and a loss of all sense of who they once were.\n\n\n
+ui.biomes_beyond.wiki.lurker.description=Lurkers are a newly introduced hostile mob found deep within the Forsaken Depths.\n\nThey're known for their haunting cries, which can be heard from far away. Generally, they try to avoid conflict but become hostile if a player gets too close. When attacked, they blind the player and then flee, continuing to cry.\n\nSimilar to Dwellers, the darkness has severely impaired their vision, so they rely heavily on sound and smell. It's believed that they cry because they have faint memories of their former selves and dislike having players nearby.\n\n\n
+ui.biomes_beyond.wiki.spectre.description=Spectres are hostile mobs in the Forsaken Depths.\n\nThey are surrounded by a thick black mist and have bright white eyes that shine through the darkness. They will vanish and sometimes even attack if looked at or if a player gets too close.\n\nThese ghostly beings are thought to be lost souls corrupted and trapped in the Forsaken Depths.\n\n\n
+ui.biomes_beyond.wiki.voidcaller.description=Voidcallers are an Enderman variant that watch players from afar, waiting for a player to gaze at the bright yellow sigil on its chest, or at its eyes.\n\nOnce a player angers a Voidcaller, they will begin to shriek, angering surrounding enderlings who will also begin to attack the player.\n\n\n
+ui.biomes_beyond.wiki.sigiling.description=Sigilings are another variant of Endermen, these hunky endermen will shoot projectiles from its mouth when angered.\n\nThey will attempt to avoid the player's attacks as much as possible, while remaining offensive. They are significantly slower than other enderlings, but make up for it in damage and health.\n\n\n
+ui.biomes_beyond.wiki.hollowed.description=Hollowed spawn in the Depraved Wetlands and become hostile if the player gets too close, even when wearing a carved pumpkin. They are noticeably weaker and slower than regular Endermen.\n\nWhen killed, a Hollowed splits into two, with each duplicate having only about half of it's orignal health.\n\nTheir teleportation ability is not great, allowing them to teleport only up to 7 blocks horizontally.\n\n\n
+ui.biomes_beyond.wiki.puffling.description=Pufflings are passive creatures native to the Velvium Expanses.\n\nThey tend to avoid players unless approached while crouching. To breed Pufflings, players must feed them wind charges while crouched. Once a baby Puffling is born, it becomes friendly toward the player and can perch on their shoulders, occasionally granting them bursts of slow falling.\n\nHowever, if provoked, Pufflings will become hostile and attack by spitting wind charges at their target. Pufflings will attack skeletons and zombies on sight.\n\n\n
+ui.biomes_beyond.wiki.chimp.description=Chimps can be found in Jungles, they are neutral animals and will only attack when provoked. They will pickup and eat dropped food and will even pickup majority of items. When picking up any tools and armor, they will equip and use them, so be careful not to lose your gear near them because they will not give it back willingly. They can be fed apples to breed.\n\n\n
+
+##################################################
+##  wiki items
+##################################################
+
+ui.biomes_beyond.wiki.back_items.name=Back to Items
+ui.biomes_beyond.wiki.deer_antler.name=Deer Antlers
+ui.biomes_beyond.wiki.deer_hide.name=Deer Hide
+ui.biomes_beyond.wiki.dweller_flesh.name=Dweller Flesh
+ui.biomes_beyond.wiki.aloe_vera.name=Aloe Vera Leaf
+ui.biomes_beyond.wiki.coconut.name=Coconut
+ui.biomes_beyond.wiki.banana.name=Banana
+ui.biomes_beyond.wiki.banana_seeds.name=Banana Seeds
+ui.biomes_beyond.wiki.grizzly_pelt.name=Grizzly Bear Pelt
+ui.biomes_beyond.wiki.lurker_foot.name=Lurker's Foot
+ui.biomes_beyond.wiki.swiftrunner_boots.name=Swiftrunner Boots
+ui.biomes_beyond.wiki.sulfur.name=Sulfur
+ui.biomes_beyond.wiki.raw_tungsten.name=Raw Tungsten
+ui.biomes_beyond.wiki.tungsten_ingot.name=Tungsten Ingot
+
+ui.biomes_beyond.wiki.deer_antler.description=Dropped by deer. (Will be tradeable in a future update.)
+ui.biomes_beyond.wiki.deer_hide.description=Dropped by deer. (Will be tradeable in a future update.)
+ui.biomes_beyond.wiki.dweller_flesh.description=Dropped by Dwellers, can be used in a funrace to get leather.
+ui.biomes_beyond.wiki.aloe_vera.description=Dropped by mining an Aloe Vera plant. Can be eaten.
+ui.biomes_beyond.wiki.coconut.description=Dropped by mining coconuts found on palm trees. Can be split in any crafting grid to eat, or be thrown.\n\nCoconuts can be used to craft Coconut Palm Saplings, which can then be planted to grow more Coconut Palms.
+ui.biomes_beyond.wiki.banana.description=Dropped by Banana Blocks that grow on Banana Trees, which are rarely found in jungle biomes. Very nutricius!
+ui.biomes_beyond.wiki.banana_seeds.description=Sometimes dropped by Banana Blocks, use it to craft Banana Tree Saplings, which can be planted to grow more Banana Trees.
+ui.biomes_beyond.wiki.grizzly_pelt.description=Dropped by grizzly bears. (Will be tradeable in a future update.)
+ui.biomes_beyond.wiki.lurker_foot.description=Dropped rarely by lurkers, use it to craft swiftrunner boots.
+ui.biomes_beyond.wiki.swiftrunner_boots.description=Special gear created using lurkers' feet and dwellers' flesh. Wear it to be granted with speed!
+ui.biomes_beyond.wiki.sulfur.description=Dropped by mining Sulfur Ore. Can be used to craft gunpowder, used as a fuel source, or crafted into a bag of sulfur.
+ui.biomes_beyond.wiki.raw_tungsten.description=Dropped by mining Tungsten Ore. Can be smelted in a furnace to obtain Tungsten Ingots.
+ui.biomes_beyond.wiki.tungsten_ingot.description=Obtained from smelting raw Tungsten in a furnace.
+
+##################################################
+##  wiki tools
+##################################################
+
+ui.biomes_beyond.wiki.back_tools.name=Back to Tools & Equipment
+ui.biomes_beyond.wiki.khopesh.name=Khopesh
+ui.biomes_beyond.wiki.tungsten.name=Tungsten Tools & Equipment
+
+ui.biomes_beyond.wiki.khopesh.description=An ancient sword left behind by a past civilization.\n\n-Deals 6 damage\n-Has 350 durability\n-Has a chance to inflict instant damage\n-Dropped rarely by Mummies\n\n
+ui.biomes_beyond.wiki.tungsten.description=-Slightly more durability compared to diamond tools ( 1758 )\n-Slightly less enchantable compared to diamond tools (9)\n-Slightly slower mining speed compared to diamond tools\n-Same amount of attack damage as diamond tools\n\n
+
+##################################################
+##  wiki structures
+##################################################
+
+ui.biomes_beyond.wiki.back_structures.name=Back to Structures
+ui.biomes_beyond.wiki.trial_tower.name=Trial Tower
+ui.biomes_beyond.wiki.goblin_hut.name=Goblin Hut
+ui.biomes_beyond.wiki.ruined_altars.name=Ruined Altars
+
+ui.biomes_beyond.wiki.trial_tower.description=A tall tower containing several levels of trial spawners to fight through to obtain the loot at the top.\n\nSpawns in: Forests, Pendula Birch Forests, Mystic Roofed Forest, Prairie Plains, Desert, Mesa, Coniferous Forest\n\n\n
+ui.biomes_beyond.wiki.goblin_hut.description=Homes of Goblins, spawning up to several at a time.\n\nSpawns within the Mystic Roofed Forest.\n\n\n
+ui.biomes_beyond.wiki.ruined_altars.description=Old, abandonded altars that served an unknown purpose. Now dilapidated, and forgotten due to age.\n\nSpawns in: Forests, Taigas, and Mystic Roofed Forests.\n\n\n
+
+##################################################
+##  wiki ore
+##################################################
+
+ui.biomes_beyond.wiki.back_ores.name=Back to Ores
+ui.biomes_beyond.wiki.sulfur_ore.name=Sulfur Ore
+ui.biomes_beyond.wiki.tungsten_ore.name=Tungsten Ore
+
+ui.biomes_beyond.wiki.sulfur_ore.description=A common ore found in the Overworld. It can be smelted into Sulfur, which is used for crafting gunpowder or as a fuel source.
+ui.biomes_beyond.wiki.tungsten_ore.description=A rare ore found anywhere in the Overworld and in The End with a triangular distribution, between levels 16 through -64 in the overworld, and on the lower levels of end islands.\n\nSmelting produces Tungsten Ingots, which are used for crafting durable tools and armor.
+
+##################################################
+##  wiki credits
+##################################################
+
+ui.biomes_beyond.wiki.credits.name=Credits
+
+ui.biomes_beyond.wiki.credits.description=Created & developed by iKorbon.\n\n\nSpecial thanks to:\nCooperCan\ngeertop\nPoggy\nKiaoga\nAnd you, %s. Thank you for playing, and have fun!\n\n

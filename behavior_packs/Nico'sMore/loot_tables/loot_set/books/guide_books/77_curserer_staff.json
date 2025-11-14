@@ -21,10 +21,10 @@
               "title": "Guide Book #77",
               "author": "Forsaken Odyssey",
               "pages": [
-                "        §7Guide Book #77§r\n§lCurserer Staff§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lCraftable on§r: Artifacture Table\n•§lStackable§r: 1\n•§lDurability§r: 128\n•§lMelee Damage§r: 5\n•§lMelee Effect§r: Magical Scourge I,",
-                "Spirit Piercer.\n•§lShoot§r: Curserer Magic Missile\n•§lProjectile Hit Damage§r: 8\n•§lProjectile Area Damage§r: 3 in 3-block radius.\n•§lProjectile Effect§r: Magical Scourge I, Spirit Piercer.\n•§lCooldown§r: 1.5 §o§8(sec)§r",
-                "•§lEnchantable§r: YES\n•§lRepairable with§r: Curserer Staff\n•Wielding this can repel any nearby cursed mobs.\n•Wielding the §lBook of Curses§r on your offhand will enhances the Curserer Staff by increasing projectile hit damage to 10,",
-                "projectile area damage to 4, Magical Scourge level, improving projectile velocity and range, and reducing durability loss when used as a melee weapon or digging tool.§’"
+                "        §7Guide Book #77§r\n§lCurserer Staff§r\n§8ITEM§r\n \n•§lRarity§r: Uncommon\n•§lDropped by§r: Rat Curserer\n•§lCraftable on§r: Artifacture Table\n•§lStackable§r: 1\n•§lDurability§r: 256\n•§lMelee Damage§r: 5",
+                "•§lMelee Effect§r: Magical Scourge I, Spirit Piercer.\n•§lShoot§r: Curserer Magic Missile\n•§lProjectile Hit Damage§r: 8\n•§lProjectile Area Damage§r: 3 in 3-block radius.\n•§lProjectile Effect§r: Magical Scourge I, Spirit Piercer.",
+                "•§lCooldown§r: 1.2 §o§8(sec)§r\n•§lEnchantable§r: YES\n•§lRepairable with§r: Curserer Staff\n•Wielding this can repel any nearby cursed mobs.\n•Wielding the §lBook of Curses§r on your offhand will enhances the Curserer Staff by",
+                "increasing projectile hit damage to 10, projectile area damage to 4, Magical Scourge level, improving projectile velocity and range, and reducing durability loss when used as a melee weapon or digging tool.§’"
               ]
             }
           ]

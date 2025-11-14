@@ -1,0 +1,383 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "nicothekid_acacia_wood_lamp": {
+      "textures": "textures/blocks/ntk_acacia_wood_lamp"
+    },
+    "nicothekid_acacia_wood_lantern_down": {
+      "textures": "textures/blocks/ntk_acacia_wood_lantern_down"
+    },
+    "nicothekid_acacia_wood_lantern_side": {
+      "textures": "textures/blocks/ntk_acacia_wood_lantern_side"
+    },
+    "nicothekid_amethyst_lamp": {
+      "textures": "textures/blocks/ntk_amethyst_lamp"
+    },
+    "nicothekid_andesite_lantern": {
+      "textures": "textures/blocks/ntk_andesite_lantern"
+    },
+    "nicothekid_andesite_soul_lantern": {
+      "textures": "textures/blocks/ntk_andesite_soul_lantern"
+    },
+    "nicothekid_bamboo_wood_lamp": {
+      "textures": "textures/blocks/ntk_bamboo_wood_lamp"
+    },
+    "nicothekid_bamboo_wood_lantern_down": {
+      "textures": "textures/blocks/ntk_bamboo_wood_lantern_down"
+    },
+    "nicothekid_bamboo_wood_lantern_side": {
+      "textures": "textures/blocks/ntk_bamboo_wood_lantern_side"
+    },
+    "nicothekid_basalt_lantern": {
+      "textures": "textures/blocks/ntk_basalt_lantern"
+    },
+    "nicothekid_basalt_soul_lantern": {
+      "textures": "textures/blocks/ntk_basalt_soul_lantern"
+    },
+    "nicothekid_birch_wood_lamp": {
+      "textures": "textures/blocks/ntk_birch_wood_lamp"
+    },
+    "nicothekid_birch_wood_lantern_down": {
+      "textures": "textures/blocks/ntk_birch_wood_lantern_down"
+    },
+    "nicothekid_birch_wood_lantern_side": {
+      "textures": "textures/blocks/ntk_birch_wood_lantern_side"
+    },
+    "nicothekid_blackstone_lantern": {
+      "textures": "textures/blocks/ntk_blackstone_lantern"
+    },
+    "nicothekid_blackstone_soul_lantern": {
+      "textures": "textures/blocks/ntk_blackstone_soul_lantern"
+    },
+    "nicothekid_brick_lantern": {
+      "textures": "textures/blocks/ntk_brick_lantern"
+    },
+    "nicothekid_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_brick_soul_lantern"
+    },
+    "nicothekid_calcite_lantern": {
+      "textures": "textures/blocks/ntk_calcite_lantern"
+    },
+    "nicothekid_calcite_soul_lantern": {
+      "textures": "textures/blocks/ntk_calcite_soul_lantern"
+    },
+    "nicothekid_cherry_wood_lamp": {
+      "textures": "textures/blocks/ntk_cherry_wood_lamp"
+    },
+    "nicothekid_cherry_wood_lantern_down": {
+      "textures": "textures/blocks/ntk_cherry_wood_lantern_down"
+    },
+    "nicothekid_cherry_wood_lantern_side": {
+      "textures": "textures/blocks/ntk_cherry_wood_lantern_side"
+    },
+    "nicothekid_cobbled_deepslate_lantern": {
+      "textures": "textures/blocks/ntk_cobbled_deepslate_lantern"
+    },
+    "nicothekid_cobbled_deepslate_soul_lantern": {
+      "textures": "textures/blocks/ntk_cobbled_deepslate_soul_lantern"
+    },
+    "nicothekid_cobblestone_lantern": {
+      "textures": "textures/blocks/ntk_cobblestone_lantern"
+    },
+    "nicothekid_cobblestone_soul_lantern": {
+      "textures": "textures/blocks/ntk_cobblestone_soul_lantern"
+    },
+    "nicothekid_copper_lamp": {
+      "textures": "textures/blocks/ntk_copper_lamp"
+    },
+    "nicothekid_copper_lantern": {
+      "textures": "textures/blocks/ntk_copper_lantern"
+    },
+    "nicothekid_cracked_deepslate_brick_lantern": {
+      "textures": "textures/blocks/ntk_cracked_deepslate_brick_lantern"
+    },
+    "nicothekid_cracked_deepslate_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_cracked_deepslate_brick_soul_lantern"
+    },
+    "nicothekid_cracked_polished_blackstone_brick_lantern": {
+      "textures": "textures/blocks/ntk_cracked_polished_blackstone_brick_lantern"
+    },
+    "nicothekid_cracked_polished_blackstone_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_cracked_polished_blackstone_brick_soul_lantern"
+    },
+    "nicothekid_cracked_stone_brick_lantern": {
+      "textures": "textures/blocks/ntk_cracked_stone_brick_lantern"
+    },
+    "nicothekid_cracked_stone_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_cracked_stone_brick_soul_lantern"
+    },
+    "nicothekid_crimson_hyphae_lamp": {
+      "textures": "textures/blocks/ntk_crimson_hyphae_lamp"
+    },
+    "nicothekid_crimson_hyphae_lantern_down": {
+      "textures": "textures/blocks/ntk_crimson_hyphae_lantern_down"
+    },
+    "nicothekid_crimson_hyphae_lantern_side": {
+      "textures": "textures/blocks/ntk_crimson_hyphae_lantern_side"
+    },
+    "nicothekid_dark_oak_wood_lamp": {
+      "textures": "textures/blocks/ntk_dark_oak_wood_lamp"
+    },
+    "nicothekid_dark_oak_wood_lantern_down": {
+      "textures": "textures/blocks/ntk_dark_oak_wood_lantern_down"
+    },
+    "nicothekid_dark_oak_wood_lantern_side": {
+      "textures": "textures/blocks/ntk_dark_oak_wood_lantern_side"
+    },
+    "nicothekid_deepslate_brick_lantern": {
+      "textures": "textures/blocks/ntk_deepslate_brick_lantern"
+    },
+    "nicothekid_deepslate_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_deepslate_brick_soul_lantern"
+    },
+    "nicothekid_deepslate_lantern": {
+      "textures": "textures/blocks/ntk_deepslate_lantern"
+    },
+    "nicothekid_deepslate_soul_lantern": {
+      "textures": "textures/blocks/ntk_deepslate_soul_lantern"
+    },
+    "nicothekid_diorite_lantern": {
+      "textures": "textures/blocks/ntk_diorite_lantern"
+    },
+    "nicothekid_diorite_soul_lantern": {
+      "textures": "textures/blocks/ntk_diorite_soul_lantern"
+    },
+    "nicothekid_dripstone_lantern": {
+      "textures": "textures/blocks/ntk_dripstone_lantern"
+    },
+    "nicothekid_dripstone_soul_lantern": {
+      "textures": "textures/blocks/ntk_dripstone_soul_lantern"
+    },
+    "nicothekid_end_stone_lantern": {
+      "textures": "textures/blocks/ntk_end_stone_lantern"
+    },
+    "nicothekid_end_stone_soul_lantern": {
+      "textures": "textures/blocks/ntk_end_stone_soul_lantern"
+    },
+    "nicothekid_end_stone_brick_lantern": {
+      "textures": "textures/blocks/ntk_end_stone_brick_lantern"
+    },
+    "nicothekid_end_stone_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_end_stone_brick_soul_lantern"
+    },
+    "nicothekid_exposed_copper_lamp": {
+      "textures": "textures/blocks/ntk_exposed_copper_lamp"
+    },
+    "nicothekid_exposed_copper_lantern": {
+      "textures": "textures/blocks/ntk_exposed_copper_lantern"
+    },
+    "nicothekid_granite_lantern": {
+      "textures": "textures/blocks/ntk_granite_lantern"
+    },
+    "nicothekid_granite_soul_lantern": {
+      "textures": "textures/blocks/ntk_granite_soul_lantern"
+    },
+    "nicothekid_jack_o_soul_lantern": {
+      "textures": "textures/blocks/ntk_jack_o_soul_lantern"
+    },
+    "nicothekid_jungle_wood_lamp": {
+      "textures": "textures/blocks/ntk_jungle_wood_lamp"
+    },
+    "nicothekid_jungle_wood_lantern_down": {
+      "textures": "textures/blocks/ntk_jungle_wood_lantern_down"
+    },
+    "nicothekid_jungle_wood_lantern_side": {
+      "textures": "textures/blocks/ntk_jungle_wood_lantern_side"
+    },
+    "nicothekid_mangrove_wood_lamp": {
+      "textures": "textures/blocks/ntk_mangrove_wood_lamp"
+    },
+    "nicothekid_mangrove_wood_lantern_down": {
+      "textures": "textures/blocks/ntk_mangrove_wood_lantern_down"
+    },
+    "nicothekid_mangrove_wood_lantern_side": {
+      "textures": "textures/blocks/ntk_mangrove_wood_lantern_side"
+    },
+    "nicothekid_mossy_cobblestone_lantern": {
+      "textures": "textures/blocks/ntk_mossy_cobblestone_lantern"
+    },
+    "nicothekid_mossy_cobblestone_soul_lantern": {
+      "textures": "textures/blocks/ntk_mossy_cobblestone_soul_lantern"
+    },
+    "nicothekid_mossy_stone_brick_lantern": {
+      "textures": "textures/blocks/ntk_mossy_stone_brick_lantern"
+    },
+    "nicothekid_mossy_stone_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_mossy_stone_brick_soul_lantern"
+    },
+    "nicothekid_mud_brick_lantern": {
+      "textures": "textures/blocks/ntk_mud_brick_lantern"
+    },
+    "nicothekid_mud_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_mud_brick_soul_lantern"
+    },
+    "nicothekid_nether_brick_lantern": {
+      "textures": "textures/blocks/ntk_nether_brick_lantern"
+    },
+    "nicothekid_nether_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_nether_brick_soul_lantern"
+    },
+    "nicothekid_oak_wood_lamp": {
+      "textures": "textures/blocks/ntk_oak_wood_lamp"
+    },
+    "nicothekid_oak_wood_lantern_down": {
+      "textures": "textures/blocks/ntk_oak_wood_lantern_down"
+    },
+    "nicothekid_oak_wood_lantern_side": {
+      "textures": "textures/blocks/ntk_oak_wood_lantern_side"
+    },
+    "nicothekid_oxidized_copper_lamp": {
+      "textures": "textures/blocks/ntk_oxidized_copper_lamp"
+    },
+    "nicothekid_oxidized_copper_lantern": {
+      "textures": "textures/blocks/ntk_oxidized_copper_lantern"
+    },
+    "nicothekid_packed_mud_lantern": {
+      "textures": "textures/blocks/ntk_packed_mud_lantern"
+    },
+    "nicothekid_packed_mud_soul_lantern": {
+      "textures": "textures/blocks/ntk_packed_mud_soul_lantern"
+    },
+    "nicothekid_pale_oak_wood_lamp": {
+      "textures": "textures/blocks/ntk_pale_oak_wood_lamp"
+    },
+    "nicothekid_pale_oak_wood_lantern_down": {
+      "textures": "textures/blocks/ntk_pale_oak_wood_lantern_down"
+    },
+    "nicothekid_pale_oak_wood_lantern_side": {
+      "textures": "textures/blocks/ntk_pale_oak_wood_lantern_side"
+    },
+    "nicothekid_polished_blackstone_brick_lantern": {
+      "textures": "textures/blocks/ntk_polished_blackstone_brick_lantern"
+    },
+    "nicothekid_polished_blackstone_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_polished_blackstone_brick_soul_lantern"
+    },
+    "nicothekid_purpur_lantern": {
+      "textures": "textures/blocks/ntk_purpur_lantern"
+    },
+    "nicothekid_purpur_soul_lantern": {
+      "textures": "textures/blocks/ntk_purpur_soul_lantern"
+    },
+    "nicothekid_quartz_lamp": {
+      "textures": "textures/blocks/ntk_quartz_lamp"
+    },
+    "nicothekid_red_nether_brick_lantern": {
+      "textures": "textures/blocks/ntk_red_nether_brick_lantern"
+    },
+    "nicothekid_red_nether_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_red_nether_brick_soul_lantern"
+    },
+    "nicothekid_red_sandstone_lantern": {
+      "textures": "textures/blocks/ntk_red_sandstone_lantern"
+    },
+    "nicothekid_red_sandstone_soul_lantern": {
+      "textures": "textures/blocks/ntk_red_sandstone_soul_lantern"
+    },
+    "nicothekid_resin_brick_lantern": {
+      "textures": "textures/blocks/ntk_resin_brick_lantern"
+    },
+    "nicothekid_resin_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_resin_brick_soul_lantern"
+    },
+    "nicothekid_sandstone_lantern": {
+      "textures": "textures/blocks/ntk_sandstone_lantern"
+    },
+    "nicothekid_sandstone_soul_lantern": {
+      "textures": "textures/blocks/ntk_sandstone_soul_lantern"
+    },
+    "nicothekid_smooth_basalt_lantern": {
+      "textures": "textures/blocks/ntk_smooth_basalt_lantern"
+    },
+    "nicothekid_smooth_basalt_soul_lantern": {
+      "textures": "textures/blocks/ntk_smooth_basalt_soul_lantern"
+    },
+    "nicothekid_smooth_red_sandstone_lantern": {
+      "textures": "textures/blocks/ntk_smooth_red_sandstone_lantern"
+    },
+    "nicothekid_smooth_red_sandstone_soul_lantern": {
+      "textures": "textures/blocks/ntk_smooth_red_sandstone_soul_lantern"
+    },
+    "nicothekid_smooth_sandstone_lantern": {
+      "textures": "textures/blocks/ntk_smooth_sandstone_lantern"
+    },
+    "nicothekid_smooth_sandstone_soul_lantern": {
+      "textures": "textures/blocks/ntk_smooth_sandstone_soul_lantern"
+    },
+    "nicothekid_spruce_wood_lamp": {
+      "textures": "textures/blocks/ntk_spruce_wood_lamp"
+    },
+    "nicothekid_spruce_wood_lantern_down": {
+      "textures": "textures/blocks/ntk_spruce_wood_lantern_down"
+    },
+    "nicothekid_spruce_wood_lantern_side": {
+      "textures": "textures/blocks/ntk_spruce_wood_lantern_side"
+    },
+    "nicothekid_stone_brick_lantern": {
+      "textures": "textures/blocks/ntk_stone_brick_lantern"
+    },
+    "nicothekid_stone_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_stone_brick_soul_lantern"
+    },
+    "nicothekid_stone_lantern": {
+      "textures": "textures/blocks/ntk_stone_lantern"
+    },
+    "nicothekid_stone_soul_lantern": {
+      "textures": "textures/blocks/ntk_stone_soul_lantern"
+    },
+    "nicothekid_tuff_lantern": {
+      "textures": "textures/blocks/ntk_tuff_lantern"
+    },
+    "nicothekid_tuff_soul_lantern": {
+      "textures": "textures/blocks/ntk_tuff_soul_lantern"
+    },
+    "nicothekid_tuff_brick_lantern": {
+      "textures": "textures/blocks/ntk_tuff_brick_lantern"
+    },
+    "nicothekid_tuff_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_tuff_brick_soul_lantern"
+    },
+    "nicothekid_warped_hyphae_lamp": {
+      "textures": "textures/blocks/ntk_warped_hyphae_lamp"
+    },
+    "nicothekid_warped_hyphae_lantern_down": {
+      "textures": "textures/blocks/ntk_warped_hyphae_lantern_down"
+    },
+    "nicothekid_warped_hyphae_lantern_side": {
+      "textures": "textures/blocks/ntk_warped_hyphae_lantern_side"
+    },
+    "nicothekid_waxed_copper_lamp": {
+      "textures": "textures/blocks/ntk_copper_lamp"
+    },
+    "nicothekid_waxed_copper_lantern": {
+      "textures": "textures/blocks/ntk_copper_lantern"
+    },
+    "nicothekid_waxed_exposed_copper_lamp": {
+      "textures": "textures/blocks/ntk_exposed_copper_lamp"
+    },
+    "nicothekid_waxed_exposed_copper_lantern": {
+      "textures": "textures/blocks/ntk_exposed_copper_lantern"
+    },
+    "nicothekid_waxed_oxidized_copper_lamp": {
+      "textures": "textures/blocks/ntk_oxidized_copper_lamp"
+    },
+    "nicothekid_waxed_oxidized_copper_lantern": {
+      "textures": "textures/blocks/ntk_oxidized_copper_lantern"
+    },
+    "nicothekid_waxed_weathered_copper_lamp": {
+      "textures": "textures/blocks/ntk_weathered_copper_lamp"
+    },
+    "nicothekid_waxed_weathered_copper_lantern": {
+      "textures": "textures/blocks/ntk_weathered_copper_lantern"
+    },
+    "nicothekid_weathered_copper_lamp": {
+      "textures": "textures/blocks/ntk_weathered_copper_lamp"
+    },
+    "nicothekid_weathered_copper_lantern": {
+      "textures": "textures/blocks/ntk_weathered_copper_lantern"
+    }
+  }
+}

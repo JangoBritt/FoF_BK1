@@ -26,11 +26,9 @@ export const FOOD_TYPE = new Map([
 	["minecraft:blue_egg", "farmersdelight:fried_egg"],
 	["minecraft:brown_egg", "farmersdelight:fried_egg"],
 
-
 	//Expansive Biomes
-	["korbon:crocodile_meat_raw", "korbon:crocodile_meat_cooked"],
-	["korbon:frog_leg_raw", "korbon:frog_leg_cooked"],
-	["korbon:venison_raw", "korbon:venison_cooked"],
+	["wypnt_bab:crocodile_meat", "wypnt_bab:cooked_crocodile_meat"],
+	["wypnt_bab:venison", "wypnt_bab:cooked_venison"],
 	// Add more food items by following this pattern:
 	// ["raw_item_id", "cooked_item_id"],
 ]);
@@ -38,7 +36,6 @@ export const FREEZE_DURATION = {
 	"minecraft:snowball": 1,
 	"minecraft:snow": 4,
 	"minecraft:ice": 6,
-	"korbon:ice_ball": 10, //Expansive Biomes
 	"minecraft:packed_ice": 54,
 	"minecraft:blue_ice": 486
 	// Add custom items that act as freezing sources. Format:
@@ -50,8 +47,5 @@ export const FREEZING_RECIPES = {
 	"minecraft:packed_ice": { freezing: "minecraft:blue_ice" },
 	"minecraft:lava_bucket": { freezing: "minecraft:obsidian", convertTo: new ItemStack("minecraft:bucket", 1) },
 	"minecraft:rotten_flesh": { freezing: "mr:flesh" },
-
-	//Expansive Biomes
-	"minecraft:snowball": { freezing: "korbon:ice_ball" },
 	//"minecraft:poisonous_potato": { freezing: "minecraft:potato" }, // No se porque no funciona XD
 };

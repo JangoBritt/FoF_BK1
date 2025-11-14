@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.o2pack.back_attach": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "backpack_on_back": "query.get_equipped_item_name(1) == 'fof:o2pack'"
+            }
+          ]
+        },
+        "backpack_on_back": {
+          "animations": ["animation.o2pack.back_attach"],
+          "transitions": [
+            {
+              "default": "query.get_equipped_item_name(1) != 'fof:o2pack'"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "wypnt_bab:string_from_puffshrooms"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "wypnt_bab:puffshroom"
+			}
+		],
+		"result": {
+			"item": "minecraft:string",
+			"count": 1
+		},
+		"unlock": [
+			{
+			  "item": "wypnt_bab:puffshroom"
+			}
+		  ]
+	}
+}

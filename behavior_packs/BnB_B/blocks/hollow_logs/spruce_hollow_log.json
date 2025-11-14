@@ -1,0 +1,96 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wypnt_bab:hollow_spruce_log",
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:facing_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2// because vanilla is 2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 10 //10 because 2x5 is 10, and the resistance of the vanilla version is 2 
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 5
+			},
+			"minecraft:geometry": "geometry.wypnt_bab.hollow_log",
+			"minecraft:material_instances": {
+				"inside": {
+					"texture": "wypnt_bab:spruce_hollow_log_inside",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "wypnt_bab:spruce_hollow_log_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "wypnt_bab:spruce_hollow_log_top",
+					"render_method": "opaque"
+				},
+				"east": {
+					"texture": "wypnt_bab:spruce_hollow_log",
+					"render_method": "opaque"
+				},
+				"west": {
+					"texture": "wypnt_bab:spruce_hollow_log",
+					"render_method": "opaque"
+				},
+				"north": {
+					"texture": "wypnt_bab:spruce_hollow_log",
+					"render_method": "opaque"
+				},
+				"south": {
+					"texture": "wypnt_bab:spruce_hollow_log",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:map_color": "#5f4a2b",
+			"tag:log": {},
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'up' || q.block_state('minecraft:facing_direction') == 'down' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'east' || q.block_state('minecraft:facing_direction') == 'west' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 90]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'north' || q.block_state('minecraft:facing_direction') == 'south' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [90, 0, 0]
+					}
+				}
+			}
+		]
+	}
+}

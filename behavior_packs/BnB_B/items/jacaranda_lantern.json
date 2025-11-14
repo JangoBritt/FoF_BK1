@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wypnt_bab:jacaranda_lantern",
+			"menu_category": {
+				"category": "items", 
+				"group": "minecraft:itemGroup.name.lanterns"
+			}
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": "wypnt_bab:jacaranda_lantern_item",
+			"minecraft:display_name": {
+				"value": "tile.wypnt_bab:jacaranda_lantern.name"
+			},
+			"minecraft:block_placer": {
+				"block": "wypnt_bab:jacaranda_lantern",
+				"replace_block_item": true
+			}
+		}
+	}
+}

@@ -1,11 +1,13 @@
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.40",
   "minecraft:recipe_shaped": {
     "description": {
       "identifier": "nicothekid:craft_x_jack_o_soul_lantern"
     },
     "priority": 1,
-    "tags": [ "medieval:workbench" ],
+    "tags": [ "crafting_table" ],
+    "group": "jack_o_soul_lantern",
+    "assume_symmetry": true,
     "pattern": [
       "P",
       "T"

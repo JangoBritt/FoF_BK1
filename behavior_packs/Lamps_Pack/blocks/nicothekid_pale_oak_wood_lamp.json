@@ -1,27 +1,63 @@
 {
-  "format_version": "1.21.50",
+  "format_version": "1.21.80",
   "minecraft:block": {
     "description": {
       "identifier": "nicothekid:pale_oak_wood_lamp",
       "menu_category": {
 				"category": "items",
-				"group": "itemGroup.name.candles"
+				"group": "nicothekid:itemGroup.name.wood_lamps"
 			}
     },
     "components": {
       "minecraft:display_name": "%tile.nicothekid.pale_oak_wood_lamp.name",
       "minecraft:geometry": {
-        "identifier": "geometry.block.nicothekid_wooden_lamp"
+        "identifier": "geometry.block.nicothekid_wood_lamp"
       },
       "minecraft:material_instances": {
         "*": {
           "texture": "nicothekid_pale_oak_wood_lamp",
           "render_method": "blend",
+          "tint_method": "none",
           "ambient_occlusion": false,
-					"face_dimming": false
+					"face_dimming": false,
+					"isotropic": false
         }
       },
-      "minecraft:map_color": "#d0b45e",
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.block.nicothekid_wood_lamp"
+        },
+        "material_instances": {
+          "*": {
+            "texture": "nicothekid_pale_oak_wood_lamp",
+            "render_method": "blend",
+            "tint_method": "none",
+            "ambient_occlusion": false,
+            "face_dimming": false,
+            "isotropic": false
+          }
+        }
+      },
+      "minecraft:destruction_particles": {
+        "texture": "nicothekid_pale_oak_wood_lamp",
+        "tint_method": "none"
+      },
+      "minecraft:map_color": {
+        "tint_method": "none",
+        "color": "#E7E3E1"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "on_liquid_touches": "blocking",
+            "stops_liquid_flowing_out_from_direction": [
+              "up", "down", "north", "south", "east", "west"
+            ]
+          }
+        ]
+      },
       "minecraft:collision_box": {
         "origin": [ -8, 0, -8 ],
         "size": [ 16, 16, 16 ]
@@ -51,12 +87,12 @@
         "rotation": [ 0, 0, 0 ]
       },
       "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_pale_oak_wood_lamp.json",
-      "tag:pale_oak_wood_lamp": {},
-      "tag:custom_wood_lamp": {},
-      "tag:custom_lamp": {},
-      "tag:axe_diggable": {},
-      "tag:full_block": {},
-      "tag:nicothekid_blocks": {},
+      "tag:nicothekid:pale_oak_wood_lamp": {},
+      "tag:nicothekid:custom_wood_lamp": {},
+      "tag:nicothekid:custom_lamp": {},
+      "tag:nicothekid:axe_diggable": {},
+      "tag:nicothekid:full_block": {},
+      "tag:nicothekid:blocks": {},
       "tag:minecraft:is_axe_item_destructible": {},
       "tag:wood": {}
     }
