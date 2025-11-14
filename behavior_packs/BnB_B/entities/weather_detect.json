@@ -43,7 +43,7 @@
 									}
 								]
 							},
-							"event": "wypnt_bab:weather_sandstorm"
+							"event": "wypnt_bab:weather_marsstorm"
 						},
 						{
 							"filters": {
@@ -204,6 +204,34 @@
 					{
 						"queue_command": {
 							"command": "execute as @a[tag=storms_enabled,r=64] run playsound sandstorm.ambient @s"
+						},
+						"trigger": "wypnt_bab:weather_random_despawn"
+					}
+				]
+			},
+			"wypnt_bab:weather_marsstorm": {
+				"trigger": "wypnt_bab:weather_marsstorm_effect",
+				"remove": {
+					"component_groups": [
+						"wypnt_bab:weather_detect"
+					]
+				}
+			},
+			"wypnt_bab:weather_marsstorm_effect": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "execute as @a[tag=storms_enabled,tag=OnMars,r=64] run particle wypnt_bab:marsstorm ~~~"
+						}
+					},
+					{
+						"queue_command": {
+							"command": "execute as @a[tag=storms_enabled,tag=OnMars,r=64] run particle wypnt_bab:marsstorm_dust ~~~"
+						}
+					},
+					{
+						"queue_command": {
+							"command": "execute as @a[tag=storms_enabled,tag=OnMars,r=64] run playsound sandstorm.ambient @s"
 						},
 						"trigger": "wypnt_bab:weather_random_despawn"
 					}

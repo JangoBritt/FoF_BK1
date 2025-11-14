@@ -32,6 +32,11 @@
                             {
                                 "test": "has_biome_tag",
                                 "operator": "==",
+                                "value": "mesa"
+                            },
+                            {
+                                "test": "has_biome_tag",
+                                "operator": "==",
                                 "value": "cold"
                             }
                         ]
