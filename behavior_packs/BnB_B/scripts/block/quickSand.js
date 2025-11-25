@@ -97,7 +97,8 @@ system.runInterval(() => {
     if (entity.typeId === "minecraft:player" && !isInCreativeMode(entity)) {
       processEntity(entity, currentTime);
     } else if (entity.typeId !== "minecraft:item" && entity.typeId !== "minecraft:arrow") {
-      processEntity(entity, currentTime);
+      //processEntity(entity, currentTime);
+      return;
     }
   }
 }, checkInterval);
