@@ -15,7 +15,7 @@
 		{
 			"type": "data",
 			"uuid": "a001730f-f08b-4cb2-a8ef-780c73f44c69",
-			"version": [ 6, 1, 19 ]
+			"version": [ 6, 1, 20 ]
 		},
 		{
 			"type": "script",
@@ -28,7 +28,7 @@
 	"dependencies": [
 		{
 			"uuid": "3a71bf5a-e4fc-4cc1-aece-dcd17980a3d9",
-			"version": [ 6, 1, 19 ]
+			"version": [ 6, 1, 20 ]
 		},
 		{
 			"module_name": "@minecraft/server",

@@ -65,14 +65,16 @@ function generateMegaTree(block, dimension, sapling, hasFlower, saplingOffset) {
         y: block.y,
         z: Math.min(block.z, block.z + saplingOffset.z)
     }, offset);
+    
+    try {
+        dimension.placeFeature(feature, loc, true);
+    } catch { return; }
 
     if (sapling.remove_sapling) block.dimension.fillBlocks(
         new BlockVolume({ x: block.x + saplingOffset.x, y: block.y, z: block.z + saplingOffset.z }, { x: block.x, y: block.y, z: block.z }),
         "minecraft:air", { blockFilter: {includeTypes: [ block.typeId ]}}
     );
-    try {
-        dimension.placeFeature(feature, loc, true);
-    } catch { return; }
+    return;
 };
 
 // função comum para gerar árvore

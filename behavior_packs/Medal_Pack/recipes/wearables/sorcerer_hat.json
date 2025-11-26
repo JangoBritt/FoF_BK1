@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fables_misc:sorcerer_hat"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PCP",
+      "CSC",
+      "DAD"
+    ],
+    "key": {
+      "A": {
+        "item": "fables_avatars:purplelady1022_head_item"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "C": {
+        "item": "famrersdelight:canvas"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "P": {
+        "item": "minecraft:purple_dye"
+      }
+    },
+    "unlock": [
+      {
+        "item": "fables_misc:sorcerer_hat"
+      }
+    ],
+    "result": {
+      "item": "fables_misc:sorcerer_hat",
+      "count": 1
+    }
+  }
+}
