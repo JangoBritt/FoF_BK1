@@ -1,0 +1,55 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.sorcerer_hat",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "hat",
+					"parent": "head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 7.05, -5], "size": [10, 2, 10], "inflate": 0.01, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "hat2",
+					"parent": "head",
+					"pivot": [-3.5, 10, -3],
+					"rotation": [-3, 0, 5],
+					"cubes": [
+						{"origin": [-3.41284, 9.00517, -2.94786], "size": [7, 4, 7], "uv": [0, 12]}
+					]
+				},
+				{
+					"name": "hat3",
+					"parent": "head",
+					"pivot": [-1, 14, -1],
+					"rotation": [-5, 0, 7],
+					"cubes": [
+						{"origin": [-1.37813, 12.01123, -1.21349], "size": [4, 4, 4], "inflate": 0.01, "uv": [0, 23]}
+					]
+				},
+				{
+					"name": "hat4",
+					"parent": "head",
+					"pivot": [-1, 18, -1],
+					"cubes": [
+						{"origin": [0.5, 15, 0.1], "size": [1, 2, 1], "inflate": 0.26, "pivot": [2.5, 15, 1.5], "rotation": [-10, 5, 10], "uv": [16, 23]}
+					]
+				}
+			]
+		}
+	]
+}
