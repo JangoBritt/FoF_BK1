@@ -20,18 +20,18 @@
         "item": "minecraft:nether_star"
       },
       "C": {
-        "item": "famrersdelight:canvas"
+        "item": "minecraft:purple_wool"
       },
       "D": {
         "item": "minecraft:diamond"
       },
       "P": {
-        "item": "minecraft:purple_dye"
+        "item": "minecraft:white_dye"
       }
     },
     "unlock": [
       {
-        "item": "fables_misc:sorcerer_hat"
+        "item": "fables_avatars:purplelady1022_head_item"
       }
     ],
     "result": {
