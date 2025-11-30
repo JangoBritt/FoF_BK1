@@ -19,3 +19,4 @@ levelname.txt
 *.zip
 *.bak
 Bedrock-Bridge/
+.mcworld
