@@ -125,6 +125,8 @@
 		"captain_atlas": { "textures": [ "textures/items/hats/captain_atlas" ] },
 		"sorcerer_hat": { "textures": [ "textures/items/hats/sorcerer_hat" ] },
 
-		"o2pack_white": { "textures": "textures/items/o2pack_white.png"}
+		"o2pack_white": { "textures": "textures/items/o2pack_white.png"},
+		
+		"fof:reindeer_spawn_egg": { "textures": "textures/items/spawn_egg_reindeer.png"}
 	}
 }

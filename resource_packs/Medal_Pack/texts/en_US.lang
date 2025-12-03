@@ -161,3 +161,6 @@ tile.wypnt_bab:jacaranda_stairs=Jacaranda Stairs
 tile.wypnt_bab:forsaken_oak_stairs=Forsaken Oak Stairs
 tile.wypnt_bab:chorus_stairs=Chorus Stairs
 tile.wypnt_bab:maple_stairs=Maple Stairs
+
+entity.fof:reindeer=Reindeer
+item.spawn_egg.entity.fof:reindeer.name=Reindeer Spawn Egg
