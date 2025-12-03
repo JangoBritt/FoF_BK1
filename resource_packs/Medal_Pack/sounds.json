@@ -1,0 +1,21 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"fof:reindeer": {
+				"events": {
+					"death": {
+						"sound": "mob.wypnt_bab.deer.death"
+					},
+					"hurt": {
+						"sound": "mob.wypnt_bab.deer.hurt"
+					},
+					"ambient": "mob.wypnt_bab.deer.say",
+					"step": "mob.horse.soft",
+					"ambient.baby": "mob.wypnt_bab.deer_baby.say"
+				},
+				"volume": 0.43,
+				"pitch": [0.8, 1]
+			}
+		}
+	}
+}

@@ -20,3 +20,4 @@ levelname.txt
 *.bak
 Bedrock-Bridge/
 .mcworld
+.psd

@@ -12,6 +12,10 @@
         "minecraft:movement": {
           "value": 0.0
         },
+        "minecraft:pushable": {
+					"is_pushable": false,
+					"is_pushable_by_piston": false
+				},
         "minecraft:navigation.walk": {
           "can_path_over_water": false,
           "can_pass_doors": false,
@@ -98,7 +102,7 @@
           {
             "min_wait_time": 0,
             "max_wait_time": 0,
-            "spawn_entity": "wypnt_bab:deer",
+            "spawn_entity": "fof:reindeer",
             "spawn_event": "wypnt_bab:deer_with_antler",
             "single_use": true,
             "num_to_spawn": 2,
