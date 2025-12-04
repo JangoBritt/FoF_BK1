@@ -5,7 +5,7 @@
         "description": "pack.description",
 		"uuid": "2114d0f4-b381-4c2b-9066-8253301b9030",
 		"min_engine_version": [1, 21, 90],
-		"version": [0, 9, 0]
+		"version": [0, 9, 1]
 	},
 	"metadata": {
 		"product_type": "addon",
