@@ -12,6 +12,7 @@
         "minecraft:movement": {
           "value": 0.0
         },
+        "minecraft:nameable": {},
         "minecraft:navigation.walk": {
           "can_path_over_water": false,
           "can_pass_doors": false,
