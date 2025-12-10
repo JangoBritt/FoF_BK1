@@ -1,11 +1,10 @@
 {
-  "format_version": "1.20.10",
+  "format_version": "1.21.130",
   "minecraft:entity": {
     "description": {
       "identifier": "minecraft:zombie_villager_v2",
       "is_spawnable": true,
-      "is_summonable": false,
-      "is_experimental": false
+      "is_summonable": false
     },
     "component_groups": {
       "baby": {
@@ -20,7 +19,6 @@
           "value": 0.35
         }
       },
-
       "adult": {
         "minecraft:experience_reward": {
           "on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
@@ -31,10 +29,11 @@
         "minecraft:rideable": {
           "seat_count": 1,
           "family_types": [
-            "zombie"
+            "baby_zombie",
+            "baby_husk"
           ],
           "seats": {
-            "position": [ 0.0, 1.1, -0.35 ]
+            "position": [ 0.0, 1.175, -0.35 ]
           }
         },
         "minecraft:behavior.mount_pathing": {
@@ -44,19 +43,16 @@
           "track_target": true
         }
       },
-
       "jockey": {
         "minecraft:behavior.find_mount": {
           "priority": 1,
           "within_radius": 16
         }
       },
-
       "can_break_doors": {
         "minecraft:annotation.break_door": {
         }
       },
-
       "from_abandoned_village": {
         "minecraft:navigation.walk": {
           "is_amphibious": true,
@@ -70,7 +66,6 @@
           "speed_multiplier": 1
         }
       },
-
       "to_villager": {
         "minecraft:transformation": {
           "into": "minecraft:villager_v2",
@@ -107,7 +102,6 @@
         "minecraft:is_shaking": {
         }
       },
-
       "unskilled": {
         "minecraft:type_family": {
           "family": [ "unskilled", "zombie", "zombie_villager", "undead", "monster", "mob" ]
@@ -228,84 +222,70 @@
           "value": 14
         }
       },
-
       "desert_villager": {
         "minecraft:mark_variant": {
           "value": 1
         }
       },
-
       "jungle_villager": {
         "minecraft:mark_variant": {
           "value": 2
         }
       },
-
       "savanna_villager": {
         "minecraft:mark_variant": {
           "value": 3
         }
       },
-
       "snow_villager": {
         "minecraft:mark_variant": {
           "value": 4
         }
       },
-
       "swamp_villager": {
         "minecraft:mark_variant": {
           "value": 5
         }
       },
-
       "taiga_villager": {
         "minecraft:mark_variant": {
           "value": 6
         }
       },
-
       "villager_skin_0": {
         "minecraft:skin_id": {
           "value": 0
         }
       },
-
       "villager_skin_1": {
         "minecraft:skin_id": {
           "value": 1
         }
       },
-
       "villager_skin_2": {
         "minecraft:skin_id": {
           "value": 2
         }
       },
-
       "villager_skin_3": {
         "minecraft:skin_id": {
           "value": 3
         }
       },
-
       "villager_skin_4": {
         "minecraft:skin_id": {
           "value": 4
         }
       },
-
       "villager_skin_5": {
         "minecraft:skin_id": {
           "value": 5
         }
       }
     },
-
     "components": {
       "minecraft:is_hidden_when_invisible": {
       },
-      // Zombie_villager Components
       "minecraft:navigation.walk": {
         "is_amphibious": true,
         "can_pass_doors": true,
@@ -340,7 +320,6 @@
         "height": 1.9
       },
       "minecraft:burns_in_daylight": {},
-
       "minecraft:health": {
         "value": 20,
         "max": 20
@@ -381,22 +360,70 @@
             "priority": 2
           },
           {
-            "item": "minecraft:stone_sword",
+            "item": "minecraft:golden_sword",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 3
           },
           {
-            "item": "minecraft:golden_sword",
+            "item": "minecraft:copper_sword",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 4
           },
           {
-            "item": "minecraft:wooden_sword",
+            "item": "minecraft:stone_sword",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 5
+          },
+          {
+            "item": "minecraft:wooden_sword",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 6
+          },
+          {
+            "item": "minecraft:netherite_spear",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 0
+          },
+          {
+            "item": "minecraft:diamond_spear",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 1
+          },
+          {
+            "item": "minecraft:iron_spear",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_spear",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 3
+          },
+          {
+            "item": "minecraft:copper_spear",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 4
+          },
+          {
+            "item": "minecraft:stone_spear",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 5
+          },
+          {
+            "item": "minecraft:wooden_spear",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 6
           },
           {
             "item": "minecraft:netherite_helmet",
@@ -429,34 +456,40 @@
             "priority": 4
           },
           {
-            "item": "minecraft:leather_helmet",
+            "item": "minecraft:copper_helmet",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 5
           },
           {
-            "item": "minecraft:turtle_helmet",
+            "item": "minecraft:leather_helmet",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 6
           },
           {
-            "item": "minecraft:skull:0",
+            "item": "minecraft:turtle_helmet",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 7
+          },
+          {
+            "item": "minecraft:skull:0",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 8
           },
           {
             "item": "minecraft:skull:1",
             "want_amount": 1,
             "surplus_amount": 1,
-            "priority": 7
+            "priority": 8
           },
           {
             "item": "minecraft:carved_pumpkin",
             "want_amount": 1,
             "surplus_amount": 1,
-            "priority": 7
+            "priority": 8
           },
           {
             "item": "minecraft:netherite_chestplate",
@@ -489,10 +522,16 @@
             "priority": 4
           },
           {
-            "item": "minecraft:leather_chestplate",
+            "item": "minecraft:copper_chestplate",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 5
+          },
+          {
+            "item": "minecraft:leather_chestplate",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 6
           },
           {
             "item": "minecraft:netherite_leggings",
@@ -525,10 +564,16 @@
             "priority": 4
           },
           {
-            "item": "minecraft:leather_leggings",
+            "item": "minecraft:copper_leggings",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 5
+          },
+          {
+            "item": "minecraft:leather_leggings",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 6
           },
           {
             "item": "minecraft:netherite_boots",
@@ -561,17 +606,22 @@
             "priority": 4
           },
           {
-            "item": "minecraft:leather_boots",
+            "item": "minecraft:copper_boots",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 5
+          },
+          {
+            "item": "minecraft:leather_boots",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 6
           }
         ]
       },
-
       "minecraft:interact": {
         "interactions": {
-          // Curing the villager
+          // Curing the zombie villager.
           "on_interact": {
             "filters": {
               "all_of": [
@@ -589,10 +639,25 @@
       "minecraft:despawn": {
         "despawn_from_distance": {}
       },
-      // Zombie_villager Behaviors
+      "minecraft:behavior.use_kinetic_weapon": {
+        "priority": 6,
+        "track_target": true,
+        "approach_distance": 10.0,
+        "reposition_distance": {
+          "min": 6.0,
+          "max": 7.0
+        },
+        "cooldown_distance": {
+          "min": 9.0,
+          "max": 11.0
+        },
+        "weapon_reach_multiplier": 0.5,
+        "weapon_min_speed_multiplier": 0.2,
+        "hijack_mount_navigation": true
+      },
       "minecraft:behavior.melee_box_attack": {
         "can_spread_on_fire": true,
-        "priority": 6
+        "priority": 7
       },
       "minecraft:behavior.equip_item": {
         "priority": 3
@@ -605,25 +670,18 @@
         "goal_radius": 1.14,
         "interval": 20
       },
-    //   "minecraft:behavior.pickup_items": {
-    //     "priority": 8,
-    //     "max_dist": 3,
-    //     "goal_radius": 2,
-    //     "speed_multiplier": 1.0,
-    //     "pickup_based_on_chance": true,
-    //     "can_pickup_any_item": true,
-    //     "excluded_items": [
-    //       "minecraft:glow_ink_sac",
-    //       "minecraft:rotten_flesh",
-    //       "minecraft:lead",
-    //       "minecraft:bone",
-    //       "minecraft:arrow",
-    //       "minecraft:slime_ball",
-    //       "minecraft:string",
-    //       "minecraft:string"
-          
-    //     ]
-    //   },
+      // Disabled on FoF  
+      // "minecraft:behavior.pickup_items": {
+      //   "priority": 8,
+      //   "max_dist": 3,
+      //   "goal_radius": 2,
+      //   "speed_multiplier": 1.0,
+      //   "pickup_based_on_chance": true,
+      //   "can_pickup_any_item": true,
+      //   "excluded_items": [
+      //     "minecraft:glow_ink_sac"
+      //   ]
+      // },
       "minecraft:behavior.random_stroll": {
         "priority": 9,
         "speed_multiplier": 1
@@ -674,7 +732,6 @@
         "is_pushable_by_piston": true
       }
     },
-
     "events": {
       "villager_converted": {
         "remove": {
@@ -685,7 +742,6 @@
           ]
         }
       },
-
       "minecraft:entity_spawned": {
         "sequence": [
           {
@@ -709,7 +765,6 @@
                   "component_groups": [
                     "baby"
                   ]
-
                 }
               },
               {
@@ -721,7 +776,6 @@
                     "baby",
                     "jockey"
                   ]
-
                 }
               }
             ]
@@ -809,7 +863,6 @@
           }
         ]
       },
-
       "minecraft:spawn_skilled_adult": {
         "sequence": [
           {
@@ -878,7 +931,6 @@
           }
         ]
       },
-
       "minecraft:entity_transformed": {
         "sequence": [
           {
@@ -1037,11 +1089,9 @@
           }
         ]
       },
-
       "minecraft:become_cleric": {
         "add": { "component_groups": [ "cleric" ] }
       },
-
       "from_village": {
         "sequence": [
           {
@@ -1052,7 +1102,6 @@
           }
         ]
       },
-
       "minecraft:add_biome_and_skin": {
         "sequence": [
           {
@@ -1084,7 +1133,7 @@
             ]
           },
           {
-            "filters": { 
+            "filters": {
               "any_of": [
                 { "test": "has_biome_tag", "value": "desert" },
                 { "test": "has_biome_tag", "value": "mesa" }
@@ -1103,7 +1152,7 @@
           {
             "filters": {
               "any_of": [
-                { 
+                {
                   "all_of": [
                     { "test": "has_biome_tag", "value": "cold" },
                     { "test": "has_biome_tag", "operator": "!=", "value": "ocean" }
@@ -1115,7 +1164,12 @@
             "add": { "component_groups": [ "snow_villager" ] }
           },
           {
-            "filters": { "test": "has_biome_tag", "value": "swamp" },
+            "filters": {
+              "any_of": [
+                { "test": "has_biome_tag", "value": "swamp" },
+                { "test": "has_biome_tag", "value": "mangrove_swamp" }
+              ]
+            },
             "add": { "component_groups": [ "swamp_villager" ] }
           },
           {

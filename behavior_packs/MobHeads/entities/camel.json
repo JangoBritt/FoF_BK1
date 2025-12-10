@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.10",
+  "format_version": "1.21.130",
   "minecraft:entity": {
     "description": {
       "identifier": "minecraft:camel",
@@ -7,19 +7,24 @@
       "is_spawnable": true,
       "is_summonable": true
     },
+
     "component_groups": {
       "minecraft:camel_saddled": {
-        "minecraft:is_saddled": {},
-        "minecraft:input_ground_controlled": {},
-        "minecraft:dash": {
+        "minecraft:is_saddled": {
+        },
+        "minecraft:input_ground_controlled": {
+        },
+        "minecraft:dash_action": {
           "cooldown_time": 2.75,
           "horizontal_momentum": 20.0,
           "vertical_momentum": 0.6
         },
-        "minecraft:behavior.player_ride_tamed": {}
+        "minecraft:behavior.player_ride_tamed": {
+        }
       },
       "minecraft:camel_baby": {
-        "minecraft:is_baby": {},
+        "minecraft:is_baby": {
+        },
         "minecraft:scale": {
           "value": 0.45
         },
@@ -40,14 +45,14 @@
         "minecraft:inventory": {
           "container_type": "horse"
         },
+        "minecraft:leashable_to": {
+        },
         "minecraft:equippable": {
           "slots": [
             {
               "slot": 0,
               "item": "saddle",
-              "accepted_items": [
-                "saddle"
-              ],
+              "accepted_items": [ "saddle" ],
               "on_equip": {
                 "event": "minecraft:camel_saddled"
               },
@@ -64,35 +69,56 @@
               "on_interact": {
                 "filters": {
                   "all_of": [
-                    {
-                      "test": "has_equipment",
-                      "subject": "self",
-                      "domain": "inventory",
-                      "operator": "not",
-                      "value": "saddle"
-                    },
-                    {
-                      "test": "has_equipment",
-                      "subject": "other",
-                      "domain": "hand",
-                      "value": "saddle"
-                    },
-                    {
-                      "test": "is_family",
-                      "subject": "other",
-                      "value": "player"
-                    },
-                    {
-                      "test": "is_sneak_held",
-                      "subject": "other",
-                      "value": false
-                    }
+                    { "test": "has_equipment", "subject": "self", "domain": "inventory", "operator": "not", "value": "saddle" },
+                    { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "saddle" },
+                    { "test": "is_sneak_held", "subject": "other", "value": false }
                   ]
-                },
-                "target": "self"
+                }
               },
               "equip_item_slot": "0",
               "interact_text": "action.interact.saddle"
+            },
+            // Removing the Saddle while the Camel is standing. Keep consistent with the next interaction.
+            {
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    { "test": "is_sitting", "subject": "self", "value": false },
+                    { "test": "rider_count", "subject": "self", "operator": "equals", "value": 0 },
+                    { "test": "has_equipment", "subject": "self", "domain": "inventory", "value": "saddle" },
+                    { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "shears" },
+                    { "test": "is_sneak_held", "subject": "other", "value": false }
+                  ]
+                }
+              },
+              "hurt_item": 1,
+              "drop_item_slot": "0",
+              // Bigger offset when the Camel is standing.
+              "drop_item_y_offset": 2,
+              "interact_text": "action.interact.removesaddle",
+              "play_sounds": "unsaddle",
+              "vibration": "shear"
+            },
+            // Removing the Saddle while the Camel is sitting. Keep consistent with the previous interaction.
+            {
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    { "test": "is_sitting", "subject": "self" },
+                    { "test": "rider_count", "subject": "self", "operator": "equals", "value": 0 },
+                    { "test": "has_equipment", "subject": "self", "domain": "inventory", "value": "saddle" },
+                    { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "shears" },
+                    { "test": "is_sneak_held", "subject": "other", "value": false }
+                  ]
+                }
+              },
+              "hurt_item": 1,
+              "drop_item_slot": "0",
+              // Smaller offset when the Camel is sitting.
+              "drop_item_y_offset": 1,
+              "interact_text": "action.interact.removesaddle",
+              "play_sounds": "unsaddle",
+              "vibration": "shear"
             }
           ]
         },
@@ -132,20 +158,12 @@
             {
               "min_rider_count": 0,
               "max_rider_count": 2,
-              "position": [
-                0.0,
-                1.905,
-                0.5
-              ]
+              "position": [ 0.0, 1.905, 0.5 ]
             },
             {
               "min_rider_count": 1,
               "max_rider_count": 2,
-              "position": [
-                0.0,
-                1.905,
-                -0.5
-              ]
+              "position": [ 0.0, 1.905, -0.5 ]
             }
           ]
         }
@@ -171,8 +189,15 @@
         }
       }
     },
+
     "components": {
-      "minecraft:is_tamed": {},
+      // This component prevents Camel from spawning in spaces it doesn't fit. Without it, the correct collision box wont be set until the sitting/standing events are triggered.
+      "minecraft:collision_box": {
+        "width": 1.7,
+        "height": 2.375
+      },
+      "minecraft:is_tamed": {
+      },
       "minecraft:healable": {
         "items": [
           {
@@ -182,58 +207,69 @@
         ]
       },
       "minecraft:leashable": {
-        "soft_distance": 4.0,
-        "hard_distance": 6.0,
-        "max_distance": 10.0
-      },
-      "minecraft:balloonable": {},
-      "minecraft:type_family": {
-        "family": [
-          "camel",
-          "mob"
+        "presets": [
+          {
+            "filter": { "test": "is_family", "subject": "other", "value": "happy_ghast" },
+            "spring_type": "quad_dampened"
+          }
         ]
       },
-      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:balloonable": {
+      },
+      "minecraft:type_family": {
+        "family": [ "camel", "mob" ]
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
       "minecraft:breathable": {
         "total_supply": 15,
         "suffocate_time": 0
       },
-      "minecraft:nameable": {},
+      "minecraft:nameable": {
+      },
       "minecraft:health": {
         "value": 32
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
           {
-            "filters": {
-              "test": "in_lava",
-              "subject": "self",
-              "operator": "==",
-              "value": true
-            },
+            "filters": { "test": "in_lava", "subject": "self" },
             "cause": "lava",
             "damage_per_tick": 4
           }
         ]
       },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "yes",
+          "damage_modifier": -4
+        }
+      },
       "minecraft:navigation.walk": {
         "can_path_over_water": true,
         "avoid_damage_blocks": true
       },
-      "minecraft:movement.basic": {},
-      "minecraft:jump.static": {},
-      "minecraft:can_climb": {},
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
       "minecraft:movement": {
         "value": 0.09
       },
       "minecraft:despawn": {
         "despawn_from_distance": {}
       },
-      "minecraft:physics": {},
-      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:physics": {
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      },
       "minecraft:behavior.float": {
         "priority": 0,
-        "sink_with_passengers": true
+        "chance_per_tick_to_float": 1.0,
+        "time_under_water_to_dismount_passengers": 2.0
       },
       "minecraft:behavior.panic": {
         "priority": 1,
@@ -243,9 +279,7 @@
         "priority": 3,
         "speed_multiplier": 2.5,
         "can_tempt_vertically": true,
-        "items": [
-          "cactus"
-        ]
+        "items": [ "cactus" ]
       },
       "minecraft:behavior.random_look_around_and_sit": {
         "priority": 4,
@@ -281,6 +315,7 @@
           "table": "loot_tables/entities/camel.json"
       }
     },
+
     "events": {
       "minecraft:entity_spawned": {
         "randomize": [
