@@ -29,18 +29,21 @@
       "trade_resupply_component_group": {
         "minecraft:trade_resupply": {}
       },
+
       "become_witch": {
         "minecraft:transformation": {
           "into": "minecraft:witch",
           "delay": 0.5
         }
       },
+
       "become_zombie": {
         "minecraft:transformation": {
           "into": "minecraft:zombie_villager_v2",
           "keep_level": true
         }
       },
+
       "work_schedule": {
         "minecraft:scheduler": {
           "min_delay_secs": 0,
@@ -134,6 +137,7 @@
           ]
         }
       },
+
       "basic_schedule": {
         "minecraft:scheduler": {
           "min_delay_secs": 0,
@@ -227,6 +231,7 @@
           ]
         }
       },
+
       "child_schedule": {
         "minecraft:scheduler": {
           "min_delay_secs": 0,
@@ -286,6 +291,7 @@
           ]
         }
       },
+
       "jobless_schedule": {
         "minecraft:scheduler": {
           "min_delay_secs": 0,
@@ -362,6 +368,7 @@
           ]
         }
       },
+
       "fisher_schedule": {
         "minecraft:scheduler": {
           "min_delay_secs": 0,
@@ -455,6 +462,7 @@
           ]
         }
       },
+
       "librarian_schedule": {
         "minecraft:scheduler": {
           "min_delay_secs": 0,
@@ -548,6 +556,7 @@
           ]
         }
       },
+
       "farmer_schedule": {
         "minecraft:scheduler": {
           "min_delay_secs": 0,
@@ -641,6 +650,7 @@
           ]
         }
       },
+
       // Every goal that has to do with villagers working should go here (work goals, secondary goals)
       // so they can be successfuly removed on schedule change
       "job_specific_goals": {
@@ -652,6 +662,7 @@
         "minecraft:behavior.mingle": {},
         "minecraft:behavior.sleep": {}
       },
+
       "work_schedule_villager": {
         "minecraft:behavior.work": {
           "priority": 7,
@@ -668,6 +679,7 @@
           }
         }
       },
+
       "work_schedule_fisher": {
         "minecraft:behavior.work": {
           "priority": 7,
@@ -684,6 +696,7 @@
           }
         }
       },
+
       "work_schedule_farmer": {
         "minecraft:shareables": {
           "items": [
@@ -773,6 +786,7 @@
           "priority": 8
         }
       },
+
       "work_schedule_librarian": {
         "minecraft:behavior.work": {
           "priority": 7,
@@ -797,6 +811,7 @@
           "search_count": 0
         }
       },
+
       "play_schedule_villager": {
         "minecraft:behavior.play": {
           "priority": 8,
@@ -822,6 +837,7 @@
           ]
         }
       },
+
       "gather_schedule_villager": {
         "minecraft:behavior.mingle": {
           "priority": 7,
@@ -832,7 +848,11 @@
           "mingle_distance": 2.0
         }
       },
-      "home_schedule_villager": {},
+
+      "home_schedule_villager": {
+
+      },
+
       "bed_schedule_villager": {
         "minecraft:behavior.sleep": {
           "priority": 3,
@@ -844,6 +864,8 @@
           "timeout_cooldown": 10.0
         }
       },
+
+
       "wander_schedule_villager": {
         "minecraft:behavior.explore_outskirts": {
           "priority": 9,
@@ -857,13 +879,10 @@
           "min_perimeter": 1.0,
           "min_dist_from_target": 2.5,
           "timer_ratio": 2.0,
-          "dist_from_boundary": [
-            5.0,
-            0.0,
-            5.0
-          ]
+          "dist_from_boundary": [ 5.0, 0.0, 5.0 ]
         }
       },
+
       "behavior_peasant": {
         "minecraft:shareables": {
           "items": [
@@ -915,6 +934,7 @@
           ]
         }
       },
+
       "behavior_non_peasant": {
         "minecraft:shareables": {
           "items": [
@@ -945,6 +965,7 @@
           ]
         }
       },
+
       // A grouping of components that should never be added
       // however, they are here to flush out any artifact component groups
       // that might linger between villager job switches
@@ -952,14 +973,10 @@
         "minecraft:behavior.trade_interest": {},
         "minecraft:economy_trade_table": {}
       },
+
       "unskilled": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "peasant",
-            "unskilled",
-            "mob"
-          ]
+          "family": [ "villager", "peasant", "unskilled", "mob" ]
         },
         "minecraft:variant": {
           "value": 0
@@ -968,14 +985,10 @@
             "table": "loot_tables/entities/villager_v2_unskilled.json"
         }
       },
+
       "farmer": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "peasant",
-            "farmer",
-            "mob"
-          ]
+          "family": [ "villager", "peasant", "farmer", "mob" ]
         },
         "minecraft:variant": {
           "value": 1
@@ -993,14 +1006,8 @@
           "table": "trading/economy_trades/farmer_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1016,14 +1023,10 @@
             "table": "loot_tables/entities/villager_v2_farmer.json"
         }
       },
+
       "fisherman": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "peasant",
-            "fisherman",
-            "mob"
-          ]
+          "family": [ "villager", "peasant", "fisherman", "mob" ]
         },
         "minecraft:variant": {
           "value": 2
@@ -1041,14 +1044,8 @@
           "table": "trading/economy_trades/fisherman_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1064,14 +1061,10 @@
             "table": "loot_tables/entities/villager_v2_fisherman.json"
         }
       },
+
       "shepherd": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "peasant",
-            "shepherd",
-            "mob"
-          ]
+          "family": [ "villager", "peasant", "shepherd", "mob" ]
         },
         "minecraft:variant": {
           "value": 3
@@ -1089,14 +1082,8 @@
           "table": "trading/economy_trades/shepherd_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1112,14 +1099,10 @@
             "table": "loot_tables/entities/villager_v2_shepherd.json"
         }
       },
+
       "fletcher": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "peasant",
-            "fletcher",
-            "mob"
-          ]
+          "family": [ "villager", "peasant", "fletcher", "mob" ]
         },
         "minecraft:variant": {
           "value": 4
@@ -1137,14 +1120,8 @@
           "table": "trading/economy_trades/fletcher_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1160,13 +1137,10 @@
             "table": "loot_tables/entities/villager_v2_fletcher.json"
         }
       },
+
       "librarian": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "librarian",
-            "mob"
-          ]
+          "family": [ "villager", "librarian", "mob" ]
         },
         "minecraft:variant": {
           "value": 5
@@ -1184,14 +1158,8 @@
           "table": "trading/economy_trades/librarian_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1207,13 +1175,10 @@
             "table": "loot_tables/entities/villager_v2_librarian.json"
         }
       },
+
       "cartographer": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "cartographer",
-            "mob"
-          ]
+          "family": [ "villager", "cartographer", "mob" ]
         },
         "minecraft:variant": {
           "value": 6
@@ -1231,14 +1196,8 @@
           "table": "trading/economy_trades/cartographer_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1254,14 +1213,10 @@
             "table": "loot_tables/entities/villager_v2_cartographer.json"
         }
       },
+
       "cleric": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "priest",
-            "cleric",
-            "mob"
-          ]
+          "family": [ "villager", "priest", "cleric", "mob" ]
         },
         "minecraft:variant": {
           "value": 7
@@ -1279,14 +1234,8 @@
           "table": "trading/economy_trades/cleric_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1302,14 +1251,10 @@
             "table": "loot_tables/entities/villager_v2_cleric.json"
         }
       },
+
       "armorer": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "blacksmith",
-            "armorer",
-            "mob"
-          ]
+          "family": [ "villager", "blacksmith", "armorer", "mob" ]
         },
         "minecraft:variant": {
           "value": 8
@@ -1327,14 +1272,8 @@
           "table": "trading/economy_trades/armorer_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1350,14 +1289,10 @@
             "table": "loot_tables/entities/villager_v2_armorer.json"
         }
       },
+
       "weaponsmith": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "blacksmith",
-            "weaponsmith",
-            "mob"
-          ]
+          "family": [ "villager", "blacksmith", "weaponsmith", "mob" ]
         },
         "minecraft:variant": {
           "value": 9
@@ -1375,14 +1310,8 @@
           "table": "trading/economy_trades/weapon_smith_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1398,14 +1327,10 @@
             "table": "loot_tables/entities/villager_v2_weaponsmith.json"
         }
       },
+
       "toolsmith": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "blacksmith",
-            "toolsmith",
-            "mob"
-          ]
+          "family": [ "villager", "blacksmith", "toolsmith", "mob" ]
         },
         "minecraft:variant": {
           "value": 10
@@ -1423,14 +1348,8 @@
           "table": "trading/economy_trades/tool_smith_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1446,14 +1365,10 @@
             "table": "loot_tables/entities/villager_v2_toolsmith.json"
         }
       },
+
       "butcher": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "artisan",
-            "butcher",
-            "mob"
-          ]
+          "family": [ "villager", "artisan", "butcher", "mob" ]
         },
         "minecraft:variant": {
           "value": 11
@@ -1471,14 +1386,8 @@
           "table": "trading/economy_trades/butcher_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1494,14 +1403,10 @@
             "table": "loot_tables/entities/villager_v2_butcher.json"
         }
       },
+
       "leatherworker": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "artisan",
-            "leatherworker",
-            "mob"
-          ]
+          "family": [ "villager", "artisan", "leatherworker", "mob" ]
         },
         "minecraft:variant": {
           "value": 12
@@ -1519,14 +1424,8 @@
           "table": "trading/economy_trades/leather_worker_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1542,14 +1441,10 @@
             "table": "loot_tables/entities/villager_v2_leatherworker.json"
         }
       },
+
       "mason": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "artisan",
-            "stone_mason",
-            "mob"
-          ]
+          "family": [ "villager", "artisan", "stone_mason", "mob" ]
         },
         "minecraft:variant": {
           "value": 13
@@ -1567,14 +1462,8 @@
           "table": "trading/economy_trades/stone_mason_trades.json",
           "new_screen": true,
           "persist_trades": true,
-          "cured_discount": [
-            -25,
-            -20
-          ],
-          "max_cured_discount": [
-            -25,
-            -20
-          ]
+          "cured_discount": [ -25, -20 ],
+          "max_cured_discount": [ -25, -20 ]
         },
         "minecraft:dweller": {
           "dwelling_type": "village",
@@ -1590,14 +1479,10 @@
             "table": "loot_tables/entities/villager_v2_mason.json"
         }
       },
+
       "nitwit": {
         "minecraft:type_family": {
-          "family": [
-            "villager",
-            "peasant",
-            "nitwit",
-            "mob"
-          ]
+          "family": [ "villager", "peasant", "nitwit", "mob" ]
         },
         "minecraft:variant": {
           "value": 14
@@ -1606,6 +1491,7 @@
             "table": "loot_tables/entities/villager_v2_nitwit.json"
         }
       },
+
       "baby": {
         "minecraft:is_baby": {},
         "minecraft:scale": {
@@ -1629,6 +1515,7 @@
             ]
           }
         },
+
         "minecraft:preferred_path": {
           "max_fall_blocks": 1,
           "jump_cost": 5,
@@ -1994,67 +1881,80 @@
           ]
         }
       },
+
       "villager_skin_0": {
         "minecraft:skin_id": {
           "value": 0
         }
       },
+
       "villager_skin_1": {
         "minecraft:skin_id": {
           "value": 1
         }
       },
+
       "villager_skin_2": {
         "minecraft:skin_id": {
           "value": 2
         }
       },
+
       "villager_skin_3": {
         "minecraft:skin_id": {
           "value": 3
         }
       },
+
       "villager_skin_4": {
         "minecraft:skin_id": {
           "value": 4
         }
       },
+
       "villager_skin_5": {
         "minecraft:skin_id": {
           "value": 5
         }
       },
+
       "desert_villager": {
         "minecraft:mark_variant": {
           "value": 1
         }
       },
+
       "jungle_villager": {
         "minecraft:mark_variant": {
           "value": 2
         }
       },
+
       "savanna_villager": {
         "minecraft:mark_variant": {
           "value": 3
         }
       },
+
       "snow_villager": {
         "minecraft:mark_variant": {
           "value": 4
         }
       },
+
       "swamp_villager": {
         "minecraft:mark_variant": {
           "value": 5
         }
       },
+
       "taiga_villager": {
         "minecraft:mark_variant": {
           "value": 6
         }
       }
     },
+
     "components": {
       "minecraft:equipment": {
         "slot_drop_chance": [
@@ -2064,12 +1964,10 @@
           }
         ]
       },
-      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:is_hidden_when_invisible": {
+      },
       "minecraft:type_family": {
-        "family": [
-          "villager",
-          "mob"
-        ]
+        "family": [ "villager", "mob" ]
       },
       "minecraft:mark_variant": {
         "value": 0 // Villagers have the Plains biome skin by default
@@ -2082,7 +1980,8 @@
         "value": 20,
         "max": 20
       },
-      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:conditional_bandwidth_optimization": {
+      },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
           {
@@ -2097,12 +1996,14 @@
           }
         ]
       },
-      "minecraft:hide": {},
+      "minecraft:hide": {
+      },
       "minecraft:collision_box": {
         "width": 0.6,
         "height": 1.9
       },
-      "minecraft:nameable": {},
+      "minecraft:nameable": {
+      },
       "minecraft:movement": {
         "value": 0.5
       },
@@ -2115,10 +2016,14 @@
       "minecraft:follow_range": {
         "value": 128
       },
-      "minecraft:annotation.open_door": {},
-      "minecraft:movement.basic": {},
-      "minecraft:jump.static": {},
-      "minecraft:can_climb": {},
+      "minecraft:annotation.open_door": {
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
       "minecraft:inventory": {
         "inventory_size": 8,
         "private": true
@@ -2179,7 +2084,8 @@
           }
         ]
       },
-      "minecraft:persistent": {},
+      "minecraft:persistent": {
+      },
       "minecraft:behavior.float": {
         "priority": 0
       },
@@ -2302,7 +2208,8 @@
         "priority": 11,
         "speed_multiplier": 0.6
       },
-      "minecraft:physics": {},
+      "minecraft:physics": {
+      },
       "minecraft:pushable": {
         "is_pushable": true,
         "is_pushable_by_piston": true
@@ -2326,11 +2233,7 @@
             "randomize": [
               {
                 "weight": 50,
-                "add": {
-                  "component_groups": [
-                    "become_zombie"
-                  ]
-                }
+                "add": { "component_groups": [ "become_zombie" ] }
               },
               {
                 "weight": 50
@@ -2361,51 +2264,27 @@
             "randomize": [
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_0"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_0" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_1"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_1" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_2"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_2" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_3"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_3" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_4"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_4" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_5"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_5" ] }
               }
             ]
           },
@@ -2418,165 +2297,71 @@
             "randomize": [
               {
                 "weight": 5,
-                "add": {
-                  "component_groups": [
-                    "baby",
-                    "child_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "baby", "child_schedule" ] }
               },
               {
                 "weight": 95,
                 "sequence": [
                   {
-                    "add": {
-                      "component_groups": [
-                        "adult",
-                        "make_and_receive_love"
-                      ]
-                    }
+                    "add": { "component_groups": [ "adult", "make_and_receive_love" ] }
                   },
                   {
                     "randomize": [
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "farmer",
-                            "behavior_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "farmer", "behavior_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "fisherman",
-                            "behavior_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "fisherman", "behavior_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "shepherd",
-                            "behavior_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "shepherd", "behavior_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "fletcher",
-                            "behavior_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "fletcher", "behavior_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "librarian",
-                            "behavior_non_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "librarian", "behavior_non_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "cartographer",
-                            "behavior_non_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "cartographer", "behavior_non_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "cleric",
-                            "behavior_non_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "cleric", "behavior_non_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "armorer",
-                            "behavior_non_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "armorer", "behavior_non_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "weaponsmith",
-                            "behavior_non_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "weaponsmith", "behavior_non_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "toolsmith",
-                            "behavior_non_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "toolsmith", "behavior_non_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "butcher",
-                            "behavior_non_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "butcher", "behavior_non_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "leatherworker",
-                            "behavior_non_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "leatherworker", "behavior_non_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "mason",
-                            "behavior_non_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "mason", "behavior_non_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 1,
-                        "add": {
-                          "component_groups": [
-                            "nitwit",
-                            "behavior_peasant",
-                            "jobless_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "nitwit", "behavior_peasant", "jobless_schedule" ] }
                       }
                     ]
                   }
@@ -2597,33 +2382,21 @@
                 }
               ]
             },
-            "add": {
-              "component_groups": [
-                "desert_villager"
-              ]
-            }
+            "add": { "component_groups": [ "desert_villager" ] }
           },
           {
             "filters": {
               "test": "has_biome_tag",
               "value": "jungle"
             },
-            "add": {
-              "component_groups": [
-                "jungle_villager"
-              ]
-            }
+            "add": { "component_groups": [ "jungle_villager" ] }
           },
           {
             "filters": {
               "test": "has_biome_tag",
               "value": "savanna"
             },
-            "add": {
-              "component_groups": [
-                "savanna_villager"
-              ]
-            }
+            "add": { "component_groups": [ "savanna_villager" ] }
           },
           {
             "filters": {
@@ -2647,11 +2420,7 @@
                 }
               ]
             },
-            "add": {
-              "component_groups": [
-                "snow_villager"
-              ]
-            }
+            "add": { "component_groups": [ "snow_villager" ] }
           },
           {
             "filters": {
@@ -2666,11 +2435,7 @@
                 }
               ]
             },
-            "add": {
-              "component_groups": [
-                "swamp_villager"
-              ]
-            }
+            "add": { "component_groups": [ "swamp_villager" ] }
           },
           {
             "filters": {
@@ -2694,14 +2459,11 @@
                 }
               ]
             },
-            "add": {
-              "component_groups": [
-                "taiga_villager"
-              ]
-            }
+            "add": { "component_groups": [ "taiga_villager" ] }
           }
         ]
       },
+
       "minecraft:spawn_from_village": {
         "sequence": [
           {
@@ -2713,43 +2475,21 @@
             "randomize": [
               {
                 "weight": 5,
-                "add": {
-                  "component_groups": [
-                    "baby",
-                    "child_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "baby", "child_schedule" ] }
               },
               {
                 "weight": 95,
-                "add": {
-                  "component_groups": [
-                    "adult",
-                    "make_and_receive_love"
-                  ]
-                },
+                "add": { "component_groups": [ "adult", "make_and_receive_love" ] },
                 "sequence": [
                   {
                     "randomize": [
                       {
                         "weight": 90,
-                        "add": {
-                          "component_groups": [
-                            "unskilled",
-                            "behavior_peasant",
-                            "basic_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "unskilled", "behavior_peasant", "basic_schedule" ] }
                       },
                       {
                         "weight": 10,
-                        "add": {
-                          "component_groups": [
-                            "nitwit",
-                            "behavior_peasant",
-                            "jobless_schedule"
-                          ]
-                        }
+                        "add": { "component_groups": [ "nitwit", "behavior_peasant", "jobless_schedule" ] }
                       }
                     ]
                   }
@@ -2766,51 +2506,27 @@
             "randomize": [
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_0"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_0" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_1"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_1" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_2"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_2" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_3"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_3" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_4"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_4" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_5"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_5" ] }
               }
             ]
           },
@@ -2827,33 +2543,21 @@
                 }
               ]
             },
-            "add": {
-              "component_groups": [
-                "desert_villager"
-              ]
-            }
+            "add": { "component_groups": [ "desert_villager" ] }
           },
           {
             "filters": {
               "test": "has_biome_tag",
               "value": "jungle"
             },
-            "add": {
-              "component_groups": [
-                "jungle_villager"
-              ]
-            }
+            "add": { "component_groups": [ "jungle_villager" ] }
           },
           {
             "filters": {
               "test": "has_biome_tag",
               "value": "savanna"
             },
-            "add": {
-              "component_groups": [
-                "savanna_villager"
-              ]
-            }
+            "add": { "component_groups": [ "savanna_villager" ] }
           },
           {
             "filters": {
@@ -2877,11 +2581,7 @@
                 }
               ]
             },
-            "add": {
-              "component_groups": [
-                "snow_villager"
-              ]
-            }
+            "add": { "component_groups": [ "snow_villager" ] }
           },
           {
             "filters": {
@@ -2896,11 +2596,7 @@
                 }
               ]
             },
-            "add": {
-              "component_groups": [
-                "swamp_villager"
-              ]
-            }
+            "add": { "component_groups": [ "swamp_villager" ] }
           },
           {
             "filters": {
@@ -2924,14 +2620,11 @@
                 }
               ]
             },
-            "add": {
-              "component_groups": [
-                "taiga_villager"
-              ]
-            }
+            "add": { "component_groups": [ "taiga_villager" ] }
           }
         ]
       },
+
       "minecraft:entity_transformed": {
         "sequence": [
           // Transform to baby villager
@@ -2942,12 +2635,7 @@
               "operator": "==",
               "value": "minecraft:is_baby"
             },
-            "add": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "baby", "child_schedule" ] }
           },
           {
             // Transform to adult villager
@@ -2960,12 +2648,7 @@
             "sequence": [
               // Transform to adult villager
               {
-                "add": {
-                  "component_groups": [
-                    "adult",
-                    "make_and_receive_love"
-                  ]
-                }
+                "add": { "component_groups": [ "adult", "make_and_receive_love" ] }
               },
               // Transform to farmer villager
               {
@@ -2974,13 +2657,7 @@
                   "subject": "other",
                   "value": "farmer"
                 },
-                "add": {
-                  "component_groups": [
-                    "farmer",
-                    "behavior_peasant",
-                    "farmer_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "farmer", "behavior_peasant", "farmer_schedule" ] }
               },
               // Transform to fisherman villager
               {
@@ -2989,13 +2666,7 @@
                   "subject": "other",
                   "value": "fisherman"
                 },
-                "add": {
-                  "component_groups": [
-                    "fisherman",
-                    "behavior_peasant",
-                    "fisher_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "fisherman", "behavior_peasant", "fisher_schedule" ] }
               },
               // Transform to shepherd villager
               {
@@ -3004,13 +2675,7 @@
                   "subject": "other",
                   "value": "shepherd"
                 },
-                "add": {
-                  "component_groups": [
-                    "shepherd",
-                    "behavior_peasant",
-                    "work_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "shepherd", "behavior_peasant", "work_schedule" ] }
               },
               // Transform to fletcher villager
               {
@@ -3019,13 +2684,7 @@
                   "subject": "other",
                   "value": "fletcher"
                 },
-                "add": {
-                  "component_groups": [
-                    "fletcher",
-                    "behavior_peasant",
-                    "work_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "fletcher", "behavior_peasant", "work_schedule" ] }
               },
               // Transform to librarian villager
               {
@@ -3034,13 +2693,7 @@
                   "subject": "other",
                   "value": "librarian"
                 },
-                "add": {
-                  "component_groups": [
-                    "librarian",
-                    "behavior_non_peasant",
-                    "librarian_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "librarian", "behavior_non_peasant", "librarian_schedule" ] }
               },
               // Transform to cartographer villager
               {
@@ -3049,13 +2702,7 @@
                   "subject": "other",
                   "value": "cartographer"
                 },
-                "add": {
-                  "component_groups": [
-                    "cartographer",
-                    "behavior_non_peasant",
-                    "work_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "cartographer", "behavior_non_peasant", "work_schedule" ] }
               },
               // Transform to cleric villager
               {
@@ -3064,13 +2711,7 @@
                   "subject": "other",
                   "value": "cleric"
                 },
-                "add": {
-                  "component_groups": [
-                    "cleric",
-                    "behavior_non_peasant",
-                    "work_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "cleric", "behavior_non_peasant", "work_schedule" ] }
               },
               // Transform to armorer villager
               {
@@ -3079,13 +2720,7 @@
                   "subject": "other",
                   "value": "armorer"
                 },
-                "add": {
-                  "component_groups": [
-                    "armorer",
-                    "behavior_non_peasant",
-                    "work_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "armorer", "behavior_non_peasant", "work_schedule" ] }
               },
               // Transform to weaponsmith villager
               {
@@ -3094,13 +2729,7 @@
                   "subject": "other",
                   "value": "weaponsmith"
                 },
-                "add": {
-                  "component_groups": [
-                    "weaponsmith",
-                    "behavior_non_peasant",
-                    "work_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "weaponsmith", "behavior_non_peasant", "work_schedule" ] }
               },
               // Transform to toolsmith villager
               {
@@ -3109,13 +2738,7 @@
                   "subject": "other",
                   "value": "toolsmith"
                 },
-                "add": {
-                  "component_groups": [
-                    "toolsmith",
-                    "behavior_non_peasant",
-                    "work_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "toolsmith", "behavior_non_peasant", "work_schedule" ] }
               },
               // Transform to butcher villager
               {
@@ -3124,13 +2747,7 @@
                   "subject": "other",
                   "value": "butcher"
                 },
-                "add": {
-                  "component_groups": [
-                    "butcher",
-                    "behavior_non_peasant",
-                    "work_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "butcher", "behavior_non_peasant", "work_schedule" ] }
               },
               // Transform to leatherworker villager
               {
@@ -3139,13 +2756,7 @@
                   "subject": "other",
                   "value": "leatherworker"
                 },
-                "add": {
-                  "component_groups": [
-                    "leatherworker",
-                    "behavior_non_peasant",
-                    "work_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "leatherworker", "behavior_non_peasant", "work_schedule" ] }
               },
               // Transform to mason villager
               {
@@ -3154,13 +2765,7 @@
                   "subject": "other",
                   "value": "stone_mason"
                 },
-                "add": {
-                  "component_groups": [
-                    "mason",
-                    "behavior_non_peasant",
-                    "work_schedule"
-                  ]
-                }
+                "add": { "component_groups": [ "mason", "behavior_non_peasant", "work_schedule" ] }
               }
             ]
           },
@@ -3179,11 +2784,7 @@
                   "subject": "other",
                   "value": 0
                 },
-                "add": {
-                  "component_groups": [
-                    "villager_skin_0"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_0" ] }
               },
               {
                 "filters": {
@@ -3191,11 +2792,7 @@
                   "subject": "other",
                   "value": 1
                 },
-                "add": {
-                  "component_groups": [
-                    "villager_skin_1"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_1" ] }
               },
               {
                 "filters": {
@@ -3203,11 +2800,7 @@
                   "subject": "other",
                   "value": 2
                 },
-                "add": {
-                  "component_groups": [
-                    "villager_skin_2"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_2" ] }
               },
               {
                 "filters": {
@@ -3215,11 +2808,7 @@
                   "subject": "other",
                   "value": 3
                 },
-                "add": {
-                  "component_groups": [
-                    "villager_skin_3"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_3" ] }
               },
               {
                 "filters": {
@@ -3227,11 +2816,7 @@
                   "subject": "other",
                   "value": 4
                 },
-                "add": {
-                  "component_groups": [
-                    "villager_skin_4"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_4" ] }
               },
               {
                 "filters": {
@@ -3239,11 +2824,7 @@
                   "subject": "other",
                   "value": 5
                 },
-                "add": {
-                  "component_groups": [
-                    "villager_skin_5"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_5" ] }
               },
               {
                 "filters": {
@@ -3251,11 +2832,7 @@
                   "subject": "other",
                   "value": 1
                 },
-                "add": {
-                  "component_groups": [
-                    "desert_villager"
-                  ]
-                }
+                "add": { "component_groups": [ "desert_villager" ] }
               },
               {
                 "filters": {
@@ -3263,11 +2840,7 @@
                   "subject": "other",
                   "value": 2
                 },
-                "add": {
-                  "component_groups": [
-                    "jungle_villager"
-                  ]
-                }
+                "add": { "component_groups": [ "jungle_villager" ] }
               },
               {
                 "filters": {
@@ -3275,11 +2848,7 @@
                   "subject": "other",
                   "value": 3
                 },
-                "add": {
-                  "component_groups": [
-                    "savanna_villager"
-                  ]
-                }
+                "add": { "component_groups": [ "savanna_villager" ] }
               },
               {
                 "filters": {
@@ -3287,11 +2856,7 @@
                   "subject": "other",
                   "value": 4
                 },
-                "add": {
-                  "component_groups": [
-                    "snow_villager"
-                  ]
-                }
+                "add": { "component_groups": [ "snow_villager" ] }
               },
               {
                 "filters": {
@@ -3299,11 +2864,7 @@
                   "subject": "other",
                   "value": 5
                 },
-                "add": {
-                  "component_groups": [
-                    "swamp_villager"
-                  ]
-                }
+                "add": { "component_groups": [ "swamp_villager" ] }
               },
               {
                 "filters": {
@@ -3311,11 +2872,7 @@
                   "subject": "other",
                   "value": 6
                 },
-                "add": {
-                  "component_groups": [
-                    "taiga_villager"
-                  ]
-                }
+                "add": { "component_groups": [ "taiga_villager" ] }
               }
             ]
           },
@@ -3332,51 +2889,27 @@
                 "randomize": [
                   {
                     "weight": 1,
-                    "add": {
-                      "component_groups": [
-                        "villager_skin_0"
-                      ]
-                    }
+                    "add": { "component_groups": [ "villager_skin_0" ] }
                   },
                   {
                     "weight": 1,
-                    "add": {
-                      "component_groups": [
-                        "villager_skin_1"
-                      ]
-                    }
+                    "add": { "component_groups": [ "villager_skin_1" ] }
                   },
                   {
                     "weight": 1,
-                    "add": {
-                      "component_groups": [
-                        "villager_skin_2"
-                      ]
-                    }
+                    "add": { "component_groups": [ "villager_skin_2" ] }
                   },
                   {
                     "weight": 1,
-                    "add": {
-                      "component_groups": [
-                        "villager_skin_3"
-                      ]
-                    }
+                    "add": { "component_groups": [ "villager_skin_3" ] }
                   },
                   {
                     "weight": 1,
-                    "add": {
-                      "component_groups": [
-                        "villager_skin_4"
-                      ]
-                    }
+                    "add": { "component_groups": [ "villager_skin_4" ] }
                   },
                   {
                     "weight": 1,
-                    "add": {
-                      "component_groups": [
-                        "villager_skin_5"
-                      ]
-                    }
+                    "add": { "component_groups": [ "villager_skin_5" ] }
                   }
                 ]
               },
@@ -3393,33 +2926,21 @@
                     }
                   ]
                 },
-                "add": {
-                  "component_groups": [
-                    "desert_villager"
-                  ]
-                }
+                "add": { "component_groups": [ "desert_villager" ] }
               },
               {
                 "filters": {
                   "test": "has_biome_tag",
                   "value": "jungle"
                 },
-                "add": {
-                  "component_groups": [
-                    "jungle_villager"
-                  ]
-                }
+                "add": { "component_groups": [ "jungle_villager" ] }
               },
               {
                 "filters": {
                   "test": "has_biome_tag",
                   "value": "savanna"
                 },
-                "add": {
-                  "component_groups": [
-                    "savanna_villager"
-                  ]
-                }
+                "add": { "component_groups": [ "savanna_villager" ] }
               },
               {
                 "filters": {
@@ -3443,11 +2964,7 @@
                     }
                   ]
                 },
-                "add": {
-                  "component_groups": [
-                    "snow_villager"
-                  ]
-                }
+                "add": { "component_groups": [ "snow_villager" ] }
               },
               {
                 "filters": {
@@ -3462,11 +2979,7 @@
                     }
                   ]
                 },
-                "add": {
-                  "component_groups": [
-                    "swamp_villager"
-                  ]
-                }
+                "add": { "component_groups": [ "swamp_villager" ] }
               },
               {
                 "filters": {
@@ -3490,16 +3003,13 @@
                     }
                   ]
                 },
-                "add": {
-                  "component_groups": [
-                    "taiga_villager"
-                  ]
-                }
+                "add": { "component_groups": [ "taiga_villager" ] }
               }
             ]
           }
         ]
       },
+
       "minecraft:entity_born": {
         "sequence": [
           {
@@ -3511,95 +3021,53 @@
             "randomize": [
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_0"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_0" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_1"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_1" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_2"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_2" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_3"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_3" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_4"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_4" ] }
               },
               {
                 "weight": 1,
-                "add": {
-                  "component_groups": [
-                    "villager_skin_5"
-                  ]
-                }
+                "add": { "component_groups": [ "villager_skin_5" ] }
               }
             ]
           },
           {
-            "add": {
-              "component_groups": [
-                "baby",
-                "unskilled",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "baby", "unskilled", "child_schedule" ] }
           },
           {
             "filters": {
               "test": "has_biome_tag",
               "value": "desert"
             },
-            "add": {
-              "component_groups": [
-                "desert_villager"
-              ]
-            }
+            "add": { "component_groups": [ "desert_villager" ] }
           },
           {
             "filters": {
               "test": "has_biome_tag",
               "value": "jungle"
             },
-            "add": {
-              "component_groups": [
-                "jungle_villager"
-              ]
-            }
+            "add": { "component_groups": [ "jungle_villager" ] }
           },
           {
             "filters": {
               "test": "has_biome_tag",
               "value": "savanna"
             },
-            "add": {
-              "component_groups": [
-                "savanna_villager"
-              ]
-            }
+            "add": { "component_groups": [ "savanna_villager" ] }
           },
           {
             "filters": {
@@ -3614,11 +3082,7 @@
                 }
               ]
             },
-            "add": {
-              "component_groups": [
-                "snow_villager"
-              ]
-            }
+            "add": { "component_groups": [ "snow_villager" ] }
           },
           {
             "filters": {
@@ -3633,759 +3097,244 @@
                 }
               ]
             },
-            "add": {
-              "component_groups": [
-                "swamp_villager"
-              ]
-            }
+            "add": { "component_groups": [ "swamp_villager" ] }
           },
           {
             "filters": {
               "test": "has_biome_tag",
               "value": "taiga"
             },
-            "add": {
-              "component_groups": [
-                "taiga_villager"
-              ]
-            }
+            "add": { "component_groups": [ "taiga_villager" ] }
           }
         ]
       },
+
       "minecraft:spawn_farmer": {
         "randomize": [
           {
             "weight": 5,
-            "add": {
-              "component_groups": [
-                "farmer",
-                "adult",
-                "make_and_receive_love",
-                "behavior_peasant",
-                "basic_schedule"
-              ]
-            },
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "farmer", "adult", "make_and_receive_love", "behavior_peasant", "basic_schedule" ] },
+            "remove": { "component_groups": [ "baby", "child_schedule" ] }
           },
           {
             "weight": 5,
-            "add": {
-              "component_groups": [
-                "fisherman",
-                "adult",
-                "make_and_receive_love",
-                "behavior_peasant",
-                "basic_schedule"
-              ]
-            },
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "fisherman", "adult", "make_and_receive_love", "behavior_peasant", "basic_schedule" ] },
+            "remove": { "component_groups": [ "baby", "child_schedule" ] }
           },
           {
             "weight": 5,
-            "add": {
-              "component_groups": [
-                "shepherd",
-                "adult",
-                "make_and_receive_love",
-                "behavior_peasant",
-                "basic_schedule"
-              ]
-            },
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "shepherd", "adult", "make_and_receive_love", "behavior_peasant", "basic_schedule" ] },
+            "remove": { "component_groups": [ "baby", "child_schedule" ] }
           },
           {
             "weight": 5,
-            "add": {
-              "component_groups": [
-                "fletcher",
-                "adult",
-                "make_and_receive_love",
-                "behavior_peasant",
-                "basic_schedule"
-              ]
-            },
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "fletcher", "adult", "make_and_receive_love", "behavior_peasant", "basic_schedule" ] },
+            "remove": { "component_groups": [ "baby", "child_schedule" ] }
           },
           {
             "weight": 5,
-            "add": {
-              "component_groups": [
-                "mason",
-                "adult",
-                "make_and_receive_love",
-                "behavior_non_peasant",
-                "work_schedule"
-              ]
-            },
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "mason", "adult", "make_and_receive_love", "behavior_non_peasant", "work_schedule" ] },
+            "remove": { "component_groups": [ "baby", "child_schedule" ] }
           }
         ]
       },
+
       "minecraft:spawn_librarian": {
         "randomize": [
           {
             "weight": 20,
-            "add": {
-              "component_groups": [
-                "librarian",
-                "adult",
-                "make_and_receive_love",
-                "behavior_non_peasant",
-                "basic_schedule"
-              ]
-            },
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "librarian", "adult", "make_and_receive_love", "behavior_non_peasant", "basic_schedule" ] },
+            "remove": { "component_groups": [ "baby", "child_schedule" ] }
           },
           {
             "weight": 20,
-            "add": {
-              "component_groups": [
-                "cartographer",
-                "behavior_non_peasant",
-                "basic_schedule"
-              ]
-            },
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "cartographer", "behavior_non_peasant", "basic_schedule" ] },
+            "remove": { "component_groups": [ "baby", "child_schedule" ] }
           }
         ]
       },
+
       "minecraft:spawn_cleric": {
-        "add": {
-          "component_groups": [
-            "cleric",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "basic_schedule"
-          ]
-        },
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule"
-          ]
-        }
+        "add": { "component_groups": [ "cleric", "adult", "make_and_receive_love", "behavior_non_peasant", "basic_schedule" ] },
+        "remove": { "component_groups": [ "baby", "child_schedule" ] }
       },
+
       "minecraft:spawn_armorer": {
         "randomize": [
           {
             "weight": 6,
-            "add": {
-              "component_groups": [
-                "armorer",
-                "adult",
-                "make_and_receive_love",
-                "behavior_non_peasant",
-                "basic_schedule"
-              ]
-            },
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "armorer", "adult", "make_and_receive_love", "behavior_non_peasant", "basic_schedule" ] },
+            "remove": { "component_groups": [ "baby", "child_schedule" ] }
           },
           {
             "weight": 6,
-            "add": {
-              "component_groups": [
-                "weaponsmith",
-                "adult",
-                "make_and_receive_love",
-                "behavior_non_peasant",
-                "basic_schedule"
-              ]
-            },
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "weaponsmith", "adult", "make_and_receive_love", "behavior_non_peasant", "basic_schedule" ] },
+            "remove": { "component_groups": [ "baby", "child_schedule" ] }
           },
           {
             "weight": 6,
-            "add": {
-              "component_groups": [
-                "toolsmith",
-                "adult",
-                "make_and_receive_love",
-                "behavior_non_peasant",
-                "basic_schedule"
-              ]
-            },
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "toolsmith", "adult", "make_and_receive_love", "behavior_non_peasant", "basic_schedule" ] },
+            "remove": { "component_groups": [ "baby", "child_schedule" ] }
           }
         ]
       },
+
       "minecraft:spawn_butcher": {
         "randomize": [
           {
             "weight": 10,
-            "add": {
-              "component_groups": [
-                "butcher",
-                "adult",
-                "make_and_receive_love",
-                "behavior_non_peasant",
-                "basic_schedule"
-              ]
-            },
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "butcher", "adult", "make_and_receive_love", "behavior_non_peasant", "basic_schedule" ] },
+            "remove": { "component_groups": [ "baby", "child_schedule" ] }
           },
           {
             "weight": 10,
-            "add": {
-              "component_groups": [
-                "leatherworker",
-                "adult",
-                "make_and_receive_love",
-                "behavior_non_peasant",
-                "basic_schedule"
-              ]
-            },
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            }
+            "add": { "component_groups": [ "leatherworker", "adult", "make_and_receive_love", "behavior_non_peasant", "basic_schedule" ] },
+            "remove": { "component_groups": [ "baby", "child_schedule" ] }
           }
         ]
       },
+
       "minecraft:ageable_grow_up": {
         "randomize": [
           {
             "weight": 10,
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            },
-            "add": {
-              "component_groups": [
-                "adult",
-                "make_and_receive_love",
-                "nitwit",
-                "behavior_peasant",
-                "jobless_schedule"
-              ]
-            }
+            "remove": { "component_groups": [ "baby", "child_schedule" ] },
+            "add": { "component_groups": [ "adult", "make_and_receive_love", "nitwit", "behavior_peasant", "jobless_schedule" ] }
           },
           {
             "weight": 90,
-            "remove": {
-              "component_groups": [
-                "baby",
-                "child_schedule"
-              ]
-            },
-            "add": {
-              "component_groups": [
-                "adult",
-                "make_and_receive_love",
-                "unskilled",
-                "behavior_peasant",
-                "basic_schedule"
-              ]
-            }
+            "remove": { "component_groups": [ "baby", "child_schedule" ] },
+            "add": { "component_groups": [ "adult", "make_and_receive_love", "unskilled", "behavior_peasant", "basic_schedule" ] }
           }
         ]
       },
+
       "minecraft:become_unskilled": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "adult",
-            "make_and_receive_love",
-            "unskilled",
-            "behavior_peasant",
-            "basic_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "adult", "make_and_receive_love", "unskilled", "behavior_peasant", "basic_schedule" ] }
       },
+
       "minecraft:become_cleric": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "cleric",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "work_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "cleric", "adult", "make_and_receive_love", "behavior_non_peasant", "work_schedule" ] }
       },
+
       "minecraft:become_farmer": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "farmer",
-            "adult",
-            "make_and_receive_love",
-            "behavior_peasant",
-            "farmer_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "farmer", "adult", "make_and_receive_love", "behavior_peasant", "farmer_schedule" ] }
       },
+
       "minecraft:become_fisherman": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "fisherman",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "fisher_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "fisherman", "adult", "make_and_receive_love", "behavior_non_peasant", "fisher_schedule" ] }
       },
+
       "minecraft:become_fletcher": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "fletcher",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "work_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "fletcher", "adult", "make_and_receive_love", "behavior_non_peasant", "work_schedule" ] }
       },
+
       "minecraft:become_librarian": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "librarian",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "librarian_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "librarian", "adult", "make_and_receive_love", "behavior_non_peasant", "librarian_schedule" ] }
       },
+
       "minecraft:become_cartographer": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "cartographer",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "work_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "cartographer", "adult", "make_and_receive_love", "behavior_non_peasant", "work_schedule" ] }
       },
+
       "minecraft:become_armorer": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "armorer",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "work_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "armorer", "adult", "make_and_receive_love", "behavior_non_peasant", "work_schedule" ] }
       },
+
       "minecraft:become_weaponsmith": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "weaponsmith",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "work_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "weaponsmith", "adult", "make_and_receive_love", "behavior_non_peasant", "work_schedule" ] }
       },
+
       "minecraft:become_toolsmith": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "toolsmith",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "work_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "toolsmith", "adult", "make_and_receive_love", "behavior_non_peasant", "work_schedule" ] }
       },
+
       "minecraft:become_butcher": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "butcher",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "work_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "butcher", "adult", "make_and_receive_love", "behavior_non_peasant", "work_schedule" ] }
       },
+
       "minecraft:become_leatherworker": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "leatherworker",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "work_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "leatherworker", "adult", "make_and_receive_love", "behavior_non_peasant", "work_schedule" ] }
       },
+
       "minecraft:become_sheperd": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "shepherd",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "work_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "shepherd", "adult", "make_and_receive_love", "behavior_non_peasant", "work_schedule" ] }
       },
+
       "minecraft:become_mason": {
-        "remove": {
-          "component_groups": [
-            "baby",
-            "child_schedule",
-            "job_specific_goals",
-            "trade_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "mason",
-            "adult",
-            "make_and_receive_love",
-            "behavior_non_peasant",
-            "work_schedule"
-          ]
-        }
+        "remove": { "component_groups": [ "baby", "child_schedule", "job_specific_goals", "trade_components" ] },
+        "add": { "component_groups": [ "mason", "adult", "make_and_receive_love", "behavior_non_peasant", "work_schedule" ] }
       },
+
       "minecraft:schedule_wander_villager": {
-        "remove": {
-          "component_groups": [
-            "home_schedule_villager",
-            "bed_schedule_villager",
-            "wander_schedule_villager",
-            "job_specific_goals",
-            "play_schedule_villager",
-            "trade_resupply_component_group"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "make_and_receive_love",
-            "wander_schedule_villager"
-          ]
-        }
+        "remove": { "component_groups": [ "home_schedule_villager", "bed_schedule_villager", "wander_schedule_villager", "job_specific_goals", "play_schedule_villager", "trade_resupply_component_group" ] },
+        "add": { "component_groups": [ "make_and_receive_love", "wander_schedule_villager" ] }
       },
+
       "minecraft:schedule_gather_villager": {
-        "remove": {
-          "component_groups": [
-            "bed_schedule_villager",
-            "wander_schedule_villager",
-            "home_schedule_villager",
-            "job_specific_goals",
-            "play_schedule_villager",
-            "trade_resupply_component_group"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "make_and_receive_love",
-            "gather_schedule_villager"
-          ]
-        }
+        "remove": { "component_groups": [ "bed_schedule_villager", "wander_schedule_villager", "home_schedule_villager", "job_specific_goals", "play_schedule_villager", "trade_resupply_component_group" ] },
+        "add": { "component_groups": [ "make_and_receive_love", "gather_schedule_villager" ] }
       },
+
       "minecraft:schedule_home_villager": {
-        "remove": {
-          "component_groups": [
-            "bed_schedule_villager",
-            "wander_schedule_villager",
-            "gather_schedule_villager",
-            "job_specific_goals",
-            "play_schedule_villager",
-            "trade_resupply_component_group"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "make_and_receive_love",
-            "home_schedule_villager"
-          ]
-        }
+        "remove": { "component_groups": [ "bed_schedule_villager", "wander_schedule_villager", "gather_schedule_villager", "job_specific_goals", "play_schedule_villager", "trade_resupply_component_group" ] },
+        "add": { "component_groups": [ "make_and_receive_love", "home_schedule_villager" ] }
       },
+
       "minecraft:schedule_bed_villager": {
-        "remove": {
-          "component_groups": [
-            "make_and_receive_love",
-            "home_schedule_villager",
-            "gather_schedule_villager",
-            "wander_schedule_villager",
-            "job_specific_goals",
-            "play_schedule_villager",
-            "trade_resupply_component_group"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "bed_schedule_villager"
-          ]
-        }
+        "remove": { "component_groups": [ "make_and_receive_love", "home_schedule_villager", "gather_schedule_villager", "wander_schedule_villager", "job_specific_goals", "play_schedule_villager", "trade_resupply_component_group" ] },
+        "add": { "component_groups": [ "bed_schedule_villager" ] }
       },
+
       "minecraft:schedule_play_villager": {
-        "remove": {
-          "component_groups": [
-            "home_schedule_villager",
-            "gather_schedule_villager",
-            "wander_schedule_villager",
-            "bed_schedule_villager",
-            "job_specific_goals",
-            "trade_resupply_component_group"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "play_schedule_villager"
-          ]
-        }
+        "remove": { "component_groups": [ "home_schedule_villager", "gather_schedule_villager", "wander_schedule_villager", "bed_schedule_villager", "job_specific_goals", "trade_resupply_component_group" ] },
+        "add": { "component_groups": [ "play_schedule_villager" ] }
       },
+
       "minecraft:schedule_work_pro_villager": {
-        "remove": {
-          "component_groups": [
-            "home_schedule_villager",
-            "gather_schedule_villager",
-            "wander_schedule_villager",
-            "bed_schedule_villager",
-            "play_schedule_villager"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "make_and_receive_love",
-            "work_schedule_villager"
-          ]
-        }
+        "remove": { "component_groups": [ "home_schedule_villager", "gather_schedule_villager", "wander_schedule_villager", "bed_schedule_villager", "play_schedule_villager" ] },
+        "add": { "component_groups": [ "make_and_receive_love", "work_schedule_villager" ] }
       },
+
       "minecraft:schedule_work_farmer": {
-        "remove": {
-          "component_groups": [
-            "home_schedule_villager",
-            "gather_schedule_villager",
-            "wander_schedule_villager",
-            "bed_schedule_villager",
-            "job_specific_goals",
-            "play_schedule_villager"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "make_and_receive_love",
-            "work_schedule_farmer"
-          ]
-        }
+        "remove": { "component_groups": [ "home_schedule_villager", "gather_schedule_villager", "wander_schedule_villager", "bed_schedule_villager", "job_specific_goals", "play_schedule_villager" ] },
+        "add": { "component_groups": [ "make_and_receive_love", "work_schedule_farmer" ] }
       },
+
       "minecraft:schedule_work_fisher": {
-        "remove": {
-          "component_groups": [
-            "home_schedule_villager",
-            "gather_schedule_villager",
-            "wander_schedule_villager",
-            "bed_schedule_villager",
-            "job_specific_goals",
-            "play_schedule_villager"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "make_and_receive_love",
-            "work_schedule_fisher"
-          ]
-        }
+        "remove": { "component_groups": [ "home_schedule_villager", "gather_schedule_villager", "wander_schedule_villager", "bed_schedule_villager", "job_specific_goals", "play_schedule_villager" ] },
+        "add": { "component_groups": [ "make_and_receive_love", "work_schedule_fisher" ] }
       },
+
       "minecraft:schedule_work_librarian": {
-        "remove": {
-          "component_groups": [
-            "home_schedule_villager",
-            "gather_schedule_villager",
-            "wander_schedule_villager",
-            "bed_schedule_villager",
-            "job_specific_goals",
-            "play_schedule_villager"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "make_and_receive_love",
-            "work_schedule_librarian"
-          ]
-        }
+        "remove": { "component_groups": [ "home_schedule_villager", "gather_schedule_villager", "wander_schedule_villager", "bed_schedule_villager", "job_specific_goals", "play_schedule_villager" ] },
+        "add": { "component_groups": [ "make_and_receive_love", "work_schedule_librarian" ] }
       },
+
       "minecraft:resupply_trades": {
-        "add": {
-          "component_groups": [
-            "trade_resupply_component_group"
-          ]
-        }
+        "add": { "component_groups": [ "trade_resupply_component_group" ] }
       },
+
       "minecraft:start_celebrating": { // Event must be called exactly this for village to fire it when a raid is won
-        "add": {
-          "component_groups": [
-            "minecraft:celebrate"
-          ]
-        }
+        "add": { "component_groups": [ "minecraft:celebrate" ] }
       },
+
       "minecraft:stop_celebrating": {
-        "remove": {
-          "component_groups": [
-            "minecraft:celebrate"
-          ]
+        "remove": { "component_groups": [ "minecraft:celebrate" ] }
         }
       }
     }
   }
-}

@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.0",
+  "format_version": "1.21.130",
   "minecraft:entity": {
     "description": {
       "identifier": "minecraft:skeleton",
@@ -7,6 +7,7 @@
       "is_spawnable": true,
       "is_summonable": true
     },
+
     "component_groups": {
       "in_powder_snow": {
         "minecraft:is_shaking": {},
@@ -23,7 +24,7 @@
               "filters": {
                 "test": "in_block",
                 "subject": "self",
-                "operator": "!=",
+                "operator": "not",
                 "value": "minecraft:powder_snow"
               },
               "event": "got_out_of_powder_snow"
@@ -36,18 +37,13 @@
           "triggers": [
             {
               "filters": {
-                "test": "is_underwater",
-                "subject": "self",
-                "operator": "==",
-                "value": true
+                "test": "is_underwater"
               },
               "event": "minecraft:melee_mode"
             },
             {
               "filters": {
                 "test": "has_ranged_weapon",
-                "subject": "self",
-                "operator": "==",
                 "value": false
               },
               "event": "minecraft:melee_mode"
@@ -57,15 +53,10 @@
                 "all_of": [
                   {
                     "test": "in_water",
-                    "subject": "self",
-                    "operator": "==",
                     "value": false
                   },
                   {
-                    "test": "has_ranged_weapon",
-                    "subject": "self",
-                    "operator": "==",
-                    "value": true
+                    "test": "has_ranged_weapon"
                   }
                 ]
               },
@@ -78,14 +69,14 @@
         "minecraft:damage_sensor": {
           "triggers": {
             "on_damage": { "filters": { "other_with_families": "lightning" } },
-            "deals_damage": false
+            "deals_damage": "no"
           }
         }
       },
       "become_stray": {
         "minecraft:transformation": {
           "into": "minecraft:stray",
-          "transformation_sound" : "convert_to_stray",
+          "transformation_sound": "convert_to_stray",
           "keep_level": true,
           "drop_inventory": true,
           "preserve_equipment": true
@@ -106,18 +97,13 @@
           "triggers": [
             {
               "filters": {
-                "test": "is_underwater",
-                "subject": "self",
-                "operator": "==",
-                "value": true
+                "test": "is_underwater"
               },
               "event": "minecraft:melee_mode"
             },
             {
               "filters": {
                 "test": "has_ranged_weapon",
-                "subject": "self",
-                "operator": "==",
                 "value": false
               },
               "event": "minecraft:melee_mode"
@@ -126,7 +112,6 @@
               "filters": {
                 "test": "in_block",
                 "subject": "self",
-                "operator": "==",
                 "value": "minecraft:powder_snow"
               },
               "event": "got_in_powder_snow"
@@ -150,15 +135,10 @@
                 "all_of": [
                   {
                     "test": "in_water",
-                    "subject": "self",
-                    "operator": "==",
                     "value": false
                   },
                   {
-                    "test": "has_ranged_weapon",
-                    "subject": "self",
-                    "operator": "==",
-                    "value": true
+                    "test": "has_ranged_weapon"
                   }
                 ]
               },
@@ -167,8 +147,6 @@
             {
               "filters": {
                 "test": "in_block",
-                "subject": "self",
-                "operator": "==",
                 "value": "minecraft:powder_snow"
               },
               "event": "got_in_powder_snow"
@@ -203,10 +181,8 @@
         "suffocate_time": 0,
         "breathes_water": true
       },
-
       "minecraft:burns_in_daylight": {
       },
-
       "minecraft:health": {
         "value": 20,
         "max": 20
@@ -214,7 +190,9 @@
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
           {
-            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "filters": {
+              "test": "in_lava"
+            },
             "cause": "lava",
             "damage_per_tick": 4
           }
@@ -245,22 +223,19 @@
       "minecraft:shooter": {
         "def": "minecraft:arrow"
       },
+      "minecraft:rotation_locked_to_vehicle": {
+      },
       "minecraft:environment_sensor": {
         "triggers": [
           {
             "filters": {
-              "test": "is_underwater",
-              "subject": "self",
-              "operator": "==",
-              "value": true
+              "test": "is_underwater"
             },
             "event": "minecraft:melee_mode"
           },
           {
             "filters": {
               "test": "has_ranged_weapon",
-              "subject": "self",
-              "operator": "==",
               "value": false
             },
             "event": "minecraft:melee_mode"
@@ -269,7 +244,6 @@
             "filters": {
               "test": "in_block",
               "subject": "self",
-              "operator": "==",
               "value": "minecraft:powder_snow"
             },
             "event": "got_in_powder_snow"
@@ -301,28 +275,34 @@
             "priority": 2
           },
           {
-            "item": "minecraft:stone_sword",
+            "item": "minecraft:golden_sword",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 3
           },
           {
-            "item": "minecraft:golden_sword",
+            "item": "minecraft:copper_sword",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 4
           },
           {
-            "item": "minecraft:wooden_sword",
+            "item": "minecraft:stone_sword",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 5
           },
           {
-            "item": "minecraft:bow",
+            "item": "minecraft:wooden_sword",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 6
+          },
+          {
+            "item": "minecraft:bow",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 7
           },
           {
             "item": "minecraft:netherite_helmet",
@@ -355,34 +335,40 @@
             "priority": 4
           },
           {
-            "item": "minecraft:leather_helmet",
+            "item": "minecraft:copper_helmet",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 5
           },
           {
-            "item": "minecraft:turtle_helmet",
+            "item": "minecraft:leather_helmet",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 6
           },
           {
-            "item": "minecraft:skull:0",
+            "item": "minecraft:turtle_helmet",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 7
+          },
+          {
+            "item": "minecraft:skull:0",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 8
           },
           {
             "item": "minecraft:skull:1",
             "want_amount": 1,
             "surplus_amount": 1,
-            "priority": 7
+            "priority": 8
           },
           {
             "item": "minecraft:carved_pumpkin",
             "want_amount": 1,
             "surplus_amount": 1,
-            "priority": 7
+            "priority": 8
           },
           {
             "item": "minecraft:netherite_chestplate",
@@ -415,10 +401,16 @@
             "priority": 4
           },
           {
-            "item": "minecraft:leather_chestplate",
+            "item": "minecraft:copper_chestplate",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 5
+          },
+          {
+            "item": "minecraft:leather_chestplate",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 6
           },
           {
             "item": "minecraft:netherite_leggings",
@@ -451,10 +443,16 @@
             "priority": 4
           },
           {
-            "item": "minecraft:leather_leggings",
+            "item": "minecraft:copper_leggings",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 5
+          },
+          {
+            "item": "minecraft:leather_leggings",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 6
           },
           {
             "item": "minecraft:netherite_boots",
@@ -487,10 +485,16 @@
             "priority": 4
           },
           {
-            "item": "minecraft:leather_boots",
+            "item": "minecraft:copper_boots",
             "want_amount": 1,
             "surplus_amount": 1,
             "priority": 5
+          },
+          {
+            "item": "minecraft:leather_boots",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 6
           }
         ]
       },
@@ -507,7 +511,7 @@
             "filters": {
               "test": "is_family",
               "subject": "other",
-              "operator": "!=",
+              "operator": "not",
               "value": "breeze"
             }
           }
@@ -545,8 +549,7 @@
                 {
                   "test": "in_water",
                   "subject": "other",
-                  "operator": "!=",
-                  "value": true
+                  "value": false
                 }
               ]
             },
@@ -576,23 +579,14 @@
           }
         ]
       },
+      // Disabled on FoF
       // "minecraft:behavior.pickup_items": {
       //   "priority": 5,
       //   "max_dist": 3,
       //   "goal_radius": 2,
       //   "speed_multiplier": 1.0,
       //   "pickup_based_on_chance": true,
-      //   "can_pickup_any_item": true,
-      //   "excluded_items": [
-      //     "minecraft:glow_ink_sac",
-      //     "minecraft:rotten_flesh",
-      //     "minecraft:lead",
-      //     "minecraft:bone",
-      //     "minecraft:arrow",
-      //     "minecraft:slime_ball",
-      //     "minecraft:string",
-      //     "minecraft:string"
-      //   ]
+      //   "can_pickup_any_item": true
       // },
       "minecraft:behavior.random_stroll": {
         "priority": 6,

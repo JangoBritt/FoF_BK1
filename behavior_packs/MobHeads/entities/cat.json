@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.40",
+  "format_version": "1.21.90",
   "minecraft:entity": {
     "description": {
       "identifier": "minecraft:cat",
@@ -7,18 +7,17 @@
       "is_spawnable": true,
       "is_summonable": true
     },
+
     "component_groups": {
       "minecraft:cat_baby": {
-        "minecraft:is_baby": {},
+        "minecraft:is_baby": {
+        },
         "minecraft:scale": {
           "value": 0.4
         },
         "minecraft:ageable": {
           "duration": 1200,
-          "feed_items": [
-            "fish",
-            "salmon"
-          ],
+          "feed_items": [ "fish", "salmon" ],
           "grow_up": {
             "event": "minecraft:ageable_grow_up",
             "target": "self"
@@ -36,6 +35,8 @@
         "minecraft:scale": {
           "value": 0.8
         },
+        "minecraft:leashable_to": {
+        },
         "minecraft:breedable": {
           "require_tame": true,
           "require_full_health": true,
@@ -49,10 +50,7 @@
               "target": "baby"
             }
           },
-          "breed_items": [
-            "fish",
-            "salmon"
-          ]
+          "breed_items": [ "fish", "salmon" ]
         },
         "minecraft:behavior.breed": {
           "priority": 3,
@@ -66,10 +64,7 @@
         },
         "minecraft:tameable": {
           "probability": 0.33,
-          "tame_items": [
-            "fish",
-            "salmon"
-          ],
+          "tame_items": [ "fish", "salmon" ],
           "tame_event": {
             "event": "minecraft:on_tame",
             "target": "self"
@@ -78,14 +73,13 @@
         "minecraft:rideable": {
           "seat_count": 1,
           "family_types": [
-            "zombie"
+            "baby_zombie",
+            "baby_husk"
           ],
           "seats": {
-            "position": [
-              0.0,
-              0.35,
-              0.0
-            ]
+            // This value results in zombies floating when riding baby cats,
+            // but switching to a different setup would break pre-existing mobs.
+            "position": [ 0.0, 0.35, 0.0 ]
           }
         },
         "minecraft:behavior.nearest_attackable_target": {
@@ -95,25 +89,15 @@
           "entity_types": [
             {
               "filters": {
-                "test": "is_family",
-                "subject": "other",
-                "value": "rabbit"
+                "test": "is_family", "subject": "other", "value": "rabbit"
               },
               "max_dist": 8
             },
             {
               "filters": {
                 "all_of": [
-                  {
-                    "test": "is_family",
-                    "subject": "other",
-                    "value": "baby_turtle"
-                  },
-                  {
-                    "test": "in_water",
-                    "subject": "other",
-                    "operator": "!=",
-                    "value": true
+                  { "test": "is_family", "subject": "other", "value": "baby_turtle" },
+                  { "test": "in_water", "subject": "other", "operator": "!=", "value": true
                   }
                 ]
               },
@@ -127,10 +111,7 @@
           "within_radius": 16,
           "can_get_scared": true,
           "tempt_sound": "tempt",
-          "sound_interval": [
-            0,
-            100
-          ],
+          "sound_interval": [0, 100],
           "items": [
             "fish",
             "salmon"
@@ -156,7 +137,8 @@
         }
       },
       "minecraft:cat_tame": {
-        "minecraft:is_tamed": {},
+        "minecraft:is_tamed": {
+        },
         "minecraft:health": {
           "value": 20,
           "max": 20
@@ -164,7 +146,8 @@
         "minecraft:color": {
           "value": 14
         },
-        "minecraft:sittable": {},
+        "minecraft:sittable": {
+        },
         "minecraft:is_dyeable": {
           "interact_text": "action.interact.dye"
         },
@@ -176,14 +159,8 @@
           "priority": 0,
           "filters": {
             "all_of": [
-              {
-                "test": "owner_distance",
-                "operator": ">",
-                "value": 12
-              },
-              {
-                "test": "is_panicking"
-              }
+              { "test": "owner_distance", "operator": ">", "value": 12 },
+              { "test": "is_panicking" }
             ]
           }
         },
@@ -226,20 +203,9 @@
           "offering_distance": 5.0,
           "minimum_teleport_distance": 2.0,
           "max_head_look_at_height": 10.0,
-          "target_range": [
-            5.0,
-            5.0,
-            5.0
-          ],
-          "teleport_offset": [
-            0.0,
-            1.0,
-            0.0
-          ],
-          "time_of_day_range": [
-            0.74999,
-            0.80
-          ],
+          "target_range": [ 5.0, 5.0, 5.0 ],
+          "teleport_offset": [ 0.0, 1.0, 0.0],
+          "time_of_day_range": [ 0.74999, 0.80 ],
           "speed_multiplier": 1.0,
           "search_range": 5,
           "search_height": 2,
@@ -247,11 +213,7 @@
           "goal_radius": 1.0,
           "entity_types": [
             {
-              "filters": {
-                "test": "is_family",
-                "subject": "other",
-                "value": "player"
-              },
+              "filters": { "test": "is_family", "subject": "other", "value": "player" },
               "max_dist": 6
             }
           ],
@@ -351,25 +313,22 @@
         }
       }
     },
+
     "components": {
       "minecraft:leashable": {
-        "soft_distance": 4.0,
-        "hard_distance": 6.0,
-        "max_distance": 10.0
       },
       "minecraft:balloonable": {
         "mass": 0.6
       },
-      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:is_hidden_when_invisible": {
+      },
       "minecraft:attack_damage": {
         "value": 4
       },
-      "minecraft:nameable": {},
+      "minecraft:nameable": {
+      },
       "minecraft:type_family": {
-        "family": [
-          "cat",
-          "mob"
-        ]
+        "family": [ "cat", "mob" ]
       },
       "minecraft:breathable": {
         "total_supply": 15,
@@ -394,12 +353,7 @@
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
           {
-            "filters": {
-              "test": "in_lava",
-              "subject": "self",
-              "operator": "==",
-              "value": true
-            },
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
             "cause": "lava",
             "damage_per_tick": 4
           }
@@ -413,9 +367,12 @@
         "avoid_water": true,
         "avoid_damage_blocks": true
       },
-      "minecraft:movement.basic": {},
-      "minecraft:jump.static": {},
-      "minecraft:can_climb": {},
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
       "minecraft:damage_sensor": {
         "triggers": {
           "cause": "fall",
@@ -434,12 +391,14 @@
       "minecraft:despawn": {
         "despawn_from_distance": {}
       },
-      "minecraft:physics": {},
+      "minecraft:physics": {
+      },
       "minecraft:pushable": {
         "is_pushable": true,
         "is_pushable_by_piston": true
       },
-      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:conditional_bandwidth_optimization": {
+      },
       "minecraft:behavior.float": {
         "priority": 0
       },
@@ -478,6 +437,7 @@
         "priority": 9
       }
     },
+
     "events": {
       "minecraft:entity_spawned": {
         "sequence": [
@@ -485,7 +445,8 @@
             "randomize": [
               {
                 "weight": 3,
-                "remove": {},
+                "remove": {
+                },
                 "add": {
                   "component_groups": [
                     "minecraft:cat_adult",
@@ -495,7 +456,8 @@
               },
               {
                 "weight": 1,
-                "remove": {},
+                "remove": {
+                },
                 "add": {
                   "component_groups": [
                     "minecraft:cat_baby",
@@ -715,9 +677,7 @@
         "sequence": [
           {
             "filters": {
-              "test": "has_component",
-              "operator": "!=",
-              "value": "minecraft:is_baby"
+              "test": "has_component", "operator": "!=", "value": "minecraft:is_baby"
             },
             "trigger": "minecraft:spawn_tame_baby"
           }
